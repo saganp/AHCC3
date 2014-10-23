@@ -1,0 +1,824 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.4927</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-7071a9e4-add1-48ca-83a0-712a931600cf</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-7071a9e4-add1-48ca-83a0-712a931600cf</UniqueID>
+    <ExternalParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ExternalParentID>
+    <Name>End-User Account Mgmt</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</UniqueID>
+    <UserID>UC-37-1</UserID>
+    <ParentID>P-7071a9e4-add1-48ca-83a0-712a931600cf</ParentID>
+    <Name>Reset Password</Name>
+    <Description>End-user resets forgotten password from the Login page</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 End-user resets forgotten password from the Login page\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-07-29T12:43:10.7860398-04:00</DateAdded>
+    <DateModified>2013-09-12T05:50:27.2236328-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</UniqueID>
+    <UserID>UC-37-2</UserID>
+    <ParentID>P-7071a9e4-add1-48ca-83a0-712a931600cf</ParentID>
+    <Name>Change Password</Name>
+    <Description>Logged-in user changes password</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Logged-in user changes password\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-07-29T12:46:39.9686362-04:00</DateAdded>
+    <DateModified>2013-09-12T05:54:01.8007812-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</UniqueID>
+    <UserID>UC-37-3</UserID>
+    <ParentID>P-7071a9e4-add1-48ca-83a0-712a931600cf</ParentID>
+    <Name>Change PIN</Name>
+    <Description>Users with clinician accounts should be able to change their PINs (access to page - from the dropdown in top right corner, close to "Change password")</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Users with \cf1 clinician\cf2  accounts should be able to change their PINs (access to page - from the dropdown in top right corner, close to "Change password")\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>User has a clinician account and a PIN</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-07-29T12:49:11.2473548-04:00</DateAdded>
+    <DateModified>2013-09-12T06:08:08.4570312-04:00</DateModified>
+  </UseCase>
+  <UCActor>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+    <ActorID>A-c4958cbf-4203-4aa7-bf64-7cb60364f478</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+    <ActorID>A-03e69f7f-7a74-4f47-a8b1-65eb32356dac</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+    <ActorID>A-64cb1c11-8a8f-4a9a-80a7-00965bc281be</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+    <ActorID>A-765569bf-973e-4242-8bcd-7a2c3e47eedd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+    <ActorID>A-64cb1c11-8a8f-4a9a-80a7-00965bc281be</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+    <ActorID>A-03e69f7f-7a74-4f47-a8b1-65eb32356dac</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+    <ActorID>A-c4958cbf-4203-4aa7-bf64-7cb60364f478</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+    <ActorID>A-765569bf-973e-4242-8bcd-7a2c3e47eedd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</ParentID>
+    <ActorID>A-03e69f7f-7a74-4f47-a8b1-65eb32356dac</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</ParentID>
+    <ActorID>A-c4958cbf-4203-4aa7-bf64-7cb60364f478</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-1402d620-be9e-467d-bf3a-f30b12c4cf77</UniqueID>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-53514a9e-3653-45a3-a71a-20286e6bf0dd</UniqueID>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-9667bdef-6f03-4b91-bc71-4a1d2427e8ac</UniqueID>
+    <ParentID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-f2d2ff05-daaa-4db7-9687-15467015809a</UniqueID>
+    <UserID>REQ-37-1</UserID>
+    <ParentID>P-7071a9e4-add1-48ca-83a0-712a931600cf</ParentID>
+    <Name>Take out self-registration</Name>
+    <Description>Users should not be able to perform self-registration. Only admins should be able to create user accounts.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Users should not be able to perform self-registration. Only \cf2\ul admins\cf1\ulnone  should be able to create user accounts.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-07-29T12:53:26.9211563-04:00</DateAdded>
+    <DateModified>2014-06-25T12:47:37.3708872-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-ba35c6eb-74ee-450c-9336-f44b90e13f0d</UniqueID>
+    <ParentID>MSS-1402d620-be9e-467d-bf3a-f30b12c4cf77</ParentID>
+    <Description>User clicks "I forgot my password".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clicks "I forgot my password".\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4fcf4365-4c39-4a5b-ada6-20c64d784046</UniqueID>
+    <ParentID>MSS-1402d620-be9e-467d-bf3a-f30b12c4cf77</ParentID>
+    <Description>The system prompts user to enter login or email</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to enter login or email\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8db73a7d-6c7a-41aa-ad8e-84227ede8848</UniqueID>
+    <ParentID>MSS-1402d620-be9e-467d-bf3a-f30b12c4cf77</ParentID>
+    <Description>User enters login or email and initiates password reset.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enters login or email and initiates password reset.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-aba3a78c-180c-44f2-be3a-29a043e5e67b</UniqueID>
+    <ParentID>MSS-1402d620-be9e-467d-bf3a-f30b12c4cf77</ParentID>
+    <Description>The system resets password to random and emails it to the user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system resets password to random and emails it to the user.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-472e9121-52a7-440d-a891-3ffa38f2b9bf</UniqueID>
+    <ParentID>MSS-1402d620-be9e-467d-bf3a-f30b12c4cf77</ParentID>
+    <Description>The system verifies login/email (if not found, show error message to the user, do not proceed with basic scenario)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system verifies login/email (if not found, show error message to the user, do not proceed with basic scenario)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-46c70c97-9c20-4e07-9532-376d46431b9c</UniqueID>
+    <ParentID>MSS-53514a9e-3653-45a3-a71a-20286e6bf0dd</ParentID>
+    <Description>User initiates password change.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User initiates password change.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9ba36001-a5b9-432a-aa28-aad3d0292514</UniqueID>
+    <ParentID>MSS-53514a9e-3653-45a3-a71a-20286e6bf0dd</ParentID>
+    <Description>The system prompts user to enter:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to enter:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-010693b7-d040-4251-8088-d0bc963d9778</UniqueID>
+    <ParentID>ST-9ba36001-a5b9-432a-aa28-aad3d0292514</ParentID>
+    <Description>Current password</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Current password\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8f914bd6-1f5c-4735-818c-b0fe7f11d501</UniqueID>
+    <ParentID>ST-9ba36001-a5b9-432a-aa28-aad3d0292514</ParentID>
+    <Description>New password</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 New password\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c6892a0a-69af-4012-a667-df218cfa3c98</UniqueID>
+    <ParentID>ST-9ba36001-a5b9-432a-aa28-aad3d0292514</ParentID>
+    <Description>Repeat new password</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Repeat new password\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4a9de6b5-fb06-43e7-a620-01f1571f5da7</UniqueID>
+    <ParentID>MSS-53514a9e-3653-45a3-a71a-20286e6bf0dd</ParentID>
+    <Description>User enters required information and confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enters required information and confirms.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a4439e7-97b7-46d3-ba4e-fb5cdbc54f30</UniqueID>
+    <ParentID>MSS-53514a9e-3653-45a3-a71a-20286e6bf0dd</ParentID>
+    <Description>The system updates user's password and displays success message to the user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system updates user's password and displays success message to the user.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f2090333-6eb0-4d3b-a9b7-e28f3c20af6c</UniqueID>
+    <ParentID>MSS-53514a9e-3653-45a3-a71a-20286e6bf0dd</ParentID>
+    <Description>The system sends email notification to the user informing about password change (do not include password into the message)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system sends email notification to the user informing about password change (do not include password into the message)\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e98b8e51-7cd9-45a8-8ea3-0b5d663861f6</UniqueID>
+    <ParentID>MSS-9667bdef-6f03-4b91-bc71-4a1d2427e8ac</ParentID>
+    <Description>User initiates PIN change.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User initiates PIN change.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-791a25e6-3c7e-43b7-bcc3-6fce29140cb6</UniqueID>
+    <ParentID>MSS-9667bdef-6f03-4b91-bc71-4a1d2427e8ac</ParentID>
+    <Description>The system prompts user to enter:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to enter:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-717763cc-e760-4c16-8b06-20a1e1a98020</UniqueID>
+    <ParentID>ST-791a25e6-3c7e-43b7-bcc3-6fce29140cb6</ParentID>
+    <Description>Current password</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Current password\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6833695f-45f7-46eb-903f-a3872a2829c3</UniqueID>
+    <ParentID>ST-791a25e6-3c7e-43b7-bcc3-6fce29140cb6</ParentID>
+    <Description>New PIN (mask input)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 New PIN (mask input)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0257e09a-6654-4df3-a025-823dd4590e35</UniqueID>
+    <ParentID>ST-791a25e6-3c7e-43b7-bcc3-6fce29140cb6</ParentID>
+    <Description>Repeat new PIN (mask input)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Repeat new PIN (mask input)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-704fe02f-7544-4a91-8afa-4fb33538202b</UniqueID>
+    <ParentID>MSS-9667bdef-6f03-4b91-bc71-4a1d2427e8ac</ParentID>
+    <Description>User enters required information and confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enters required information and confirms.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dbf1ad47-f80f-4cd9-8080-2718fb7c0e74</UniqueID>
+    <ParentID>MSS-9667bdef-6f03-4b91-bc71-4a1d2427e8ac</ParentID>
+    <Description>The system updates user's PIN and displays success message to the user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system updates user's PIN and displays success message to the user.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c810d5a4-30a8-49c8-8bf8-6c2763d9ba9f</UniqueID>
+    <ParentID>MSS-9667bdef-6f03-4b91-bc71-4a1d2427e8ac</ParentID>
+    <Description>The system sends email notification to the user informing about PIN change (do not include new PIN into the message)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system sends email notification to the user informing about PIN change (do not include new PIN into the message)\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <UserID>
+    <DefaultPrefix>UC-37-</DefaultPrefix>
+    <NextValue>4</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-37-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-37-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-37-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <TestScenario>
+    <UniqueID>TS-ce4468c9-4790-44ec-9ac3-14c1fd48c4b9</UniqueID>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+    <Description>Verify that "I forgot my password" link exists at the bottom of  "Login" page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that "I forgot my password" link exists at the bottom of  "Login" page.\par
+}
+</RichDescription>
+    <Name>"I forgot my password" link. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-0ceccfff-ae59-4443-807c-134acc71f253</UniqueID>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+    <Description>Verify if user clicks "I forgot my password" link "Forgot my password" page opens and contains "Enter your username or email address to reset your password. A new password will be emailed to you." text, "Username/Email Address" field and "Reset" button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user clicks "I forgot my password" link "Forgot my password" page opens and contains "Enter your username or email address to reset your password. A new password will be emailed to you." text, "Username/Email Address" field and "Reset" button.\par
+}
+</RichDescription>
+    <Name>Forfot my password page. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-7e789ace-0699-4488-8a98-e780ba65f1b8</UniqueID>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+    <Description>Verify if user types incorrect login into "Username/Email Address" field and presses "Reset" button, the system shows "TBD" error message.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user types incorrect login into "Username/Email Address" field and presses "Reset" button, the system shows "TBD" error message.\par
+}
+</RichDescription>
+    <Name>Reset with incorrect login.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-6541e03b-107d-498d-9807-a1a047ac7dd2</UniqueID>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+    <Description>Verify if user types incorrect email into "Username/Email Address" field and presses "Reset" button, the system shows "TBD" error message.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user types incorrect email into "Username/Email Address" field and presses "Reset" button, the system shows "TBD" error message.\par
+}
+</RichDescription>
+    <Name>Reset with incorrect email address.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2628fbf3-e917-4d6c-8da0-ca56fccea301</UniqueID>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+    <Description>Verify if user types correct login into "Username/Email Address" field and presses "Reset" button, "TBD" message displays and the system resets password to random and emails it to user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user types correct login into "Username/Email Address" field and presses "Reset" button, "TBD" message displays and the system resets password to random and emails it to user.\par
+}
+</RichDescription>
+    <Name>Reset with correct login.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-ced1d9ae-d06f-4798-9726-774afd95b2b3</UniqueID>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+    <Description>Verify if user types correct email into "Username/Email Address" field and presses "Reset" button,  "TBD" message displays and the system resets password to random and emails it to user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user types correct email into "Username/Email Address" field and presses "Reset" button,  "TBD" message displays and the system resets password to random and emails it to user.\par
+}
+</RichDescription>
+    <Name>Reset with correct email address. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-4d3667b1-1b66-4591-8690-806ce253d1d0</UniqueID>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+    <Description>Verify if user resets password, user receives email with new password.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user resets password, user receives email with new password.\par
+}
+</RichDescription>
+    <Name>Email with new password. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>6</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-c2dd9099-a9cf-480c-b242-4ecc83f6ca4a</UniqueID>
+    <ParentID>UC-91a3da39-6ffe-4f90-ab42-7689a226f7dd</ParentID>
+    <Description>Verify that user is able to log into system with reseted to random password.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that user is able to log into system with reseted to random password.\par
+}
+</RichDescription>
+    <Name>Log in with reseted password. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>7</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d3b3542c-02b2-4fd0-a4a0-9acd70fe4500</UniqueID>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+    <Description>Verify if user clicks "Change password" link, "Change Password" page opens and contains "Current password", "New password", "Repeat new password" fields and "Set" button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user clicks "Change password" link, "Change Password" page opens and contains "Current password", "New password", "Repeat new password" fields and "Set" button.\par
+}
+</RichDescription>
+    <Name>"Change Password" page.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-86c85e11-c475-4aaf-95b7-5d723ba92f84</UniqueID>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+    <Description>Verify if user types incorrect current password  into  "Current password" field , correct new password into "New password", "Repeat new password" fields and presses "Set" button, "TBD" error message displays and  "Current password" field is highlighted in red.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user types incorrect current password  into  "Current password" field , correct new password into "New password", "Repeat new password" fields and presses "Set" button, "TBD" error message displays and  "Current password" field is highlighted in red.\par
+}
+</RichDescription>
+    <Name>"Current password" field: incorrect password.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-c6e6b15c-f7a0-49a4-a032-3520f5eafdad</UniqueID>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+    <Description>Verify that user is able to type all symbols into "New password" field.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that user is able to type all symbols into "New password" field.\par
+}
+</RichDescription>
+    <Name>"New password" field: validation.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-66ee5343-ec99-47bd-81c3-85670769a652</UniqueID>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+    <Description>Verify if user  types less than 8 symbols into "New password" field and presses "Set" button, the  system notifies user about that by highlighting in red field and displaying error messages at the top of page .</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user  types less than 8 symbols into "New password" field and presses "Set" button, the  system notifies user about that by highlighting in red field and displaying error messages at the top of page .\par
+}
+</RichDescription>
+    <Name>"New password" field: less than 8 symbols.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-ab8214a7-f9d3-4b18-906a-7295c8af9041</UniqueID>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+    <Description>Verify if user types 8 or more symbols into "New password" field and presses "Set" button, "TBD" message about successfully changed password displays.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user types 8 or more symbols into "New password" field and presses "Set" button, "TBD" message about successfully changed password displays.\par
+}
+</RichDescription>
+    <Name>"New password" field: 8 and more symbols.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-ac8141be-c582-457f-8eb1-aeb300c5cbfb</UniqueID>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+    <Description>Verify if user types different data into "New password", "Repeat new password" fields and presses "Set" button, "TBD" error displays and "New password", "Repeat new password" fields are highlighted in red.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user types different data into "New password", "Repeat new password" fields and presses "Set" button, "TBD" error displays and "New password", "Repeat new password" fields are highlighted in red.\par
+}
+</RichDescription>
+    <Name>"New password" &amp; "Repeat new password": don't match.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-94d1bf75-4c83-4207-bf20-c11ddc0f418f</UniqueID>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+    <Description>Verify if user doesn't specify "Current password", "New password", "Repeat new password" fields and presses "Set" button, the  system notifies user about that by highlighting in red fields and  displaying "TBD" error messages at the top of page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user doesn't specify "Current password", "New password", "Repeat new password" fields and presses "Set" button, the  system notifies user about that by highlighting in red fields and  displaying "TBD" error messages at the top of page.\par
+}
+</RichDescription>
+    <Name>Validation during "Set" button.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>6</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-f43bb92f-c8b8-4728-b972-c15b3ba0b949</UniqueID>
+    <ParentID>UC-b8ea9c53-2e90-47a4-96d0-020f6ff985bc</ParentID>
+    <Description>Verify that user is able to log into system with changed  password.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that user is able to log into system with changed  password.\par
+}
+</RichDescription>
+    <Name>Log in with changed  password</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>7</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d8e924fd-8b53-45d0-bc56-08d2907369e7</UniqueID>
+    <ParentID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</ParentID>
+    <Description>Verify if user click "Change PIN" link, "Change PIN" page opens and contains "Current PIN", "New PIN", "Repeat  new PIN" fields and "Change" button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user click "Change PIN" link, "Change PIN" page opens and contains "Current PIN", "New PIN", "Repeat  new PIN" fields and "Change" button.\par
+}
+</RichDescription>
+    <Name>"Change PIN" page. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-f349117f-b4d9-41ab-b7d1-743b3f1d971e</UniqueID>
+    <ParentID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</ParentID>
+    <Description>Verify if user types incorrect current PIN  into  "Current PIN" field , correct new password into "New PIN", "Repeat  new PIN" fields and presses "Change" button, "TBD" error message displays and  "Current PIN" field is highlighted in red.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user types incorrect current PIN  into  "Current PIN" field , correct new password into "New PIN", "Repeat  new PIN" fields and presses "Change" button, "TBD" error message displays and  "Current PIN" field is highlighted in red.\par
+}
+</RichDescription>
+    <Name>"Current PIN" field: incorrect PIN.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-5cb04962-e60f-4595-a42c-99273f35d50e</UniqueID>
+    <ParentID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</ParentID>
+    <Description>Verify if  user types alphabetic or specific symbols into "New PIN" field and presses "Change" button, "New PIN" field is highlighted in red and "Please specify the correct new PIN" error message displays at the top of page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if  user types alphabetic or specific symbols into "New PIN" field and presses "Change" button, "New PIN" field is highlighted in red and "Please specify the correct new PIN" error message displays at the top of page.\par
+}
+</RichDescription>
+    <Name>"New PIN" field: validation. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2734d184-ec0a-4d4b-81b0-0d25ecafaa10</UniqueID>
+    <ParentID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</ParentID>
+    <Description>Verify if user  types less than 4 symbols into "New PIN" field and presses "Change" button, the  system notifies user about that by highlighting in red field and displaying "Please specify the correct new PIN" error messages at the top of page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user  types less than 4 symbols into "New PIN" field and presses "Change" button, the  system notifies user about that by highlighting in red field and displaying "Please specify the correct new PIN" error messages at the top of page.\par
+}
+</RichDescription>
+    <Name>"New PIN" field: less than 4 symbols.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-a737abda-204c-4ad6-908d-a20705662ddf</UniqueID>
+    <ParentID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</ParentID>
+    <Description>Verify if user types 4 symbols into "New PIN" field and presses "Change" button, "TBD" message about successfully changed password displays.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user types 4 symbols into "New PIN" field and presses "Change" button, "TBD" message about successfully changed password displays.\par
+}
+</RichDescription>
+    <Name>"New PIN" field: 4 symbols.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-0655720e-8047-4d5c-885f-d5e6d19882b0</UniqueID>
+    <ParentID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</ParentID>
+    <Description>Verify is user fills all fields with correct data and presses "Change" button, the system updates user's PIN, displays success messageat the top of page and sends email notification to the user informing about PIN change (do not include new PIN into the message).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify is user fills all fields with correct data and presses "Change" button, the system updates user's PIN, displays success messageat the top of page and sends email notification to the user informing about PIN change (do not include new PIN into the message).\par
+}
+</RichDescription>
+    <Name>Change PIN.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-4f454cc7-e721-4a92-be88-51a0f3ee9a85</UniqueID>
+    <ParentID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</ParentID>
+    <Description>verify if user types different data into "New PIN", "Repeat new PIN" fields and presses "Change" button, "Please confirm the New PIN" error displays and "New PIN", "Repeat new PIN" fields are highlighted in red.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 verify if user types different data into "New PIN", "Repeat new PIN" fields and presses "Change" button, "Please confirm the New PIN" error displays and "New PIN", "Repeat new PIN" fields are highlighted in red.\par
+}
+</RichDescription>
+    <Name>"New PIN" &amp; "Repeat new PIN": don't match.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>6</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-b33104e6-61b5-4a1b-ba74-1569bfabad1b</UniqueID>
+    <ParentID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</ParentID>
+    <Description>Verify if user doesn't specify "Current PIN", "New PIN", "Repeat new PIN" fields and presses "Change" button, the  system notifies user about that by highlighting in red fields and  displaying "Please specify the correct current PIN/Please specify the correct new PIN/ Please confirm the New PIN" error messages at the top of page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user doesn't specify "Current PIN", "New PIN", "Repeat new PIN" fields and presses "Change" button, the  system notifies user about that by highlighting in red fields and  displaying "Please specify the correct current PIN/Please specify the correct new PIN/ Please confirm the New PIN" error messages at the top of page.\par
+}
+</RichDescription>
+    <Name>Validation during "Change" button.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>7</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-3af81c66-20c7-4dcb-96f0-f29258f4b953</UniqueID>
+    <ParentID>UC-d254f70e-1c72-4ce2-be86-38a83d31d3b9</ParentID>
+    <Description>Verify that user is able to sign any doc with new PIN.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that user is able to sign any doc with new PIN.\par
+}
+</RichDescription>
+    <Name>Sign doc with new PIN. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>8</Sequence>
+  </TestScenario>
+</UCTDataSet>

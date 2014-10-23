@@ -1,0 +1,3115 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.4864</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</UniqueID>
+    <ExternalParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ExternalParentID>
+    <Name>Case Page Functionality</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-55ae3089-3836-49f4-90db-c7f7530c102d</UniqueID>
+    <UserID>UC-29-11</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Add Deposit Balance Payment</Name>
+    <Description>CBC logs a payment that was made to the Patient's balance.
+
+This use case only has a high-level steps description, because this functionality is already implemented, and we are not making any changes to it.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red23\green54\blue93;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 CBC\cf2\ulnone  logs a payment that was made to the \cf1\ul Patient\cf2\ulnone 's balance.\par
+\par
+\cf3\i This use case only has a high-level steps description, because this functionality is already implemented, and we are not making any changes to it.\cf0\lang1049\i0\f1\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-05T12:37:22.91743-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:33.8696074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-c7787d6e-cd22-4f71-9d45-3761e0effd2d</UniqueID>
+    <UserID>UC-29-6</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Rebill Encounter</Name>
+    <Description>User rebills the encounter</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User rebills the encounter\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>There's at least one non-voided insurance charge in the Charges list. 
+If nothing was submitted for billing yet, the control is not displayed. </PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-05T12:41:47.8937608-04:00</DateAdded>
+    <DateModified>2014-07-11T12:37:21.0919725-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-8c52b655-ce59-47cd-a3ba-c5e71066975b</UniqueID>
+    <UserID>UC-29-12</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Put encounter on hold</Name>
+    <Description>CBC puts all encounter transactions on hold.
+
+This use case only has a high-level steps description, because this functionality is already implemented, and we are not making any changes to it.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red23\green54\blue93;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 CBC\cf2\ulnone  puts all encounter transactions on hold.\par
+\par
+\cf3\i This use \cf4 case\cf3  only has a high-level steps description, because this functionality is already implemented, and we are not making any changes to it.\cf2\i0\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Encounter is not on hold
+If nothing was submitted for billing yet, the control is not displayed.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-05T12:21:25.6028683-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:33.8746074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-eef4f837-448c-47fc-adba-61d5fa986023</UniqueID>
+    <UserID>UC-29-13</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Release encounter hold</Name>
+    <Description>CBC releases encounter from hold
+
+This use case only has a high-level steps description, because this functionality is already implemented, and we are not making any changes to it.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red23\green54\blue93;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 CBC\cf2\ulnone  releases encounter from hold\par
+\par
+\cf3\i This use \cf4 case\cf3  only has a high-level steps description, because this functionality is already implemented, and we are not making any changes to it.\cf2\i0\par
+}
+</RichDescription>
+    <Sequence>12</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Encounter is on hold.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-05T12:30:48.8823378-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:33.8726074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-4391493c-5b33-4074-8cbf-d2d37e6e3194</UniqueID>
+    <UserID>UC-29-14</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Transfer Funds</Name>
+    <Description>CBC transfers funds between line item and case deposit.</Description>
+    <RichDescription>{\rtf1\fbidis\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\ltrpar\cf1\lang1033\ul\f0\fs20 CBC\cf0\ulnone  transfers funds between \cf2 line item\cf0  and \cf2 case\cf0  deposit.\cf1\ul\par
+}
+</RichDescription>
+    <Sequence>13</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>If nothing was submitted for billing yet, the control is not displayed.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-05T12:41:05.9575516-04:00</DateAdded>
+    <DateModified>2014-07-11T12:29:58.1168247-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-9750d334-bd40-4950-9318-a4837679d466</UniqueID>
+    <UserID>UC-29-15</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Hold all statements</Name>
+    <Description>Billing personnel enables statements hold (control is not visible to CBC).
+
+This use case only has a high-level steps description, because this functionality is already implemented, and we are not making any changes to it.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red23\green54\blue93;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Billing personnel enables statements hold (control is not visible to \cf2\ul CBC\cf1\ulnone ).\par
+\par
+\cf3\i This use \cf4 case\cf3  only has a high-level steps description, because this functionality is already implemented, and we are not making any changes to it.\cf0\lang1049\i0\f1\par
+}
+</RichDescription>
+    <Sequence>14</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Case statements are not on hold</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-05T12:31:00.9287502-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:33.8656074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-ebc7bf6c-17fa-49c5-861a-56147d03647d</UniqueID>
+    <UserID>UC-29-16</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Release statements hold</Name>
+    <Description>Billing personnel releases statements from hold (control is not visible to CBC).
+
+This use case only has a high-level steps description, because this functionality is already implemented, and we are not making any changes to it.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red23\green54\blue93;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Billing personnel releases statements from hold (control is not visible to \cf2\ul CBC\cf1\ulnone ).\par
+\par
+\cf3\i This use \cf4 case\cf3  only has a high-level steps description, because this functionality is already implemented, and we are not making any changes to it.\cf0\lang1049\i0\f1\par
+}
+</RichDescription>
+    <Sequence>15</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Case statements are on hold</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-05T14:36:10.0848523-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:33.8636074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-e0f447a7-0cfa-42ed-ae18-c05454049bfc</UniqueID>
+    <UserID>UC-29-2</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>View charge details - CBC</Name>
+    <Description>CBC opens transaction details</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red23\green54\blue93;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 CBC\cf2\ulnone  opens transaction details\cf3\i\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-05T14:06:27.9754201-04:00</DateAdded>
+    <DateModified>2014-03-24T16:19:53.2426068-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-ec49d9e6-7994-443f-8b39-092f91f1bcd3</UniqueID>
+    <UserID>UC-29-17</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Delete Transaction</Name>
+    <Description>CBC deletes transaction.
+
+This functionality is already implemented, we are making minor adjustments to it (adding new option in the confirmation dialog).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red23\green54\blue93;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 CBC\cf2\ulnone  deletes transaction.\par
+\par
+\cf3\i This functionality is already implemented, we are making minor adjustments to it (adding new option in the confirmation dialog).\cf0\lang1049\i0\f1\par
+}
+</RichDescription>
+    <Sequence>16</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Transaction was submitted today (before midnight)</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-05T11:59:44.3452083-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:33.8706074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-31f4d24e-c25d-4578-8330-11e6388875c4</UniqueID>
+    <UserID>UC-29-18</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Void Transaction</Name>
+    <Description>CBC voids a transaction.
+
+This functionality is already implemented, we are making minor adjustments to it (adding new option in the confirmation dialog).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red23\green54\blue93;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 CBC\cf2\ulnone  voids a transaction.\par
+\par
+\cf3\i This functionality is already implemented, we are making minor adjustments to it (adding new option in the confirmation dialog).\cf0\lang1049\i0\f1\par
+}
+</RichDescription>
+    <Sequence>17</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Transaction was submitted yesterday or earlier</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-05T11:59:59.0790175-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:33.8636074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-f9eae5ae-6669-4609-9487-dbe10fa716b8</UniqueID>
+    <UserID>UC-29-1</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>View Charges List</Name>
+    <Description>This use case describes the Charges list that appears on the Encounter details page. Other parts of the page are out of scope for this use case.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 This use \cf1 case\cf2  describes the Charges list that appears on the Encounter details page. Other parts of the page are out of scope for this use \cf1 case\cf2 .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-05T11:57:22.31826-04:00</DateAdded>
+    <DateModified>2014-03-24T16:19:53.2396068-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-4f144fda-b0ed-4ab2-a03a-87c7acb38f67</UniqueID>
+    <UserID>UC-29-3</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>View charge details - AR</Name>
+    <Description>AR Specialist opens transaction details</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red23\green54\blue93;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 AR Specialist\cf2\ulnone  opens transaction details\cf3\i\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-05T14:06:27.9754201-04:00</DateAdded>
+    <DateModified>2014-03-24T16:19:53.2336068-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-e23da341-a0f8-462d-9248-672260c699d2</UniqueID>
+    <UserID>UC-29-5</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Make a Correction (Encounter page)</Name>
+    <Description>AR Specialist makes a correction (not refund) from the Encounter page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 AR Specialist\cf2\ulnone  makes a correction (not refund) from the Encounter page.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-09-26T07:38:38.8939504-04:00</DateAdded>
+    <DateModified>2013-09-26T10:43:38.4860634-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-c2fa91a3-6e85-406e-b001-be7374236142</UniqueID>
+    <UserID>UC-29-4</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Add Charge Note</Name>
+    <Description>User adds a note on the charge level</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User adds a note on the charge level\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-09-26T08:11:03.7870547-04:00</DateAdded>
+    <DateModified>2014-03-24T16:19:53.2316068-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-438bf170-9fb7-4623-bd61-b4b54f627216</UniqueID>
+    <UserID>UC-29-10</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Transfer Deposit Money to Another Case</Name>
+    <Description>AR Specialist transfers money from one case's deposit to another case deposit</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 AR Specialist\cf2\ulnone  transfers money from one \cf3 case\cf2 's deposit to another \cf3 case\cf2  deposit\cf0\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Case deposit is positive</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-09-26T08:33:12.2971664-04:00</DateAdded>
+    <DateModified>2014-03-24T16:19:53.2366068-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-ec87ab29-c98a-450a-bde2-c17bc93e40cc</UniqueID>
+    <UserID>UC-29-8</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Apply Discount to Encounter</Name>
+    <Description>User applies discount to self-pay charges within an encounter</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User applies discount to self-pay charges within an encounter\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>There's at least one self-pay charge  
+At least one self-pay charge does not have the discount applied (= does not have patient adjustment with the 'Point of Service' reason).</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-09-26T09:14:41.4825258-04:00</DateAdded>
+    <DateModified>2014-07-19T13:36:42.0705063-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-8c174d04-165a-4038-a0b1-516d8bcd1d85</UniqueID>
+    <UserID>UC-29-7</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Bulk Rebill (case level)</Name>
+    <Description>User rebills several encounters in a case.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User rebills several encounters in a \cf1 case\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-09-26T09:15:29.3558568-04:00</DateAdded>
+    <DateModified>2014-03-24T16:19:53.2406068-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-8f9f806f-f08f-4de1-9da3-4a38140741bf</UniqueID>
+    <UserID>UC-29-9</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Bulk Discount (case level)</Name>
+    <Description>User applies discount to self-pay charges in selected encounters</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User applies discount to self-pay charges in selected encounters\fs20\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-09-26T09:15:42.2406308-04:00</DateAdded>
+    <DateModified>2014-03-24T16:19:53.2306068-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-a6e3e6fa-f64a-41fc-9485-45b762477fa4</UniqueID>
+    <UserID>UC-29-19</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Put All On Hold</Name>
+    <Description>[New functionality]
+Users should be able to put all encounters on hold - simple confirmation (Yes/No) is required. This will not change hold logic - this is equal to the user going into every encounter and putting them on hold one by one (UC-29-12).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 [New functionality]\par
+Users should be able to put all encounters on hold - simple confirmation (Yes/No) is required. This will not change hold logic - this is equal to the user going into every encounter and putting them on hold one by one (\cf1\ul UC-29-12\cf2\ulnone ).\cf0\par
+}
+</RichDescription>
+    <Sequence>18</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-10-10T03:53:17.9101557-04:00</DateAdded>
+    <DateModified>2013-10-10T04:28:21.6268097-04:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-6cd13575-099b-4d5a-aa43-0dea02aa567e</UniqueID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Case Page Functionality</Name>
+    <Sequence>0</Sequence>
+    <FileName>Case Page Functionality.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Note>
+    <UniqueID>N-06e6e99f-0aac-46a6-b768-494706d38bc9</UniqueID>
+    <ParentID>UC-c7787d6e-cd22-4f71-9d45-3761e0effd2d</ParentID>
+    <Description>The way it works right now the system voids all transactions and creates them again. We would like to change that. Rebilling must occur on the insurance level and not trigger any voids. Rebill is now just another entry in the transaction history.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The way it works right now the system voids all transactions and creates them again. We would like to change that. Rebilling must occur on the insurance level and not trigger any voids. Rebill is now just another entry in the transaction history.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2013-09-26T09:41:59.1965376-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-b6ed3d84-f360-4cda-82fe-56072f2c55c7</UniqueID>
+    <ParentID>UC-ec87ab29-c98a-450a-bde2-c17bc93e40cc</ParentID>
+    <Description>In this use case, the 20% is referenced. This is done because it's current Agility Health policy. The system should use discount amount specified in Company details (see REQ-59-11 for details).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 In this use \cf1 case\cf2 , the 20% is referenced. This is done because it's current \cf1 Agility Health\cf2  policy. The system should use \cf1 discount amount\cf2  specified in Company details (see \cf3\ul REQ-59-11\cf2\ulnone  for details).\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2013-09-26T10:16:16.7758848-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-3784f632-d7e9-450b-857b-0760262f46ed</UniqueID>
+    <ParentID>UC-438bf170-9fb7-4623-bd61-b4b54f627216</ParentID>
+    <Description>We consider cases to belong to the same patient if there's exact match in patient name and date of birth (both must match)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 We consider \cf1 cases\cf2  to belong to the same \cf3\ul patient\cf2\ulnone  if there's exact match in \cf3\ul patient\cf2\ulnone  name and date of birth (both must match)\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2013-09-26T10:35:01.3964293-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-a9f5891c-d45a-4a3b-a943-750791811642</UniqueID>
+    <ParentID>UC-ec87ab29-c98a-450a-bde2-c17bc93e40cc</ParentID>
+    <Description>Discount functionality should be available for all cases (incl. old cases).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Discount functionality should be available for all \cf1 cases\cf2  (incl. old \cf1 cases\cf2 ).\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <DateAdded>2013-10-03T14:51:08.0352893-04:00</DateAdded>
+  </Note>
+  <UCActor>
+    <ParentID>UC-55ae3089-3836-49f4-90db-c7f7530c102d</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8c52b655-ce59-47cd-a3ba-c5e71066975b</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-eef4f837-448c-47fc-adba-61d5fa986023</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-4391493c-5b33-4074-8cbf-d2d37e6e3194</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-9750d334-bd40-4950-9318-a4837679d466</ParentID>
+    <ActorID>A-03a0bbf5-1eff-4878-a1d4-9b1fd23d7673</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-ebc7bf6c-17fa-49c5-861a-56147d03647d</ParentID>
+    <ActorID>A-03a0bbf5-1eff-4878-a1d4-9b1fd23d7673</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-e0f447a7-0cfa-42ed-ae18-c05454049bfc</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-ec49d9e6-7994-443f-8b39-092f91f1bcd3</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-31f4d24e-c25d-4578-8330-11e6388875c4</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-4f144fda-b0ed-4ab2-a03a-87c7acb38f67</ParentID>
+    <ActorID>A-93296bff-cecb-45f3-948d-8364dd64ff0e</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-f9eae5ae-6669-4609-9487-dbe10fa716b8</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-f9eae5ae-6669-4609-9487-dbe10fa716b8</ParentID>
+    <ActorID>A-93296bff-cecb-45f3-948d-8364dd64ff0e</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-e23da341-a0f8-462d-9248-672260c699d2</ParentID>
+    <ActorID>A-93296bff-cecb-45f3-948d-8364dd64ff0e</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-c2fa91a3-6e85-406e-b001-be7374236142</ParentID>
+    <ActorID>A-93296bff-cecb-45f3-948d-8364dd64ff0e</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-c2fa91a3-6e85-406e-b001-be7374236142</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-c7787d6e-cd22-4f71-9d45-3761e0effd2d</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-c7787d6e-cd22-4f71-9d45-3761e0effd2d</ParentID>
+    <ActorID>A-93296bff-cecb-45f3-948d-8364dd64ff0e</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8c174d04-165a-4038-a0b1-516d8bcd1d85</ParentID>
+    <ActorID>A-93296bff-cecb-45f3-948d-8364dd64ff0e</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-ec87ab29-c98a-450a-bde2-c17bc93e40cc</ParentID>
+    <ActorID>A-93296bff-cecb-45f3-948d-8364dd64ff0e</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-ec87ab29-c98a-450a-bde2-c17bc93e40cc</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8f9f806f-f08f-4de1-9da3-4a38140741bf</ParentID>
+    <ActorID>A-93296bff-cecb-45f3-948d-8364dd64ff0e</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8f9f806f-f08f-4de1-9da3-4a38140741bf</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-438bf170-9fb7-4623-bd61-b4b54f627216</ParentID>
+    <ActorID>A-93296bff-cecb-45f3-948d-8364dd64ff0e</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCReq>
+    <ParentID>UC-ec87ab29-c98a-450a-bde2-c17bc93e40cc</ParentID>
+    <ReqID>REQ-87b9f84f-eedb-4f5c-a26b-fe89b570b8f3</ReqID>
+  </UCReq>
+  <Scenario>
+    <UniqueID>MSS-e78fa647-3476-4809-97f1-55b32634aade</UniqueID>
+    <ParentID>UC-55ae3089-3836-49f4-90db-c7f7530c102d</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-9e29a364-b646-456f-97be-40261d47b035</UniqueID>
+    <ParentID>UC-c7787d6e-cd22-4f71-9d45-3761e0effd2d</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-92791204-d5c3-4c92-8213-4fb2b20e10f1</UniqueID>
+    <ParentID>UC-8c52b655-ce59-47cd-a3ba-c5e71066975b</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-821f99a4-4650-4597-9a1a-ab84098d4a7a</UniqueID>
+    <ParentID>UC-eef4f837-448c-47fc-adba-61d5fa986023</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-9de0b095-7409-453b-a4c6-ee7d5faa7154</UniqueID>
+    <ParentID>UC-4391493c-5b33-4074-8cbf-d2d37e6e3194</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-fc046be5-19c6-4875-8cd7-42158a9ba112</UniqueID>
+    <ParentID>UC-9750d334-bd40-4950-9318-a4837679d466</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-cfb0e64f-bee4-488d-b66a-6cc5c328a72b</UniqueID>
+    <ParentID>UC-ebc7bf6c-17fa-49c5-861a-56147d03647d</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-584c3907-8b66-4581-9863-0da8ae6c59ad</UniqueID>
+    <ParentID>UC-e0f447a7-0cfa-42ed-ae18-c05454049bfc</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-0a7e1786-e875-41f5-9a06-576f032d59e3</UniqueID>
+    <ParentID>UC-ec49d9e6-7994-443f-8b39-092f91f1bcd3</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-3e1e45ae-8be2-47c7-a70d-791cf9a72745</UniqueID>
+    <ParentID>UC-31f4d24e-c25d-4578-8330-11e6388875c4</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-b1b573ad-5da6-472d-b49f-3121ebe99bd4</UniqueID>
+    <ParentID>UC-f9eae5ae-6669-4609-9487-dbe10fa716b8</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-e0642867-2c67-42b6-b761-31cfa68a6a7a</UniqueID>
+    <ParentID>UC-4f144fda-b0ed-4ab2-a03a-87c7acb38f67</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-03965e63-72f5-45bb-a3bd-b20c7ffb3a34</UniqueID>
+    <ParentID>UC-e23da341-a0f8-462d-9248-672260c699d2</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-d5c49bf2-5f7b-4940-bfed-ef999b2276fb</UniqueID>
+    <ParentID>UC-8c174d04-165a-4038-a0b1-516d8bcd1d85</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-1280bc46-3d50-4ec1-ad77-8fba2c175d88</UniqueID>
+    <ParentID>UC-ec87ab29-c98a-450a-bde2-c17bc93e40cc</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-8cd7b399-634b-4bb1-bce0-aaac06414a60</UniqueID>
+    <ParentID>UC-8f9f806f-f08f-4de1-9da3-4a38140741bf</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-e6dbe8a6-08c3-455c-b9f5-166bf1c4037d</UniqueID>
+    <ParentID>UC-438bf170-9fb7-4623-bd61-b4b54f627216</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-ede8c0ee-b2ea-43fc-8fb4-7fb17c8d793c</UniqueID>
+    <ParentID>UC-c2fa91a3-6e85-406e-b001-be7374236142</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-f77430b9-3f0f-40ef-b1dc-da71c7b76939</UniqueID>
+    <UserID>REQ-29-1</UserID>
+    <ParentID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ParentID>
+    <Name>Remove Adjustment Functionality from Encounter page</Name>
+    <Description>Right now there's an Adjustment button that CBCs can use to post adjustments. This button and this functionality must be removed from the Encounter page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Right now there's an \cf2 Adjustment\cf1  button that \cf3\ul CBCs\cf1\ulnone  can use to post \cf2 adjustments\cf1 . This button and this functionality must be removed from the Encounter page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-26T08:34:10.1381761-04:00</DateAdded>
+    <DateModified>2013-09-28T08:42:05.475485-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-4d170a6c-4e31-409e-a922-94f7ab824426</UniqueID>
+    <ParentID>MSS-e78fa647-3476-4809-97f1-55b32634aade</ParentID>
+    <Description>User adds new balance payment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User adds new balance payment.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e638953b-13de-4063-bb15-cb5d95de1ef1</UniqueID>
+    <ParentID>MSS-e78fa647-3476-4809-97f1-55b32634aade</ParentID>
+    <Description>User enters new payment info and submits it.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User enters new payment info and submits it.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-865bdcfc-bbb2-47c8-8f07-2535020976b8</UniqueID>
+    <ParentID>MSS-e78fa647-3476-4809-97f1-55b32634aade</ParentID>
+    <Description>The system updates patient's deposit balance.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  updates \cf1\ul patient\cf2\ulnone 's deposit balance.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-087bbfd1-e9ed-49ab-b6f7-c85ea3d4cfc2</UniqueID>
+    <ParentID>MSS-9e29a364-b646-456f-97be-40261d47b035</ParentID>
+    <Description>User initiates re-billing.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User initiates re-billing.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-88530c82-3e84-4638-a43a-836079758041</UniqueID>
+    <ParentID>MSS-92791204-d5c3-4c92-8213-4fb2b20e10f1</ParentID>
+    <Description>User puts encounter on hold.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User puts encounter on hold.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-16655607-e554-4442-9b57-f9fae55e5a6b</UniqueID>
+    <ParentID>MSS-92791204-d5c3-4c92-8213-4fb2b20e10f1</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  requests confirmation.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-46e22f99-3f65-4677-84e0-4b82297f2759</UniqueID>
+    <ParentID>MSS-92791204-d5c3-4c92-8213-4fb2b20e10f1</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User confirms.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-85b97d05-ef02-4b19-9b16-63bf011f6020</UniqueID>
+    <ParentID>MSS-92791204-d5c3-4c92-8213-4fb2b20e10f1</ParentID>
+    <Description>The system puts the encounter on hold - charges are not created for this encounter (just the charges that can be batched, user can still create charges, i.e. add procedures manually).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  puts the encounter on hold - charges are not created for this encounter (just the charges that can be batched, user can still create charges, i.e. add \cf3 procedures\cf2  manually).\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-082289b4-733f-4923-b1a1-c529d8e4fec1</UniqueID>
+    <ParentID>MSS-821f99a4-4650-4597-9a1a-ab84098d4a7a</ParentID>
+    <Description>User releases encounter from hold.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User releases encounter from hold.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-34094f2e-93ef-433e-9c87-4f2e1f43b41f</UniqueID>
+    <ParentID>MSS-821f99a4-4650-4597-9a1a-ab84098d4a7a</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  requests confirmation.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0a829e9d-1142-4f4b-b3ce-02480a00aaff</UniqueID>
+    <ParentID>MSS-821f99a4-4650-4597-9a1a-ab84098d4a7a</ParentID>
+    <Description>User can select a check box that releases all encounters for this case. By default, the check box is cleared.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User can select a check box that releases all encounters for this \cf2 case\cf1 . By default, the check box is cleared.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b0364386-c667-4dfe-a570-cfe13dd59f7d</UniqueID>
+    <ParentID>MSS-821f99a4-4650-4597-9a1a-ab84098d4a7a</ParentID>
+    <Description>User confirms release.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User confirms release.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-18595c47-1e92-4dbd-8f65-8adee13e20ab</UniqueID>
+    <ParentID>MSS-821f99a4-4650-4597-9a1a-ab84098d4a7a</ParentID>
+    <Description>The system releases the encounter (or all case encounters, if the check box was selected)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  releases the encounter (or all \cf3 case\cf2  encounters, if the check box was selected)\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ba574241-3380-4f5d-a5fa-b050cb785308</UniqueID>
+    <ParentID>MSS-fc046be5-19c6-4875-8cd7-42158a9ba112</ParentID>
+    <Description>User puts case statements on hold.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User puts \cf1 case\cf2  statements on hold.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-992318e2-ad57-4e4c-884f-368a7fc5cf02</UniqueID>
+    <ParentID>MSS-fc046be5-19c6-4875-8cd7-42158a9ba112</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  requests confirmation.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d72c40a9-3c54-4ba2-972c-bf3ccfef8ad8</UniqueID>
+    <ParentID>MSS-fc046be5-19c6-4875-8cd7-42158a9ba112</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User confirms.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d761baf0-7cac-47a6-8b48-9c57052edb77</UniqueID>
+    <ParentID>MSS-fc046be5-19c6-4875-8cd7-42158a9ba112</ParentID>
+    <Description>The system puts all case statements on hold.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  puts all \cf3 case\cf2  statements on hold.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bd1c4254-9b91-428b-b3f2-14626f15b95b</UniqueID>
+    <ParentID>MSS-cfb0e64f-bee4-488d-b66a-6cc5c328a72b</ParentID>
+    <Description>User releases case statements from hold.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User releases \cf2 case\cf1  statements from hold.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a7307ff6-a0fc-450c-96ac-715d66e0df8b</UniqueID>
+    <ParentID>MSS-cfb0e64f-bee4-488d-b66a-6cc5c328a72b</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  requests confirmation.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3b0baa6a-002c-42db-bb6b-65c1eb9b11af</UniqueID>
+    <ParentID>MSS-cfb0e64f-bee4-488d-b66a-6cc5c328a72b</ParentID>
+    <Description>User confirms release.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User confirms release.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-49fb9311-3304-4fea-a5c2-5e330ab1e4d1</UniqueID>
+    <ParentID>MSS-cfb0e64f-bee4-488d-b66a-6cc5c328a72b</ParentID>
+    <Description>The system releases case statements from hold.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  releases \cf3 case\cf2  statements from hold.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a5cca797-951b-42ff-9cba-f72528581404</UniqueID>
+    <ParentID>MSS-584c3907-8b66-4581-9863-0da8ae6c59ad</ParentID>
+    <Description>CBC opens transaction details.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 CBC\cf2\ulnone  opens transaction details.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1c9e61a7-2b18-4296-bf30-11d84aa09849</UniqueID>
+    <ParentID>MSS-584c3907-8b66-4581-9863-0da8ae6c59ad</ParentID>
+    <Description>The system displays transaction details in a modal dialog. Transaction details dialog consists of:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  displays transaction details in a modal dialog. Transaction details dialog consists of:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d95956e0-adba-44c6-8a29-a63d1fd01467</UniqueID>
+    <ParentID>MSS-584c3907-8b66-4581-9863-0da8ae6c59ad</ParentID>
+    <Description>The only functionality available to CBC here is the ability to add a new note (but shouldn't be able to add empty note)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The only functionality available to \cf2\ul CBC\cf1\ulnone  here is the ability to add a new note (but shouldn't be able to add empty note)\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-da1b0ca1-1520-45b8-824f-5ee47fa9b488</UniqueID>
+    <ParentID>MSS-0a7e1786-e875-41f5-9a06-576f032d59e3</ParentID>
+    <Description>User deletes transaction.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User deletes transaction.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-60e038b9-f3d5-4e7b-9fbb-c0d53f55e600</UniqueID>
+    <ParentID>MSS-0a7e1786-e875-41f5-9a06-576f032d59e3</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  requests confirmation.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8e2008d9-fa41-4990-8c30-12067840ad1b</UniqueID>
+    <ParentID>MSS-0a7e1786-e875-41f5-9a06-576f032d59e3</ParentID>
+    <Description>User confirms that transaction must be deleted (alternatively, user can cancel deletion).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User confirms that transaction must be deleted (alternatively, user can cancel deletion).\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cef454a1-0178-4835-8e96-45669db5f127</UniqueID>
+    <ParentID>MSS-0a7e1786-e875-41f5-9a06-576f032d59e3</ParentID>
+    <Description>The system permanently removes transaction. User can run UC-3-10 at any time, but the "Add new charge" form will be empty.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  p\cf0 ermanently removes transaction. User can run \cf1\ul UC-3-10\cf2\ulnone  at any time, but the \cf0 "Add new charge"\cf2  form will be empty.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e9f04a9c-00fa-43a2-bbcf-5a803f90d886</UniqueID>
+    <ParentID>MSS-3e1e45ae-8be2-47c7-a70d-791cf9a72745</ParentID>
+    <Description>User voids transaction.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User voids transaction.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f0ebe8e4-7160-496e-9681-6e99e8ae0951</UniqueID>
+    <ParentID>MSS-3e1e45ae-8be2-47c7-a70d-791cf9a72745</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  requests confirmation.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c916a971-c3ce-4529-9b89-45a4c88398ce</UniqueID>
+    <ParentID>MSS-3e1e45ae-8be2-47c7-a70d-791cf9a72745</ParentID>
+    <Description>User confirms that transaction must be voided (alternatively, user can cancel voiding).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User confirms that transaction must be voided (alternatively, user can cancel voiding).\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fb11f936-f14a-4fbf-a4a4-56e1e410604d</UniqueID>
+    <ParentID>MSS-3e1e45ae-8be2-47c7-a70d-791cf9a72745</ParentID>
+    <Description>The system marks transaction as Voided. User can run UC-3-10 at any time, but the "Add new charge" form will be empty.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  \cf0 marks transaction as Voided. User can run \cf1\ul UC-3-10\cf2\ulnone  at any time, but the \cf0 "Add new charge"\cf2  form will be empty.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-be911fd5-3edf-489f-aeca-40b659f9eed1</UniqueID>
+    <ParentID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</ParentID>
+    <Description>Transaction ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Transaction ID\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cee8d9cb-3203-4c21-8fdf-22d98457c58c</UniqueID>
+    <ParentID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</ParentID>
+    <Description>Transaction date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Transaction date\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9e12b7b5-3029-4b75-a1ac-0dd70fd24574</UniqueID>
+    <ParentID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</ParentID>
+    <Description>Item type: Procedure / Supply.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Item type: \cf1 Procedure\cf2  / Supply.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-147c4752-6bf0-4a48-b7aa-3d845eb41774</UniqueID>
+    <ParentID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</ParentID>
+    <Description>CPT code</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 CPT code\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fd165b77-4c04-4745-a2b5-19e60303c926</UniqueID>
+    <ParentID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</ParentID>
+    <Description>Price</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Price\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b95abfa7-7506-4f4a-a442-ca464740bc07</UniqueID>
+    <ParentID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</ParentID>
+    <Description>Quantity (for supplies) / Units (for procedures)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Quantity (for supplies) / Units (for \cf1 procedures\cf2 )\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e0c26bf9-c17a-45c6-bdaf-d45510bb7bfa</UniqueID>
+    <ParentID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</ParentID>
+    <Description>Transaction status</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Transaction status\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-78aca1b7-fd1d-4de9-b471-1b543a0b27be</UniqueID>
+    <ParentID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</ParentID>
+    <Description>Process</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Process\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8b83cf1f-2712-41f4-b6dc-9fcf4c7dfada</UniqueID>
+    <ParentID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</ParentID>
+    <Description>Insurance balance</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Insurance balance\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2c1bf5d3-528d-458e-8541-3e13f3b0067c</UniqueID>
+    <ParentID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</ParentID>
+    <Description>Patient balance</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Patient\cf2\ulnone  balance\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5d6fe07f-206a-46f3-963c-d9f21c83863b</UniqueID>
+    <ParentID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</ParentID>
+    <Description>Action controls:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Action controls:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8c287743-ad6a-4a8b-bceb-1c13cd81ad10</UniqueID>
+    <ParentID>MSS-b1b573ad-5da6-472d-b49f-3121ebe99bd4</ParentID>
+    <Description>The system shows Charges list. In the Charges list header, the system shows: "Insurance Total Charges: &lt;amount&gt;. Patient Total Charges: &lt;amount&gt;", where amount is the cumulative charge amount initially billed to insurance/patient. Note that voided charges are not included in this calculation. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  shows Charges list. In the Charges list header, the system shows: "Insurance Total Charges: &lt;amount&gt;. \cf1\ul Patient\cf2\ulnone  Total Charges: &lt;amount&gt;", where amount is the cumulative charge amount initially billed to insurance/patient. Note that voided charges are not included in this calculation. \cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-03b0ee79-2f87-4066-b98c-5a2ea2d576c1</UniqueID>
+    <ParentID>ST-ec6b0e99-f4ee-4a4b-b08f-11d9c81122c9</ParentID>
+    <Description>Transaction ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Transaction ID\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ad160952-520a-45db-b358-3a220d983b29</UniqueID>
+    <ParentID>ST-ec6b0e99-f4ee-4a4b-b08f-11d9c81122c9</ParentID>
+    <Description>Transaction date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Transaction date\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-71d8ff1f-3306-45a0-8f52-ff33f68d7adc</UniqueID>
+    <ParentID>ST-ec6b0e99-f4ee-4a4b-b08f-11d9c81122c9</ParentID>
+    <Description>CPT code - Price - Quantity (for supplies) / Units (for procedures)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 CPT code - \cf0 Price - Quantity (for supplies) / Units (for \cf1 procedures\cf2 )\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f98c271d-e400-42c0-8192-a3d455c37c3d</UniqueID>
+    <ParentID>ST-ec6b0e99-f4ee-4a4b-b08f-11d9c81122c9</ParentID>
+    <Description>Insurance balance</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Insurance balance\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7b122d1d-a126-49a5-8e7f-f4e97ff072f8</UniqueID>
+    <ParentID>ST-ec6b0e99-f4ee-4a4b-b08f-11d9c81122c9</ParentID>
+    <Description>Patient balance</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Patient\cf2\ulnone  balance\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ec6b0e99-f4ee-4a4b-b08f-11d9c81122c9</UniqueID>
+    <ParentID>MSS-b1b573ad-5da6-472d-b49f-3121ebe99bd4</ParentID>
+    <Description>User can sort &amp; filter entries by:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User can sort &amp; filter entries by:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c9b1b9c2-0527-4f78-8987-1cbabd886be7</UniqueID>
+    <ParentID>ST-1c9e61a7-2b18-4296-bf30-11d84aa09849</ParentID>
+    <Description>Charge info (CPT code, Units)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Charge info (\cf2 CPT code\cf1 , Units)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-75e69e7a-68fa-4e4f-a890-5b4f2c29f135</UniqueID>
+    <ParentID>ST-1c9e61a7-2b18-4296-bf30-11d84aa09849</ParentID>
+    <Description>Transaction notes + controls to add a note</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Transaction notes + controls to add a note\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-64066e60-f7d9-434a-9f8d-91bdc5e801d7</UniqueID>
+    <ParentID>ST-1c9e61a7-2b18-4296-bf30-11d84aa09849</ParentID>
+    <Description>Transaction History - contains applied and unapplied information (unapplied shown in green). CBC cannot do anything in the Transaction History, just view the information.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Transaction History - contains applied and unapplied information (unapplied shown in green). \cf2\ul CBC\cf1\ulnone  cannot do anything in the Transaction History, just view the information.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fa4a0254-9738-47ed-af3d-57b790179d29</UniqueID>
+    <ParentID>MSS-e0642867-2c67-42b6-b761-31cfa68a6a7a</ParentID>
+    <Description>AR Specialist opens transaction details.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 AR Specialist\cf2\ulnone  opens transaction details.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8c31c25d-c1e0-4b67-9481-3ccb11c22378</UniqueID>
+    <ParentID>MSS-e0642867-2c67-42b6-b761-31cfa68a6a7a</ParentID>
+    <Description>The system displays transaction details in a new page. The system displays the following on that page:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  displays transaction details in a new page. The system displays the following on that page:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a4fb1f88-8efc-4667-88de-73c9997f8d2d</UniqueID>
+    <ParentID>ST-8c31c25d-c1e0-4b67-9481-3ccb11c22378</ParentID>
+    <Description>Charge info (CPT code, Units)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Charge info (\cf2 CPT code\cf1 , Units)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-72f69cdc-3228-4e66-abf5-abaef2b24ca4</UniqueID>
+    <ParentID>ST-8c31c25d-c1e0-4b67-9481-3ccb11c22378</ParentID>
+    <Description>Transaction notes + controls to add a note</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Transaction notes + controls to add a note\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1419a6d1-a2e2-48a8-8c54-9a7cdfd9d23a</UniqueID>
+    <ParentID>ST-8c31c25d-c1e0-4b67-9481-3ccb11c22378</ParentID>
+    <Description>Transaction History - contains applied and unapplied information (unapplied shown in green).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Transaction History - contains applied and unapplied information (unapplied shown in green).\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-93367cff-113c-4103-9391-6bc8b7b3d5ed</UniqueID>
+    <ParentID>MSS-e0642867-2c67-42b6-b761-31cfa68a6a7a</ParentID>
+    <Description>User can do the following:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User can do the following:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-643573cb-e26f-407e-ab2d-698334fb1876</UniqueID>
+    <ParentID>ST-93367cff-113c-4103-9391-6bc8b7b3d5ed</ParentID>
+    <Description>Make a correction (not refund) - UC-29-5 (only if there are no unapplied corrections/payments)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Make a correction (not refund) - \cf1\ul UC-29-5\cf2\ulnone  (only if there are no unapplied corrections/payments)\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5ce6496f-3184-4bde-aec9-ea041b010e2a</UniqueID>
+    <ParentID>ST-93367cff-113c-4103-9391-6bc8b7b3d5ed</ParentID>
+    <Description>Add a transaction note - UC-29-4</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Add a transaction note - \cf1\ul UC-29-4\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</UniqueID>
+    <ParentID>MSS-b1b573ad-5da6-472d-b49f-3121ebe99bd4</ParentID>
+    <Description>For each charge in the list, the system shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 For each charge in the list, the \cf2\ul system\cf1\ulnone  shows:\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-433d687b-6723-4916-b77c-aa1112b65e88</UniqueID>
+    <ParentID>ST-a0b266eb-d578-4682-9ecf-fd0bea29ba69</ParentID>
+    <Description>Total Charge (price * units/quantity)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Total Charge (\i price * units/quantity\i0 )\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ee430ace-a0d5-404b-8c6e-7461a908aea9</UniqueID>
+    <ParentID>ST-5d6fe07f-206a-46f3-963c-d9f21c83863b</ParentID>
+    <Description>View charge details UC-29-2 / UC-29-3</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 View charge details \cf2\ul UC-29-2\cf1\ulnone  / \cf2\ul UC-29-3\cf0\lang1049\ulnone\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a16c6880-056d-45dd-8c96-6a5e2bd6b29c</UniqueID>
+    <ParentID>ST-5d6fe07f-206a-46f3-963c-d9f21c83863b</ParentID>
+    <Description>Delete Charge - only for charges in Created status - UC-29-17</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Delete Charge - only for charges in Created status - \cf2\ul UC-29-17\cf0\lang1049\ulnone\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-73e2ea5e-a3c5-476f-ba2c-f9f6c69887e3</UniqueID>
+    <ParentID>ST-5d6fe07f-206a-46f3-963c-d9f21c83863b</ParentID>
+    <Description>Void Charge - only for charges in Billed status - UC-29-18  </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Void Charge - only for charges in Billed status - \cf2\ul UC-29-18\cf1\ulnone   \cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-70e344ff-8ff5-4170-b0df-f065231da73b</UniqueID>
+    <ParentID>ST-ec6b0e99-f4ee-4a4b-b08f-11d9c81122c9</ParentID>
+    <Description>Total charge amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Total charge amount\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-789035c7-ce41-4b63-9d62-b1418dbe58af</UniqueID>
+    <ParentID>MSS-03965e63-72f5-45bb-a3bd-b20c7ffb3a34</ParentID>
+    <Description>User opens Charge Details from the Encounter page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens Charge Details from the Encounter page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e251f5b4-2f9c-4013-bacb-c6a0fcb100cf</UniqueID>
+    <ParentID>MSS-03965e63-72f5-45bb-a3bd-b20c7ffb3a34</ParentID>
+    <Description>The system displays charge details (UC-29-3)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system displays charge details (\cf1\ul UC-29-3\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-31f52f31-6dce-4da1-91ac-8cb41ca9e990</UniqueID>
+    <ParentID>MSS-03965e63-72f5-45bb-a3bd-b20c7ffb3a34</ParentID>
+    <Description>User can make any change that's normally available on the Corrections page (except for refunds).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User can make any change that's normally available on the Corrections page (except for refunds).\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b256c625-e113-416d-bb64-ced5b7c2291c</UniqueID>
+    <ParentID>MSS-03965e63-72f5-45bb-a3bd-b20c7ffb3a34</ParentID>
+    <Description>They system provisionally applies changes and enables the "Apply Changes" button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 They system provisionally applies changes and enables the "Apply Changes" button.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b5a3b841-dd0b-4a82-b424-ada9ffb3502e</UniqueID>
+    <ParentID>MSS-03965e63-72f5-45bb-a3bd-b20c7ffb3a34</ParentID>
+    <Description>User presses the Apply Changes button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User presses the Apply Changes button.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6f8a8aa6-0c84-4733-b44e-df72ae90f8d8</UniqueID>
+    <ParentID>MSS-03965e63-72f5-45bb-a3bd-b20c7ffb3a34</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system requests confirmation.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9c5edc5e-3649-4d03-bee4-15430b0614a8</UniqueID>
+    <ParentID>MSS-03965e63-72f5-45bb-a3bd-b20c7ffb3a34</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-221d288f-5afb-4993-9f89-d9b6c40ca252</UniqueID>
+    <ParentID>MSS-03965e63-72f5-45bb-a3bd-b20c7ffb3a34</ParentID>
+    <Description>The system immediately applies user changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system immediately applies user changes.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1b4f3964-9ced-4776-b72d-05a55190864e</UniqueID>
+    <ParentID>X-dd0bb867-2bcd-4472-9214-b21f6a175c5a</ParentID>
+    <Description>The system does not allow to make any changes to the charge.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system does not allow to make any changes to the charge.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ee361b2d-f2f2-4d0d-9f8e-c88c384bfdd1</UniqueID>
+    <ParentID>X-9bd0427c-2b14-4dee-9cef-01b1ba5be3e4</ParentID>
+    <Description>The system immediately cancels all changes made by the user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system immediately cancels all changes made by the user.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6295f000-d9ba-4c72-943c-b60300a6df76</UniqueID>
+    <ParentID>MSS-9e29a364-b646-456f-97be-40261d47b035</ParentID>
+    <Description>The system prompts user to select insurance to rebill from a dropdown (format: &lt;Type&gt; &lt;Carrier&gt; &lt;plan #&gt;). The dropdown contains all insurances that fall within the following criteria:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system prompts user to select insurance to rebill from a dropdown (format: &lt;Type&gt; &lt;Carrier&gt; &lt;plan #&gt;). The dropdown contains all insurances that fall within the following criteria:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-68ccd18d-bb0e-422b-a1bc-5de0c9506c99</UniqueID>
+    <ParentID>MSS-9e29a364-b646-456f-97be-40261d47b035</ParentID>
+    <Description>The system also displays total amount of charges to rebill.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system also displays total amount of charges to rebill.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-427c68c1-7dc1-46e3-bfbd-11d5cbd28f75</UniqueID>
+    <ParentID>MSS-9e29a364-b646-456f-97be-40261d47b035</ParentID>
+    <Description>User selects insurance to rebill.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects insurance to rebill.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7a03b5ac-e5bf-4b05-a721-dd099160c3d5</UniqueID>
+    <ParentID>MSS-9e29a364-b646-456f-97be-40261d47b035</ParentID>
+    <Description>User confirms rebill.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms rebill.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-99619836-73b5-4ed5-bd01-294884f98579</UniqueID>
+    <ParentID>MSS-9e29a364-b646-456f-97be-40261d47b035</ParentID>
+    <Description>The system:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system:\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5400c12e-68a9-4145-a08a-df7ffe8d80fa</UniqueID>
+    <ParentID>ST-99619836-73b5-4ed5-bd01-294884f98579</ParentID>
+    <Description>Rebills all non-voided insurance line items (i.e. creates charges for all insurance line items for that encounter). These charges are ready to be added to a charge batch.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Rebills all non-voided insurance \cf1 line items\cf0  (i.e. creates charges for all insurance \cf1 line items\cf2  for that encounter). These charges are ready to be added to a \cf1 charge batch\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-db04e5c5-b7f0-41c3-9e00-7fdbca352ac2</UniqueID>
+    <ParentID>ST-99619836-73b5-4ed5-bd01-294884f98579</ParentID>
+    <Description>Adds "Rebill" event to Transaction History of all affected charges.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Adds "Rebill" event to Transaction History of all affected charges.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c462a2fd-2232-4e7d-af63-b4b785d1354a</UniqueID>
+    <ParentID>MSS-9e29a364-b646-456f-97be-40261d47b035</ParentID>
+    <Description>Rebilled charges must contain most recent insurance information, while diagnosis information must be taken from the original charge. This requirement is applicable even if the charge was originally billed to Primary - Carrier 1, and updated information states that Primary is now Carrier 2; the system must create a charge for Carrier 2.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Rebilled charges must contain \cf1 most recent insurance information, while \cf2 diagnosis\cf1  information must be taken from the original charge. This requirement is applicable even if the charge was originally billed to Primary - \cf2 Carrier\cf1  1, and updated information states that Primary is now \cf2 Carrier\cf1  2; the system must create a charge for \cf2 Carrier\cf1  2.\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b730346b-a5cb-4959-ad3b-2c0387dcb9e6</UniqueID>
+    <ParentID>MSS-d5c49bf2-5f7b-4940-bfed-ef999b2276fb</ParentID>
+    <Description>User initiates bulk rebill from the Account page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User initiates bulk rebill from the Account page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-71b57fc7-70bc-4a83-a589-bd7f3aebca51</UniqueID>
+    <ParentID>MSS-d5c49bf2-5f7b-4940-bfed-ef999b2276fb</ParentID>
+    <Description>The system displays a dialog that contains the following:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays a dialog that contains the following:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-610cabb5-8e83-4b8a-ba0a-caaa49fc647f</UniqueID>
+    <ParentID>ST-71b57fc7-70bc-4a83-a589-bd7f3aebca51</ParentID>
+    <Description>Insurance Type Dropdown (insurance is shown in this list if at least one date of service has a coverage that includes this insurance type):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Insurance Type Dropdown (insurance is shown in this list if at least one date of service has a coverage that includes this insurance type):\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-72aa109d-0e35-4e52-bdf6-c2f8919bb102</UniqueID>
+    <ParentID>ST-6295f000-d9ba-4c72-943c-b60300a6df76</ParentID>
+    <Description>Are in the coverage that includes this Encounter</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Are in the coverage that includes this Encounter\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6d5c788e-4620-421f-9878-1de4d564f885</UniqueID>
+    <ParentID>ST-6295f000-d9ba-4c72-943c-b60300a6df76</ParentID>
+    <Description>Already have a charge created for them</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Already have a charge created for them\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dc0e7847-3102-4fda-be53-728220ba3ebf</UniqueID>
+    <ParentID>ST-610cabb5-8e83-4b8a-ba0a-caaa49fc647f</ParentID>
+    <Description>Primary Insurance</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Primary Insurance\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8c1cd6e3-f9f1-4220-9dff-1c45df90b250</UniqueID>
+    <ParentID>ST-610cabb5-8e83-4b8a-ba0a-caaa49fc647f</ParentID>
+    <Description>Secondary Insurance</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Secondary Insurance\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b4df7595-6340-4e09-ba52-30df68795d3e</UniqueID>
+    <ParentID>ST-610cabb5-8e83-4b8a-ba0a-caaa49fc647f</ParentID>
+    <Description>Tertiary Insurance</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Tertiary Insurance\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-84b74dbc-6853-40d8-85d2-9e1ebc7d5f13</UniqueID>
+    <ParentID>ST-71b57fc7-70bc-4a83-a589-bd7f3aebca51</ParentID>
+    <Description>Encounter list (full list, no pagination). For each encounter, the system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Encounter list (full list, no pagination). For each encounter, the system displays:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-92c1673e-212d-49e7-bd0f-c7d2f2ef5be7</UniqueID>
+    <ParentID>ST-84b74dbc-6853-40d8-85d2-9e1ebc7d5f13</ParentID>
+    <Description>Selection check box (cleared by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Selection check box (cleared by default)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d1fa106d-ac07-44c9-9c45-8e73a0ef429c</UniqueID>
+    <ParentID>ST-84b74dbc-6853-40d8-85d2-9e1ebc7d5f13</ParentID>
+    <Description>Encounter ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Encounter ID\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-869dc489-5ac1-4318-8682-ca877c0113e4</UniqueID>
+    <ParentID>ST-84b74dbc-6853-40d8-85d2-9e1ebc7d5f13</ParentID>
+    <Description>Date of Service </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Date of \cf1 Service \cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fcaa7d0d-2d15-4ea6-b359-4b7d9f6b5de1</UniqueID>
+    <ParentID>ST-84b74dbc-6853-40d8-85d2-9e1ebc7d5f13</ParentID>
+    <Description>Insurance Type</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Insurance Type\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b18362df-1baa-4e1a-adc3-db268892acff</UniqueID>
+    <ParentID>ST-84b74dbc-6853-40d8-85d2-9e1ebc7d5f13</ParentID>
+    <Description>Carrier</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Carrier\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8cf60a7f-18b2-486e-9ad3-d0098cc7f39c</UniqueID>
+    <ParentID>ST-84b74dbc-6853-40d8-85d2-9e1ebc7d5f13</ParentID>
+    <Description>Plan #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Plan #\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-419f2911-7c30-4b31-bd94-0a531bc49773</UniqueID>
+    <ParentID>ST-84b74dbc-6853-40d8-85d2-9e1ebc7d5f13</ParentID>
+    <Description>Charges for selected Insurance </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Charges for selected \cf1 Insurance \cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e2022b01-194d-443b-bb6d-ea45df440c86</UniqueID>
+    <ParentID>ST-84b74dbc-6853-40d8-85d2-9e1ebc7d5f13</ParentID>
+    <Description>Notes:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Notes:\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f4ca10b9-1343-4513-938c-021e82a4e72c</UniqueID>
+    <ParentID>ST-e2022b01-194d-443b-bb6d-ea45df440c86</ParentID>
+    <Description>"Cannot select for bulk rebill - no &lt;selected_type&gt; insurance for this DOS". - this note shows up if user selects insurance type that does not cover this date of service. User cannot select such encounter for rebill.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Cannot select for bulk rebill - no &lt;selected_type&gt; insurance for this DOS". - this note shows up if user selects insurance type that does not cover this date of service. User cannot select such encounter for rebill.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-86fcc004-1007-4b5e-bf63-2553c640b4c8</UniqueID>
+    <ParentID>ST-e2022b01-194d-443b-bb6d-ea45df440c86</ParentID>
+    <Description>"Cannot select for bulk rebill - no charges for &lt;type&gt; insurance". - this note shows up if there are no charges created for selected insurance type (for example, we select Secondary in the dropdown, and in this encounter Primary was charged, nothing was transferred to Secondary yet).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Cannot select for bulk rebill - no charges for &lt;type&gt; insurance". - this note shows up if there are no charges created for selected insurance type (\i for example, we select Secondary in the dropdown, and in this encounter Primary was charged, nothing was transferred to Secondary yet\i0 ).\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6c021dd4-7f58-4484-9dd9-ad675a191507</UniqueID>
+    <ParentID>ST-71b57fc7-70bc-4a83-a589-bd7f3aebca51</ParentID>
+    <Description>Rebill summary text: "You are about to rebill &lt;#&gt; encounters to &lt;selected_ins_type&gt;"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rebill summary text: "You are about to rebill &lt;#&gt; encounters to &lt;selected_ins_type&gt;"\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c46ee7fe-7cf1-4afd-9db1-7962eed61fd7</UniqueID>
+    <ParentID>MSS-d5c49bf2-5f7b-4940-bfed-ef999b2276fb</ParentID>
+    <Description>User selects insurance type, selects encounters to rebill and confirms rebill (presses the button)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User selects insurance type, selects encounters to rebill and confirms rebill (presses the button)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-601f3c5b-c57c-4e8e-821b-1ab6795c6fc3</UniqueID>
+    <ParentID>ST-71b57fc7-70bc-4a83-a589-bd7f3aebca51</ParentID>
+    <Description>Controls:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Controls:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-35946106-299d-4a66-b735-19d2e0f422ae</UniqueID>
+    <ParentID>ST-601f3c5b-c57c-4e8e-821b-1ab6795c6fc3</ParentID>
+    <Description>Rebill - rebills selected encounters, not available until at least one encounter is selected</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rebill - rebills selected encounters, not available until at least one encounter is selected\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-45712387-519d-4ab9-a5f1-a712d3f79ded</UniqueID>
+    <ParentID>ST-601f3c5b-c57c-4e8e-821b-1ab6795c6fc3</ParentID>
+    <Description>Cancel - closes the dialog and cancels the scenario.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Cancel - closes the dialog and cancels the scenario.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b1e6446f-4f24-42c4-a95c-523332c5126f</UniqueID>
+    <ParentID>MSS-d5c49bf2-5f7b-4940-bfed-ef999b2276fb</ParentID>
+    <Description>The system rebills selected encounters (see steps 6-7 in UC-29-6). Bulk rebill works exactly like encounter-level rebill, just allows to select multiple encounters at once.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system rebills selected encounters (see steps 6-7 in \cf2\ul UC-29-6\cf1\ulnone ). \i Bulk rebill works exactly like encounter-level rebill, just allows to select multiple encounters at once\i0 .\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d54187c7-9683-4dfe-8ba1-4cde17c8b637</UniqueID>
+    <ParentID>MSS-1280bc46-3d50-4ec1-ad77-8fba2c175d88</ParentID>
+    <Description>User clicks "Apply Discount".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User clicks "Apply Discount".\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4be0cceb-bf2d-4e65-9d89-f1e57bdeddc7</UniqueID>
+    <ParentID>MSS-1280bc46-3d50-4ec1-ad77-8fba2c175d88</ParentID>
+    <Description>The system displays a dialog with:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system displays a dialog with:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ba195f26-0881-4708-92d5-7006e301d621</UniqueID>
+    <ParentID>ST-4be0cceb-bf2d-4e65-9d89-f1e57bdeddc7</ParentID>
+    <Description>Text: "You are about to apply XX% patient discount to this encounter. Are you sure the patient is eligible for the discount?"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Text: "You are about to apply XX% \cf2\ul patient\cf1\ulnone  discount to this encounter. Are you sure the \cf2\ul patient\cf1\ulnone  is eligible for the discount?"\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-96cf668f-895a-46f5-a444-a3befa222b83</UniqueID>
+    <ParentID>ST-4be0cceb-bf2d-4e65-9d89-f1e57bdeddc7</ParentID>
+    <Description>Check box in red bold font "Yes, patient is eligible. Payment for this encounter was received on or before &lt;date_of_service&gt;". (cleared by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Check box in red bold font "Yes, \cf2\ul patient\cf1\ulnone  is eligible. Payment for this encounter was received on or before &lt;date_of_service&gt;". (cleared by default)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-42062eb5-d18a-43a5-ab37-c7b0c1f4f805</UniqueID>
+    <ParentID>MSS-1280bc46-3d50-4ec1-ad77-8fba2c175d88</ParentID>
+    <Description>User selects the check box.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User selects the check box.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-66f0c63c-086a-4f22-979a-56be7668f07a</UniqueID>
+    <ParentID>MSS-1280bc46-3d50-4ec1-ad77-8fba2c175d88</ParentID>
+    <Description>The system enables the Apply Discount button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system enables the Apply Discount button.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-66d8893e-90ed-472a-abef-f2ef7f541274</UniqueID>
+    <ParentID>ST-4be0cceb-bf2d-4e65-9d89-f1e57bdeddc7</ParentID>
+    <Description>Controls:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Controls:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bf827d84-e477-4f5c-bac1-b6a7b8c077bc</UniqueID>
+    <ParentID>ST-66d8893e-90ed-472a-abef-f2ef7f541274</ParentID>
+    <Description>Cancel - closes the dialog</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Cancel - closes the dialog\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fb8c6c93-f570-47a1-8b04-41b96be3e666</UniqueID>
+    <ParentID>ST-66d8893e-90ed-472a-abef-f2ef7f541274</ParentID>
+    <Description>Apply Discount (disabled if the check box is not selected)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Apply Discount (disabled if the check box is not selected)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-37b4d5d3-f6d3-4307-8010-2c7944b52763</UniqueID>
+    <ParentID>MSS-1280bc46-3d50-4ec1-ad77-8fba2c175d88</ParentID>
+    <Description>User presses Apply Discount.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User presses Apply Discount.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ae1b0848-9d05-4f62-8f0d-ed2b257e3d48</UniqueID>
+    <ParentID>MSS-1280bc46-3d50-4ec1-ad77-8fba2c175d88</ParentID>
+    <Description>The system applies discount to all self-pay procedures by posting an adjustment to all such procedures (Adjustment amount = % of the original charge as set up for the company; Adjustment Reason - 'Point of Service').</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system applies discount to all self-pay \cf2 procedures\cf1  by posting an \cf2 adjustment\cf1  to all such \cf2 procedures\cf1  (\cf2 Adjustment\cf1  amount = % of the original charge as set up for the company; \cf2 Adjustment\cf1  Reason - \cf0 'Point of Service'\cf1 ).\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-50d3a403-0e1c-46e8-8a78-101bb3efd8f5</UniqueID>
+    <ParentID>MSS-8cd7b399-634b-4bb1-bce0-aaac06414a60</ParentID>
+    <Description>User initiates bulk discount from the Account page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User initiates bulk discount from the Account page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c740cb64-3dc5-4871-8e0e-9100efc824ea</UniqueID>
+    <ParentID>MSS-8cd7b399-634b-4bb1-bce0-aaac06414a60</ParentID>
+    <Description>The system displays a dialog that contains the following:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays a dialog that contains the following:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-369fffd6-7a6d-4738-9b55-4a5a89c97ee6</UniqueID>
+    <ParentID>ST-c740cb64-3dc5-4871-8e0e-9100efc824ea</ParentID>
+    <Description>Text: "You are applying &lt;20%&gt; discount to self-paid encounters. Select encounters you want to discount from the list below."</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Text: "You are applying &lt;20%&gt; discount to self-paid encounters. Select encounters you want to discount from the list below."\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e40ae91e-9458-4ccd-913e-a7af7ab553d0</UniqueID>
+    <ParentID>ST-c740cb64-3dc5-4871-8e0e-9100efc824ea</ParentID>
+    <Description>Encounter list (full list, no pagination). For each encounter, the system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Encounter list (full list, no pagination). For each encounter, the system displays:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d50e5686-606d-4009-a82f-071e11d7b5bb</UniqueID>
+    <ParentID>ST-e40ae91e-9458-4ccd-913e-a7af7ab553d0</ParentID>
+    <Description>Selection check box (cleared by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Selection check box (cleared by default)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4e492c34-9f24-45e5-99f2-7c98d4b9e2af</UniqueID>
+    <ParentID>ST-e40ae91e-9458-4ccd-913e-a7af7ab553d0</ParentID>
+    <Description>Encounter ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Encounter ID\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6f109a9b-e83d-421a-86a8-71550d36e02c</UniqueID>
+    <ParentID>ST-e40ae91e-9458-4ccd-913e-a7af7ab553d0</ParentID>
+    <Description>Date of Service </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Date of \cf1 Service \cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9a01d566-bc21-4ccc-a98e-e48a66f182b3</UniqueID>
+    <ParentID>ST-e40ae91e-9458-4ccd-913e-a7af7ab553d0</ParentID>
+    <Description>Charge Amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Charge Amount\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9ae304f1-1cc7-4672-9a4f-8b6f3ba2af91</UniqueID>
+    <ParentID>ST-e40ae91e-9458-4ccd-913e-a7af7ab553d0</ParentID>
+    <Description>Notes:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Notes:\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4e28cc35-aafa-48a8-b54a-d40a2c3d29c4</UniqueID>
+    <ParentID>ST-9ae304f1-1cc7-4672-9a4f-8b6f3ba2af91</ParentID>
+    <Description>"Cannot select for bulk discount - Discount already applied". - this note shows up if the system detects that discount has already been applied to all line items. User cannot select such encounter for discount.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Cannot select for bulk discount - Discount already applied". - this note shows up if the system detects that discount has already been applied to all \cf2 line items\cf1 . User cannot select such encounter for discount.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-88976716-827b-46de-b7b5-240224b81fac</UniqueID>
+    <ParentID>ST-9ae304f1-1cc7-4672-9a4f-8b6f3ba2af91</ParentID>
+    <Description>"Cannot select for bulk discount - Not a self-pay encounter". - this note shows up if there are no self-pay charges in the encounter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Cannot select for bulk discount - Not a self-pay encounter". - this note shows up if there are no self-pay charges in the encounter.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-271efe2e-643f-4404-a39c-2c9b2144a3b7</UniqueID>
+    <ParentID>ST-c740cb64-3dc5-4871-8e0e-9100efc824ea</ParentID>
+    <Description>Rebill summary text: "You about to apply the discount to &lt;#&gt; encounters. Total discount amount is &lt;discount_amount&gt;. Are you sure the patient is eligible for discount?"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rebill summary text: "You about to apply the discount to &lt;#&gt; encounters. Total \cf2 discount amount\cf1  is &lt;discount_amount&gt;. Are you sure the \cf3\ul patient\cf1\ulnone  is eligible for discount?"\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-356f8485-8aae-4cf8-8f35-2e8f82a158ce</UniqueID>
+    <ParentID>ST-c740cb64-3dc5-4871-8e0e-9100efc824ea</ParentID>
+    <Description>Controls:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Controls:\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-93e60936-bd8b-4b53-966f-56996e3b4ddd</UniqueID>
+    <ParentID>MSS-8cd7b399-634b-4bb1-bce0-aaac06414a60</ParentID>
+    <Description>User selects encounters to apply discount to, selects the "Yes..." check box and confirms discount (presses the button)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User selects encounters to apply discount to, selects the "Yes..." check box and confirms discount (presses the button)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-91d6c769-ec13-43c9-a0e0-941a89652ebd</UniqueID>
+    <ParentID>MSS-8cd7b399-634b-4bb1-bce0-aaac06414a60</ParentID>
+    <Description>The system applies discount to selected encounters (see steps 6-7 in UC-29-8). Bulk discount works exactly like encounter-level discount, just allows to select multiple encounters at once.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system applies discount to selected encounters (see steps 6-7 in \cf2\ul UC-29-8\cf1\ulnone ). \i Bulk discount works exactly like encounter-level discount, just allows to select multiple encounters at once\i0 .\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d063f2a5-f30a-4c19-a24c-9c4d916e1670</UniqueID>
+    <ParentID>ST-c740cb64-3dc5-4871-8e0e-9100efc824ea</ParentID>
+    <Description>Check box in red bold font "Yes, patient is eligible. I confirm that payments for selected encounters were received on or before respective dates of service". (cleared by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Check box in red bold font "Yes, \cf2\ul patient\cf1\ulnone  is eligible. I confirm that payments for selected encounters were received on or before respective dates of service". (cleared by default)\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b0ffd407-88fe-4d4f-bd3f-6efd0c99eb44</UniqueID>
+    <ParentID>ST-356f8485-8aae-4cf8-8f35-2e8f82a158ce</ParentID>
+    <Description>Cancel - closes the dialog</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Cancel - closes the dialog\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4dee7d21-17bf-4a6c-ac2b-1ec51b5630ba</UniqueID>
+    <ParentID>ST-356f8485-8aae-4cf8-8f35-2e8f82a158ce</ParentID>
+    <Description>Apply Discount (disabled if the "Yes..." check box is not selected and/or no encounters are selected)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Apply Discount (disabled if the "Yes..." check box is not selected and/or no encounters are selected)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4b0dbabb-8ce5-4a86-b598-43a4ad3ba9de</UniqueID>
+    <ParentID>MSS-e6dbe8a6-08c3-455c-b9f5-166bf1c4037d</ParentID>
+    <Description>User initiates deposit transfer.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User initiates deposit transfer.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d39cfab9-e8b7-4572-a027-a5b224a0da8a</UniqueID>
+    <ParentID>MSS-e6dbe8a6-08c3-455c-b9f5-166bf1c4037d</ParentID>
+    <Description>The system displays a dialog that contains:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays a dialog that contains:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c3e92d4e-d35c-48cb-88d7-ef5d0ddef509</UniqueID>
+    <ParentID>ST-d39cfab9-e8b7-4572-a027-a5b224a0da8a</ParentID>
+    <Description>Case ID </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Case\cf2  ID \cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1f8cfef6-a9d9-465a-ad66-cc735189bff7</UniqueID>
+    <ParentID>ST-d39cfab9-e8b7-4572-a027-a5b224a0da8a</ParentID>
+    <Description>Current deposit balance  </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Current deposit \cf1 balance  \cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8250fed3-ced6-4aee-8a96-6b0a219bd64c</UniqueID>
+    <ParentID>ST-d39cfab9-e8b7-4572-a027-a5b224a0da8a</ParentID>
+    <Description>Case selector (searchable dropdown)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Case\cf2  selector (searchable dropdown)\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-46d18f80-102e-42f4-a09c-e105ada632c8</UniqueID>
+    <ParentID>ST-d39cfab9-e8b7-4572-a027-a5b224a0da8a</ParentID>
+    <Description>"Transfer to another patient's case" check box (cleared by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Transfer to another \cf2\ul patient\cf1\ulnone 's case" check box (cleared by default)\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-04dff21e-e90b-4e55-9175-79ddf892e734</UniqueID>
+    <ParentID>ST-d39cfab9-e8b7-4572-a027-a5b224a0da8a</ParentID>
+    <Description>'Note' text field</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 'Note' text field\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fd7eeaea-e2a1-459d-bf35-e0d0ec0b453a</UniqueID>
+    <ParentID>ST-d39cfab9-e8b7-4572-a027-a5b224a0da8a</ParentID>
+    <Description>All fields are mandatory</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\i\f0\fs20 All fields are mandatory\i0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ee2c9539-06d7-4c8d-bb13-1bd9ca5e9d39</UniqueID>
+    <ParentID>MSS-e6dbe8a6-08c3-455c-b9f5-166bf1c4037d</ParentID>
+    <Description>User enters amount to transfer (cannot exceed current deposit balance)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User enters amount to transfer (cannot exceed current deposit balance)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4ccff07d-2c62-42bc-aabc-ac9a49a2c25a</UniqueID>
+    <ParentID>ST-d39cfab9-e8b7-4572-a027-a5b224a0da8a</ParentID>
+    <Description>'Transfer amount' text field</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 'Transfer amount' text field\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-832fc25c-f247-4074-8c66-a79bd92971ad</UniqueID>
+    <ParentID>MSS-e6dbe8a6-08c3-455c-b9f5-166bf1c4037d</ParentID>
+    <Description>User selects case:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User selects \cf2 case\cf1 :\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-204760a1-f5e1-4a82-b645-a8dc0ad66e0f</UniqueID>
+    <ParentID>ST-832fc25c-f247-4074-8c66-a79bd92971ad</ParentID>
+    <Description>If check box is left unselected, user can only find same patient's cases in the dropdown (and the system must automatically show the list if dropdown is expanded).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If check box is left unselected, user can only find same \cf2\ul patient\cf1\ulnone 's \cf3 cases\cf1  in the dropdown (and the system must automatically show the list if dropdown is expanded).\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-11cae4e4-b384-4d1f-836a-b13a23ff0967</UniqueID>
+    <ParentID>ST-832fc25c-f247-4074-8c66-a79bd92971ad</ParentID>
+    <Description>If the check box is selected, the system allows to select any case within the same company as the original case.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 If the check box is selected, the system allows to select any \cf1 case\cf2  within the same company as the original \cf1 case\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b88ca667-c601-49ed-8510-64721624ca3d</UniqueID>
+    <ParentID>MSS-ede8c0ee-b2ea-43fc-8fb4-7fb17c8d793c</ParentID>
+    <Description>User opens charge details (UC-29-2 / UC-29-3)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens charge details (\cf1\ul UC-29-2\cf2\ulnone  / \cf1\ul UC-29-3\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5ac9d066-db69-486d-b2fd-84acf6c17783</UniqueID>
+    <ParentID>MSS-ede8c0ee-b2ea-43fc-8fb4-7fb17c8d793c</ParentID>
+    <Description>User clicks Add Note</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clicks Add Note\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cd18f609-fc03-42c7-a3e1-5cad43f8cf92</UniqueID>
+    <ParentID>MSS-ede8c0ee-b2ea-43fc-8fb4-7fb17c8d793c</ParentID>
+    <Description>The system displays text field for the note and controls:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays text field for the note and controls:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3aefaa57-fbe5-4950-99be-fba2021cf45f</UniqueID>
+    <ParentID>ST-cd18f609-fc03-42c7-a3e1-5cad43f8cf92</ParentID>
+    <Description>Cancel - cancels the scenario</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Cancel - cancels the scenario\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-70f072e1-892a-45c2-9fa3-7f593c198b68</UniqueID>
+    <ParentID>ST-cd18f609-fc03-42c7-a3e1-5cad43f8cf92</ParentID>
+    <Description>Add - adds the note (user cannot add an empty note)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Add - adds the note (user cannot add an empty note)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-226e62e2-6ba0-4930-8810-b4fe6f779c21</UniqueID>
+    <ParentID>MSS-ede8c0ee-b2ea-43fc-8fb4-7fb17c8d793c</ParentID>
+    <Description>User adds the note.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User adds the note.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-48ca4869-aa7e-4746-bb3b-9c30939f09d1</UniqueID>
+    <ParentID>MSS-ede8c0ee-b2ea-43fc-8fb4-7fb17c8d793c</ParentID>
+    <Description>The system posts the note (incl. date and name of the user who added the note)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system posts the note (incl. date and name of the user who added the note)\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a414ad2-929b-44cb-89c6-ba35a855def5</UniqueID>
+    <ParentID>X-26a73e3d-c1cd-4daf-89b6-0d4ed95c9ee3</ParentID>
+    <Description>The system reverses patient payment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system reverses \cf1\ul patient\cf2\ulnone  payment.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7d8a2056-407a-4910-89a2-d70e53104afc</UniqueID>
+    <ParentID>X-26a73e3d-c1cd-4daf-89b6-0d4ed95c9ee3</ParentID>
+    <Description>The system moves patient payment to deposit (if applicable)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 The system \cf1 moves \cf2\ul patient\cf1\ulnone  payment to deposit (if applicable)\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c0f4a5f3-9a88-403d-b1ad-c7b29c65d64a</UniqueID>
+    <ParentID>MSS-fc046be5-19c6-4875-8cd7-42158a9ba112</ParentID>
+    <Description>The system marks encounter as "Statements are on hold". The system must display the Statements Hold icon next to the encounter on the Account page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system marks encounter as "Statements are on hold". The system must display the Statements Hold icon next to the encounter on the Account page.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b16df322-a0c5-4863-99ff-d4a8e98857d4</UniqueID>
+    <ParentID>ST-8c31c25d-c1e0-4b67-9481-3ccb11c22378</ParentID>
+    <Description>Go Back button (returns to encounter details)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Go Back button (returns to encounter details)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d9578950-2ade-4b1e-84f1-24d8b472e48f</UniqueID>
+    <ParentID>MSS-e6dbe8a6-08c3-455c-b9f5-166bf1c4037d</ParentID>
+    <Description>User confirms transfer.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms transfer.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8350c84e-ed91-440c-804f-16343dda4d29</UniqueID>
+    <ParentID>MSS-e6dbe8a6-08c3-455c-b9f5-166bf1c4037d</ParentID>
+    <Description>The system moves money from one deposit to another.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system moves money from one deposit to another.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7d90012b-9d87-46b9-bc4a-3d89270b4aa2</UniqueID>
+    <ParentID>MSS-e6dbe8a6-08c3-455c-b9f5-166bf1c4037d</ParentID>
+    <Description>The system adds the following note to both cases on the Home page: “Patient money moved from the deposit of case &lt;ID&gt; to case &lt;ID&gt; deposit by &lt;First Name&gt; &lt;Last Name&gt;. Amount $XX.XX”. Note: &lt;note_text&gt;.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system adds the following note to both \cf1 cases\cf0  on the Home page: \ldblquote Patient money moved from the deposit of \cf1 case\cf0  &lt;ID&gt; to \cf1 case\cf0  &lt;ID&gt; deposit by &lt;First Name&gt; &lt;Last Name&gt;. Amount $XX.XX\rdblquote . Note: &lt;note_text&gt;.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-78b13c96-a689-4b71-b928-c2197687b6c8</UniqueID>
+    <ParentID>X-665dde6c-fc90-47dc-938e-47ef21ebfc65</ParentID>
+    <Description>The system ignores such line item.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system ignores such \cf1 line item\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-03402120-441d-4e0a-b46f-1c0a6ad7c364</UniqueID>
+    <ParentID>MSS-9de0b095-7409-453b-a4c6-ee7d5faa7154</ParentID>
+    <Description>User initiates funds transfer. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User initiates funds transfer. \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f20d4608-355c-4d49-a92c-79a8d9488cec</UniqueID>
+    <ParentID>MSS-9de0b095-7409-453b-a4c6-ee7d5faa7154</ParentID>
+    <Description>The system prompts user to: </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to: \par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6cf83fe7-feb1-4575-be7c-ccdcde429f17</UniqueID>
+    <ParentID>ST-f20d4608-355c-4d49-a92c-79a8d9488cec</ParentID>
+    <Description>Select transfer type: </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Select transfer type: \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9f0afa6e-81d7-4ac4-ab8c-f04c7e711308</UniqueID>
+    <ParentID>ST-6cf83fe7-feb1-4575-be7c-ccdcde429f17</ParentID>
+    <Description>From deposit to procedure (default) </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 From deposit to \cf1 procedure\cf0  (default) \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-75e06d7c-a39b-42c4-a201-06aa379a1dce</UniqueID>
+    <ParentID>ST-6cf83fe7-feb1-4575-be7c-ccdcde429f17</ParentID>
+    <Description>From procedure to deposit</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 From \cf1 procedure\cf0  to deposit\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1ed9c3b0-8552-4c8e-bfec-0caea3b2da80</UniqueID>
+    <ParentID>ST-f20d4608-355c-4d49-a92c-79a8d9488cec</ParentID>
+    <Description>Select procedure (for each procedure/supply, show CPT code, price, number of units / quantity) </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Select \cf1 procedure\cf0  (for each procedure/supply, show \cf1 CPT code\cf0 , price, number of units / quantity) \par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-12170e1d-c61e-4e3a-9997-a182b6314f1a</UniqueID>
+    <ParentID>ST-f20d4608-355c-4d49-a92c-79a8d9488cec</ParentID>
+    <Description>Enter amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Enter amount\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-13755386-ca79-4f75-a26e-d1e1424abdfb</UniqueID>
+    <ParentID>MSS-9de0b095-7409-453b-a4c6-ee7d5faa7154</ParentID>
+    <Description>User changes transfer type, if needed. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User changes transfer type, if needed. \par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6755dd93-d184-4d81-a2fc-37c3a04b776b</UniqueID>
+    <ParentID>MSS-9de0b095-7409-453b-a4c6-ee7d5faa7154</ParentID>
+    <Description>User selects procedure and enters amount.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User selects \cf1 procedure\cf0  and enters amount.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-66c74525-871f-4293-8479-7475d7f81fda</UniqueID>
+    <ParentID>ST-6755dd93-d184-4d81-a2fc-37c3a04b776b</ParentID>
+    <Description>Deposit -&gt; Procedure: Amount cannot exceed deposit amount (but can exceed “patient due” amount). For this action, user can select any procedure, even the one that does not have a patient charge.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Deposit -&gt; \cf1 Procedure\cf0 : Amount cannot exceed deposit amount (but can exceed \ldblquote patient due\rdblquote  amount). For this action, user can select any \cf1 procedure\cf2 , even the one that does not have a \cf3\ul patient\cf2\ulnone  charge.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a07da967-9c82-44b1-aee0-0e2a6c979f7b</UniqueID>
+    <ParentID>ST-6755dd93-d184-4d81-a2fc-37c3a04b776b</ParentID>
+    <Description>Procedure -&gt; Deposit: Amount cannot exceed total amount of patient's payment for the procedure. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Procedure\cf0  -&gt; Deposit: Amount cannot exceed total amount of \cf2\ul patient\cf0\ulnone 's payment for the \cf1 procedure\cf0 . \par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9870d120-be04-4193-9a35-df03783372db</UniqueID>
+    <ParentID>MSS-9de0b095-7409-453b-a4c6-ee7d5faa7154</ParentID>
+    <Description>User saves changes. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User saves changes. \par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4be0d8b9-fb29-48f8-85dc-3b67e34f2de0</UniqueID>
+    <ParentID>MSS-9de0b095-7409-453b-a4c6-ee7d5faa7154</ParentID>
+    <Description>The system adds new payment line to the transaction reflecting the transfer. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system adds new payment line to the transaction reflecting the transfer. \par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dc2e13b6-dcff-4d84-8436-414205d76972</UniqueID>
+    <ParentID>X-d0fe3796-561f-4fd3-823f-73541caca28c</ParentID>
+    <Description>The system prompts user to select insurance to redirect these charges to (Primary/Secondary/Tertiary - everything that's available for this DOS)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to select insurance to redirect these charges to (Primary/Secondary/Tertiary - everything that's available for this DOS)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a07f80b3-0f6b-4373-aca8-cfaea0b4e641</UniqueID>
+    <ParentID>X-d0fe3796-561f-4fd3-823f-73541caca28c</ParentID>
+    <Description>User select insurance to rebill charges to.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User select insurance to rebill charges to.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ca8c2e3b-f9bf-41c7-ab3c-87bf0a358931</UniqueID>
+    <ParentID>X-d0fe3796-561f-4fd3-823f-73541caca28c</ParentID>
+    <Description>The system proceeds with standard rebill procedure.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system proceeds with standard rebill \cf1 procedure\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3b54c40c-3842-4509-b27e-dd70235843ac</UniqueID>
+    <ParentID>X-d0fe3796-561f-4fd3-823f-73541caca28c</ParentID>
+    <Description>If rebill is successful, the system removes charges from the Unknown insurance.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If rebill is successful, the system removes charges from the Unknown insurance.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-dd0bb867-2bcd-4472-9214-b21f6a175c5a</UniqueID>
+    <ParentID>ST-31f52f31-6dce-4da1-91ac-8cb41ca9e990</ParentID>
+    <Description>There are unapplied corrections / refunds / payments for the charge.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 There are unapplied corrections / refunds / payments for the charge.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-9bd0427c-2b14-4dee-9cef-01b1ba5be3e4</UniqueID>
+    <ParentID>ST-b5a3b841-dd0b-4a82-b424-ada9ffb3502e</ParentID>
+    <Description>User navigates away without applying changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User navigates away without applying changes.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-26a73e3d-c1cd-4daf-89b6-0d4ed95c9ee3</UniqueID>
+    <ParentID>ST-99619836-73b5-4ed5-bd01-294884f98579</ParentID>
+    <Description>User is rebilling secondary, there's a transfer to patient in transaction history.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 User is rebilling secondary, there's a \cf1 transfer to \cf2\ul patient\cf1\ulnone  in transaction history.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-665dde6c-fc90-47dc-938e-47ef21ebfc65</UniqueID>
+    <ParentID>ST-ae1b0848-9d05-4f62-8f0d-ed2b257e3d48</ParentID>
+    <Description>One of line items already has a Discount </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 One of \cf1 line items\cf2  already has a Discount \cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-d0fe3796-561f-4fd3-823f-73541caca28c</UniqueID>
+    <ParentID>ST-6295f000-d9ba-4c72-943c-b60300a6df76</ParentID>
+    <Description>User selected Unknown insurance.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selected Unknown insurance.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <ExternalDoc>
+    <UniqueID>EX-8a3e0a6c-ea08-4a54-b07a-9b018b517dff</UniqueID>
+    <ParentID>UC-55ae3089-3836-49f4-90db-c7f7530c102d</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=CBC_Daily_Note__Billed_.html</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-a640cd73-ae1d-40ec-a972-ec3d3de2f2d8</UniqueID>
+    <ParentID>UC-55ae3089-3836-49f4-90db-c7f7530c102d</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=CBC_Daily_Note_Review___Charge_Entry.html</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-74f9c469-8c73-482e-85af-fc8670e77fda</UniqueID>
+    <ParentID>UC-c7787d6e-cd22-4f71-9d45-3761e0effd2d</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=Encounter_Page</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-ea2e0075-01f8-410a-a5e3-563fc42cff34</UniqueID>
+    <ParentID>UC-8c52b655-ce59-47cd-a3ba-c5e71066975b</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=CBC_Daily_Note__Billed_.html</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-de4c4818-cb95-4639-aebf-b44e6d78f10b</UniqueID>
+    <ParentID>UC-eef4f837-448c-47fc-adba-61d5fa986023</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=CBC_Daily_Note__Billed_.html</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-0db1c40c-4ff8-4edc-9174-f79e934bdf03</UniqueID>
+    <ParentID>UC-4391493c-5b33-4074-8cbf-d2d37e6e3194</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=CBC_Daily_Note__Billed_.html</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-62d7b93c-98e5-4fbe-ae81-021dafc88d0d</UniqueID>
+    <ParentID>UC-9750d334-bd40-4950-9318-a4837679d466</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=CBC_Daily_Note__Billed_.html</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-2a370a9a-de88-4766-b617-62062832c82e</UniqueID>
+    <ParentID>UC-ebc7bf6c-17fa-49c5-861a-56147d03647d</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=CBC_Daily_Note__Billed_.html</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-cb897d69-faa6-422f-bb70-a7c897bae165</UniqueID>
+    <ParentID>UC-e0f447a7-0cfa-42ed-ae18-c05454049bfc</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=Encounter_Page</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-dd1e0e1d-6fdf-4a8f-8425-354ce3666653</UniqueID>
+    <ParentID>UC-ec49d9e6-7994-443f-8b39-092f91f1bcd3</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=CBC_Daily_Note__Billed_.html</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-4f47c4e5-3ebd-46b7-81ff-678d878f7cfc</UniqueID>
+    <ParentID>UC-31f4d24e-c25d-4578-8330-11e6388875c4</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=CBC_Daily_Note__Billed_.html</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-56de5ca2-762a-4a29-93c7-7fcb1a53e3e3</UniqueID>
+    <ParentID>UC-4f144fda-b0ed-4ab2-a03a-87c7acb38f67</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=Encounter_Page</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-95f0364d-b62c-4426-8855-8a20962d9732</UniqueID>
+    <ParentID>UC-f9eae5ae-6669-4609-9487-dbe10fa716b8</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=Encounter_Page</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-1da2f205-0028-4d4e-b867-171f60fca8b0</UniqueID>
+    <ParentID>UC-c2fa91a3-6e85-406e-b001-be7374236142</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=Encounter_Page</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-688a0d06-28a5-402f-906a-ea172f9de579</UniqueID>
+    <ParentID>UC-ec87ab29-c98a-450a-bde2-c17bc93e40cc</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=Encounter_Page</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-69f47e08-81a3-4e22-8702-7db78c43bc89</UniqueID>
+    <ParentID>UC-438bf170-9fb7-4623-bd61-b4b54f627216</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=Case___Account</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-0fc53c08-20b0-4025-af03-54bb4f2dda5b</UniqueID>
+    <ParentID>UC-8f9f806f-f08f-4de1-9da3-4a38140741bf</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=Case___Account</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-9759a01c-158d-462d-b6ab-5cefdfd444ba</UniqueID>
+    <ParentID>UC-8c174d04-165a-4038-a0b1-516d8bcd1d85</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=Case___Account</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-29-</DefaultPrefix>
+    <NextValue>20</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-29-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-29-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-29-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

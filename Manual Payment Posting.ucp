@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5088</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-13de5683-4042-478c-80a0-a9a1e7aa3373</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-13de5683-4042-478c-80a0-a9a1e7aa3373</UniqueID>
+    <ExternalParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ExternalParentID>
+    <Name>Manual Payment Posting</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <ElementStub>
+    <ParentID>P-13de5683-4042-478c-80a0-a9a1e7aa3373</ParentID>
+    <Path>Payment Posting.ucp</Path>
+    <ElementID>P-c8005fca-f0f8-43a7-aebb-1d4a926586a2</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-13de5683-4042-478c-80a0-a9a1e7aa3373</ParentID>
+    <Path>Posting Payments.ucp</Path>
+    <ElementID>P-3264c605-529c-4df6-a303-f7e76438060c</ElementID>
+    <Sequence>1</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-13de5683-4042-478c-80a0-a9a1e7aa3373</ParentID>
+    <Path>Payment Posting - Patient.ucp</Path>
+    <ElementID>P-4c9321df-6942-4368-9cab-79c5729f1de7</ElementID>
+    <Sequence>2</Sequence>
+  </ElementStub>
+  <UserID>
+    <DefaultPrefix>UC-76-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-76-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-76-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-76-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

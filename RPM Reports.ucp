@@ -1,0 +1,1483 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5088</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</UniqueID>
+    <ExternalParentID>P-28599d8a-9ecf-4b6b-9b2f-030aba61c653</ExternalParentID>
+    <Name>RPM Reports</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-d8c5bae0-386b-4f3f-8200-2c45fa22a89d</UniqueID>
+    <UserID>UC-72-1</UserID>
+    <ParentID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</ParentID>
+    <Name>Open Reports Page</Name>
+    <Description>User opens the list of available reports</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens the list of available reports\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-01-15T06:48:28.6199316-05:00</DateAdded>
+    <DateModified>2014-01-15T07:54:29.2467286-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-e17bb614-ce7d-47dc-a37e-582656c62425</UniqueID>
+    <UserID>UC-72-2</UserID>
+    <ParentID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</ParentID>
+    <Name>Configure Report Settings</Name>
+    <Description>User configures budgeted values for locations	</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User configures budgeted values for locations\tab\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-01-15T07:53:07.348744-05:00</DateAdded>
+    <DateModified>2014-01-15T11:21:33.6914124-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-b831151b-b956-4024-9a6e-bbb801718317</UniqueID>
+    <UserID>UC-72-3</UserID>
+    <ParentID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</ParentID>
+    <Name>Site Profile Report</Name>
+    <Description>User generates Site Profile Report</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User generates \fs20 Site Profile Report\fs20\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-01-15T08:09:50.6233534-05:00</DateAdded>
+    <DateModified>2014-01-15T15:46:43.3516405-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-d391de78-742e-4259-b492-e32dc7899a04</UniqueID>
+    <UserID>UC-72-4</UserID>
+    <ParentID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</ParentID>
+    <Name>Site Profile Daily Report</Name>
+    <Description>User generates Site Profile Daily Report</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User generates Site Profile Daily Report\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-01-15T08:09:50.6233534-05:00</DateAdded>
+    <DateModified>2014-01-15T11:30:27.1112743-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-61b42b27-e917-4580-b75f-e269cac013c8</UniqueID>
+    <UserID>UC-72-5</UserID>
+    <ParentID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</ParentID>
+    <Name>Physician Referral Trend Report</Name>
+    <Description>User generates Physician Referral Trend Report</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User generates Physician Referral Trend Report\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-01-15T08:09:50.6233534-05:00</DateAdded>
+    <DateModified>2014-01-15T11:31:48.5261877-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-dd3aaafe-89c3-4a28-8979-54f09b6d8a58</UniqueID>
+    <UserID>UC-72-6</UserID>
+    <ParentID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</ParentID>
+    <Name>Charge Code Profile Report</Name>
+    <Description>User generates Charge Code Profile Report</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User generates \cf1 Charge Code\cf0  Profile Report\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-01-15T08:09:50.6233534-05:00</DateAdded>
+    <DateModified>2014-01-15T15:56:05.2979317-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-0a19b0c7-6bf7-4819-b54d-90158e5cb9e3</UniqueID>
+    <UserID>UC-72-7</UserID>
+    <ParentID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</ParentID>
+    <Name>Body Regions Summary Report</Name>
+    <Description>User generates Body Regions Summary Report</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User generates \cf1 Body Regions Summary \cf0 Report\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-01-15T08:09:50.6233534-05:00</DateAdded>
+    <DateModified>2014-01-15T14:01:58.2323145-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-3a920ec4-dbfe-40e6-8efa-740f82938e8c</UniqueID>
+    <UserID>UC-72-8</UserID>
+    <ParentID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</ParentID>
+    <Name>Outcomes for Body Region Report</Name>
+    <Description>User generates Outcomes for Body Region Report</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User generates Outcomes for \cf1 Body Region\cf0  Report\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-01-15T08:09:50.6233534-05:00</DateAdded>
+    <DateModified>2014-01-15T14:01:58.2323145-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-98c700eb-2f80-4cef-99e5-525e2542cfe6</UniqueID>
+    <UserID>UC-72-9</UserID>
+    <ParentID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</ParentID>
+    <Name>Treatment Charge Summary Report</Name>
+    <Description>User generates Treatment Charge Summary Report</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User generates \cf1 Treatment Charge Summary \cf0 Report\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-01-15T08:09:50.6233534-05:00</DateAdded>
+    <DateModified>2014-01-15T15:55:56.6870398-05:00</DateModified>
+  </UseCase>
+  <Scenario>
+    <UniqueID>MSS-d2c2bc2e-ef07-48d8-b029-06d93a991aef</UniqueID>
+    <ParentID>UC-d8c5bae0-386b-4f3f-8200-2c45fa22a89d</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-744364d6-028b-4121-872e-19358232b0d4</UniqueID>
+    <ParentID>UC-e17bb614-ce7d-47dc-a37e-582656c62425</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-5e34f1a4-4a7e-4355-96f5-f35e2538ec48</UniqueID>
+    <ParentID>UC-b831151b-b956-4024-9a6e-bbb801718317</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-e8c8b048-0b1a-4e46-b1a2-178547da8319</UniqueID>
+    <ParentID>UC-d391de78-742e-4259-b492-e32dc7899a04</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-a18c5856-a5a5-47b9-bbcf-2ec7b31efeb2</UniqueID>
+    <ParentID>UC-61b42b27-e917-4580-b75f-e269cac013c8</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-53929499-ae4f-4633-9199-e78477eb6755</UniqueID>
+    <ParentID>UC-dd3aaafe-89c3-4a28-8979-54f09b6d8a58</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-43e858bb-a259-4568-8457-0db3f2269d63</UniqueID>
+    <ParentID>UC-0a19b0c7-6bf7-4819-b54d-90158e5cb9e3</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-549272ae-7839-4adf-ab4b-956e852517d6</UniqueID>
+    <ParentID>UC-3a920ec4-dbfe-40e6-8efa-740f82938e8c</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-b2dd4c31-2019-4cfa-a491-43ebfcc5949d</UniqueID>
+    <ParentID>UC-98c700eb-2f80-4cef-99e5-525e2542cfe6</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-accd6c58-25c3-4519-b4ab-195c2668217f</UniqueID>
+    <UserID>REQ-72-1</UserID>
+    <ParentID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</ParentID>
+    <Name>Holidays in Productivity Projections</Name>
+    <Description>Total number of service days in the Productivity Projections report is determined by location schedules. However, this calculation must exclude national holidays, even if a location has a schedule on that day.
+
+There are 6 national holidays:
+January 01
+May 28
+July 04
+First Monday in September (Labor Day)
+Fourth Thursday in November (Thanksgiving)
+December 25</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Total number of service days in the \cf0 Productivity Projections report is determined by location schedules. However, this calculation must exclude national holidays, even if a location has a schedule on that day.\par
+\par
+There are 6 national holidays:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 January 01\par
+{\pntext\f1\'B7\tab}May 28\par
+{\pntext\f1\'B7\tab}July 04\par
+{\pntext\f1\'B7\tab}First Monday in September (Labor Day)\par
+{\pntext\f1\'B7\tab}Fourth Thursday in November (Thanksgiving)\cf1\par
+\cf0{\pntext\f1\'B7\tab}December 25\cf1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-01-15T07:32:51.4235775-05:00</DateAdded>
+    <DateModified>2014-01-15T07:51:51.8132554-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-5b31c6c4-8a2c-4af3-81cf-3acc83621899</UniqueID>
+    <UserID>REQ-72-2</UserID>
+    <ParentID>P-caf3212b-16bc-4348-8bb9-f82b5bf39d3f</ParentID>
+    <Name>Discipline and Therapist type breakdown</Name>
+    <Description>This means that data is broken down by the following categories (empty categories are not included)
+PT
+PTA
+OT
+OTA
+SLP
+SLPA
+
+Students need a co-signature on all documents and therefore are never included in these reports.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 This means that data is broken down by the following categories (empty categories are not included)\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf2 PT\cf1\par
+\cf2{\pntext\f1\'B7\tab}PTA\cf1\par
+\cf2{\pntext\f1\'B7\tab}OT\cf1\par
+\cf2{\pntext\f1\'B7\tab}OTA\cf1\par
+{\pntext\f1\'B7\tab}SLP\par
+{\pntext\f1\'B7\tab}SLPA\par
+\pard\par
+\cf3\ul Students\cf1\ulnone  need a co-signature on all documents and therefore are never included in these reports.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-01-15T08:25:40.0945443-05:00</DateAdded>
+    <DateModified>2014-01-15T09:36:57.8908645-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-503a9fea-1430-492b-a96f-0269ed67529d</UniqueID>
+    <ParentID>MSS-d2c2bc2e-ef07-48d8-b029-06d93a991aef</ParentID>
+    <Description>User opens reports page (Admin -&gt; AgileRPM Reports)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens reports page (Admin -&gt; AgileRPM Reports)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d19f86c5-f7dc-4c64-b2a7-925f8f0d8c79</UniqueID>
+    <ParentID>MSS-d2c2bc2e-ef07-48d8-b029-06d93a991aef</ParentID>
+    <Description>The system displays the list of available reports with descriptions:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays the list of available reports with descriptions:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f4830228-c697-4336-94ad-fcad7131fb91</UniqueID>
+    <ParentID>ST-d19f86c5-f7dc-4c64-b2a7-925f8f0d8c79</ParentID>
+    <Description>Site Profile</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Site Profile\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-de856381-d57c-45c6-8c86-ffb6a4ca8b42</UniqueID>
+    <ParentID>ST-d19f86c5-f7dc-4c64-b2a7-925f8f0d8c79</ParentID>
+    <Description>Site Profile Daily  </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Site Profile \cf1 Daily  \cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8cc4cab3-36af-4ea4-af30-2319bc105a12</UniqueID>
+    <ParentID>ST-d19f86c5-f7dc-4c64-b2a7-925f8f0d8c79</ParentID>
+    <Description>Productivity Projections</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Productivity Projections\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a7d44057-f02d-4aeb-bef4-e39f7402d17b</UniqueID>
+    <ParentID>MSS-d2c2bc2e-ef07-48d8-b029-06d93a991aef</ParentID>
+    <Description>User can:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User can:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7e64390e-65c6-4f24-a35a-d0d5bd8e79ba</UniqueID>
+    <ParentID>ST-d19f86c5-f7dc-4c64-b2a7-925f8f0d8c79</ParentID>
+    <Description>Physician Referral Trend</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Physician Referral Trend\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c2d6f267-fa2b-4494-92bd-a889d9481f97</UniqueID>
+    <ParentID>ST-d19f86c5-f7dc-4c64-b2a7-925f8f0d8c79</ParentID>
+    <Description>Charge Code Profile</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Charge Code\cf2  Profile\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-03381661-5ad6-484b-b8dc-116a0f197905</UniqueID>
+    <ParentID>ST-d19f86c5-f7dc-4c64-b2a7-925f8f0d8c79</ParentID>
+    <Description>Body Regions Summary</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Body Regions\cf2  Summary\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c2e61289-9999-4430-855b-e2ea95736c33</UniqueID>
+    <ParentID>ST-a7d44057-f02d-4aeb-bef4-e39f7402d17b</ParentID>
+    <Description>Open any report page</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Open any report page\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3386b155-001c-4cd6-a80e-ff810ca452d6</UniqueID>
+    <ParentID>ST-a7d44057-f02d-4aeb-bef4-e39f7402d17b</ParentID>
+    <Description>Open Reporting settings (UC-72-2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Open Reporting settings (\cf1\ul UC-72-2\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5e757932-8e75-41da-b4ad-25d1fb91e4c0</UniqueID>
+    <ParentID>MSS-744364d6-028b-4121-872e-19358232b0d4</ParentID>
+    <Description>User opens report settings</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens report settings\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4913a12d-b1e2-43fc-a789-1dda0bbb686a</UniqueID>
+    <ParentID>MSS-744364d6-028b-4121-872e-19358232b0d4</ParentID>
+    <Description>The system displays the following for each discipline in each location:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays the following for each discipline in each location:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-66e1c41a-10f3-485a-a5ef-3709a64a5391</UniqueID>
+    <ParentID>ST-4913a12d-b1e2-43fc-a789-1dda0bbb686a</ParentID>
+    <Description>Budgeted Visits per Day - number, entered by user</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Budgeted \cf1 Visits\cf0  per Day - number, entered by user\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0d741606-167d-4545-80e6-865b1e907552</UniqueID>
+    <ParentID>ST-4913a12d-b1e2-43fc-a789-1dda0bbb686a</ParentID>
+    <Description>Budgeted Hours per Day - number, entered by user</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Budgeted Hours per Day - \cf0 number, entered by user\cf1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-58614b75-ec4c-44c4-88df-02959cac5c87</UniqueID>
+    <ParentID>ST-4913a12d-b1e2-43fc-a789-1dda0bbb686a</ParentID>
+    <Description>Budgeted Units per Day - number, entered by user</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Budgeted Units per Day - \cf0 number, entered by user\cf1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-85e1a495-d174-4aad-92bb-a73d9b14b3fe</UniqueID>
+    <ParentID>ST-4913a12d-b1e2-43fc-a789-1dda0bbb686a</ParentID>
+    <Description>Budgeted Units per Hour - calculated dynamically, Budgeted_Units / Budgeted_Hours. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Budgeted Units per Hour - calculated dynamically, Budgeted_Units / Budgeted_Hours. \par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c3307bf9-0740-4711-a996-52f1dcb72033</UniqueID>
+    <ParentID>MSS-744364d6-028b-4121-872e-19358232b0d4</ParentID>
+    <Description>User makes changes and saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User makes changes and saves changes.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-08d0b669-c0b7-4ee7-95f9-20519ced0322</UniqueID>
+    <ParentID>MSS-744364d6-028b-4121-872e-19358232b0d4</ParentID>
+    <Description>The system applies changes (fields are only mandatory within a line, it's ok if a line is empty altogether)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system applies changes (fields are only mandatory within a line, it's ok if a line is empty altogether)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a340a290-3cb5-4aa9-a772-4afbdb50a2ec</UniqueID>
+    <ParentID>MSS-5e34f1a4-4a7e-4355-96f5-f35e2538ec48</ParentID>
+    <Description>User opens Site Profile Report page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens \fs20 Site Profile Report page.\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-190aed9a-8482-43ef-ba75-e966e781e56c</UniqueID>
+    <ParentID>MSS-5e34f1a4-4a7e-4355-96f5-f35e2538ec48</ParentID>
+    <Description>User specifies report parameters:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User specifies report parameters:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e4f43135-bce8-4df6-b0fd-a8c0f51fe96f</UniqueID>
+    <ParentID>ST-190aed9a-8482-43ef-ba75-e966e781e56c</ParentID>
+    <Description>Selects date range</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Selects date range\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d0550589-f5d3-47a0-a156-bfc88914b86b</UniqueID>
+    <ParentID>ST-190aed9a-8482-43ef-ba75-e966e781e56c</ParentID>
+    <Description>Selects sites (locations). User can select/clear all (at least one must be selected)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Selects sites (locations). User can select/clear all (at least one must be selected)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dda1aa5e-2d30-4753-89b3-74f3db288b4f</UniqueID>
+    <ParentID>ST-190aed9a-8482-43ef-ba75-e966e781e56c</ParentID>
+    <Description>Selects clinicians - optional. User can select all clinicians in a discipline. If no clinicians selected, report on all clinicians.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Selects \cf1 clinicians\cf2  - optional. User can select all \cf1 clinicians\cf2  in a discipline. If no \cf1 clinicians\cf2  selected, report on all \cf1 clinicians\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-15165b54-58d5-4a89-bc80-f9bb1c9cd4ef</UniqueID>
+    <ParentID>MSS-5e34f1a4-4a7e-4355-96f5-f35e2538ec48</ParentID>
+    <Description>User generates report.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User generates report.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-282ef5fd-fb49-4477-aeba-ae2e5ca9cc51</UniqueID>
+    <ParentID>MSS-5e34f1a4-4a7e-4355-96f5-f35e2538ec48</ParentID>
+    <Description>The system creates report in PDF format. the report has 2 parts:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system creates report in PDF format. the report has 2 parts:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f5ed596f-42ef-4df8-a67f-debec4cba19d</UniqueID>
+    <ParentID>MSS-5e34f1a4-4a7e-4355-96f5-f35e2538ec48</ParentID>
+    <Description>Report metrics explained in the prototype, the PDF page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Report metrics explained in the prototype, the PDF page.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3874fef8-792e-4967-9a29-e0ac9f61dbe8</UniqueID>
+    <ParentID>ST-282ef5fd-fb49-4477-aeba-ae2e5ca9cc51</ParentID>
+    <Description>High-level with data broken down by location and discipline</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 High-level with data broken down by location and discipline\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f8f3e20f-956b-4d71-a467-b825571d108f</UniqueID>
+    <ParentID>ST-282ef5fd-fb49-4477-aeba-ae2e5ca9cc51</ParentID>
+    <Description>Low-level with data broken further down to the clinician level (see REQ-72-2 for details).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Low-level with data broken further down to the \cf1 clinician\cf2  level\cf0  (see \cf3\ul REQ-72-2\cf2\ulnone  for details).\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9433ff73-7f43-41a0-b342-76d073e989fc</UniqueID>
+    <ParentID>MSS-e8c8b048-0b1a-4e46-b1a2-178547da8319</ParentID>
+    <Description>User opens Site Profile Daily Report page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens Site Profile Daily Report page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-32d9aecc-0127-4dc0-a7c8-5e0c815aa78c</UniqueID>
+    <ParentID>MSS-e8c8b048-0b1a-4e46-b1a2-178547da8319</ParentID>
+    <Description>User specifies report parameters:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User specifies report parameters:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f2c559f9-b94f-46f6-9843-2c8d47d66a59</UniqueID>
+    <ParentID>ST-32d9aecc-0127-4dc0-a7c8-5e0c815aa78c</ParentID>
+    <Description>Selects month (from implemention to current month)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Selects \cf1 month (from implemention to current month)\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-08131e55-7491-4903-b51b-6ef560ad3d45</UniqueID>
+    <ParentID>ST-32d9aecc-0127-4dc0-a7c8-5e0c815aa78c</ParentID>
+    <Description>Selects sites (locations). User can select/clear all (at least one must be selected)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Selects sites (locations). User can select/clear all (at least one must be selected)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-29dd3725-c1f0-4fe7-9f9b-a8c4488d3077</UniqueID>
+    <ParentID>ST-32d9aecc-0127-4dc0-a7c8-5e0c815aa78c</ParentID>
+    <Description>Selects clinicians - optional. User can select all clinicians in a discipline. If no clinicians selected, report on all clinicians.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Selects \cf1 clinicians\cf2  - optional. User can select all \cf1 clinicians\cf2  in a discipline. If no \cf1 clinicians\cf2  selected, report on all \cf1 clinicians\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e4555b3b-8f22-4643-9830-87fbcfcc1e23</UniqueID>
+    <ParentID>MSS-e8c8b048-0b1a-4e46-b1a2-178547da8319</ParentID>
+    <Description>User generates report.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User generates report.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8629c04a-e901-44fd-b61c-6760310f596d</UniqueID>
+    <ParentID>MSS-e8c8b048-0b1a-4e46-b1a2-178547da8319</ParentID>
+    <Description>The system creates report in PDF format. Data is broken down by days in selected month. The report has 2 parts:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system creates report in PDF format. Data is broken down by days in selected month. The report has 2 parts:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9fcdd728-1853-4ba2-99e8-257b3f887251</UniqueID>
+    <ParentID>ST-8629c04a-e901-44fd-b61c-6760310f596d</ParentID>
+    <Description>High-level with location-level data</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 High-level with location-level data\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6d9b75b4-520c-4145-a059-1f2331176ede</UniqueID>
+    <ParentID>ST-8629c04a-e901-44fd-b61c-6760310f596d</ParentID>
+    <Description>Low-level with clinician-level data</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Low-level with clinician-level data\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2fc0804c-60fc-4e03-9f14-e05d8a2d044c</UniqueID>
+    <ParentID>MSS-e8c8b048-0b1a-4e46-b1a2-178547da8319</ParentID>
+    <Description>Report metrics explained in the prototype, the PDF page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Report metrics explained in the prototype, the PDF page.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-eccb36c7-3bf9-4dcb-a2ed-4911fdce4f76</UniqueID>
+    <ParentID>MSS-a18c5856-a5a5-47b9-bbcf-2ec7b31efeb2</ParentID>
+    <Description>User opens Physician Referral Trend Report page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens Physician Referral Trend Report page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c1f8f6fa-f0f6-4b9a-88d5-add3b5d41a15</UniqueID>
+    <ParentID>MSS-a18c5856-a5a5-47b9-bbcf-2ec7b31efeb2</ParentID>
+    <Description>User specifies report parameters:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User specifies report parameters:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bcb80284-19df-4d37-b72b-c8ec8e001596</UniqueID>
+    <ParentID>ST-c1f8f6fa-f0f6-4b9a-88d5-add3b5d41a15</ParentID>
+    <Description>Date range (Referral date is used to determine whether a referral should be included in the report)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Date range (Referral date is used to determine whether a referral should be included in the report)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e8092aaa-de25-4cb6-8817-88ba022904cf</UniqueID>
+    <ParentID>ST-c1f8f6fa-f0f6-4b9a-88d5-add3b5d41a15</ParentID>
+    <Description>Selects sites (locations). User can select/clear all (at least one must be selected)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Selects sites (locations). User can select/clear all (at least one must be selected)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0cc4c1ac-74ba-4177-973d-175f43fe2fd9</UniqueID>
+    <ParentID>MSS-a18c5856-a5a5-47b9-bbcf-2ec7b31efeb2</ParentID>
+    <Description>User generates report.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User generates report.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-964f0cf0-3534-46e6-831d-e79de3118d35</UniqueID>
+    <ParentID>MSS-a18c5856-a5a5-47b9-bbcf-2ec7b31efeb2</ParentID>
+    <Description>The system creates report in PDF format. Data is broken down by referring physician and further by location. Timeframe for columns is always 1 month.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system creates report in PDF format. Data is broken down by \cf1 referring physician\cf2  and further by location. Timeframe for columns is always 1 month.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-03058d9a-b410-45ca-bbc4-530465d711a1</UniqueID>
+    <ParentID>MSS-a18c5856-a5a5-47b9-bbcf-2ec7b31efeb2</ParentID>
+    <Description>Report metrics explained in the prototype, the PDF page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Report metrics explained in the prototype, the PDF page.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e7e05aba-f925-40fb-b81a-96f4f246f3b2</UniqueID>
+    <ParentID>MSS-53929499-ae4f-4633-9199-e78477eb6755</ParentID>
+    <Description>User opens Charge Code Profile Report page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 Charge Code\cf0  Profile Report page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bc7296a0-64ed-4619-bfa7-598c958df090</UniqueID>
+    <ParentID>MSS-53929499-ae4f-4633-9199-e78477eb6755</ParentID>
+    <Description>User specifies report parameters:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User specifies report parameters:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-adcad734-b54f-49bc-bd9a-96ece2b7cc06</UniqueID>
+    <ParentID>ST-bc7296a0-64ed-4619-bfa7-598c958df090</ParentID>
+    <Description>Date range (service dates)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Date range (service dates)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-788186de-17a3-4a22-9111-4967d62e2dcf</UniqueID>
+    <ParentID>ST-bc7296a0-64ed-4619-bfa7-598c958df090</ParentID>
+    <Description>Clears/Selects option "Do not include Medicare G-Codes user for Functional Outcomes reporting and PQRS", option is selected by default. If selected, all charge codes linked to FO/PQRS G-codes are omitted from the report.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Clears/Selects option "Do not include Medicare G-Codes user for \cf1 Functional Outcomes\cf0  reporting and \cf1 PQRS\cf2 ", option is \b selected \b0 by default. If selected, all \cf1 charge codes\cf2  linked to FO/PQRS G-codes are omitted from the report.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a60173f-37ad-4a3a-bb90-b06b81218330</UniqueID>
+    <ParentID>MSS-53929499-ae4f-4633-9199-e78477eb6755</ParentID>
+    <Description>User generates report.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User generates report.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-651e757e-bb31-4995-8f6f-12b8995b28b5</UniqueID>
+    <ParentID>MSS-53929499-ae4f-4633-9199-e78477eb6755</ParentID>
+    <Description>The system creates report in PDF format. Data is broken down by Location and further by Charge Code discipline.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system creates report in PDF format. Data is broken down by Location and further by \cf1 Charge Code\cf2  discipline.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7833181a-6f07-4b5b-92f0-74cff75da5ad</UniqueID>
+    <ParentID>MSS-53929499-ae4f-4633-9199-e78477eb6755</ParentID>
+    <Description>Report metrics explained in the prototype, the PDF page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Report metrics explained in the prototype, the PDF page.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3c3aaed7-7b8f-4673-9b5b-e18c9d0f2ae0</UniqueID>
+    <ParentID>MSS-43e858bb-a259-4568-8457-0db3f2269d63</ParentID>
+    <Description>User opens Body Regions Summary Report page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 Body Regions Summary \cf0 Report page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-88ea7858-44eb-4713-8a66-caecb19a8803</UniqueID>
+    <ParentID>MSS-43e858bb-a259-4568-8457-0db3f2269d63</ParentID>
+    <Description>User specifies report parameters:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User specifies report parameters:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a388e403-0c83-4781-9580-627354da5217</UniqueID>
+    <ParentID>ST-88ea7858-44eb-4713-8a66-caecb19a8803</ParentID>
+    <Description>Discharge date range</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Discharge\cf0  date range\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ad5823d1-32a2-47d2-ac2e-dd2e6db52b34</UniqueID>
+    <ParentID>ST-88ea7858-44eb-4713-8a66-caecb19a8803</ParentID>
+    <Description>Location (dropdown, All by default). The list of locations is limited to Outpatient facilities.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Location (dropdown, All by default). The list of locations is limited to Outpatient facilities.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8e0f93e5-9e7a-4040-ac7e-3577d0e22a9e</UniqueID>
+    <ParentID>MSS-43e858bb-a259-4568-8457-0db3f2269d63</ParentID>
+    <Description>User generates report.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User generates report.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a8591a6e-25e6-4d15-86cf-bc19886f2149</UniqueID>
+    <ParentID>MSS-43e858bb-a259-4568-8457-0db3f2269d63</ParentID>
+    <Description>The system creates report in PDF format. Data is broken down by selected therapist stats, location stats (=cumulative data from the case location for that date range) and database stats (=cumulative data from all companies for that date range)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system creates report in PDF format. Data is broken down by selected therapist stats, location stats (=cumulative data from the \cf1 case\cf0  location for that date range) and database stats (=cumulative data from all companies for that date range)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2e31cc17-2409-43f4-9d67-3aebd25ed15d</UniqueID>
+    <ParentID>MSS-43e858bb-a259-4568-8457-0db3f2269d63</ParentID>
+    <Description>Report metrics explained in the prototype, the PDF page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Report metrics explained in the prototype, the PDF page.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9298639a-599e-4e70-812b-1365e977cff5</UniqueID>
+    <ParentID>ST-88ea7858-44eb-4713-8a66-caecb19a8803</ParentID>
+    <Description>Clinician (searchable dropdown, All by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Clinician\cf2  (searchable \cf0 dropdown, All by default)\cf2\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f2d5906a-60fa-41a3-bc2c-44d733344812</UniqueID>
+    <ParentID>ST-88ea7858-44eb-4713-8a66-caecb19a8803</ParentID>
+    <Description>Discipline (dropdown, All by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Discipline (\fs20 dropdown, All by default)\fs20\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-af958970-cab1-4460-98d2-87d13053a502</UniqueID>
+    <ParentID>ST-88ea7858-44eb-4713-8a66-caecb19a8803</ParentID>
+    <Description>Referring Physician (optional searchable dropdown, empty by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Referring Physician\cf2  (optional searchable \cf0 dropdown, empty by default\cf2 )\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-952aa0ae-d52a-4afc-af41-66c4f1638874</UniqueID>
+    <ParentID>MSS-549272ae-7839-4adf-ab4b-956e852517d6</ParentID>
+    <Description>User opens Outcomes for Body Region Report page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens Outcomes for \cf1 Body Region\cf0  Report page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3e0ac536-7c94-4efb-ac23-e321859f0079</UniqueID>
+    <ParentID>MSS-549272ae-7839-4adf-ab4b-956e852517d6</ParentID>
+    <Description>User specifies report parameters:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User specifies report parameters:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f4e9c32b-d754-4934-9f71-52a5cc22f821</UniqueID>
+    <ParentID>ST-3e0ac536-7c94-4efb-ac23-e321859f0079</ParentID>
+    <Description>Discharge date range</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Discharge\cf0  date range\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b10e2505-316c-4aea-8ca6-69be0bcd0ff3</UniqueID>
+    <ParentID>ST-3e0ac536-7c94-4efb-ac23-e321859f0079</ParentID>
+    <Description>Location (dropdown, All by default). The list of locations is limited to Outpatient facilities.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Location (dropdown, All by default). The list of locations is limited to Outpatient facilities.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-941242da-1447-4ad0-b76f-9000cc7cc2fc</UniqueID>
+    <ParentID>ST-3e0ac536-7c94-4efb-ac23-e321859f0079</ParentID>
+    <Description>Clinician (searchable dropdown, All by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Clinician\cf2  (searchable \cf0 dropdown, All by default)\cf2\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-edfc0da5-f6af-41a9-bf3f-fd997c60ebf7</UniqueID>
+    <ParentID>ST-3e0ac536-7c94-4efb-ac23-e321859f0079</ParentID>
+    <Description>Discipline (dropdown, All by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Discipline (\fs20 dropdown, All by default)\fs20\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8887b5df-d745-4dcc-900a-deab84b811ed</UniqueID>
+    <ParentID>ST-3e0ac536-7c94-4efb-ac23-e321859f0079</ParentID>
+    <Description>Referring Physician (optional searchable dropdown, empty by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Referring Physician\cf2  (optional searchable \cf0 dropdown, empty by default\cf2 )\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-34cf5a9c-39ba-4810-ae75-ea1845ea4f74</UniqueID>
+    <ParentID>MSS-549272ae-7839-4adf-ab4b-956e852517d6</ParentID>
+    <Description>User generates report.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User generates report.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-902845f4-9e9b-4fbc-bd6a-c6264738e56a</UniqueID>
+    <ParentID>MSS-549272ae-7839-4adf-ab4b-956e852517d6</ParentID>
+    <Description>The system creates report in PDF format. Data is broken down by selected therapist stats, location stats (=cumulative data from the case location for that date range) and database stats (=cumulative data from all companies for that date range)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system creates report in PDF format. Data is broken down by selected therapist stats, location stats (=cumulative data from the \cf1 case\cf0  location for that date range) and database stats (=cumulative data from all companies for that date range)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-93f3fd38-1cc5-43c5-8155-8aa980298ac9</UniqueID>
+    <ParentID>MSS-549272ae-7839-4adf-ab4b-956e852517d6</ParentID>
+    <Description>Report metrics explained in the prototype, the PDF page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Report metrics explained in the prototype, the PDF page.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9b14fc26-256f-4585-99b8-ea4ec6a9af69</UniqueID>
+    <ParentID>ST-3e0ac536-7c94-4efb-ac23-e321859f0079</ParentID>
+    <Description>Body Region (limit the list to body regions with indicators)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Body Region\cf2  (limit the list to \cf1 body regions\cf2  with \cf1 indicators\cf2 )\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e65e028f-2ebb-4689-b2d4-20a5bbc8f721</UniqueID>
+    <ParentID>ST-3e0ac536-7c94-4efb-ac23-e321859f0079</ParentID>
+    <Description>Classification:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Classification:\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c58eece6-79e3-4e80-b564-92c58e2ad5cd</UniqueID>
+    <ParentID>ST-e65e028f-2ebb-4689-b2d4-20a5bbc8f721</ParentID>
+    <Description>All </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 All \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b44cb8e2-f398-481f-8c65-b176c4074ca6</UniqueID>
+    <ParentID>ST-e65e028f-2ebb-4689-b2d4-20a5bbc8f721</ParentID>
+    <Description>Surgical</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Surgical\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3a1462d5-36c6-4340-ae0e-fdcf64046375</UniqueID>
+    <ParentID>ST-e65e028f-2ebb-4689-b2d4-20a5bbc8f721</ParentID>
+    <Description>Non-surgical</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Non-surgical\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-afb90c47-0b4b-4839-9a7e-d6b131a09d2d</UniqueID>
+    <ParentID>MSS-b2dd4c31-2019-4cfa-a491-43ebfcc5949d</ParentID>
+    <Description>User opens Treatment Charge Summary Report page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 Treatment Charge Summary \cf0 Report page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3f17aa6c-0e98-41bc-8094-70767e780783</UniqueID>
+    <ParentID>MSS-b2dd4c31-2019-4cfa-a491-43ebfcc5949d</ParentID>
+    <Description>User specifies report parameters:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User specifies report parameters:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-609dccde-cb29-4416-8402-11fc96f077f1</UniqueID>
+    <ParentID>ST-3f17aa6c-0e98-41bc-8094-70767e780783</ParentID>
+    <Description>Date range</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Date range\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c094b06e-ba82-4969-b768-84c847700c1a</UniqueID>
+    <ParentID>ST-3f17aa6c-0e98-41bc-8094-70767e780783</ParentID>
+    <Description>Date type:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Date type:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-529680d4-5dfb-479b-8fb2-cb8723ec4367</UniqueID>
+    <ParentID>ST-c094b06e-ba82-4969-b768-84c847700c1a</ParentID>
+    <Description>Service Date (default) - counts charge codes by appointment date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Service Date (default) - counts \cf1 charge codes\cf2  by \cf1 appointment\cf2  date\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-12a7a56a-b42e-41a0-8157-79cbf78fb5e5</UniqueID>
+    <ParentID>ST-c094b06e-ba82-4969-b768-84c847700c1a</ParentID>
+    <Description>Charge Entry Date - counts charge codes by the date charges were submitted</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Charge Entry Date - counts \cf1 charge codes\cf2  by the date charges were submitted\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4e812751-7e96-44fa-814c-248a5f5e19b8</UniqueID>
+    <ParentID>ST-3f17aa6c-0e98-41bc-8094-70767e780783</ParentID>
+    <Description>Selects/clears option "Do not include Medicare G-Codes user for Functional Outcomes reporting and PQRS", option is cleared by default. If selected, all charge codes linked to FO/PQRS G-codes are omitted from the report.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Selects/clears option "Do not include Medicare G-Codes user for \cf1 Functional Outcomes\cf0  reporting and \cf1 PQRS\cf2 ", option is \b cleared \b0 by default. If selected, all \cf1 charge codes\cf2  linked to FO/PQRS G-codes are omitted from the report.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3f2ccad6-fab3-4d1d-abe4-79d8dc1ac885</UniqueID>
+    <ParentID>MSS-b2dd4c31-2019-4cfa-a491-43ebfcc5949d</ParentID>
+    <Description>User generates report.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User generates report.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-672df809-9693-4d35-b1bd-25ad340a0191</UniqueID>
+    <ParentID>MSS-b2dd4c31-2019-4cfa-a491-43ebfcc5949d</ParentID>
+    <Description>The system creates report in PDF format. Data is broken down by Location and further by clinician.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system creates report in PDF format. Data is broken down by Location and further by \cf1 clinician\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b08ee5cc-6a7c-4179-a8e7-644e8a9ee99f</UniqueID>
+    <ParentID>MSS-b2dd4c31-2019-4cfa-a491-43ebfcc5949d</ParentID>
+    <Description>Report metrics explained in the prototype, the PDF page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Report metrics explained in the prototype, the PDF page.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3b28be4b-0631-444f-a6e0-ca3871d96b54</UniqueID>
+    <ParentID>ST-3f17aa6c-0e98-41bc-8094-70767e780783</ParentID>
+    <Description>Location (dropdown, All selected by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Location (dropdown, All selected by default)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-229a5f03-2814-41bd-82ae-f307b3e0270c</UniqueID>
+    <ParentID>ST-3f17aa6c-0e98-41bc-8094-70767e780783</ParentID>
+    <Description>Clinician (searchable dropdown, All selected by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Clinician\cf2  (searchable dropdown, All selected by default)\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <ExternalDoc>
+    <UniqueID>EX-e717e2ef-ff0f-4376-8701-bc9a78d49690</UniqueID>
+    <ParentID>UC-b831151b-b956-4024-9a6e-bbb801718317</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=site_profile_pdf</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-d32a6d26-d119-47f0-b905-887f07001c9a</UniqueID>
+    <ParentID>UC-b831151b-b956-4024-9a6e-bbb801718317</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=site_profile</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-8c7989be-a781-490d-9c3c-c19aab84a7c8</UniqueID>
+    <ParentID>UC-e17bb614-ce7d-47dc-a37e-582656c62425</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=report_settings</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-9c4a6160-75ed-49db-b242-c10d0541468c</UniqueID>
+    <ParentID>UC-d391de78-742e-4259-b492-e32dc7899a04</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=site_profile_daily_pdf</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-1cdc1fdd-e547-466c-9638-e1dc3c9c1946</UniqueID>
+    <ParentID>UC-d391de78-742e-4259-b492-e32dc7899a04</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=site_profile_daily</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-292cfa23-d817-4469-9c4d-cd3fde943feb</UniqueID>
+    <ParentID>UC-61b42b27-e917-4580-b75f-e269cac013c8</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=physician_referral_trend_pdf</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-652d74a8-0be9-4856-aad8-6fcbd97339e5</UniqueID>
+    <ParentID>UC-61b42b27-e917-4580-b75f-e269cac013c8</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=physician_referral_trend</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-e1099899-f62d-4701-b867-830380ea5813</UniqueID>
+    <ParentID>UC-dd3aaafe-89c3-4a28-8979-54f09b6d8a58</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=charge_code_profile_pdf</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-86e3c0e5-d137-4ed2-b846-c3e3e98a54d3</UniqueID>
+    <ParentID>UC-dd3aaafe-89c3-4a28-8979-54f09b6d8a58</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=charge_code_profile</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-0d8b3e76-f5cf-43ca-89a4-d2d4bd386564</UniqueID>
+    <ParentID>UC-0a19b0c7-6bf7-4819-b54d-90158e5cb9e3</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=body_regions_summary_pdf</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-a82d22cb-de56-4bc1-b86b-d411cf2c7261</UniqueID>
+    <ParentID>UC-0a19b0c7-6bf7-4819-b54d-90158e5cb9e3</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=body_regions_summary</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-67164c2e-f5f7-4ba9-96f3-4a9ff640e7a5</UniqueID>
+    <ParentID>UC-3a920ec4-dbfe-40e6-8efa-740f82938e8c</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=outcomes_for_body_region_pdf</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-5ef7c220-fe8d-4d90-82af-9ee532f726c0</UniqueID>
+    <ParentID>UC-3a920ec4-dbfe-40e6-8efa-740f82938e8c</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=outcomes_for_body_region</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-bd7cdd57-27c1-423e-bd29-5391048267fe</UniqueID>
+    <ParentID>UC-98c700eb-2f80-4cef-99e5-525e2542cfe6</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=charge_code_profile_pdf</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-fd30104f-1888-4781-95be-e0efb1d3c8d9</UniqueID>
+    <ParentID>UC-98c700eb-2f80-4cef-99e5-525e2542cfe6</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=charge_code_profile</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-72-</DefaultPrefix>
+    <NextValue>10</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-72-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-72-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-72-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

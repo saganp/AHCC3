@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.4927</SavedWith>
+    <CreatedWith>8.0.4927</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-02dc7747-d0cb-4c90-abb8-5d5109f40c04</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-02dc7747-d0cb-4c90-abb8-5d5109f40c04</UniqueID>
+    <ExternalParentID>P-be2ce767-4cae-42dd-b3d6-46737dbcb433</ExternalParentID>
+    <Name>Requirements</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Actor>
+    <UniqueID>A-f639f70c-82ff-4800-983f-f0d35e0b0261</UniqueID>
+    <UserID>A-41-1</UserID>
+    <ParentID>P-02dc7747-d0cb-4c90-abb8-5d5109f40c04</ParentID>
+    <Name>New Actor</Name>
+    <Sequence>0</Sequence>
+    <DateAdded>2013-08-06T03:24:14.3522755-04:00</DateAdded>
+    <DateModified>2013-08-06T03:24:14.3678751-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-a8f8f4ef-b0c6-431a-af41-9670c19e0666</UniqueID>
+    <UserID>A-41-2</UserID>
+    <ParentID>P-02dc7747-d0cb-4c90-abb8-5d5109f40c04</ParentID>
+    <Name>New Actor 2</Name>
+    <Sequence>1</Sequence>
+    <DateAdded>2013-08-06T03:24:21.5748903-04:00</DateAdded>
+    <DateModified>2013-08-06T03:24:26.1767723-04:00</DateModified>
+  </Actor>
+  <ElementStub>
+    <ParentID>P-02dc7747-d0cb-4c90-abb8-5d5109f40c04</ParentID>
+    <Path>Package 1.ucp</Path>
+    <ElementID>P-49493b0a-118a-4fa5-a3e2-5000b3df5f0e</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-02dc7747-d0cb-4c90-abb8-5d5109f40c04</ParentID>
+    <Path>Package 2.ucp</Path>
+    <ElementID>P-f8a6108c-a5fb-43b4-9f2f-5f09422d12d1</ElementID>
+    <Sequence>1</Sequence>
+  </ElementStub>
+  <Requirement>
+    <UniqueID>REQ-9be6b87d-acb7-479e-a2e2-34fc0911b3d5</UniqueID>
+    <UserID>REQ-41-1</UserID>
+    <ParentID>P-02dc7747-d0cb-4c90-abb8-5d5109f40c04</ParentID>
+    <Name>Do not feed the bear</Name>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-08-06T03:24:29.3122919-04:00</DateAdded>
+    <DateModified>2013-08-06T03:24:53.5832652-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-63394c3a-6bd6-4312-82a2-a7ca505bcd0c</UniqueID>
+    <UserID>REQ-41-2</UserID>
+    <ParentID>P-02dc7747-d0cb-4c90-abb8-5d5109f40c04</ParentID>
+    <Name>Keep bear cage locked</Name>
+    <Sequence>1</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Status>Next version</Status>
+    <DateAdded>2013-08-06T03:33:18.0916569-04:00</DateAdded>
+    <DateModified>2013-08-06T03:33:48.7756767-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <UserID>
+    <DefaultPrefix>UC-41-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-41-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-41-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-41-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

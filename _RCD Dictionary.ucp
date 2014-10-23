@@ -1,0 +1,410 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.4864</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</UniqueID>
+    <ExternalParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ExternalParentID>
+    <Name>RCD Dictionary</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UserID>
+    <DefaultPrefix>UC-27-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-27-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-27-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-27-</DefaultPrefix>
+    <NextValue>18</NextValue>
+  </UserID>
+  <DictionaryEntry>
+    <UniqueID>D2-7fd809ca-09e4-4c9f-8ef1-5362fc0f1bf5</UniqueID>
+    <Name>Withholds</Name>
+    <Description>Claim payment money withheld for a specific incentive program or penalty. In the system, withholds are posted as adjustments with a special code.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Claim payment money withheld for a specific incentive program or penalty. In the system, \cf1 withholds\cf2  are posted as \cf1 adjustments\cf2  with a special code.\cf0\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-17</UserID>
+    <Sequence>16</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-89974a63-b5dc-463b-b718-79006f769758</UniqueID>
+    <Name>Remittance</Name>
+    <Description>A Remittance Advice (RA) is a document supplied by the insurance payer that provides notice of and explanation reasons for payment, adjustment,denial and/or uncovered charges of a medical claim.
+Usually accompanies Medicare and Medicaid payments.
+Often referred to as an explanation of payment by other insurance payers.
+
+There are two types of RAs:
+
+Electronic Remittance Advice (ERA): an RA that is transmitted in an electronic format
+Standard Remittance Advice (SRA): an RA that is submitted in a paper format
+Most insurance payers have implemented the use of the ERA. The benefits include the ability to post payment information automatically and quickly identify denials made during initial billing to make necessary corrections.
+
+The ANSI 835 is the electronic payment and remittance advice standard format for health care claims. HIPAA regulations require the use of 835 as a set of rules to replace paper EOB's when health care providers receive electronic payments.
+
+Remittance Advice should include some or all of the following information:
+
+Payer Paid Amount: the dollar amount paid by the payer
+Approved Amount: the approved amount equals the amount for the total claim that was approved by the payer
+Allowed Amount: the allowed amount equals the amount for the total claim that was allowed by the payer
+Patient Responsibility Amount: the amount of money that is the responsibility of the patient which represents the patient copay, coinsurance, and deductible amounts
+Covered Amount: the covered amount equals the amount for the total claim that was covered by the payer
+Discount Amount: the dollar value of the primary payer discount or contractual adjustment
+Adjudication date: the date the claim was adjudicated and/or paid
+The remittance advice may also show the payers internal control number (ICN), check number, service codes, description of services, denial reason codes, and remark explanations.
+
+Electronic Remittance Advice (ERA)
+
+Using electronic remittance advice (ERA) is a fast and accurate way to post your payments as well as adjustments and denials. The ERA, however, is not effective without the electronic funds transfer (EFT). EFT will assure that your payment will post directly to your bank account to reflect your ERA. You can sign up for these benefits directly or through a clearinghouse. The process will work similar to the electronic billing process.
+
+Other glossary terms related to Remittance Advice may include some or all of the following but not limited to:
+Account Number 
+Adjudication Date 
+Allowed Amount
+Approved Amount
+Coinsurance
+Copayment
+Covered Amount
+Deductible
+Discount Amount
+Patient Responsibility
+Payer Paid Amount</Description>
+    <Aliases>Explanation of Benefits, Explanation of Payment, Notification of Payment, Summary of Payment Voucher, Remit</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 A \cf1 Remittance\cf0  Advice (RA) is a document supplied by the insurance payer that provides notice of and explanation reasons for payment, adjustment,denial and/or uncovered charges of a medical claim.\par
+Usually accompanies Medicare and Medicaid payments.\par
+Often referred to as an explanation of payment by other insurance payers.\par
+\par
+There are two types of RAs:\par
+\par
+Electronic \cf1 Remittance\cf0  Advice (ERA): an RA that is transmitted in an electronic format\par
+Standard \cf1 Remittance\cf0  Advice (SRA): an RA that is submitted in a paper format\par
+Most insurance payers have implemented the use of the ERA. The benefits include the ability to post payment information automatically and quickly identify denials made during initial billing to make necessary corrections.\par
+\par
+The ANSI 835 is the electronic payment and \cf1 remittance\cf0  advice standard format for health care claims. HIPAA regulations require the use of 835 as a set of rules to replace paper EOB's when health care providers receive electronic payments.\par
+\par
+\cf1 Remittance\cf0  Advice should include some or all of the following information:\par
+\par
+Payer Paid Amount: the dollar amount paid by the payer\par
+Approved Amount: the approved amount equals the amount for the total claim that was approved by the payer\par
+Allowed Amount: the allowed amount equals the amount for the total claim that was allowed by the payer\par
+\cf2\ul Patient\cf0\ulnone  Responsibility Amount: the amount of money that is the responsibility of the \cf2\ul patient\cf0\ulnone  which represents the \cf2\ul patient\cf0\ulnone  \cf1 copay\cf0 , \cf1 coinsurance\cf0 , and deductible amounts\par
+Covered Amount: the covered amount equals the amount for the total claim that was covered by the payer\par
+Discount Amount: the dollar value of the primary payer discount or contractual adjustment\par
+Adjudication date: the date the claim was adjudicated and/or paid\par
+The \cf1 remittance\cf0  advice may also show the payers internal control number (ICN), check number, service codes, description of services, denial reason codes, and remark explanations.\par
+\par
+Electronic \cf1 Remittance\cf0  Advice (ERA)\par
+\par
+Using electronic \cf1 remittance\cf0  advice (ERA) is a fast and accurate way to post your payments as well as adjustments and denials. The ERA, however, is not effective without the electronic funds transfer (EFT). EFT will assure that your payment will post directly to your bank account to reflect your ERA. You can sign up for these benefits directly or through a clearinghouse. The process will work similar to the electronic billing process.\par
+\par
+Other glossary terms related to \cf1 Remittance\cf0  Advice may include some or all of the following but not limited to:\par
+Account Number \par
+Adjudication Date \par
+Allowed Amount\par
+Approved Amount\par
+\cf1 Coinsurance\cf0\par
+\cf1 Copayment\cf0\par
+Covered Amount\par
+Deductible\par
+Discount Amount\par
+\cf2\ul Patient\cf0\ulnone  Responsibility\par
+Payer Paid Amount\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-16</UserID>
+    <Sequence>15</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-29d04750-a0e1-474c-b9e8-145bf1d6039b</UniqueID>
+    <Name>Epremis</Name>
+    <Description>Middle company between insurance companies health care providers. Integrates with the insurance companies and makes it possible to get paid.
+
+http://www.relayhealth.com/solutions/financial-solutions/RelayAssurance.html
+RelayAssurance helps you manage all claims, including Medicare, Workers Comp and Property &amp; Casualty, in a single web-based system. With connections to 1,900 health plans, comprehensive and current edits, and user-friendly workflow, you can efficiently manage the claims and remittance process to help keep your cash flowing. The intuitive navigation minimizes training needs and improves staff productivity while an Operational Dashboard and more than 90 standard reports provide actionable data to further enhance your financial performance. RelayAnalytics Pulse, RelayAnalytics Acuity and RelayAnalytics Spectrum utilize RelayAssurance data to enable comparison to peers on key performance indicators, make strategic decisions, and view departmental and employee performance via iPad®.
+
+Automated Workflow
+Comprehensive automation drives workflow and eliminates routine tasks to improve staff productivity. RelayAssurance enables you to:
+
+Check eligibility prior to claim submission to reduce denials
+Generate claims secondary to Medicare
+Check Medicare outpatients for medical necessity compliance
+Reconcile reimbursement against billed charges
+Intuitive User Interface
+Web-based and easy to navigate, RelayAssurance improves productivity by minimizing training. Claim errors are clearly indicated in red and in many cases, the error can be fixed with one click.
+
+Advanced Editing
+Shorten your payment cycle with improved editing for increased first pass acceptance, reduced rejections and minimal rebilling. RelayAssurance features advanced editing capabilities, including 837 institutional and professional edits, CCI edits for all lines of business based on Medicare standards, Medicare Medical Necessity and 72-Hour Medicare compliance edits. You can even create and manage your own edits.
+
+Remittance Management
+Electronic remittance files from all payers are delivered in one HIPAA 835 standard format. Efficiently upload and post remittance to your patient accounting system while updating the claims management database.
+
+State-of-the-Art Technology
+RelayAssurance employs the state-of-the-art database technology for reduced support needs and enhanced flexibility. The Software-as-a-Service (SaaS) model reduces hardware and support requirements and permits access by users from any personal computer through the use of digital certificate technology. And RelayAssurance is fully HIPAA compliant.
+
+Features
+Web-based system with intuitive user interface
+Advanced workflow tools automatically process routine tasks
+Claim errors clearly indicated and offer “one-click” corrections
+At-a-glance dashboard of key performance areas
+Direct, real-time submissions to Medicare
+Advanced pre-submission edits
+Automated secondary billing</Description>
+    <Aliases>RelayAssurance</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Middle company between insurance companies health care providers. Integrates with the insurance companies and makes it possible to get paid.\par
+\par
+http://www.relayhealth.com/solutions/financial-solutions/RelayAssurance.html\par
+RelayAssurance helps you manage all claims, including Medicare, Workers Comp and Property &amp; Casualty, in a single web-based system. With connections to 1,900 health plans, comprehensive and current edits, and user-friendly workflow, you can efficiently manage the claims and \cf1 remittance\cf0  process to help keep your cash flowing. The intuitive navigation minimizes training needs and improves staff productivity while an Operational Dashboard and more than 90 standard reports provide actionable data to further enhance your financial performance. RelayAnalytics Pulse, RelayAnalytics Acuity and RelayAnalytics Spectrum utilize RelayAssurance data to enable comparison to peers on key performance \cf1 indicators\cf0 , make strategic decisions, and view departmental and employee performance via iPad\'ae.\par
+\par
+Automated Workflow\par
+Comprehensive automation drives workflow and eliminates routine tasks to improve staff productivity. RelayAssurance enables you to:\par
+\par
+Check eligibility prior to claim submission to reduce denials\par
+Generate claims secondary to Medicare\par
+Check Medicare outpatients for medical necessity compliance\par
+Reconcile reimbursement against billed charges\par
+Intuitive User Interface\par
+Web-based and easy to navigate, RelayAssurance improves productivity by minimizing training. Claim errors are clearly indicated in red and in many \cf1 cases\cf0 , the error can be fixed with one click.\par
+\par
+Advanced Editing\par
+Shorten your payment cycle with improved editing for increased first pass acceptance, reduced rejections and minimal rebilling. RelayAssurance features advanced editing capabilities, including 837 institutional and professional edits, CCI edits for all lines of business based on Medicare standards, Medicare Medical Necessity and 72-Hour Medicare compliance edits. You can even create and manage your own edits.\par
+\par
+\cf1 Remittance\cf0  Management\par
+Electronic \cf1 remittance\cf0  files from all payers are delivered in one HIPAA 835 standard format. Efficiently upload and post \cf1 remittance\cf0  to your \cf2\ul patient\cf0\ulnone  accounting system while updating the claims management database.\par
+\par
+State-of-the-Art Technology\par
+RelayAssurance employs the state-of-the-art database technology for reduced support needs and enhanced flexibility. The Software-as-a-Service (SaaS) model reduces hardware and support requirements and permits access by users from any personal computer through the use of digital certificate technology. And RelayAssurance is fully HIPAA compliant.\par
+\par
+Features\par
+Web-based system with intuitive user interface\par
+Advanced workflow tools automatically process routine tasks\par
+Claim errors clearly indicated and offer \ldblquote one-click\rdblquote  corrections\par
+At-a-glance dashboard of key performance areas\par
+Direct, real-time submissions to Medicare\par
+Advanced pre-submission edits\par
+Automated secondary billing\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-10</UserID>
+    <Sequence>9</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-7c2696ca-e343-4540-b625-28b812ee9e29</UniqueID>
+    <Name>Encounter Number</Name>
+    <Description>An Encounter Number is a number assigned to each patient visit to identify the charges and payments made for a specific date of service.</Description>
+    <Aliases>Visit Number</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 An \cf1 Encounter Number\cf0  is a number assigned to each \cf2\ul patient\cf0\ulnone  \cf1 visit\cf0  to identify the charges and payments made for a specific date of service.\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-9</UserID>
+    <Sequence>8</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-1fca8800-0232-4e06-a43a-70bf32fafead</UniqueID>
+    <Name>Discount Amount</Name>
+    <Description>The Discount Amount equals the dollar value of the primary payer discount or contractual adjustment.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1 Discount Amount\cf0  equals the dollar value of the primary payer discount or contractual adjustment.\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-8</UserID>
+    <Sequence>7</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-52b7aa81-ca23-4112-846d-093db360e1d3</UniqueID>
+    <Name>Payer</Name>
+    <Description />
+    <Aliases />
+    <RichDescription />
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-14</UserID>
+    <Sequence>13</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-0625bbd1-2907-4ed5-a267-c211bbf5c81c</UniqueID>
+    <Name>Payer Paid Amount</Name>
+    <Description>The Payer Paid Amount is the dollar amount paid by the payer.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1 Payer Paid Amount\cf0  is the dollar amount paid by the payer.\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-15</UserID>
+    <Sequence>14</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-ab508d1c-6e5a-4da1-9ee1-dfd5308d701f</UniqueID>
+    <Name>Interest Payment</Name>
+    <Description>A premium paid voluntarily by a payer for late payment on a claim, or a penalty assessed to a provider for a late response to a refund request.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 A premium paid voluntarily by a \cf1 payer\cf0  for late payment on a claim, or a penalty assessed to a provider for a late response to a refund request.\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-11</UserID>
+    <Sequence>10</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-dbb0bd1c-c9a7-4690-819b-a5872fe656dc</UniqueID>
+    <Name>Auto Crossover</Name>
+    <Description>A secondary claim that has been electronically sent from the primary payer directly to the secondary payer for payment.</Description>
+    <Aliases>Cross-Over</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 A secondary claim that has been electronically sent from the primary \cf1 payer\cf0  directly to the secondary \cf1 payer\cf0  for payment.\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-4</UserID>
+    <Sequence>3</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-b78a43ca-dd38-4626-b1de-9b18d3f4e350</UniqueID>
+    <Name>Deductible</Name>
+    <Description>The deductible is the portion of any claim that is not covered by the insurance provider and must be paid by the insured before the benefits of the policy can apply.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1 deductible\cf0  is the portion of any claim that is not covered by the insurance provider and must be paid by the insured before the benefits of the policy can apply.\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-6</UserID>
+    <Sequence>5</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-ae8e4e84-993c-451e-a3bf-f714d0f3c0bc</UniqueID>
+    <Name>Copay</Name>
+    <Description>(in the United States) an amount paid by a health insurance plan enrollee for each office or emergency department visit or purchase of prescription drugs in addition to the amount paid by the insurance company. This is usually a flat amount.
+
+Alternate Definition:  
+A cost-sharing methodology where a flat rate paid per vist or item purchased is applied by the patient's insurance company.  This is a contractual obligation the patient has with the insurance and cannot be waived.  Co-Pays are independent of other cost-sharing methodologies (such as co-insurance and/or deductible) and typically do not 'count' in a patient's deductible amount or out of pocket maximum.   This can vary by payer and the individuals contract.</Description>
+    <Aliases>copayment, co-pay</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 (in the United States) an amount paid by a health insurance plan enrollee for each office or emergency department \cf1 visit\cf0  or purchase of prescription drugs in addition to the amount paid by the \cf1 insurance company\cf2 . This is usually a flat amount.\par
+\par
+Alternate Definition:  \par
+A cost-sharing methodology where a flat rate paid per vist or item purchased is applied by the \cf3\ul patient\cf2\ulnone 's \cf1 insurance company\cf2 .  This is a contractual obligation the \cf3\ul patient\cf2\ulnone  has with the insurance and cannot be waived.  Co-Pays are independent of other cost-sharing methodologies (such as co-insurance and/or \cf1 deductible\cf2 ) and typically do not 'count' in a \cf3\ul patient\cf2\ulnone 's \cf1 deductible\cf2  amount or out of pocket maximum.   This can vary by \cf1 payer\cf2  and the individuals contract.\cf0\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-5</UserID>
+    <Sequence>4</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-1e3ca069-9e3c-4372-9cbd-0a8844de850b</UniqueID>
+    <Name>Denial</Name>
+    <Description>Refusal by an insurance plan to pay for services, procedures, or supplies.  A denial may be made due to coverage limitations, medical necessity issues, or failure to follow appropriate prior authorization or claim submission guidelines.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Refusal by an insurance plan to pay for services, \cf1 procedures\cf0 , or supplies.  A \cf1 denial\cf0  may be made due to coverage limitations, medical necessity issues, or failure to follow appropriate prior authorization or claim submission guidelines.\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-7</UserID>
+    <Sequence>6</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-9c284511-1b23-49b6-a09a-3c94aaf726de</UniqueID>
+    <Name>Patient Responsibility</Name>
+    <Description>The Patient Responsibility is the amount of money that is the responsibility of the patient which represents the patient copay, coinsurance, and deductible amounts.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1 Patient Responsibility\cf0  is the amount of money that is the responsibility of the \cf2\ul patient\cf0\ulnone  which represents the \cf2\ul patient\cf0\ulnone  \cf1 copay\cf0 , \cf1 coinsurance\cf0 , and \cf1 deductible\cf0  amounts.\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-13</UserID>
+    <Sequence>12</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-b72b368b-8980-4186-ac74-483bdc7671c9</UniqueID>
+    <Name>Allowed Amount</Name>
+    <Description>The Allowed Amount equals the amount for the total claim that was allowed by the payer typically due to a contractual agreement.</Description>
+    <Aliases>Approved Amount, Contracted Rate</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1 Allowed Amount\cf0  equals the amount for the total claim that was allowed by the payer typically due to a contractual agreement.\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-3</UserID>
+    <Sequence>2</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-07c81bd8-9d6c-402a-9ff2-f2839798436b</UniqueID>
+    <Name>Adjudication Date</Name>
+    <Description>The Adjudication Date is the date the claim was adjudicated or processed in the payer's system.</Description>
+    <Aliases>Processed Date</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1 Adjudication Date\cf0  is the date the claim was adjudicated or processed in the payer's system.\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-1</UserID>
+    <Sequence>0</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-0d05d2f9-9d3a-4dec-ba02-3a17c68756eb</UniqueID>
+    <Name>Line Item</Name>
+    <Description>A charge (CPT code) in the encounter</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 A charge (\cf1 CPT code\cf2 ) in the encounter\cf0\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-12</UserID>
+    <Sequence>11</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-6c842660-ed58-4672-8565-c19538ced435</UniqueID>
+    <Name>Adjustment</Name>
+    <Description>Amount that's being written off the charge. Requires user to select reason.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Amount that's being written off the charge. Requires user to select reason.\par
+}
+</RichDescription>
+    <ParentID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ParentID>
+    <UserID>DEF-27-2</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+</UCTDataSet>

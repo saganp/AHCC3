@@ -1,0 +1,857 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.4927</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-24f3a8b3-4da8-4787-b214-0c2988c2e2e1</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-24f3a8b3-4da8-4787-b214-0c2988c2e2e1</UniqueID>
+    <ExternalParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ExternalParentID>
+    <Name>Clinical Notes</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</UniqueID>
+    <UserID>UC-52-1</UserID>
+    <ParentID>P-24f3a8b3-4da8-4787-b214-0c2988c2e2e1</ParentID>
+    <Name>Add Clinician Note</Name>
+    <Description>User adds a case note </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User adds a \cf1 case\cf2  note \cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-08-13T04:10:58.6297116-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8226074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-772519cb-73a4-4fc7-b890-fb34b83dc2f9</UniqueID>
+    <UserID>UC-52-2</UserID>
+    <ParentID>P-24f3a8b3-4da8-4787-b214-0c2988c2e2e1</ParentID>
+    <Name>Save Clinician Notes as PDF</Name>
+    <Description>User saves Case Notes as a PDF. Saving as PDF is available to all users, but only if there's at least one Case Note added.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User saves \cf1 Case\cf2  Notes as a PDF. Saving as PDF is available to all users, but only if there's at least one \cf1 Case\cf2  Note added.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-08-13T04:11:13.667758-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8196074-04:00</DateModified>
+  </UseCase>
+  <Note>
+    <UniqueID>N-fe50e8cc-c3c0-49eb-a054-7b040004233d</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>It should be possible to add a case note even if the case is discharged.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 It should be possible to add a \cf2 case\cf1  note even if the \cf2 case\cf1  is discharged.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2013-08-13T05:24:15.5626537-04:00</DateAdded>
+  </Note>
+  <UCActor>
+    <ParentID>UC-772519cb-73a4-4fc7-b890-fb34b83dc2f9</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-772519cb-73a4-4fc7-b890-fb34b83dc2f9</ParentID>
+    <ActorID>A-88f81fba-8458-456b-8b95-eb0f9cb5a256</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-772519cb-73a4-4fc7-b890-fb34b83dc2f9</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <ActorID>A-88f81fba-8458-456b-8b95-eb0f9cb5a256</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-1cca5c98-447b-46af-83c7-313d3c1653a1</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-16b96f9a-067d-4be8-97e7-fe3eb5ae31bb</UniqueID>
+    <ParentID>UC-772519cb-73a4-4fc7-b890-fb34b83dc2f9</ParentID>
+  </Scenario>
+  <Step>
+    <UniqueID>ST-78aebe3e-77e4-41ba-9ca5-9d20d4980774</UniqueID>
+    <ParentID>MSS-1cca5c98-447b-46af-83c7-313d3c1653a1</ParentID>
+    <Description>User opens Documentation page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens Documentation page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-074b91ed-0a12-477e-9973-59fa4bb3619a</UniqueID>
+    <ParentID>MSS-1cca5c98-447b-46af-83c7-313d3c1653a1</ParentID>
+    <Description>The system displays standard Documentation buttons + Case Note button. The system also displays number of case notes already added in that button label.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system displays standard Documentation buttons + \cf1 Case\cf2  Note button. The system also displays number of \cf1 case\cf2  notes already added in that button label.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8ad3b118-4445-4fa5-94ec-2418942f16f1</UniqueID>
+    <ParentID>MSS-1cca5c98-447b-46af-83c7-313d3c1653a1</ParentID>
+    <Description>User opens Case Notes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 Case\cf2  Notes.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ed1ca84f-50d3-4b8f-b8cb-7559fd9ef32f</UniqueID>
+    <ParentID>MSS-1cca5c98-447b-46af-83c7-313d3c1653a1</ParentID>
+    <Description>The system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e24c4a08-b929-4773-9092-a37b103b8a56</UniqueID>
+    <ParentID>ST-ed1ca84f-50d3-4b8f-b8cb-7559fd9ef32f</ParentID>
+    <Description>[No Notes] - New Case Note form:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 [No Notes] - New \cf1 Case\cf2  Note form:\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-57738bc0-db72-43a8-bacb-7efdb82f5a9e</UniqueID>
+    <ParentID>ST-ed1ca84f-50d3-4b8f-b8cb-7559fd9ef32f</ParentID>
+    <Description>[At least 1 note] - The system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [At least 1 note] - The system displays:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-afe65cc1-2929-4835-b003-0428687958be</UniqueID>
+    <ParentID>ST-e24c4a08-b929-4773-9092-a37b103b8a56</ParentID>
+    <Description>Subject text field (mandatory)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Subject text field (mandatory)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-044a039f-8f0e-43ab-9d2c-3853b705713f</UniqueID>
+    <ParentID>ST-e24c4a08-b929-4773-9092-a37b103b8a56</ParentID>
+    <Description>Case Note text field (mandatory)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Case\cf2  Note text field (mandatory)\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-211d6706-8762-432d-9054-693dee2fef51</UniqueID>
+    <ParentID>ST-e24c4a08-b929-4773-9092-a37b103b8a56</ParentID>
+    <Description>PIN text field (mandatory, only shown to clinicians)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 PIN text field (mandatory, only shown to \cf1 clinicians\cf2 )\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-74208e82-33fd-4e99-85db-6d88085774d8</UniqueID>
+    <ParentID>ST-e24c4a08-b929-4773-9092-a37b103b8a56</ParentID>
+    <Description>Button for adding the note:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Button for adding the note:\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1b8e7072-6d9c-41e8-b82a-4059f8aef210</UniqueID>
+    <ParentID>ST-74208e82-33fd-4e99-85db-6d88085774d8</ParentID>
+    <Description>[Clinician] 'Sign &amp; Submit'</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 [\cf2 Clinician\cf1 ] 'Sign &amp; Submit'\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-419628f1-8d9a-4c63-b35a-b20a253f2d14</UniqueID>
+    <ParentID>ST-74208e82-33fd-4e99-85db-6d88085774d8</ParentID>
+    <Description>[CBC] 'Add Note'</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 [\cf1\ul CBC\cf2\ulnone ] 'Add Note'\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f6572e1b-556c-4570-a777-88bebd721571</UniqueID>
+    <ParentID>X-6571259a-8bb1-4afc-b99f-f95d24560306</ParentID>
+    <Description>The system requires PIN. The system must request PIN if user has clinician account, having any other role does not change the requirement to enter PIN.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system requires PIN. The system must request PIN if user has \cf1 clinician\cf2  account, having any other role does not change the requirement to enter PIN.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-258f477d-da96-4246-8ce7-1e86d45afd7e</UniqueID>
+    <ParentID>ST-57738bc0-db72-43a8-bacb-7efdb82f5a9e</ParentID>
+    <Description>The list of added case notes. For each note, the system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The list of added \cf1 case\cf2  notes. For each note, the system displays:\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b54ad0e4-8630-4224-8443-def8d82cc3e6</UniqueID>
+    <ParentID>ST-258f477d-da96-4246-8ce7-1e86d45afd7e</ParentID>
+    <Description>Title: Case Note #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Title: \cf1 Case\cf2  Note #\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6d0bdea4-c7e0-4646-8e51-1f15c4f96646</UniqueID>
+    <ParentID>ST-258f477d-da96-4246-8ce7-1e86d45afd7e</ParentID>
+    <Description>Note subject line</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Note subject line\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d617d876-1bc1-40de-aa58-78657868de6c</UniqueID>
+    <ParentID>ST-258f477d-da96-4246-8ce7-1e86d45afd7e</ParentID>
+    <Description>Note text</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Note text\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-10f94f80-ecaf-4237-b229-d96309bdd768</UniqueID>
+    <ParentID>ST-258f477d-da96-4246-8ce7-1e86d45afd7e</ParentID>
+    <Description>Signature / Added by line:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Signature / Added by line:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dfbceb03-3c9a-4702-88c0-36beab01ba56</UniqueID>
+    <ParentID>ST-10f94f80-ecaf-4237-b229-d96309bdd768</ParentID>
+    <Description>[Clinician] Electronically Signed @ 04/24/2013 10:45AM by Korrie User, MD, Physical Therapist</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 [\cf1 Clinician\cf2 ] Electronically Signed @ 04/24/2013 10:45AM by Korrie User, MD, \cf3\ul Physical Therapist\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-aaf2e1f7-af4e-4e40-9eb7-85d3965cf6ed</UniqueID>
+    <ParentID>ST-10f94f80-ecaf-4237-b229-d96309bdd768</ParentID>
+    <Description>[CBC] Added by Annie Robinson @ 04/24/2013 10:45AM</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 [\cf1\ul CBC\cf2\ulnone ] Added by Annie Robinson @ 04/24/2013 10:45AM\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3c0aee93-631d-4d67-bb5c-b48a4e562b77</UniqueID>
+    <ParentID>ST-57738bc0-db72-43a8-bacb-7efdb82f5a9e</ParentID>
+    <Description>Button for adding new note (clicking displays New Note form as at step 4.1, the only difference is the Cancel button that hides the form):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Button for adding new note (clicking displays New Note form as at step 4.1, the only difference is the Cancel button that hides the form):\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6ec24fc5-7f36-4840-89cc-08e077d8697d</UniqueID>
+    <ParentID>ST-3c0aee93-631d-4d67-bb5c-b48a4e562b77</ParentID>
+    <Description>[Clinician] 'Sign &amp; Submit'</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 [\cf2 Clinician\cf1 ] 'Sign &amp; Submit'\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-794d1833-a34f-4837-97f3-46196ffa5590</UniqueID>
+    <ParentID>ST-3c0aee93-631d-4d67-bb5c-b48a4e562b77</ParentID>
+    <Description>[CBC] 'Add Note'</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 [\cf1\ul CBC\cf2\ulnone ] 'Add Note'\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bcb510e2-8a28-4ffb-8f22-98c855c15d84</UniqueID>
+    <ParentID>MSS-1cca5c98-447b-46af-83c7-313d3c1653a1</ParentID>
+    <Description>User enters subject and text for the note.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User enters subject and text for the note.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6dd2f768-ff3d-40c1-9246-861d8ae85486</UniqueID>
+    <ParentID>MSS-1cca5c98-447b-46af-83c7-313d3c1653a1</ParentID>
+    <Description>[Clinician only] User enters PIN.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 [\cf2 Clinician\cf1  only] User enters PIN.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-31129339-b8da-4cbc-9e0c-20bd725b9c06</UniqueID>
+    <ParentID>MSS-1cca5c98-447b-46af-83c7-313d3c1653a1</ParentID>
+    <Description>User adds the note.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User adds the note.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bd3d805d-0a98-4ae6-ac68-5907a655bc86</UniqueID>
+    <ParentID>MSS-1cca5c98-447b-46af-83c7-313d3c1653a1</ParentID>
+    <Description>The system adds the note. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system adds the note. \par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-aa1788ac-3237-4d10-bdf2-574a626359a5</UniqueID>
+    <ParentID>MSS-16b96f9a-067d-4be8-97e7-fe3eb5ae31bb</ParentID>
+    <Description>User initiates PDF generation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User initiates PDF generation.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1fc46ee6-e8fb-487e-bc71-ec6b42cba82c</UniqueID>
+    <ParentID>MSS-16b96f9a-067d-4be8-97e7-fe3eb5ae31bb</ParentID>
+    <Description>The system generates PDF (see prototype for layout and fields).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system generates PDF (see prototype for layout and fields).\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e5b7d8d2-67c7-4433-9446-1e57c5731b65</UniqueID>
+    <ParentID>MSS-16b96f9a-067d-4be8-97e7-fe3eb5ae31bb</ParentID>
+    <Description>The system triggers default browser download.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system triggers default browser download.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-6571259a-8bb1-4afc-b99f-f95d24560306</UniqueID>
+    <ParentID>ST-211d6706-8762-432d-9054-693dee2fef51</ParentID>
+    <Description>User has both Clinician account &amp; CBC roles</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 User has both \cf1 Clinician\cf2  account &amp; \cf3\ul CBC\cf2\ulnone  roles\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <ExternalDoc>
+    <UniqueID>EX-f55f17f6-2ecd-4e4e-b0e7-3b4632f93931</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Case_Notes</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-1e3f22b0-9e25-41f3-9c40-6ffdc13e79ee</UniqueID>
+    <ParentID>UC-772519cb-73a4-4fc7-b890-fb34b83dc2f9</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Case_Notes_PDF</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-52-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-52-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-52-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-52-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <TestScenario>
+    <UniqueID>TS-e9e6f0ed-4865-4bde-8494-ea3157de3c3d</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify if user presses "New Clinician Notes" button, the system displays new clinician note form.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if user presses "New \cf1 Clinician\cf0  Notes" button, the system displays new \cf1 clinician\cf0  note form.\par
+}
+</RichDescription>
+    <Name>New Clinician Notes button. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2d781c1f-4309-4384-868e-4c8fabb1d916</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description> Verify that New Clinician Note form contains "Subject", "Note text" and "PIN" (shows only for clinitians) fields, "Sign&amp;Submit" (for clinitian) and "Add Note" (for CBC) buttons.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20  Verify that New \cf1 Clinician\cf0  Note form contains "Subject", "Note text" and "PIN" (shows only for clinitians) fields, "Sign&amp;Submit" (for clinitian) and "Add Note" (for \cf2\ul CBC\cf0\ulnone ) buttons.\par
+}
+</RichDescription>
+    <Name>New Clinician Note form.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-edc74888-6d2a-457a-b400-5a13516a14be</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify that all symbols (alphanumeric, numeric, specific symbols) are accepted in “Subject” field and make no error when pressing "Sign and Submit"/"Add Note" button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that all symbols (alphanumeric, numeric, specific symbols) are accepted in \ldblquote Subject\rdblquote  field and make no error when pressing "Sign and Submit"/"Add Note" button.\par
+}
+</RichDescription>
+    <Name>Subject field: symbol acceptance. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-fa9498fe-53cc-4bcc-99b1-450a5ae73b3f</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify that all symbols (alphanumeric, numeric, specific symbols) are accepted in “Note text” field and make no error when pressing "Sign and Submit"/"Add Note" button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that all symbols (alphanumeric, numeric, specific symbols) are accepted in \ldblquote Note text\rdblquote  field and make no error when pressing "Sign and Submit"/"Add Note" button.\par
+}
+</RichDescription>
+    <Name>"Note text" field: symbol acceptance. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-86cedaad-6d69-4320-ad8c-c10d3799c41b</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify that error message “Please specify the correct PIN” is displayed if PIN field is filled with incorrect data and user presses “Sign and Submit”  button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that error message \ldblquote Please specify the correct PIN\rdblquote  is displayed if PIN field is filled with incorrect data and user presses \ldblquote Sign and Submit\rdblquote   button.\par
+}
+</RichDescription>
+    <Name>“PIN” field: incorrect PIN. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>6</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-b68983d0-b472-4cbf-839c-fedd41a6ad24</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify that error message “The Digit PIN field is required.” is displayed if PIN field is not filled and user presses “Sign and Submit”   button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that error message \ldblquote The Digit PIN field is required.\rdblquote  is displayed if PIN field is not filled and user presses \ldblquote Sign and Submit\rdblquote    button.\par
+}
+</RichDescription>
+    <Name>“PIN” field: empty. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>7</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d55c9199-a137-461e-b5c5-a40fd45cbb99</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify that the system does not notify user if PIN field is filled with correct data and user presses “Sign and Submit” button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that the system does not notify user if PIN field is filled with correct data and user presses \ldblquote Sign and Submit\rdblquote  button.\par
+}
+</RichDescription>
+    <Name>“PIN” field: correct PIN.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>8</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-1d1d2b24-6948-4237-a1a4-7c10c281f53b</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify if user doesn't specify "Subject" and/or "Note text" fields  and presses "Sign and Submit"/"Add Note" button, system notifies user about that by highlighting correcponding fields and displaying error messages at the top of section.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user doesn't specify "Subject" and/or "Note text" fields  and presses "Sign and Submit"/"Add Note" button, system notifies user about that by highlighting correcponding fields and displaying error messages at the top of section.\par
+}
+</RichDescription>
+    <Name>Validation during "Sign and Submit”/"Add Note" button.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>9</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-79a66908-87a3-4574-94bd-d34ca245e064</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify if user fills all mandatory fields and presses "Sign and Submit"/"Add Note" button, Clinician note is added, "Download as PDF" button appears at the top right corner, "New Clinician Note" button appears under the added clinician note.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if user fills all mandatory fields and presses "Sign and Submit"/"Add Note" button, \cf1 Clinician\cf0  note is added, "Download as PDF" button appears at the top right corner, "New \cf1 Clinician\cf0  Note" button appears under the added \cf1 clinician\cf0  note.\par
+}
+</RichDescription>
+    <Name>"Sign and Submit"/"Add Note" button.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>10</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-c33d0190-6752-43ee-896e-a2bb908ae4eb</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify that added Clinician Note contains "Clinician Note # - &lt;date&gt;", Subject, "Note text" and "Signature / Added by" lines.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify that added \cf1 Clinician\cf0  Note contains "\cf1 Clinician\cf0  Note # - &lt;date&gt;", Subject, "Note text" and "Signature / Added by" lines.\par
+}
+</RichDescription>
+    <Name>Added Clinician Note. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>11</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-187467d3-eddb-4594-8180-a58c64526e43</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify if clinician addes clinician note, signature line displays.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if \cf1 clinician\cf0  addes \cf1 clinician\cf2  \cf0 note, signature line displays.\par
+}
+</RichDescription>
+    <Name>Signature line.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>12</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-ccbb44b2-6213-4c33-91ab-c9f56259c8f2</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify if CBC added clinician note, "Added by" line displays.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if \cf1\ul CBC\cf0\ulnone  added \cf2 clinician\cf0  note, "Added by" line displays.\par
+}
+</RichDescription>
+    <Name>Added by line.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>13</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-1f34a684-ff43-4919-99bc-8403f714c557</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify if user is clinician, button for adding new note is "Sign &amp; Submit" button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if user is \cf1 clinician\cf0 , button for adding new note is "Sign &amp; Submit" button.\par
+}
+</RichDescription>
+    <Name>Button for adding new note: Sign &amp; Submit.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>14</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-7aac49fb-67d3-4df1-9953-a042826f1333</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify if user is CBC, button for adding new note is "Add Note" button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Verify if user is \cf1\ul CBC\cf0\ulnone , button for adding new note is "Add Note" button.\par
+}
+</RichDescription>
+    <Name>Button for adding new note: Add Note.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>15</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-fce0e859-4a9c-4c83-9e24-4010daaca43e</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify if user has both clinician and CBC roles, the system requires PIN.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Verify if user has both \cf1 clinician\cf0  and \cf2\ul CBC\cf0\ulnone  roles, the system requires PIN.\par
+}
+</RichDescription>
+    <Name>User has clinitian and CBC roles. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>16</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d2fbea27-f58e-4baa-93ac-1df6c2a6793d</UniqueID>
+    <ParentID>UC-772519cb-73a4-4fc7-b890-fb34b83dc2f9</ParentID>
+    <Description>Verify if no one Clinician note is added, "Download as PDF" button doesn't display.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if no one \cf1 Clinician\cf0  note is added, "Download as PDF" button doesn't display.\par
+}
+</RichDescription>
+    <Name>Download as PDF: no Clinician Note added. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-61524b88-ee04-4e80-aa77-5ad313579d66</UniqueID>
+    <ParentID>UC-772519cb-73a4-4fc7-b890-fb34b83dc2f9</ParentID>
+    <Description>Verify if one or more Clinician notes are added, "Download as PDF" button displays.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if one or more \cf1 Clinician\cf0  notes are added, "Download as PDF" button displays.\par
+}
+</RichDescription>
+    <Name>Download as PDF: one or more Clinician Notes added. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-000b004e-79cd-4953-8b27-fa490c57eecb</UniqueID>
+    <ParentID>UC-772519cb-73a4-4fc7-b890-fb34b83dc2f9</ParentID>
+    <Description>Verify if user presses "Download as PDF" button, the system generates PDF File with clinician notes and triggers default browser download. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if user presses "Download as PDF" button, the system generates PDF File with \cf1 clinician\cf0  notes and triggers default browser download. \par
+}
+</RichDescription>
+    <Name>"Download as PDF" button. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-9c90169c-1f86-4019-adf8-f524ba237f51</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify if user presses Cancel button, "New Case Note" from is disappeared and "New Case Note" button displays.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if user presses Cancel button, "New \cf1 Case\cf2  Note\cf0 " from is disappeared and "New \cf1 Case\cf2  Note\cf0 " button displays.\par
+}
+</RichDescription>
+    <Name>Cancel button</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>17</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-78dfd288-7b9f-4970-85ff-be828ffe73b1</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify  Account Note tab exists in Left bar under Documentation tab. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify  Account Note tab exists in Left bar under Documentation tab. \par
+}
+</RichDescription>
+    <Name>Left bar</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-79d05330-4101-4c1d-b6ad-ccb87aa809e2</UniqueID>
+    <ParentID>UC-b59353dd-2226-4a35-a788-f2e6ad183af1</ParentID>
+    <Description>Verify that "Go to Documentation" link exists at the top right corner of "Clinician Notes" page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify that "Go to Documentation" link exists at the top right corner of "\cf1 Clinician\cf0  Notes" page.\par
+}
+</RichDescription>
+    <Name>Go to Documentation link</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+</UCTDataSet>

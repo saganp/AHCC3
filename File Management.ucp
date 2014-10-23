@@ -1,0 +1,3053 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>7.2.4769</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</UniqueID>
+    <ExternalParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ExternalParentID>
+    <Name>File Management</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</UniqueID>
+    <UserID>UC-16-1</UserID>
+    <ParentID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</ParentID>
+    <Name>Manage Administrative Documentation</Name>
+    <Description>User reviews the list of administrative documents uploaded to the case.
+CBC has full scope of functionality described here.
+PT/PTA has read-only access (only download)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User reviews the list of administrative documents uploaded to the \cf1 case.\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf2 CBC\cf1  has full scope of functionality described here.\par
+{\pntext\f2\'B7\tab}PT/PTA has read-only access (only download)\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-19T13:16:37.0800988-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8176074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</UniqueID>
+    <UserID>UC-16-5</UserID>
+    <ParentID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</ParentID>
+    <Name>Manage Medical Documentation</Name>
+    <Description>User reviews the list of Medical documents created for this case. Medical documents appear in this list as soon as clinician starts to fill them out -OR- as soon as the system adds a document to the PT/PTA work queue -OR- when CBC uploads a file manually</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User reviews the list of Medical documents created for this \cf1 case\cf0 . Medical documents appear in this list as soon as \cf1 clinician starts to fill them out -OR- as soon as the system adds a document to the PT/PTA work queue -OR- when \cf2 CBC\cf1  uploads a file manually\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-19T13:36:12.8826844-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8186074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</UniqueID>
+    <UserID>UC-16-2</UserID>
+    <ParentID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</ParentID>
+    <Name>Upload Document</Name>
+    <Description>CBC uploads a file to the case.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 CBC\cf2  uploads a file to the case.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-19T13:36:57.7889344-04:00</DateAdded>
+    <DateModified>2013-11-18T07:47:48.629696-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-582ba379-2a3d-4096-8755-e27edf270c3e</UniqueID>
+    <UserID>UC-16-4</UserID>
+    <ParentID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</ParentID>
+    <Name>Delete Document</Name>
+    <Description>CBC deletes a document that was previously uploaded by CBC (clinician-signed medical documents that appear in the list automatically cannot be deleted)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 CBC\cf2  deletes a document that was previously uploaded by \cf1 CBC\cf2  (clinician-signed medical documents that appear in the list automatically cannot be deleted)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-19T13:41:53.4425237-04:00</DateAdded>
+    <DateModified>2013-08-06T10:59:22.509664-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-921f5015-3d11-409a-b4b0-4a0060f022ec</UniqueID>
+    <UserID>UC-16-3</UserID>
+    <ParentID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</ParentID>
+    <Name>Download Document</Name>
+    <Description>User downloads document.
+
+No security models are used here. Any user can download any document.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User downloads document.\par
+\par
+No security models are used here. Any user can download any document.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-19T13:58:56.8941381-04:00</DateAdded>
+    <DateModified>2013-08-06T10:52:44.2674765-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-e8a5479c-2ffb-44c8-b3d8-20b0cbbf7189</UniqueID>
+    <UserID>UC-16-6</UserID>
+    <ParentID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</ParentID>
+    <Name>Sorting Options</Name>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-25T12:39:50.5365625-04:00</DateAdded>
+    <DateModified>2013-08-12T07:28:16.3795475-04:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-3eda91e9-575c-451c-80d1-e60d737a9456</UniqueID>
+    <ParentID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</ParentID>
+    <Name>File Management</Name>
+    <Sequence>0</Sequence>
+    <FileName>File Management.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <UCActor>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <ActorID>A-88f81fba-8458-456b-8b95-eb0f9cb5a256</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-582ba379-2a3d-4096-8755-e27edf270c3e</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-921f5015-3d11-409a-b4b0-4a0060f022ec</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-921f5015-3d11-409a-b4b0-4a0060f022ec</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-921f5015-3d11-409a-b4b0-4a0060f022ec</ParentID>
+    <ActorID>A-88f81fba-8458-456b-8b95-eb0f9cb5a256</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <ActorID>A-88f81fba-8458-456b-8b95-eb0f9cb5a256</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-c4758fc6-4653-4f6f-bd21-a77ea764aa0f</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-aff47015-af62-4d74-99ac-7cc1d2ea3cf8</UniqueID>
+    <ParentID>UC-582ba379-2a3d-4096-8755-e27edf270c3e</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-191d9d78-e8dd-46ef-9bd4-1319f4cbb695</UniqueID>
+    <ParentID>UC-921f5015-3d11-409a-b4b0-4a0060f022ec</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-a9fb0e5d-fa63-4897-a6d7-c0130e2d67e8</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-a0ca3a5f-6322-448e-a695-69e8ef027e6b</UniqueID>
+    <ParentID>UC-e8a5479c-2ffb-44c8-b3d8-20b0cbbf7189</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-7bd92c64-78aa-4774-8c76-ad798e53a664</UniqueID>
+    <UserID>REQ-16-1</UserID>
+    <ParentID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</ParentID>
+    <Name>Document types</Name>
+    <Description>This is the list of documentation types that should be available for upload (list of values for the Document Type dropdown). This list does not include Plan of Care, Daily Note, Progress Note &amp; Discharge Summary that are added automatically by the system as soon as PT signs the document.
+
+Administrative Documentation
+This list is separated into 2 sections, user can only select specific document type, not the section name.
+Registration Forms:
+Advance Beneficiary Notice of Non-Coverage
+Authorization to Disclose Medical History
+Authorizations
+Insurance Card &amp; ID
+Insurance/Medicaid Waivers
+Miscellaneous (requires short description)
+Patient Benefit Summary
+Patient Consent Form 
+Patient Facesheet
+Referral
+Release of Information Form
+Billing Documents
+Attorney Correspondence
+Bankruptcy Notes
+Death Certificates
+Financial Assistance Applications
+Invoice
+Insurance Correspondence
+Patient Correspondence
+Patient Payment Agreements
+
+Medical Documentation:
+Initial Evaluation Form
+Medical History
+Home Exercise Program
+Treatment Log
+Plan of Care - Signed by Referrer
+Progress Note - Signed by Referrer</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 This is the list of documentation types that should be available for upload (list of values for the Document Type dropdown). This list does not include \cf2 Plan of Care\cf1 , \cf2 Daily Note\cf1 , \cf2 Progress Note\cf1  &amp; \cf2 Discharge Summary\cf1  that are added automatically by the system as soon as \cf2 PT\cf1  signs the document.\par
+\par
+\b Administrative Documentation\par
+\b0\i This list is separated into 2 sections, user can only select specific document type, not the section name.\par
+\i0 Registration Forms:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360\lang1049\f1 Advance \cf2 Beneficiary\cf1  Notice of Non\lang1033\f0 -C\lang1049\f1 overage\cf0\par
+\cf1\lang1033\f0{\pntext\f2\'B7\tab}Authorization to Disclose Medical History\cf0\lang1049\f1\par
+\cf1\lang1033\f0{\pntext\f2\'B7\tab}Authorizations\cf0\lang1049\f1\par
+\cf1\lang1033\f0{\pntext\f2\'B7\tab}Insurance Card &amp; ID\lang1049\f1\par
+\cf0\lang1033\f0{\pntext\f2\'B7\tab}Insurance/Medicaid Waivers\lang1049\f1\par
+\cf1\lang1033\f0{\pntext\f2\'B7\tab}Miscellaneous (\i requires short description\i0 )\lang1049\f1\par
+\cf3\lang1033\ul\f0{\pntext\f2\'B7\tab}Patient\cf1\ulnone  Benefit Summary\lang1049\f1\par
+\cf3\lang1033\ul\f0{\pntext\f2\'B7\tab}Patient\cf1\ulnone  Consent Form \cf0\lang1049\f1\par
+\cf3\lang1033\ul\f0{\pntext\f2\'B7\tab}Patient\cf1\ulnone  Facesheet\lang1049\f1\par
+\cf0\lang1033\f0{\pntext\f2\'B7\tab}Referral\cf1\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Release of Information Form\lang1049\f1\par
+\pard\lang1033\f0 Billing Documents\lang1049\f1\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360\lang1033\f0 Attorney Correspondence\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Bankruptcy Notes\par
+{\pntext\f2\'B7\tab}Death Certificates\par
+{\pntext\f2\'B7\tab}Financial Assistance Applications\par
+{\pntext\f2\'B7\tab}Invoice\par
+{\pntext\f2\'B7\tab}Insurance Correspondence\par
+\cf3\ul{\pntext\f2\'B7\tab}Patient\cf1\ulnone  Correspondence\par
+\cf3\ul{\pntext\f2\'B7\tab}Patient\cf1\ulnone  Payment Agreements\par
+\pard\par
+\b Medical Documentation:\b0\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 Initial \cf2 Evaluation\cf1  Form\par
+{\pntext\f2\'B7\tab}Medical History\par
+{\pntext\f2\'B7\tab}Home Exercise Program\par
+{\pntext\f2\'B7\tab}Treatment Log\par
+\cf2{\pntext\f2\'B7\tab}Plan of Care\cf1  - Signed by Referrer\par
+\cf2{\pntext\f2\'B7\tab}Progress Note\cf1  - Signed by Referrer\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-25T11:33:02.0400814-04:00</DateAdded>
+    <DateModified>2014-10-23T04:16:21.9719204-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-db7aba1a-6a45-47c6-aa38-3c1045067cae</UniqueID>
+    <UserID>REQ-16-2</UserID>
+    <ParentID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</ParentID>
+    <Name>Re-evaluation form</Name>
+    <Description>This is not an active requirement. We do not have re-evals in Phase 1, but this functionality will be implemented later on.
+
+Re-evaluation form is a sub-type of Progress Note. If a Progress Note has "Re-eval" sub-type, then it appears as "Progress Note / Re-eval" in the list. This "Progress Note / Re-eval" behaves exactly as a Progress Note, the only difference is Type name.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\b\f0\fs20 This is not an active requirement. We do not have re-evals in Phase 1, but this functionality will be implemented later on.\cf2\b0\par
+\par
+Re-evaluation form is a sub-type of Progress Note. If a Progress Note has "Re-eval" sub-type, then it appears as "Progress Note / Re-eval" in the list. This "Progress Note / Re-eval" behaves exactly as a Progress Note, the only difference is Type name.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status>Postponed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-25T12:30:33.5451267-04:00</DateAdded>
+    <DateModified>2013-04-25T13:04:35.376966-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-e80548b3-9e32-4a0f-895a-9dc4afe089ef</UniqueID>
+    <UserID>REQ-16-3</UserID>
+    <ParentID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</ParentID>
+    <Name>Automatically rename files on upload</Name>
+    <Description>When user uploads a file, the system must automatically rename that file according to the following convention: &lt;CaseID&gt;_&lt;Document Type&gt;_&lt;MM-DD-YYYY&gt;. For example: 12345_ABN_04-27-2013.
+If there already exists a file with the same type and date, add a number to the document type (12345_ABN2_04-27-2013).
+
+Renaming occurs automatically in background, user is not informed.
+
+List of document type abbreviations:
+
+Administrative Documentation
+Referral - Referral
+Patient Facesheet - Facesheet
+Patient Consent Form - Consent_Form
+Release Information Form - Info_Release
+Patient Benefit Summary - Benefit_Summary
+Insurance Card &amp; ID - Ins_Card_ID
+Advance Beneficiary Notice of Non-Coverage - ABN
+Authorization to Disclose Medical History - HIPAA_release
+Miscellaneous - Misc
+
+Medical Documentation:
+Initial Evaluation Form - Eval
+Medical History - Medical_Hist
+Home Exercise Program - HEP
+Treatment Log - Tx_Log
+Plan of Care - Signed by Referrer - POC-signed
+Progress Note - Signed by Referrer - PN-signed</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 When user uploads a file, the system must automatically rename that file according to the following convention: &lt;CaseID&gt;_&lt;Document Type&gt;_&lt;MM-DD-YYYY&gt;. For example: 12345_ABN_04-27-2013.\par
+If there already exists a file with the same type and date, add a number to the document type (12345_ABN2_04-27-2013).\par
+\par
+Renaming occurs automatically in background, user is not informed.\par
+\par
+List of document type abbreviations:\par
+\par
+\b Administrative Documentation\b0\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf0 Referral - \i Referral\lang1049\i0\f1\par
+\cf2\lang1033\ul\f0{\pntext\f2\'B7\tab}Patient\cf1\ulnone  Facesheet - \i Facesheet\lang1049\i0\f1\par
+\cf2\lang1033\ul\f0{\pntext\f2\'B7\tab}Patient\cf1\ulnone  Consent Form - \i Consent_Form\lang1049\i0\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Release Information Form - \i Info_Release\lang1049\i0\f1\par
+\cf2\lang1033\ul\f0{\pntext\f2\'B7\tab}Patient\cf1\ulnone  Benefit Summary - \i Benefit_Summary\lang1049\i0\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Insurance Card &amp; ID - \i Ins_Card_ID\lang1049\i0\f1\par
+{\pntext\f2\'B7\tab}Advance \cf3 Beneficiary\cf1  Notice of Non\lang1033\f0 -C\lang1049\f1 overage\lang1033\f0  - \i ABN\lang1049\i0\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Authorization to Disclose Medical History - \i HIPAA_release\i0\par
+{\pntext\f2\'B7\tab}Miscellaneous - \i Misc\i0\par
+\pard\par
+\b Medical Documentation:\b0\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 Initial \cf3 Evaluation\cf1  Form - \cf3\i Eval\cf1\i0\par
+{\pntext\f2\'B7\tab}Medical History - \i Medical_Hist\i0\par
+{\pntext\f2\'B7\tab}Home Exercise Program - \i HEP\i0\par
+{\pntext\f2\'B7\tab}Treatment Log - \i Tx_Log\i0\par
+\cf3{\pntext\f2\'B7\tab}Plan of Care\cf1  - Signed by Referrer - \i POC-signed\i0\par
+\cf3{\pntext\f2\'B7\tab}Progress Note\cf1  - Signed by Referrer - \i PN-signed\lang1049\i0\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-25T13:27:24.1474036-04:00</DateAdded>
+    <DateModified>2013-08-07T03:48:31.2559675-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-0c0091d4-2c15-465f-985e-4ba18ba767cd</UniqueID>
+    <ParentID>MSS-c4758fc6-4653-4f6f-bd21-a77ea764aa0f</ParentID>
+    <Description>User opens Documentation area.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User opens Documentation area.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-813d4c96-b379-41fe-a895-c9e1244da1f9</UniqueID>
+    <ParentID>MSS-c4758fc6-4653-4f6f-bd21-a77ea764aa0f</ParentID>
+    <Description>The system displays the list of administrative documents uploaded to the case. The full list of document types that can be uploaded here is in REQ-16-1 under "Administrative Documentation"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system displays the list of administrative documents uploaded to the \cf1 case. The full list of document types that can be uploaded here is in \cf2\ul REQ-16-1\cf1\ulnone  under "Administrative Documentation"\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-de74778d-297e-4ffa-bdd3-350a4f0dc546</UniqueID>
+    <ParentID>MSS-c4758fc6-4653-4f6f-bd21-a77ea764aa0f</ParentID>
+    <Description>For each uploaded document the system shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 For each uploaded document the system shows:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-01071b74-1225-43fb-ae21-3991f00d19e6</UniqueID>
+    <ParentID>ST-de74778d-297e-4ffa-bdd3-350a4f0dc546</ParentID>
+    <Description>Type name</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Type name\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-baa67d2d-2080-49c0-a00e-1baddfbec689</UniqueID>
+    <ParentID>ST-de74778d-297e-4ffa-bdd3-350a4f0dc546</ParentID>
+    <Description>Submitted date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Submitted date\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b78d112e-caeb-4803-873e-d721a0a2c499</UniqueID>
+    <ParentID>ST-de74778d-297e-4ffa-bdd3-350a4f0dc546</ParentID>
+    <Description>'Submitted by'</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 'Submitted by'\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-da53e4b8-7961-4021-887e-8f44830fdd04</UniqueID>
+    <ParentID>ST-de74778d-297e-4ffa-bdd3-350a4f0dc546</ParentID>
+    <Description>'Delete' control - UC-16-4</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 'Delete' control - \cf2\ul UC-16-4\cf1\lang1049\ulnone\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1547d862-30c4-4ad4-bd4e-7d4052f69ad6</UniqueID>
+    <ParentID>ST-de74778d-297e-4ffa-bdd3-350a4f0dc546</ParentID>
+    <Description>'Download' control - UC-16-3</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 'Download' control - \cf2\ul UC-16-3\cf1\lang1049\ulnone\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-14a7df94-065e-4913-9a0b-41bc785a9ca8</UniqueID>
+    <ParentID>MSS-aff47015-af62-4d74-99ac-7cc1d2ea3cf8</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system requests confirmation.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4f5988ef-bec8-47bb-a42e-327cdc264dfb</UniqueID>
+    <ParentID>MSS-aff47015-af62-4d74-99ac-7cc1d2ea3cf8</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User confirms.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b81ffcb1-4259-4f78-9743-eefc5eacec98</UniqueID>
+    <ParentID>MSS-aff47015-af62-4d74-99ac-7cc1d2ea3cf8</ParentID>
+    <Description>The system permanently removes the document.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system permanently removes the document.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4f289eb3-ca65-4459-ad1a-3f3726ecb7fb</UniqueID>
+    <ParentID>MSS-aff47015-af62-4d74-99ac-7cc1d2ea3cf8</ParentID>
+    <Description>If user deleted Referrer-signed Plan of Care or Progress Note, the system also adds Upload control to the Plan of Care or Progress Note the deleted document was associated with.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 If user deleted Referrer-signed \cf1 Plan of Care or Progress Note, the system also adds Upload control to the Plan of Care or Progress Note the deleted document was associated with.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-af4c06ac-6ffe-452e-9558-e2a36a27ff2a</UniqueID>
+    <ParentID>MSS-191d9d78-e8dd-46ef-9bd4-1319f4cbb695</ParentID>
+    <Description>User initiates download of any file in the list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User initiates download of any file in the list.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-89c43822-9b99-4c53-bf97-8e5fc6632556</UniqueID>
+    <ParentID>MSS-191d9d78-e8dd-46ef-9bd4-1319f4cbb695</ParentID>
+    <Description>The system triggers browser's default Download process.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system triggers browser's default Download process.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ed9c9989-7970-4b34-b56c-0991d5905a5c</UniqueID>
+    <ParentID>MSS-a9fb0e5d-fa63-4897-a6d7-c0130e2d67e8</ParentID>
+    <Description>User opens Documentation area.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User opens Documentation area.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c92ce463-f653-4106-b6d8-f2708a23bc9c</UniqueID>
+    <ParentID>MSS-a9fb0e5d-fa63-4897-a6d7-c0130e2d67e8</ParentID>
+    <Description>The system displays the list of Medical documents uploaded by CBC / signed by clinicians. Here's the full list of document types that can appear in this section:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system displays the list of Medical documents uploaded by \cf1 CBC\cf2  / signed by clinicians. Here's the full list of document types that can appear in this section:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-43b77a63-755f-44f8-aff5-ebd9b814e712</UniqueID>
+    <ParentID>ST-c92ce463-f653-4106-b6d8-f2708a23bc9c</ParentID>
+    <Description>Plan of Care</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Plan of Care\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-af215e4a-2cd9-4bcc-b5b5-bd83e1fb5da9</UniqueID>
+    <ParentID>ST-c92ce463-f653-4106-b6d8-f2708a23bc9c</ParentID>
+    <Description>Daily Note</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Daily Note\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4879faec-6581-4305-a562-44f2104b71d7</UniqueID>
+    <ParentID>ST-c92ce463-f653-4106-b6d8-f2708a23bc9c</ParentID>
+    <Description>Progress Note</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Progress Note\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a4468d1d-e0ec-4625-abd2-fea32c1e0076</UniqueID>
+    <ParentID>ST-c92ce463-f653-4106-b6d8-f2708a23bc9c</ParentID>
+    <Description>Discharge Summary</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Discharge Summary\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9eccb755-0937-4a77-886f-d2c9b2e36260</UniqueID>
+    <ParentID>MSS-a9fb0e5d-fa63-4897-a6d7-c0130e2d67e8</ParentID>
+    <Description>For each document the system shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 For each document the system shows:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2936f104-3298-45f6-ab40-7ae11a993f50</UniqueID>
+    <ParentID>ST-9eccb755-0937-4a77-886f-d2c9b2e36260</ParentID>
+    <Description>Document type</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Document type\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ab09387a-49aa-429d-832f-f160fecbd523</UniqueID>
+    <ParentID>ST-9eccb755-0937-4a77-886f-d2c9b2e36260</ParentID>
+    <Description>Date submitted</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Date submitted\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dadebaad-ce79-4ee5-8388-03276c50434b</UniqueID>
+    <ParentID>ST-9eccb755-0937-4a77-886f-d2c9b2e36260</ParentID>
+    <Description>'Submitted by':</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 'Submitted by':\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8d343d30-bafc-403f-8aaa-18a0bb0bcf2d</UniqueID>
+    <ParentID>ST-9eccb755-0937-4a77-886f-d2c9b2e36260</ParentID>
+    <Description>Status:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Status:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-876af75a-c016-44c8-81a3-ad7487b5fdfd</UniqueID>
+    <ParentID>ST-8d343d30-bafc-403f-8aaa-18a0bb0bcf2d</ParentID>
+    <Description>Signed</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Signed\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2eddff30-b695-4aea-87ec-47cfa6c7c434</UniqueID>
+    <ParentID>ST-8d343d30-bafc-403f-8aaa-18a0bb0bcf2d</ParentID>
+    <Description>Ready for review (Daily Note, CBC only)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Ready for review (\cf1 Daily Note, \cf2 CBC\cf1  only)\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fd916809-1b48-4529-940c-99ad2b12d59a</UniqueID>
+    <ParentID>ST-8d343d30-bafc-403f-8aaa-18a0bb0bcf2d</ParentID>
+    <Description />
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-de9b8143-0ff9-47dc-ba49-acad3c4c8e0b</UniqueID>
+    <ParentID>ST-6c83c319-fd82-45bb-a092-c116c3ea3cfb</ParentID>
+    <Description>[CBC only] 'Upload' control - Plan of Care, Progress Note. This control is used by the CBCs to upload documents signed by the Referring Physician.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 [\cf1\b CBC\cf2  only\cf0\b0 ] 'Upload' control - \cf2 Plan of Care, Progress Note. This control is used by the \cf1 CBCs\cf2  to upload documents signed by the Referring Physician.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0aff87e3-0259-42dc-a3b6-151f1aaf4e97</UniqueID>
+    <ParentID>ST-de9b8143-0ff9-47dc-ba49-acad3c4c8e0b</ParentID>
+    <Description>If the file is already uploaded, the system does not show Upload control.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 If the file is already uploaded, the system does not show Upload control.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-247fffa2-1ba8-48f6-824f-a715bccf218e</UniqueID>
+    <ParentID>MSS-aff47015-af62-4d74-99ac-7cc1d2ea3cf8</ParentID>
+    <Description>User deletes a document.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User deletes a document.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1474ef85-365d-4be9-9a2e-ac4c9dbbd4a1</UniqueID>
+    <ParentID>ST-9eccb755-0937-4a77-886f-d2c9b2e36260</ParentID>
+    <Description>[Clinicians only, Unsigned documents] 'Open Document' control - UC-16-6.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 [\cf1\b Clinicians only, Unsigned documents\cf0\b0 ] 'Open Document' control - \cf2\ul UC-16-6\cf1\ulnone .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c106912a-8644-44b7-8bd2-1b4140514289</UniqueID>
+    <ParentID>MSS-c4758fc6-4653-4f6f-bd21-a77ea764aa0f</ParentID>
+    <Description>[Initial State - New Case]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 [\b Initial State - New Case\b0 ]:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-63132318-c1d0-42cd-8dba-243af6b53101</UniqueID>
+    <ParentID>ST-c106912a-8644-44b7-8bd2-1b4140514289</ParentID>
+    <Description>The system shows empty lines for the following document types that are mandatory for a case:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system shows empty lines for the following document types that are mandatory for a case:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3d14665a-2894-4031-925d-29d895fc25ee</UniqueID>
+    <ParentID>ST-63132318-c1d0-42cd-8dba-243af6b53101</ParentID>
+    <Description>Referral</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Referral\cf1\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-44e2ba68-a878-4908-b123-3ec69518e4d5</UniqueID>
+    <ParentID>ST-63132318-c1d0-42cd-8dba-243af6b53101</ParentID>
+    <Description>Patient Consent Form </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Patient\cf2  Consent Form \lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-db795ace-dc63-44e3-8930-21d145513acf</UniqueID>
+    <ParentID>ST-63132318-c1d0-42cd-8dba-243af6b53101</ParentID>
+    <Description>Release Information Form</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Release Information Form\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-70ecd764-bc0f-4f95-b5fc-57b8691f23ed</UniqueID>
+    <ParentID>ST-63132318-c1d0-42cd-8dba-243af6b53101</ParentID>
+    <Description>Patient Benefit Summary - Not applicable to Patient Pay.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Patient\cf2  Benefit Summary \i - Not applicable to \cf1 Patient\cf2  Pay\i0 .\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fb2ecd01-8425-45a3-8471-43088d19a008</UniqueID>
+    <ParentID>ST-63132318-c1d0-42cd-8dba-243af6b53101</ParentID>
+    <Description>Insurance Card &amp; ID - Not applicable to Patient Pay.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Insurance Card &amp; ID \i - Not applicable to \cf2 Patient\cf1  Pay.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b15aeefc-a4db-48a4-b04f-572087379528</UniqueID>
+    <ParentID>ST-c106912a-8644-44b7-8bd2-1b4140514289</ParentID>
+    <Description>For each line the system shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 For each line the system shows:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d53979d1-3d74-40b1-a05c-e7fe9f2f7b76</UniqueID>
+    <ParentID>ST-b15aeefc-a4db-48a4-b04f-572087379528</ParentID>
+    <Description>Document type</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Document type\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d2d12dd4-c696-4f12-a46d-71d1d61ade65</UniqueID>
+    <ParentID>ST-b15aeefc-a4db-48a4-b04f-572087379528</ParentID>
+    <Description>Upload date - fill with a dash.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Upload date - \i fill with a dash\i0 .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3729dd6d-3790-4a18-8c15-7fdd46d7c9c5</UniqueID>
+    <ParentID>ST-b15aeefc-a4db-48a4-b04f-572087379528</ParentID>
+    <Description>'Submitted by' - fill with a dash.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 'Submitted by' - \i fill with a dash\i0 .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-868ba8a4-4c17-4ed3-91d8-e869bc62ccf9</UniqueID>
+    <ParentID>ST-b15aeefc-a4db-48a4-b04f-572087379528</ParentID>
+    <Description>Upload control:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Upload control:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f7206313-9d8a-4c50-8649-f19d7d078415</UniqueID>
+    <ParentID>ST-868ba8a4-4c17-4ed3-91d8-e869bc62ccf9</ParentID>
+    <Description>User clicks Upload within the grid</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User clicks Upload within the grid\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a36ea0f9-06e9-4d2f-a139-a0b706e23755</UniqueID>
+    <ParentID>ST-868ba8a4-4c17-4ed3-91d8-e869bc62ccf9</ParentID>
+    <Description>The system opens Browse dialog.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system opens Browse dialog.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-db6feca2-c848-4071-a8a2-003b7bea63e8</UniqueID>
+    <ParentID>ST-868ba8a4-4c17-4ed3-91d8-e869bc62ccf9</ParentID>
+    <Description>User selects file.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User selects file.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7dc15b74-50de-4adf-9dfa-ba9cdbc5f7f4</UniqueID>
+    <ParentID>ST-868ba8a4-4c17-4ed3-91d8-e869bc62ccf9</ParentID>
+    <Description>The system uploads the file (show progress) </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system uploads the file (show progress) \lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0d61f504-4592-49ad-a6f9-3c07e3bfd767</UniqueID>
+    <ParentID>ST-c106912a-8644-44b7-8bd2-1b4140514289</ParentID>
+    <Description>Once the document is uploaded, that empty line is filled and it behaves like any other document entry.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Once the document is uploaded, that empty line is filled and it behaves like any \cf1 other document entry.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f5a95074-f09d-483d-a62a-864c125ca3de</UniqueID>
+    <ParentID>ST-c106912a-8644-44b7-8bd2-1b4140514289</ParentID>
+    <Description>Until all empty lines for mandatory documents are filled out (files are uploaded), the remaining empty lines are pinned to the top of the list and not affected by any sorting user may apply.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Until all empty lines for mandatory documents are filled out (files are uploaded), the remaining empty lines are pinned to the top of the list and not affected by any sorting user may apply.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-40519e21-245e-4e4c-a318-41f9fbfa4f8b</UniqueID>
+    <ParentID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</ParentID>
+    <Description>User initiates upload.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User initiates upload.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-36be3ccb-11ab-4619-8574-e6083fe14675</UniqueID>
+    <ParentID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</ParentID>
+    <Description>User selects document type.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User selects document type.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8a9cc9c2-1ef1-4cbc-9303-bcef0b4a88c0</UniqueID>
+    <ParentID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</ParentID>
+    <Description>The system enables the "Browse" button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system enables the "Browse" button.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-89ce265a-8a66-4f2a-b404-249cd5e4b01f</UniqueID>
+    <ParentID>X-65cfc0cd-945e-461d-a138-8bd6a2ed1800</ParentID>
+    <Description>The system prompts user to enter mandatory description for the file (60 characters max)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system prompts user to enter mandatory description for the file (60 characters max)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-494b5520-bac4-4b9c-965c-d7bac9a5ad3c</UniqueID>
+    <ParentID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</ParentID>
+    <Description>The system displays name of the selected file.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system displays name of the selected file.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-754719d9-d78e-43d0-bbaa-4c5f14df8489</UniqueID>
+    <ParentID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</ParentID>
+    <Description>User confirms upload.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User confirms upload.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-af8341da-912a-4792-87d4-01e3d27da501</UniqueID>
+    <ParentID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</ParentID>
+    <Description>The system displays Upload dialog:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system displays Upload dialog:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d038a72f-668d-48bf-8ba9-ec66f6261c79</UniqueID>
+    <ParentID>ST-af8341da-912a-4792-87d4-01e3d27da501</ParentID>
+    <Description>'Category' dropdown - autoselected depending on the category from which upload was initiated, can be changed:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 'Category' dropdown - autoselected depending on the category from which upload was initiated, can be changed:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-52d53c89-7b36-453f-8096-575b70825b01</UniqueID>
+    <ParentID>ST-af8341da-912a-4792-87d4-01e3d27da501</ParentID>
+    <Description>'Document type' dropdown - contains all documents available for selected category</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 'Document type' dropdown - contains all documents available for selected category\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a51ad27-c1d6-4807-8172-0b5f483b0c90</UniqueID>
+    <ParentID>ST-d038a72f-668d-48bf-8ba9-ec66f6261c79</ParentID>
+    <Description>Administrative</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Administrative\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-06d6fadf-d20d-4221-9e7f-588232ce5237</UniqueID>
+    <ParentID>ST-d038a72f-668d-48bf-8ba9-ec66f6261c79</ParentID>
+    <Description>Medical</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Medical\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6ac1d857-b7b4-415c-a366-c979213c94db</UniqueID>
+    <ParentID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</ParentID>
+    <Description>User selects file to upload.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User selects file to upload.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d3c94354-17c0-469c-be9d-6f12361bd0fd</UniqueID>
+    <ParentID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</ParentID>
+    <Description>The system shows upload progress.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system shows upload \cf1 progress.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2e26807a-981d-4b84-b45e-5b22a0a63f9d</UniqueID>
+    <ParentID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</ParentID>
+    <Description>The system completes upload and closes the dialog.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system completes upload and closes the dialog.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-96b1dab7-0118-4a34-8bdc-1240bf9b8ec4</UniqueID>
+    <ParentID>MSS-a0ca3a5f-6322-448e-a695-69e8ef027e6b</ParentID>
+    <Description>User can sort documents within a category by:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User can sort documents within a category by:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7d9e94cb-f371-4674-8bb6-c2346108855b</UniqueID>
+    <ParentID>ST-96b1dab7-0118-4a34-8bdc-1240bf9b8ec4</ParentID>
+    <Description>Type (A-Z / Z-A)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Type (\cf1\ul A-Z\cf2\ulnone  / Z-A)\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-24cad58e-8307-4d91-9814-dccda4bcde7e</UniqueID>
+    <ParentID>ST-96b1dab7-0118-4a34-8bdc-1240bf9b8ec4</ParentID>
+    <Description>Upload date (recent / old first)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Upload date (recent / old first)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f0374343-9a5e-4852-ae68-554a1275085f</UniqueID>
+    <ParentID>MSS-a0ca3a5f-6322-448e-a695-69e8ef027e6b</ParentID>
+    <Description>By default, documents are sorted by upload date, most recent first.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 By default, documents are sorted by upload date, most recent first.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-66128114-b6ce-40e2-9dff-13d693302911</UniqueID>
+    <ParentID>MSS-a0ca3a5f-6322-448e-a695-69e8ef027e6b</ParentID>
+    <Description>Exceptions &amp; Notes:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Exceptions &amp; Notes:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a5074499-c87d-4647-8117-4292ac928061</UniqueID>
+    <ParentID>ST-66128114-b6ce-40e2-9dff-13d693302911</ParentID>
+    <Description>Referrer-signed Plan of Care and Progress Note is always displayed below the Plan of Care / Progress Note it is associated with. Sorting is only applied to the original Plan of Care / Progress Note, the Referrer-signed version goes with it all the time and does not adhere to sorting rules.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Referrer-signed \cf1 Plan of Care\cf0  and \cf1 Progress Note is always displayed below the Plan of Care\cf0  / \cf1 Progress Note it is associated with. Sorting is only applied to the original Plan of Care\cf0  / \cf1 Progress Note, the Referrer-signed version goes with it all the time and does not adhere to sorting rules.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f1f963f3-76ec-4b9d-97c4-add1ba3bbf3c</UniqueID>
+    <ParentID>X-cd02ae8f-3023-46a3-973d-0fdf198bdcdd</ParentID>
+    <Description>The system displays the list of these Plans of Care / Progress Notes, user must select one.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system displays the list of these Plans of Care / \cf1 Progress Notes, user must select one.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-279f64b3-8257-47f8-91da-899415898627</UniqueID>
+    <ParentID>X-cd02ae8f-3023-46a3-973d-0fdf198bdcdd</ParentID>
+    <Description>User selects required Plan of Care / Progress Note and completes upload.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User selects required \cf1 Plan of Care\cf0  / \cf1 Progress Note and completes upload.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-559a342c-35a2-472e-bf25-483d6e1ef31d</UniqueID>
+    <ParentID>X-cd02ae8f-3023-46a3-973d-0fdf198bdcdd</ParentID>
+    <Description>The system associates Referrer-signed PDF with selected  Plan of Care / Progress Note.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system associates Referrer-signed PDF with selected  \cf1 Plan of Care\cf0  / \cf1 Progress Note.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a38c03b-ee15-456a-b2df-d675c0257b28</UniqueID>
+    <ParentID>X-3b6e8a8d-fdc1-4fc5-8a3c-41262cb8732c</ParentID>
+    <Description>User can proceed with basic scenario.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User can proceed with basic scenario.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cb6aaabe-27cd-46e8-9fe4-09c62d4be328</UniqueID>
+    <ParentID>X-3b6e8a8d-fdc1-4fc5-8a3c-41262cb8732c</ParentID>
+    <Description>If upload is successful, the system automatically associates Referrer-signed PDF with the Plan of Care / Progress Note.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 If upload is successful, the system automatically associates Referrer-signed PDF with the \cf1 Plan of Care\cf0  / \cf1 Progress Note.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b6a29a90-bed7-484c-9dd9-a4bf9c200f65</UniqueID>
+    <ParentID>X-5cb92b14-164a-45f1-a7ae-b72283cc27ac</ParentID>
+    <Description>The system shows "Upload failed" text instead of upload progress.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system shows "Upload failed" text instead of upload progress.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9c7670a3-353a-4793-b918-3738fde9f61f</UniqueID>
+    <ParentID>X-5cb92b14-164a-45f1-a7ae-b72283cc27ac</ParentID>
+    <Description>The system also displays "Try again" link - clicking it restarts upload.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system also displays "Try again" link - clicking it restarts upload.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ccead69b-7a1c-4105-9d6e-da280c067fd3</UniqueID>
+    <ParentID>X-5cb92b14-164a-45f1-a7ae-b72283cc27ac</ParentID>
+    <Description>User can retry upload or close the dialog (cancel main scenario).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User can retry upload or close the dialog (cancel main scenario).\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f4f1571e-05e0-4827-b0f7-78bea7b2f1fc</UniqueID>
+    <ParentID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</ParentID>
+    <Description>The system adds uploaded document to the list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system adds uploaded document to the list.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b9fe4307-e61f-4adb-95dd-0d3802dc437d</UniqueID>
+    <ParentID>X-ffa61ba5-7f6a-4908-8e08-aad517c969b0</ParentID>
+    <Description>The system puts document info in that empty line.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system puts document info in that empty line.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d577d502-ec5a-480a-a666-3b4a013f8926</UniqueID>
+    <ParentID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</ParentID>
+    <Description>The system renames the file (if applicable) and saves it to the database.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system renames the file (if applicable) and saves it to the database.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-18a0b759-9bad-44bf-ab0b-ec70803118cf</UniqueID>
+    <ParentID>ST-8d343d30-bafc-403f-8aaa-18a0bb0bcf2d</ParentID>
+    <Description>Not signed</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Not signed\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-491481a1-e73a-4613-ba31-b3fc8814632b</UniqueID>
+    <ParentID>ST-8d343d30-bafc-403f-8aaa-18a0bb0bcf2d</ParentID>
+    <Description>Signed by Referrer (only Referrer-signed Plans of Care and Progress Notes)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Signed by Referrer (only Referrer-signed Plans of Care and \cf1 Progress Notes)\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dfd18443-3635-469f-90f1-4c58c93f9b7e</UniqueID>
+    <ParentID>ST-dadebaad-ce79-4ee5-8388-03276c50434b</ParentID>
+    <Description>Empty for unsigned documents</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Empty for unsigned documents\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dda1fd90-1e89-40d8-befd-bc4b8abf4db3</UniqueID>
+    <ParentID>ST-dadebaad-ce79-4ee5-8388-03276c50434b</ParentID>
+    <Description>PT's name for signed documents</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 PT's name for signed documents\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b493e574-eb58-4ee3-8647-e9f54d525d20</UniqueID>
+    <ParentID>ST-dadebaad-ce79-4ee5-8388-03276c50434b</ParentID>
+    <Description>CBC's name for uploaded documents</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 CBC\cf2 's name for uploaded documents\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2f400501-1f83-4af2-9cb4-ee9ae795c712</UniqueID>
+    <ParentID>MSS-a9fb0e5d-fa63-4897-a6d7-c0130e2d67e8</ParentID>
+    <Description>[Initial State - New Case]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 [\b Initial State - New Case\b0 ]:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a4541ab6-4683-40a0-a862-f34b30b6603a</UniqueID>
+    <ParentID>ST-2f400501-1f83-4af2-9cb4-ee9ae795c712</ParentID>
+    <Description>The system shows empty line for the Evaluation Form document type.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system shows empty line for the Evaluation Form document type.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cf07671a-c31c-46df-bd69-39950f1173f7</UniqueID>
+    <ParentID>ST-2f400501-1f83-4af2-9cb4-ee9ae795c712</ParentID>
+    <Description>In that line the system shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 In that line the system shows:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9c9f283a-1a7c-47b1-9759-8f82800788a5</UniqueID>
+    <ParentID>ST-cf07671a-c31c-46df-bd69-39950f1173f7</ParentID>
+    <Description>Document type (Evaluation form)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Document type (Evaluation form)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bdc59c3a-d4f0-4223-ab98-ace252a15e37</UniqueID>
+    <ParentID>ST-cf07671a-c31c-46df-bd69-39950f1173f7</ParentID>
+    <Description>Upload date - fill with a dash.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Upload date - \i fill with a dash\i0 .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-33075ac6-c345-4394-9d36-fe7805a6100c</UniqueID>
+    <ParentID>ST-cf07671a-c31c-46df-bd69-39950f1173f7</ParentID>
+    <Description>'Submitted by' - fill with a dash.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 'Submitted by' - \i fill with a dash\i0 .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f8867b55-3335-491f-8c87-52087cc55fe0</UniqueID>
+    <ParentID>ST-cf07671a-c31c-46df-bd69-39950f1173f7</ParentID>
+    <Description>Upload control:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Upload control:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5904d120-4c3a-4cdb-b42d-e266570024a7</UniqueID>
+    <ParentID>ST-f8867b55-3335-491f-8c87-52087cc55fe0</ParentID>
+    <Description>User clicks Upload within the grid</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User clicks Upload within the grid\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2b667e6e-a2a5-4fe9-b3c9-e2ecabacedf3</UniqueID>
+    <ParentID>ST-f8867b55-3335-491f-8c87-52087cc55fe0</ParentID>
+    <Description>The system opens Browse dialog.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system opens Browse dialog.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dab65d29-2e3e-4bd7-b1a8-13e50b39b022</UniqueID>
+    <ParentID>ST-f8867b55-3335-491f-8c87-52087cc55fe0</ParentID>
+    <Description>User selects file.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User selects file.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-be9bfcf6-c1a0-4028-b98d-4dfa7a1eebb9</UniqueID>
+    <ParentID>ST-f8867b55-3335-491f-8c87-52087cc55fe0</ParentID>
+    <Description>The system uploads the file (show progress) </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system uploads the file (show progress) \lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e6f225ce-10b4-4c59-9447-a5d37b09393a</UniqueID>
+    <ParentID>ST-2f400501-1f83-4af2-9cb4-ee9ae795c712</ParentID>
+    <Description>Once the document is uploaded, that empty line is filled and it behaves like any other document entry.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Once the document is uploaded, that empty line is filled and it behaves like any \cf1 other document entry.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-572b3aef-ccff-408f-b8a5-7561e52e827a</UniqueID>
+    <ParentID>ST-2f400501-1f83-4af2-9cb4-ee9ae795c712</ParentID>
+    <Description>Until empty line for Evaluation Form is filled out (file is uploaded), that empty line is pinned to the top of the list and not affected by any sorting user may apply.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Until empty line for \cf1 Evaluation Form is \cf0 filled out (file is uploaded), that empty line is pinned to the top of the list and not affected by any sorting user may apply.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-847a1d8f-2b5a-47af-9b78-36b176472c09</UniqueID>
+    <ParentID>ST-cf07671a-c31c-46df-bd69-39950f1173f7</ParentID>
+    <Description>Status - fill with a dash.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Status - \i fill with a dash\i0 .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6c83c319-fd82-45bb-a092-c116c3ea3cfb</UniqueID>
+    <ParentID>ST-9eccb755-0937-4a77-886f-d2c9b2e36260</ParentID>
+    <Description>Actions:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Actions:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-afd05e80-944a-4ee4-aa17-8e0adf05d91e</UniqueID>
+    <ParentID>ST-6c83c319-fd82-45bb-a092-c116c3ea3cfb</ParentID>
+    <Description>'Delete' control - only applies to documents uploaded by the CBC - UC-16-4</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 'Delete' control - only applies to documents uploaded by the \cf2 CBC\cf1  - \cf2\ul UC-16-4\cf1\lang1049\ulnone\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-96265c9f-d90e-4c83-8b53-46bc877fdeb6</UniqueID>
+    <ParentID>ST-66128114-b6ce-40e2-9dff-13d693302911</ParentID>
+    <Description>Sorting by type - within each type, documents are sorted by upload date.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Sorting by type - within each type, documents are sorted by upload date.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fcbaee53-7041-4b3e-8b8b-21ca02a5828f</UniqueID>
+    <ParentID>ST-66128114-b6ce-40e2-9dff-13d693302911</ParentID>
+    <Description>If upload date is the same, sort by upload time (time is not shown in UI)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 If upload date is the same, sort by upload time (time is not shown in UI)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9ff5db6c-c551-482f-8556-84c1d612d4d5</UniqueID>
+    <ParentID>ST-66128114-b6ce-40e2-9dff-13d693302911</ParentID>
+    <Description>Empty lines for mandatory documents are not affected by sorting, they are always pinned to the top.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Empty lines for mandatory documents are not affected by sorting, they are always pinned to the top.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ce29e32e-3d4c-4053-9f9c-cd396e5c0759</UniqueID>
+    <ParentID>ST-c92ce463-f653-4106-b6d8-f2708a23bc9c</ParentID>
+    <Description>Initial Evaluation Form</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Initial Evaluation Form\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3e675d5e-1013-4cd6-90bc-5f18e507033f</UniqueID>
+    <ParentID>ST-c92ce463-f653-4106-b6d8-f2708a23bc9c</ParentID>
+    <Description>Medical History</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Medical History\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-877d6e65-0516-4177-8215-c69a1d9b5eae</UniqueID>
+    <ParentID>ST-c92ce463-f653-4106-b6d8-f2708a23bc9c</ParentID>
+    <Description>Home Exercise Program</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Home Exercise Program\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ae4a6e45-4a97-452c-aa91-d1727f3632f4</UniqueID>
+    <ParentID>ST-c92ce463-f653-4106-b6d8-f2708a23bc9c</ParentID>
+    <Description>Treatment Log</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Treatment Log\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ed218565-7d44-4df8-91dc-84b1a100c5ed</UniqueID>
+    <ParentID>ST-c92ce463-f653-4106-b6d8-f2708a23bc9c</ParentID>
+    <Description>Plan of Care - Signed by Referrer</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Plan of Care - Signed by Referrer\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3131afe8-daba-486d-a87f-9a23930c7914</UniqueID>
+    <ParentID>ST-c92ce463-f653-4106-b6d8-f2708a23bc9c</ParentID>
+    <Description>Progress Note - Signed by Referrer</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Progress Note - Signed by Referrer\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-08debecf-1a6c-41f3-96a2-3ea4bf1c285c</UniqueID>
+    <ParentID>MSS-8016bd06-9403-435e-a3fc-34b1108b6f03</ParentID>
+    <Description>If CBC is uploading Referrer-signed Plan of Care or Progress Note, the system should automatically select "Confirm Fax Received" in the Work Queue and move that document to the Archive queue.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 If \cf1 CBC\cf2  is uploading Referrer-signed Plan of Care or Progress Note, the system should automatically select "Confirm Fax Received" in the Work Queue and move that document to the Archive queue.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a7888c89-7efe-43de-81d1-d720c00ff3db</UniqueID>
+    <ParentID>MSS-aff47015-af62-4d74-99ac-7cc1d2ea3cf8</ParentID>
+    <Description>When CBC does Discharge in the system or when PT signs the Discharge Summary</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 When \cf1 CBC\cf2  does Discharge in the system or when PT signs the Discharge Summary\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e4144e40-1091-4fdb-8ba9-0315195180c4</UniqueID>
+    <ParentID>ST-a7888c89-7efe-43de-81d1-d720c00ff3db</ParentID>
+    <Description>All documents present at that moment become sealed. They cannot be deleted or altered in any way, users can only download them.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 All documents present at that moment become sealed. They cannot be deleted or altered in any way, users can only download them.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6b6d6815-ff13-4261-8492-a72d45bbc4b9</UniqueID>
+    <ParentID>ST-a7888c89-7efe-43de-81d1-d720c00ff3db</ParentID>
+    <Description>CBC can still upload documents. CBC can delete any of the documents uploaded after discharge (not the sealed ones).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 CBC\cf2  can still upload documents. \cf1 CBC\cf2  can delete any of the documents uploaded after discharge (not the sealed ones).\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5c1ae2da-8fdd-4bdf-a389-16ba9f8ba4f6</UniqueID>
+    <ParentID>X-3b613cea-51bf-4348-a881-0367de5cb000</ParentID>
+    <Description>The system automatically puts this document in Case Files for all patient cases (incl. old ones).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system automatically puts this document in \cf1 Case Files for all \cf2 patient\cf1  cases (incl. old ones).\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-92145cae-53a4-4086-8b3d-61d2c8a5ff3f</UniqueID>
+    <ParentID>X-3b613cea-51bf-4348-a881-0367de5cb000</ParentID>
+    <Description>The system will also automatically add all existing Authorizations to any new case for that patient.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system will also automatically add all existing Authorizations to any new \cf1 case\cf0  for that \cf2 patient\cf0 .\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-27c7b3f8-7d10-499f-8506-e28619cf4fa5</UniqueID>
+    <ParentID>MSS-191d9d78-e8dd-46ef-9bd4-1319f4cbb695</ParentID>
+    <Description>Alternatively, user can initiate download for all case files. In this case the system zips all case files and then triggers browser's default Download process.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Alternatively, user can initiate download for all \cf1 case files. In this case the system zips all case files and then \cf0 triggers browser's default Download process.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6991a833-7d46-47a5-b72f-17b812cd6d4f</UniqueID>
+    <ParentID>ST-9eccb755-0937-4a77-886f-d2c9b2e36260</ParentID>
+    <Description>Appointment Date (only applicable to Daily Notes &amp; Plans of Care)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Appointment\cf2  Date (only applicable to \cf1 Daily Notes\cf2  &amp; Plans of Care)\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5c3497e8-ded3-4eea-acee-b26ff6cab1d4</UniqueID>
+    <ParentID>ST-96b1dab7-0118-4a34-8bdc-1240bf9b8ec4</ParentID>
+    <Description>Appointment Date (only in Medical documentation) </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Appointment\cf2  Date (only in Medical documentation) \cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f688df8b-598b-4f65-b532-f750563cc79c</UniqueID>
+    <ParentID>X-b56d1ac4-3c50-4165-8e61-5f50b4e55752</ParentID>
+    <Description>The system displays an error "Cannot upload file, format invalid."</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays an error "Cannot upload file, format invalid."\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b3fda7c6-f757-419a-9208-5af519e51ccc</UniqueID>
+    <ParentID>X-b56d1ac4-3c50-4165-8e61-5f50b4e55752</ParentID>
+    <Description>User must select another file to proceed.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User must select another file to proceed.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-65cfc0cd-945e-461d-a138-8bd6a2ed1800</UniqueID>
+    <ParentID>ST-8a9cc9c2-1ef1-4cbc-9303-bcef0b4a88c0</ParentID>
+    <Description>User selected Miscellaneous type.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User selected Miscellaneous type.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-cd02ae8f-3023-46a3-973d-0fdf198bdcdd</UniqueID>
+    <ParentID>ST-8a9cc9c2-1ef1-4cbc-9303-bcef0b4a88c0</ParentID>
+    <Description>User selected "Plan of Care - Signed by Referrer" or "Progress Note - Signed by Referrer"; there's more than one Plan of Care / Progress Note without Referrer-signed attachment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User selected "\cf1 Plan of Care - Signed by Referrer" or "Progress Note - Signed by Referrer"; there's more than one Plan of Care / Progress Note without Referrer-signed attachment.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-3b6e8a8d-fdc1-4fc5-8a3c-41262cb8732c</UniqueID>
+    <ParentID>ST-8a9cc9c2-1ef1-4cbc-9303-bcef0b4a88c0</ParentID>
+    <Description>User selected "Plan of Care - Signed by Referrer" or "Progress Note - Signed by Referrer"; there's one Plan of Care / Progress Note without Referrer-signed attachment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User selected "\cf1 Plan of Care - Signed by Referrer" or "Progress Note - Signed by Referrer"; there's one Plan of Care / Progress Note without Referrer-signed attachment.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-5cb92b14-164a-45f1-a7ae-b72283cc27ac</UniqueID>
+    <ParentID>ST-d3c94354-17c0-469c-be9d-6f12361bd0fd</ParentID>
+    <Description>Upload fails (no connection or any other technical issue)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Upload fails (no connection or any other technical issue)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-ffa61ba5-7f6a-4908-8e08-aad517c969b0</UniqueID>
+    <ParentID>ST-f4f1571e-05e0-4827-b0f7-78bea7b2f1fc</ParentID>
+    <Description>User uploaded a document that has an empty line in the list (see UC-16-1, step 4)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User uploaded a document that has an empty line in the list (see \cf2\ul UC-16-1\cf1\ulnone , step 4)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-3b613cea-51bf-4348-a881-0367de5cb000</UniqueID>
+    <ParentID>ST-d577d502-ec5a-480a-a666-3b4a013f8926</ParentID>
+    <Description>User uploaded "Authorization to disclose medical history" document.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User uploaded "Authorization to disclose medical history" document.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-b56d1ac4-3c50-4165-8e61-5f50b4e55752</UniqueID>
+    <ParentID>ST-6ac1d857-b7b4-415c-a366-c979213c94db</ParentID>
+    <Description>User selected an executable file to upload (bat, cmd, com, exe, jse, msi, vb*)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selected an executable file to upload (bat, cmd, com, exe, jse, msi, vb*)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <ExternalDoc>
+    <UniqueID>EX-d00b9809-0be1-419b-8d64-c240f02f1ef1</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Case_Files</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-ef6f24ac-0570-459f-a5a3-54865d46510e</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Case_Files</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-16-</DefaultPrefix>
+    <NextValue>7</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-16-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-16-</DefaultPrefix>
+    <NextValue>4</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-16-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <TestScenario>
+    <UniqueID>TS-d355a2d8-6864-42ef-9e77-ba0418c8fa46</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <Description>Verify that CBC has full scope of functionality.</Description>
+    <Name>CBC rights</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-7d9765f0-9e37-46b0-ba9b-c2103707c7b7</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <Description>Verify that PT/PTA has read-only access (only download).</Description>
+    <Name>PT/PTA rights</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d9ce9e01-fb62-4142-bba9-d97348912c7f</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <Description>Verify when user opens Case files, the system displays the list of administrative 	documents uploaded to the case.</Description>
+    <Name>Case files content</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-5fcc5c9f-8ecc-4c5e-b836-8061d214107e</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <Description>Verify that for each uploaded document the system shows:
+	Document
+	Date Submitted
+	'Submitted by' 	 		'Delete' control 
+	'Download' control </Description>
+    <Name>Columns for Administrative Documents</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-4704297a-9ce7-408a-8e69-c01b82f87481</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <Description>Verify that for new case the system shows empty lines for the following  document types that are mandatory for a case: 
+Referral
+Patient Consent Form 
+Release Information Form
+Patient Benefit Summary - Not applicable to Patient Pay. 
+Insurance Card &amp; ID - Not applicable to Patient Pay.</Description>
+    <Name>Mandatory document types</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-efa4fe28-32a3-4688-930f-15ff493329b3</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <Description>Verify that for each new line the system shows: 
+Document
+Date Submitter - fill with a dash. 
+'Submitted by' - fill with "Not Yet Submitted"
+Upload control</Description>
+    <Name>Options for empty lines</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-4500c655-c56c-4648-90b9-31c32b334390</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <Description>Verify when user clicks Upload button within the grid, the system opens Browse  dialog.</Description>
+    <Name>Browse dialog</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>6</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-280522c8-682e-4318-8ebc-85489e0a146f</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <Description>Verify if user selects file for uploading and submits the Browse form, the  system shows the uploading progress popup and then uploads the document.</Description>
+    <Name>Uploading progress popup</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>7</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-707bf18f-77b3-4d22-a8fa-51bc2778f8ff</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <Description>Verify when the document is uploaded, the 'Date Submitted' and 'Submitted by'  colums are filled in correctly.</Description>
+    <Name>'Date Submitted' and 'Submitted by' colums are filled in</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>8</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-dd79e3b3-fc0f-4c74-8072-83e5cb0b1326</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <Description>Verify when the document is uploaded, the Actions buttons 'Delete' and  'Download' appear instead of 'Upload' button.</Description>
+    <Name>Appearance of Delete/Download buttons</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>9</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2910d219-d4af-4f0f-9c12-6d3aec2cd8bc</UniqueID>
+    <ParentID>UC-c0f1dcaa-e235-446a-b591-2a080c52b743</ParentID>
+    <Description>Verify that until all empty lines for mandatory documents are filled out  (files are uploaded), the remaining empty lines are pinned to the top of the list  and not affected by any sorting user may apply. </Description>
+    <Name>Empty lines are on the top</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>10</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-68e20d45-5d80-4769-91cc-907d3d036733</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify when user presses on 'Upload Admin Document' or 'Upload Treatment  Document' the system displays Upload dialogs with 'Category', 'Document Type'  dropdowns, Select Document button, Cancel link and Upload button, Close button.</Description>
+    <Name>Upload document dialog</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-570d5e93-19d2-48ae-9a0f-e7e470326417</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that 'Category' dropdown is autoselected depending on the category from  which upload was initiated, can be changed: (required)	
+		1. Administrative
+		2. Medical</Description>
+    <Name>Category dropdown</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2ee0e19f-b578-4ee3-8887-5b7242dff5e6</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>'Document Type' dropdown - contains all documents available for selected  category (required) </Description>
+    <Name>'Document Type' dropdown </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-3386dc6a-a4b5-4105-a1fe-f538fc5c7d00</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that 'Document Type' dropdown has default "Select Document Type to Add"  value.</Description>
+    <Name>Default value for 'Document Type' </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2d5a927c-599a-431d-a1dd-43db4a526e82</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that Document type dropdown for Administrative Documentation contains:
+•Referral
+•Patient Facesheet
+•Patient Consent Form 
+•Release Information Form
+•Patient Benefit Summary
+•Insurance Card &amp; ID
+•Advance Beneficiary Notice of Non-Coverage
+•Authorization to Disclose Medical History
+•Miscellaneous (requires short description)</Description>
+    <Name>Document dropdown for Administrative Documentation </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-6c1eaad3-f5b1-4d0e-8927-5d64ad1107ee</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that Document type dropdown for Medical Documentation contains:
+•Initial Evaluation Form
+•Medical History
+•Home Exercise Program
+•Treatment Log
+•Plan of Care - Signed by Referrer
+•Progress Note - Signed by Referrer </Description>
+    <Name>Document dropdown for Medical Documentation </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-0d3775b1-1d42-4022-85d9-17f5b5c716e8</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify if user selects 'Miscellaneous' document type from the Admin dropdown,  display text field below the drop downs (required).</Description>
+    <Name>Additional filed for 'Miscellaneous' document type </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>6</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-72d1fc64-aa0f-4188-a724-b97fd729dbe4</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that there is the text above the Miscellenous field "Enter Description  for Miscellenous Document (Up to 60 Char.):"</Description>
+    <Name>Text above the Miscellenous field</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>7</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-4205ebe7-5aff-4eb0-a601-46d69ce94004</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that the system doesn't allow enter more than 6 chars into Miscellenous  field.</Description>
+    <Name>Restrictions for Miscellenous  field.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>8</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-3e02ab4e-1850-4edc-8895-4d4081d3241a</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify when user selects document type, the system enables 'Browse' button.</Description>
+    <Name>Enable Browse button</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>9</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-ced9b6a1-4bba-429a-b2d5-5a648f05cd10</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify when user presses on 'Browse' button, the system opens Browse dialog.</Description>
+    <Name>Browse dialog opening</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>10</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-f130644a-7815-4ffe-9c47-2b843e747d1e</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify when user selects the file, the system displays the name of selected  file and trash button.</Description>
+    <Name>View of selected file</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>11</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-0cbbe8cf-4858-4371-a2b2-15b3ae7ef612</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify if user presses on trash button near the file, the name of the file is  deleted and 'Browse' button appears again.</Description>
+    <Name>Deleting selected file</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>12</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-a0047364-486a-4928-8867-d792a80e4283</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that the system displays the grid with radio buttons of Plans of Care  / Progress Notes, if user selects "Plan of Care - Signed by Referrer" or  "Progress Note - Signed by Referrer" and there's more than one Plan of Care /  Progress Note without Referrer-signed attachment.</Description>
+    <Name>Selecting one signed by referrer docs</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>13</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-7f8d299f-5208-4eee-96ab-7e9132320a6d</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that the system displays the radio button of Plan of Care / Progress  Note, if user selects "Plan of Care - Signed by Referrer" or "Progress Note -  Signed by Referrer" and there's one Plan of Care / Progress Note without  Referrer-signed attachment.</Description>
+    <Name>Radio button for one signed by referrer doc</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>14</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-acca30a8-869e-44a9-b555-1349a197b467</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that the grid has the following columns: Select, Document, Date  SIgned, Submitted by, if user user selects "Plan of Care - Signed by Referrer" or  "Progress Note - Signed by Referrer" and there's more than one Plan of Care /  Progress Note without Referrer-signed attachment.</Description>
+    <Name>Options for grid for referral docs</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>15</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-a72f1f2c-8718-43f7-b8b4-8e2cf8b2ce86</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify if user uploads  "Plan of Care - Signed by Referrer" or "Progress Note  - Signed by Referrer, the system correctly associates Referrer-signed PDF with selected   Plan of Care / Progress Note.</Description>
+    <Name>Correct assosiation</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>16</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-6633f818-6108-4c9b-a187-3eefed01faae</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify if user clicks on 'Cancel' link, the system closes popup without  making any changes in the system.</Description>
+    <Name>Cancelling uploading</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>17</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-57c5ae85-81df-40ff-8a5e-08e0a813c78b</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify if user clicks on 'Close' button, the system closes popup without  making any changes in the system.</Description>
+    <Name>Closing uploading dialog</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>18</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-1bacc889-6369-4de4-b8b3-e6add8bba10a</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that the system shows upload progress and closes the dialog after  uploading, if user presses 'Upload' button on the popup.</Description>
+    <Name>Upload progress popup</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>19</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-f0073181-5337-4391-9464-78115b29cc2c</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that the system adds the uploaded document to the list in order of  sorting. </Description>
+    <Name>Adding doc in order of sorting</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>20</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-dd6a8b22-1315-4f14-a349-4d095eae702c</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that new uploaded document replace the empty required document of the  same type. </Description>
+    <Name>Replacement of empty required doc</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>21</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-23cb7f12-e00a-4c38-9337-2fcc008272e9</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that the system correctly renames the file and saves  it to the database. 
+Administrative Documentation
+Referral - Referral
+Patient Facesheet - Facesheet
+Patient Consent Form - Consent_Form
+Release Information Form - Info_Release
+Patient Benefit Summary - Benefit_Summary
+Insurance Card &amp; ID - Ins_Card_ID
+Advance Beneficiary Notice of Non-Coverage - ABN
+Authorization to Disclose Medical History - HIPAA_release
+Miscellaneous - Misc
+
+Medical Documentation:
+Initial Evaluation Form - Eval
+Medical History - Medical_Hist
+Home Exercise Program - HEP
+Treatment Log - Tx_Log
+Plan of Care - Signed by Referrer - POC-signed
+Progress Note - Signed by Referrer - PN-signed</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Verify that the system correctly renames the file and saves  it to the database. \par
+\cf1\b Administrative Documentation\b0\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf0 Referral - \i Referral\lang1049\i0\f1\par
+\cf2\lang1033\ul\f0{\pntext\f2\'B7\tab}Patient\cf1\ulnone  Facesheet - \i Facesheet\lang1049\i0\f1\par
+\cf2\lang1033\ul\f0{\pntext\f2\'B7\tab}Patient\cf1\ulnone  Consent Form - \i Consent_Form\lang1049\i0\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Release Information Form - \i Info_Release\lang1049\i0\f1\par
+\cf2\lang1033\ul\f0{\pntext\f2\'B7\tab}Patient\cf1\ulnone  Benefit Summary - \i Benefit_Summary\lang1049\i0\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Insurance Card &amp; ID - \i Ins_Card_ID\lang1049\i0\f1\par
+{\pntext\f2\'B7\tab}Advance \cf3 Beneficiary\cf1  Notice of Non\lang1033\f0 -C\lang1049\f1 overage\lang1033\f0  - \i ABN\lang1049\i0\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Authorization to Disclose Medical History - \i HIPAA_release\i0\par
+{\pntext\f2\'B7\tab}Miscellaneous - \i Misc\i0\par
+\pard\par
+\b Medical Documentation:\b0\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 Initial \cf3 Evaluation\cf1  Form - \cf3\i Eval\cf1\i0\par
+{\pntext\f2\'B7\tab}Medical History - \i Medical_Hist\i0\par
+{\pntext\f2\'B7\tab}Home Exercise Program - \i HEP\i0\par
+{\pntext\f2\'B7\tab}Treatment Log - \i Tx_Log\i0\par
+{\pntext\f2\'B7\tab}Plan of Care - Signed by Referrer - \i POC-signed\i0\par
+\pard\cf3 Progress Note\cf1  - Signed by Referrer - \i PN-signed\cf0\i0\par
+}
+</RichDescription>
+    <Name>Rename uploaded doc</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>22</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-614e2aaa-1abd-4c15-94ad-0362ca1d2a71</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify when user uploads a file, the system must automatically rename that  file according to the following convention: &lt;CaseID&gt;_&lt;Document Type&gt;_&lt;MM-DD- YYYY&gt;. For example: 12345_ABN_04-27-2013.</Description>
+    <Name>Name's format of uploaded doc</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>23</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2410f8a4-839d-47df-979e-d333ff3cd496</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify if there already exists a file with the same type and date, add a  number to the document type (12345_ABN2_04-27-2013).</Description>
+    <Name>Rename doc if this type exists</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>24</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-136e05a0-f2fd-462b-bbc1-792537354f30</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify if user uploads the 'Miscellaneous' document type, then the Document  description has format: "Misc. This is a 60 word description that is mandatory  with misc." in the Document column of the grid.</Description>
+    <Name>Misc correct document name</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>25</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-7afbd7ba-fadf-4f75-b533-124ce96701f9</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify if upload fails (no connection or any other technical issue), the  system shows "Upload failed" text instead of upload progress, "Try again" link  and Close button.</Description>
+    <Name>Failed uploading</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>26</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-92d64e12-38d5-4e2f-abf4-e7e37b4a9b36</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that clicking on "Try again" link restarts the upload.</Description>
+    <Name>Restart uploading</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>27</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-ccca298c-53cd-40f1-a524-4a39a804cb39</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that pressing on 'Close' button closes the failed uploading dialog.</Description>
+    <Name>Close failed upload dialog</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>28</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-17a74de9-7517-4f2a-9541-c4f51ac4ed43</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify if user uploads "Authorization to disclose medical history" document,  the system automatically puts this document in Case Files for all patient cases  (incl. old ones).</Description>
+    <Name>Authorization to disclose medical history" document for all cases</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>29</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-fe55c716-79e8-4ab7-ba84-5df674f39f19</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that the system automatically adds all existing Authorizations to any  new case for that patient into Case files.</Description>
+    <Name>Authorizations for new case</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>30</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-c96040f0-0089-416c-8a97-846e794c7080</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify if CBC is uploading Referrer-signed Plan of Care or Progress Note, the  system should automatically select "Confirm Fax Received" in the Work Queue and  move that document to the Archive queue</Description>
+    <Name>Actions after upload referred docs</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>31</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-36cfee7e-e41e-40c7-9602-62df4993ef5f</UniqueID>
+    <ParentID>UC-921f5015-3d11-409a-b4b0-4a0060f022ec</ParentID>
+    <Description>Verify that the system triggers browser's default Download process, if some  user presses on Download button in the Actions column of the grid.</Description>
+    <Name>Downloading automatically</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2058a07f-bdaa-4ea0-b77b-0d18a20292a4</UniqueID>
+    <ParentID>UC-921f5015-3d11-409a-b4b0-4a0060f022ec</ParentID>
+    <Description>Verify is user presses on 'Download All case Files', the system will  automatically download zip file with all uploaded documents.</Description>
+    <Name>Download all files</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-b9e690ab-feac-4985-a84d-1bd3b44a1882</UniqueID>
+    <ParentID>UC-582ba379-2a3d-4096-8755-e27edf270c3e</ParentID>
+    <Description>Verify that CBC can delete a document that was previously uploaded by CBC.</Description>
+    <Name>CBC can delete</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-dbe973f6-f617-426e-bdc1-286b7d65289c</UniqueID>
+    <ParentID>UC-582ba379-2a3d-4096-8755-e27edf270c3e</ParentID>
+    <Description>Verify that clinician-signed medical documents that appear in the list  automatically cannot be deleted (there is no trash icon)</Description>
+    <Name>Automatically added docs can not be deleted</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-e21ac7ff-5e4f-46a7-a9e0-43495b84c755</UniqueID>
+    <ParentID>UC-582ba379-2a3d-4096-8755-e27edf270c3e</ParentID>
+    <Description>Verify when user presses on trash button, the popup 'Delete Document' with  text which contains the name of the document, buttons Delete, Close, link Cancel  appears.</Description>
+    <Name>Delete confirmation popup</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-ec340576-61f8-43be-9339-c1160acb62a2</UniqueID>
+    <ParentID>UC-582ba379-2a3d-4096-8755-e27edf270c3e</ParentID>
+    <Description>Verify when user confirms deleting of the document, the system permanently  removes the document.</Description>
+    <Name>Remove the document</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-a44ab5f6-6041-4687-8061-5749d0eeb8f6</UniqueID>
+    <ParentID>UC-582ba379-2a3d-4096-8755-e27edf270c3e</ParentID>
+    <Description>Verify when user removes the required document, the system puts empty required  document to the top of the list.</Description>
+    <Name>Empty docs on the top</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-c1bc78ef-502e-4ae7-824b-8d07f5e95a48</UniqueID>
+    <ParentID>UC-582ba379-2a3d-4096-8755-e27edf270c3e</ParentID>
+    <Description>Verify if user deleted Referrer-signed Plan of Care, Progress Note or required  document, the system also adds Upload control to the Plan of Care or Progress  Note the deleted document was associated with or to the empty document.</Description>
+    <Name>Add upload control after deleting</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-1c446da4-36a5-4a26-a513-21214e81b6c9</UniqueID>
+    <ParentID>UC-582ba379-2a3d-4096-8755-e27edf270c3e</ParentID>
+    <Description>Verify when CBC does Discharge in the system or when PT signs the Discharge  Summary, the delete icons are disappear from Case files.</Description>
+    <Name>Can't delete after discharge</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>6</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-aa70c8dd-6338-4a67-9bc3-917396ba06fc</UniqueID>
+    <ParentID>UC-582ba379-2a3d-4096-8755-e27edf270c3e</ParentID>
+    <Description>Verify when CBC does Discharge in the system or when PT signs the Discharge  Summary, CBC can still upload documents to Case files.</Description>
+    <Name>Upload after discharge</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>7</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-8b07a370-5087-4af6-949b-b41ddae751e4</UniqueID>
+    <ParentID>UC-582ba379-2a3d-4096-8755-e27edf270c3e</ParentID>
+    <Description>Verify when CBC does Discharge in the system or when PT signs the Discharge  Summary, CBC can delete uploaded after discharge documents.</Description>
+    <Name>Delete uploaded after discharge files</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>8</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-f2aa13f1-2027-4722-aa30-4d119bdab411</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that user can see the list of Medical documents uploaded by CBC /  signed by clinicians/saved documents when opens Treatment Documentation section  Case files.</Description>
+    <Name>Treatment Documentation section</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-1fb700fd-9055-46c6-a4f6-c8053a7c4829</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that treatment documents appear in this list as soon as clinician  starts to fill them out -OR- as soon as the system adds a document to the PT/PTA  work queue -OR- when CBC uploads a file manually</Description>
+    <Name>Appearance of treatment docs</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-8e721465-fb77-49b3-a6ba-01f288eddf46</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that the system can display the following document types in Treatment Documentation section: 
+2.1.Initial Evaluation Form
+2.2.Medical History
+2.3.Home Exercise Program
+2.4.Treatment Log
+2.5.Plan of Care
+2.6.Plan of Care - Signed by Referrer
+2.7.Daily Note
+2.8.Progress Note
+2.9.Progress Note - Signed by Referrer
+2.10.Discharge Summary</Description>
+    <Name>Available treatments docs</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-36ababb9-b5b0-4f71-93a2-f889de82aec0</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that for each treatment document the system shows columns: Appointment, Document  type, Status, Date submitted, 'Submitted by', Actions.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Verify that for each treatment document the system shows columns: \cf1 Appointment\cf0 , Document  type, Status, Date submitted, 'Submitted by', Actions.\par
+}
+</RichDescription>
+    <Name>Treatment columns</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-367de7ad-c359-4b7c-b92a-cfb0623b2538</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that Status can have values: Not signed, Signed, Signed by Referrer  (only Referrer-signed Plans of Care and Progress Notes), Ready for review (Daily  Note, CBC only).</Description>
+    <Name>Status values</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-7e040bcd-8e24-4066-a572-1d40811fe9f4</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that 'Submitted by' column may contain the following values: Empty for  unsigned documents, PT's name for signed documents, CBC's name for uploaded  documents.</Description>
+    <Name>Submitted by column</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-7aac8094-aec8-44ac-9741-85822de08a46</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that Upload control appears only for CBC and Plan of Care, Progress  Note to upload documents signed by the Referring Physician. </Description>
+    <Name>Upload controls in Treatment documentation</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>6</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-4f36787e-da10-4035-819f-bc2d2d7482bb</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify if the file "Plan of Care - Signed by Referrer" or "Progress Note -  Signed by Referrer" is already uploaded, the system does not show Upload control.</Description>
+    <Name>No upload icon in Treatment documentation</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>7</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-9d222346-b80f-48b2-a230-8b442873b290</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that 'Delete' control - only applies to documents uploaded by the CBC.</Description>
+    <Name>Delete control in treatment documenation</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>8</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-6c01ae29-e54f-4301-9548-18307d76c347</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that for new case the system displays empty line for the Evaluation Form document type. </Description>
+    <Name>Required Evaluation Form </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>9</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-56005238-be8b-4b55-a64e-896c14080854</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that until empty line for Evaluation Form is filled out (file is  uploaded), that empty line is pinned to the top of the list and not affected by  any sorting user may apply. </Description>
+    <Name>Evaluation Form on top</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>10</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-b4ef9328-a53f-4fb8-8d5c-0670f28323c8</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that in empty line the system shows: 
+5.2.1.Document type (Evaluation form) 
+5.2.2.Upload date - fill with a dash. 
+5.2.3.Status - fill with a dash. 
+5.2.4.'Submitted by' - fill with a dash. 
+5.2.5.Upload control</Description>
+    <Name>Columns for Evaluation form</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>11</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-ec41e1f2-9afe-4fba-8909-65f14afe0f9b</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that the system opens Browse dialog, when user presses on Upload  button for Evaluation form. </Description>
+    <Name>Browse dialog </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>12</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-e80b9609-afd7-4f3c-b89e-b7c21a7616c6</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that the system uploads the file (show progress), when user select the  file to upload.</Description>
+    <Name>Show progress during uploading</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>13</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-908e5962-0601-4f97-a86d-3a1fd8bda47d</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that once the document is uploaded for Evaluation Form, that empty  line is filled. </Description>
+    <Name>Filling evaluation form after uploading</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>14</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-fe965d39-6656-47aa-b9cb-9ccd9c067d64</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that Delete and Download buttons appear for Evaluation Form after  uploading the file.</Description>
+    <Name>Delete and Download buttons for evaluation form</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>15</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-9d092e07-4f9b-4b58-bae4-0642f3535a7a</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify if a Progress Note has "Re-eval" sub-type, then it appears as "Progress  Note / Re-eval" in the list ("Progress Note / Re-eval" behaves exactly as a  Progress Note, the only difference is Type name). </Description>
+    <Name>"Re-eval" sub-type</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>16</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-9b25393a-58e5-4ade-854b-359a3a5a34bd</UniqueID>
+    <ParentID>UC-e8a5479c-2ffb-44c8-b3d8-20b0cbbf7189</ParentID>
+    <Description>Verify that user can sort documents within a category by Document type (A-Z /  Z-A) </Description>
+    <Name>Sorting by type</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-804760f6-5828-417c-8f73-f45d074b373a</UniqueID>
+    <ParentID>UC-e8a5479c-2ffb-44c8-b3d8-20b0cbbf7189</ParentID>
+    <Description>Verify that user can sort documents within a category by Date Submitted  (recent / old first)</Description>
+    <Name>Sorting by date</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-cef417af-2050-459f-aa3d-3cb895b4ed96</UniqueID>
+    <ParentID>UC-e8a5479c-2ffb-44c8-b3d8-20b0cbbf7189</ParentID>
+    <Description>Verify that by default, documents are sorted by upload date, most recent  first. </Description>
+    <Name>Default sorting</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-dff24c4d-b58f-402c-83ba-b6780d9e6e01</UniqueID>
+    <ParentID>UC-e8a5479c-2ffb-44c8-b3d8-20b0cbbf7189</ParentID>
+    <Description>Verify that Referrer-signed Plan of Care and Progress Note is always displayed  below the Plan of Care / Progress Note it is associated with. Sorting is only  applied to the original Plan of Care / Progress Note, the Referrer-signed version  goes with it all the time and does not adhere to sorting rules. </Description>
+    <Name>Referred docs in sorting</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d951f3e7-88c8-4c83-ac99-c08cdc626e32</UniqueID>
+    <ParentID>UC-e8a5479c-2ffb-44c8-b3d8-20b0cbbf7189</ParentID>
+    <Description>Verify that within each type, documents are sorted by Date Submitted.</Description>
+    <Name>Sort by date within type</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-e7434e1a-5da7-49dd-b47c-709ca3f2744c</UniqueID>
+    <ParentID>UC-e8a5479c-2ffb-44c8-b3d8-20b0cbbf7189</ParentID>
+    <Description>Verify if upload date is the same, sort by upload time (time is not shown in  UI).</Description>
+    <Name>Sort by time</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-cbe651e8-4afb-4f29-9024-8864d8d24ebf</UniqueID>
+    <ParentID>UC-e8a5479c-2ffb-44c8-b3d8-20b0cbbf7189</ParentID>
+    <Description>Verify that empty lines for mandatory documents are not affected by sorting,  they are always pinned to the top. </Description>
+    <Name>Empty lines are on the top</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>6</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-9badec8c-22ab-4986-8653-71a6af54724b</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that user can't upload .exe, .bmp files.</Description>
+    <Name>Not allowed types</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>32</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-1dbcd3f7-b190-4ac0-9efb-4044d14baac0</UniqueID>
+    <ParentID>UC-f49cc548-fed0-4ed9-ad8c-56ad87789127</ParentID>
+    <Description>Verify that user can upload PDF, Jpeg, PNG files. </Description>
+    <Name>Allowed types</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>33</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-211d9efa-2efc-4aa9-b8e8-fb53e824c2b5</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that Appointment Date column in Medical documents only applicable to Daily Notes &amp; Plans of Care.</Description>
+    <Name>Appointment column for DN and PoC</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>17</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-abcb941f-c67b-4b34-bc98-14f6f5c407cf</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that Appointment Date column contains '--' for documents that are not DN and PoC</Description>
+    <Name>Appointment Date is null for other docs</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>18</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-473408da-9983-4af4-b84d-c44e0dc0cedd</UniqueID>
+    <ParentID>UC-436072b0-b6be-4421-bddc-4c5fdfc30cd8</ParentID>
+    <Description>Verify that Appointment Date contains the date of appointment to which PoC or DN was created.</Description>
+    <Name>Correct appointment date</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>19</Sequence>
+  </TestScenario>
+</UCTDataSet>

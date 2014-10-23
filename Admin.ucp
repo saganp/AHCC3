@@ -1,0 +1,1144 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.4927</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-91076f94-94ba-41c6-a3f0-dff479843d38</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-91076f94-94ba-41c6-a3f0-dff479843d38</UniqueID>
+    <ExternalParentID>P-e4849ef8-f95f-43a5-a4b4-fd5e588b676b</ExternalParentID>
+    <Name>2 sort</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-9d3910b4-4efc-4fe9-9160-1677a00e7428</UniqueID>
+    <UserID>UC-33-1</UserID>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Name>Manage Plan's Billing Group</Name>
+    <Description>Admins should be able to select billing group for the plan using admin UI.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admins\cf2\ulnone  should be able to select billing group for the plan using \cf1\ul admin\cf2\ulnone  UI.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-07-08T11:10:29.0853069-04:00</DateAdded>
+    <DateModified>2013-08-06T04:25:26.1803102-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-25cfae80-ddf1-4d8b-8c71-a68190ce737c</UniqueID>
+    <UserID>UC-33-2</UserID>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Name>Manage CPT code type</Name>
+    <Description>Admins should be able to select type of the CPT code using admin UI.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admins\cf2\ulnone  should be able to select type of the \cf3 CPT code\cf2  using \cf1\ul admin\cf2\ulnone  UI.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-07-08T11:10:29.0853069-04:00</DateAdded>
+    <DateModified>2013-08-06T04:25:28.9570568-04:00</DateModified>
+  </UseCase>
+  <ElementStub>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Path>PIN &amp; Signatures.ucp</Path>
+    <ElementID>P-58d16eb9-5d7c-40ca-a3b0-9de580f50556</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <UCReq>
+    <ParentID>UC-25cfae80-ddf1-4d8b-8c71-a68190ce737c</ParentID>
+    <ReqID>REQ-8e1897f1-1ea0-4d12-bb24-75805e5a6593</ReqID>
+  </UCReq>
+  <Scenario>
+    <UniqueID>MSS-9ee750a8-3f3b-46b3-89d0-baedbc10b811</UniqueID>
+    <ParentID>UC-9d3910b4-4efc-4fe9-9160-1677a00e7428</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-5b6bf5cc-7b37-4551-a1f0-0b4f986eb34e</UniqueID>
+    <ParentID>UC-25cfae80-ddf1-4d8b-8c71-a68190ce737c</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-d183972b-c15f-4d22-83f4-aea612121043</UniqueID>
+    <UserID>REQ-21-11</UserID>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Name>Add Logos for Companies, Subgroups, Clinics</Name>
+    <Description>There should be a way to upload logos for Companies, Company Subgroups and individual Clinics (AgilePM -&gt; Admin)
+
+On all these pages there should be:
+Label - "Logo"
+Note about allowed picture size
+Browse control
+Image preview (only for uploaded images)
+Delete control - removes the logo (requires confirmation, only for uploaded images)
+There can be only one logo per company / subgroup / clinic.
+
+When the system needs a logo, it should first check for clinic logo, then subgroup logo, then company logo. The system should use logo from the lowest available level.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 There should be a way to upload logos for Companies, Company Subgroups and individual Clinics (AgilePM -&gt; Admin)\par
+\par
+On all these pages there should be:\par
+\pard{\pntext\f1 1.\tab}{\*\pn\pnlvlbody\pnf1\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 Label - "Logo"\lang1049\f1\par
+\lang1033\f0{\pntext\f1 2.\tab}Note about allowed picture size\lang1049\f1\par
+\lang1033\f0{\pntext\f1 3.\tab}Browse control\lang1049\f1\par
+\lang1033\f0{\pntext\f1 4.\tab}Image preview (only for uploaded images)\lang1049\f1\par
+\lang1033\f0{\pntext\f1 5.\tab}Delete control - removes the logo (requires confirmation, only for uploaded images)\lang1049\f1\par
+\pard\lang1033\f0 There can be only one logo per company / subgroup / clinic.\par
+\par
+When the system needs a logo, it should first check for clinic logo, then subgroup logo, then company logo. The system should use logo from the lowest available level.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-05-15T12:54:57.0583127-04:00</DateAdded>
+    <DateModified>2014-06-25T12:47:21.4761176-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-69e3a0c6-3f62-4af1-b8ce-7d656f45fbe5</UniqueID>
+    <UserID>REQ-21-7</UserID>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Name>Add PQRS Codes</Name>
+    <Description>1. Measure 130, Current Medications:
+     - G8427, Current Medications Documented 
+     - G8430, Patient Not Eligible
+     - G8428, Current Medications Not Documented - No Reason 
+
+2. Measure 131, Pain Assessment.  
+     - G8730, Pain Assessment +/ follow up plan documented
+     - G8731, Pain Assessment
+     - G8939, Pain Assessment documented/ no follow up plan- Patient not eligible
+     - G8442, Patient Not Eligible
+     - G8732, No documentation of pain assess/reason not given
+     - G8509, Pain assessment +/ no follow up plan-no reason
+
+3. Measure 182, Functional Outcome Assessment:
+     - G8539, Functional outcome assessment performed/care plan documented
+     - G8540, Patient Not Eligible
+     - G8541, Functional Outcome assessment not documented/reason not given 
+     - G8542, Functional Outcome assessment performed/no deficiencies
+     - G8543, Functional Outcome assessment performed/no care plan/reason not given</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 1. Measure 130, Current Medications:\par
+\cf0      - \cf1 G8427, Current Medications Documented \cf0\par
+     - \cf1 G8430, \cf2\ul Patient\cf1\ulnone  Not Eligible\cf0\par
+     - \cf1 G8428, Current Medications Not Documented - No Reason \par
+\par
+\cf0 2. Measure 131, Pain \cf1 Assessment.  \cf0\par
+     - \cf1 G8730, Pain Assessment +/ follow up plan documented\cf0\par
+     - \cf1 G8731, Pain Assessment\cf0\par
+     - \cf1 G8939, Pain Assessment documented/ no follow up plan- \cf2\ul Patient\cf1\ulnone  not eligible\cf0\par
+     - \cf1 G8442, \cf2\ul Patient\cf1\ulnone  Not Eligible\cf0\par
+     - \cf1 G8732, No documentation of pain assess/reason not given\par
+\cf0      - \cf1 G8509, Pain assessment +/ no follow up plan-no reason\par
+\par
+3. Measure 182, Functional Outcome Assessment:\par
+\cf0      - \cf1 G8539, Functional outcome assessment performed/care plan documented\par
+\cf0      - \cf1 G8540, \cf2\ul Patient\cf1\ulnone  Not Eligible\par
+\cf0      - \cf1 G8541, Functional Outcome assessment not documented/reason not given \par
+\cf0      - \cf1 G8542, Functional Outcome assessment performed/no deficiencies\par
+\cf0      - \cf1 G8543, Functional Outcome assessment performed/no care plan/reason not given\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-15T09:00:07.3135911-04:00</DateAdded>
+    <DateModified>2013-08-06T04:25:15.4477166-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-697b0e74-b95d-458a-95fc-9887aef3c659</UniqueID>
+    <UserID>REQ-21-3</UserID>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Name>Add Billing Modifiers for CPT codes</Name>
+    <Description>The following is the list of modifiers that can be added to all treatments and supplies by the CBC.
+
+50
+59
+KX
+GP
+GA
+GX
+GY
+GZ
+CH
+CI
+CJ
+CK
+CL
+CM
+CN
+RT
+LT
+XX</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The following is the list of modifiers that can be added to all treatments and supplies by the \cf2 CBC\cf1 .\par
+\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 50\par
+{\pntext\f2\'B7\tab}59\par
+{\pntext\f2\'B7\tab}KX\par
+{\pntext\f2\'B7\tab}GP\par
+{\pntext\f2\'B7\tab}GA\par
+{\pntext\f2\'B7\tab}GX\par
+{\pntext\f2\'B7\tab}GY\par
+{\pntext\f2\'B7\tab}GZ\par
+{\pntext\f2\'B7\tab}CH\par
+{\pntext\f2\'B7\tab}CI\par
+{\pntext\f2\'B7\tab}CJ\par
+{\pntext\f2\'B7\tab}CK\par
+{\pntext\f2\'B7\tab}CL\par
+{\pntext\f2\'B7\tab}CM\par
+{\pntext\f2\'B7\tab}CN\par
+{\pntext\f2\'B7\tab}RT\par
+{\pntext\f2\'B7\tab}LT\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}XX\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-15T08:22:39.7276093-04:00</DateAdded>
+    <DateModified>2014-06-25T12:46:41.4350248-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f27e4859-7bba-42c1-be8b-20f7da0a1c27</UniqueID>
+    <UserID>REQ-21-4</UserID>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Name>Add Billing Modifiers for G-codes</Name>
+    <Description>If Functional Outcomes are shown to the CBC during review, CBC must select one Billing Modifier for each G-code (Current Status &amp; Goal Status)
+
+Available billing modifiers:
+GP - Physical Therapy
+GO - Occupational Therapy
+GN - Speech</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 If Functional Outcomes are shown to the \cf2\ul CBC\cf1\ulnone  during review, \cf2\ul CBC\cf1\ulnone  must select one Billing Modifier for each G-code (Current Status &amp; Goal Status)\par
+\par
+Available billing modifiers:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 GP - Physical Therapy\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}GO - Occupational Therapy\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}GN - Speech\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-09T11:34:46.5045443-04:00</DateAdded>
+    <DateModified>2014-06-25T12:46:44.7418856-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f3e4bc9a-f82e-43d3-b976-14484c8256ce</UniqueID>
+    <UserID>REQ-21-5</UserID>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Name>Add data for Functional Outcomes</Name>
+    <Description>Scales:
+Upper Extremity Functional Scale-UEFS
+Lower Extremity Functional Scale- LEFS
+Oswestry
+Neck Disability Index
+Berg
+Dizziness Handicap Index
+Tinetti Gait
+Tinetti Balance
+Tinetti Gait/Balance
+Self Assessed Function for Upper Quarter
+Self Assessed Function for Lower Quarter
+Self Assessed Function for Neurological/CVA
+Other - show a text field, mandatory
+
+2.   FO Category:
+      - Mobility: Walking &amp; Moving Around
+      - Changing and Maintaining Body Position
+      - Carrying, Moving and Handling Objects
+      - Self-care
+      - Other PT/OT Primary Functional Limitation
+      - Other PT/OT Subsequent Functional Limitation
+
+3. G-codes:
+      - Mobility: Walking &amp; Moving Around
+	* G8978 - Current Status
+	* G8979 - Projected Goal Status
+	* G8980 - Discharge Status
+      - Changing and Maintaining Body Position
+	* G8981 - Current Status
+	* G8982 - Projected Goal Status
+	* G8983 - Discharge Status
+      - Carrying, Moving and Handling Objects
+	* G8984 - Current Status
+	* G8985 - Projected Goal Status
+	* G8986 - Discharge Status
+      - Self-care
+	* G8987 - Current Status
+	* G8988 - Projected Goal Status
+	* G8989 - Discharge Status
+      - Other PT/OT Primary Functional Limitation
+	* G8990 - Current Status
+	* G8991 - Projected Goal Status
+	* G8992 - Discharge Status
+      - Other PT/OT Subsequent Functional Limitation
+	* G8993 - Current Status
+	* G8994 - Projected Goal Status
+	* G8995 - Discharge Status
+
+4. Modifiers:
+      - CH = 0%
+      - CI = 1-19%
+      - CJ = 20-39%
+      - CK = 40-59%
+      - CL = 60-79%
+      - CM = 80-99%
+      - CN = 100%
+
+5. Measurement Units: always %</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard{\pntext\f1 1.\tab}{\*\pn\pnlvlbody\pnf1\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360\cf1\lang1033\b\f0\fs20 Scales\b0 :\lang1049\f1\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360\lang1033\f0 Upper Extremity Functional Scale-UEFS\par
+{\pntext\f2\'B7\tab}Lower Extremity Functional Scale- LEFS\par
+{\pntext\f2\'B7\tab}Oswestry\par
+{\pntext\f2\'B7\tab}Neck Disability Index\par
+\cf0{\pntext\f2\'B7\tab}Berg\par
+{\pntext\f2\'B7\tab}Dizziness Handicap Index\par
+\cf1{\pntext\f2\'B7\tab}Tinetti Gait\par
+{\pntext\f2\'B7\tab}Tinetti Balance\par
+{\pntext\f2\'B7\tab}Tinetti Gait/Balance\par
+\cf0{\pntext\f2\'B7\tab}Self Assessed Function for Upper Quarter\par
+{\pntext\f2\'B7\tab}Self Assessed Function for Lower Quarter\par
+{\pntext\f2\'B7\tab}Self Assessed Function for Neurological/CVA\par
+\cf1{\pntext\f2\'B7\tab}Other - show a text field, mandatory\par
+\pard\par
+2.   \b FO Category\b0 :\par
+      - Mobility: Walking &amp; Moving Around\par
+      - Changing and Maintaining Body Position\par
+      - Carrying, Moving and Handling Objects\par
+      - Self-care\par
+      - Other PT/OT Primary Functional Limitation\par
+      - Other PT/OT Subsequent Functional Limitation\par
+\par
+3. \b G-codes\b0 :\par
+      - Mobility: Walking &amp; Moving Around\par
+\tab * G8978 - Current Status\par
+\tab * G8979 - Projected Goal Status\par
+\tab * G8980 - \cf2 Discharge\cf1  Status\par
+      - Changing and Maintaining Body Position\par
+\tab * G8981 - Current Status\par
+\tab * G8982 - Projected Goal Status\par
+\tab * G8983 - \cf2 Discharge\cf1  Status\par
+      - Carrying, Moving and Handling Objects\par
+\tab * G8984 - Current Status\par
+\tab * G8985 - Projected Goal Status\par
+\tab * G8986 - \cf2 Discharge\cf1  Status\par
+      - Self-care\par
+\tab * G8987 - Current Status\par
+\tab * G8988 - Projected Goal Status\par
+\tab * G8989 - \cf2 Discharge\cf1  Status\par
+      - Other PT/OT Primary Functional Limitation\par
+\tab * G8990 - Current Status\par
+\tab * G8991 - Projected Goal Status\par
+\tab * G8992 - \cf2 Discharge\cf1  Status\par
+      - Other PT/OT Subsequent Functional Limitation\par
+\tab * G8993 - Current Status\par
+\tab * G8994 - Projected Goal Status\par
+\tab * G8995 - \cf2 Discharge\cf1  Status\par
+\par
+4. \cf2\b Modifiers\cf1\b0 :\par
+      - CH = 0%\par
+      - CI = 1-19%\par
+      - CJ = 20-39%\par
+      - CK = 40-59%\par
+      - CL = 60-79%\par
+      - CM = 80-99%\par
+      - CN = 100%\par
+\par
+5. \b Measurement Units\b0 : always \b %\lang1049\b0\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-15T08:25:05.1727741-04:00</DateAdded>
+    <DateModified>2014-06-25T12:46:49.2186264-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-3bf5fde4-19eb-4e0c-8560-e8871efb89e1</UniqueID>
+    <UserID>REQ-21-2</UserID>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Name>Add 'Type' property for CPT codes</Name>
+    <Description>Right now all codes for treatments and supplies are in a single "Procedure Codes" list and do not have a differentiating property.
+
+There must be a Type property that has either of the following values:
+1 (Visit-Based Treatment)
+2 (Time-Based Treatment) 
+3 (Supply Item)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Right now all codes for treatments and supplies are in a single "Procedure Codes" list and do not have a differentiating property.\par
+\par
+There must be a Type property that has either of the following values:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 1 (Visit-Based Treatment)\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}2 (Time-Based Treatment) \lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}3 (Supply Item)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-10T13:23:59.1529013-04:00</DateAdded>
+    <DateModified>2013-08-06T04:25:24.7451378-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0fd85705-49c2-4ff7-b991-3b041d1b8860</UniqueID>
+    <UserID>REQ-21-1</UserID>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Name>Add 'Billing Group' property for insurance plans</Name>
+    <Description>Each insurance plan must belong to either of the following groups:
+Billing Group 1
+Billing Group 2
+Billing Group 3</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Each insurance plan must belong to either of the following groups:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 Billing Group 1\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Billing Group 2\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Billing Group 3\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-11T15:01:36.0024059-04:00</DateAdded>
+    <DateModified>2014-06-25T12:46:38.2996477-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-86e151f3-f609-4250-91ca-632dfe6c9d7e</UniqueID>
+    <UserID>REQ-21-8</UserID>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Name>Update the list of Body Regions</Name>
+    <Description>All items listed here must be presented in a single list, but Regions and Systems must be separated visually. User can only select one item from the full list.
+
+Body Regions:
+Ankle
+Cervical
+Elbow
+Foot &amp; Toes
+Hand / Fingers
+Head &amp; Facial / TMJ
+Hip
+Knee
+Lumbar
+Pelvis
+Shoulder
+Thoracic
+Wrist
+
+Body Systems:
+Respiratory
+Skeletal
+Urinary
+Circulatory
+Muscular
+Reproductive
+Lymphatic
+Neurological
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 All items listed here must be presented in a single list, but Regions and \cf2 Systems\cf1  must be separated visually. User can only select one item from the full list.\par
+\par
+Body Regions:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 Ankle\par
+{\pntext\f2\'B7\tab}Cervical\par
+{\pntext\f2\'B7\tab}Elbow\par
+{\pntext\f2\'B7\tab}Foot &amp; Toes\par
+{\pntext\f2\'B7\tab}Hand / Fingers\par
+{\pntext\f2\'B7\tab}Head &amp; Facial / TMJ\par
+{\pntext\f2\'B7\tab}Hip\par
+{\pntext\f2\'B7\tab}Knee\par
+{\pntext\f2\'B7\tab}Lumbar\par
+{\pntext\f2\'B7\tab}Pelvis\par
+{\pntext\f2\'B7\tab}Shoulder\par
+{\pntext\f2\'B7\tab}Thoracic\par
+{\pntext\f2\'B7\tab}Wrist\lang1049\f1\par
+\pard\par
+\lang1033\f0 Body \cf2 Systems\cf1 :\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 Respiratory\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Skeletal\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Urinary\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Circulatory\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Muscular\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Reproductive\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Lymphatic\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Neurological\lang1049\f1\par
+\pard\lang1033\f0\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-15T12:28:54.9282547-04:00</DateAdded>
+    <DateModified>2013-08-06T04:25:30.4078289-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-8e1897f1-1ea0-4d12-bb24-75805e5a6593</UniqueID>
+    <UserID>REQ-21-9</UserID>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Name>Update Referral page</Name>
+    <Description>Rename the 'Reason' field to "Referring Physician Diagnosis'
+Primary and Secondary diagnoses fields must be removed from the Referral page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard{\pntext\f1 1.\tab}{\*\pn\pnlvlbody\pnf1\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360\cf1\lang1033\f0\fs20 Rename the 'Reason' field to "Referring Physician Diagnosis'\lang1049\f1\par
+\lang1033\f0{\pntext\f1 2.\tab}Primary and Secondary diagnoses fields must be removed from the Referral page.\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-15T08:52:44.5022638-04:00</DateAdded>
+    <DateModified>2013-08-06T04:25:32.0925965-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d95fae43-777d-4653-860c-77f7c15da5d1</UniqueID>
+    <UserID>REQ-21-10</UserID>
+    <ParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ParentID>
+    <Name>Show diagnoses on the Home page</Name>
+    <Description>Right now diagnoses show up on the case Home page as a part of Referral section. Here's the list of required changes:
+
+Remove these diagnoses from the Referral section of the Home page (and from the Referral page itself, see REQ-21-9 for details).
+Add a separate section called Diagnoses. List diagnoses in this section; primary diagnosis must always be the first in this list (maybe also marked as Primary)
+Primary and Secondary diagnoses fields must be static. The system must initially pull this information from the signed Plan of Care.&#xB;If Plan of Care is not signed yet, show empty section.
+With every Daily Note being submitted to billing, the system must check all diagnoses that were pushed to billing and add any new diagnoses as additional to the Diagnoses section on the Home page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Right now diagnoses show up on the case Home page as a part of Referral section. Here's the list of required changes:\par
+\lang1049\f1\par
+\pard{\pntext\f1 1.\tab}{\*\pn\pnlvlbody\pnf1\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360\lang1033\f0 Remove these diagnoses from the Referral section of the Home page (and from the Referral page itself, see \cf2\ul REQ-21-9\cf1\ulnone  for details).\lang1049\f1\par
+\lang1033\f0{\pntext\f1 2.\tab}Add a separate section called Diagnoses. List diagnoses in this section; primary diagnosis must always be the first in this list (maybe also marked as Primary)\lang1049\f1\par
+\lang1033\f0{\pntext\f1 3.\tab}Primary and Secondary diagnoses fields must be static. The \cf2 system\cf1  must initially pull this information from the signed Plan of Care.\lang1049\f1\line\lang1033\f0 If Plan of Care is not signed yet, show empty section.\lang1049\f1\par
+\lang1033\f0{\pntext\f1 4.\tab}With every Daily Note being submitted to billing, the \cf2 system\cf1  must check all diagnoses that were pushed to billing and add any new diagnoses as additional to the Diagnoses section on the Home page.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-15T08:52:44.5022638-04:00</DateAdded>
+    <DateModified>2013-08-06T04:25:33.7461647-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-bb4d50f1-795c-4992-86ec-0c8348aee20b</UniqueID>
+    <ParentID>MSS-9ee750a8-3f3b-46b3-89d0-baedbc10b811</ParentID>
+    <Description>User opens insurance plan details (Admin -&gt; Insurance Plans -&gt; edit plan)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens insurance plan details (\cf1\ul Admin\cf2\ulnone  -&gt; Insurance Plans -&gt; edit plan)\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-84d12954-a88a-421e-9a3e-f1d77b7f7d9a</UniqueID>
+    <ParentID>ST-d9579157-c74a-4660-ac56-a2bc7aaf30e3</ParentID>
+    <Description>'Billing Group' label</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 'Billing Group' label\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-db2008ec-2f5c-48dc-9a0a-ada056224cf2</UniqueID>
+    <ParentID>ST-429ab828-9290-439f-bf51-cbee45ee3316</ParentID>
+    <Description>Select (only if admin is adding a new plan, otherwise it's not displayed)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Select (only if \cf1\ul admin\cf2\ulnone  is adding a new plan, otherwise it's not displayed)\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2c3e87bb-aed3-4c4c-aae8-619fcc862ea2</UniqueID>
+    <ParentID>ST-429ab828-9290-439f-bf51-cbee45ee3316</ParentID>
+    <Description>Group 1 - Medicare, Medicaid and Priority Health</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Group 1 - Medicare, Medicaid and Priority Health\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a9b298a7-b7c3-4905-abdc-fc23700d7868</UniqueID>
+    <ParentID>ST-429ab828-9290-439f-bf51-cbee45ee3316</ParentID>
+    <Description>Group 2 - BCBS and BCN</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Group 2 - BCBS and BCN\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-69bb55fd-a00d-4ca1-a768-97c9a9273c04</UniqueID>
+    <ParentID>ST-429ab828-9290-439f-bf51-cbee45ee3316</ParentID>
+    <Description>Group 3 - Commercial, Auto, W/C and all others</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Group 3 - Commercial, Auto, W/C and all others\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9ee560c8-7b46-49de-8a4a-c3767c4086e1</UniqueID>
+    <ParentID>X-a6b197e0-7960-4e49-a2c8-6d8cc1eb94cc</ParentID>
+    <Description>"Billing group" dropdown is mandatory</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Billing group" dropdown is mandatory\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-429ab828-9290-439f-bf51-cbee45ee3316</UniqueID>
+    <ParentID>ST-d9579157-c74a-4660-ac56-a2bc7aaf30e3</ParentID>
+    <Description>Billing group dropdown:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Billing group dropdown:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d9579157-c74a-4660-ac56-a2bc7aaf30e3</UniqueID>
+    <ParentID>MSS-9ee750a8-3f3b-46b3-89d0-baedbc10b811</ParentID>
+    <Description>The system displays plan info and:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays plan info and:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-08b8312c-1060-4336-9851-e7e44b3c4b1c</UniqueID>
+    <ParentID>MSS-9ee750a8-3f3b-46b3-89d0-baedbc10b811</ParentID>
+    <Description>User selects billing group.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User selects billing group.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-18905d95-ca6c-4299-8ad6-67ee81c923ab</UniqueID>
+    <ParentID>MSS-9ee750a8-3f3b-46b3-89d0-baedbc10b811</ParentID>
+    <Description>User saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User saves changes.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-04251e80-8278-4132-bfc7-21ed521ec2bd</UniqueID>
+    <ParentID>MSS-9ee750a8-3f3b-46b3-89d0-baedbc10b811</ParentID>
+    <Description>The system applies changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system applies changes.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ee3abb16-59a2-47b9-88db-350d733b3428</UniqueID>
+    <ParentID>MSS-5b6bf5cc-7b37-4551-a1f0-0b4f986eb34e</ParentID>
+    <Description>User opens procedure details (Admin -&gt; Procedure -&gt; edit procedure)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 procedure\cf0  details (\cf2\ul Admin\cf3\ulnone  -&gt; \cf1 Procedure\cf3  -&gt; edit \cf1 procedure\cf3 )\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4e4bf7a0-0b0c-4195-84d7-d098f6943b3b</UniqueID>
+    <ParentID>ST-f983c55e-7ae8-4769-a2bb-63510863c734</ParentID>
+    <Description>'Procedure type' label</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 '\cf1 Procedure\cf2  type\cf0 ' label\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4a19de2d-eb6b-485f-89bb-4ee2d43d9dbb</UniqueID>
+    <ParentID>ST-a8f62874-a0c3-4381-b4da-152fb75657ef</ParentID>
+    <Description>Select (only if admin is adding a new plan, otherwise it's not displayed)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Select (only if \cf1\ul admin\cf2\ulnone  is adding a new plan, otherwise it's not displayed)\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a6c592c8-f445-4748-aefb-bfa4c2c900b4</UniqueID>
+    <ParentID>ST-a8f62874-a0c3-4381-b4da-152fb75657ef</ParentID>
+    <Description>N/A</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 N/A\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-774fe148-57c5-4bdb-ac48-183e9e79ac04</UniqueID>
+    <ParentID>ST-a8f62874-a0c3-4381-b4da-152fb75657ef</ParentID>
+    <Description>Visit-based</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Visit-based\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-65f7ec26-0397-4cc6-abc1-e7adc1968a4a</UniqueID>
+    <ParentID>ST-a8f62874-a0c3-4381-b4da-152fb75657ef</ParentID>
+    <Description>Time-based</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Time-based\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-49474dd5-4a9c-4f83-9504-87c678a4d49d</UniqueID>
+    <ParentID>ST-a8f62874-a0c3-4381-b4da-152fb75657ef</ParentID>
+    <Description>Supply</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Supply\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1aa4f8b7-c21f-4676-89e5-f5c151927c41</UniqueID>
+    <ParentID>X-96424a5d-ea1e-4817-aa0d-37fb9f17c189</ParentID>
+    <Description>"Type" dropdown is mandatory</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Type" dropdown is mandatory\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a8f62874-a0c3-4381-b4da-152fb75657ef</UniqueID>
+    <ParentID>ST-f983c55e-7ae8-4769-a2bb-63510863c734</ParentID>
+    <Description>Procedure type dropdown:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Procedure\cf2  type\cf0  dropdown:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f983c55e-7ae8-4769-a2bb-63510863c734</UniqueID>
+    <ParentID>MSS-5b6bf5cc-7b37-4551-a1f0-0b4f986eb34e</ParentID>
+    <Description>The system displays plan info and:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays plan info and:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-40520c26-6b65-45b8-9eb4-282a4de552b9</UniqueID>
+    <ParentID>MSS-5b6bf5cc-7b37-4551-a1f0-0b4f986eb34e</ParentID>
+    <Description>User selects procedure type.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User selects \cf2 procedure\cf1  type.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-70986370-142e-4992-ae4e-1a6f7c633d87</UniqueID>
+    <ParentID>MSS-5b6bf5cc-7b37-4551-a1f0-0b4f986eb34e</ParentID>
+    <Description>User saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User saves changes.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bdff3e9e-7ab5-41ce-8ce7-774e6f8cf804</UniqueID>
+    <ParentID>MSS-5b6bf5cc-7b37-4551-a1f0-0b4f986eb34e</ParentID>
+    <Description>The system applies changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system applies changes.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-a6b197e0-7960-4e49-a2c8-6d8cc1eb94cc</UniqueID>
+    <ParentID>ST-429ab828-9290-439f-bf51-cbee45ee3316</ParentID>
+    <Description>Admin is adding a new plan.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  is adding a new plan.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-96424a5d-ea1e-4817-aa0d-37fb9f17c189</UniqueID>
+    <ParentID>ST-a8f62874-a0c3-4381-b4da-152fb75657ef</ParentID>
+    <Description>Admin is adding a new procedure.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  is adding a new \cf3 procedure\cf2 .\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <UserID>
+    <DefaultPrefix>UC-45-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-45-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-45-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-45-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <TestScenario>
+    <UniqueID>TS-2d35a849-988d-469a-899c-6f06396abc9c</UniqueID>
+    <ParentID>UC-9d3910b4-4efc-4fe9-9160-1677a00e7428</ParentID>
+    <Description>Verify if admin opens "Editing insurance plan" page, the system displays plan info and "Billing Group" label, "Billing Group" dropdown.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Verify if \cf1\ul admin\cf0\ulnone  opens "Editing insurance plan" page, the system displays plan info and "Billing Group" label, "Billing Group" dropdown.\par
+}
+</RichDescription>
+    <Name>Insurance plan details.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-fed1aa24-5d98-4084-9c03-c27eff4be491</UniqueID>
+    <ParentID>UC-9d3910b4-4efc-4fe9-9160-1677a00e7428</ParentID>
+    <Description>Verify that "Billing Group" dropdown contains "Group 1 - Medicare, Medicaid and Priority Health", "Group 2 - BCBS and BCN", "Group 3 - Commercial, Auto, W/C and all others".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that "Billing Group" dropdown contains "Group 1 - Medicare, Medicaid and Priority Health", "Group 2 - BCBS and BCN", "Group 3 - Commercial, Auto, W/C and all others".\par
+}
+</RichDescription>
+    <Name>"Billing Group" drop down: default choices on "Editing insurance plan" page. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-accd2d83-7c2c-44b3-b975-6360779c9e3e</UniqueID>
+    <ParentID>UC-9d3910b4-4efc-4fe9-9160-1677a00e7428</ParentID>
+    <Description>Verify that "Billing Group" dropdown contains Select (default value) "Group 1 - Medicare, Medicaid and Priority Health", "Group 2 - BCBS and BCN", "Group 3 - Commercial, Auto, W/C and all others".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that "Billing Group" dropdown contains Select (default value) "Group 1 - Medicare, Medicaid and Priority Health", "Group 2 - BCBS and BCN", "Group 3 - Commercial, Auto, W/C and all others".\par
+}
+</RichDescription>
+    <Name>"Billing Group" drop down: default choices on "Create insurance plan" page. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-9d6cbbf9-3e38-4260-b817-180599042a54</UniqueID>
+    <ParentID>UC-9d3910b4-4efc-4fe9-9160-1677a00e7428</ParentID>
+    <Description>Verify that user is able to select of default choices.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that user is able to select of default choices.\par
+}
+</RichDescription>
+    <Name>"Billing Group" drop down. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-c1d2738c-81b6-4dde-a3b0-c82425997656</UniqueID>
+    <ParentID>UC-9d3910b4-4efc-4fe9-9160-1677a00e7428</ParentID>
+    <Description>Verify if user doesn't specify "Billing Group" dropdown and presses "Save" button, system notifies user about that by highlighting "Billing Group" dropdown and displaying error messages at the top of page. Text message is "The Billing Group is required.". </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user doesn't specify "Billing Group" dropdown and presses "Save" button, system notifies user about that by highlighting "Billing Group" dropdown and displaying error messages at the top of page. Text message is "The Billing Group is required.". \par
+}
+</RichDescription>
+    <Name>"Billing Group" drop down: validation during "Save" button. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-ad33f683-075d-466d-a05c-dbc2d40c8c9c</UniqueID>
+    <ParentID>UC-9d3910b4-4efc-4fe9-9160-1677a00e7428</ParentID>
+    <Description>Verify if user changes "Billing Group" drop down value and presses "Save" button, the system applies changes, "Insurance Plans. List" page displays  and "Successfully updated Insurance Plan." message appears at the top of page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify if user changes "Billing Group" drop down value and presses "Save" button, the system applies changes, "Insurance Plans. List" page displays  and "Successfully updated Insurance Plan." message appears at the top of page.\par
+}
+</RichDescription>
+    <Name>Save changes. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-dd367ea7-79a0-424f-b011-ae8676e16790</UniqueID>
+    <ParentID>UC-25cfae80-ddf1-4d8b-8c71-a68190ce737c</ParentID>
+    <Description>Verify if admin opens "Edit procedure" page, the system displays plan info, "Procedure type" label  and "Procedure type" drop down.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if \cf1\ul admin\cf0\ulnone  opens "Edit \cf2 procedure\cf0 " page, the system displays plan info, "\cf2 Procedure\cf0  type" label  and "\cf2 Procedure\cf0  type" drop down.\par
+}
+</RichDescription>
+    <Name>Procedure details.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-53fb588f-1859-4e72-9f40-52d5ad213f4b</UniqueID>
+    <ParentID>UC-25cfae80-ddf1-4d8b-8c71-a68190ce737c</ParentID>
+    <Description>Verify that "Procedure type" drop down contains N/A, Visit-based, Time-based and Supply.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify that "\cf1 Procedure\cf0  type" drop down contains N/A, Visit-based, Time-based and Supply.\par
+}
+</RichDescription>
+    <Name>"Procedure type" drop down: defaulf choices on "Edit procedure" page. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-3bd158af-1675-4756-bef4-749ee22bb93b</UniqueID>
+    <ParentID>UC-25cfae80-ddf1-4d8b-8c71-a68190ce737c</ParentID>
+    <Description>Verify that "Procedure type" drop down contains just empty (default value), N/A, Visit-based, Time-based and Supply.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify that "\cf1 Procedure\cf0  type" drop down contains just empty (default value), N/A, Visit-based, Time-based and Supply.\par
+}
+</RichDescription>
+    <Name>"Procedure type" drop down: defaulf choices on "New procedure" page. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-e548427d-d84c-4840-9c20-4f67efbf7b17</UniqueID>
+    <ParentID>UC-25cfae80-ddf1-4d8b-8c71-a68190ce737c</ParentID>
+    <Description>Verify that user is able to select of default choices.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that user is able to select of default choices.\par
+}
+</RichDescription>
+    <Name>"Procedure type" drop down. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-bda6d1f7-254d-4998-90a4-61fdad6f80ea</UniqueID>
+    <ParentID>UC-25cfae80-ddf1-4d8b-8c71-a68190ce737c</ParentID>
+    <Description>Verify if user doesn't specify "Procedure type" dropdown and presses "Save" button, system notifies user about that by highlighting "Procedure type" dropdown and displaying error messages at the top of page. Text message is "The Procedure Type is required.". </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if user doesn't specify "\cf1 Procedure\cf0  type" dropdown and presses "Save" button, system notifies user about that by highlighting "\cf1 Procedure\cf0  type" dropdown and displaying error messages at the top of page. Text message is "The \cf1 Procedure\cf0  Type is required.". \par
+}
+</RichDescription>
+    <Name>"Procedure type" drop down: validation during "Save" button. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d9d20070-09f5-40ff-a6c6-33d48de149f4</UniqueID>
+    <ParentID>UC-25cfae80-ddf1-4d8b-8c71-a68190ce737c</ParentID>
+    <Description>Verify if user changes "Procedure type" drop down value and presses "Save" button, the system applies changes, "Procedures. List" page displays  and "Successfully updated Procedure." message appears at the top of page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if user changes "\cf1 Procedure\cf0  type" drop down value and presses "Save" button, the system applies changes, "\cf1 Procedures\cf0 . List" page displays  and "Successfully updated \cf1 Procedure\cf0 ." message appears at the top of page.\par
+}
+</RichDescription>
+    <Name>Save changes.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+</UCTDataSet>

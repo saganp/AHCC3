@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.4836</SavedWith>
+    <CreatedWith>7.2.4819</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-12d0d5e0-605d-4ba4-a85a-b26b8de92fba</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-12d0d5e0-605d-4ba4-a85a-b26b8de92fba</UniqueID>
+    <ExternalParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ExternalParentID>
+    <Name>Addendum</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Requirement>
+    <UniqueID>REQ-f0ffc4b9-7d24-4faa-b5b2-8ac4eea14ad2</UniqueID>
+    <UserID>REQ-11-1</UserID>
+    <ParentID>P-12d0d5e0-605d-4ba4-a85a-b26b8de92fba</ParentID>
+    <Name>Signature Applied</Name>
+    <Description>For edits that are required after an electronic signature has been applied to documents in the documentation module, an addendum must be completed.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 For edits that are required after an electronic signature has been applied to documents in the documentation module, an addendum must be completed.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Business Rule</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status>Approved</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-03-18T14:38:45.8446029-04:00</DateAdded>
+    <DateModified>2013-03-18T14:40:55.0337834-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <UserID>
+    <DefaultPrefix>UC-11-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-11-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-11-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-11-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

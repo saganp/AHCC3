@@ -1,0 +1,236 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.4927</SavedWith>
+    <CreatedWith>8.0.4836</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-58d16eb9-5d7c-40ca-a3b0-9de580f50556</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-58d16eb9-5d7c-40ca-a3b0-9de580f50556</UniqueID>
+    <ExternalParentID>P-91076f94-94ba-41c6-a3f0-dff479843d38</ExternalParentID>
+    <Name>PIN &amp; Signatures</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-e7723557-33b9-4437-9309-86f112701a85</UniqueID>
+    <UserID>UC-24-7</UserID>
+    <ParentID>P-58d16eb9-5d7c-40ca-a3b0-9de580f50556</ParentID>
+    <Name>Create PIN</Name>
+    <Description>Admin creates signature record for a clinician</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf0\ulnone  creates signature record for a \cf2 clinician\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2013-08-05T08:03:00.4257578-04:00</DateAdded>
+    <DateModified>2013-08-05T08:09:30.3027109-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-47b1656c-ae29-491f-8d81-9278ccb10142</UniqueID>
+    <UserID>UC-24-8</UserID>
+    <ParentID>P-58d16eb9-5d7c-40ca-a3b0-9de580f50556</ParentID>
+    <Name>Reset PIN</Name>
+    <Description>Admin resets user's PIN</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Admin\cf2  resets user's PIN\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Account in question has a linked clinician account</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-08-28T09:53:46.3040767-04:00</DateAdded>
+    <DateModified>2013-08-28T09:54:28.1247276-04:00</DateModified>
+  </UseCase>
+  <Scenario>
+    <UniqueID>MSS-b7715e2a-b98b-4bdc-b81e-f783460bce2c</UniqueID>
+    <ParentID>UC-47b1656c-ae29-491f-8d81-9278ccb10142</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-86809b6d-240a-4bee-949d-8bf36f3f0b7c</UniqueID>
+    <UserID>REQ-24-1</UserID>
+    <ParentID>P-58d16eb9-5d7c-40ca-a3b0-9de580f50556</ParentID>
+    <Name>Add new permissions</Name>
+    <Description>Implementing this functionality requires a new permission in the system: "Manage Signature PINs"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Implementing this functionality requires a new permission in the system: "Manage Signature PINs"\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-24T15:50:15.2342443-04:00</DateAdded>
+    <DateModified>2013-04-26T16:42:52.4952388-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-1457a098-fd9e-4d73-8338-940a060581d2</UniqueID>
+    <ParentID>MSS-b7715e2a-b98b-4bdc-b81e-f783460bce2c</ParentID>
+    <Description>Admin initiates PIN reset.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Admin\cf2  initiates PIN reset.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-00d0e540-c368-445b-9154-16863c6536ad</UniqueID>
+    <ParentID>MSS-b7715e2a-b98b-4bdc-b81e-f783460bce2c</ParentID>
+    <Description>The system generates random 4-digit PIN and email it to the user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system generates random 4-digit PIN and email it to the user.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f8218e29-f5b5-4f93-a9f4-4a71a35ace0c</UniqueID>
+    <ParentID>MSS-b7715e2a-b98b-4bdc-b81e-f783460bce2c</ParentID>
+    <Description>The system informs admin that PIN was regenerated and sent to the user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system informs \cf1 admin\cf2  that PIN was regenerated and sent to the user.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <UserID>
+    <DefaultPrefix>UC-24-</DefaultPrefix>
+    <NextValue>9</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-24-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-24-</DefaultPrefix>
+    <NextValue>5</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-24-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <TestScenario>
+    <UniqueID>TS-5c6de762-7dc4-4309-b38b-fc375717315c</UniqueID>
+    <ParentID>UC-e7723557-33b9-4437-9309-86f112701a85</ParentID>
+    <Description>Verify if admin has the Manage Signature PINs permission, "Electronic Signature" section is appeared on user details page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Verify if \cf1\ul admin\cf0\ulnone  has the Manage Signature PINs permission, "Electronic Signature" section is appeared on user details page.\par
+}
+</RichDescription>
+    <Name>Manage Signature PINs permission.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-3df03a3f-43cf-448d-aa12-78e3f098c606</UniqueID>
+    <ParentID>UC-e7723557-33b9-4437-9309-86f112701a85</ParentID>
+    <Description>Verify that admin is able to generate PIN only for Clinician users.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify that \cf1\ul admin\cf0\ulnone  is able to generate PIN only for \cf2 Clinician\cf0  users.\par
+}
+</RichDescription>
+    <Name>AdilePM account. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-6ff58147-45d6-41fe-b2f3-2b5c93ed4d19</UniqueID>
+    <ParentID>UC-e7723557-33b9-4437-9309-86f112701a85</ParentID>
+    <Description>Verify that "Electronic Signature" section contains "Generate a 4-digit PIN: (PIN is last generated on %date%)" and "Generate and Email" button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that "Electronic Signature" section contains "Generate a 4-digit PIN: (PIN is last generated on %date%)" and "Generate and Email" button.\par
+}
+</RichDescription>
+    <Name>Electronic Signature section.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-e099ea22-b819-4953-b06b-fcddab1a0390</UniqueID>
+    <ParentID>UC-e7723557-33b9-4437-9309-86f112701a85</ParentID>
+    <Description>Verify if admin presses "Generate and Email" button, "TDB" message displays at the top of page, %date% value is updated to current date and clinician user receives PIN  by Email.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify if \cf1\ul admin\cf0\ulnone  presses "Generate and Email" button, "TDB" message displays at the top of page, %date% value is updated to current date and \cf2 clinician\cf0  user receives PIN  by Email.\par
+}
+</RichDescription>
+    <Name>"Generate and Email" button and %date%.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-710438cd-2fe8-4184-9834-43a69a6d25b0</UniqueID>
+    <ParentID>UC-e7723557-33b9-4437-9309-86f112701a85</ParentID>
+    <Description>Verify that clinitian user is able to sign docs with generated PIN code.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that clinitian user is able to sign docs with generated PIN code.\par
+}
+</RichDescription>
+    <Name>Use PIN. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-0f7964a9-ebf6-4bfb-ba8d-b024bcc904d3</UniqueID>
+    <ParentID>UC-e7723557-33b9-4437-9309-86f112701a85</ParentID>
+    <Description>Verify if admin presses "Generate and Email" button and "Email" field is empty, "Unable to generate PIN. Please fill email address" error message displays at the top of page and %date% value ISN'T updated to current date.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Verify if \cf1\ul admin\cf0\ulnone  presses "Generate and Email" button and "Email" field is empty, "Unable to generate PIN. Please fill email address" error message displays at the top of page and %date% value ISN'T updated to current date.\par
+}
+</RichDescription>
+    <Name>"Generate and Email" button and  Email field. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+</UCTDataSet>

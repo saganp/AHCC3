@@ -1,0 +1,253 @@
+<?xml version="1.0" standalone="yes"?>
+<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+  <UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+    <Package diffgr:id="Package1" msdata:rowOrder="0">
+      <UniqueID>P-6b777b4d-120d-4e30-9cbe-476eacb136b8</UniqueID>
+      <ExternalParentID>P-0995f0ca-2e4a-4ec0-88a3-b47cd4ef1a78</ExternalParentID>
+      <Name>User Management</Name>
+      <Sequence>-1</Sequence>
+    </Package>
+    <UseCase diffgr:id="UseCase1" msdata:rowOrder="0" diffgr:hasChanges="modified">
+      <UniqueID>UC-38246ef2-dce7-4f17-9c14-3911a1521ecf</UniqueID>
+      <UserID>UC-35-1</UserID>
+      <ParentID>P-6b777b4d-120d-4e30-9cbe-476eacb136b8</ParentID>
+      <Name>View User List</Name>
+      <Description>Admin reviews the list of all users available in the system.</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  reviews the list of all users available in the system.\cf0\par
+}
+</RichDescription>
+      <Sequence>0</Sequence>
+      <Priority>1</Priority>
+      <PreConditions />
+      <PostConditions />
+      <Level />
+      <Complexity />
+      <UCStatus />
+      <ImplStatus />
+      <AssignedTo />
+      <Release />
+      <TestingSetup />
+      <TestingConfigurations />
+      <DateAdded>2013-07-15T08:50:49.0109636-04:00</DateAdded>
+      <DateModified>2013-08-05T13:41:01.5167965-04:00</DateModified>
+    </UseCase>
+    <UseCase diffgr:id="UseCase2" msdata:rowOrder="1" diffgr:hasChanges="modified">
+      <UniqueID>UC-76556fc6-6813-4d58-a280-0f073f4abc76</UniqueID>
+      <UserID>UC-35-6</UserID>
+      <ParentID>P-6b777b4d-120d-4e30-9cbe-476eacb136b8</ParentID>
+      <Name>Change Account State</Name>
+      <Description>Active account - user can log in. Available action - Deactivate Account.
+Deactivated account - user cannot log in. Available action - Activate Account.
+Locked account - user cannot log in (exceeded # of login tries, wrong password). Available action - Activate Account.</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\f0\fs20 Active account - user can log in. Available action - Deactivate Account.\par
+{\pntext\f1\'B7\tab}Deactivated account - user cannot log in. Available action - Activate Account.\par
+{\pntext\f1\'B7\tab}Locked account - user cannot log in (exceeded # of login tries, wrong password). Available action - Activate Account.\par
+}
+</RichDescription>
+      <Sequence>5</Sequence>
+      <Priority>1</Priority>
+      <PreConditions />
+      <PostConditions />
+      <Level />
+      <Complexity />
+      <UCStatus />
+      <ImplStatus />
+      <AssignedTo />
+      <Release />
+      <TestingSetup />
+      <TestingConfigurations />
+      <DateAdded>2013-07-15T10:26:21.312945-04:00</DateAdded>
+      <DateModified>2013-08-05T14:52:44.4854205-04:00</DateModified>
+    </UseCase>
+    <Step diffgr:id="Step1" msdata:rowOrder="0" diffgr:hasChanges="modified">
+      <UniqueID>ST-7efeb23c-2ee5-46aa-adf0-ca048487b902</UniqueID>
+      <ParentID>ST-873f16cd-f2f3-4f52-b66f-930b924ffd6b</ParentID>
+      <Description>Find user by (not case-sensitive):</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Find user by (not \cf1 case\cf2 -sensitive)\cf0 :\par
+}
+</RichDescription>
+      <Sequence>0</Sequence>
+      <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+    </Step>
+    <Step diffgr:id="Step2" msdata:rowOrder="1" diffgr:hasChanges="modified">
+      <UniqueID>ST-7d36bb0c-0ed1-4d16-b6d5-e78ec5d1f875</UniqueID>
+      <ParentID>ST-873f16cd-f2f3-4f52-b66f-930b924ffd6b</ParentID>
+      <Description>Filter list by:</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Filter list by:\par
+}
+</RichDescription>
+      <Sequence>1</Sequence>
+      <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+    </Step>
+    <Step diffgr:id="Step3" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+      <UniqueID>ST-16a1cf70-4a9a-4587-96bc-ee2267647c75</UniqueID>
+      <ParentID>ST-873f16cd-f2f3-4f52-b66f-930b924ffd6b</ParentID>
+      <Description>Sort displayed list by:</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Sort displayed list by:\par
+}
+</RichDescription>
+      <Sequence>2</Sequence>
+      <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+    </Step>
+    <Step diffgr:id="Step4" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+      <UniqueID>ST-64645c58-d914-4417-aefa-83f972ad5766</UniqueID>
+      <ParentID>MSS-4c0d2e59-8d22-4fea-8220-6686bf714422</ParentID>
+      <Description>Note: All filters and sorting options are applied to the whole list, not just current page.</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\i\f0\fs20 Note\b0 : All filters and sorting options are applied to the whole list, not just current page\i0 .\par
+}
+</RichDescription>
+      <Sequence>4</Sequence>
+      <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+    </Step>
+    <Step diffgr:id="Step5" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+      <UniqueID>ST-c59ca49f-b395-4d69-881f-2a831c4d4213</UniqueID>
+      <ParentID>ST-16a1cf70-4a9a-4587-96bc-ee2267647c75</ParentID>
+      <Description>ID (1-0 / 0-1)</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 ID (1-0 / 0-1)\par
+}
+</RichDescription>
+      <Sequence>0</Sequence>
+      <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+    </Step>
+    <Step diffgr:id="Step6" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+      <UniqueID>ST-8babe2ed-eab2-4595-abb5-9f6aeb730b09</UniqueID>
+      <ParentID>ST-16a1cf70-4a9a-4587-96bc-ee2267647c75</ParentID>
+      <Description>Name (first name -- a-z / z-a; last name is ignored unless first name is the same)</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Name (first name -- a-z / z-a; last name is ignored unless first name is the same)\par
+}
+</RichDescription>
+      <Sequence>2</Sequence>
+      <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+    </Step>
+    <Step diffgr:id="Step7" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+      <UniqueID>ST-f0e4b288-dc33-43b6-881c-f52ac6741796</UniqueID>
+      <ParentID>ST-16a1cf70-4a9a-4587-96bc-ee2267647c75</ParentID>
+      <Description>Login (a-z / z-a) </Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Login (a-z / z-a) \par
+}
+</RichDescription>
+      <Sequence>1</Sequence>
+      <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+    </Step>
+    <Step diffgr:id="Step8" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+      <UniqueID>ST-88187676-ae1e-4f64-a286-ffe003308775</UniqueID>
+      <ParentID>ST-16a1cf70-4a9a-4587-96bc-ee2267647c75</ParentID>
+      <Description>Email (a-z / z-a)</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Email (a-z / z-a)\par
+}
+</RichDescription>
+      <Sequence>3</Sequence>
+      <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+    </Step>
+    <Step diffgr:id="Step9" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+      <UniqueID>ST-8a905eb1-0b59-44dc-93a3-01a167c8ab3f</UniqueID>
+      <ParentID>ST-16a1cf70-4a9a-4587-96bc-ee2267647c75</ParentID>
+      <Description>Company (a-z / z-a)</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Company (a-z / z-a)\par
+}
+</RichDescription>
+      <Sequence>4</Sequence>
+      <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+    </Step>
+  </UCTDataSet>
+  <diffgr:before>
+    <UseCase diffgr:id="UseCase1" msdata:rowOrder="0" xmlns="http://serliosoft.com/UCTData.xsd">
+      <UniqueID>UC-38246ef2-dce7-4f17-9c14-3911a1521ecf</UniqueID>
+      <UserID>UC-35-1</UserID>
+      <ParentID>P-6b777b4d-120d-4e30-9cbe-476eacb136b8</ParentID>
+      <Name>View User List</Name>
+      <Description>Admin reviews the list of all users available in the system.</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  reviews the list of all users available in the system.\cf0\par
+}
+</RichDescription>
+      <Sequence>0</Sequence>
+      <Priority>1</Priority>
+      <PreConditions />
+      <PostConditions />
+      <Level />
+      <Complexity />
+      <UCStatus />
+      <ImplStatus />
+      <AssignedTo />
+      <Release />
+      <TestingSetup />
+      <TestingConfigurations />
+      <DateAdded>2013-07-15T08:50:49.0109636-04:00</DateAdded>
+      <DateModified>2013-07-30T13:31:06.3447474-04:00</DateModified>
+    </UseCase>
+    <UseCase diffgr:id="UseCase2" msdata:rowOrder="1" xmlns="http://serliosoft.com/UCTData.xsd">
+      <UniqueID>UC-76556fc6-6813-4d58-a280-0f073f4abc76</UniqueID>
+      <UserID>UC-35-6</UserID>
+      <ParentID>P-6b777b4d-120d-4e30-9cbe-476eacb136b8</ParentID>
+      <Name>Change Account State</Name>
+      <Description>Active account - user can log in. Available action - Deactivate Account.
+Deactivated account - user cannot log in. Available action - Activate Account.
+Locked account - user cannot log in (exceeded # of login tries, wrong password). Available action - Activate Account.</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Active account - user can log in. Available action - Deactivate Account.\par
+Deactivated account - user cannot log in. Available action - Activate Account.\par
+Locked account - user cannot log in (exceeded # of login tries, wrong password). Available action - Activate Account.\par
+}
+</RichDescription>
+      <Sequence>5</Sequence>
+      <Priority>1</Priority>
+      <PreConditions />
+      <PostConditions />
+      <Level />
+      <Complexity />
+      <UCStatus />
+      <ImplStatus />
+      <AssignedTo />
+      <Release />
+      <TestingSetup />
+      <TestingConfigurations />
+      <DateAdded>2013-07-15T10:26:21.312945-04:00</DateAdded>
+      <DateModified>2013-07-29T13:10:58.3145226-04:00</DateModified>
+    </UseCase>
+    <Step diffgr:id="Step1" msdata:rowOrder="0" xmlns="http://serliosoft.com/UCTData.xsd">
+      <UniqueID>ST-7efeb23c-2ee5-46aa-adf0-ca048487b902</UniqueID>
+      <ParentID>ST-873f16cd-f2f3-4f52-b66f-930b924ffd6b</ParentID>
+      <Description>Find user by (not case-sensitive):</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Find user by (not \cf1 case\cf2 -sensitive)\cf0 :\par
+}
+</RichDescription>
+      <Sequence>0</Sequence>
+      <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+    </Step>
+    <Step diffgr:id="Step2" msdata:rowOrder="1" xmlns="http://serliosoft.com/UCTData.xsd">
+      <UniqueID>ST-7d36bb0c-0ed1-4d16-b6d5-e78ec5d1f875</UniqueID>
+      <ParentID>ST-873f16cd-f2f3-4f52-b66f-930b924ffd6b</ParentID>
+      <Description>Filter list by:</Description>
+      <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Filter list by:\par
+}
+</RichDescription>
+      <Sequence>1</Sequence>
+      <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+    </Step>
+  </diffgr:before>
+</diffgr:diffgram>

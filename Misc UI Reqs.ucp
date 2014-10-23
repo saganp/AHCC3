@@ -1,0 +1,2332 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.4927</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-9b0784f6-723e-4032-8607-a176b0136b22</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-9b0784f6-723e-4032-8607-a176b0136b22</UniqueID>
+    <ExternalParentID>P-4aaac049-b435-477f-90c5-f0a2469598ba</ExternalParentID>
+    <Name>Denials and Follow-Ups</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-6308a75a-7974-46d7-8ba9-c182c5d7d3b5</UniqueID>
+    <UserID>UC-59-1</UserID>
+    <ParentID>P-9b0784f6-723e-4032-8607-a176b0136b22</ParentID>
+    <Name>Generate Denials Report</Name>
+    <Description>Financial Admin generates denials report</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Financial Admin\cf0  generates \cf2 denials\cf1  report\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-25T19:36:56.70847-05:00</DateAdded>
+    <DateModified>2013-11-27T07:48:03.7040212-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-25c4793b-46af-452e-b580-8075f2d0c331</UniqueID>
+    <UserID>UC-59-2</UserID>
+    <ParentID>P-9b0784f6-723e-4032-8607-a176b0136b22</ParentID>
+    <Name>View My Denials</Name>
+    <Description>Financial Admin / AR Specialist reviews the list of denials assigned to them</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Financial Admin / \cf2\ul AR Specialist\cf1\ulnone  reviews the list of \cf3 denials\cf1  assigned to them\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-25T19:37:14.3037575-05:00</DateAdded>
+    <DateModified>2013-11-26T18:27:13.4367618-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-d761fdea-a00c-4ad1-a599-9b988acc5e48</UniqueID>
+    <UserID>UC-59-3</UserID>
+    <ParentID>P-9b0784f6-723e-4032-8607-a176b0136b22</ParentID>
+    <Name>Assign Denials</Name>
+    <Description>User assigns/reassigns denials</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User assigns/reassigns \cf1 denials\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-25T19:37:29.775745-05:00</DateAdded>
+    <DateModified>2013-11-26T18:32:19.1599803-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-4229440a-c17b-4b31-9d87-45f5af4a3544</UniqueID>
+    <UserID>UC-59-5</UserID>
+    <ParentID>P-9b0784f6-723e-4032-8607-a176b0136b22</ParentID>
+    <Name>Change Denial Status</Name>
+    <Description>User changes Denial Status.
+
+Initial status is New. Once status is changed to something else, the only way to return to this status is to resolve the denial and then re-open it.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User changes \cf1 Denial\cf2  Status.\par
+\par
+Initial status is New. Once status is changed to something else, the only way to return to this status is to resolve the \cf1 denial\cf2  and then re-open it.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-25T19:45:25.240961-05:00</DateAdded>
+    <DateModified>2013-11-27T07:48:55.4636749-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-425dcaf9-14a5-4ba4-96f5-75ca57c53c8e</UniqueID>
+    <UserID>UC-59-6</UserID>
+    <ParentID>P-9b0784f6-723e-4032-8607-a176b0136b22</ParentID>
+    <Name>Add Denial Note</Name>
+    <Description>User adds denial note</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User adds \cf1 denial\cf2  note\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-25T19:46:00.7434719-05:00</DateAdded>
+    <DateModified>2013-11-27T07:50:36.7990612-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-45893e0f-33da-4cc5-b206-234be286b588</UniqueID>
+    <UserID>UC-59-7</UserID>
+    <ParentID>P-9b0784f6-723e-4032-8607-a176b0136b22</ParentID>
+    <Name>Save Filter</Name>
+    <Description>User saves a filter set</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User saves a filter set\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-25T19:47:02.2957277-05:00</DateAdded>
+    <DateModified>2013-11-27T07:56:50.800749-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-c4c9e88f-6104-4d02-ac8d-3c9ffd42fc66</UniqueID>
+    <UserID>UC-59-8</UserID>
+    <ParentID>P-9b0784f6-723e-4032-8607-a176b0136b22</ParentID>
+    <Name>Update Saved Filter</Name>
+    <Description>User updates a saved filter</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User updates a saved filter\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-25T19:49:11.2031016-05:00</DateAdded>
+    <DateModified>2013-11-27T07:55:40.3996338-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-ee46d29d-a6cf-4df4-8f19-a98dbcc56c53</UniqueID>
+    <UserID>UC-59-9</UserID>
+    <ParentID>P-9b0784f6-723e-4032-8607-a176b0136b22</ParentID>
+    <Name>Rename Saved Filter</Name>
+    <Description>User renames a saved filter</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User renames a saved filter\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-25T19:49:32.0226986-05:00</DateAdded>
+    <DateModified>2013-11-27T07:57:20.5493769-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-b99b071d-669f-4156-a5d3-87260b10ac7f</UniqueID>
+    <UserID>UC-59-10</UserID>
+    <ParentID>P-9b0784f6-723e-4032-8607-a176b0136b22</ParentID>
+    <Name>Delete Saved Filter</Name>
+    <Description>User deletes a saved filter</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User deletes a saved filter\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-25T19:51:08.2524358-05:00</DateAdded>
+    <DateModified>2013-11-27T07:58:34.1027186-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-8a8a867a-6c20-46e8-99a6-e7fbee8d543a</UniqueID>
+    <UserID>UC-59-4</UserID>
+    <ParentID>P-9b0784f6-723e-4032-8607-a176b0136b22</ParentID>
+    <Name>Open Denial</Name>
+    <Description>User opens denial details</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 denial\cf2  details\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-26T18:17:58.3453683-05:00</DateAdded>
+    <DateModified>2013-11-27T07:48:11.2230766-05:00</DateModified>
+  </UseCase>
+  <Scenario>
+    <UniqueID>MSS-82bff417-d0b7-49ab-8469-64c415814a13</UniqueID>
+    <ParentID>UC-6308a75a-7974-46d7-8ba9-c182c5d7d3b5</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-0191d161-14a3-4c70-978a-196ac7d00247</UniqueID>
+    <ParentID>UC-45893e0f-33da-4cc5-b206-234be286b588</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-12c39283-84d5-4e59-8cf3-aa910de809b1</UniqueID>
+    <ParentID>UC-25c4793b-46af-452e-b580-8075f2d0c331</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-c1bf9c3f-db02-432d-8cc7-77d270c66e41</UniqueID>
+    <ParentID>UC-d761fdea-a00c-4ad1-a599-9b988acc5e48</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-aaba997e-356a-4903-b09c-122a2effa23e</UniqueID>
+    <ParentID>UC-8a8a867a-6c20-46e8-99a6-e7fbee8d543a</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-c264617a-a164-423c-84c5-5c79bd634835</UniqueID>
+    <ParentID>UC-4229440a-c17b-4b31-9d87-45f5af4a3544</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-3ca47b43-3ed8-4737-af9b-37193e52757c</UniqueID>
+    <ParentID>UC-425dcaf9-14a5-4ba4-96f5-75ca57c53c8e</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-1a43e922-fee3-4dfc-afa6-8a2040bed2af</UniqueID>
+    <ParentID>UC-c4c9e88f-6104-4d02-ac8d-3c9ffd42fc66</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-28354725-5626-49ee-8c6d-85fd86110a4a</UniqueID>
+    <ParentID>UC-ee46d29d-a6cf-4df4-8f19-a98dbcc56c53</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-4d114c8f-3528-46c1-b12e-64fbb8a84de1</UniqueID>
+    <ParentID>UC-b99b071d-669f-4156-a5d3-87260b10ac7f</ParentID>
+  </Scenario>
+  <Step>
+    <UniqueID>ST-b6c5f163-db2c-4d0c-b1e8-912a81b4fe6f</UniqueID>
+    <ParentID>MSS-82bff417-d0b7-49ab-8469-64c415814a13</ParentID>
+    <Description>User opens Denials.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 Denials\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-edef677c-b4f1-42e4-b0b3-e606fb056066</UniqueID>
+    <ParentID>MSS-82bff417-d0b7-49ab-8469-64c415814a13</ParentID>
+    <Description>The system displays available filters (all optional, except for Company):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays available filters (all optional, except for Company):\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3cf522f3-e257-44f5-865e-d2632ce85771</UniqueID>
+    <ParentID>MSS-82bff417-d0b7-49ab-8469-64c415814a13</ParentID>
+    <Description>The system shows cumulative denials stats:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system shows cumulative \cf1 denials\cf2  stats:\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-52efb9dd-ed06-4706-a004-69ec0952d59f</UniqueID>
+    <ParentID>ST-3cf522f3-e257-44f5-865e-d2632ce85771</ParentID>
+    <Description>Number of unresolved denials for all companies</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Number of unresolved \cf2 denials\cf0  for all companies\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b96fb18c-3fa3-4bed-ae46-80077d7087dd</UniqueID>
+    <ParentID>ST-3cf522f3-e257-44f5-865e-d2632ce85771</ParentID>
+    <Description>Number of unassigned denials for all companies (unresolved only)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Number of unassigned \cf1 denials\cf0  for all companies (unresolved only)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fc233a91-63c2-4a35-b665-875ab99a4c03</UniqueID>
+    <ParentID>ST-3cf522f3-e257-44f5-865e-d2632ce85771</ParentID>
+    <Description>Number of unresolved denials for selected company</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Number of unresolved \cf2 denials\cf0  for selected company\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2fe464de-48e9-4210-9fe9-0df8b457dba0</UniqueID>
+    <ParentID>ST-3cf522f3-e257-44f5-865e-d2632ce85771</ParentID>
+    <Description>Number of unassigned denials for selected company (unresolved only)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Number of unassigned \cf1 denials\cf0  for selected company (unresolved only)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d88b85c1-e76f-412a-a15d-ce925cab560e</UniqueID>
+    <ParentID>ST-edef677c-b4f1-42e4-b0b3-e606fb056066</ParentID>
+    <Description>Date of Service (from... to...) - user can leave either field empty to not restrict from/to date.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Date of Service (from... to...) - user can leave either field empty to not restrict from/to date.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-181fc596-cc48-432f-ad90-0e03eedc0082</UniqueID>
+    <ParentID>ST-edef677c-b4f1-42e4-b0b3-e606fb056066</ParentID>
+    <Description>Company - current company selected by default, a company must be selected.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Company - current company selected by default, a company must be selected.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c7a68e68-5d3a-4f35-96b1-3b5e21793f01</UniqueID>
+    <ParentID>ST-edef677c-b4f1-42e4-b0b3-e606fb056066</ParentID>
+    <Description>Location (within selected company)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Location (within selected company)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bb8e12fe-803d-4b73-86f6-74cc1dc303cb</UniqueID>
+    <ParentID>X-e9e400c9-72c7-4757-bf15-5bcbe4ef92b6</ParentID>
+    <Description>The system changes company</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system changes company\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3a71a640-1a13-4223-a020-9056e8c108e9</UniqueID>
+    <ParentID>X-e9e400c9-72c7-4757-bf15-5bcbe4ef92b6</ParentID>
+    <Description>The system resets all company-specific filters (financial group, carrier, plan, location)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system resets all company-specific filters (financial group, \cf2 carrier\cf1 , plan, location)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-51e958f7-774c-497b-8c29-bd1a0ba205b0</UniqueID>
+    <ParentID>ST-edef677c-b4f1-42e4-b0b3-e606fb056066</ParentID>
+    <Description>Financial Groups:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Financial Groups:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4231c596-a8a1-4f42-8735-8009aec0e496</UniqueID>
+    <ParentID>ST-51e958f7-774c-497b-8c29-bd1a0ba205b0</ParentID>
+    <Description>All</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6fb850bb-ce39-40d5-93f6-2d3c7f7a1922</UniqueID>
+    <ParentID>ST-51e958f7-774c-497b-8c29-bd1a0ba205b0</ParentID>
+    <Description>Selected: - lists all financial groups for the company, user must select at least one.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Selected: - lists all financial groups for the company, user must select at least one.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-57bfca91-3cfb-4683-aab0-d99598c08cce</UniqueID>
+    <ParentID>ST-51e958f7-774c-497b-8c29-bd1a0ba205b0</ParentID>
+    <Description>Changing these values affects the list of available carriers and plans.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Changing these values affects the list of available \cf2 carriers\cf1  and plans.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-901b823c-5a41-4983-b925-368a4f122d76</UniqueID>
+    <ParentID>ST-edef677c-b4f1-42e4-b0b3-e606fb056066</ParentID>
+    <Description>Carrier - user can select a carrier or leave field blank. Selecting a carrier affects the list of available insurance plans.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Carrier\cf2  - user can select a \cf1 carrier\cf2  or leave field blank. Selecting a \cf1 carrier\cf2  affects the list of available insurance plans.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2243928c-f07c-4edb-bb37-1cecb17e4ca8</UniqueID>
+    <ParentID>ST-edef677c-b4f1-42e4-b0b3-e606fb056066</ParentID>
+    <Description>Insurance Plan - user can select a plan or leave field as All. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Insurance Plan - user can select a plan or leave field as All. \par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bf3c2b17-99f1-4614-8fcc-b990165be0ff</UniqueID>
+    <ParentID>ST-edef677c-b4f1-42e4-b0b3-e606fb056066</ParentID>
+    <Description>Denial Status:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Denial\cf2  Status:\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3b37db21-d399-47e5-af8f-214a4b259805</UniqueID>
+    <ParentID>ST-bf3c2b17-99f1-4614-8fcc-b990165be0ff</ParentID>
+    <Description>Any</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Any\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e14aaf85-4a78-4233-bf2a-54389d0562a4</UniqueID>
+    <ParentID>ST-bf3c2b17-99f1-4614-8fcc-b990165be0ff</ParentID>
+    <Description>All completed</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All completed\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a811411a-773d-4854-9724-b5d0e85a85c4</UniqueID>
+    <ParentID>ST-bf3c2b17-99f1-4614-8fcc-b990165be0ff</ParentID>
+    <Description>All unresolved (includes all denials in New, Open, In Progress, On Hold status)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All unresolved (includes all \cf2 denials\cf1  in New, Open, In Progress, On Hold status)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0f7d9d04-fe5b-4e5b-9243-e01003d1c55c</UniqueID>
+    <ParentID>ST-bf3c2b17-99f1-4614-8fcc-b990165be0ff</ParentID>
+    <Description>New</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 New\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-85bf97c7-6286-45c2-97f2-69757d0d5521</UniqueID>
+    <ParentID>ST-bf3c2b17-99f1-4614-8fcc-b990165be0ff</ParentID>
+    <Description>In Progress </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In Progress \par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9add3151-8195-462b-9cf2-d245d5ae0094</UniqueID>
+    <ParentID>ST-bf3c2b17-99f1-4614-8fcc-b990165be0ff</ParentID>
+    <Description>On Hold</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 On Hold\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-99293e96-d9cb-48fd-97a0-18626da23625</UniqueID>
+    <ParentID>ST-edef677c-b4f1-42e4-b0b3-e606fb056066</ParentID>
+    <Description>Denial reason - user types and selects a reason, user can remove a reason at any time. Note that reasons will be two-tiered, it should be possible to select a specific reason or a higher-level reason that includes all sub-reasons.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Denial\cf2  reason - user types and selects a reason, user can remove a reason at any time. Note that reasons will be two-tiered, it should be possible to select a specific reason or a higher-level reason that includes all sub-reasons.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-649f6b33-e037-44bf-8079-afaf7c7ea9f1</UniqueID>
+    <ParentID>ST-edef677c-b4f1-42e4-b0b3-e606fb056066</ParentID>
+    <Description>Assignments - contains the list of users who have at least one denial assigned to them.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Assignments - contains the list of users who have at least one \cf1 denial\cf2  assigned to them.\cf0\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5967fa8e-ec82-43f8-a22d-921da7b2a7f8</UniqueID>
+    <ParentID>MSS-82bff417-d0b7-49ab-8469-64c415814a13</ParentID>
+    <Description>User generates report.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User generates report.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d074f690-dd52-4785-be66-4e381cd5d5d6</UniqueID>
+    <ParentID>MSS-82bff417-d0b7-49ab-8469-64c415814a13</ParentID>
+    <Description>The system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays:\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-96abb2b5-ce49-4f72-a33f-37d1700d2793</UniqueID>
+    <ParentID>ST-d074f690-dd52-4785-be66-4e381cd5d5d6</ParentID>
+    <Description>Number of found denials</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Number of found \cf1 denials\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1cf337fb-f911-4ff7-a80a-631a487a962a</UniqueID>
+    <ParentID>ST-d074f690-dd52-4785-be66-4e381cd5d5d6</ParentID>
+    <Description>Enabled filters in read-only mode (empty and All/Any fields are not displayed)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Enabled filters in read-only \cf1 mode (empty and All/Any fields are not displayed)\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6a8812b8-34c7-44b2-8224-bb373ac9f391</UniqueID>
+    <ParentID>ST-d074f690-dd52-4785-be66-4e381cd5d5d6</ParentID>
+    <Description>The list of found denials. For each denial, the system shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The list of found \cf1 denials\cf2 . For each \cf1 denial\cf2 , the system shows:\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0613299a-90f4-4de9-acf3-32ce7c4eb3e6</UniqueID>
+    <ParentID>MSS-82bff417-d0b7-49ab-8469-64c415814a13</ParentID>
+    <Description>User can filter results by:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User can filter results by:\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-694ee05d-437c-446f-9133-454b26874ae1</UniqueID>
+    <ParentID>ST-d074f690-dd52-4785-be66-4e381cd5d5d6</ParentID>
+    <Description>Assign selected / Assign All controls</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Assign selected / Assign All controls\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8504c3ab-d506-421c-a884-2cae25b686e9</UniqueID>
+    <ParentID>ST-6a8812b8-34c7-44b2-8224-bb373ac9f391</ParentID>
+    <Description>Check box (select for re-assigning)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Check box (select for re-assigning)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-92e71764-8e29-4eb6-9a3f-3afcbf71aaa5</UniqueID>
+    <ParentID>MSS-82bff417-d0b7-49ab-8469-64c415814a13</ParentID>
+    <Description>User can:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User can:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f43c6647-48b6-4611-909b-67183e7db4dc</UniqueID>
+    <ParentID>ST-92e71764-8e29-4eb6-9a3f-3afcbf71aaa5</ParentID>
+    <Description>Save filter as new</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Save filter as new\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fbd8ca91-3d53-495e-ab4e-03a4a66045c7</UniqueID>
+    <ParentID>ST-92e71764-8e29-4eb6-9a3f-3afcbf71aaa5</ParentID>
+    <Description>Use a saved filter - all values are replaced</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Use a saved filter - all values are replaced\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-99d47f31-633e-4860-bf5f-1a3548743dd9</UniqueID>
+    <ParentID>ST-92e71764-8e29-4eb6-9a3f-3afcbf71aaa5</ParentID>
+    <Description>Rename / Update / Delete selected saved filter</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rename / Update / Delete selected saved filter\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3bf2ecb9-ac8d-40bd-b246-a4d8cec11a46</UniqueID>
+    <ParentID>ST-92e71764-8e29-4eb6-9a3f-3afcbf71aaa5</ParentID>
+    <Description>Reset filters (clears all selected filters)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Reset filters (clears all selected filters)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3034f02a-5987-4e24-a152-69520256a32d</UniqueID>
+    <ParentID>ST-6a8812b8-34c7-44b2-8224-bb373ac9f391</ParentID>
+    <Description>Case ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Case\cf2  ID\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-44d8b8f3-42df-4d80-b68f-de98edd7ecbe</UniqueID>
+    <ParentID>ST-6a8812b8-34c7-44b2-8224-bb373ac9f391</ParentID>
+    <Description>Encounter ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Encounter ID\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7cfafce0-a43b-4600-8b7d-7f479271a09e</UniqueID>
+    <ParentID>ST-6a8812b8-34c7-44b2-8224-bb373ac9f391</ParentID>
+    <Description>Service Date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Service Date\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0be6b9f7-bb18-40a0-bebe-4ce657f65f86</UniqueID>
+    <ParentID>ST-6a8812b8-34c7-44b2-8224-bb373ac9f391</ParentID>
+    <Description>Insurance Type</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Insurance Type\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-45a2cf22-562b-4672-be45-36aca6e29260</UniqueID>
+    <ParentID>ST-6a8812b8-34c7-44b2-8224-bb373ac9f391</ParentID>
+    <Description>Carrier</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Carrier\cf2\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-310cb513-c007-4290-86eb-0c707f80309e</UniqueID>
+    <ParentID>ST-6a8812b8-34c7-44b2-8224-bb373ac9f391</ParentID>
+    <Description>Reason Code</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Reason Code\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f590d10f-2262-4e0d-886f-dc0f7ea32238</UniqueID>
+    <ParentID>ST-6a8812b8-34c7-44b2-8224-bb373ac9f391</ParentID>
+    <Description>Encounter Balance   </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Encounter Balance   \par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3e07f12a-17fc-4130-b3f6-db5b660c8776</UniqueID>
+    <ParentID>ST-6a8812b8-34c7-44b2-8224-bb373ac9f391</ParentID>
+    <Description>Denial Status</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Denial\cf2  Status\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f327eb84-2f3c-41e6-98e1-5da4e00d30e1</UniqueID>
+    <ParentID>ST-6a8812b8-34c7-44b2-8224-bb373ac9f391</ParentID>
+    <Description>Assigned to</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Assigned to\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f7e88dab-7122-48f8-9da4-2c60a44f8993</UniqueID>
+    <ParentID>ST-6a8812b8-34c7-44b2-8224-bb373ac9f391</ParentID>
+    <Description>Assignment date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Assignment date\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2672c92a-3fdd-4920-8d3b-f35c859b25c1</UniqueID>
+    <ParentID>ST-0613299a-90f4-4de9-acf3-32ce7c4eb3e6</ParentID>
+    <Description>Case ID - keyword search</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Case\cf2  ID - keyword search\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fe8c4c66-cb84-4b3a-82f3-f1e49a73d8c5</UniqueID>
+    <ParentID>ST-0613299a-90f4-4de9-acf3-32ce7c4eb3e6</ParentID>
+    <Description>Encounter ID - keyword search</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Encounter ID - keyword search\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-54342511-cead-4d98-98ff-73e32c9a483d</UniqueID>
+    <ParentID>ST-0613299a-90f4-4de9-acf3-32ce7c4eb3e6</ParentID>
+    <Description>Service Date - keyword search</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Service Date - keyword search\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7ea0542c-9073-48af-ba2f-71f8ebb8b253</UniqueID>
+    <ParentID>ST-0613299a-90f4-4de9-acf3-32ce7c4eb3e6</ParentID>
+    <Description>Insurance Type:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Insurance Type:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2f830e2f-0d33-4424-8049-e4670ae31ac8</UniqueID>
+    <ParentID>ST-0613299a-90f4-4de9-acf3-32ce7c4eb3e6</ParentID>
+    <Description>Carrier - keyword search</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Carrier\cf2  - keyword search\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b8e1f288-3a63-4fba-8216-3352eeb3fec8</UniqueID>
+    <ParentID>ST-0613299a-90f4-4de9-acf3-32ce7c4eb3e6</ParentID>
+    <Description>Reason Code - dropdown that contains all reasons currently in the list</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Reason Code - dropdown that contains all reasons currently in the list\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cb9cfc94-a53c-4404-8fce-d5f412318f3c</UniqueID>
+    <ParentID>ST-0613299a-90f4-4de9-acf3-32ce7c4eb3e6</ParentID>
+    <Description>Encounter Balance:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Encounter Balance:\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1bb78d7e-98fb-4d3b-97e2-d01831bcd81f</UniqueID>
+    <ParentID>ST-0613299a-90f4-4de9-acf3-32ce7c4eb3e6</ParentID>
+    <Description>Denial Status:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Denial\cf2  Status:\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4eeec425-dceb-4954-bab7-009d9c0902d0</UniqueID>
+    <ParentID>ST-0613299a-90f4-4de9-acf3-32ce7c4eb3e6</ParentID>
+    <Description>Assigned to - keyword search</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Assigned to - keyword search\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-10b98892-3b3a-4983-ac5b-343a3fed2372</UniqueID>
+    <ParentID>ST-0613299a-90f4-4de9-acf3-32ce7c4eb3e6</ParentID>
+    <Description>Assignment date -  - keyword search</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Assignment date -  - keyword search\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-84693d31-c70f-4236-b633-563b6eaa000c</UniqueID>
+    <ParentID>ST-7ea0542c-9073-48af-ba2f-71f8ebb8b253</ParentID>
+    <Description>All </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-87ad7d8d-2bab-4ad7-88c3-7f322d023406</UniqueID>
+    <ParentID>ST-7ea0542c-9073-48af-ba2f-71f8ebb8b253</ParentID>
+    <Description>Primary</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Primary\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7a170bd4-377f-42c5-ba9c-59a19d36e35d</UniqueID>
+    <ParentID>ST-7ea0542c-9073-48af-ba2f-71f8ebb8b253</ParentID>
+    <Description>Secondary</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Secondary\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5ef7bb0b-30db-45eb-bacd-760094b0c59f</UniqueID>
+    <ParentID>ST-7ea0542c-9073-48af-ba2f-71f8ebb8b253</ParentID>
+    <Description>Tertiary</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Tertiary\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-953b97c9-167b-4b38-9c1c-13516dbaa022</UniqueID>
+    <ParentID>ST-7ea0542c-9073-48af-ba2f-71f8ebb8b253</ParentID>
+    <Description>Unknown</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Unknown\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-469707ab-30ea-410b-91dd-90ba871f18ba</UniqueID>
+    <ParentID>ST-cb9cfc94-a53c-4404-8fce-d5f412318f3c</ParentID>
+    <Description>All</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0a2c9776-8177-4068-bb08-3dee411051d8</UniqueID>
+    <ParentID>ST-cb9cfc94-a53c-4404-8fce-d5f412318f3c</ParentID>
+    <Description>Positive</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Positive\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-26d4f611-3696-4341-b13c-6703eb4081d2</UniqueID>
+    <ParentID>ST-cb9cfc94-a53c-4404-8fce-d5f412318f3c</ParentID>
+    <Description>Negative</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Negative\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1fa89421-8455-454f-baff-dff7d6358f2f</UniqueID>
+    <ParentID>ST-cb9cfc94-a53c-4404-8fce-d5f412318f3c</ParentID>
+    <Description>Zero Balance</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Zero Balance\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ab6348a9-9d56-403a-ab2f-7984ee7b0cdd</UniqueID>
+    <ParentID>ST-1bb78d7e-98fb-4d3b-97e2-d01831bcd81f</ParentID>
+    <Description>Any</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Any\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6abce9d6-d24c-40b9-8434-57b34ef1c8da</UniqueID>
+    <ParentID>ST-1bb78d7e-98fb-4d3b-97e2-d01831bcd81f</ParentID>
+    <Description>All completed</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All completed\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0e4dfdd1-b634-4267-b38b-f8eb26fdab52</UniqueID>
+    <ParentID>ST-1bb78d7e-98fb-4d3b-97e2-d01831bcd81f</ParentID>
+    <Description>All unresolved (includes all denials in New, In Progress, On Hold status)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All unresolved (includes all \cf2 denials\cf1  in New, In Progress, On Hold status)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8d1d0409-946c-4f23-af51-2282a1189727</UniqueID>
+    <ParentID>ST-1bb78d7e-98fb-4d3b-97e2-d01831bcd81f</ParentID>
+    <Description>New</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 New\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7f93bfed-5b27-43bc-9e0d-7a900690166a</UniqueID>
+    <ParentID>ST-1bb78d7e-98fb-4d3b-97e2-d01831bcd81f</ParentID>
+    <Description>In Progress </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In Progress \par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-abc12e17-c048-4e18-9be5-bebd016cfa6a</UniqueID>
+    <ParentID>ST-1bb78d7e-98fb-4d3b-97e2-d01831bcd81f</ParentID>
+    <Description>On Hold</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 On Hold\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fc1aeda4-6ff3-4bf8-90a3-2d6228e7599c</UniqueID>
+    <ParentID>MSS-82bff417-d0b7-49ab-8469-64c415814a13</ParentID>
+    <Description>User can:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User can:\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c851211b-93ca-40ac-bab3-b6c650981304</UniqueID>
+    <ParentID>ST-fc1aeda4-6ff3-4bf8-90a3-2d6228e7599c</ParentID>
+    <Description>Assign denials - UC-59-3</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Assign denials - \cf2\ul UC-59-3\cf1\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3be93cda-01ca-4f77-97b8-f7a181d32f27</UniqueID>
+    <ParentID>ST-fc1aeda4-6ff3-4bf8-90a3-2d6228e7599c</ParentID>
+    <Description>Save filter as new</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Save filter as new\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e3b23669-c548-49ad-8cff-a9e3676d2c32</UniqueID>
+    <ParentID>ST-fc1aeda4-6ff3-4bf8-90a3-2d6228e7599c</ParentID>
+    <Description>Use a saved filter - all values are replaced</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Use a saved filter - all values are replaced\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1017b39b-92f2-4c8f-bc95-d4b2de2089d0</UniqueID>
+    <ParentID>ST-fc1aeda4-6ff3-4bf8-90a3-2d6228e7599c</ParentID>
+    <Description>Rename / Update / Delete selected saved filter</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rename / Update / Delete selected saved filter\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e2931ae9-0593-4551-8262-c0dec1ca0f11</UniqueID>
+    <ParentID>ST-fc1aeda4-6ff3-4bf8-90a3-2d6228e7599c</ParentID>
+    <Description>Change Report Settings - the system returns to step 2, all currently set filters are selected.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Change Report Settings - the system returns to step 2, all currently set filters are selected.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-935a9c9c-4094-432a-a95b-6077cc48e2e1</UniqueID>
+    <ParentID>XA-565e8e1f-80bf-4e76-8267-ed21871bf187</ParentID>
+    <Description>The system applies filters that can be applied and shows a message: "Some filters cannot be applied".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system applies filters that can be applied and shows a message: "Some filters cannot be applied".\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-838be755-e1f3-40a3-999c-855a2219b191</UniqueID>
+    <ParentID>XA-565e8e1f-80bf-4e76-8267-ed21871bf187</ParentID>
+    <Description>The system hides the message automatically.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system hides the message automatically.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4ffb02c9-eafb-43be-b4f3-0346ee160403</UniqueID>
+    <ParentID>XA-565e8e1f-80bf-4e76-8267-ed21871bf187</ParentID>
+    <Description>If saved filter applied on the Results screen, the system shows updated grid.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If saved filter applied on the Results screen, the system shows updated grid.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-484a0c5d-f6b4-4ae9-a495-40b6ed008880</UniqueID>
+    <ParentID>MSS-82bff417-d0b7-49ab-8469-64c415814a13</ParentID>
+    <Description>At any point, user can switch to My Denials view - UC-59-2</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 At any point, user can switch to My \cf2 Denials\cf1  view - \cf3\ul UC-59-2\cf1\ulnone\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bb69d792-296f-42aa-b989-e2ec27af328d</UniqueID>
+    <ParentID>MSS-12c39283-84d5-4e59-8cf3-aa910de809b1</ParentID>
+    <Description>User opens My Denials:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens My \cf1 Denials\cf2 :\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9bae0c0d-ed40-4eaf-9d6e-f195e8fc5d6d</UniqueID>
+    <ParentID>ST-bb69d792-296f-42aa-b989-e2ec27af328d</ParentID>
+    <Description>Separate tab for the financial admin</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Separate tab for the \cf1 financial admin\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ad2ef667-b3c5-445a-b721-81f28e3851ad</UniqueID>
+    <ParentID>ST-bb69d792-296f-42aa-b989-e2ec27af328d</ParentID>
+    <Description>Denials page for AR specialist</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Denials\cf2  page for \cf3\ul AR specialist\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4151b7f7-d206-43dd-83fd-7916b671ca0c</UniqueID>
+    <ParentID>MSS-12c39283-84d5-4e59-8cf3-aa910de809b1</ParentID>
+    <Description>The system displays the list of denials assigned to the user. The list of columns and filtering is the same as in UC-59-1</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 The system displays the list of \cf1 denials\cf2  assigned to the user. The list of columns and filtering is the same as in \cf3\ul UC-59-1\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ca733ef6-6407-43b0-a32b-0e8d550fa43c</UniqueID>
+    <ParentID>MSS-12c39283-84d5-4e59-8cf3-aa910de809b1</ParentID>
+    <Description>User can:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User can:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c9d6b49c-57fa-496c-a59e-b55fb3884096</UniqueID>
+    <ParentID>ST-fc1aeda4-6ff3-4bf8-90a3-2d6228e7599c</ParentID>
+    <Description>Open any denial - UC-59-4, but user cannot make any changes to it until it's assigned to the user. The only functionality available to the user is "Add Denial Note", UC-59-6.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Open any \cf1 denial\cf2  - \cf3\ul UC-59-4\cf2\ulnone , but user cannot make any changes to it until it's assigned to the user. The only functionality available to the user is "Add \cf1 Denial\cf2  Note", \cf3\ul UC-59-6\cf2\ulnone .\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3671dea0-2900-4997-83a3-3ab3646f853e</UniqueID>
+    <ParentID>ST-ca733ef6-6407-43b0-a32b-0e8d550fa43c</ParentID>
+    <Description>Open denial and change its status UC-59-4 / UC-59-5</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Open \cf1 denial\cf2  and change its status \cf3\ul UC-59-4\cf2\ulnone  / \cf3\ul UC-59-5\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3c32d6cb-a4c2-47d6-b539-918334fca44f</UniqueID>
+    <ParentID>ST-ca733ef6-6407-43b0-a32b-0e8d550fa43c</ParentID>
+    <Description>Reassign denials - UC-59-3</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Reassign \cf1 denials\cf2  - \cf3\ul UC-59-3\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9453e56a-04df-4af5-8e7b-ea44209b1f9a</UniqueID>
+    <ParentID>MSS-c1bf9c3f-db02-432d-8cc7-77d270c66e41</ParentID>
+    <Description>User does either of the following:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User does either of the following:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8e65f068-544c-4e8f-be8b-97d5a1cd0713</UniqueID>
+    <ParentID>ST-9453e56a-04df-4af5-8e7b-ea44209b1f9a</ParentID>
+    <Description>Selects several denials and clicks "Assign Selected" / "Reassign Selected"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Selects several \cf1 denials\cf2  and clicks "Assign Selected" / "Reassign Selected"\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-10241704-5498-4bcd-aa9e-4389d3ca6c0e</UniqueID>
+    <ParentID>ST-9453e56a-04df-4af5-8e7b-ea44209b1f9a</ParentID>
+    <Description>Clicks "Assign All" / "Reassign All" - this would affect all denials in the list, not just the ones on current page</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Clicks\cf1  "Assign All" / "Reassign All" - this would affect all \cf2 denials\cf1  in the list, not just the ones on current page\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9be8a69c-8942-469e-8a98-65aecbde6365</UniqueID>
+    <ParentID>MSS-c1bf9c3f-db02-432d-8cc7-77d270c66e41</ParentID>
+    <Description>The system prompts user to select assignee.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to select assignee.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a4e4d01f-013e-4741-8c9d-bc6e266d7a9f</UniqueID>
+    <ParentID>MSS-c1bf9c3f-db02-432d-8cc7-77d270c66e41</ParentID>
+    <Description>User selects assignee from a searchable dropdown - the dropdown contains all users with Financial Admin / AR Specialist permissions.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 User selects assignee from a searchable dropdown - the dropdown contains all users with \cf1 Financial Admin / \cf2\ul AR Specialist\cf1\ulnone  permissions.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a1b476fe-9d46-462f-95d4-df89a7987aca</UniqueID>
+    <ParentID>MSS-c1bf9c3f-db02-432d-8cc7-77d270c66e41</ParentID>
+    <Description>User confirms assignment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms assignment.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-71c1f6c8-cf1d-4b37-b2f4-b020836b9452</UniqueID>
+    <ParentID>MSS-c1bf9c3f-db02-432d-8cc7-77d270c66e41</ParentID>
+    <Description>The system assigns/reassigns denials to selected user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system assigns/reassigns \cf1 denials\cf2  to selected user.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cddcef61-3fb5-46a1-9049-51c5f6cc1b79</UniqueID>
+    <ParentID>X-9ddd6945-1fa6-46b1-acc9-d91da75d6108</ParentID>
+    <Description>The system marks denials as "Unassigned"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system marks \cf1 denials\cf2  as "Unassigned"\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-37dd9528-1928-43ad-b832-de61f1c42421</UniqueID>
+    <ParentID>MSS-aaba997e-356a-4903-b09c-122a2effa23e</ParentID>
+    <Description>User opens denial details.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 denial\cf2  details.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8137cf15-73ef-4a9b-8a60-1a6ea232bdf6</UniqueID>
+    <ParentID>MSS-aaba997e-356a-4903-b09c-122a2effa23e</ParentID>
+    <Description>The system displays encounter details:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays encounter details:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-04abfd65-4b8e-49f0-a663-fac6c3aec927</UniqueID>
+    <ParentID>ST-8137cf15-73ef-4a9b-8a60-1a6ea232bdf6</ParentID>
+    <Description>Charges list (same as in insurance payment posting)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Charges list (same as in insurance payment posting)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-97a0fd8f-1a25-4db2-9175-cd3eeaf064ca</UniqueID>
+    <ParentID>ST-8137cf15-73ef-4a9b-8a60-1a6ea232bdf6</ParentID>
+    <Description>Financial Overview (same as in insurance payment posting)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Financial Overview \cf0 (same as in insurance payment posting)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5e567199-80cb-4907-b6a8-d4be8ed8b88d</UniqueID>
+    <ParentID>ST-8137cf15-73ef-4a9b-8a60-1a6ea232bdf6</ParentID>
+    <Description>Transaction History (same as in insurance payment posting)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Transaction History (same as in insurance payment posting)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8865e910-858b-49c3-bd3c-b2978975c455</UniqueID>
+    <ParentID>MSS-aaba997e-356a-4903-b09c-122a2effa23e</ParentID>
+    <Description>The system also displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system also displays:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7f4000e2-6b03-4a80-86c5-a40507b3b3e3</UniqueID>
+    <ParentID>ST-8865e910-858b-49c3-bd3c-b2978975c455</ParentID>
+    <Description>"Denial reported on &lt;date&gt; by &lt;name&gt;."</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Denial\cf0  reported on &lt;date&gt; by &lt;name&gt;."\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-21bc8a0a-78c9-4532-add3-762a194876a0</UniqueID>
+    <ParentID>ST-8865e910-858b-49c3-bd3c-b2978975c455</ParentID>
+    <Description>Denial reason</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Denial\cf2  reason\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5683e262-d19b-4666-8597-5d48d422385d</UniqueID>
+    <ParentID>ST-8865e910-858b-49c3-bd3c-b2978975c455</ParentID>
+    <Description>The list of Denial notes</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The list of \cf1 Denial\cf2  notes\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bf169d5e-ac67-48f3-8d5a-7778d99edc13</UniqueID>
+    <ParentID>ST-8865e910-858b-49c3-bd3c-b2978975c455</ParentID>
+    <Description>"New Note" form</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 "New Note" form\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2af901e3-e801-4191-9b24-b85970c2bea6</UniqueID>
+    <ParentID>MSS-aaba997e-356a-4903-b09c-122a2effa23e</ParentID>
+    <Description>In Transactions history, user can do either of the following:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 In Transactions history, user can do either of the following:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-031adae3-9662-49e9-a4b1-3a638952dbf7</UniqueID>
+    <ParentID>ST-2af901e3-e801-4191-9b24-b85970c2bea6</ParentID>
+    <Description>Apply Adjustment - works as in Corrections, the only difference is that changes are applied immediately</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Apply \cf1 Adjustment\cf2  - works as in Corrections, the only difference is that changes are applied immediately\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e1ce8622-f003-4b3b-b297-042e721dda0f</UniqueID>
+    <ParentID>ST-2af901e3-e801-4191-9b24-b85970c2bea6</ParentID>
+    <Description>Transfer Balance - works as in Corrections, the only difference is that changes are applied immediately</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Transfer Balance - \cf1 works as in Corrections, the only difference is that changes are applied immediately\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b9a03cd9-e46f-4c65-981e-d2409f8b152c</UniqueID>
+    <ParentID>MSS-aaba997e-356a-4903-b09c-122a2effa23e</ParentID>
+    <Description>User can change Denial Status, if necessary.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User can change \cf1 Denial\cf2  Status, if necessary.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d8fbe06a-a12b-4d4d-a4d3-79c8147116b7</UniqueID>
+    <ParentID>MSS-c264617a-a164-423c-84c5-5c79bd634835</ParentID>
+    <Description>User changes denial status to:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User changes \cf1 denial\cf2  status to:\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-223bd4c2-f83e-401c-b831-1ff207d459aa</UniqueID>
+    <ParentID>ST-d8fbe06a-a12b-4d4d-a4d3-79c8147116b7</ParentID>
+    <Description>In Progress:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 In Progress:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-736119a1-7f08-4c64-a34a-d7da830d9371</UniqueID>
+    <ParentID>ST-223bd4c2-f83e-401c-b831-1ff207d459aa</ParentID>
+    <Description>The system sets denial status as "In Progress".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system sets \cf1 denial\cf2  status as "In Progress".\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-73e80c4c-1bc3-4bbb-ad7c-165649c0c4d2</UniqueID>
+    <ParentID>ST-223bd4c2-f83e-401c-b831-1ff207d459aa</ParentID>
+    <Description>No other changes are made.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 No \cf1 other changes are made.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f34cd959-18c3-483e-80b9-d0017bb154ea</UniqueID>
+    <ParentID>ST-d8fbe06a-a12b-4d4d-a4d3-79c8147116b7</ParentID>
+    <Description>On Hold:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 On Hold:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-918d25b3-c5c5-46d2-be2f-268057840550</UniqueID>
+    <ParentID>ST-f34cd959-18c3-483e-80b9-d0017bb154ea</ParentID>
+    <Description>The system prompts user to select due date:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to select due date:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fcab6b70-80fa-46ec-bdc5-10feed8e5536</UniqueID>
+    <ParentID>ST-918d25b3-c5c5-46d2-be2f-268057840550</ParentID>
+    <Description>1 week</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 1 week\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-54cdae12-c7f7-4a5e-a821-4154b8787bdf</UniqueID>
+    <ParentID>ST-918d25b3-c5c5-46d2-be2f-268057840550</ParentID>
+    <Description>2 weeks</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 2 weeks\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-967058b2-61a9-423d-8202-c9c10f77230e</UniqueID>
+    <ParentID>ST-918d25b3-c5c5-46d2-be2f-268057840550</ParentID>
+    <Description>3 weeks</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 3 weeks\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-584f7cfc-d6a0-45bf-91a2-2ad60f96d83c</UniqueID>
+    <ParentID>ST-918d25b3-c5c5-46d2-be2f-268057840550</ParentID>
+    <Description>A month</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 A \cf1 month\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-61c122f4-cf96-4791-9bb6-13d8b665e76e</UniqueID>
+    <ParentID>ST-918d25b3-c5c5-46d2-be2f-268057840550</ParentID>
+    <Description>Specific date - text field</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Specific date - text field\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4d683368-7e08-403b-b55b-790185680e40</UniqueID>
+    <ParentID>ST-f34cd959-18c3-483e-80b9-d0017bb154ea</ParentID>
+    <Description>User selects due date ads confirms hold.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects due date ads confirms hold.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5b071040-005b-4f3a-a1b2-1da16afe3ee2</UniqueID>
+    <ParentID>ST-f34cd959-18c3-483e-80b9-d0017bb154ea</ParentID>
+    <Description>The system sets due date (using date specified or calculating it from selected period)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system sets due date (using date specified or calculating it from selected period)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2ec3ae68-bb1d-4cdc-a795-885bcc84c20f</UniqueID>
+    <ParentID>ST-f34cd959-18c3-483e-80b9-d0017bb154ea</ParentID>
+    <Description>The system posts a new Denial comment and duplicates it on the case page: "Denial review is put on hold until &lt;due_date&gt;".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system posts a new \cf1 Denial\cf0  comment and duplicates it on the \cf1 case\cf2  page: "\cf1 Denial\cf2  review is put on hold until &lt;due_date&gt;".\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0af48566-93db-4ab0-9a93-17e888207ae0</UniqueID>
+    <ParentID>ST-d8fbe06a-a12b-4d4d-a4d3-79c8147116b7</ParentID>
+    <Description>Mark as Resolved</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Mark as Resolved\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-77e98e2c-365d-4a90-96ea-04209c4c84c9</UniqueID>
+    <ParentID>ST-0af48566-93db-4ab0-9a93-17e888207ae0</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system requests confirmation.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-431fa4a4-1720-43d5-b469-ad3759d641bf</UniqueID>
+    <ParentID>ST-0af48566-93db-4ab0-9a93-17e888207ae0</ParentID>
+    <Description>The only action available to the user is Re-Open</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The only action available to the user is Re-Open\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bb850636-5861-4f02-8a05-2fb827d8a55a</UniqueID>
+    <ParentID>ST-0af48566-93db-4ab0-9a93-17e888207ae0</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c98d1d08-b8c1-4330-9f9d-9f8e70e7c8bc</UniqueID>
+    <ParentID>ST-0af48566-93db-4ab0-9a93-17e888207ae0</ParentID>
+    <Description>The system marks Denial as resolved.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system marks \cf1 Denial\cf2  as resolved.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-704ef7e2-212f-4ba3-ad0b-69f1229f396a</UniqueID>
+    <ParentID>ST-d8fbe06a-a12b-4d4d-a4d3-79c8147116b7</ParentID>
+    <Description>Re-Open</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Re-Open\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8aec3d13-193c-490f-aa85-915d60bf027c</UniqueID>
+    <ParentID>ST-704ef7e2-212f-4ba3-ad0b-69f1229f396a</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system requests confirmation.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-430e2328-dbc8-45b3-a474-63e6a42485bb</UniqueID>
+    <ParentID>ST-704ef7e2-212f-4ba3-ad0b-69f1229f396a</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a1e18c1e-bf74-4cf3-a2d5-81ab3420dcfe</UniqueID>
+    <ParentID>ST-704ef7e2-212f-4ba3-ad0b-69f1229f396a</ParentID>
+    <Description>The system sets denial status to Open.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system sets \cf1 denial\cf2  status to Open.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9c304922-8f5d-4578-b47c-4ebf98207f29</UniqueID>
+    <ParentID>ST-704ef7e2-212f-4ba3-ad0b-69f1229f396a</ParentID>
+    <Description>The system enables standard statuses (In Progress / Mark as Resolved / Put on Hold.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system enables standard statuses (In Progress / Mark as Resolved / Put on Hold.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e4465567-96e1-44f5-868e-31295d3b0fb9</UniqueID>
+    <ParentID>MSS-c264617a-a164-423c-84c5-5c79bd634835</ParentID>
+    <Description>If user put Denial on hold and due date is reached, the system automatically changes Denial status to Open.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If user put \cf2 Denial\cf1  on hold and due date is reached, the system automatically changes \cf2 Denial\cf1  status to Open.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2120c609-ff71-4751-815c-726680728e4f</UniqueID>
+    <ParentID>ST-bf3c2b17-99f1-4614-8fcc-b990165be0ff</ParentID>
+    <Description>Open</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Open\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f387626c-afd3-45fb-8a3a-f415b4c8718b</UniqueID>
+    <ParentID>MSS-3ca47b43-3ed8-4737-af9b-37193e52757c</ParentID>
+    <Description>User enters denial note and adds it.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User enters \cf1 denial\cf2  note and adds it.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-566dde2f-f37d-48d2-9d8c-56a076188cf4</UniqueID>
+    <ParentID>MSS-3ca47b43-3ed8-4737-af9b-37193e52757c</ParentID>
+    <Description>The system posts new denial note and copies it to the Case page adding a "Denial Note" prefix.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system posts new \cf1 denial\cf2  note and copies it to the \cf1 Case\cf2  page adding a "\cf1 Denial\cf2  Note" prefix.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7c09f556-1147-4ae5-9ead-b600bc637f0e</UniqueID>
+    <ParentID>MSS-0191d161-14a3-4c70-978a-196ac7d00247</ParentID>
+    <Description>User saves filter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User saves filter.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-70da16fb-a99a-4a62-a16a-a858187bd848</UniqueID>
+    <ParentID>MSS-0191d161-14a3-4c70-978a-196ac7d00247</ParentID>
+    <Description>The system prompts user to enter saved filter name.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to enter saved filter name.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3021cbe7-e88e-466a-836b-2daf0320ca04</UniqueID>
+    <ParentID>MSS-0191d161-14a3-4c70-978a-196ac7d00247</ParentID>
+    <Description>User enters name and confirms changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User enters name and confirms changes.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-14720b0e-6ce7-487c-b498-31e3ee45252c</UniqueID>
+    <ParentID>X-b4c5d97e-b4ac-41a7-b670-45a2524522ea</ParentID>
+    <Description>The system highlights empty field and does not allow to proceed until Name field is filled out.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  highlights empty field and does not allow to proceed until Name field is filled out.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cab2e02e-b963-4036-864f-335f6eaf56d0</UniqueID>
+    <ParentID>MSS-0191d161-14a3-4c70-978a-196ac7d00247</ParentID>
+    <Description>The system creates new saved filter / updated existing filter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul system\cf1\ulnone  creates new saved filter / updated existing filter.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9841503b-abd1-489c-acea-9418377a589e</UniqueID>
+    <ParentID>MSS-1a43e922-fee3-4dfc-afa6-8a2040bed2af</ParentID>
+    <Description>User selects a saved filter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects a saved filter.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-97bfbba7-851c-4db9-92db-9e7caa5bc9ae</UniqueID>
+    <ParentID>MSS-1a43e922-fee3-4dfc-afa6-8a2040bed2af</ParentID>
+    <Description>User makes changes to the filter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User makes changes to the filter.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3d5d56b0-99a5-4c6f-8230-037baaabb0d3</UniqueID>
+    <ParentID>MSS-1a43e922-fee3-4dfc-afa6-8a2040bed2af</ParentID>
+    <Description>User saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User saves changes.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ee9c1d9a-b5df-454f-bac6-d46a05e3d697</UniqueID>
+    <ParentID>MSS-1a43e922-fee3-4dfc-afa6-8a2040bed2af</ParentID>
+    <Description>The system applies changes (updates saved filter settings).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system applies changes (updates saved filter settings).\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-95fd8bcb-cc68-401d-b887-b98015c191ff</UniqueID>
+    <ParentID>MSS-28354725-5626-49ee-8c6d-85fd86110a4a</ParentID>
+    <Description>User initiates filter renaming.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User initiates filter renaming.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a35d3483-7454-492e-ad8b-4dee277488a9</UniqueID>
+    <ParentID>MSS-28354725-5626-49ee-8c6d-85fd86110a4a</ParentID>
+    <Description>The system prompts user to enter new filter name.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to enter new filter name.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a9e1b897-3dfc-475c-a4dd-0e1ccaca84b5</UniqueID>
+    <ParentID>MSS-28354725-5626-49ee-8c6d-85fd86110a4a</ParentID>
+    <Description>User enters name and confirms changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User enters name and confirms changes.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f39656ae-e27b-43bf-88b2-adcf68175c11</UniqueID>
+    <ParentID>X-9289d5bb-f56d-4100-b986-c122dc726ed8</ParentID>
+    <Description>The system highlights empty field and does not allow to proceed until Name field is filled out.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  highlights empty field and does not allow to proceed until Name field is filled out.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-daf623b9-4e01-4df8-a953-5b54a35a7bed</UniqueID>
+    <ParentID>X-e0f7d1b5-3428-4f9e-9b58-a0df03680e30</ParentID>
+    <Description>The system requests confirmation to overwrite existing filter. User can overwrite, enter a different name or cancel the action.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system requests confirmation to overwrite existing filter. User can overwrite, enter a different name or cancel the action.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5c784626-edb3-4bf7-a5fe-45e7ae0ba831</UniqueID>
+    <ParentID>MSS-28354725-5626-49ee-8c6d-85fd86110a4a</ParentID>
+    <Description>The system renames filter / replaces another filter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul system\cf1\ulnone  renames filter / replaces another filter.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c7d0dce1-125a-4898-9153-fa10e66e4880</UniqueID>
+    <ParentID>X-84728960-b0a6-4115-b191-22991b75e60a</ParentID>
+    <Description>The system requests confirmation to overwrite existing filter. User can overwrite, enter a different name or cancel the action.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system requests confirmation to overwrite existing filter. User can overwrite, enter a different name or cancel the action.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a024853d-81c2-4766-9890-7ee53431547b</UniqueID>
+    <ParentID>MSS-4d114c8f-3528-46c1-b12e-64fbb8a84de1</ParentID>
+    <Description>User initiates filter removal.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User initiates \cf1 filter removal.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1edeea57-74d5-4b32-977a-952d41189d66</UniqueID>
+    <ParentID>MSS-4d114c8f-3528-46c1-b12e-64fbb8a84de1</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  requests confirmation.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7bc627c0-fcaf-41b3-84b1-c2d722455e25</UniqueID>
+    <ParentID>MSS-4d114c8f-3528-46c1-b12e-64fbb8a84de1</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User confirms.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0b317bba-18fd-42bb-9077-aeeb151cd59c</UniqueID>
+    <ParentID>MSS-4d114c8f-3528-46c1-b12e-64fbb8a84de1</ParentID>
+    <Description>The system permanently removes the filter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul system\cf1\ulnone  permanently removes the filter.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-e9e400c9-72c7-4757-bf15-5bcbe4ef92b6</UniqueID>
+    <ParentID>ST-181fc596-cc48-432f-ad90-0e03eedc0082</ParentID>
+    <Description>User changes company </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User changes company \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-9ddd6945-1fa6-46b1-acc9-d91da75d6108</UniqueID>
+    <ParentID>ST-71c1f6c8-cf1d-4b37-b2f4-b020836b9452</ParentID>
+    <Description>User left "Assignee" field empty</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User left "Assignee" field empty\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-b4c5d97e-b4ac-41a7-b670-45a2524522ea</UniqueID>
+    <ParentID>ST-3021cbe7-e88e-466a-836b-2daf0320ca04</ParentID>
+    <Description>User didn't enter Name.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User didn't enter Name.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-9289d5bb-f56d-4100-b986-c122dc726ed8</UniqueID>
+    <ParentID>ST-a9e1b897-3dfc-475c-a4dd-0e1ccaca84b5</ParentID>
+    <Description>User didn't enter Name.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User didn't enter Name.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-e0f7d1b5-3428-4f9e-9b58-a0df03680e30</UniqueID>
+    <ParentID>ST-a9e1b897-3dfc-475c-a4dd-0e1ccaca84b5</ParentID>
+    <Description>User enters a name that's already used for another saved filter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User enters a name that's already used for another saved filter.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-84728960-b0a6-4115-b191-22991b75e60a</UniqueID>
+    <ParentID>ST-3021cbe7-e88e-466a-836b-2daf0320ca04</ParentID>
+    <Description>User enters a name that's already used for another saved filter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User enters a name that's already used for another saved filter.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <AnytimeExtension>
+    <UniqueID>XA-565e8e1f-80bf-4e76-8267-ed21871bf187</UniqueID>
+    <ParentID>MSS-82bff417-d0b7-49ab-8469-64c415814a13</ParentID>
+    <Description>User selects a saved filter, some filters cannot be applied (carrier not found, plan not found, financial group not found, etc)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User selects a saved filter, some filters cannot be applied (\cf2 carrier\cf1  not found, plan not found, financial group not found, etc)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </AnytimeExtension>
+  <UserID>
+    <DefaultPrefix>UC-59-</DefaultPrefix>
+    <NextValue>11</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-59-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-59-</DefaultPrefix>
+    <NextValue>22</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-59-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

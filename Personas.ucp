@@ -1,0 +1,243 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.4836</SavedWith>
+    <CreatedWith>8.0.4836</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</UniqueID>
+    <ExternalParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ExternalParentID>
+    <Name>Personas</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Actor>
+    <UniqueID>A-6fdff54f-7d4a-486b-bac2-bb79e8515738</UniqueID>
+    <UserID>A-23-1</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>Chuck B. Cool</Name>
+    <Description>Chuck is a CBC working at Clinic A.  He is responsible for all Clinical Business Coordinator activities for Clinic A.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Chuck is a \cf1\ul CBC\cf2\ulnone  working at Clinic A.  He is responsible for all \cf3 Clinical Business Coordinator\cf2  activities for Clinic A.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T13:59:13.2528212-04:00</DateAdded>
+    <DateModified>2013-04-18T14:01:56.6667759-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-4ec08794-8ef2-4efe-b9be-fe503dbdd7c3</UniqueID>
+    <UserID>A-23-2</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>Angie P.</Name>
+    <Description>Angie is a Patient who is covered by Medicare and is age 16.  She tore her rotator cuff playing softball</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Angie is a \cf1\ul Patient\cf2\ulnone  who is covered by Medicare and is age 16.  She tore her rotator cuff playing softball\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T14:02:02.631164-04:00</DateAdded>
+    <DateModified>2013-04-18T14:05:11.7986857-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-78b885fa-5a93-417a-9128-90325a121b4a</UniqueID>
+    <UserID>A-23-3</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>Bill P.</Name>
+    <Description>Bill is a Patient who is covered by Blue Cross/Blue Shield of Michigan and has a secondary provider of Medicare.  He is age 39.  He suffers from a bad back incurred while working in the Construction industry.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Bill is a \cf1\ul Patient\cf2\ulnone  who is covered by Blue Cross/Blue Shield of Michigan and has a secondary provider of Medicare.  He is age 39.  He suffers from a bad back incurred while working in the Construction industry.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T14:03:07.7197501-04:00</DateAdded>
+    <DateModified>2013-04-18T14:05:46.6971274-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-36cdfc40-303c-49fc-8327-c5f6dff30e3e</UniqueID>
+    <UserID>A-23-4</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>Crystal P.</Name>
+    <Description>Crystal is a Patient who is covered by Medicare.  Her age is 25.  She had knee surgery 2 months ago.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Crystal is a \cf1\ul Patient\cf2\ulnone  who is covered by Medicare.  Her age is 25.  She had knee surgery 2 months ago.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T14:04:07.3440306-04:00</DateAdded>
+    <DateModified>2013-04-18T14:06:15.5858402-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-aa4b5de3-7be8-4790-82cf-45c98f344f90</UniqueID>
+    <UserID>A-23-5</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>Patrick Theramatic</Name>
+    <Description>Patrick is a Physical Therapist working at Clinic A.  He works as a Part-Time employee -- 3 days a week, Monday-Wednesday-Friday.  </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Patrick is a \cf1\ul Physical Therapist\cf2\ulnone  working at Clinic A.  He works as a Part-Time employee -- 3 days a week, Monday-Wednesday-Friday.  \cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T14:06:19.0131726-04:00</DateAdded>
+    <DateModified>2013-04-18T14:13:08.9589564-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-e3df6d7d-6790-421c-83d2-b066b3eefd84</UniqueID>
+    <UserID>A-23-6</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>Paul T. Andersleuth</Name>
+    <Description>Paul is a PTA at Clinic A.  He works full time, all week, at Clinic A.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Paul is a \cf1 PTA\cf2  at Clinic A.  He works full time, all week, at Clinic A.\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T14:07:40.786057-04:00</DateAdded>
+    <DateModified>2013-04-18T14:13:21.2518086-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-8cff7800-3fc7-4ae7-8e86-0f794356faf5</UniqueID>
+    <UserID>A-23-7</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>Peter Tenderson</Name>
+    <Description>Peter is a Physical Therapist at Clinic A.  He is a full time employee and only works at clinic A.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Peter is a \cf1\ul Physical Therapist\cf2\ulnone  at Clinic A.  He is a full time employee and only works at clinic A.\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T14:08:48.4798535-04:00</DateAdded>
+    <DateModified>2013-04-18T14:09:43.9979395-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-de06837d-b507-44a3-b0a9-b59c3a817799</UniqueID>
+    <UserID>A-23-8</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>Penny T. Alanson</Name>
+    <Description>Penny is a PTA who works Mondays and Tuesdays at Clinic A.  She works Wednesdays and Thursdays at Clinic B.  She has Fridays off.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Penny is a \cf1 PTA\cf2  who works Mondays and Tuesdays at Clinic A.  She works Wednesdays and Thursdays at Clinic B.  She has Fridays off.\cf0\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T14:09:54.0108666-04:00</DateAdded>
+    <DateModified>2013-04-18T14:10:58.7327146-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-0b7669b8-016c-42d0-8a9d-629e1c42062e</UniqueID>
+    <UserID>A-23-9</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>Christina B. Cautioso</Name>
+    <Description>Christina is a CBC at Clinic B.   She is responsible for all Clinical Business Coordinator activities for Clinic B.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Christina is a \cf1\ul CBC\cf2\ulnone  at Clinic B.   She is responsible for all \cf3 Clinical Business Coordinator\cf2  activities for Clinic B.\cf0\par
+\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T14:11:04.4162028-04:00</DateAdded>
+    <DateModified>2013-04-18T14:12:19.1538202-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-6a4518b1-d181-4f4d-8a7e-e965de760628</UniqueID>
+    <UserID>A-23-10</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>Darlene P.</Name>
+    <Description>Darlene is a Patient who does not have insurance and typically utilizes message therapy once a month that she pays for out of her own pocket.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Darlene is a \cf1\ul Patient\cf2\ulnone  who does not have insurance and typically utilizes message therapy once a month that she pays for out of her own pocket.\cf0\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T14:16:43.4568735-04:00</DateAdded>
+    <DateModified>2013-04-18T14:17:58.8387509-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-7b29e92a-ea24-43ca-ab39-add6ebef144d</UniqueID>
+    <UserID>A-23-11</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>Eddie P.</Name>
+    <Description>Eddie is a Patient who suffered a neck injury during an automobile accident.  He is age 64.  He has Auto-Owners insurance, Priority Health and Medicare Part B.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Eddie is a \cf1\ul Patient\cf2\ulnone  who suffered a neck injury during an automobile accident.  He is age 64.  He has Auto-Owners insurance, Priority Health and Medicare Part B.\cf0\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T14:18:05.1181737-04:00</DateAdded>
+    <DateModified>2013-04-18T14:20:17.1804464-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-ec64c526-b5b8-49ed-aa71-044d81c3c848</UniqueID>
+    <UserID>A-23-12</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>Fred P.</Name>
+    <Description>Fred is a Patient who is age 92.  He is on Medicare.  He has a bad hip and back problems.  He fell on the ice</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Fred is a \cf1\ul Patient\cf2\ulnone  who is age 92.  He is on Medicare.  He has a bad hip and back problems.  He fell on the ice\cf0\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T14:20:21.9353433-04:00</DateAdded>
+    <DateModified>2013-04-18T14:27:33.7039521-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-7799ac00-fa30-4b77-8639-b6058d3dd981</UniqueID>
+    <UserID>A-23-13</UserID>
+    <ParentID>P-1a4688b1-9d37-4254-9398-3aef7bda8eb2</ParentID>
+    <Name>George P.</Name>
+    <Description>George is a Patient who is age 90.  He is on Medicare and also has Blue Cross/Blue Shield.  He twisted his ankle while playing basketball.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 George is a \cf1\ul Patient\cf2\ulnone  who is age 90.  He is on Medicare and also has Blue Cross/Blue Shield.  He twisted his ankle while playing basketball.\cf0\par
+}
+</RichDescription>
+    <Sequence>12</Sequence>
+    <Complexity />
+    <DateAdded>2013-04-18T14:24:12.2103858-04:00</DateAdded>
+    <DateModified>2013-04-18T14:26:21.5077824-04:00</DateModified>
+  </Actor>
+  <UserID>
+    <DefaultPrefix>UC-23-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-23-</DefaultPrefix>
+    <NextValue>14</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-23-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-23-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

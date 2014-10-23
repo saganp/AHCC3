@@ -1,0 +1,121 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>7.2.4769</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-989506d6-3d54-45fd-9664-ba4ee321f712</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-989506d6-3d54-45fd-9664-ba4ee321f712</UniqueID>
+    <ExternalParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ExternalParentID>
+    <Name>Postponed Features &amp; Functionality</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <ElementStub>
+    <ParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ParentID>
+    <Path>Plan of Care - 2.ucp</Path>
+    <ElementID>P-fb6a1253-c298-4ab3-ace2-3d0f554b734b</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ParentID>
+    <Path>Daily Note - 2.ucp</Path>
+    <ElementID>P-ed8e61c3-aa84-42f9-9b80-9c6e26b81118</ElementID>
+    <Sequence>1</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ParentID>
+    <Path>Addendum.ucp</Path>
+    <ElementID>P-12d0d5e0-605d-4ba4-a85a-b26b8de92fba</ElementID>
+    <Sequence>2</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ParentID>
+    <Path>PIN &amp; Signatures v2.ucp</Path>
+    <ElementID>P-614a96dd-fb2c-492a-8897-6ac5844d6d90</ElementID>
+    <Sequence>3</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ParentID>
+    <Path>Changes to Current AgilePM System.ucp</Path>
+    <ElementID>P-0d723467-2755-4618-9d98-cefd340866b7</ElementID>
+    <Sequence>4</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ParentID>
+    <Path>Practice Management Enhancements.ucp</Path>
+    <ElementID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</ElementID>
+    <Sequence>5</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ParentID>
+    <Path>Postponed AR Features.ucp</Path>
+    <ElementID>P-4aaac049-b435-477f-90c5-f0a2469598ba</ElementID>
+    <Sequence>6</Sequence>
+  </ElementStub>
+  <Note>
+    <UniqueID>N-b51397d6-340f-4f80-a85c-3f52ce496c34</UniqueID>
+    <ParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ParentID>
+    <Description>1:1 is only for medicare or group 1? Shouldn't be shown for other insurance carriers. should just say Time Based Minutes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 1:1 is only for medicare or group 1? Shouldn't be shown for other insurance carriers. should just say Time Based Minutes.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2013-04-01T14:40:14.6861213-04:00</DateAdded>
+  </Note>
+  <Requirement>
+    <UniqueID>REQ-fcfb60a0-2ca7-44b3-bd61-3aef1525007e</UniqueID>
+    <UserID>REQ-18-1</UserID>
+    <ParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ParentID>
+    <Name>Spell-check</Name>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <DateAdded>2013-04-11T12:29:18.5507333-04:00</DateAdded>
+    <DateModified>2013-04-16T10:23:17.0613441-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-df98ae41-ce49-4c22-8851-6f1c4c68dab4</UniqueID>
+    <UserID>REQ-18-3</UserID>
+    <ParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ParentID>
+    <Name>[Work queue] Multiple selection for assignments</Name>
+    <Description>PTs and CBCs must be able to select several or all documents in any queue and perform any action available to them in UC-17-5 / UC-17-11.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 PTs and \cf2 CBCs\cf1  must be able to select several or all documents in any queue and perform any action available to them in \cf2\ul UC-17-5\cf1\ulnone  / \cf2\ul UC-17-11\cf1\ulnone .\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-17T11:46:06.5573113-04:00</DateAdded>
+    <DateModified>2014-06-25T12:45:59.9570599-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <UserID>
+    <DefaultPrefix>UC-18-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-18-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-18-</DefaultPrefix>
+    <NextValue>4</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-18-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

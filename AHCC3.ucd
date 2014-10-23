@@ -1,0 +1,386 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>7.2.4769</CreatedWith>
+  </VersionInfo>
+  <Project>
+    <TrackChanges>false</TrackChanges>
+  </Project>
+  <TopLevelElement>
+    <RefID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</UniqueID>
+    <Name>AgilityHealth</Name>
+  </Package>
+  <ElementStub>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Path>Postponed Features &amp; Functionality.ucp</Path>
+    <ElementID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ElementID>
+    <Sequence>9</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Path>Existing Functionality.ucp</Path>
+    <ElementID>P-3ac69849-9ce1-452e-8677-00b88688fdfa</ElementID>
+    <Sequence>7</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Path>_Implemented admin changes.ucp</Path>
+    <ElementID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ElementID>
+    <Sequence>8</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Path>Documentation Module.ucp</Path>
+    <ElementID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ElementID>
+    <Sequence>2</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Path>New Work Queues.ucp</Path>
+    <ElementID>P-3f1f4a89-8a57-4b87-a259-377bb8f6e7a9</ElementID>
+    <Sequence>5</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Path>RPM Requirements.ucp</Path>
+    <ElementID>P-28599d8a-9ecf-4b6b-9b2f-030aba61c653</ElementID>
+    <Sequence>6</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Path>_Actors &amp; Definitions.ucp</Path>
+    <ElementID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Path>Accounts Receivable.ucp</Path>
+    <ElementID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ElementID>
+    <Sequence>3</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Path>AR (skip).ucp</Path>
+    <ElementID>P-eda0e375-d86d-43a7-9cf1-3b887b0bac38</ElementID>
+    <Sequence>4</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Path>Admin Module.ucp</Path>
+    <ElementID>P-e4849ef8-f95f-43a5-a4b4-fd5e588b676b</ElementID>
+    <Sequence>10</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Path>_Dictionary.ucp</Path>
+    <ElementID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ElementID>
+    <Sequence>1</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Path>Front-End Case Alerts.ucp</Path>
+    <ElementID>P-fbb50629-178b-4cbf-903b-28b44088552d</ElementID>
+    <Sequence>11</Sequence>
+  </ElementStub>
+  <ExternalDoc>
+    <UniqueID>EX-1ea85cc3-fea8-4061-9867-13f4da8a0f45</UniqueID>
+    <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+    <Name>AgilityHealth_vision.doc</Name>
+  </ExternalDoc>
+  <CustomField>
+    <UniqueID>CF-99e02b12-a5e9-44fe-bac7-da2002116872</UniqueID>
+    <Name>Module</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Custom Fields</Category>
+    <Description>Defines whether the use case is only applicable to RPM, AgilePM or both.</Description>
+    <DefaultValue />
+    <Choices>RPM Only;AgilePM Only;RPM + AgilePM</Choices>
+    <ChoicesExclusive>true</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </CustomField>
+  <CustomField>
+    <UniqueID>CF-16babb35-00e3-4c19-8244-5945fcf9b845</UniqueID>
+    <Name>Module</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Custom Fields</Category>
+    <Description>Defines whether the requirement is only applicable to RPM, AgilePM or both.</Description>
+    <DefaultValue />
+    <Choices>RPM Only;AgilePM Only;RPM + AgilePM</Choices>
+    <ChoicesExclusive>true</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </CustomField>
+  <UserID>
+    <DefaultPrefix>UC-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-</DefaultPrefix>
+    <NextValue>18</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-</DefaultPrefix>
+    <NextValue>11</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-</DefaultPrefix>
+    <NextValue>37</NextValue>
+  </UserID>
+  <BuiltInField>
+    <UniqueID>1</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the use case.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>2</UniqueID>
+    <Name>Level</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>The level of detail in the use case.</Description>
+    <DefaultValue />
+    <Choices>Summary;User;Subfunction</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>3</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>An indication of the difficulty of implementation.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>4</UniqueID>
+    <Name>UseCaseStatus</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the use case specification.</Description>
+    <DefaultValue />
+    <Choices>Implemented;New;Updated for v2;Next version;Postponed;Obsolete</Choices>
+    <ChoicesExclusive>true</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>5</UniqueID>
+    <Name>ImplStatus</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the use case implementation.</Description>
+    <DefaultValue />
+    <Choices>Scheduled;Started;Partially Complete;Complete;Partially Deferred;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>6</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this use case.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>7</UniqueID>
+    <Name>Release</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Which release this use case is applicable to.</Description>
+    <DefaultValue />
+    <Choices>Phase 1;Phase 2</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>100</UniqueID>
+    <Name>ReqType</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>The type of requirement.</Description>
+    <DefaultValue>Non-functional</DefaultValue>
+    <Choices>Functional;Non-functional;Business Rule;Constraint;Performance;Test;Change Request</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>101</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the requirement.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>102</UniqueID>
+    <Name>Source</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Where did the requirement originate?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>103</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the requirement.</Description>
+    <DefaultValue />
+    <Choices>Implemented;New;Next version;Postponed;Updated for v2</Choices>
+    <ChoicesExclusive>true</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>104</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this requirement?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>105</UniqueID>
+    <Name>Release</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Which release this requirement is applicable to.</Description>
+    <DefaultValue />
+    <Choices>Phase 1;Phase 2</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>200</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>1</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of this actor's interactions with the system.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>300</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority for resolving issue.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>301</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>State of issue.</Description>
+    <DefaultValue />
+    <Choices>New;Assigned;Resolved;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>302</UniqueID>
+    <Name>Type</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Type of issue.</Description>
+    <DefaultValue />
+    <Choices>Question;Approval;Clarification;Defect;Feature</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>303</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of issue to be resolved.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>304</UniqueID>
+    <Name>Risk</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Risk to project while unresolved.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>400</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>State of test scenario.</Description>
+    <DefaultValue />
+    <Choices>New;Partially defined;Defined</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>401</UniqueID>
+    <Name>TestType</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Type of test.</Description>
+    <DefaultValue />
+    <Choices>Acceptance;Usability;Performance;Load;Security;Bounds;White box</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>402</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of test.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>403</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the test scenario.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+</UCTDataSet>

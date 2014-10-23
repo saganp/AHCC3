@@ -1,0 +1,2322 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5001</SavedWith>
+    <CreatedWith>7.2.4769</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-a634b756-9741-4968-b61e-91e15feba941</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-a634b756-9741-4968-b61e-91e15feba941</UniqueID>
+    <ExternalParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ExternalParentID>
+    <Name>Template Management</Name>
+    <Description />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+</RichDescription>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</UniqueID>
+    <UserID>UC-14-1</UserID>
+    <ParentID>P-a634b756-9741-4968-b61e-91e15feba941</ParentID>
+    <Name>Open/Edit Personal Template</Name>
+    <Description>PT opens his or her template.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 PT opens his or her \cf2 template\cf1 .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-08T10:28:25.7564544-04:00</DateAdded>
+    <DateModified>2013-08-07T09:28:38.162458-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-6f024c3d-dd4b-46fc-bb40-6ef18b4fcd1c</UniqueID>
+    <UserID>UC-14-5</UserID>
+    <ParentID>P-a634b756-9741-4968-b61e-91e15feba941</ParentID>
+    <Name>Open Corporate Template</Name>
+    <Description>PT opens company-approved template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 PT opens company-approved template\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-08T10:30:32.2803982-04:00</DateAdded>
+    <DateModified>2013-05-15T17:39:15.2066589-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-51d49129-058a-447e-b027-c1b2b6ad819a</UniqueID>
+    <UserID>UC-14-6</UserID>
+    <ParentID>P-a634b756-9741-4968-b61e-91e15feba941</ParentID>
+    <Name>Import Template</Name>
+    <Description>PT imports corporate template.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 PT imports corporate template.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-08T10:31:09.1692042-04:00</DateAdded>
+    <DateModified>2013-05-15T17:40:12.92096-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-9a0b0715-966c-469a-ac50-359f209588ae</UniqueID>
+    <UserID>UC-14-3</UserID>
+    <ParentID>P-a634b756-9741-4968-b61e-91e15feba941</ParentID>
+    <Name>Delete Template</Name>
+    <Description>User removes a template (personal or corporate). Removing corporate template requires "Can manage corporate templates" permission.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User removes a template (personal or corporate). Removing corporate template requires "Can manage corporate templates" permission.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-08T10:34:06.7378601-04:00</DateAdded>
+    <DateModified>2013-05-14T15:15:54.6968858-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-6e5790f6-9565-4065-92a5-d908ef983d22</UniqueID>
+    <UserID>UC-14-2</UserID>
+    <ParentID>P-a634b756-9741-4968-b61e-91e15feba941</ParentID>
+    <Name>Create New Template</Name>
+    <Description>PT creates new template from scratch</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 PT creates new \cf2 template\cf1  from scratch\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-08T10:44:47.2969641-04:00</DateAdded>
+    <DateModified>2013-06-27T05:26:06.1594687-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-423ed8b7-2e8d-4885-b4f8-5c8506b6d40f</UniqueID>
+    <UserID>UC-14-4</UserID>
+    <ParentID>P-a634b756-9741-4968-b61e-91e15feba941</ParentID>
+    <Name>Add new line</Name>
+    <Description>The system automatically adds new empty line to:
+Problems list
+Goals list
+Treatments list</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  automatically adds new empty line to:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 Problems list\cf0\lang1049\f1\par
+\cf2\lang1033\f0{\pntext\f2\'B7\tab}Goals list\cf0\lang1049\f1\par
+\cf2\lang1033\f0{\pntext\f2\'B7\tab}Treatments list\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-01T13:32:11.6421548-04:00</DateAdded>
+    <DateModified>2013-06-27T05:29:09.3538046-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-19b5f2bd-75fd-43a1-be88-d7502d089118</UniqueID>
+    <UserID>UC-14-7</UserID>
+    <ParentID>P-a634b756-9741-4968-b61e-91e15feba941</ParentID>
+    <Name>Navigate to Template Management</Name>
+    <Description />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>User is logged in
+User is a clinician but not a PTA.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-05-01T14:49:38.7986413-04:00</DateAdded>
+    <DateModified>2013-08-07T09:28:13.6242872-04:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-23ad3b02-5eda-4d32-bd8c-a7d97ceadd77</UniqueID>
+    <ParentID>P-a634b756-9741-4968-b61e-91e15feba941</ParentID>
+    <Name>Manage Templates</Name>
+    <Sequence>0</Sequence>
+    <FileName>Manage Templates.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <UCActor>
+    <ParentID>UC-423ed8b7-2e8d-4885-b4f8-5c8506b6d40f</ParentID>
+    <ActorID>A-a5b3b198-9e21-4cbb-9176-facace7e6282</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-6e5790f6-9565-4065-92a5-d908ef983d22</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-9a0b0715-966c-469a-ac50-359f209588ae</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-6f024c3d-dd4b-46fc-bb40-6ef18b4fcd1c</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-51d49129-058a-447e-b027-c1b2b6ad819a</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-19b5f2bd-75fd-43a1-be88-d7502d089118</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-015d8456-d9aa-45b9-964d-71ac1427abfe</UniqueID>
+    <ParentID>UC-9a0b0715-966c-469a-ac50-359f209588ae</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-2c3ee88e-fbb7-4648-b507-e923d78a17b5</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-e0fedb7a-8481-485a-bed9-ae3dbec09b76</UniqueID>
+    <ParentID>UC-423ed8b7-2e8d-4885-b4f8-5c8506b6d40f</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-3e0b74ca-262e-4994-8329-7bc2a16b5dd1</UniqueID>
+    <ParentID>UC-6e5790f6-9565-4065-92a5-d908ef983d22</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-d616e3c3-c98b-429c-a829-c8d2b3debda4</UniqueID>
+    <ParentID>UC-6f024c3d-dd4b-46fc-bb40-6ef18b4fcd1c</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-4e857538-f5f5-4f20-b18c-3ef87614ca5d</UniqueID>
+    <ParentID>UC-51d49129-058a-447e-b027-c1b2b6ad819a</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-718cff0c-474d-46ae-b498-37865ba9d96f</UniqueID>
+    <ParentID>UC-19b5f2bd-75fd-43a1-be88-d7502d089118</ParentID>
+  </Scenario>
+  <Step>
+    <UniqueID>ST-a5228d03-6cb1-4551-bdb1-bf5bf034fdf6</UniqueID>
+    <ParentID>MSS-015d8456-d9aa-45b9-964d-71ac1427abfe</ParentID>
+    <Description>User initiates template removal.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User initiates \cf1 template\cf2  removal.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2c7367bf-c1ed-44f7-a4d1-982c87960bb6</UniqueID>
+    <ParentID>MSS-015d8456-d9aa-45b9-964d-71ac1427abfe</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  requests confirmation.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e61235cc-18f0-47c0-bb3b-4d6e5033b31d</UniqueID>
+    <ParentID>MSS-2c3ee88e-fbb7-4648-b507-e923d78a17b5</ParentID>
+    <Description>User selects Body Region.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User selects \cf1 Body Region.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-05c06038-6049-4de3-9be5-2dc2ba715880</UniqueID>
+    <ParentID>MSS-2c3ee88e-fbb7-4648-b507-e923d78a17b5</ParentID>
+    <Description>The system displays template details:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  displays \cf3 template\cf2  details:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-20ba584b-ab65-4d9d-a9b8-ac8b939be100</UniqueID>
+    <ParentID>ST-05c06038-6049-4de3-9be5-2dc2ba715880</ParentID>
+    <Description>Template name (read-only)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Template name (read-only)\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4eccd79e-0f65-435e-b7ad-62f85ebd4f17</UniqueID>
+    <ParentID>ST-f7891723-b643-44a8-be53-9020728a50ad</ParentID>
+    <Description>Edit contents of any text box</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Edit contents of any text box\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bf4beb69-ae62-403d-b8b9-5c77f33800be</UniqueID>
+    <ParentID>ST-f7891723-b643-44a8-be53-9020728a50ad</ParentID>
+    <Description>Add new empty text box (the system does it automatically, see UC-14-4)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Add new empty text box (the \cf1\ul system\cf2\ulnone  does it automatically, see \cf1\ul UC-14-4\cf2\ulnone )\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c7d5495a-2f83-4321-bd72-297f90f00ed8</UniqueID>
+    <ParentID>ST-f7891723-b643-44a8-be53-9020728a50ad</ParentID>
+    <Description>Delete any entry</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Delete any entry\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7dacd2a5-37ef-4c46-8c00-05c937f5ba78</UniqueID>
+    <ParentID>ST-7cbe08c4-6ac3-42b2-bec9-3cdb76df4829</ParentID>
+    <Description>[Goals]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 [\b Goals\b0 ]:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fb21e8ca-fabb-403a-902d-4669aba5724f</UniqueID>
+    <ParentID>ST-7dacd2a5-37ef-4c46-8c00-05c937f5ba78</ParentID>
+    <Description>Edit contents of any Goal entry (change content of the text box or select another dropdown value)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Edit contents of any Goal entry (change content of the text box or select another dropdown value)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fc0c626e-9c3c-42fa-9053-96df679d7136</UniqueID>
+    <ParentID>ST-7dacd2a5-37ef-4c46-8c00-05c937f5ba78</ParentID>
+    <Description>Add new goal entry (the system does it automatically, see UC-14-4)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Add new goal entry (the \cf1\ul system\cf2\ulnone  does it automatically, see \cf1\ul UC-14-4\cf2\ulnone )\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dea5fdca-6c82-486d-99af-d70a23daadcc</UniqueID>
+    <ParentID>ST-7dacd2a5-37ef-4c46-8c00-05c937f5ba78</ParentID>
+    <Description>Delete any entry</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Delete any entry\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d9f01b2f-9912-4770-885d-168d394a913e</UniqueID>
+    <ParentID>ST-6f66e040-a82d-4bbd-96b0-934a4d13fa20</ParentID>
+    <Description>Add new treatment entry (the system does it automatically, see UC-14-4)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Add new treatment entry (the \cf1\ul system\cf2\ulnone  does it automatically, see \cf1\ul UC-14-4\cf2\ulnone )\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ea52a9a6-c90e-4664-bb3b-c0d61a5277df</UniqueID>
+    <ParentID>ST-6f66e040-a82d-4bbd-96b0-934a4d13fa20</ParentID>
+    <Description>Delete any treatment entry.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Delete any treatment entry.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7d56f7c1-817f-4ced-b84c-c6315ea95f19</UniqueID>
+    <ParentID>ST-05c06038-6049-4de3-9be5-2dc2ba715880</ParentID>
+    <Description>Problems list. Each Problem entry is a text box.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Problems list. Each Problem entry is a text box.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-50d0c30a-6881-4136-a2d4-22f5b0842080</UniqueID>
+    <ParentID>ST-05c06038-6049-4de3-9be5-2dc2ba715880</ParentID>
+    <Description>Goals list. Each Goal entry consists of:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Goals list. \cf1 Each Goal entry consists of:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1c9f9727-6645-4609-b31b-c8edb02b8525</UniqueID>
+    <ParentID>ST-05c06038-6049-4de3-9be5-2dc2ba715880</ParentID>
+    <Description>Treatments list. Each Treatment entry consists of:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Treatments list. \cf1 Each Treatment entry consists of:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7cbe08c4-6ac3-42b2-bec9-3cdb76df4829</UniqueID>
+    <ParentID>MSS-2c3ee88e-fbb7-4648-b507-e923d78a17b5</ParentID>
+    <Description>User can update template contents:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User can update \cf1 template\cf2  contents:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f7891723-b643-44a8-be53-9020728a50ad</UniqueID>
+    <ParentID>ST-7cbe08c4-6ac3-42b2-bec9-3cdb76df4829</ParentID>
+    <Description>[Problems]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 [\b Problems\b0 ]:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-592d836f-55af-4808-bf77-1f3eebfbdc2b</UniqueID>
+    <ParentID>MSS-e0fedb7a-8481-485a-bed9-ae3dbec09b76</ParentID>
+    <Description>Use clicks an empty line or selects an option from a dropdown list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Use clicks an empty line or selects an option from a dropdown list.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5288f221-6aaf-475a-b095-ab7a7c9b854b</UniqueID>
+    <ParentID>MSS-e0fedb7a-8481-485a-bed9-ae3dbec09b76</ParentID>
+    <Description>The system adds new empty line to the bottom of the list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  adds new empty line to the bottom of the list.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d676f1e4-8a4c-4271-ae73-64506039e976</UniqueID>
+    <ParentID>MSS-e0fedb7a-8481-485a-bed9-ae3dbec09b76</ParentID>
+    <Description>If user switches focus from the line and that line is empty, the system removes newly added empty line (so that there's only one empty line in each section at any given time)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 If user switches focus from the line and that line is empty, the \cf1\ul system\cf2\ulnone  removes newly added empty line\cf0  (so that there's only one empty line in each section at any given time)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fffa4bda-cddb-4215-8b33-1b2a8fac4cd6</UniqueID>
+    <ParentID>ST-50d0c30a-6881-4136-a2d4-22f5b0842080</ParentID>
+    <Description>Text box (if it's empty, consider the line invalid and discard it on save)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Text box (\i if it's empty, consider the line invalid and discard it on save\i0 )\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-845875d1-cbad-49ec-af52-d904af5aa86f</UniqueID>
+    <ParentID>ST-50d0c30a-6881-4136-a2d4-22f5b0842080</ParentID>
+    <Description>Time frame drop down (1-10 weeks) - optional</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Time frame drop down (1-10 weeks) - optional\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3bc5da10-06e8-4df0-9eea-25aa26eb648d</UniqueID>
+    <ParentID>ST-1c9f9727-6645-4609-b31b-c8edb02b8525</ParentID>
+    <Description>CPT Code</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 CPT Code\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-931597a9-f26b-41da-a0d8-e8fcdb71a4e1</UniqueID>
+    <ParentID>ST-1c9f9727-6645-4609-b31b-c8edb02b8525</ParentID>
+    <Description>CPT code short description (non-editable)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 CPT code\cf2  short description (non-editable)\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0599b446-9fc3-4831-8543-e41244dd5a93</UniqueID>
+    <ParentID>ST-1c9f9727-6645-4609-b31b-c8edb02b8525</ParentID>
+    <Description>Free-form description (editable, optional, disabled until user selects CPT code)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Free-form description (editable, optional, disabled until user selects \cf1 CPT code\cf2 )\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6f66e040-a82d-4bbd-96b0-934a4d13fa20</UniqueID>
+    <ParentID>ST-7cbe08c4-6ac3-42b2-bec9-3cdb76df4829</ParentID>
+    <Description>[Treatments]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 [\b Treatments\b0 ]:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-80bdf8f7-3138-4b8f-921c-4a24b6c68fa3</UniqueID>
+    <ParentID>ST-6f66e040-a82d-4bbd-96b0-934a4d13fa20</ParentID>
+    <Description>Edit contents of any Treatment entry:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Edit contents of any Treatment entry:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-316f7b64-6efd-41e5-a12d-77b920b8dffe</UniqueID>
+    <ParentID>ST-80bdf8f7-3138-4b8f-921c-4a24b6c68fa3</ParentID>
+    <Description>Change CPT code (in this case the system applies new code and short description, and clears free-form description for that entry)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Change \cf2 CPT code\cf1  (in this \cf2 case\cf1  the \cf3\ul system\cf1\ulnone  applies new code and short description, and clears free-form description for that entry)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a332c2e2-8c85-4eca-85d1-0e8b25664e3d</UniqueID>
+    <ParentID>ST-80bdf8f7-3138-4b8f-921c-4a24b6c68fa3</ParentID>
+    <Description>Update free-form description</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Update free-form description\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6aa1341d-e811-4bfb-b57c-ec82d2a6189a</UniqueID>
+    <ParentID>MSS-2c3ee88e-fbb7-4648-b507-e923d78a17b5</ParentID>
+    <Description>User saves changes. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User saves changes. \lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0bd2c5cf-757a-402d-ae4a-0fa0bbc62140</UniqueID>
+    <ParentID>MSS-2c3ee88e-fbb7-4648-b507-e923d78a17b5</ParentID>
+    <Description>The system applies changes, but does not check for mandatory fields. The only case where system displays an error is if template is completely empty.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul system\cf1\ulnone  applies changes, but does not check for mandatory fields. The only case where system displays an error is if template is completely empty.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-801aa7ff-6746-4788-8020-20067ff2fc51</UniqueID>
+    <ParentID>MSS-3e0b74ca-262e-4994-8329-7bc2a16b5dd1</ParentID>
+    <Description>User selects body region.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User selects \cf1 body region\cf0 .\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4413017c-90a5-437a-9ac1-d346945fe392</UniqueID>
+    <ParentID>MSS-3e0b74ca-262e-4994-8329-7bc2a16b5dd1</ParentID>
+    <Description>The system displays New Template form.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  displays New \cf3 Template\cf2  form.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5d03c6d7-b455-417f-83ea-b60fa946133d</UniqueID>
+    <ParentID>MSS-3e0b74ca-262e-4994-8329-7bc2a16b5dd1</ParentID>
+    <Description>User saves changes, but does not check for mandatory fields. The only case where system displays an error is if template is completely empty.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User saves changes, but does not check for mandatory fields. The only case where system displays an error is if template is completely empty.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9ebc3d73-8957-4caf-86a4-3cd9b3491af9</UniqueID>
+    <ParentID>MSS-3e0b74ca-262e-4994-8329-7bc2a16b5dd1</ParentID>
+    <Description>The system creates new template.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul system\cf1\ulnone  creates new template.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-49d1a79f-026e-48a1-895e-ad55710a7a46</UniqueID>
+    <ParentID>MSS-3e0b74ca-262e-4994-8329-7bc2a16b5dd1</ParentID>
+    <Description>User must fill out at least one field in the template. This process is identical to UC-14-1.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User must fill out at least one field in the \cf1 template. This process is identical to \cf2\ul UC-14-1\cf1\ulnone .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8385c305-fa06-48d9-b8e2-6c3830d11932</UniqueID>
+    <ParentID>X-58459819-6d02-4e0b-b496-6f6e32cda872</ParentID>
+    <Description>The system highlights empty field and does not allow to proceed until the field is filled out.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  highlights empty field and does not allow to proceed until the field is filled out.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d015ddbe-1234-4c54-8453-37d1888c12af</UniqueID>
+    <ParentID>X-83e87f82-6000-4866-a067-e5d75400670c</ParentID>
+    <Description>The system only updates the template, the change does not affect any existing Plans of Care.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul system\cf1\ulnone  only updates the \cf3 template\cf1 , the change does not affect any existing Plans of Care.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-92f256f4-f7c6-4874-b5ec-5ca5059a4a12</UniqueID>
+    <ParentID>MSS-015d8456-d9aa-45b9-964d-71ac1427abfe</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User confirms.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d6a68f4d-8dfd-4567-a50d-e04095356779</UniqueID>
+    <ParentID>MSS-015d8456-d9aa-45b9-964d-71ac1427abfe</ParentID>
+    <Description>The system permanently removes the template.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul system\cf1\ulnone  permanently removes the template.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3bc8ea92-40f1-447d-b2e4-46e1a42162e3</UniqueID>
+    <ParentID>X-2b03aa47-351c-4f56-88cb-703878e9939b</ParentID>
+    <Description>The system proceeds with basic scenario, but this does not affect any existing Plans of Care.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul system\cf1\ulnone  proceeds with basic scenario, but this does not affect any existing Plans of Care.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b6394561-2d44-4558-9c90-74285d6c34ba</UniqueID>
+    <ParentID>X-2b03aa47-351c-4f56-88cb-703878e9939b</ParentID>
+    <Description>If the template is used in an unsigned plan of care, it is still displayed as selected option in the Template dropdown, but if user opens the list, the system should remove the template from the list of available options (user cannot select it).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 If the \cf1 template\cf2  is used in an unsigned \cf1 plan of care\cf2 , it is still displayed as selected option in the \cf1 Template\cf2  dropdown, but if user opens the list, the \cf3\ul system\cf2\ulnone  should remove the \cf1 template\cf2  from the list of available options (user cannot select it).\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-02cd0ebc-6406-49c3-bc3e-3d677d67e31e</UniqueID>
+    <ParentID>MSS-d616e3c3-c98b-429c-a829-c8d2b3debda4</ParentID>
+    <Description>The system displays template details (all fields are static):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  displays template details (all fields are static):\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-78654480-e9ab-4991-ae24-d36e759fba45</UniqueID>
+    <ParentID>ST-02cd0ebc-6406-49c3-bc3e-3d677d67e31e</ParentID>
+    <Description>Template name</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Template\cf2  name\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c1d437c7-a94e-4ce9-b81b-1c8f04b17257</UniqueID>
+    <ParentID>ST-02cd0ebc-6406-49c3-bc3e-3d677d67e31e</ParentID>
+    <Description>Problems list</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Problems list\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8340d53e-7198-468f-8b13-0f3d3f2962f0</UniqueID>
+    <ParentID>ST-02cd0ebc-6406-49c3-bc3e-3d677d67e31e</ParentID>
+    <Description>Goals list</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Goals list\cf1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8d40b81d-f16f-4586-a241-d1b402ec60a6</UniqueID>
+    <ParentID>ST-02cd0ebc-6406-49c3-bc3e-3d677d67e31e</ParentID>
+    <Description>Treatments list</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Treatments list\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-afe911ca-fb0d-44d9-bf7c-5d1acd0a34a8</UniqueID>
+    <ParentID>MSS-d616e3c3-c98b-429c-a829-c8d2b3debda4</ParentID>
+    <Description>User can import the template (UC-14-6).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User can \cf1 import the \cf2 template\cf1  (\cf3\ul UC-14-6\cf1\ulnone ).\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a323670a-7089-44b3-8f1f-61d72d8c1820</UniqueID>
+    <ParentID>MSS-4e857538-f5f5-4f20-b18c-3ef87614ca5d</ParentID>
+    <Description>User initiates import.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User initiates import.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6ea6110e-6f47-4bbe-8e25-e1fbf97b9d7f</UniqueID>
+    <ParentID>MSS-4e857538-f5f5-4f20-b18c-3ef87614ca5d</ParentID>
+    <Description>The system prompts user to confirm import. In the same dialog, the system displays template Name in an editable field.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  prompts user to confirm import. In the same dialog, the \cf1\ul system\cf2\ulnone  displays \cf3 template\cf2  Name in an editable field.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c81e25c1-812d-4607-bf9c-a58a1e45aa8b</UniqueID>
+    <ParentID>MSS-4e857538-f5f5-4f20-b18c-3ef87614ca5d</ParentID>
+    <Description>User updates Name, if necessary.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User updates Name, if necessary.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d437d616-b8b8-427f-8cc4-ebf724a06cd9</UniqueID>
+    <ParentID>MSS-4e857538-f5f5-4f20-b18c-3ef87614ca5d</ParentID>
+    <Description>User confirms import.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User confirms import.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-60ccf084-ebe9-4348-b180-5ae3646c16e2</UniqueID>
+    <ParentID>MSS-4e857538-f5f5-4f20-b18c-3ef87614ca5d</ParentID>
+    <Description>The system copies the template to the user's template list (with updated name, if applicable)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  copies the \cf3 template\cf2  to the user's \cf3 template\cf2  list (with updated name, if applicable)\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6038ab78-b5e1-4a66-add8-4dc81d9c7257</UniqueID>
+    <ParentID>X-0a5fb891-b039-47a3-944f-91adda04cbf0</ParentID>
+    <Description>The system highlights empty fields and does not allow to proceed until the field is filled out.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  highlights empty fields and does not allow to proceed until the field is filled out.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-72489cc9-5397-49e2-b016-0d7b49683ea2</UniqueID>
+    <ParentID>ST-6aa1341d-e811-4bfb-b57c-ec82d2a6189a</ParentID>
+    <Description>Alternatively, user can save template as new - user must enter name for the template. The system saves new template (original template stays unchanged).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Alternatively, user can save \cf1 template as new - user must enter name for the template. The \cf2 system\cf1  saves new template (original template stays unchanged).\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2bb5875c-3c64-413d-9822-34aa4147a44d</UniqueID>
+    <ParentID>MSS-2c3ee88e-fbb7-4648-b507-e923d78a17b5</ParentID>
+    <Description>User opens Templates list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User opens \cf1 Templates list.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f1bfd027-7cb4-44eb-afa7-345f3b700dc9</UniqueID>
+    <ParentID>MSS-2c3ee88e-fbb7-4648-b507-e923d78a17b5</ParentID>
+    <Description>The system enables the Templates list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1 system\cf2  enables the Templates list.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3c47f981-cdfd-4272-9ae7-9f1800beefd6</UniqueID>
+    <ParentID>MSS-2c3ee88e-fbb7-4648-b507-e923d78a17b5</ParentID>
+    <Description>The system shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1 system\cf2  shows:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-638e9b1f-7cf4-46d0-b68e-e3461edc926b</UniqueID>
+    <ParentID>ST-3c47f981-cdfd-4272-9ae7-9f1800beefd6</ParentID>
+    <Description>User's templates for selected body region</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User's templates for selected body region\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-100dee65-3d27-4def-b10e-eab9a737288b</UniqueID>
+    <ParentID>ST-3c47f981-cdfd-4272-9ae7-9f1800beefd6</ParentID>
+    <Description>Corporate templates for selected body region - UC-14-5.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Corporate \cf1 templates for selected body region - \cf2\ul UC-14-5\cf1\ulnone .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-828bb533-40b7-4f28-bab8-55e9d3e5dacf</UniqueID>
+    <ParentID>MSS-2c3ee88e-fbb7-4648-b507-e923d78a17b5</ParentID>
+    <Description>User selects one of his or her templates.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User selects one of his or her \cf1 templates.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8ea49b13-282b-4063-8a89-b5a76d4dbf90</UniqueID>
+    <ParentID>XA-39bbd028-2ee5-49a8-b344-42c06445a578</ParentID>
+    <Description>The system warns user that if user reloads the page, changes will be lost.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1 system\cf2  warns user that if user reloads the page, changes will be lost.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a211d9b7-8f09-455b-ad0d-13f147e22d85</UniqueID>
+    <ParentID>XA-39bbd028-2ee5-49a8-b344-42c06445a578</ParentID>
+    <Description>User can manually save the changes or proceed and discard changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User can manually save the changes \cf1 or proceed and discard changes.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3ea75a1b-2356-459d-83bf-fcecbec76ad3</UniqueID>
+    <ParentID>MSS-d616e3c3-c98b-429c-a829-c8d2b3debda4</ParentID>
+    <Description>User selects Body Region.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User selects \cf1 Body Region.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a35e82b7-0439-41c9-90da-df4aea6173b3</UniqueID>
+    <ParentID>MSS-d616e3c3-c98b-429c-a829-c8d2b3debda4</ParentID>
+    <Description>The system enables the Templates list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1 system\cf2  enables the Templates list.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-68345d19-f2c3-4447-a12d-6e33e1a41490</UniqueID>
+    <ParentID>MSS-d616e3c3-c98b-429c-a829-c8d2b3debda4</ParentID>
+    <Description>User opens Templates list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User opens \cf1 Templates list.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f4454a5d-a267-4282-a724-a6a9a2b991f7</UniqueID>
+    <ParentID>MSS-d616e3c3-c98b-429c-a829-c8d2b3debda4</ParentID>
+    <Description>The system shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1 system\cf2  shows:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ba2fad20-6c08-4e86-9fbe-1ee8fd349145</UniqueID>
+    <ParentID>ST-f4454a5d-a267-4282-a724-a6a9a2b991f7</ParentID>
+    <Description>User's templates for selected body region - UC-14-1</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User's templates for selected body region - \cf2\ul UC-14-1\cf0\lang1049\ulnone\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6c5841f1-72c8-4822-8595-b0e084315e38</UniqueID>
+    <ParentID>ST-f4454a5d-a267-4282-a724-a6a9a2b991f7</ParentID>
+    <Description>Corporate templates for selected body region.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Corporate \cf1 templates for selected body region.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5a846de6-bc5a-4470-a723-b2d6f05ee2db</UniqueID>
+    <ParentID>MSS-d616e3c3-c98b-429c-a829-c8d2b3debda4</ParentID>
+    <Description>User selects a corporate template.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User selects a corporate \cf1 template.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-11b96858-afaf-40ba-b89f-b6d8d19ca23d</UniqueID>
+    <ParentID>MSS-3e0b74ca-262e-4994-8329-7bc2a16b5dd1</ParentID>
+    <Description>User creates new template.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User creates new \cf1 template.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-54eb07e1-6286-4ff0-856e-f778e337b245</UniqueID>
+    <ParentID>MSS-3e0b74ca-262e-4994-8329-7bc2a16b5dd1</ParentID>
+    <Description>The system prompts user to enter name for the template.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2 system\cf1  prompts user to enter name for the template.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0b612b15-5bec-4328-a3b6-6cceb3688bb8</UniqueID>
+    <ParentID>MSS-3e0b74ca-262e-4994-8329-7bc2a16b5dd1</ParentID>
+    <Description>User enters name and confirms changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User enters name and confirms changes.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-69e29695-7fab-44b9-afe5-159b9bba35c1</UniqueID>
+    <ParentID>X-deeb44f4-bb01-4129-b68c-4e8792e51106</ParentID>
+    <Description>The system highlights empty field and does not allow to proceed until Name field is filled out.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The \cf1\ul system\cf2\ulnone  highlights empty field and does not allow to proceed until Name field is filled out.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d32ca1a0-14f4-4eac-a5d4-0d6b354d42b5</UniqueID>
+    <ParentID>X-e9009345-4847-4a9d-baf5-5819d2474f3b</ParentID>
+    <Description>The system requests confirmation to overwrite existing template. User can overwrite, enter a different name or cancel the action.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system requests confirmation to overwrite existing template. User can overwrite, enter a different name or cancel the action.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f68bd6ea-fcf8-4564-bd07-69c484a10340</UniqueID>
+    <ParentID>X-11791788-579b-4580-8342-7355959b8c1f</ParentID>
+    <Description>The system changes labels on the basic control:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system changes labels on the basic control:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-02d4da38-090c-4ca1-9d2f-0fb6282d7955</UniqueID>
+    <ParentID>ST-f68bd6ea-fcf8-4564-bd07-69c484a10340</ParentID>
+    <Description>Save as New Personal Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Save as New Personal \cf1 Template\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-53c97f95-6b0d-4c65-84c5-a1d92552c41f</UniqueID>
+    <ParentID>X-11791788-579b-4580-8342-7355959b8c1f</ParentID>
+    <Description>The system shows additional control:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system shows additional control:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-429761c1-b5c8-470b-a85d-fa0f33cf1e90</UniqueID>
+    <ParentID>ST-53c97f95-6b0d-4c65-84c5-a1d92552c41f</ParentID>
+    <Description>Save as New Corporate Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Save as New Corporate \cf1 Template\cf0\lang1049\f1\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b9c00f4e-5b17-41f7-a6c0-30d89353f415</UniqueID>
+    <ParentID>MSS-d616e3c3-c98b-429c-a829-c8d2b3debda4</ParentID>
+    <Description>[User has "Can manage Corporate templates" permission]</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 [\b User has \cf0 "Can manage Corporate \cf1 templates" permission\b0 ]\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-046ff411-7d7e-4a31-a58f-671dccbc8e14</UniqueID>
+    <ParentID>ST-b9c00f4e-5b17-41f7-a6c0-30d89353f415</ParentID>
+    <Description>User can update corporate template as in UC-14-1.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User can update corporate template as in \cf2\ul UC-14-1\cf1\ulnone .\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-197c5dc8-1d53-4208-b38f-3739548be7fa</UniqueID>
+    <ParentID>ST-b9c00f4e-5b17-41f7-a6c0-30d89353f415</ParentID>
+    <Description>Import control is called "Save as New Personal Template"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Import control is called "\cf0 Save as New Personal \cf1 Template"\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d5791de5-c821-4dcc-a10c-26a58b2eeede</UniqueID>
+    <ParentID>ST-b9c00f4e-5b17-41f7-a6c0-30d89353f415</ParentID>
+    <Description>The system also displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system also displays:\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f6f66cac-ab5a-4987-bf9c-6b2133c3aa22</UniqueID>
+    <ParentID>ST-d5791de5-c821-4dcc-a10c-26a58b2eeede</ParentID>
+    <Description>Save as New Corporate Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Save as New Corporate \cf1 Template\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-57894dd0-57ba-4217-8dc8-7d33be3153d8</UniqueID>
+    <ParentID>ST-d5791de5-c821-4dcc-a10c-26a58b2eeede</ParentID>
+    <Description>Delete Corporate Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Delete Corporate Template\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fd8527b0-94f9-45bc-8984-d42ebdc87118</UniqueID>
+    <ParentID>ST-d5791de5-c821-4dcc-a10c-26a58b2eeede</ParentID>
+    <Description>Update Corporate Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Update Corporate Template\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-964ee4c7-b4e1-4bb9-a3fe-b443086c947b</UniqueID>
+    <ParentID>X-1f4b78a3-fc67-4989-a126-5f5732886482</ParentID>
+    <Description>The system requests confirmation to overwrite existing template. User can overwrite, enter a different name or cancel the action.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system requests confirmation to overwrite existing template. User can overwrite, enter a different name or cancel the action.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7db9dbaf-ccea-4029-997b-e2a8e6d4e177</UniqueID>
+    <ParentID>X-84351793-3a1a-4f0f-9dd0-32251020354e</ParentID>
+    <Description>The system requests confirmation to overwrite existing template. User can proceed or cancel the action.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system requests confirmation to overwrite existing template. User can proceed or cancel the action.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-17025e47-ac1e-4602-875b-ccfb65bf1b59</UniqueID>
+    <ParentID>MSS-718cff0c-474d-46ae-b498-37865ba9d96f</ParentID>
+    <Description>User navigates to top right drop down selection showing "user name".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User navigates to top right drop down selection showing "user name".\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3ed82f75-2a54-4580-aca5-96d77a8bb415</UniqueID>
+    <ParentID>MSS-718cff0c-474d-46ae-b498-37865ba9d96f</ParentID>
+    <Description>User clicks on drop down and selects template management.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User clicks on drop down and selects \cf1 template\cf2  management.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5f4395cd-4a0c-4712-8b85-a2b3043df91c</UniqueID>
+    <ParentID>MSS-718cff0c-474d-46ae-b498-37865ba9d96f</ParentID>
+    <Description>Template Management page opens specific to that user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Template\cf2  Management page opens specific to that user.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-25ae141a-5a0d-46c5-95ff-beb7bebc767f</UniqueID>
+    <ParentID>ST-05c06038-6049-4de3-9be5-2dc2ba715880</ParentID>
+    <Description>Actions:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Actions\cf1 :\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-731e195a-5542-4505-b814-77c16c05d12b</UniqueID>
+    <ParentID>ST-a50fe814-3bdc-474f-8681-cefd7905bdff</ParentID>
+    <Description>Delete Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Delete \cf1 Template\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e3363892-da25-44a6-895b-c117403ea9e4</UniqueID>
+    <ParentID>ST-a50fe814-3bdc-474f-8681-cefd7905bdff</ParentID>
+    <Description>Update Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Update \cf1 Template\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f43f6002-a495-4cee-9621-2429be5a5148</UniqueID>
+    <ParentID>ST-a50fe814-3bdc-474f-8681-cefd7905bdff</ParentID>
+    <Description>Save as New Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Save as New \cf1 Template\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a50fe814-3bdc-474f-8681-cefd7905bdff</UniqueID>
+    <ParentID>ST-25ae141a-5a0d-46c5-95ff-beb7bebc767f</ParentID>
+    <Description>[Regular user]</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 [Regular user]\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-70c9c7ee-ff59-40bc-94ff-a5502ee9bb29</UniqueID>
+    <ParentID>ST-25ae141a-5a0d-46c5-95ff-beb7bebc767f</ParentID>
+    <Description>[User who can manage corporate templates]</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 [User who can manage corporate \cf1 templates]\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c09d168b-541b-4282-a5a0-b25cbacf5186</UniqueID>
+    <ParentID>ST-70c9c7ee-ff59-40bc-94ff-a5502ee9bb29</ParentID>
+    <Description>Delete Personal Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Delete Personal \cf1 Template\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e9114bb8-09f6-4fbe-b648-1581b7954cbe</UniqueID>
+    <ParentID>ST-70c9c7ee-ff59-40bc-94ff-a5502ee9bb29</ParentID>
+    <Description>Update Personal Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Update Personal \cf1 Template\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a0af6db8-a720-455e-92b7-7a2d3c29abe9</UniqueID>
+    <ParentID>ST-70c9c7ee-ff59-40bc-94ff-a5502ee9bb29</ParentID>
+    <Description>Save as New Personal Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Save as New Personal \cf1 Template\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a2bd0f81-dc6f-44a3-97df-d762450d4bf4</UniqueID>
+    <ParentID>ST-70c9c7ee-ff59-40bc-94ff-a5502ee9bb29</ParentID>
+    <Description>Save as New Corporate Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Save as New Corporate \cf1 Template\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-07ad20ce-a753-4d1f-b546-f36b223550d9</UniqueID>
+    <ParentID>MSS-2c3ee88e-fbb7-4648-b507-e923d78a17b5</ParentID>
+    <Description>The system displays updated template to the user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system displays updated template to the user.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-58459819-6d02-4e0b-b496-6f6e32cda872</UniqueID>
+    <ParentID>ST-0bd2c5cf-757a-402d-ae4a-0fa0bbc62140</ParentID>
+    <Description>Name is empty</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Name is empty\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-83e87f82-6000-4866-a067-e5d75400670c</UniqueID>
+    <ParentID>ST-0bd2c5cf-757a-402d-ae4a-0fa0bbc62140</ParentID>
+    <Description>Template is used in an existing Plan of Care.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Template\cf2  is used in an existing \cf1 Plan of Care\cf2 .\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-2b03aa47-351c-4f56-88cb-703878e9939b</UniqueID>
+    <ParentID>ST-d6a68f4d-8dfd-4567-a50d-e04095356779</ParentID>
+    <Description>Template is used in an existing Plan of Care.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Template\cf2  is used in an existing \cf1 Plan of Care\cf2 .\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-0a5fb891-b039-47a3-944f-91adda04cbf0</UniqueID>
+    <ParentID>ST-60ccf084-ebe9-4348-b180-5ae3646c16e2</ParentID>
+    <Description>Name is empty</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Name is empty\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-deeb44f4-bb01-4129-b68c-4e8792e51106</UniqueID>
+    <ParentID>ST-0b612b15-5bec-4328-a3b6-6cceb3688bb8</ParentID>
+    <Description>User didn't enter Name.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User didn't enter Name.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-e9009345-4847-4a9d-baf5-5819d2474f3b</UniqueID>
+    <ParentID>ST-0bd2c5cf-757a-402d-ae4a-0fa0bbc62140</ParentID>
+    <Description>User enters a name that's already used for another template associated with this body region.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User enters a name that's already used for another template associated with this body region.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-11791788-579b-4580-8342-7355959b8c1f</UniqueID>
+    <ParentID>ST-5d03c6d7-b455-417f-83ea-b60fa946133d</ParentID>
+    <Description>User has "Can manage Corporate templates" permission.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User has "Can manage Corporate \cf1 templates" permission.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-1f4b78a3-fc67-4989-a126-5f5732886482</UniqueID>
+    <ParentID>ST-0b612b15-5bec-4328-a3b6-6cceb3688bb8</ParentID>
+    <Description>User enters a name that's already used for another template associated with this body region.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User enters a name that's already used for another template associated with this body region.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-84351793-3a1a-4f0f-9dd0-32251020354e</UniqueID>
+    <ParentID>ST-60ccf084-ebe9-4348-b180-5ae3646c16e2</ParentID>
+    <Description>User enters a name that's already used for another template associated with this body region.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User enters a name that's already used for another template associated with this body region.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <AnytimeExtension>
+    <UniqueID>XA-39bbd028-2ee5-49a8-b344-42c06445a578</UniqueID>
+    <ParentID>MSS-2c3ee88e-fbb7-4648-b507-e923d78a17b5</ParentID>
+    <Description>User changes Body Region / Template after making changes to currently displayed template.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 User changes \cf1 Body Region / Template after making changes to currently displayed template.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </AnytimeExtension>
+  <ExternalDoc>
+    <UniqueID>EX-4be13043-25fe-443e-a296-ee2a5bf2fd82</UniqueID>
+    <ParentID>P-a634b756-9741-4968-b61e-91e15feba941</ParentID>
+    <Name>Manage Templates Questions n Answers.docx</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-14-</DefaultPrefix>
+    <NextValue>8</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-14-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-14-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-14-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <TestScenario>
+    <UniqueID>TS-858293d1-d896-47e9-9f53-f3906028821a</UniqueID>
+    <ParentID>UC-19b5f2bd-75fd-43a1-be88-d7502d089118</ParentID>
+    <Description>Verify that user is able to open Template Management by selecting “My Templates” in the top right drop down showing "user_name".</Description>
+    <Name>Open Template Management</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-1306b570-e5c1-4d60-8b53-0fc265622d4d</UniqueID>
+    <ParentID>UC-19b5f2bd-75fd-43a1-be88-d7502d089118</ParentID>
+    <Description>Verify that there are 
+   1) Body Region (dropdown, active)
+   2) Template (dropdown, disabled until body region is specified)
+   3) Add Template button</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1049\f0\fs20 Verify that there are \par
+   1) \cf1 Body Region\cf0  (dropdown, active)\par
+   2) \cf1 Template\cf0  (dropdown, disabled until \cf1 body region\cf0  is specified)\par
+\lang1033\f1    3) \lang1049\f0 Add \cf1 Template\cf0  button\par
+}
+</RichDescription>
+    <Name>Template Management page UI</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-1c688bf6-49b5-41a9-aca5-b77ff965a310</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that Templates drop down becomes enabled when Body Region is specified.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify that \cf1 Templates\cf0  drop down becomes enabled when \cf1 Body Region\cf0  is specified.\par
+}
+</RichDescription>
+    <Name>Enabled Templates</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-e4238342-cbce-4acf-8795-b2a6519270ce</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that templates in Templates drop down are different for each body region.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Verify that \cf1 templates\cf0  in \cf1 Templates\cf0  drop down are different for each \cf1 body region\cf2 .\cf0\par
+}
+</RichDescription>
+    <Name>Body Regions vs Templates</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-fe371d2e-7c27-4077-9e74-27b30a99a3a7</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that list of templates is divided into 2 parts: first My Templates, then Corporate Templates.</Description>
+    <Name>My Templates and Corporate Templates</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-8242e38b-9ee5-4c56-9563-d27e77ed6a77</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that Problems, Goals and Treatment Plan section become available when template is picked up from Templates drop down.</Description>
+    <Name>When template is selected</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-9af2f272-89c9-4d04-a2e9-5dbf663e7541</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that 
+   1) Problem section consists of text fields (mandatory)
+   2) Goal section consists of Goal text boxes (mandatory) and Achieve Within dropdown (1-10 weeks; mandatory)
+   3) Treatment Plan consists of CPT Code drop down (mandatory), CPT code short description (non-editable), and Free-form description (editable, optional, disabled until user selects CPT code)
+   4) Buttons: Delete template, Update Template, Save as a New Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1049\f0\fs20 Verify that \par
+\lang1033\f1    \lang1049\f0 1)\lang1033\f1  \lang1049\f0 Problem section consists of text fields (mandatory)\par
+\lang1033\f1    \lang1049\f0 2)\lang1033\f1  \lang1049\f0 Goal section consists of Goal text boxes (mandatory) and Achieve Within dropdown (1-10 weeks; mandatory)\par
+\lang1033\f1    \lang1049\f0 3)\lang1033\f1  \lang1049\f0 Treatment Plan consists of \cf1 CPT Code\cf0  drop down (mandatory), \cf1 CPT code\cf0  short description (non-editable), and Free-form description (editable, optional, disabled until user selects \cf1 CPT code\cf0 )\par
+\lang1033\f1    \lang1049\f0 4)\lang1033\f1  \lang1049\f0 Buttons: Delete \cf1 template\cf0 , Update \cf1 Template\cf0 , Save as a New \cf1 Template\cf0\par
+}
+</RichDescription>
+    <Name>Template UI</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-72108f34-5c59-4a51-9164-7c775cafdda9</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that user is able to update Name / Description / Body Region and save changes successfully by pressing Update Template button.</Description>
+    <Name>Template basic info update</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>6</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d52ebd5a-c6b3-414c-9200-50fbe53cccd5</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that user is able to update contents of text fields in Problems section and successfully save changes by pressing Update Template button.</Description>
+    <Name>Problems section update</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>7</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-9da4c8e9-7606-4d20-8b7c-1164c20d8314</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that user is able to delete any entry in Problems section by pressing Delete button beside it.</Description>
+    <Name>Problem entry deletion</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>8</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-8c9e1dfb-15b1-41d8-be4c-0075f4d2830c</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that user is able to update contents of any Goal field or Achieve Within drop down and successfully save changes by pressing Update Template button.</Description>
+    <Name>Goals section update</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>9</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-a568b182-e5cf-4a93-afba-182cd5bf0c54</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that user is able to delete any entry in Goal section by pressing Delete button beside it.</Description>
+    <Name>Goal entry deletion</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>10</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-95c484c7-6cec-4b0f-94d3-730ca3f3bed3</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that user is able to change CPT Code in corresponding dropdown of Treatment plan and update Free-Form Description and successfully save changes by pressing Update Template button.</Description>
+    <Name>Treatment Plan section update</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>11</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-dcc2600f-74d5-4ffc-85ce-39dc4f3f0765</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that user is able to delete any entry in Treatment Plan section by pressing Delete button beside it.</Description>
+    <Name>Treatment Plan entry deletion</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>12</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-e89f2067-021e-4a58-8aa8-2def911e3099</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that user is able to save changes in existing template as a new one by pressing Save as a New Template button, specifying Name and pressing OK button. New template should be successfully saved, old one should stay unchanged.</Description>
+    <Name>Save as a New Template</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>14</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-dd1a2db0-476e-49eb-9f87-2f98d6960654</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that overlay, that appears after pressing Save as New Template button, contains the following elements:
+	- Overlay name: Save Template
+	- Text: Please enter the name for your new &lt;BodyRegion&gt; Template (variable must be correctly substituted)
+	- Text field for template name
+	- Cancel link
+	- OK button
+	- X (Close) button</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1049\f0\fs20 Verify that overlay, that appears after pressing Save as New \cf1 Template\cf0  button, contains the following elements:\par
+\lang1033\f1\tab\lang1049\f0 -\lang1033\f1  \lang1049\f0 Overlay name: Save \cf1 Template\cf0\par
+\lang1033\f1\tab\lang1049\f0 -\lang1033\f1  \lang1049\f0 Text: Please enter the name for your new &lt;BodyRegion&gt; \cf1 Template\cf0  (variable must be correctly substituted)\par
+\lang1033\f1\tab\lang1049\f0 -\lang1033\f1  \lang1049\f0 Text field for \cf1 template\cf0  name\par
+\lang1033\f1\tab\lang1049\f0 -\lang1033\f1  \lang1049\f0 Cancel link\par
+\lang1033\f1\tab\lang1049\f0 -\lang1033\f1  \lang1049\f0 OK button\par
+\lang1033\f1\tab\lang1049\f0 -\lang1033\f1  \lang1049\f0 X (Close) button\par
+}
+</RichDescription>
+    <Name>Save Template overlay</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>15</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-5c4f3bbb-d720-423d-8640-533a26a1a26f</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that Cancel and X Close buttons working properly and close the Save Template overlay when clicked. Template name entered should not be saved in overlay.</Description>
+    <Name>Cancel and Close buttons on Save Template overlay</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>16</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d546eaa3-f6c7-4be9-bec1-aa97558e8956</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that message “The name you provided is used by another template. Press Save to replace that template or enter a different name.” appears if user presses OK button on Save Template overlay without specifying template name.</Description>
+    <Name>Empty template name on Save Template overlay</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>17</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-1a3c27c3-c24d-45bd-bfd5-d0fd5b0e4107</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify if user enters name of template which already exists in the system for this body region, confirmation message appears asking confirmation to overwrite existing template. User can proceed or cancel the action.</Description>
+    <Name>Existing template name</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>18</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-b1430aa2-0058-46ee-ba57-bc52382b2eef</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify if user agrees to overwrite existing template with new values, they are successfully updated in that template.</Description>
+    <Name>Overwrite existing template</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>19</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-fd9733a1-abc7-41ba-b5af-5e44a1299fed</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify if user cancels template overwriting, Save Template overlay is displayed again where user can enter new template name.</Description>
+    <Name>Cancel overwrite</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>20</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-bdbb1dc1-1d04-43f2-bf2a-3a53a805b51e</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify if template is in use in any Plan of Care and user updates it, changes are saved in the template, but Plan of Care remains unchanged.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1049\f0\fs20 Verify \f1 if \cf1 template\cf0  is in use in any \cf1 Plan of Care\cf0  and user updates it, changes are saved in the \cf1 template\cf2 , but \cf1 Plan of Care\cf2  remains unchanged.\cf0\f0\par
+}
+</RichDescription>
+    <Name>Update template in use</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>21</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-9ab020dc-8616-41aa-897a-56f6cc2f19e3</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that if user made changes to a template and then changes either Body Region or Template, the system shows Open Template overlay with text “Are you sure you want to navigate away from this template? All changes will be lost.” X Close and Continue buttons and Cancel link. </Description>
+    <Name>Selecting another Body Region / Template after changes</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>22</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-f0c50f99-7709-48e0-85ea-c3ad6ebaf60e</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that if user presses Cancel link or X Close button on Open Template overlay, overlay is closed and template is not changed.</Description>
+    <Name>Cancel/Close on Open Template overlay</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>23</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-3c48138d-480c-4a6a-8f20-ad0914303385</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that if user presses Continue button on Open Template overlay, new template is displayed (if it was selected before Open Template overlay appeared) or nothing is displayed, if new body region was selected.</Description>
+    <Name>Continue button on Open Template overlay</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>24</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-ed2a2bd3-ccab-4bd4-9018-b51adb98229c</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>If user has "Can manage Corporate templates" permission and open a corporate template, the following buttons are displayed at the bottom of the page:
+	• Delete Personal Template
+	• Update Personal Template
+	• Save as New Personal Template
+	• Save as New Corporate Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1049\f0\fs20 If user has "Can manage Corporate \cf1 templates\cf0 " permission and open a corporate \cf1 template\cf0 , the following buttons are displayed at the bottom of the page:\par
+\f1\tab\bullet  Delete Personal \cf1 Template\cf0\par
+\tab\bullet  Update Personal \cf1 Template\cf0\par
+\tab\bullet  Save as New Personal \cf1 Template\cf0\par
+\tab\bullet  Save as New Corporate \cf1 Template\cf0\f0\par
+}
+</RichDescription>
+    <Name>"Can manage Corporate templates" permission</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>25</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-cf1deb7c-ee42-4396-af93-512495c977f9</UniqueID>
+    <ParentID>UC-6e5790f6-9565-4065-92a5-d908ef983d22</ParentID>
+    <Description>Verify that  "Add New  Template" button is disabled if Body Region isn't specified.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Verify that  "Add New  \cf1 Template\cf0 " button is disabled if \cf1 Body Region\cf0  isn't specified.\par
+}
+</RichDescription>
+    <Name>Add Template w/t Body Region</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-eb9d3357-f348-439b-a2b3-0b287489e5da</UniqueID>
+    <ParentID>UC-6e5790f6-9565-4065-92a5-d908ef983d22</ParentID>
+    <Description>Verify if Body Region is specified, and user presses Add Template button, new clean form for a template appears with Problems, Goals and Treatment Plan sections and Save Template button.</Description>
+    <Name>Template Creation</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-7cde85f8-6727-437e-9df3-dfee332293f4</UniqueID>
+    <ParentID>UC-6e5790f6-9565-4065-92a5-d908ef983d22</ParentID>
+    <Description>Verify if user doesn’t fill out at least one entry in Problems or Goals  or Treatment Plan section and presses Save Template button, system isn't highlight any fields with red.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1049\f0\fs20 Verify if user doesn\f1\rquote t fill out at least one entry in Problems or Goals  or Treatment Plan section and presses Save \cf1 Template\cf0  button, system isn't highlight any fields with red.\f0\par
+}
+</RichDescription>
+    <Name>Saving new template w/t mandatory fields</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-3ae8287a-49c9-46af-af20-6ef4534a6565</UniqueID>
+    <ParentID>UC-6e5790f6-9565-4065-92a5-d908ef983d22</ParentID>
+    <Description>Verify if user tries to save new template without name specified, the system highlights empty field and does not allow to proceed until Name field is filled out.</Description>
+    <Name>Save Template w/t name</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-0ae4ab47-cd75-40fe-91c8-e3db3f7f77aa</UniqueID>
+    <ParentID>UC-6e5790f6-9565-4065-92a5-d908ef983d22</ParentID>
+    <Description>Verify if user tries to save new template with the name that belongs to existing template, system shows overwrite overlay. User can proceed or cancel (verify both variants).</Description>
+    <Name>Save Template with existing name</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-f166cf71-c620-4940-a257-a03083f10e13</UniqueID>
+    <ParentID>UC-6e5790f6-9565-4065-92a5-d908ef983d22</ParentID>
+    <Description>Verify that if user has "Can manage Corporate templates" permission and presses Add Template button, the following controls are displayed for him:
+	• Save as New Personal Template
+	• Save as New Corporate Template</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1049\f0\fs20 Verify that if user has "Can manage Corporate \cf1 templates\cf0 " permission and presses Add \cf1 Template\cf0  button, the following controls are displayed for him:\par
+\f1\tab\bullet  Save as New Personal \cf1 Template\cf0\par
+\tab\bullet  Save as New Corporate \cf1 Template\cf0\f0\par
+}
+</RichDescription>
+    <Name>"Can manage Corporate templates" permission</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-6139aa8f-bfb1-4a85-9f6b-46796689fc79</UniqueID>
+    <ParentID>UC-9a0b0715-966c-469a-ac50-359f209588ae</ParentID>
+    <Description>Verify that if user presses Delete Template button on opened template, Delete Template overlay is displayed with the text “Delete Template &lt;TemplateName&gt;? This action cannot be undone” (variable must be substituted), Cancel link and Delete and X Close button.</Description>
+    <Name>Delete Template overlay </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-993e9c49-dd39-4ac0-9d24-49feb021238c</UniqueID>
+    <ParentID>UC-9a0b0715-966c-469a-ac50-359f209588ae</ParentID>
+    <Description>Verify that if user presses Delete Template button and then presses either Cancel or X Close button, template is not deleted.</Description>
+    <Name>Refuse Delete Template</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d8e2a2ed-eec0-4295-b156-bf98900f0ed6</UniqueID>
+    <ParentID>UC-9a0b0715-966c-469a-ac50-359f209588ae</ParentID>
+    <Description>Verify that if user presses Delete Template button on a template used in signed Plan of Care and then presses Delete button template is successfully deleted from Template Management, but remains in Plan if Care.</Description>
+    <Name>Delete Template used in signed PoC</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-3c74acf3-2dc0-4037-9e9b-374135943eed</UniqueID>
+    <ParentID>UC-9a0b0715-966c-469a-ac50-359f209588ae</ParentID>
+    <Description>Verify that if user presses Delete Template button on a template used in unsigned Plan of Care and then presses Delete button, template is successfully deleted from Template Management, but remains in Templates dropdown in Plan of Care. When user opens the list (Plan of Care??), the system should remove the template from the list of available options (user cannot select it).</Description>
+    <Name>Delete Template used in unsigned PoC</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-ee98cfe2-558e-409d-965e-199a5ed8526c</UniqueID>
+    <ParentID>UC-423ed8b7-2e8d-4885-b4f8-5c8506b6d40f</ParentID>
+    <Description>Verify if user clicks an empty line and enter at least one symbol in Problems/Goals/Treatment Plan section new line is added.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Verify if user clicks an empty line and enter at least one symbol in Problems/Goals/Treatment Plan section new line is added.\par
+}
+</RichDescription>
+    <Name>New line</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-0233c3b0-8dfa-4fd0-8e26-2835e8e281aa</UniqueID>
+    <ParentID>UC-423ed8b7-2e8d-4885-b4f8-5c8506b6d40f</ParentID>
+    <Description>Verify if user switches focus from the line in Problems/Goals/Treatment Plan sections and that line is empty, the system removes newly added empty line (so that there's only one empty line in each section at any given time).</Description>
+    <Name>Remove empty line</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2fc81e9f-2b19-46b5-90d9-fdc257d4b6b6</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>If user has no "Can manage Corporate templates" permission and opens Corporate template he sees only Save as New Personal Template control.</Description>
+    <Name>No "Can manage Corporate templates" permission</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>26</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-10758c71-297d-4342-a27f-bbdd99dd5c74</UniqueID>
+    <ParentID>UC-6f024c3d-dd4b-46fc-bb40-6ef18b4fcd1c</ParentID>
+    <Description>Verify that user with and without “Can manage Corporate templates” permission is able to view Corporate templates</Description>
+    <Name>View Corporate Template</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d0f5059a-71e7-4790-a97d-fb87ad466730</UniqueID>
+    <ParentID>UC-6f024c3d-dd4b-46fc-bb40-6ef18b4fcd1c</ParentID>
+    <Description>Verify if user has “Can manage Corporate templates” permission, he can successfully change corporate templates.</Description>
+    <Name>Update Corporate Template</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-3c819206-72d1-4701-94b3-d4021e693202</UniqueID>
+    <ParentID>UC-6f024c3d-dd4b-46fc-bb40-6ef18b4fcd1c</ParentID>
+    <Description>Verify if user has “Can manage Corporate templates” permission, he can successfully delete corporate templates.</Description>
+    <Name>Delete Corporate Template</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-72d33a52-e204-4ab9-8183-09a4bb84fc0a</UniqueID>
+    <ParentID>UC-6f024c3d-dd4b-46fc-bb40-6ef18b4fcd1c</ParentID>
+    <Description>Verify if user has “Can manage Corporate templates” permission, he can successfully save corporate template as a new one, with new name and values.</Description>
+    <Name>Save as New Corporate Template</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-28c0f239-0e08-4636-899a-143438aca17b</UniqueID>
+    <ParentID>UC-51d49129-058a-447e-b027-c1b2b6ad819a</ParentID>
+    <Description>Verify that user (whether he has or hasn’t “Can manage Corporate templates” permission) can save Corporate Template as a new personal template using “Save as New Personal Template” button.</Description>
+    <Name>Save Corporate Template as a New Personal Template</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-30e383f0-451c-4fbe-b541-899c9df53b31</UniqueID>
+    <ParentID>UC-51d49129-058a-447e-b027-c1b2b6ad819a</ParentID>
+    <Description>Verify if user tries to save corporate template as a personal one and doesn’t specify its name, the system highlights empty fields and does not allow to proceed until the field is filled out.</Description>
+    <Name>Save as a New Personal Template w\t Name</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-31274933-7e85-4a4e-9929-e88f123cdfdd</UniqueID>
+    <ParentID>UC-51d49129-058a-447e-b027-c1b2b6ad819a</ParentID>
+    <Description>Verify if user tries to save corporate template as a personal one and specifies existing name, the system requests confirmation to overwrite existing template. User can proceed or cancel the action.</Description>
+    <Name>Save as a New Personal Template with existing Name</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-f7d529c2-f012-497a-9bd8-25536f08e4ff</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify if user specifies Body Region, and selects Add New Template in Template dropdown, clean form for template creation appears.</Description>
+    <Name>Add New Template</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d21605d3-372e-490b-a6e9-21222132bc8b</UniqueID>
+    <ParentID>UC-b5eb8f2a-a95a-4065-8e0e-284a2ad853f1</ParentID>
+    <Description>Verify that the page doesn't scroll up after deleting some row.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Verify that the page doesn't scroll up after deleting some row.\par
+}
+</RichDescription>
+    <Name>Row deletion</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>13</Sequence>
+  </TestScenario>
+</UCTDataSet>

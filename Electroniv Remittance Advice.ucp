@@ -1,0 +1,2913 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5088</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</UniqueID>
+    <ExternalParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ExternalParentID>
+    <Name>Electronic Remittance Advice</Name>
+    <Description>An electronic remittance advice (ERA) is an electronic version of a payment explanation which provides details about providers' claims payment, and if the claims are denied, it would then contain the required explanations. ERA are provided by plans to Providers. The industry standard for sending ERA data is the HIPAA X12N 835 standard.
+
+Please note that ERA batches are something between batches and vouchers that we have in manual posting. The main difference is that there are no separate vouchers in an ERA batch, payment information is written in the batch (essentially, it's a batch and voucher merged together).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 An electronic \cf1 remittance\cf0  advice (ERA) is an electronic version of a payment explanation which provides details about providers' claims payment, and if the claims are denied, it would then contain the required explanations. ERA are provided by plans to Providers. The industry standard for sending ERA data is the HIPAA X12N 835 standard.\par
+\par
+Please note that ERA batches are something between batches and vouchers that we have in manual posting. The main difference is that there are no separate vouchers in an ERA batch, payment information is written in the batch (essentially, it's a batch and voucher merged together).\par
+}
+</RichDescription>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-1d76e5bf-a332-479b-a2c4-b49500639bdd</UniqueID>
+    <UserID>UC-74-1</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Load New ERA Batch</Name>
+    <Description>The system loads new ERA batch from Emdeon. 
+Note that this scenario does not cover how ERA batches are transferred from Emdeon (this will have to be arranged with them directly).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system loads new ERA batch from Emdeon. \par
+Note that \cf1 this scenario does not cover how ERA batches are transferred from Emdeon (this will have to be arranged with them directly).\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-20T12:25:28.0015355-04:00</DateAdded>
+    <DateModified>2014-06-25T14:00:03.4432774-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-5d75184b-3b0e-4f25-a56d-651d01a5de6c</UniqueID>
+    <UserID>UC-74-3</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Create New ERA Batch</Name>
+    <Description>User creates new ERA batch</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User creates new ERA batch\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-20T12:25:54.9872865-04:00</DateAdded>
+    <DateModified>2014-07-03T12:22:46.1795808-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-6352b5e0-8453-4a7a-a1ac-f819d36615c2</UniqueID>
+    <UserID>UC-74-2</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Open Batch List</Name>
+    <Description>User opens batch list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens batch list.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-20T12:26:24.2816451-04:00</DateAdded>
+    <DateModified>2014-06-25T14:00:15.391805-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-831911b7-04d6-494c-a804-4b1f82b2843c</UniqueID>
+    <UserID>UC-74-4</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Open ERA Batch Review</Name>
+    <Description>User opens ERA batch Review </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens ERA batch Review \par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Batch is created and open</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-20T12:26:35.6374987-04:00</DateAdded>
+    <DateModified>2014-07-03T12:42:03.1198846-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-28c1ebc6-323b-4b18-a051-3525432fdee0</UniqueID>
+    <UserID>UC-74-5</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>View ERA Batch Details</Name>
+    <Description>User opens ERA batch details.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens ERA batch details.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-20T12:31:21.5655098-04:00</DateAdded>
+    <DateModified>2014-07-03T12:29:48.4643437-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-a11a1866-ee61-4e1c-a67e-c8cb020c2054</UniqueID>
+    <UserID>UC-74-6</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Open ERA payment screen</Name>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-20T12:33:27.7267428-04:00</DateAdded>
+    <DateModified>2014-07-02T16:28:58.6421453-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-7a112d81-ca59-40a0-8efa-35730ff9057d</UniqueID>
+    <UserID>UC-74-7</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Close ERA Batch</Name>
+    <Description>User closes ERA batch. This scenario is no different from closing manual payment batch: balance must be 0 and there should be no errors.
+
+The only exception is when the batch is out of balance, but user has the "Can close out-of-balance ERA batches" permission. In this case, show the red warning ("The batch is not balanced to 0"), but do not hide the Close Batch button and allow closing such a batch.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User closes ERA batch. This scenario is no different from closing manual payment batch: balance must be 0 and there should be no errors.\par
+\par
+The only exception is when the batch is out of balance, but user has the "Can close out-of-balance ERA batches" permission. In this \cf1 case\cf2 , show the red warning ("The batch is not balanced to 0"), but do not hide the Close Batch button and allow closing such a batch.\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-22T18:35:08.4034422-04:00</DateAdded>
+    <DateModified>2014-07-11T12:50:00.5395818-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-3797d285-058b-4e4d-86f4-b8e19d5e4b71</UniqueID>
+    <UserID>UC-74-8</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Auto-Add Interest Payment</Name>
+    <Description>The system adds Interest charge automatically</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system adds Interest charge automatically\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-23T17:23:07.5474988-04:00</DateAdded>
+    <DateModified>2014-06-25T14:01:41.5896903-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-a65f7cd6-2c82-49dd-b526-6e3032fb6552</UniqueID>
+    <UserID>UC-74-9</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Restore ERA Data</Name>
+    <Description>User restores ERA payment data on the line item level</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User restores ERA payment data on the \cf1 line item\cf2  level\cf0\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-25T13:31:54.8151218-04:00</DateAdded>
+    <DateModified>2014-06-26T13:23:41.045767-04:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-4469395e-af0f-444c-9e94-8d853f96098f</UniqueID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>ERA Batches</Name>
+    <Sequence>0</Sequence>
+    <FileName>Electronic Remittance Advice.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Note>
+    <UniqueID>N-32844d66-0d65-4de6-a2ab-a42dcb44f94c</UniqueID>
+    <ParentID>UC-28c1ebc6-323b-4b18-a051-3525432fdee0</ParentID>
+    <Description>All fields listed here should be available in the ERA file (except for closed on/by - the system will write those as soon as the batch is closed). If something is not available, let's discuss those fields.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 All fields listed here should be available in the ERA file (except for closed on/by - the system will write those as soon as the batch is closed). If something is not available, let's discuss those fields.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2014-06-23T17:16:30.019349-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-f42183de-47fc-4a77-ba3d-f8de90590186</UniqueID>
+    <ParentID>UC-a65f7cd6-2c82-49dd-b526-6e3032fb6552</ParentID>
+    <Description>The system should re-add all ERA transactions for the line item (the main reason for this would be to correct any issues that may arise from an invalid CARC/RARC code - user would fix the issue in Admin interface and restore ERA data thus re-adding the code properly)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system should re-add all ERA transactions for the \cf1 line item\cf2  (\i the main reason for this would be to correct any issues that may arise from an invalid CARC/RARC code - user would fix the issue in Admin interface and restore ERA data thus re-adding the code properly\i0 )\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2014-06-26T13:23:41.045767-04:00</DateAdded>
+  </Note>
+  <UCActor>
+    <ParentID>UC-1d76e5bf-a332-479b-a2c4-b49500639bdd</ParentID>
+    <ActorID>A-a5b3b198-9e21-4cbb-9176-facace7e6282</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-6352b5e0-8453-4a7a-a1ac-f819d36615c2</ParentID>
+    <ActorID>A-5945ef97-04bf-4493-99f4-336c60eb5e1a</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-831911b7-04d6-494c-a804-4b1f82b2843c</ParentID>
+    <ActorID>A-5945ef97-04bf-4493-99f4-336c60eb5e1a</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5d75184b-3b0e-4f25-a56d-651d01a5de6c</ParentID>
+    <ActorID>A-5945ef97-04bf-4493-99f4-336c60eb5e1a</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-3797d285-058b-4e4d-86f4-b8e19d5e4b71</ParentID>
+    <ActorID>A-5945ef97-04bf-4493-99f4-336c60eb5e1a</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-3797d285-058b-4e4d-86f4-b8e19d5e4b71</ParentID>
+    <ActorID>A-a5b3b198-9e21-4cbb-9176-facace7e6282</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCReq>
+    <ParentID>UC-831911b7-04d6-494c-a804-4b1f82b2843c</ParentID>
+    <ReqID>REQ-0f4d1ef9-be5a-47e7-ac66-33f653dd0fe4</ReqID>
+  </UCReq>
+  <Scenario>
+    <UniqueID>MSS-c94cee06-2af0-420b-98d5-fd912738a00d</UniqueID>
+    <ParentID>UC-1d76e5bf-a332-479b-a2c4-b49500639bdd</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-770aae9d-f82a-4695-9f87-c52dc510e020</UniqueID>
+    <ParentID>UC-6352b5e0-8453-4a7a-a1ac-f819d36615c2</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-22a9b1f3-2bf4-4411-a0d3-6027528b3b49</UniqueID>
+    <ParentID>UC-5d75184b-3b0e-4f25-a56d-651d01a5de6c</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-d916e136-4561-4f6f-a8da-e8feddb52d36</UniqueID>
+    <ParentID>UC-831911b7-04d6-494c-a804-4b1f82b2843c</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-957efb38-4cb4-43e3-9e91-fd755f2b23c5</UniqueID>
+    <ParentID>UC-3797d285-058b-4e4d-86f4-b8e19d5e4b71</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-f74cfb7f-14e7-4591-b967-8087b2a88864</UniqueID>
+    <ParentID>UC-28c1ebc6-323b-4b18-a051-3525432fdee0</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-abc5473d-4fc4-44f0-b3e6-0335e590e124</UniqueID>
+    <ParentID>UC-a65f7cd6-2c82-49dd-b526-6e3032fb6552</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-851060f8-b6b2-47ab-8ebd-c28d52468757</UniqueID>
+    <ParentID>UC-a11a1866-ee61-4e1c-a67e-c8cb020c2054</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-33fb96ac-096f-43a0-bc13-fecfe04ed583</UniqueID>
+    <UserID>REQ-74-1</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Viewing ERAs in Read-Only mode</Name>
+    <Description>This is applicable to closed batches and open batches viewed by users with Read permissions.
+
+The system must display all information in plain-text format. If this requirement impedes delivering the ERA feature on time, just show disabled controls (text fields, dropdowns, etc).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 This is applicable to closed batches and open batches viewed by users with Read permissions.\par
+\par
+The system must display all information in plain-text format. If this requirement impedes delivering the ERA feature on time, just show disabled controls (text fields, dropdowns, etc).\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-20T12:27:13.6515306-04:00</DateAdded>
+    <DateModified>2014-06-25T13:16:37.462379-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-e6eb015d-873f-4094-bb80-b43999814647</UniqueID>
+    <UserID>REQ-74-2</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Permissions to access ERAs</Name>
+    <Description>The system should use existing Payment Posting permissions to determine if user has access to ERAs. Users must have the same level of access to ERAs as they do for Manual Insurance Payment Posting.
+
+If user doesn't have any access to ERAs, do not show the Financial | Electronic Remittance leftnav button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system should use existing Payment Posting permissions to determine if user has access to ERAs. Users must have the same level of access to ERAs as they do for Manual Insurance Payment Posting.\par
+\par
+If user doesn't have any access to ERAs, do not show the Financial | Electronic \cf2 Remittance\cf1  leftnav button.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-22T11:03:26.2371427-04:00</DateAdded>
+    <DateModified>2014-06-25T13:17:27.9556735-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-e112e13c-1e90-4868-a6ac-2041d5bf3684</UniqueID>
+    <UserID>REQ-74-3</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>ERA Reason and Remark Codes</Name>
+    <Description>ERA batches use standardized coding:
+Claim Adjustment Group Codes (CAGC)
+Claim Adjustment Reason Codes (CARC)
+Remittance Advice Remark Codes (RARC)
+
+CAGCs &amp; CARCs always go together. Group Code explains what kind on an adjustment this is, and Reason Code explains the specifics of the adjustment. For example, you receive an adjustment coded as CO-45. The "CO" is a group code and it denotes a "Contractual" adjustment. The "45" is a reason code, it explains that adjustment was applied because "Charge exceeds fee schedule/maximum allowable or contracted/legislated fee arrangement.". See REQ-74-4 &amp; REQ-74-5 for details.
+
+RARCs provide additional information and do not affect amounts, we only need to make them available for viewing, nothing more. See REQ-74-6 for details. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 ERA batches use standardized coding:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Claim \cf2 Adjustment\cf1  Group Codes (CAGC)\par
+{\pntext\f1\'B7\tab}Claim \cf2 Adjustment\cf1  Reason Codes (CARC)\par
+\cf2{\pntext\f1\'B7\tab}Remittance\cf1  Advice Remark Codes (RARC)\par
+\pard\par
+CAGCs &amp; CARCs always go together. Group Code explains what kind on an \cf2 adjustment\cf1  this is, and Reason Code explains the specifics of the \cf2 adjustment\cf1 . For example, you receive an \cf2 adjustment\cf1  coded as CO-45. The "CO" is a group code and it denotes a "Contractual" \cf2 adjustment\cf1 . The "45" is a reason code, it explains that \cf2 adjustment\cf1  was applied because "Charge exceeds fee schedule/maximum allowable or contracted/legislated fee arrangement.". See \cf3\ul REQ-74-4\cf1\ulnone  &amp; \cf3\ul REQ-74-5\cf1\ulnone  for details.\par
+\par
+RARCs provide additional information and do not affect amounts, we only need to make them available for viewing, nothing more. See \cf3\ul REQ-74-6\cf1\ulnone  for details. \par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-22T12:26:33.1681974-04:00</DateAdded>
+    <DateModified>2014-06-25T13:17:30.9974395-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-34b9616e-4f0e-45fd-924c-f53f28dc4662</UniqueID>
+    <UserID>REQ-74-4</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Claim Adjustment Group Codes (CAGC)</Name>
+    <Description>Group codes are used to identify specific types of adjustments. In our system, they serve dual purpose:
+Some codes do specify adjustment type
+PR code is not a real adjustment, it explains the details of a patient transfer (the system must never adjust off any amount that came over as a PR)
+
+The system must be able to process the following group codes 
+CO	- Contractual Obligations&#xB;“Default” code. The system must treat it as an adjustment.
+OA	- Other adjustments&#xB;The system must treat it as an adjustment
+PI - Payor Initiated Reductions&#xB;The system must treat it as an adjustment.
+PR - Patient Responsibility&#xB;This is NOT an adjustment as far as AgileRPM is concerned. This is normally used to provide specifics of a patient transfer (co-pay / co-ins / deductible / other) - see REQ-74-7 for details.
+
+The format is always two alpha characters. 
+
+Special codes:
+If the system received adjustment code 225 (Penalty or Interest Payment by Payer), it should never treat it as an adjustment and create a paid interest charge for that amount.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Group codes are used to identify specific types of \cf2 adjustments\cf1 . In our system, they serve dual purpose:\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 Some codes do specify \cf2 adjustment\cf1  type\par
+{\pntext\f0 2.\tab}PR code is not a real \cf2 adjustment\cf1 , it explains the details of a \cf3\ul patient\cf1\ulnone  transfer (the system must never adjust off any amount that came over as a PR)\par
+\pard\par
+The system must be able to process the following group codes \par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\b CO\b0\tab - Contractual Obligations\line\ldblquote Default\rdblquote  code. The system must treat it as an \cf2 adjustment\cf1 .\par
+\b{\pntext\f1\'B7\tab}OA\b0\tab - Other \cf2 adjustments\cf1\line The system must treat it as an \cf2 adjustment\cf1\par
+\b{\pntext\f1\'B7\tab}PI \b0 - Payor Initiated Reductions\line The system must treat it as an \cf2 adjustment\cf1 .\par
+\b{\pntext\f1\'B7\tab}PR \b0 - \cf2 Patient Responsibility\cf1\line This is NOT an \cf2 adjustment\cf1  as far as AgileRPM is concerned. This is normally used to provide specifics of a \cf3\ul patient\cf1\ulnone  transfer (\cf2 co-pay\cf1  / co-ins / \cf2 deductible\cf1  / other) - see \cf3\ul REQ-74-7\cf1\ulnone  for details.\par
+\pard\par
+The format is always two alpha characters. \par
+\par
+Special codes:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 If the system received \cf2 adjustment\cf1  code \b 225 \b0 (Penalty or \cf2 Interest Payment\cf1  by \cf2 Payer\cf1 ), it should never treat it as an \cf2 adjustment\cf1  and create a paid interest charge for that amount.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-22T12:32:08.2460038-04:00</DateAdded>
+    <DateModified>2014-06-25T13:15:57.9040758-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-73e053e7-18a9-4a54-bb81-b4c25f2127bb</UniqueID>
+    <UserID>REQ-74-5</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Claim Adjustment Reason Codes (CARC)</Name>
+    <Description>Claim adjustment reason codes communicate an adjustment, meaning that they must communicate why a claim or service line was paid differently than it was billed. If there is no adjustment to a claim/line, then there is no adjustment reason code.
+
+Full CARC list can be found here: http://www.wpc-edi.com/reference/codelists/healthcare/claim-adjustment-reason-codes/
+I uploaded the same list to Teamwork (link is below), it's exactly the same as the one posted on wpc-edi.com, but without clarifications, just reasons themselves.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Claim \cf2 adjustment\cf1  reason codes communicate an \cf2 adjustment\cf1 , meaning that they must communicate why a claim or service line was paid differently than it was billed. If there is no \cf2 adjustment\cf1  to a claim/line, then there is no \cf2 adjustment\cf1  reason code.\par
+\par
+Full CARC list can be found here: http://www.wpc-edi.com/reference/codelists/healthcare/claim-adjustment-reason-codes/\par
+I uploaded the same list to Teamwork (link is below), it's exactly the same as the one posted on wpc-edi.com, but without clarifications, just reasons themselves.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-22T12:32:38.4916892-04:00</DateAdded>
+    <DateModified>2014-06-25T13:16:01.7881521-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-285ac715-7316-4402-b8c5-39de22c5c2c5</UniqueID>
+    <UserID>REQ-74-6</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Remittance Advice Remark Codes (RARC)</Name>
+    <Description>Remittance Advice Remark Codes (RARCs) are used to provide additional explanation for an adjustment already described by a Claim Adjustment Reason Code (CARC) or to convey information about remittance processing. Each RARC identifies a specific message as shown in the Remittance Advice Remark Code List. There are two types of RARCs, supplemental and informational. The majority of the RARCs are supplemental; these are generally referred to as RARCs without further distinction. Supplemental RARCs provide additional explanation for an adjustment already described by a CARC. The second type of RARC is informational; these RARCs are all prefaced with Alert: and are often referred to as Alerts. Alerts are used to convey information about remittance processing and are never related to a specific adjustment or CARC.
+
+Informational remarks are applied on the encounter level and must show up in the payment posting screen.
+Supplemental remarks are applied on the line item level and must be included in transaction history.
+No matter what kind of remark this is, the system must always display an icon on the Review screen in case at least one remark of any kind is available for the encounter/line_item.
+
+http://www.wpc-edi.com/reference/codelists/healthcare/remittance-advice-remark-codes/</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Remittance\cf0  Advice Remark Codes (RARCs) are used to provide additional explanation for an \cf1 adjustment\cf0  already described by a Claim \cf1 Adjustment\cf0  Reason Code (CARC) or to convey information about \cf1 remittance\cf0  processing. Each RARC identifies a specific message as shown in the \cf1 Remittance\cf0  Advice Remark Code List. There are two types of RARCs, supplemental and informational. The majority of the RARCs are supplemental; these are generally referred to as RARCs without further distinction. Supplemental RARCs provide additional explanation for an \cf1 adjustment\cf0  already described by a CARC. The second type of RARC is informational; these RARCs are all prefaced with Alert: and are often referred to as Alerts. Alerts are used to convey information about \cf1 remittance\cf0  processing and are never related to a specific \cf1 adjustment\cf0  or CARC.\par
+\par
+Informational remarks are applied on the encounter level and must show up in the payment posting screen.\par
+Supplemental remarks are applied on the \cf1 line item\cf2  level and must be included in transaction history.\par
+No matter what kind of remark this is, the system must always display an icon on the Review screen in \cf1 case\cf2  at least one remark of any kind is available for the encounter/line_item.\cf0\par
+\par
+http://www.wpc-edi.com/reference/codelists/healthcare/remittance-advice-remark-codes/\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-22T12:33:03.0906814-04:00</DateAdded>
+    <DateModified>2014-06-25T13:17:34.9127383-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d7e3cfeb-ab17-4595-9e89-90a43984c34f</UniqueID>
+    <UserID>REQ-74-7</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Processing PR Adjustments</Name>
+    <Description>When the system receives PR adjustments, it must not process them as adjustments, these are just details of patient transfer. Full amount of patient transfer should be available in the ERA.
+
+There are 3 PR codes that should fill out corresponding fields automatically:
+PR-1 - Write value in the Deductible field
+PR-2 - Write value in the Coinsurance field
+PR-3 - Write value in the Co-Pay field
+All other PR amounts should be listed under Other, containing amount, reason code and reason description. 
+All amounts must be editable.
+
+Display in Transaction History
+The system must display a single entry for patient transfers. Details like specific codes, reasons, and amounts must be in the description of that Transfer to Patient entry.
+
+Patient Statements
+All the detailed PR- information must appear on patient statements.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fmodern\fprq1\fcharset0 Gulim;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 When the system receives PR \cf2 adjustments\cf1 , it must not process them as \cf2 adjustments\cf1 , these are just details of \cf3\ul patient\cf1\ulnone  transfer. Full amount of \cf3\ul patient\cf1\ulnone  transfer should be available in the ERA.\par
+\par
+There are 3 PR codes that should fill out corresponding fields automatically:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 PR-1 - Write value in the \cf2 Deductible\cf1  field\par
+{\pntext\f2\'B7\tab}PR-2 - Write value in the \cf2 Coinsurance\cf1  field\par
+{\pntext\f2\'B7\tab}PR-3 - Write value in the \cf2 Co-Pay\cf1  field\par
+\pard All other PR amounts should be listed under Other, containing amount, reason code and reason description. \par
+All amounts must be editable.\par
+\par
+\b Display in Transaction History\b0\par
+The system must display a single entry for \cf3\ul patient\cf1\ulnone  transfers. Details like specific codes, reasons, and amounts must be in the description of that Transfer to \cf3\ul Patient\cf1\ulnone  entry.\par
+\par
+\cf3\ul\b Patient\cf1\ulnone  Statements\b0\par
+All the \f1 detailed PR- \f0 information must appear on \cf3\ul patient\cf1\ulnone  statements.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-22T12:38:41.1070528-04:00</DateAdded>
+    <DateModified>2014-07-02T16:35:08.0367409-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0f4d1ef9-be5a-47e7-ac66-33f653dd0fe4</UniqueID>
+    <UserID>REQ-74-8</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>On the Review screen, show dashed instead of $0.00</Name>
+    <Description>On the Review screen, there are 4 columns with amounts:
+Total payment amount
+Total adjustment amount
+Total amount of patient responsibility
+Total amount of payer responsibility
+
+If value of any of these fields is 0.00, do not show the $0.00, show dashes instead. We can apply this to manual posting review as well.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 On the Review screen, there are 4 columns with amounts:\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 Total payment amount\par
+{\pntext\f0 2.\tab}Total \cf2 adjustment\cf1  amount\par
+{\pntext\f0 3.\tab}Total amount of \cf2\ul patient\ulnone  responsibility\cf0\f1\fs17\par
+\cf1\f0\fs20{\pntext\f0 4.\tab}Total amount of \cf2 payer\cf1  responsibility\par
+\pard\par
+If value of any of these fields is 0.00, do not show the $0.00, show dashes instead. We can apply this to manual posting review as well.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-23T17:02:22.5262099-04:00</DateAdded>
+    <DateModified>2014-06-25T13:17:38.0324983-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-3ebe23ef-9ec5-41a6-bdef-c0fd3af5409a</UniqueID>
+    <UserID>REQ-74-9</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Automated Actions in ERA</Name>
+    <Description>This is the list of automated actions that should be triggered by the system:
+
+Received claim status is 19/20 - Processed as Primary/Sec, forwarded to additional payer(s).
+Instead of Transfer to next insurance, set Transfer to Autocrossover. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 This is the list of automated actions that should be triggered by the system:\par
+\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Received claim status is 19/20 - Processed as Primary/Sec, forwarded to additional \cf2 payer\cf1 (s).\par
+\pard Instead of Transfer to next insurance, set Transfer to Autocrossover. \par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-23T17:16:36.5552881-04:00</DateAdded>
+    <DateModified>2014-08-20T06:17:18.2720143-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-13d5ca75-2861-4986-b61c-1be36de43307</UniqueID>
+    <UserID>REQ-74-10</UserID>
+    <ParentID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ParentID>
+    <Name>Claim Status Codes Errors</Name>
+    <Description>If the system receives a status code "Processed as...", the system must try an verify whether payer matches insurance type
+
+If the system finds the insurance, but in Agile it has a different type (not Primary/Secondary/Tertiary as specified in the code)
+The system posts the payment for found insurance (match by name, include adjustments)
+The system displays a warning: "Coordination of Benefits Issue"
+
+If the system cannot find the insurance in the case:
+The system displays empty Payer dropdown.
+The system displays an error: "Cannot find payer in the coverage. Post payment as Unknown or select a known payer"
+User must manually select something in the dropdown. If unknown is selected, auto-select carrier based on ERA data.
+They system posts the payment (include adjustments)
+On the Review page, highlight affected lines with red and do not remove the highlight until user resolves the issue. Do not allow closing ERA batch that has a payment without a payer.
+
+If code denotes "forwarded to Additional Payers", but Agile has no record of any additional payers:
+Show a warning: "Payer forwarded responsibility to &lt;Insurance_Name&gt;, but AgileRPM has no record of additional payers. Please research before proceeding."
+Leave money on the balance (Transfer to N/A)
+
+If code denotes "forwarded to Additional Payers", but Agile has a different insurance listed as next:
+Show a warning: "Payer forwarded responsibility to &lt;Insurance_Name&gt;, but this payer is not listed as next insurance. Please verify additional payers before proceeding."
+Leave money on the balance (Transfer to N/A)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If the system receives a status code "Processed as...", the system must try an verify whether \cf2 payer\cf1  matches insurance type\par
+\par
+If the system finds the insurance, but in Agile it has a different type (not Primary/Secondary/Tertiary as specified in the code)\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 The system posts the payment for found insurance (match by name, include \cf2 adjustments\cf1 )\par
+{\pntext\f0 2.\tab}The system displays a warning: "\cf2 Coordination of Benefits\cf1  Issue"\par
+\pard\par
+If the system cannot find the insurance in the \cf2 case\cf1 :\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 The system displays empty \cf2 Payer\cf1  dropdown.\par
+{\pntext\f0 2.\tab}The system displays an error: "Cannot find \cf2 payer\cf1  in the coverage. Post payment as Unknown or select a known \cf2 payer\cf1 "\par
+{\pntext\f0 3.\tab}User must manually select something in the dropdown. If unknown is selected, auto-select \cf2 carrier\cf1  based on ERA data.\par
+{\pntext\f0 4.\tab}They system posts the payment (include \cf2 adjustments\cf1 )\par
+\pard On the Review page, highlight affected lines with red and do not remove the highlight until user resolves the issue. Do not allow closing ERA batch that has a payment without a \cf2 payer\cf1 .\par
+\par
+If code denotes "forwarded to Additional \cf2 Payers\cf1 ", but Agile has no record of any additional \cf2 payers\cf1 :\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 Show a warning: "\cf2 Payer\cf1  forwarded responsibility to &lt;Insurance_Name&gt;, but AgileRPM has no record of additional \cf2 payers\cf1 . Please research before proceeding."\par
+{\pntext\f0 2.\tab}Leave money on the balance (Transfer to N/A)\par
+\pard\par
+If code denotes "forwarded to Additional \cf2 Payers\cf1 ", but Agile has a different insurance listed as next:\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 Show a warning: "\cf2 Payer\cf1  forwarded responsibility to &lt;Insurance_Name&gt;, but this \cf2 payer\cf1  is not listed as next insurance. Please verify additional \cf2 payers\cf1  before proceeding."\par
+{\pntext\f0 2.\tab}Leave money on the balance (Transfer to N/A)\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-23T17:19:02.8554061-04:00</DateAdded>
+    <DateModified>2014-08-20T06:16:47.2142062-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-3df3d786-3fce-43a7-ad86-883cecb91c05</UniqueID>
+    <ParentID>MSS-c94cee06-2af0-420b-98d5-fd912738a00d</ParentID>
+    <Description>The system gets new ERA batch and adds it to the ERA batch list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system gets new ERA batch and adds it to the ERA batch list.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dd6eca28-7ec0-4970-978b-cc6fb86ea222</UniqueID>
+    <ParentID>MSS-c94cee06-2af0-420b-98d5-fd912738a00d</ParentID>
+    <Description>The system does not apply payment information automatically.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system does not apply payment information automatically.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-002cbc84-2cd8-4859-88ec-37cb94051892</UniqueID>
+    <ParentID>MSS-c94cee06-2af0-420b-98d5-fd912738a00d</ParentID>
+    <Description>User must complete UC-74-3 "Create new ERA batch" for the system to apply payment information.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User must complete \cf1\ul UC-74-3\cf2\ulnone  "Create new ERA batch" for the system to apply payment information.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0f0dd2a9-5677-45f0-be72-77d2be6f3a43</UniqueID>
+    <ParentID>MSS-770aae9d-f82a-4695-9f87-c52dc510e020</ParentID>
+    <Description>User opens the list of ERA batches.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens the list of ERA batches.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-58c3001e-d351-4258-8081-58f01df6fb02</UniqueID>
+    <ParentID>MSS-770aae9d-f82a-4695-9f87-c52dc510e020</ParentID>
+    <Description>The system displays the list and the following information for each batch:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system displays the list and the following information for each batch:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-537cec96-f008-4157-b357-64b7315c584a</UniqueID>
+    <ParentID>ST-58c3001e-d351-4258-8081-58f01df6fb02</ParentID>
+    <Description>Batch ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Batch ID\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-77d51e54-03d5-4e85-95f5-5b3fff120101</UniqueID>
+    <ParentID>ST-58c3001e-d351-4258-8081-58f01df6fb02</ParentID>
+    <Description>Payer Name</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Payer\cf2  Name\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5afb752c-f758-4228-9a59-9dac8aa64de8</UniqueID>
+    <ParentID>ST-58c3001e-d351-4258-8081-58f01df6fb02</ParentID>
+    <Description>Adjudication Date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Adjudication Date\cf2\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6dfecb65-eb02-4be6-b9d5-1ebb50544ca0</UniqueID>
+    <ParentID>ST-58c3001e-d351-4258-8081-58f01df6fb02</ParentID>
+    <Description>Check #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Check #\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4417c877-03c6-45f1-9f8e-ca3ad4e30e39</UniqueID>
+    <ParentID>ST-58c3001e-d351-4258-8081-58f01df6fb02</ParentID>
+    <Description>Date when the ERA batch was received</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Date when the ERA batch was received\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ff2e6abd-5760-4099-8689-4871a0f12c60</UniqueID>
+    <ParentID>ST-58c3001e-d351-4258-8081-58f01df6fb02</ParentID>
+    <Description>Batch amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Batch amount\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-eff80f4f-4995-48ee-b193-d323bd329830</UniqueID>
+    <ParentID>ST-58c3001e-d351-4258-8081-58f01df6fb02</ParentID>
+    <Description>Batch balance</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Batch balance\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-efac8124-a8b5-48f5-8d55-8549ad644549</UniqueID>
+    <ParentID>ST-58c3001e-d351-4258-8081-58f01df6fb02</ParentID>
+    <Description>Name of the person who closed the batch (initials + full name on hover)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Name of the person who closed the batch (initials + full name on hover)\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-aec6993f-5193-4217-a91b-295e7f2dc353</UniqueID>
+    <ParentID>ST-efac8124-a8b5-48f5-8d55-8549ad644549</ParentID>
+    <Description>If the batch is not closed, show (with an asterisk) initials/name of the person who last made any changes to the batch (created it or updated a payment)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If the batch is not closed, show (with an asterisk) initials/name of the person who last made any changes to the batch (created it or updated a payment)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a9c2927d-b252-4ecc-b6b8-1abcfb56bc21</UniqueID>
+    <ParentID>ST-58c3001e-d351-4258-8081-58f01df6fb02</ParentID>
+    <Description>Date when the batch was closed (empty until closed)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Date when the batch was closed (empty until closed)\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-733c07b8-bdb9-4818-9177-4ed0ac5e36a7</UniqueID>
+    <ParentID>ST-58c3001e-d351-4258-8081-58f01df6fb02</ParentID>
+    <Description>Status:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Status:\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b8a4f875-4432-4840-8ed5-92fb6819e870</UniqueID>
+    <ParentID>ST-733c07b8-bdb9-4818-9177-4ed0ac5e36a7</ParentID>
+    <Description>New - batch was received by the system, but not "created" by the user</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs20 New \b0 - batch was received by the system, but not "created" by the user\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d956f0a8-d315-4d6c-8b6a-73d03998e6b3</UniqueID>
+    <ParentID>ST-733c07b8-bdb9-4818-9177-4ed0ac5e36a7</ParentID>
+    <Description>Open - batch was "created" by the user, but not closed.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs20 Open\b0  - batch was "created" by the user, but not closed.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b9c60e60-8bbe-41ef-88f2-1601dfa4b823</UniqueID>
+    <ParentID>ST-733c07b8-bdb9-4818-9177-4ed0ac5e36a7</ParentID>
+    <Description>Closed</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs20 Closed\b0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4ae398e9-91f2-41ca-9d4f-1ea57c8698bb</UniqueID>
+    <ParentID>ST-58c3001e-d351-4258-8081-58f01df6fb02</ParentID>
+    <Description>Actions:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Actions:\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b4c13a62-e0ad-4548-b579-d5c1611871d5</UniqueID>
+    <ParentID>ST-4ae398e9-91f2-41ca-9d4f-1ea57c8698bb</ParentID>
+    <Description>Create - only for New batches - UC-74-2</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\b\f0\fs20 Create \b0 - only for New batches - \cf2\ul UC-74-2\cf1\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cffa04df-d94e-4ee4-bbaf-8cd200dc790f</UniqueID>
+    <ParentID>ST-4ae398e9-91f2-41ca-9d4f-1ea57c8698bb</ParentID>
+    <Description>Edit - only for open batches - UC-74-4</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\b\f0\fs20 Edit\b0  - only for open batches - \cf2\ul UC-74-4\cf1\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f9bbfa36-c5ea-4c4d-8028-eb93f1ab228c</UniqueID>
+    <ParentID>ST-4ae398e9-91f2-41ca-9d4f-1ea57c8698bb</ParentID>
+    <Description>View - for closed batches or for open batches, if user only has Read access (see REQ-74-1 "Viewing Closed ERA Batches")</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\b\f0\fs20 View \b0 - for closed batches or for open batches, if user only has Read access (see \cf2\ul REQ-74-1\cf1\ulnone  "\cf0 Viewing Closed ERA Batches\cf1 ")\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-892cbb08-99c3-406d-a582-50cd4f050de3</UniqueID>
+    <ParentID>MSS-770aae9d-f82a-4695-9f87-c52dc510e020</ParentID>
+    <Description>User has the following filters available:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User has the following filters available:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dc8e9ee4-34c3-4c51-8337-b9888989dde8</UniqueID>
+    <ParentID>ST-892cbb08-99c3-406d-a582-50cd4f050de3</ParentID>
+    <Description>View options (above the grid):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 View options (above the grid):\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ee06791c-6093-4888-81e8-65720a3d6968</UniqueID>
+    <ParentID>ST-dc8e9ee4-34c3-4c51-8337-b9888989dde8</ParentID>
+    <Description>Open Only (default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Open Only (\i default\i0 )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c850dbe7-4dc7-4b36-a383-c48c1ea367ad</UniqueID>
+    <ParentID>ST-dc8e9ee4-34c3-4c51-8337-b9888989dde8</ParentID>
+    <Description>Closed Only</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Closed Only\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-82417453-8c67-4178-9f69-c5fc19b0549e</UniqueID>
+    <ParentID>ST-dc8e9ee4-34c3-4c51-8337-b9888989dde8</ParentID>
+    <Description>Show All</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Show All\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6a34efc7-5641-418b-babf-a921ac88cc19</UniqueID>
+    <ParentID>ST-892cbb08-99c3-406d-a582-50cd4f050de3</ParentID>
+    <Description>Grid filters:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Grid filters:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-03cc42bb-dd61-45dc-baa3-ced17b23960d</UniqueID>
+    <ParentID>ST-6a34efc7-5641-418b-babf-a921ac88cc19</ParentID>
+    <Description>Keyword filters (ID, Payer, Adjudicated, Check #, Received date, Closed by, Closed on)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Keyword filters (ID, \cf2 Payer\cf1 , Adjudicated, Check #, Received date, Closed by, Closed on)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3bbd1ac6-07af-45db-9827-62d612bdcd34</UniqueID>
+    <ParentID>ST-6a34efc7-5641-418b-babf-a921ac88cc19</ParentID>
+    <Description>Balance filter:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Balance filter:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a4042992-3c8b-4b5f-a018-478fe73c8d04</UniqueID>
+    <ParentID>ST-3bbd1ac6-07af-45db-9827-62d612bdcd34</ParentID>
+    <Description>All (default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All (\i default\i0 )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1812fad3-ca69-4cf8-8421-560948c4797a</UniqueID>
+    <ParentID>ST-3bbd1ac6-07af-45db-9827-62d612bdcd34</ParentID>
+    <Description>Zero</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Zero\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-660a3834-97e6-48c1-9653-593205daca55</UniqueID>
+    <ParentID>ST-3bbd1ac6-07af-45db-9827-62d612bdcd34</ParentID>
+    <Description>Positive</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Positive\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4e0c4c21-761d-4858-a189-0788f935b667</UniqueID>
+    <ParentID>ST-3bbd1ac6-07af-45db-9827-62d612bdcd34</ParentID>
+    <Description>Negative</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Negative\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2f0558f5-e778-4c9c-be47-402bc3deaaad</UniqueID>
+    <ParentID>ST-6a34efc7-5641-418b-babf-a921ac88cc19</ParentID>
+    <Description>Status filter:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Status filter:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-34237f9f-6c04-4968-b8ab-30f7ce4414f8</UniqueID>
+    <ParentID>ST-2f0558f5-e778-4c9c-be47-402bc3deaaad</ParentID>
+    <Description>All (default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All (\i default\i0 )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1b0c5480-8367-41bd-a519-1f657b1b24ee</UniqueID>
+    <ParentID>ST-2f0558f5-e778-4c9c-be47-402bc3deaaad</ParentID>
+    <Description>New</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 New\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f0aeac17-bffb-49ef-909d-ab1d4b02df9a</UniqueID>
+    <ParentID>ST-2f0558f5-e778-4c9c-be47-402bc3deaaad</ParentID>
+    <Description>Open</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Open\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b5f307d8-cb71-4218-9d9a-f8e866b342e8</UniqueID>
+    <ParentID>ST-2f0558f5-e778-4c9c-be47-402bc3deaaad</ParentID>
+    <Description>Closed</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Closed\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-aee43881-2c15-4850-8b36-387288204932</UniqueID>
+    <ParentID>MSS-22a9b1f3-2bf4-4411-a0d3-6027528b3b49</ParentID>
+    <Description>User creates new ERA batch.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User creates new ERA batch.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9fcf2474-8bed-4d8c-8896-e15be9b743a8</UniqueID>
+    <ParentID>MSS-22a9b1f3-2bf4-4411-a0d3-6027528b3b49</ParentID>
+    <Description>The system displays ERA Review screen with basic batch info (amount, payer, balance (see proto for details) and a modal spinner with the text "Preparing ERA Batch".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system displays ERA Review screen with basic batch info (amount, \cf1 payer\cf2 , balance (see proto for details) and a modal spinner with the text "Preparing ERA Batch".\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4b39abcf-f217-486d-803b-84e297d3ce77</UniqueID>
+    <ParentID>MSS-22a9b1f3-2bf4-4411-a0d3-6027528b3b49</ParentID>
+    <Description>The system writes all payment information to affected encounters and calculates balances, responsibility etc.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system writes all payment information to affected encounters and calculates balances, responsibility etc.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2bfbf4ef-526c-4c66-94d1-f7a07f72f2b8</UniqueID>
+    <ParentID>MSS-22a9b1f3-2bf4-4411-a0d3-6027528b3b49</ParentID>
+    <Description>Once the system is done writing the information, it hides the spinner and show default Review screen (UC-74-4)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Once the system is done writing the information, it hides the spinner and show default Review screen (\cf1\ul UC-74-4\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-70d45fd2-baa5-4108-9c3f-0a8a28ebdad7</UniqueID>
+    <ParentID>MSS-d916e136-4561-4f6f-a8da-e8feddb52d36</ParentID>
+    <Description>User opens ERA batch.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens ERA batch.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a441c4b4-eafc-4b01-8f4e-6606ebc40326</UniqueID>
+    <ParentID>MSS-d916e136-4561-4f6f-a8da-e8feddb52d36</ParentID>
+    <Description>The system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b142aad8-57a0-4295-8ac2-e85d0156fcdc</UniqueID>
+    <ParentID>ST-a441c4b4-eafc-4b01-8f4e-6606ebc40326</ParentID>
+    <Description>Top header with batch name (only shown here): &lt;Adjudication_date&gt; &lt;Payer&gt; (&lt;ID&gt;)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Top header with batch name (only shown here): &lt;Adjudication_date&gt; &lt;Payer&gt; (&lt;ID&gt;)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-256c985b-d6b6-4ef6-b1f3-cc3da5ed7944</UniqueID>
+    <ParentID>ST-a441c4b4-eafc-4b01-8f4e-6606ebc40326</ParentID>
+    <Description>Basic info and controls in the Review area:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Basic info and controls in the Review area:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-993dd0de-b00f-46a5-a799-09ab5d494fc1</UniqueID>
+    <ParentID>ST-256c985b-d6b6-4ef6-b1f3-cc3da5ed7944</ParentID>
+    <Description>"Hide 0 Payer Resp" check box, clear by default - hides entries where payer responsibility is $0.00</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 "Hide 0 \cf1 Payer\cf2  Resp" check box, clear by default - hides entries where \cf1 payer\cf2  responsibility is $0.00\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-78bf18c2-002d-44a1-8fd6-6a89d5f2d70e</UniqueID>
+    <ParentID>ST-256c985b-d6b6-4ef6-b1f3-cc3da5ed7944</ParentID>
+    <Description>"Errors Only" check box, cleared by default - hides entries without errors or warnings</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Errors Only" check box, cleared by default - hides entries without errors or warnings\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fb8dac0c-c10f-4c94-b280-cc61f89d0497</UniqueID>
+    <ParentID>ST-256c985b-d6b6-4ef6-b1f3-cc3da5ed7944</ParentID>
+    <Description>'View Batch Details' button - UC-74-5</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 'View Batch Details' button - \cf1\ul UC-74-5\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9fdac471-c48b-46ee-a0dc-b922aafc2ea5</UniqueID>
+    <ParentID>ST-256c985b-d6b6-4ef6-b1f3-cc3da5ed7944</ParentID>
+    <Description>'Close Batch' button - UC-74-7</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 'Close Batch' button - \cf1\ul UC-74-7\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-61f00a30-faf8-4e00-ade4-da811d417f7d</UniqueID>
+    <ParentID>ST-256c985b-d6b6-4ef6-b1f3-cc3da5ed7944</ParentID>
+    <Description>Encounter ID / Patient Name filter - text field</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Encounter ID / \cf1\ul Patient\cf2\ulnone  Name filter - text field\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4c3c2a8e-6aee-4f33-9afd-47a384b8e638</UniqueID>
+    <ParentID>ST-256c985b-d6b6-4ef6-b1f3-cc3da5ed7944</ParentID>
+    <Description>Patient Responsibility filter:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\ulnone  Responsibility\cf2  filter:\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1b013d34-533d-49c7-ba59-be7bc4e086f0</UniqueID>
+    <ParentID>ST-4c3c2a8e-6aee-4f33-9afd-47a384b8e638</ParentID>
+    <Description>Any (default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Any (\i default\i0 )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-75abcd8a-dc9a-41ee-bf7f-9e5678383434</UniqueID>
+    <ParentID>ST-4c3c2a8e-6aee-4f33-9afd-47a384b8e638</ParentID>
+    <Description>$0.00</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 $0.00\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6b13aaf1-c666-4ad4-b526-a0cb7e4a0253</UniqueID>
+    <ParentID>ST-256c985b-d6b6-4ef6-b1f3-cc3da5ed7944</ParentID>
+    <Description>Payer Responsibility filter:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Payer\cf2  Responsibility filter:\cf0\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0c7cdb60-8dc2-4a29-9fae-4303a56a165d</UniqueID>
+    <ParentID>ST-6b13aaf1-c666-4ad4-b526-a0cb7e4a0253</ParentID>
+    <Description>Any (default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Any (\i default\i0 )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ca87b2e2-9f38-4793-9802-ee05ea0f1115</UniqueID>
+    <ParentID>ST-6b13aaf1-c666-4ad4-b526-a0cb7e4a0253</ParentID>
+    <Description>$0.00</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 $0.00\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8e91e2cc-dc17-456c-b330-ed1ab32b39a2</UniqueID>
+    <ParentID>ST-a441c4b4-eafc-4b01-8f4e-6606ebc40326</ParentID>
+    <Description>Info and controls below the grid:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Info and controls below the grid:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-86205c7a-a775-419e-9a87-40e578ed0d7d</UniqueID>
+    <ParentID>ST-8e91e2cc-dc17-456c-b330-ed1ab32b39a2</ParentID>
+    <Description>Batch amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Batch amount\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-25ffc5d1-4c3c-41d4-a6e2-e0188cd3a37b</UniqueID>
+    <ParentID>ST-8e91e2cc-dc17-456c-b330-ed1ab32b39a2</ParentID>
+    <Description>Payment amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Payment amount\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2c87c1f1-57f3-4785-a9af-c5ccaf456752</UniqueID>
+    <ParentID>ST-8e91e2cc-dc17-456c-b330-ed1ab32b39a2</ParentID>
+    <Description>Batch Balance Billing</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Batch \cf2 Balance Billing\cf1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-58b660ad-5a31-49ac-b21e-2912b0bc8b37</UniqueID>
+    <ParentID>ST-8e91e2cc-dc17-456c-b330-ed1ab32b39a2</ParentID>
+    <Description>'Close Batch' button</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 'Close Batch' button\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-48930653-9196-4953-b8a7-3da9a19b9b82</UniqueID>
+    <ParentID>MSS-d916e136-4561-4f6f-a8da-e8feddb52d36</ParentID>
+    <Description>The system also displays a grid with the list of encounters. For each encounter, the system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system also displays a grid with the list of encounters. For each encounter, the system displays:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e0343eba-dd40-4fd5-a1ec-755df7614d5a</UniqueID>
+    <ParentID>ST-48930653-9196-4953-b8a7-3da9a19b9b82</ParentID>
+    <Description>Basic info:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Basic info:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1971e3f0-28d9-4f77-bd5f-15eb044b7c2f</UniqueID>
+    <ParentID>ST-e0343eba-dd40-4fd5-a1ec-755df7614d5a</ParentID>
+    <Description>Encounter code</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Encounter code\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6c98cc85-1b14-4cbd-be6a-2e99bd26459d</UniqueID>
+    <ParentID>ST-e0343eba-dd40-4fd5-a1ec-755df7614d5a</ParentID>
+    <Description>Date of Service</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Date of Service\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-06a60d78-4bfb-421b-82b0-58e2e021ec03</UniqueID>
+    <ParentID>ST-e0343eba-dd40-4fd5-a1ec-755df7614d5a</ParentID>
+    <Description>Patient name</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\cf2\ulnone  name\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-538fa55d-6c26-4521-958d-31d6dc614070</UniqueID>
+    <ParentID>ST-e0343eba-dd40-4fd5-a1ec-755df7614d5a</ParentID>
+    <Description>Patient's date of birth</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\cf2\ulnone 's date of birth\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-36e02863-4a05-475e-809f-ffb8ae4b8a2b</UniqueID>
+    <ParentID>ST-48930653-9196-4953-b8a7-3da9a19b9b82</ParentID>
+    <Description>'Warnings' column that contains icons for:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 'Warnings' column that contains icons for:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0f932d73-2b38-48b9-8bf5-80787f2b30cc</UniqueID>
+    <ParentID>ST-36e02863-4a05-475e-809f-ffb8ae4b8a2b</ParentID>
+    <Description>Warnings - show the list of encounter warnings along with links to specific line items.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Warnings - show the list of encounter warnings along with links to specific \cf1 line items\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3892d849-9853-41f2-b1b6-0ef8585e7c6c</UniqueID>
+    <ParentID>ST-36e02863-4a05-475e-809f-ffb8ae4b8a2b</ParentID>
+    <Description>Errors - show the list of encounter errors along with links to specific line items.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Errors - show the list of encounter errors along with links to specific \cf1 line items\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f12677aa-15ee-4738-b0f3-3e37226c7c5e</UniqueID>
+    <ParentID>ST-36e02863-4a05-475e-809f-ffb8ae4b8a2b</ParentID>
+    <Description>Remarks - show the list of remarks on hover:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Remarks - show the list of remarks on hover:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-730800a7-0438-4a58-a77d-3ddb8035795e</UniqueID>
+    <ParentID>ST-f12677aa-15ee-4738-b0f3-3e37226c7c5e</ParentID>
+    <Description>Informational remarks (these are applied on the encounter level)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Informational remarks (these are applied on the encounter level)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-675ffb78-020f-46fc-97b9-4d2c55b828db</UniqueID>
+    <ParentID>ST-f12677aa-15ee-4738-b0f3-3e37226c7c5e</ParentID>
+    <Description>Supplemental remarks (these are applied to specific line items and must contains links to those line items).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Supplemental remarks (these are applied to specific \cf1 line items\cf2  and must contains links to those \cf1 line items\cf2 ).\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-47581aa9-7274-41c7-819a-9c7537c63f0c</UniqueID>
+    <ParentID>ST-48930653-9196-4953-b8a7-3da9a19b9b82</ParentID>
+    <Description>Total payment amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Total payment amount\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-666362f7-a8a2-4ebe-8267-dfd015a6f4f3</UniqueID>
+    <ParentID>MSS-d916e136-4561-4f6f-a8da-e8feddb52d36</ParentID>
+    <Description>User can:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User can:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cbc900c7-407f-42b5-b3c2-dc33345a2a78</UniqueID>
+    <ParentID>ST-48930653-9196-4953-b8a7-3da9a19b9b82</ParentID>
+    <Description>Total adjustment amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Total \cf2 adjustment\cf1  amount\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6f89b12a-e365-4eb3-8568-5015ecc2506a</UniqueID>
+    <ParentID>ST-48930653-9196-4953-b8a7-3da9a19b9b82</ParentID>
+    <Description>Total amount of patient responsibility</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Total amount of \cf2\ul patient\ulnone  responsibility\cf1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1350ff55-1100-4538-b7d3-813b38c2a058</UniqueID>
+    <ParentID>ST-48930653-9196-4953-b8a7-3da9a19b9b82</ParentID>
+    <Description>Total amount of payer responsibility (note that this is not balance, it's the money that hasn't been transferred out of the Payer's bucket)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Total amount of \cf2 payer\cf1  responsibility (note that this is not balance, it's the money that hasn't been transferred out of the \cf2 Payer\cf1 's bucket)\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fd3960e4-4d9c-483b-b4bb-272a1b4bb6c8</UniqueID>
+    <ParentID>MSS-957efb38-4cb4-43e3-9e91-fd755f2b23c5</ParentID>
+    <Description>The system receives adjustment code 225 (Penalty or Interest Payment by Payer) for an encounter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system receives \cf2 adjustment\cf1  code \b 225 \b0 (Penalty or \cf2 Interest Payment\cf1  by \cf2 Payer\cf1 ) for an encounter.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-de7701c9-1f99-4453-ae9c-517aaba0ba64</UniqueID>
+    <ParentID>MSS-957efb38-4cb4-43e3-9e91-fd755f2b23c5</ParentID>
+    <Description>The system automatically creates an interest charge for specified amount and adds it to the charge list (same as if it was created manually).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system automatically creates an interest charge for specified amount and adds it to the charge list (same as if it was created manually).\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-defa17e3-df46-45fe-8132-6cbfa07e6249</UniqueID>
+    <ParentID>MSS-957efb38-4cb4-43e3-9e91-fd755f2b23c5</ParentID>
+    <Description>If the system cannot create an interest charge for any reason, the system must display an error "Cannot create interest charge. Please correct the issue, open payment posting screen and add the charge manually.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If the system cannot create an interest charge for any reason, the system must display an error "Cannot create interest charge. Please correct the issue, open payment posting screen and add the charge manually.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d7fc1809-210e-4e32-a352-a35f170b2f02</UniqueID>
+    <ParentID>ST-defa17e3-df46-45fe-8132-6cbfa07e6249</ParentID>
+    <Description>User corrects the issue in the Admin interface.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User corrects the issue in \cf1 the Admin interface.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c1eed6f3-c71b-4720-83d3-14d9f50efb75</UniqueID>
+    <ParentID>ST-defa17e3-df46-45fe-8132-6cbfa07e6249</ParentID>
+    <Description>User opens payment posting with that encounter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens payment posting with that encounter.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3e950d81-fb20-4adb-b571-1fdfc053b055</UniqueID>
+    <ParentID>ST-defa17e3-df46-45fe-8132-6cbfa07e6249</ParentID>
+    <Description>The system modifies display to include manual version of Interest charge creation (amount must be pre-filled)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system \cf1 modifies display to include manual version of Interest charge creation (amount must be pre-filled)\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-48a420bb-435f-4ad4-b58d-db2f44ac9959</UniqueID>
+    <ParentID>ST-defa17e3-df46-45fe-8132-6cbfa07e6249</ParentID>
+    <Description>User creates interest charge.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User creates interest charge.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4916fd80-36f6-4116-ad49-641c513d3b21</UniqueID>
+    <ParentID>ST-defa17e3-df46-45fe-8132-6cbfa07e6249</ParentID>
+    <Description>The system adds interest charge and hides manual "Add Interest Charge" control.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system adds interest charge and hides manual "Add Interest Charge" control.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-14119fab-68e3-45b9-897b-906599feba54</UniqueID>
+    <ParentID>ST-defa17e3-df46-45fe-8132-6cbfa07e6249</ParentID>
+    <Description>If interest charge still cannot be created, show an error (the batch will be out of balance for that amount)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If interest charge still cannot be created, show an error (the batch will be out of balance for that amount)\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7ca44af9-4243-41c9-9312-37fe6ce26bd8</UniqueID>
+    <ParentID>ST-666362f7-a8a2-4ebe-8267-dfd015a6f4f3</ParentID>
+    <Description>Open line item from a warning/error/remark overlay</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Open \cf1 line item\cf2  from a warning/error/remark overlay\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4f62c5a8-1313-4640-a954-c1a6e3e1882a</UniqueID>
+    <ParentID>ST-666362f7-a8a2-4ebe-8267-dfd015a6f4f3</ParentID>
+    <Description>Open encounter from the "Unable to post interest charge" error overlay</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Open encounter from the "Unable to post interest charge" error overlay\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ea2b8161-47fc-4d4b-9a40-71b566293aa4</UniqueID>
+    <ParentID>MSS-f74cfb7f-14e7-4591-b967-8087b2a88864</ParentID>
+    <Description>The system displays ERA batch details in tow sections:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays ERA batch details in tow sections:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-33aa2ca2-4896-486c-b4f5-c51e3e97bc57</UniqueID>
+    <ParentID>ST-ea2b8161-47fc-4d4b-9a40-71b566293aa4</ParentID>
+    <Description>General batch info</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 General batch info\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b2fa7ee3-6446-41a5-9579-82870d573e74</UniqueID>
+    <ParentID>ST-ea2b8161-47fc-4d4b-9a40-71b566293aa4</ParentID>
+    <Description>Detailed claims info</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Detailed claims info\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</UniqueID>
+    <ParentID>MSS-f74cfb7f-14e7-4591-b967-8087b2a88864</ParentID>
+    <Description>In the General Batch Info section, the system shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 In the General Batch Info section, the system shows:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-36b74d18-f87a-43c7-9aa5-f5a83af791d8</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Batch name (auto-generated)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Batch name (auto-generated)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b128a200-3cfc-41f9-a1fe-c5716a742244</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Check #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Check #\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-921b207a-733c-4165-9cfa-421263c4658d</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Bank Deposit Date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Bank Deposit Date\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dc8805fd-0e58-4bd9-b521-aeb339f8eeba</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Sender DFI Identifier</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Sender DFI Identifier\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-be5290ee-9799-4aa6-b456-28f6fcf43503</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Sender Bank Account #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Sender Bank Account #\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fe699bce-9c33-4464-8cb7-f4576c90b0e7</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Provider Bank ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Provider Bank ID\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8bcfbcab-155f-486c-98c9-8e94d6aaf0f7</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Provider Bank Account #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Provider Bank Account #\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-13a24efd-1cf3-4aff-92e6-a1dec151e7f2</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Total Payment Amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Total Payment Amount\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-99f83c5a-0716-4fcf-9754-672b3c05eedb</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Payer</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Payer\cf0\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2e5b55bf-9845-4a31-ba7e-9879e5c7adf0</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Payee</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Payee\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f52b7244-cdea-4ee4-92a1-d311df0f1793</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Closed on</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Closed on\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7bda1e4e-a16f-4c53-b94f-5b5fe169f2f0</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Closed by</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Closed by\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</UniqueID>
+    <ParentID>MSS-f74cfb7f-14e7-4591-b967-8087b2a88864</ParentID>
+    <Description>In the Detailed claims info section, the system displays the list of received transactions grouped by patient. For each patient, the system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 In the Detailed claims info section, the system displays the list of received transactions grouped by \cf1\ul patient\cf2\ulnone . For each \cf1\ul patient\cf2\ulnone , the system displays:\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-19ea2424-036c-4738-95ae-6fad02b0edd1</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>Batch Balance</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Batch \cf1 Balance\cf0\par
+}
+</RichDescription>
+    <Sequence>12</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7e8ab77a-bfe5-4050-87fa-05c98876c440</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>'Review batch' button - opens UC-74-4</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 'Review batch' button - opens \cf1\ul UC-74-4\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>13</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-46fd0d0b-80d3-4ada-b77a-f937d4aba2f1</UniqueID>
+    <ParentID>ST-02fcf0b6-5aae-4b7d-b6f2-9d69b6028d20</ParentID>
+    <Description>'Back to ERA Batches' button - opens UC-74-2</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 'Back to ERA Batches' button - opens \cf1\ul UC-74-2\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>14</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4d06f877-8746-401d-8ddd-f7ffda1e3031</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Consecutive number</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Consecutive number\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2e0c6a8d-e9ca-4406-85aa-7fc0f5c8e899</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Patient name</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\cf2\ulnone  name\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fe05d07c-432f-4c51-934d-47fc1f0dfb06</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Claim Reference ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Claim Reference ID\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-852abb33-c4dc-4c1e-858e-1d91e03c8f7a</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Total payment amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Total payment amount\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c721cdb4-b004-43aa-a64a-21e4463923b4</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Encounter ID(s)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Encounter ID(s)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ca170584-8bf0-4026-9840-09fc901fe375</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Total Claim Charge</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Total Claim Charge\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-18212859-4b96-4981-aed4-9a2d6d53187b</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Total Payment Amount (repeated)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Total Payment Amount (repeated)\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f7dc987e-caa1-4278-8658-2f2366bb9170</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Patient Responsibility</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Patient Responsibility\cf0\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-76220825-b7b1-4381-b280-0368d394e8dc</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Claim Filing Indicator Code</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Claim Filing Indicator Code\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0a27d309-ee0a-4f0a-9a08-081f65ea84ed</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Payer Claim Control #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Payer\cf0  Claim Control #\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5a100c5c-0b10-4bc0-863c-5936c9606ec6</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Facility Type Code</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Facility Type Code\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b19d8fe4-cb75-47c9-9c68-54f114a7dd9c</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>[Payment] Status</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [Payment] Status\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e5cc9c7e-5b64-49d6-a0fe-b755e3799a96</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Patient Name (Last, First)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\cf0\ulnone  Name (Last, First)\par
+}
+</RichDescription>
+    <Sequence>12</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1aba23a0-58f8-452f-8a2d-98e0bb8f4fac</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Patient ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\cf0\ulnone  ID\par
+}
+</RichDescription>
+    <Sequence>13</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-eac6e8eb-b92d-42ce-8b46-ba64c7437841</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Insured Name (Last, First)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Insured Name (Last, First)\par
+}
+</RichDescription>
+    <Sequence>14</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-436404da-e94f-4c70-b039-711929a3c84a</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Insured ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Insured ID\par
+}
+</RichDescription>
+    <Sequence>15</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-117e3836-4a3c-4112-af3b-e7ac5dd9d549</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Claim Received [date]</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Claim Received [date]\par
+}
+</RichDescription>
+    <Sequence>16</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-500187d3-ea38-4d5f-992c-b88360efb58c</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Payer's Phone #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Payer\cf0 's Phone #\par
+}
+</RichDescription>
+    <Sequence>17</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-65844e32-62b7-44b1-b80a-edd34b97e20f</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>The list of Informational remarks (if applicable, otherwise the section is hiddent)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The list of Informational remarks (if applicable, \cf1 otherwise the section is hiddent)\cf0\par
+}
+</RichDescription>
+    <Sequence>18</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-025325de-7734-4b43-b3ab-294ed4bde059</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Detailed view of the claims. For each line item, the system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Detailed view of the claims. For each \cf1 line item\cf2 , the system displays:\cf0\par
+}
+</RichDescription>
+    <Sequence>19</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5be0d3ec-b977-40c9-a4d6-101c3fe09c02</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>Claim ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Claim ID\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3cfdb339-f900-4855-b15e-f58314cfb8b6</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>Service Date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Service Date\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b2c6aaea-6b39-4afd-8b5c-db6acb802eb9</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>CPT Code (also a link that opens ERA Payment screen in a new tab)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 CPT Code\cf2  (also a link that opens ERA Payment screen in a new tab)\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6ed9684b-f2fc-4444-9324-0965abe18e92</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>Units</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Units\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-649c88d3-4684-4db8-b647-e48413b17dc4</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>Modifiers</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Modifiers\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-33c7c45f-bd8d-468e-b528-bf9e9e72e203</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>Billed amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Billed amount\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-36911af3-a89e-4120-bfa8-6915b61132c1</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>Allowed Amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Allowed Amount\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-931f5f30-c447-4d7a-bfce-09c2f2a14aad</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>Not allowed amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Not \cf1 allowed amount\cf0\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8cf62c9e-19eb-4732-ae56-29b80fa480d9</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>Supplemental Remark codes (if applicable)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Supplemental Remark codes (if applicable)\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b97cefeb-17fa-4bb8-8526-e487c5aed906</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>Deductible amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Deductible\cf2  amount\cf0\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4c2bb191-ede8-4b4d-b4c9-acc4e211c7aa</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>Copay amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Copay\cf2  amount\cf0\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-52cd0efc-e49b-4240-82ff-24c6898aedf3</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>Coinsurance amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Coinsurance\cf2  amount\cf0\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-be77ad6d-deee-4c77-be89-18e56546b9dd</UniqueID>
+    <ParentID>ST-025325de-7734-4b43-b3ab-294ed4bde059</ParentID>
+    <Description>Payment amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Payment amount\par
+}
+</RichDescription>
+    <Sequence>12</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-572558f4-ab28-4316-9647-b9093f8b1821</UniqueID>
+    <ParentID>MSS-f74cfb7f-14e7-4591-b967-8087b2a88864</ParentID>
+    <Description>User can:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User can:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-feed3540-6284-473d-87e9-0b38b6f1a20a</UniqueID>
+    <ParentID>ST-572558f4-ab28-4316-9647-b9093f8b1821</ParentID>
+    <Description>Find a patient in the list by patient name or encounter ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Find a \cf2\ul patient\cf1\ulnone  in the list by \cf2\ul patient\cf1\ulnone  name or encounter ID\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ea6583d5-7746-4bfd-8f96-d1176ff2f5c8</UniqueID>
+    <ParentID>ST-572558f4-ab28-4316-9647-b9093f8b1821</ParentID>
+    <Description>Open ERA batch Review - UC-74-4</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Open ERA batch Review - \cf1\ul UC-74-4\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-65466374-d770-422b-b9c0-40604323e1e3</UniqueID>
+    <ParentID>ST-572558f4-ab28-4316-9647-b9093f8b1821</ParentID>
+    <Description>Open ERA Payment screen in a new tab by clicking a CPT - UC-74-6</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Open ERA Payment screen in a new tab by clicking a CPT - \cf1\ul UC-74-6\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4055f12a-b638-43fd-99d0-9f4b80d75631</UniqueID>
+    <ParentID>MSS-abc5473d-4fc4-44f0-b3e6-0335e590e124</ParentID>
+    <Description>User clicks "Restore ERA Data"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clicks "Restore ERA Data"\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a53c5035-ac76-4012-a541-7b9f0aead6c5</UniqueID>
+    <ParentID>MSS-abc5473d-4fc4-44f0-b3e6-0335e590e124</ParentID>
+    <Description>The system restores payment info to its initial state (the way it arrived in the ERA). Any changes made to the line item by the user are discarded.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system restores payment info to its initial state (the way it arrived in the ERA). Any changes made to the \cf1 line item\cf2  by the user are discarded.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2adebd3f-b84d-48ee-bb4d-452d0b710cb1</UniqueID>
+    <ParentID>MSS-851060f8-b6b2-47ab-8ebd-c28d52468757</ParentID>
+    <Description>User opens ERA payment screen.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens ERA payment screen.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-df42f1ac-bb0c-4705-9b7c-fad56665e461</UniqueID>
+    <ParentID>MSS-851060f8-b6b2-47ab-8ebd-c28d52468757</ParentID>
+    <Description>The system displays payment screen that is very similar to manual payment posting screen with a few differences:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays payment screen that is very similar to manual payment posting screen with a few differences:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-acf082bd-1f1e-4e26-acbd-4dd7e8c3862c</UniqueID>
+    <ParentID>ST-df42f1ac-bb0c-4705-9b7c-fad56665e461</ParentID>
+    <Description>"Apply per-diem" controls are not available</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 "Apply per-diem" controls are not available\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e04308d2-d0fc-4a20-8f36-0c3119bfff9d</UniqueID>
+    <ParentID>ST-df42f1ac-bb0c-4705-9b7c-fad56665e461</ParentID>
+    <Description>"Add interest charge" controls are not available, unless an interest payment came via ERA, but the system was unable to create the charge automatically.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 "Add interest charge" controls are not available, unless an \cf1 interest payment\cf2  came via ERA, but the system was unable to create the charge automatically.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3fb4fa6b-6776-4ac4-bb65-be97cd6dfc8a</UniqueID>
+    <ParentID>ST-df42f1ac-bb0c-4705-9b7c-fad56665e461</ParentID>
+    <Description>Abovementioned sections are replaces with ERA payment info on the line item level:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Abovementioned sections are replaces with ERA payment info on the \cf1 line item\cf2  level:\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b6bd3676-6b58-4aaf-b145-ff3509f137b6</UniqueID>
+    <ParentID>ST-3fb4fa6b-6776-4ac4-bb65-be97cd6dfc8a</ParentID>
+    <Description>Claim ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Claim ID\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-567c419c-a0a6-4974-8aea-99de1766b9ec</UniqueID>
+    <ParentID>ST-3fb4fa6b-6776-4ac4-bb65-be97cd6dfc8a</ParentID>
+    <Description>CPT Code (Units) Modifiers</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 CPT Code\cf2  (Units) \cf1 Modifiers\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-33db7b1a-9a1f-4148-bbf3-ebd195db28d7</UniqueID>
+    <ParentID>ST-3fb4fa6b-6776-4ac4-bb65-be97cd6dfc8a</ParentID>
+    <Description>Amount billed to Payer</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Amount billed to \cf1 Payer\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8a2be3ff-1b73-4b26-b99e-59dcb2c1a839</UniqueID>
+    <ParentID>ST-3fb4fa6b-6776-4ac4-bb65-be97cd6dfc8a</ParentID>
+    <Description>Allowed Amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Allowed Amount\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b9200d89-9920-4fc4-b808-149c49835a0d</UniqueID>
+    <ParentID>ST-3fb4fa6b-6776-4ac4-bb65-be97cd6dfc8a</ParentID>
+    <Description>Not allowed amount (lists specific adjustment amounts along with codes). Show code description on hover.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Not \cf1 allowed amount\cf2  (lists specific \cf1 adjustment\cf2  amounts along with codes). Show code description on hover.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bd432433-8c51-474f-833d-426e1d48b9d1</UniqueID>
+    <ParentID>ST-3fb4fa6b-6776-4ac4-bb65-be97cd6dfc8a</ParentID>
+    <Description>Patient transfer amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\cf2\ulnone  transfer amount\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d8e8695c-6e4b-48c5-aaaa-d983ffdf465f</UniqueID>
+    <ParentID>ST-3fb4fa6b-6776-4ac4-bb65-be97cd6dfc8a</ParentID>
+    <Description>Payment amount</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Payment amount\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a4f27e54-b8cf-44ee-bc62-f8d530275bcc</UniqueID>
+    <ParentID>ST-3fb4fa6b-6776-4ac4-bb65-be97cd6dfc8a</ParentID>
+    <Description>The list of supplemental remark codes. Show remark description on hover.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The list of supplemental remark codes. \cf1 Show remark description on hover.\cf0\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0e59846e-0c24-409a-8be9-df1c0b1e7c9f</UniqueID>
+    <ParentID>ST-df42f1ac-bb0c-4705-9b7c-fad56665e461</ParentID>
+    <Description>If "other" patient transfer reasons are specified, the are shown as read-only, user cannot add new ones, only edit amounts.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If "other" \cf2\ul patient\cf1\ulnone  transfer reasons are specified, the are shown as read-only, user cannot add new ones, only edit amounts.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-340d5e19-bb98-4cc4-8db7-8288ea519885</UniqueID>
+    <ParentID>ST-256c985b-d6b6-4ef6-b1f3-cc3da5ed7944</ParentID>
+    <Description>Warnings filter (works in conjunction with the "Errors only" filter):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Warnings filter (works in conjunction with the "Errors only" filter):\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9478308c-fc8c-441c-957d-7c87345d9879</UniqueID>
+    <ParentID>ST-340d5e19-bb98-4cc4-8db7-8288ea519885</ParentID>
+    <Description>Show All (default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Show All (\i default\i0 )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d25bfcba-123a-4732-a453-ee50409885b3</UniqueID>
+    <ParentID>ST-340d5e19-bb98-4cc4-8db7-8288ea519885</ParentID>
+    <Description>Remarks only</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Remarks only\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2d3adeb7-1d17-4fb0-8dde-09b699f8def6</UniqueID>
+    <ParentID>X-010bbb29-af23-4005-a0e9-1f374a2252cf</ParentID>
+    <Description>The system still posts that adjustment / reason, but only the code (no description)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system still posts that \cf1 adjustment\cf2  / reason, but only the code (no description)\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5c15ffb2-f246-48f5-b761-a20309124a6b</UniqueID>
+    <ParentID>X-010bbb29-af23-4005-a0e9-1f374a2252cf</ParentID>
+    <Description>The system also highlights invalid code with red.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system also highlights invalid code with red.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f0bd0d6f-6ceb-489b-92de-7fdce1e086b6</UniqueID>
+    <ParentID>MSS-22a9b1f3-2bf4-4411-a0d3-6027528b3b49</ParentID>
+    <Description>On the Review screen, the system shows the encounters in the same order as they are listed in the ERA. The only exception is when ERA contains payments for encounters that we do not have - in this case show non-found encounters at the bottom of the list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 On the Review screen, the system shows the encounters in the same order as they are listed in the ERA. The only exception is when ERA contains payments for encounters that we do not have - in this \cf1 case\cf2  show non-found encounters at the bottom of the list.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-70452965-3d3b-444c-86c7-773a9cfce161</UniqueID>
+    <ParentID>X-4b832b50-4314-49af-a6bd-c47f514716f7</ParentID>
+    <Description>The system shows such encounters at the bottom of the Review list in red font.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system shows such encounters at the bottom of the Review list in red font.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fd14f83a-9b09-4e33-986a-61884bf9217c</UniqueID>
+    <ParentID>X-4b832b50-4314-49af-a6bd-c47f514716f7</ParentID>
+    <Description>Responsibility cells are filled with "n/a".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Responsibility cells are filled with "n/a".\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f79dfbb3-1b2c-4545-9bb3-82c128fafbaa</UniqueID>
+    <ParentID>X-8861d164-3e0b-458b-bb75-4bd04f7f37b6</ParentID>
+    <Description>The system shows such encounters at the bottom of the list with a red header bar.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system shows such encounters at the bottom of the list with a red header bar.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-043edf19-1566-4112-bea8-ea8f7117b44b</UniqueID>
+    <ParentID>X-4b832b50-4314-49af-a6bd-c47f514716f7</ParentID>
+    <Description>"Open payment posting" icon is not available.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Open payment posting" icon is not available.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4bfc8fe8-e55d-4b6c-9d64-a87cb6c33e30</UniqueID>
+    <ParentID>ST-48930653-9196-4953-b8a7-3da9a19b9b82</ParentID>
+    <Description>Actions:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Actions:\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-294d507d-8dc4-40c5-9952-7b305f7b4f06</UniqueID>
+    <ParentID>ST-4bfc8fe8-e55d-4b6c-9d64-a87cb6c33e30</ParentID>
+    <Description>Open payment posting screen for encounter UC-74-6</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Open payment posting screen for encounter \cf1\ul UC-74-6\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d287773b-b34d-4071-af37-924c6df64f0b</UniqueID>
+    <ParentID>ST-4bfc8fe8-e55d-4b6c-9d64-a87cb6c33e30</ParentID>
+    <Description>Open ERA details in a dialog (opens the same form as on the ERA details page, but only for that encounter)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Open ERA details in a dialog (opens the same form as on the ERA details page, but only for that encounter)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-010bbb29-af23-4005-a0e9-1f374a2252cf</UniqueID>
+    <ParentID>ST-4b39abcf-f217-486d-803b-84e297d3ce77</ParentID>
+    <Description>The system cannot find a valid CARC/RARC code.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system cannot \cf1 find a valid CARC/RARC code.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-4b832b50-4314-49af-a6bd-c47f514716f7</UniqueID>
+    <ParentID>ST-48930653-9196-4953-b8a7-3da9a19b9b82</ParentID>
+    <Description>Encounter was not found in AgileRPM</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Encounter was not found in AgileRPM\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-8861d164-3e0b-458b-bb75-4bd04f7f37b6</UniqueID>
+    <ParentID>ST-ebc8c6ec-7105-4ed1-89c3-28da0dfdea94</ParentID>
+    <Description>Encounter was not found in AgileRPM</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Encounter was not found in AgileRPM\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <ExternalDoc>
+    <UniqueID>EX-1cebdc3a-a1ff-455d-96e6-68d15a1af7e6</UniqueID>
+    <ParentID>REQ-73e053e7-18a9-4a54-bb81-b4c25f2127bb</ParentID>
+    <Name>https://agilerpm.teamwork.com/files/613604</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-57927a67-01c8-47a0-bcd1-27517e4c0b5f</UniqueID>
+    <ParentID>UC-1d76e5bf-a332-479b-a2c4-b49500639bdd</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=electronic_remittance_batches</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-e7d26db5-e7f0-464d-b9c6-e208dd8b5271</UniqueID>
+    <ParentID>UC-6352b5e0-8453-4a7a-a1ac-f819d36615c2</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=electronic_remittance_batches</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-1058199a-f49d-48de-9950-25cc3b23178d</UniqueID>
+    <ParentID>UC-5d75184b-3b0e-4f25-a56d-651d01a5de6c</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=electronic_remittance_batches</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-13c27279-e1df-4283-9ec7-c8b3339884be</UniqueID>
+    <ParentID>UC-831911b7-04d6-494c-a804-4b1f82b2843c</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=era_batch_review</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-61e50dea-19a4-410b-bf4d-62e011b5ea02</UniqueID>
+    <ParentID>UC-28c1ebc6-323b-4b18-a051-3525432fdee0</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=open_era_batch_details</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-27d84193-b217-4ca0-ac54-82de9a4709d5</UniqueID>
+    <ParentID>UC-a11a1866-ee61-4e1c-a67e-c8cb020c2054</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=era_payment_posting</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-c2871e3c-cd2f-47ee-9b8d-e529d206559b</UniqueID>
+    <ParentID>UC-7a112d81-ca59-40a0-8efa-35730ff9057d</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=era_batch_review</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-ce7ee5de-d949-4ed8-99bb-a7b593cfe0d2</UniqueID>
+    <ParentID>UC-3797d285-058b-4e4d-86f4-b8e19d5e4b71</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=era_payment_posting</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-fdcff51b-2fff-4b30-84b3-a6b674f4ffbe</UniqueID>
+    <ParentID>UC-a65f7cd6-2c82-49dd-b526-6e3032fb6552</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=era_payment_posting</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-74-</DefaultPrefix>
+    <NextValue>10</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-74-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-74-</DefaultPrefix>
+    <NextValue>11</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-74-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <ReqReq>
+    <ParentID>REQ-e112e13c-1e90-4868-a6ac-2041d5bf3684</ParentID>
+    <ReqID>REQ-34b9616e-4f0e-45fd-924c-f53f28dc4662</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-e112e13c-1e90-4868-a6ac-2041d5bf3684</ParentID>
+    <ReqID>REQ-73e053e7-18a9-4a54-bb81-b4c25f2127bb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-e112e13c-1e90-4868-a6ac-2041d5bf3684</ParentID>
+    <ReqID>REQ-285ac715-7316-4402-b8c5-39de22c5c2c5</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-34b9616e-4f0e-45fd-924c-f53f28dc4662</ParentID>
+    <ReqID>REQ-d7e3cfeb-ab17-4595-9e89-90a43984c34f</ReqID>
+  </ReqReq>
+</UCTDataSet>

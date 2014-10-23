@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="yes"?>
+<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+  <UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+    <Project diffgr:id="Project1" msdata:rowOrder="0" diffgr:hasChanges="modified">
+      <TrackChanges>true</TrackChanges>
+    </Project>
+    <Package diffgr:id="Package1" msdata:rowOrder="0">
+      <UniqueID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</UniqueID>
+      <Name>AgilityHealth</Name>
+    </Package>
+    <ElementStub diffgr:id="ElementStub1" msdata:rowOrder="0" diffgr:hasChanges="modified">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>Practice Management Enhancements.ucp</Path>
+      <ElementID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</ElementID>
+      <Sequence>1</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub2" msdata:rowOrder="1" diffgr:hasChanges="modified">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>Changes to Current AgilePM System.ucp</Path>
+      <ElementID>P-0d723467-2755-4618-9d98-cefd340866b7</ElementID>
+      <Sequence>2</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub3" msdata:rowOrder="2" diffgr:hasChanges="modified">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>Postponed Features &amp; Functionality.ucp</Path>
+      <ElementID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ElementID>
+      <Sequence>3</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub4" msdata:rowOrder="3" diffgr:hasChanges="modified">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>AgilePM Admin Updates.ucp</Path>
+      <ElementID>P-0bb4a509-e5a9-4b76-bb65-bad68d4d1867</ElementID>
+      <Sequence>4</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub6" msdata:rowOrder="5" diffgr:hasChanges="modified">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>Existing Functionality.ucp</Path>
+      <ElementID>P-3ac69849-9ce1-452e-8677-00b88688fdfa</ElementID>
+      <Sequence>5</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub7" msdata:rowOrder="6" diffgr:hasChanges="modified">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>_Implemented admin changes.ucp</Path>
+      <ElementID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ElementID>
+      <Sequence>6</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub9" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>Phase 2.ucp</Path>
+      <ElementID>P-de69eecc-92f2-42fb-8a8c-7eaca321fe84</ElementID>
+      <Sequence>7</Sequence>
+    </ElementStub>
+  </UCTDataSet>
+  <diffgr:before>
+    <Project diffgr:id="Project1" msdata:rowOrder="0" xmlns="http://serliosoft.com/UCTData.xsd">
+      <TrackChanges>false</TrackChanges>
+    </Project>
+    <ElementStub diffgr:id="ElementStub1" msdata:rowOrder="0" xmlns="http://serliosoft.com/UCTData.xsd">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>Practice Management Enhancements.ucp</Path>
+      <ElementID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</ElementID>
+      <Sequence>2</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub2" msdata:rowOrder="1" xmlns="http://serliosoft.com/UCTData.xsd">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>Changes to Current AgilePM System.ucp</Path>
+      <ElementID>P-0d723467-2755-4618-9d98-cefd340866b7</ElementID>
+      <Sequence>3</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub3" msdata:rowOrder="2" xmlns="http://serliosoft.com/UCTData.xsd">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>Postponed Features &amp; Functionality.ucp</Path>
+      <ElementID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ElementID>
+      <Sequence>4</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub4" msdata:rowOrder="3" xmlns="http://serliosoft.com/UCTData.xsd">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>AgilePM Admin Updates.ucp</Path>
+      <ElementID>P-0bb4a509-e5a9-4b76-bb65-bad68d4d1867</ElementID>
+      <Sequence>5</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub5" msdata:rowOrder="4" xmlns="http://serliosoft.com/UCTData.xsd">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>Revenue Cycle Dept Processing.ucp</Path>
+      <ElementID>P-fcc77e88-3e4d-4c1c-b96e-de0959092e51</ElementID>
+      <Sequence>1</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub6" msdata:rowOrder="5" xmlns="http://serliosoft.com/UCTData.xsd">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>Existing Functionality.ucp</Path>
+      <ElementID>P-3ac69849-9ce1-452e-8677-00b88688fdfa</ElementID>
+      <Sequence>6</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub7" msdata:rowOrder="6" xmlns="http://serliosoft.com/UCTData.xsd">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>_Implemented admin changes.ucp</Path>
+      <ElementID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ElementID>
+      <Sequence>7</Sequence>
+    </ElementStub>
+    <ElementStub diffgr:id="ElementStub8" msdata:rowOrder="7" xmlns="http://serliosoft.com/UCTData.xsd">
+      <ParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ParentID>
+      <Path>Security Model.ucp</Path>
+      <ElementID>P-0995f0ca-2e4a-4ec0-88a3-b47cd4ef1a78</ElementID>
+      <Sequence>8</Sequence>
+    </ElementStub>
+  </diffgr:before>
+</diffgr:diffgram>

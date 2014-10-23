@@ -1,0 +1,394 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.4927</SavedWith>
+    <CreatedWith>8.0.4836</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-614a96dd-fb2c-492a-8897-6ac5844d6d90</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-614a96dd-fb2c-492a-8897-6ac5844d6d90</UniqueID>
+    <ExternalParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ExternalParentID>
+    <Name>PIN &amp; Signatures v2</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-c294fc8d-9670-4e4f-b5eb-ba313f747e50</UniqueID>
+    <UserID>UC-24-4</UserID>
+    <ParentID>P-614a96dd-fb2c-492a-8897-6ac5844d6d90</ParentID>
+    <Name>Create signature record</Name>
+    <Description>Admin creates signature record for a clinician</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Admin\cf2  creates signature record for a clinician\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>1. Admin has the Create User Signature Record permission
+2. Account in question has a linked AgilePM account and that AgilePM account is a Clinician.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-24T15:53:51.8754895-04:00</DateAdded>
+    <DateModified>2013-04-26T16:37:47.025527-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-e6f91888-9b68-42e0-be58-fcc964dda592</UniqueID>
+    <UserID>UC-24-5</UserID>
+    <ParentID>P-614a96dd-fb2c-492a-8897-6ac5844d6d90</ParentID>
+    <Name>Update signature record</Name>
+    <Description>Admin updates signature record for a clinician</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Admin\cf2  updates signature record for a clinician\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Admin has the Create User Signature Record permission</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-24T15:54:26.0327595-04:00</DateAdded>
+    <DateModified>2013-04-26T16:37:50.8848279-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-fe9a793f-b491-49aa-b520-89f9c88f7fd5</UniqueID>
+    <UserID>UC-24-6</UserID>
+    <ParentID>P-614a96dd-fb2c-492a-8897-6ac5844d6d90</ParentID>
+    <Name>Reset PIN </Name>
+    <Description>Admin reset's user's PIN</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Admin\cf2  reset's user's PIN\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Admin has the Reset User Signature Pin permission</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-24T15:54:41.0015095-04:00</DateAdded>
+    <DateModified>2013-04-26T16:37:55.3378674-04:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-5836c4d6-cb0d-4b2b-8e7e-6dca8cbc79f3</UniqueID>
+    <ParentID>P-614a96dd-fb2c-492a-8897-6ac5844d6d90</ParentID>
+    <Name>PIN &amp; Signatures v2</Name>
+    <Sequence>0</Sequence>
+    <FileName>PIN &amp; Signatures v2.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Scenario>
+    <UniqueID>MSS-82726bb2-4de1-4c50-b287-4a9a5f4a6937</UniqueID>
+    <ParentID>UC-c294fc8d-9670-4e4f-b5eb-ba313f747e50</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-e7c0389b-f0e9-4b62-b97b-f6b4cd932d57</UniqueID>
+    <ParentID>UC-e6f91888-9b68-42e0-be58-fcc964dda592</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-ca3ac338-7ff8-4dc8-9e86-72929af27d27</UniqueID>
+    <ParentID>UC-fe9a793f-b491-49aa-b520-89f9c88f7fd5</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-cc769566-00ad-4804-9925-d2b0e01c9ac8</UniqueID>
+    <UserID>REQ-24-3</UserID>
+    <ParentID>P-614a96dd-fb2c-492a-8897-6ac5844d6d90</ParentID>
+    <Name>Add new permissions</Name>
+    <Description>Implementing this functionality requires two new permissions to be added:
+Create User Signature Record
+Reset User Signature Pin</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Implementing this functionality requires two new permissions to be added:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 Create User Signature Record\par
+{\pntext\f2\'B7\tab}Reset User Signature Pin\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-24T15:50:15.2342443-04:00</DateAdded>
+    <DateModified>2013-04-26T16:37:59.9470135-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a4d3f296-5c4c-44fe-a28c-ffd082635077</UniqueID>
+    <UserID>REQ-24-4</UserID>
+    <ParentID>P-614a96dd-fb2c-492a-8897-6ac5844d6d90</ParentID>
+    <Name>Signature file requirements</Name>
+    <Description>Available formats: ???
+Image resolution: ???
+Max file size: ???</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Available formats: ???\par
+Image resolution: ???\par
+Max file size: ???\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-24T16:06:15.6025084-04:00</DateAdded>
+    <DateModified>2013-04-26T16:38:03.8528885-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-67c4efd6-df14-44c0-a801-e717fe39799b</UniqueID>
+    <ParentID>X-9d048800-d039-4c3c-ace9-a25ad2b5e299</ParentID>
+    <Description>The system does not display the Signature &amp; PIN section in user details.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system does not display the Signature &amp; PIN section in user details.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5482e8ae-4e58-42bc-b491-e636303a3bd4</UniqueID>
+    <ParentID>MSS-82726bb2-4de1-4c50-b287-4a9a5f4a6937</ParentID>
+    <Description>Admin opens details of an existing user in Global User Management system.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Admin\cf2  opens details of an existing user in Global User Management system.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-242b3dd1-a349-4da8-b89b-c01d97fb2a3a</UniqueID>
+    <ParentID>MSS-82726bb2-4de1-4c50-b287-4a9a5f4a6937</ParentID>
+    <Description>Admin selects file to upload and confirms upload.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Admin\cf2  selects file to upload and confirms upload.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-30103b86-81e5-49c3-8c40-abb20b551997</UniqueID>
+    <ParentID>MSS-82726bb2-4de1-4c50-b287-4a9a5f4a6937</ParentID>
+    <Description>The system uploads the image file and displays it to the Admin.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system uploads the image file and displays it to the \cf1 Admin\cf2 .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e5e6a9e1-7501-4237-8af2-5f2dd9883b6f</UniqueID>
+    <ParentID>MSS-82726bb2-4de1-4c50-b287-4a9a5f4a6937</ParentID>
+    <Description>The system generates 4-digit PIN and sends to the user by email.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system generates 4-digit PIN and sends to the user by email.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8be5fdb2-093b-4272-abc4-2cb1d1a2eafc</UniqueID>
+    <ParentID>MSS-82726bb2-4de1-4c50-b287-4a9a5f4a6937</ParentID>
+    <Description>Admin can replace signature (UC-24-2), if needed.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Admin\cf2  can replace signature (\cf1\ul UC-24-2\cf2\ulnone ), if needed.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b1c0046a-8f06-446c-bc92-72eba579b675</UniqueID>
+    <ParentID>MSS-82726bb2-4de1-4c50-b287-4a9a5f4a6937</ParentID>
+    <Description>Admin cannot reset PIN until the page is reloaded.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Admin\cf2  cannot reset PIN until the page is reloaded.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bbdc3d33-caae-4f95-bc68-71a9b5e294ce</UniqueID>
+    <ParentID>X-7176fe90-adba-4b24-abf1-90d41e9abbcd</ParentID>
+    <Description>The system does not display the Signature &amp; PIN section in user details.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system does not display the Signature &amp; PIN section in user details.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9c3c9712-a2e7-4513-b0e2-01cf40a9c786</UniqueID>
+    <ParentID>MSS-e7c0389b-f0e9-4b62-b97b-f6b4cd932d57</ParentID>
+    <Description>Admin opens details of an existing user in Global User Management system.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Admin\cf2  opens details of an existing user in Global User Management system.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-eb13e431-021a-49ff-96f2-60fce94df302</UniqueID>
+    <ParentID>MSS-e7c0389b-f0e9-4b62-b97b-f6b4cd932d57</ParentID>
+    <Description>Admin selects file to upload and confirms upload.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Admin\cf2  selects file to upload and confirms upload.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0bfa1787-341c-4d16-9bbb-b8c0b8f01575</UniqueID>
+    <ParentID>MSS-e7c0389b-f0e9-4b62-b97b-f6b4cd932d57</ParentID>
+    <Description>The system uploads the image file and replaces current signature.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system uploads the image file and replaces current signature\cf1 .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b3ebbbf6-5510-4336-b4f1-fbfdb3e55b48</UniqueID>
+    <ParentID>MSS-e7c0389b-f0e9-4b62-b97b-f6b4cd932d57</ParentID>
+    <Description>The system regenerates 4-digit PIN and sends to the user by email.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system regenerates 4-digit PIN and sends to the user by email.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-357630dd-c480-425f-8815-6a8a324fa8da</UniqueID>
+    <ParentID>MSS-e7c0389b-f0e9-4b62-b97b-f6b4cd932d57</ParentID>
+    <Description>Admin cannot reset PIN until the page is reloaded.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Admin\cf2  cannot reset PIN until the page is reloaded.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-77ec2c0d-8fb6-4dd7-b78d-1545ec7ca077</UniqueID>
+    <ParentID>MSS-ca3ac338-7ff8-4dc8-9e86-72929af27d27</ParentID>
+    <Description>Admin initiates PIN reset.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Admin\cf2  initiates PIN reset.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1d821c9b-fea0-4226-bb22-1efc90a5bcd7</UniqueID>
+    <ParentID>MSS-ca3ac338-7ff8-4dc8-9e86-72929af27d27</ParentID>
+    <Description>The system generates random 4-digit PIN and email it to the user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system generates random 4-digit PIN and email it to the user.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-31458f67-e8f0-4965-8166-94ee7dbb6714</UniqueID>
+    <ParentID>MSS-ca3ac338-7ff8-4dc8-9e86-72929af27d27</ParentID>
+    <Description>The system informs admin that PIN was regenerated and sent to the user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system informs \cf1 admin\cf2  that PIN was regenerated and sent to the user.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-9d048800-d039-4c3c-ace9-a25ad2b5e299</UniqueID>
+    <ParentID>ST-5482e8ae-4e58-42bc-b491-e636303a3bd4</ParentID>
+    <Description>Preconditions are not met</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Preconditions are not met\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-7176fe90-adba-4b24-abf1-90d41e9abbcd</UniqueID>
+    <ParentID>ST-9c3c9712-a2e7-4513-b0e2-01cf40a9c786</ParentID>
+    <Description>Preconditions are not met</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Preconditions are not met\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <UserID>
+    <DefaultPrefix>UC-25-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-25-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-25-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-25-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

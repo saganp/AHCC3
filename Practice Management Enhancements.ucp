@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5001</SavedWith>
+    <CreatedWith>7.2.4769</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</UniqueID>
+    <ExternalParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ExternalParentID>
+    <Name>Practice Management Enhancements</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <ElementStub>
+    <ParentID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</ParentID>
+    <Path>Referral Intake.ucp</Path>
+    <ElementID>P-b771c99e-886a-4627-af99-7bf06fe48f1e</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</ParentID>
+    <Path>Patient Intake-Setup.ucp</Path>
+    <ElementID>P-e15a9304-a6a9-42a5-97ae-5ef1adb6126b</ElementID>
+    <Sequence>1</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</ParentID>
+    <Path>Appointments.ucp</Path>
+    <ElementID>P-8eb536ca-2bfa-43ae-a91a-7d0e516775b6</ElementID>
+    <Sequence>2</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</ParentID>
+    <Path>Post Appointment.ucp</Path>
+    <ElementID>P-45f02eed-fce4-4541-aaea-7702b77c5b8b</ElementID>
+    <Sequence>3</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</ParentID>
+    <Path>Management Reports.ucp</Path>
+    <ElementID>P-f6fafa37-b4d7-4f33-9f3e-9fbb8dad4065</ElementID>
+    <Sequence>4</Sequence>
+  </ElementStub>
+  <ExternalDoc>
+    <UniqueID>EX-4bb24546-b529-4ada-943f-ffbcf47a90aa</UniqueID>
+    <ParentID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</ParentID>
+    <Name>AH-ROSE-RevCycMgmt-Mtng-Notes-03152010.docx</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

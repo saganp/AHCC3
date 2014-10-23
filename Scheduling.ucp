@@ -1,0 +1,1753 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.4927</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</UniqueID>
+    <ExternalParentID>P-3ac69849-9ce1-452e-8677-00b88688fdfa</ExternalParentID>
+    <Name>Creating Documents</Name>
+    <Description>This specification describes the process of document creation (manual vs automatic on arrival), it also contains description of the case Documentation page.
+
+This package does not contain comprehensive list of scheduling features. Its purpose is to provide description for scheduling functionality that affects documentation, nothing else. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 This specification describes the process of document creation (manual vs automatic on arrival), it also contains description of the \cf1 case\cf0  Documentation page.\par
+\par
+This package does not contain comprehensive list of scheduling features. Its purpose is to provide description for scheduling functionality that affects documentation, nothing else. \par
+}
+</RichDescription>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-e69fcb04-4af9-4c5a-b46e-f74f824b3e73</UniqueID>
+    <UserID>UC-47-1</UserID>
+    <ParentID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</ParentID>
+    <Name>Schedule First Appointment</Name>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2013-08-06T04:45:38.3343979-04:00</DateAdded>
+    <DateModified>2013-08-06T04:48:08.2122992-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-07599524-07f1-4903-8973-85a51cccc573</UniqueID>
+    <UserID>UC-47-2</UserID>
+    <ParentID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</ParentID>
+    <Name>Reschedule Appointment</Name>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2013-08-06T04:48:26.6978252-04:00</DateAdded>
+    <DateModified>2013-08-06T04:51:36.7245478-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-f2d93184-ab00-4ac7-9a03-24f9d80f0428</UniqueID>
+    <UserID>UC-47-3</UserID>
+    <ParentID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</ParentID>
+    <Name>Arrive patient</Name>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-08-06T04:51:51.7471552-04:00</DateAdded>
+    <DateModified>2013-08-07T16:04:20.1447347-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-6a0a713e-c6dc-49ad-a28f-23bcce88cf61</UniqueID>
+    <UserID>UC-47-4</UserID>
+    <ParentID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</ParentID>
+    <Name>Undo Arrival</Name>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2013-08-06T05:33:02.1803445-04:00</DateAdded>
+    <DateModified>2013-08-06T05:43:48.4020784-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-c44a9465-a16e-41d4-a8ec-c0a08ee67ab1</UniqueID>
+    <UserID>UC-47-5</UserID>
+    <ParentID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</ParentID>
+    <Name>Open Case Documentation</Name>
+    <Description>User opens case Documentation page with the list of signed Documents </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 case\cf2  Documentation page with the list of signed Documents \cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-08-07T05:25:45.6537423-04:00</DateAdded>
+    <DateModified>2013-08-08T03:49:41.7891801-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-2a5b8e8f-156f-4795-ae47-58df5370b3a0</UniqueID>
+    <UserID>UC-47-6</UserID>
+    <ParentID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</ParentID>
+    <Name>Create Plan of Care</Name>
+    <Description>User manually creates Plan of Care using the button on top of the Documentation page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User manually creates \cf1 Plan of Care\cf2  using the button on top of the Documentation page.\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-08-07T05:44:28.6258741-04:00</DateAdded>
+    <DateModified>2013-08-21T11:52:06.3402685-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-6ee42fe9-273c-41d7-9eb3-22db01c0d7bd</UniqueID>
+    <UserID>UC-47-7</UserID>
+    <ParentID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</ParentID>
+    <Name>Create Daily Note</Name>
+    <Description>User manually creates Daily Note using the button on top of the Documentation page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User manually creates \cf1 Daily Note\cf2  using the button on top of the Documentation page.\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-08-07T05:44:48.1100243-04:00</DateAdded>
+    <DateModified>2013-08-21T11:52:06.3402685-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-92b17b70-e936-4021-ac8f-17ca73e9e0d3</UniqueID>
+    <UserID>UC-47-8</UserID>
+    <ParentID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</ParentID>
+    <Name>Create Progress Note</Name>
+    <Description>User manually creates Progress Note using the button on top of the Documentation page.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User manually creates \cf1 Progress Note\cf2  using the button on top of the Documentation page.\cf0\par
+\pard\fs20\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-08-07T05:44:58.7646877-04:00</DateAdded>
+    <DateModified>2013-08-21T11:52:06.3402685-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-2fe6ff5c-629e-4f63-aac4-20b20c7b77a6</UniqueID>
+    <UserID>UC-47-9</UserID>
+    <ParentID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</ParentID>
+    <Name>Create Discharge Summary</Name>
+    <Description>User manually creates Discharge Summary using the button on top of the Documentation page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User manually creates \cf1 Discharge Summary\cf2  using the button on top of the Documentation page.\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-08-07T05:45:15.4252741-04:00</DateAdded>
+    <DateModified>2013-08-21T11:52:06.3402685-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-108e802b-11d9-4c51-9fa5-552aefe15772</UniqueID>
+    <UserID>UC-47-10</UserID>
+    <ParentID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</ParentID>
+    <Name>Discharge Patient</Name>
+    <Description>CBC / Therapist / Assistant discharges a case using Discharge button (under lef nav)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 CBC\cf2\ulnone  / Therapist / Assistant \cf3 discharges\cf2  a \cf3 case\cf2  using \cf3 Discharge\cf2  button (under lef nav)\cf0\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-08-07T16:13:38.5485631-04:00</DateAdded>
+    <DateModified>2013-08-21T11:52:06.3402685-04:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-fa3c9df0-975f-49d5-ad4c-570f303c0b0f</UniqueID>
+    <ParentID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</ParentID>
+    <Name>Creating Documents</Name>
+    <Sequence>0</Sequence>
+    <FileName>Documentation Module.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Scenario>
+    <UniqueID>MSS-8dee07ef-8189-4521-b918-820a5aa15027</UniqueID>
+    <ParentID>UC-e69fcb04-4af9-4c5a-b46e-f74f824b3e73</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-1737be8e-c80b-4137-b6e8-5a1bcf43a1da</UniqueID>
+    <ParentID>UC-07599524-07f1-4903-8973-85a51cccc573</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-7d8d7cd7-ec46-44c8-ac63-3ac426e4ac86</UniqueID>
+    <ParentID>UC-f2d93184-ab00-4ac7-9a03-24f9d80f0428</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-ebeed365-37b5-4984-a7a8-e6a2d9e95025</UniqueID>
+    <ParentID>UC-6a0a713e-c6dc-49ad-a28f-23bcce88cf61</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-383a0bc2-2de5-4bfa-bf4c-d69e6f152782</UniqueID>
+    <ParentID>UC-c44a9465-a16e-41d4-a8ec-c0a08ee67ab1</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-b2a5e7f0-93f0-44de-8518-2dbf4105ab7f</UniqueID>
+    <ParentID>UC-2a5b8e8f-156f-4795-ae47-58df5370b3a0</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-e6dc0e37-63c5-474a-a5a2-cd3913cd73ab</UniqueID>
+    <ParentID>UC-6ee42fe9-273c-41d7-9eb3-22db01c0d7bd</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-043240c0-0c5b-49f5-87f7-fc9600331f29</UniqueID>
+    <ParentID>UC-92b17b70-e936-4021-ac8f-17ca73e9e0d3</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-1c549a0c-e61a-4f02-ac29-91581ecbc936</UniqueID>
+    <ParentID>UC-2fe6ff5c-629e-4f63-aac4-20b20c7b77a6</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-1f1d85aa-48cf-4d42-a0ca-1b343331c1e3</UniqueID>
+    <ParentID>UC-108e802b-11d9-4c51-9fa5-552aefe15772</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-cce03256-c867-4b96-a279-3f9aedf6f550</UniqueID>
+    <UserID>REQ-47-1</UserID>
+    <ParentID>P-4c1035ec-9011-4291-85e2-44a9480c91f6</ParentID>
+    <Name>Add 'FO Due' icon to appointment</Name>
+    <Description>If Functional Outcomes are due at this appointment, the system should add bold red "FO due" text to the main appointment area.
+The text doesn't have to be in the appointment header, could be next line after patient name.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue139;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If \cf2 Functional Outcomes\cf1  are due at this \cf2 appointment\cf1 , the system should add bold red "FO due" text to the main \cf2 appointment\cf1  area.\par
+The text doesn't have to be in the \cf2 appointment\cf1  header, could be next line after \cf3 patient\cf1  name.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-08-06T05:02:03.8990618-04:00</DateAdded>
+    <DateModified>2014-06-25T12:47:05.2381832-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-bc496dd3-2ed8-4788-88a0-76e0e3d5b3fa</UniqueID>
+    <ParentID>MSS-8dee07ef-8189-4521-b918-820a5aa15027</ParentID>
+    <Description>User schedules first appointment for the case.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User schedules first \cf1 appointment\cf2  for the \cf1 case\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c26d557c-4a3e-4dfa-859f-8123a6fa7d27</UniqueID>
+    <ParentID>MSS-8dee07ef-8189-4521-b918-820a5aa15027</ParentID>
+    <Description>The system automatically assigns Case Clinician according to the scheduled appointment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system automatically assigns \cf1 Case\cf2  \cf1 Clinician\cf2  according to the scheduled \cf1 appointment\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1b246e97-0247-4d28-b398-11d365ed9f34</UniqueID>
+    <ParentID>MSS-8dee07ef-8189-4521-b918-820a5aa15027</ParentID>
+    <Description>If Case Clinician and/or Location are already specified, the system overwrites these settings according to the appointment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 If \cf1 Case Clinician and/or Location are already specified, the system overwrites these settings according to the \cf2 appointment\cf1 .\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c366b875-e074-4de5-8cec-0863016d19c0</UniqueID>
+    <ParentID>MSS-1737be8e-c80b-4137-b6e8-5a1bcf43a1da</ParentID>
+    <Description>User reschedules an appointment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User reschedules an \cf1 appointment\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-900e0b21-d04d-41dc-8d8a-88d426fafc29</UniqueID>
+    <ParentID>MSS-1737be8e-c80b-4137-b6e8-5a1bcf43a1da</ParentID>
+    <Description>The system changes clinician of record for the appointment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system changes \cf1 clinician\cf2  of record for the \cf1 appointment\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8dd1470b-0976-4223-92ef-fce9c920dc8b</UniqueID>
+    <ParentID>MSS-1737be8e-c80b-4137-b6e8-5a1bcf43a1da</ParentID>
+    <Description>Once visit is acknowledged, the system:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Once \cf2 visit\cf1  is acknowledged, the system:\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b5d3955a-cd2d-4b10-83d2-b94a379170bc</UniqueID>
+    <ParentID>ST-8dd1470b-0976-4223-92ef-fce9c920dc8b</ParentID>
+    <Description>Assigns PoC/DN to the new therapist (puts in that therapist's queue)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Assigns PoC/DN to the new therapist (puts in that therapist's queue)\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c7a1d012-c9b9-49bc-945c-412a9378ea34</UniqueID>
+    <ParentID>ST-8dd1470b-0976-4223-92ef-fce9c920dc8b</ParentID>
+    <Description>Shows new therapists name on the PoC/DN </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Shows new therapists name on the PoC/DN \cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-75be4dff-addd-4a05-aa48-bf4eeb4407be</UniqueID>
+    <ParentID>MSS-7d8d7cd7-ec46-44c8-ac63-3ac426e4ac86</ParentID>
+    <Description>User arrives the patient (acknowledges the appointment).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue139;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User arrives the \cf2 patient\cf1  (acknowledges the \cf3 appointment\cf1 ).\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1fefde5b-3230-46d2-911a-b111dd1d2e6a</UniqueID>
+    <ParentID>MSS-7d8d7cd7-ec46-44c8-ac63-3ac426e4ac86</ParentID>
+    <Description>The system creates relevant task for the clinician of record. PoC for first visit / DN for subsequent visits. PoC / DN task is accessible from:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system creates relevant task for the \cf1 clinician\cf2  of record. PoC for first \cf1 visit\cf2  / DN for subsequent \cf1 visits\cf2 . \cf0 PoC / DN task is accessible from:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a5b468c1-aa4c-4ba5-a6d8-7da9d849fd6d</UniqueID>
+    <ParentID>ST-1fefde5b-3230-46d2-911a-b111dd1d2e6a</ParentID>
+    <Description>PT/PTA work queue</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 PT\cf2 /PTA\cf0  work queue\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4feaf3db-a222-4479-a7e4-9002de23ca07</UniqueID>
+    <ParentID>ST-1fefde5b-3230-46d2-911a-b111dd1d2e6a</ParentID>
+    <Description>The list of In-progress Documents on the case documentation page</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The list of In-progress Documents on the \cf1 case\cf2  documentation page\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0dca0d35-7abb-4a59-8681-cfa33961c2e9</UniqueID>
+    <ParentID>MSS-7d8d7cd7-ec46-44c8-ac63-3ac426e4ac86</ParentID>
+    <Description>If the system cannot create a task, it shows an error at the time of check-in, but still arrives the patient. Possible errors:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue139;}
+\viewkind4\uc1\pard\f0\fs20 If the system cannot create a task, it shows an error at the time of check-in, but still arrives the \cf1 patient\cf0 . Possible errors:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f6bf53e0-d8cb-4eb8-9660-df115316b84d</UniqueID>
+    <ParentID>ST-0dca0d35-7abb-4a59-8681-cfa33961c2e9</ParentID>
+    <Description>Daily Note for the previous appointment was not signed.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Daily Note\cf0  for the previous \cf1 appointment\cf0  was not signed.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-985145fa-559c-4421-9756-8c65f07c152c</UniqueID>
+    <ParentID>ST-0dca0d35-7abb-4a59-8681-cfa33961c2e9</ParentID>
+    <Description>Charges for the previous appointment were not submitted to billing.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Charges for the previous \cf1 appointment\cf0  were not submitted to billing.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ba361c3f-2df8-47e4-a4ab-b38135081707</UniqueID>
+    <ParentID>ST-0dca0d35-7abb-4a59-8681-cfa33961c2e9</ParentID>
+    <Description>Progress Note is due before this appointment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Progress Note\cf0  is due before this \cf2 appointment\cf0 .\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-366f8044-2ca0-4d70-bee0-02c177a03c12</UniqueID>
+    <ParentID>ST-0dca0d35-7abb-4a59-8681-cfa33961c2e9</ParentID>
+    <Description>The maximum number of approved appointments has been reached.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The maximum number of approved \cf1 appointments\cf0  has been reached.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b8d9d157-773e-4f08-a79f-1c3c34d537e5</UniqueID>
+    <ParentID>ST-0dca0d35-7abb-4a59-8681-cfa33961c2e9</ParentID>
+    <Description>Plan of Care has not been signed for this case (2+ appointment only) </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Plan of Care\cf0  has not been signed for this \cf1 case\cf2  (2+ \cf1 appointment\cf2  only) \cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5064a322-7943-4c8f-b932-b39dd0e56a1c</UniqueID>
+    <ParentID>ST-0dca0d35-7abb-4a59-8681-cfa33961c2e9</ParentID>
+    <Description>Specified arrival time is in future (more than 60 min in future)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Specified arrival time is in future (more than 60 min in future)\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5689a7dd-608c-4e91-b1c5-d0ba4ed7e299</UniqueID>
+    <ParentID>ST-0dca0d35-7abb-4a59-8681-cfa33961c2e9</ParentID>
+    <Description>There's no active insurance coverage for this date.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 There's no active insurance coverage for this date.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1e187079-f78a-48d8-9831-a1cb2763ae18</UniqueID>
+    <ParentID>MSS-ebeed365-37b5-4984-a7a8-e6a2d9e95025</ParentID>
+    <Description>The system cancels arrival for the appointment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system cancels arrival for the \cf1 appointment\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6ec04e9b-638a-4d50-9d14-8aa7da780e1b</UniqueID>
+    <ParentID>MSS-ebeed365-37b5-4984-a7a8-e6a2d9e95025</ParentID>
+    <Description>User cancels arrival.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User cancels arrival.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-53bb0e0b-296c-45cf-8813-8e48b05b2c37</UniqueID>
+    <ParentID>X-8c72fcae-abb1-4cf3-8a27-b6aee342e061</ParentID>
+    <Description>User cannot undo arrival</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User cannot undo arrival\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-381b814c-dfa0-45b5-b862-15de1abd3a97</UniqueID>
+    <ParentID>MSS-ebeed365-37b5-4984-a7a8-e6a2d9e95025</ParentID>
+    <Description>If there's an unsigned PoC / DN for that appointment, the system requests confirmation. If user confirms, the system removes in-progress PoC / DN.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 If there's an unsigned PoC / DN for that \cf1 appointment\cf2 , the system requests confirmation. If user confirms, the system removes in-progress PoC / DN.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-26f2f5b8-aac2-4342-9cd8-9242dcf38423</UniqueID>
+    <ParentID>MSS-383a0bc2-2de5-4bfa-bf4c-d69e6f152782</ParentID>
+    <Description>User opens case Documentation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 case\cf2  Documentation.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a07f55f0-fed7-4c61-a3da-65f8d39abb45</UniqueID>
+    <ParentID>ST-a67095bb-b19f-497a-84ab-5df9e1c30f4b</ParentID>
+    <Description>In-progress Documents (unsigned documents)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 In-progress Documents (unsigned documents)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a65290c-0a76-4eeb-bd15-144f7fe90d08</UniqueID>
+    <ParentID>ST-a67095bb-b19f-497a-84ab-5df9e1c30f4b</ParentID>
+    <Description>Signed documents</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Signed documents\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a67095bb-b19f-497a-84ab-5df9e1c30f4b</UniqueID>
+    <ParentID>MSS-383a0bc2-2de5-4bfa-bf4c-d69e6f152782</ParentID>
+    <Description>The system displays case documentation in two lists:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system displays \cf1 case\cf2  documentation in two lists:\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fbd740e1-aeb9-4084-a7ed-3903fba0cb11</UniqueID>
+    <ParentID>ST-b912af2c-a617-42af-80f6-584ea4b6635e</ParentID>
+    <Description>Document ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Document ID\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7b35739e-ff21-413a-beb7-bed3fa21256b</UniqueID>
+    <ParentID>ST-b912af2c-a617-42af-80f6-584ea4b6635e</ParentID>
+    <Description>Document Type</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Document Type\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-aba26c2f-f247-4b59-a9fc-b521644248ca</UniqueID>
+    <ParentID>ST-b912af2c-a617-42af-80f6-584ea4b6635e</ParentID>
+    <Description>Clinician (appointment clinician of record by default, Work Queue assignee if changed)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Clinician\cf2  (\cf1 appointment clinician of record\cf2  by default, Work Queue assignee if changed)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-983c896b-e6b1-471f-be67-eeca486a395c</UniqueID>
+    <ParentID>ST-b912af2c-a617-42af-80f6-584ea4b6635e</ParentID>
+    <Description>Date (date when the document task was created)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Date (date when the document task was created)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-22374354-c32b-4b0f-853b-de9b4daff69b</UniqueID>
+    <ParentID>ST-fec33816-6160-4e66-8f6a-d4bd1e4ae57f</ParentID>
+    <Description>Case Clinician for Plan of Care</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Case\cf2  \cf1 Clinician\cf2  for \cf1 Plan of Care\cf2\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8ef1064c-e29d-4f08-9cf7-aa11a8a02090</UniqueID>
+    <ParentID>ST-fec33816-6160-4e66-8f6a-d4bd1e4ae57f</ParentID>
+    <Description>Any Therapist for Daily Note / Progress Note / Discharge Summary (unless it's a Daily Note assigned to an Assistant)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Any Therapist for \cf2 Daily Note\cf1  / \cf2 Progress Note\cf1  / \cf2 Discharge Summary\cf1  (unless it's a \cf2 Daily Note\cf1  assigned to an Assistant)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fec33816-6160-4e66-8f6a-d4bd1e4ae57f</UniqueID>
+    <ParentID>ST-b912af2c-a617-42af-80f6-584ea4b6635e</ParentID>
+    <Description>'Edit' action - only shown to:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 'Edit' action - only shown to:\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b40f2b21-da22-4fda-af65-46cb9f597df1</UniqueID>
+    <ParentID>ST-b912af2c-a617-42af-80f6-584ea4b6635e</ParentID>
+    <Description>'In Use' icon (same as in Work Queues)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 'In Use' icon (same as in Work Queues)\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b912af2c-a617-42af-80f6-584ea4b6635e</UniqueID>
+    <ParentID>ST-3d53927f-83f4-42f0-9dd9-413cd0744b39</ParentID>
+    <Description>[In-progress]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [In-progress]:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a22e959-d4ae-4c9e-aa63-f28d093f91a0</UniqueID>
+    <ParentID>ST-56212e3a-0848-4772-9367-8986b22de03e</ParentID>
+    <Description>Document ID</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Document ID\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c04eca56-319b-4914-ab3a-b985935cd6eb</UniqueID>
+    <ParentID>ST-56212e3a-0848-4772-9367-8986b22de03e</ParentID>
+    <Description>Document Type</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Document Type\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-875aec2e-b09f-4d1d-915f-7f5aa12eca31</UniqueID>
+    <ParentID>ST-56212e3a-0848-4772-9367-8986b22de03e</ParentID>
+    <Description>Clinician (last signed by)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Clinician\cf2  (last signed by)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8675e27f-b985-4f36-b281-b89aee5ee633</UniqueID>
+    <ParentID>ST-56212e3a-0848-4772-9367-8986b22de03e</ParentID>
+    <Description>Date (date when the document task was created)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Date (date when the document task was created)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-28400fa5-8d7f-4e36-a0fc-d4a67cc6fa0a</UniqueID>
+    <ParentID>ST-56212e3a-0848-4772-9367-8986b22de03e</ParentID>
+    <Description>'Download PDF' control - available to all users</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 'Download PDF' control - available to all users\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d759c9b3-144e-4858-9885-406928985285</UniqueID>
+    <ParentID>ST-56212e3a-0848-4772-9367-8986b22de03e</ParentID>
+    <Description>'View document' - available to all users</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 'View document' - available to all users\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a320400d-44ae-4d52-b2fe-148464813a8b</UniqueID>
+    <ParentID>ST-56212e3a-0848-4772-9367-8986b22de03e</ParentID>
+    <Description>'Review Document' link - only available for CBCs in case of a signed Daily Note without submitted charges; opens Daily Note CBC Review.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 'Review Document' link - only available for \cf2\ul CBCs\cf1\ulnone  in \cf3 case\cf1  of a signed \cf3 Daily Note\cf1  without submitted charges; opens \cf3 Daily Note\cf1  \cf2\ul CBC\cf1\ulnone  Review.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-56212e3a-0848-4772-9367-8986b22de03e</UniqueID>
+    <ParentID>ST-3d53927f-83f4-42f0-9dd9-413cd0744b39</ParentID>
+    <Description>[Signed]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [Signed]:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3d53927f-83f4-42f0-9dd9-413cd0744b39</UniqueID>
+    <ParentID>MSS-383a0bc2-2de5-4bfa-bf4c-d69e6f152782</ParentID>
+    <Description>For each document in the list the system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 For each document in the list the system displays:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cf9befdf-1e92-485d-8094-e0819b16667f</UniqueID>
+    <ParentID>MSS-b2a5e7f0-93f0-44de-8518-2dbf4105ab7f</ParentID>
+    <Description>User clicks the Plan of Care button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User clicks the \cf1 Plan of Care\cf2  button.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-49274f99-d0dd-4f10-8ada-7c99a0500756</UniqueID>
+    <ParentID>ST-22db7da6-e43c-4476-9972-c42c16cb0354</ParentID>
+    <Description>The system verifies that first appointment is acknowledged.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system verifies that first \cf1 appointment\cf2  is acknowledged.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-67be8502-69c3-41c2-813f-2646ba13f984</UniqueID>
+    <ParentID>ST-22db7da6-e43c-4476-9972-c42c16cb0354</ParentID>
+    <Description>The system creates Plan of Care and opens it.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system creates \cf1 Plan of Care\cf2  and opens it.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c0172786-0304-41dc-8d34-5e28eae906ba</UniqueID>
+    <ParentID>ST-8d38469d-60f4-4405-b58a-02b1e271efb4</ParentID>
+    <Description>First appointment was not acknowledged</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 First \cf1 appointment\cf2  was not acknowledged\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-23c3815a-fe8d-4fe8-9017-f34ed69a688e</UniqueID>
+    <ParentID>ST-8d38469d-60f4-4405-b58a-02b1e271efb4</ParentID>
+    <Description>User is not the case clinician of record</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is not the \cf1 case clinician of record\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-190733bc-79b2-4c1d-9df9-065bd2a854f4</UniqueID>
+    <ParentID>ST-8d38469d-60f4-4405-b58a-02b1e271efb4</ParentID>
+    <Description>User is not a Therapist</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is not a \cf1 Therapist\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8d38469d-60f4-4405-b58a-02b1e271efb4</UniqueID>
+    <ParentID>ST-22db7da6-e43c-4476-9972-c42c16cb0354</ParentID>
+    <Description>Possible errors (error is shown to the user):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Possible errors (error is shown to the user):\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-22db7da6-e43c-4476-9972-c42c16cb0354</UniqueID>
+    <ParentID>ST-d0b0cf16-5099-4cb3-b3c2-9f259ca114e0</ParentID>
+    <Description>[No in-progress POC]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [\b No in-progress POC\b0 ]:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e7842623-3a0d-4d42-b1a7-fe22dd2200ca</UniqueID>
+    <ParentID>ST-1cf1a1b6-fdf7-4d20-b835-8ac668e5d3a3</ParentID>
+    <Description>The system opens in-progress POC.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system opens in-progress POC.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-69d54dfb-80e8-4530-b27d-de32691e9228</UniqueID>
+    <ParentID>ST-a59930e9-75e9-4bfd-9296-0bde95cbf0fe</ParentID>
+    <Description>User is not the case clinician of record</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is not the \cf1 case clinician of record\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f4c7042d-0a11-4f15-91f8-25ecc5243d53</UniqueID>
+    <ParentID>ST-a59930e9-75e9-4bfd-9296-0bde95cbf0fe</ParentID>
+    <Description>User is not a clinician</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is not a \cf1 clinician\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a59930e9-75e9-4bfd-9296-0bde95cbf0fe</UniqueID>
+    <ParentID>ST-1cf1a1b6-fdf7-4d20-b835-8ac668e5d3a3</ParentID>
+    <Description>Possible errors (error is shown to the user):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Possible errors (error is shown to the user):\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1cf1a1b6-fdf7-4d20-b835-8ac668e5d3a3</UniqueID>
+    <ParentID>ST-d0b0cf16-5099-4cb3-b3c2-9f259ca114e0</ParentID>
+    <Description>[In-progress POC found]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [\b In-progress POC found\b0 ]:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-79bb3d57-4290-49c6-b5ac-0c6ef3ef4eee</UniqueID>
+    <ParentID>ST-37b3fc59-11c7-483a-b3e8-ed444a9db0c5</ParentID>
+    <Description>The system opens signed POC in read-only mode.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system opens signed POC in read-only mode.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-37b3fc59-11c7-483a-b3e8-ed444a9db0c5</UniqueID>
+    <ParentID>ST-d0b0cf16-5099-4cb3-b3c2-9f259ca114e0</ParentID>
+    <Description>[POC already signed]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [\b POC already signed\b0 ]:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d0b0cf16-5099-4cb3-b3c2-9f259ca114e0</UniqueID>
+    <ParentID>MSS-b2a5e7f0-93f0-44de-8518-2dbf4105ab7f</ParentID>
+    <Description>System actions:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System actions:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7432341b-7e6a-4202-98ed-96e4d805ee3d</UniqueID>
+    <ParentID>MSS-e6dc0e37-63c5-474a-a5a2-cd3913cd73ab</ParentID>
+    <Description>User clicks the Daily Note button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User clicks the \cf1 Daily Note\cf2  button.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-aaea34b1-c2d2-4173-9c12-a006f8b3a463</UniqueID>
+    <ParentID>ST-47a3f5c5-d68c-4783-a59e-ea26ced11406</ParentID>
+    <Description>The system verifies that most recent undocumented appointment is acknowledged.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system verifies that most recent undocumented \cf1 appointment\cf2  is acknowledged.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-052f1c6f-fd29-4c9d-93d6-a8ab180ca86a</UniqueID>
+    <ParentID>ST-47a3f5c5-d68c-4783-a59e-ea26ced11406</ParentID>
+    <Description>The system creates Daily Note for most recent undocumented appointment and opens it.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system creates \cf1 Daily Note\cf2  for\cf0  most recent undocumented \cf1 appointment\cf2  and opens it.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e6ffec87-4bde-40c8-ad48-73182e16f3a8</UniqueID>
+    <ParentID>ST-24dcde1b-29ef-44f9-8c02-b58b262351ee</ParentID>
+    <Description>Charges for the previous DN haven't been submitted</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Charges for the previous DN haven't been submitted\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-32596c40-3157-4df6-99d5-1417999f64d2</UniqueID>
+    <ParentID>ST-24dcde1b-29ef-44f9-8c02-b58b262351ee</ParentID>
+    <Description>Progress Note is due before this appointment</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Progress Note\cf0  is due before this \cf1 appointment\cf2\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3517b9a0-f6c8-40ca-a720-8c24d8151d26</UniqueID>
+    <ParentID>ST-24dcde1b-29ef-44f9-8c02-b58b262351ee</ParentID>
+    <Description>The maximum number of approved appointments has been reached.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The maximum number of approved \cf1 appointments\cf0  has been reached.\cf2\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fc6adfc4-4c69-4506-98ba-19af054ca10f</UniqueID>
+    <ParentID>ST-24dcde1b-29ef-44f9-8c02-b58b262351ee</ParentID>
+    <Description>Plan of Care has not been signed for this case </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Plan of Care\cf0  has not been signed for this \cf1 case\cf2  \par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c11c86f5-2f37-4e5a-b209-fec7e9d4ae06</UniqueID>
+    <ParentID>ST-24dcde1b-29ef-44f9-8c02-b58b262351ee</ParentID>
+    <Description>There's no active insurance coverage for this date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 There's no active insurance coverage for this date\cf1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a3a00f87-dd68-4c76-903e-49a16ee8ea62</UniqueID>
+    <ParentID>ST-24dcde1b-29ef-44f9-8c02-b58b262351ee</ParentID>
+    <Description>Specified arrival time is in future (more than 60 min in future)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Specified arrival time is in future (more than 60 min in future)\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-866b9cfa-87f0-4fa1-9b50-8c60d169ca73</UniqueID>
+    <ParentID>ST-24dcde1b-29ef-44f9-8c02-b58b262351ee</ParentID>
+    <Description>User is not the appointment clinician of record (only applicable if appointment clinician of record is an Assistant)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is not the \cf1 appointment clinician of record\cf2  (only applicable if \cf1 appointment clinician of record\cf2  is an Assistant)\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a295829-8aeb-47cd-92af-92120b5c9cd6</UniqueID>
+    <ParentID>ST-24dcde1b-29ef-44f9-8c02-b58b262351ee</ParentID>
+    <Description>User is not a Therapist (unless Assistant is the appointment clinician of record)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is not a \cf1 Therapist (unless Assistant is the \cf2 appointment clinician of record\cf1 )\cf0\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-24dcde1b-29ef-44f9-8c02-b58b262351ee</UniqueID>
+    <ParentID>ST-47a3f5c5-d68c-4783-a59e-ea26ced11406</ParentID>
+    <Description>Possible errors (error is shown to the user):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Possible errors (error is shown to the user):\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-47a3f5c5-d68c-4783-a59e-ea26ced11406</UniqueID>
+    <ParentID>ST-a641e3d4-ea77-44fd-baae-405436f1405a</ParentID>
+    <Description>[No in-progress DN]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [\b No in-progress DN\b0 ]:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ba5ca118-9a10-4715-af6c-225c68389d78</UniqueID>
+    <ParentID>ST-8d1fb5ea-a45b-4d2d-9a65-a1ec08e75798</ParentID>
+    <Description>The system opens in-progress DN.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system opens in-progress DN.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e640c356-e83b-49f2-ba26-556c0d452414</UniqueID>
+    <ParentID>ST-3b2324a9-71fa-4911-b66a-ceb1c22d859c</ParentID>
+    <Description>There's no active insurance coverage for this date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 There's no active insurance coverage for this date\cf1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f4448ad3-d80d-45ff-8b90-74f59f89e34d</UniqueID>
+    <ParentID>ST-3b2324a9-71fa-4911-b66a-ceb1c22d859c</ParentID>
+    <Description>User is not the appointment clinician of record (only applicable if appointment clinician of record is an Assistant, DN was not signed by the Assistant &amp; DN is assigned to an Assitant)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is not the \cf1 appointment clinician of record\cf2  (only applicable if \cf1 appointment clinician of record\cf2  is an Assistant, DN was not signed by the Assistant &amp; DN is assigned to an Assitant)\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9ab3c32c-dca1-40ed-8daa-97a32c8d6784</UniqueID>
+    <ParentID>ST-3b2324a9-71fa-4911-b66a-ceb1c22d859c</ParentID>
+    <Description>User is not a Therapist (unless Assistant is the appointment clinician of record)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is not a \cf1 Therapist (unless Assistant is the \cf2 appointment clinician of record\cf1 )\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3b2324a9-71fa-4911-b66a-ceb1c22d859c</UniqueID>
+    <ParentID>ST-8d1fb5ea-a45b-4d2d-9a65-a1ec08e75798</ParentID>
+    <Description>Possible errors (error is shown to the user):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Possible errors (error is shown to the user):\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8d1fb5ea-a45b-4d2d-9a65-a1ec08e75798</UniqueID>
+    <ParentID>ST-a641e3d4-ea77-44fd-baae-405436f1405a</ParentID>
+    <Description>[In-progress DN found]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [\b In-progress DN found\b0 ]:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a641e3d4-ea77-44fd-baae-405436f1405a</UniqueID>
+    <ParentID>MSS-e6dc0e37-63c5-474a-a5a2-cd3913cd73ab</ParentID>
+    <Description>System actions:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System actions:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a9341d7a-6193-447c-9272-9414e5c9c713</UniqueID>
+    <ParentID>MSS-043240c0-0c5b-49f5-87f7-fc9600331f29</ParentID>
+    <Description>User clicks the Progress Note button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User clicks the \cf1 Progress Note\cf2  button.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-05eb743a-49bf-401a-aa2c-6bcb9e7ee660</UniqueID>
+    <ParentID>ST-3b41c44f-547d-40ca-b55b-6dd5d7a127cc</ParentID>
+    <Description>The system creates Progress Note and opens it.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system creates \cf1 Progress Note\cf2  and opens it.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-be904eb0-95a9-4a7d-a669-aa9a171c7114</UniqueID>
+    <ParentID>ST-d5033f7e-ce9f-4c1b-8100-fbf4141561c1</ParentID>
+    <Description>User is not a Therapist</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is not a \cf1 Therapist\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d5033f7e-ce9f-4c1b-8100-fbf4141561c1</UniqueID>
+    <ParentID>ST-3b41c44f-547d-40ca-b55b-6dd5d7a127cc</ParentID>
+    <Description>Possible errors (error is shown to the user):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Possible errors (error is shown to the user):\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3b41c44f-547d-40ca-b55b-6dd5d7a127cc</UniqueID>
+    <ParentID>ST-b677ea7e-39a6-4ad5-aa8b-03fe4c67287b</ParentID>
+    <Description>[No in-progress PN]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [\b No in-progress PN\b0 ]:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0dc86000-0946-45c8-9bf1-98241ffae417</UniqueID>
+    <ParentID>ST-f88db27e-2c3f-4bd8-a027-10cbb0a347bd</ParentID>
+    <Description>The system opens in-progress PN.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system opens in-progress PN.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-837c34e8-584c-4a8a-8839-2a11a1b122da</UniqueID>
+    <ParentID>ST-96028d21-1330-4f79-adb2-aa68e08364ec</ParentID>
+    <Description>User is not a Therapist</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is not a \cf1 Therapist\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-96028d21-1330-4f79-adb2-aa68e08364ec</UniqueID>
+    <ParentID>ST-f88db27e-2c3f-4bd8-a027-10cbb0a347bd</ParentID>
+    <Description>Possible errors (error is shown to the user):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Possible errors (error is shown to the user):\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f88db27e-2c3f-4bd8-a027-10cbb0a347bd</UniqueID>
+    <ParentID>ST-b677ea7e-39a6-4ad5-aa8b-03fe4c67287b</ParentID>
+    <Description>[In-progress PN found]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [\b In-progress PN found\b0 ]:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b677ea7e-39a6-4ad5-aa8b-03fe4c67287b</UniqueID>
+    <ParentID>MSS-043240c0-0c5b-49f5-87f7-fc9600331f29</ParentID>
+    <Description>System actions:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System actions:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-72a4cecd-554c-4901-abad-f7e956871684</UniqueID>
+    <ParentID>MSS-1c549a0c-e61a-4f02-ac29-91581ecbc936</ParentID>
+    <Description>User clicks the Discharge Summary button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User clicks the \cf1 Discharge Summary\cf2  button.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3c38e289-bd7f-4cf2-96fe-005de86ba396</UniqueID>
+    <ParentID>ST-5ed7f1b5-d2c6-4bc2-ae8b-ca34fe159b38</ParentID>
+    <Description>The system verifies that all acknowledged appointments are billed.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system verifies that all \cf1 acknowledged \cf2 appointments\cf0  are billed.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ffec7cf5-cff0-47ab-b7b4-9fbcd78dbc08</UniqueID>
+    <ParentID>ST-5ed7f1b5-d2c6-4bc2-ae8b-ca34fe159b38</ParentID>
+    <Description>The system creates Discharge Summary and opens it.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system creates \cf1 Discharge Summary\cf2  and opens it.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e03c4e7f-b939-4a4e-89af-ccc6d8ac9971</UniqueID>
+    <ParentID>ST-32f9c987-3075-46ca-acbe-379ba9ddb087</ParentID>
+    <Description>There's an unsigned DN </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 There's an unsigned DN \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-aa2e0ce1-7e97-4b2f-98d7-68fa57f426bc</UniqueID>
+    <ParentID>ST-32f9c987-3075-46ca-acbe-379ba9ddb087</ParentID>
+    <Description>Charges for the last DN haven't been submitted</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Charges for the last DN haven't been submitted\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-677b6263-d04e-4b38-82bd-c21aa4eca420</UniqueID>
+    <ParentID>ST-32f9c987-3075-46ca-acbe-379ba9ddb087</ParentID>
+    <Description>User is not a Therapist</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is not a \cf1 Therapist\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-32f9c987-3075-46ca-acbe-379ba9ddb087</UniqueID>
+    <ParentID>ST-5ed7f1b5-d2c6-4bc2-ae8b-ca34fe159b38</ParentID>
+    <Description>Possible errors (error is shown to the user):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Possible errors (error is shown to the user):\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5ed7f1b5-d2c6-4bc2-ae8b-ca34fe159b38</UniqueID>
+    <ParentID>ST-46b6b6b1-534c-4f09-bd80-d87e7daab9bf</ParentID>
+    <Description>[No in-progress DS]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [\b No in-progress DS\b0 ]:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fd981563-b5be-4b6b-a340-2c2ea00245c9</UniqueID>
+    <ParentID>ST-9457aaa6-4789-4b46-84bb-a6d54425f2a3</ParentID>
+    <Description>The system opens in-progress DN.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system opens in-progress DN.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-140a800c-7e90-49f9-be36-2d14ddb8049f</UniqueID>
+    <ParentID>ST-a2f4e6b6-707e-4a18-8221-eeff7bbb9867</ParentID>
+    <Description>User is not a Therapist</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is not a \cf1 Therapist\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a2f4e6b6-707e-4a18-8221-eeff7bbb9867</UniqueID>
+    <ParentID>ST-9457aaa6-4789-4b46-84bb-a6d54425f2a3</ParentID>
+    <Description>Possible errors (error is shown to the user):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Possible errors (error is shown to the user):\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9457aaa6-4789-4b46-84bb-a6d54425f2a3</UniqueID>
+    <ParentID>ST-46b6b6b1-534c-4f09-bd80-d87e7daab9bf</ParentID>
+    <Description>[In-progress DN found]:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [\b In-progress DN found\b0 ]:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-46b6b6b1-534c-4f09-bd80-d87e7daab9bf</UniqueID>
+    <ParentID>MSS-1c549a0c-e61a-4f02-ac29-91581ecbc936</ParentID>
+    <Description>System actions:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System actions:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-069aac08-3426-42a9-970a-58d16610ecd4</UniqueID>
+    <ParentID>MSS-1c549a0c-e61a-4f02-ac29-91581ecbc936</ParentID>
+    <Description>User signs DS.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User signs DS.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-593984eb-b02f-41c0-8e50-df7bb5104c28</UniqueID>
+    <ParentID>MSS-1c549a0c-e61a-4f02-ac29-91581ecbc936</ParentID>
+    <Description>If there was an in-progress PoC or PN, the system removes those in-progress documents.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If there was an in-progress PoC or PN, the system removes those in-progress documents.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-684e975b-e995-4bef-9af4-f1a88d4c465a</UniqueID>
+    <ParentID>MSS-1f1d85aa-48cf-4d42-a0ca-1b343331c1e3</ParentID>
+    <Description>User discharges the case.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User \cf2 discharges\cf1  the \cf2 case\cf1 .\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-73e0e602-fdd8-4bf5-ae21-c0069a2dbf34</UniqueID>
+    <ParentID>ST-8d684d1a-718b-419f-87c0-d38917149030</ParentID>
+    <Description>The system marks case as Discharged and creates Discharge Summary for case clinician.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system marks \cf1 case\cf2  as Discharged and creates \cf1 Discharge Summary\cf2  for \cf1 case\cf2  \cf1 clinician\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8d684d1a-718b-419f-87c0-d38917149030</UniqueID>
+    <ParentID>ST-617be5d6-af21-4a08-b9a5-a028c726098c</ParentID>
+    <Description>[At least on appt billed, no in-progress docs]</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [\b At least on appt billed, no in-progress docs\b0 ]\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-63a15bf0-0447-4a73-b3e3-308687a1c9f3</UniqueID>
+    <ParentID>ST-dadc2084-7088-4e87-82cd-45d8a66868db</ParentID>
+    <Description>The system does not discharge case and prompts user to sign DN / undo arrival or submit charges.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system does not \cf2 discharge\cf1  \cf2 case\cf1  and prompts user to sign DN / undo arrival or submit charges.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-13e3dd18-fb77-433e-b810-77242463de8e</UniqueID>
+    <ParentID>ST-dadc2084-7088-4e87-82cd-45d8a66868db</ParentID>
+    <Description>No DS is created</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 No DS is created\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dadc2084-7088-4e87-82cd-45d8a66868db</UniqueID>
+    <ParentID>ST-617be5d6-af21-4a08-b9a5-a028c726098c</ParentID>
+    <Description>[In-progress DN or charges not submitted]</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 [\b In-progress DN or charges not submitted\b0 ]\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b6137c51-3f06-4ea4-980c-b2528a17c5b6</UniqueID>
+    <ParentID>ST-eb2ef97c-9d1c-4dd8-917f-85d2c409195d</ParentID>
+    <Description>The system marks case as Discharged </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system marks \cf1 case\cf2  as Discharged \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-eb2ef97c-9d1c-4dd8-917f-85d2c409195d</UniqueID>
+    <ParentID>ST-617be5d6-af21-4a08-b9a5-a028c726098c</ParentID>
+    <Description>[No signed documents]</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 [\b No signed documents\b0 ]\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4be49dda-a3da-48b4-bc93-8355df3b452d</UniqueID>
+    <ParentID>ST-5ef99552-dae1-4f0a-9446-f5b1cedac3ba</ParentID>
+    <Description>The system marks case as Discharged </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system marks \cf1 case\cf2  as Discharged \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0aaab0f2-82c5-4176-9c44-dbeec681038c</UniqueID>
+    <ParentID>ST-5ef99552-dae1-4f0a-9446-f5b1cedac3ba</ParentID>
+    <Description>The system deletes in-progress POC</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system deletes in-progress POC\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5ef99552-dae1-4f0a-9446-f5b1cedac3ba</UniqueID>
+    <ParentID>ST-617be5d6-af21-4a08-b9a5-a028c726098c</ParentID>
+    <Description>[In-progress PoC found]</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 [\b In-progress PoC found\b0 ]\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f0f06dcc-8abe-4a29-a55f-0246a0669fdb</UniqueID>
+    <ParentID>ST-19426144-e39d-41b5-98d6-7b2c28a6ecc2</ParentID>
+    <Description>The system marks case as Discharged and creates Discharge Summary for case clinician</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system marks \cf1 case\cf2  as Discharged and creates \cf1 Discharge Summary\cf2  for \cf1 case\cf2  \cf1 clinician\cf2\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-75e41b25-3cd7-4ec8-bdee-31adb0702fbb</UniqueID>
+    <ParentID>ST-19426144-e39d-41b5-98d6-7b2c28a6ecc2</ParentID>
+    <Description>The system deletes in-progress POC</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system deletes in-progress POC\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-19426144-e39d-41b5-98d6-7b2c28a6ecc2</UniqueID>
+    <ParentID>ST-617be5d6-af21-4a08-b9a5-a028c726098c</ParentID>
+    <Description>[In-progress PN found]</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 [\b In-progress PN found\b0 ]\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-617be5d6-af21-4a08-b9a5-a028c726098c</UniqueID>
+    <ParentID>MSS-1f1d85aa-48cf-4d42-a0ca-1b343331c1e3</ParentID>
+    <Description>System actions:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System actions:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-8c72fcae-abb1-4cf3-8a27-b6aee342e061</UniqueID>
+    <ParentID>ST-6ec04e9b-638a-4d50-9d14-8aa7da780e1b</ParentID>
+    <Description>Charges are submitted for the appointment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Charges are submitted for the appointment\cf1 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <UserID>
+    <DefaultPrefix>UC-47-</DefaultPrefix>
+    <NextValue>12</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-47-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-47-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-47-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

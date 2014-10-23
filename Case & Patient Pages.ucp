@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5001</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-283698e5-7a0a-44ce-8b16-09554b043195</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-283698e5-7a0a-44ce-8b16-09554b043195</UniqueID>
+    <ExternalParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ExternalParentID>
+    <Name>Case &amp; Patient Changes</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <ElementStub>
+    <ParentID>P-283698e5-7a0a-44ce-8b16-09554b043195</ParentID>
+    <Path>Patient1.ucp</Path>
+    <ElementID>P-794e5b66-7cd6-41af-8139-db4ba6b379e6</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-283698e5-7a0a-44ce-8b16-09554b043195</ParentID>
+    <Path>Case Pages.ucp</Path>
+    <ElementID>P-07078c69-f591-41d5-914a-7c557fb3d665</ElementID>
+    <Sequence>1</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-283698e5-7a0a-44ce-8b16-09554b043195</ParentID>
+    <Path>Soft-Delete.ucp</Path>
+    <ElementID>P-ac40d244-5a11-477c-ba91-82ad81d99b4d</ElementID>
+    <Sequence>2</Sequence>
+  </ElementStub>
+  <Requirement>
+    <UniqueID>REQ-2992ff62-e638-487b-a9c5-e73d03fb9c1b</UniqueID>
+    <UserID>REQ-66-2</UserID>
+    <ParentID>P-283698e5-7a0a-44ce-8b16-09554b043195</ParentID>
+    <Name>Update Case List Columns</Name>
+    <Description>Case list grid must contain the following columns:
+Case ID
+Patient Name (Last, First, Middle)
+Patient's date of birth
+MRN
+Location
+Case Clinician
+Discipline (case clinician type - PT / OT / SLP)
+Referral diagnosis
+Discharge Date ("Active case" label for active cases)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Case\cf2  list grid must contain the following columns:\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360\cf1 Case\cf2  ID\par
+\cf3\ul{\pntext\f0 2.\tab}Patient\cf2\ulnone  Name (Last, First, Middle)\par
+\cf3\ul{\pntext\f0 3.\tab}Patient\cf2\ulnone 's date of birth\par
+\cf1{\pntext\f0 4.\tab}MRN\cf2\par
+{\pntext\f0 5.\tab}Location\par
+\cf1{\pntext\f0 6.\tab}Case\cf2  \cf1 Clinician\cf2\par
+{\pntext\f0 7.\tab}Discipline (\cf1 case\cf2  \cf1 clinician\cf2  type - \cf1 PT\cf2  / \cf1 OT\cf2  / SLP)\par
+{\pntext\f0 8.\tab}Referral \cf1 diagnosis\cf2\par
+\cf1{\pntext\f0 9.\tab}Discharge\cf2  Date ("Active \cf1 case\cf2 " label for active \cf1 cases\cf2 )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-11-11T08:24:42.2335513-05:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8486074-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <ExternalDoc>
+    <UniqueID>EX-b243994a-a083-4a9c-a23e-d7a60d1e79b5</UniqueID>
+    <ParentID>REQ-2992ff62-e638-487b-a9c5-e73d03fb9c1b</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Case_List</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-66-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-66-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-66-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-66-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

@@ -1,0 +1,1222 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5088</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</UniqueID>
+    <ExternalParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ExternalParentID>
+    <Name>_Dictionary</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Note>
+    <UniqueID>N-e71d41ce-9f2d-4b3a-9ea0-3271d40146fa</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>The following list was copied/pasted from the current system and are codes that are in use today</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The following list was copied/pasted from the current system and are codes that are in use today\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2013-03-19T07:17:27.9917613-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-2b6a946e-313b-4b6c-aee6-d2791b911536</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>e.g. 97001 is the Initial PT Evaluation</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 e.g. 97001 is the Initial \cf2 PT\cf1  Evaluation\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <DateAdded>2013-03-19T07:17:51.7340582-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-b53a4f44-9dd6-470f-9714-c583d1172fac</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description />
+    <Sequence>2</Sequence>
+    <DateAdded>2013-03-19T07:18:15.8965806-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-5e7999e0-2afb-4a89-8a4d-94823aa76a72</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description xml:space="preserve">      </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20       \par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <DateAdded>2013-03-19T07:12:28.1552513-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-068574b3-d0b9-4d43-9e7b-c5db0849a307</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>          &lt;option value="1"  data-unit-cost="42.00" &gt;64550 - TENS&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20           &lt;option value="1"  data-unit-cost="42.00" &gt;64550 - TENS&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <DateAdded>2013-03-19T07:17:26.0080197-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-751ef43f-2051-4466-bc86-d3b03bb0ec50</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="2"  data-unit-cost="110.00" &gt;97001 - PT Evaluation&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="2"  data-unit-cost="110.00" &gt;97001 - \cf1 PT\cf0  Evaluation&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <DateAdded>2013-03-19T07:12:28.1592696-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-7afffe2c-d510-4b3e-b80c-9e0d35e1edd2</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="3"  data-unit-cost="60.00" &gt;97002 - PT Re-Evaluation&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="3"  data-unit-cost="60.00" &gt;97002 - \cf1 PT\cf0  Re-Evaluation&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <DateAdded>2013-03-19T07:12:28.1622689-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-96e212a4-2ea3-40f3-92a1-69f071a5f996</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="4"  data-unit-cost="110.00" &gt;97003 - PT RE EVAL&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="4"  data-unit-cost="110.00" &gt;97003 - \cf1 PT\cf0  RE EVAL&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <DateAdded>2013-03-19T07:12:28.1662694-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-0aabd368-5958-47f8-a99e-3cdaa10ebcb4</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="6"  data-unit-cost="22.00" &gt;97010 - Hot or Cold Pack Application&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="6"  data-unit-cost="22.00" &gt;97010 - Hot or Cold Pack Application&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <DateAdded>2013-03-19T07:12:28.1712702-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-68629080-b8e3-4f25-8c98-a0f0935969b3</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="7"  data-unit-cost="42.00" &gt;97012 - Traction, Mechanical&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="7"  data-unit-cost="42.00" &gt;97012 - Traction, Mechanical&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <DateAdded>2013-03-19T07:12:28.1762714-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-d71eec4f-19b1-4970-bfef-d41c567ccb51</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="8"  data-unit-cost="42.00" &gt;97014 - Electrical Stimulation/TENS Unattended&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="8"  data-unit-cost="42.00" &gt;97014 - Electrical Stimulation/TENS Unattended&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <DateAdded>2013-03-19T07:12:28.1822719-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-5fe6e593-5196-40dd-bde3-a0ffaba40b31</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="9"  data-unit-cost="42.00" &gt;97018 - Paraffin bath&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="9"  data-unit-cost="42.00" &gt;97018 - Paraffin bath&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <DateAdded>2013-03-19T07:12:28.1882734-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-d5708e3a-696c-4ad9-945b-e49a2dd77210</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="10"  data-unit-cost="42.00" &gt;97022 - Whirlpool&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="10"  data-unit-cost="42.00" &gt;97022 - Whirlpool&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>12</Sequence>
+    <DateAdded>2013-03-19T07:12:28.1952471-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-3aba6fc7-501d-4f57-827f-5a3b55eb79cf</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="11"  data-unit-cost="42.00" &gt;97026 - Anodyne (infared)&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="11"  data-unit-cost="42.00" &gt;97026 - Anodyne (infared)&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>13</Sequence>
+    <DateAdded>2013-03-19T07:12:28.2032476-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-78a99ebb-4ae9-4a58-9822-8800beea3d44</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="12"  data-unit-cost="42.00" &gt;97032 - Electrical stimulation (manual)&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="12"  data-unit-cost="42.00" &gt;97032 - Electrical stimulation (manual)&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>14</Sequence>
+    <DateAdded>2013-03-19T07:12:28.210276-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-d5c504b5-5e7d-45a9-9a54-9bd82ccfb2bc</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="13"  data-unit-cost="42.00" &gt;97033 - Iontophoresis&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="13"  data-unit-cost="42.00" &gt;97033 - Iontophoresis&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>15</Sequence>
+    <DateAdded>2013-03-19T07:12:28.2202766-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-6ed92128-4626-40b7-8eed-407a57ba8786</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="14"  data-unit-cost="42.00" &gt;97034 - Contrast baths&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="14"  data-unit-cost="42.00" &gt;97034 - Contrast baths&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>16</Sequence>
+    <DateAdded>2013-03-19T07:12:28.2292778-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-708a41bb-34ba-4c06-8200-6fab354e11e9</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="15"  data-unit-cost="42.00" &gt;97035 - Ultrasound&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="15"  data-unit-cost="42.00" &gt;97035 - Ultrasound&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>17</Sequence>
+    <DateAdded>2013-03-19T07:12:28.2392789-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-bfd506a6-a7cd-4c09-af10-25447ca70149</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="16"  data-unit-cost="42.00" &gt;97036 - Hubbard Tank  &lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="16"  data-unit-cost="42.00" &gt;97036 - Hubbard Tank  &lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>18</Sequence>
+    <DateAdded>2013-03-19T07:12:28.2492804-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-88f5c3bf-ac18-45da-ab65-40003625b065</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="17"  data-unit-cost="42.00" &gt;97110 - Therapeutic procedure, therapeutic exercise&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="17"  data-unit-cost="42.00" &gt;97110 - Therapeutic procedure, therapeutic exercise&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>19</Sequence>
+    <DateAdded>2013-03-19T07:12:28.2612824-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-86066cf1-703e-4ab0-9fe6-03db0c0b7802</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="18"  data-unit-cost="42.00" &gt;97112 - Therapeutic procedure, one or more areas, &lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="18"  data-unit-cost="42.00" &gt;97112 - Therapeutic procedure, one or more areas, &lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>20</Sequence>
+    <DateAdded>2013-03-19T07:12:28.2722837-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-91936cf1-b7f0-4490-86d8-f1b875a32271</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="19"  data-unit-cost="46.00" &gt;97113 - Therapeutic procedure,  aquatic therapy with therapeutic exercises&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="19"  data-unit-cost="46.00" &gt;97113 - Therapeutic procedure,  aquatic therapy with therapeutic exercises&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>21</Sequence>
+    <DateAdded>2013-03-19T07:12:28.2842847-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-c6b2f8df-3067-4fef-8212-e8e3c1a6c13a</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="20"  data-unit-cost="42.00" &gt;97116 - Therapeutic procedure, gait training&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="20"  data-unit-cost="42.00" &gt;97116 - Therapeutic procedure, gait training&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>22</Sequence>
+    <DateAdded>2013-03-19T07:12:28.2972861-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-c3f6cfc7-90c5-45ba-9531-4b5a85c3f1ff</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="21"  data-unit-cost="42.00" &gt;97124 - Therapeutic procedure,  massage&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="21"  data-unit-cost="42.00" &gt;97124 - Therapeutic procedure,  massage&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>23</Sequence>
+    <DateAdded>2013-03-19T07:12:28.3092895-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-6f33b3c2-1a97-462d-bb91-f4fdd14f54a5</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="22"  data-unit-cost="42.00" &gt;97140 - Manual therapy techniques &lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="22"  data-unit-cost="42.00" &gt;97140 - Manual therapy techniques &lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>24</Sequence>
+    <DateAdded>2013-03-19T07:12:28.3242908-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-2dde617d-e40c-4bbd-90ed-11f7306b0ec6</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="23"  data-unit-cost="26.00" &gt;97150 - Therapeutic procedure, group&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="23"  data-unit-cost="26.00" &gt;97150 - Therapeutic procedure, group&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>25</Sequence>
+    <DateAdded>2013-03-19T07:12:28.3412781-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-3ea4d70c-baa6-4117-926e-98a4125f3ff2</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="25"  data-unit-cost="45.00" &gt;97530 - Functional Activity PT 15 Min&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="25"  data-unit-cost="45.00" &gt;97530 - Functional Activity \cf1 PT\cf0  15 Min&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>26</Sequence>
+    <DateAdded>2013-03-19T07:12:28.3562954-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-c454773b-0b44-4853-bb90-93acd772e0e6</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="26"  data-unit-cost="36.00" &gt;97532 - Development of cognitive skills to improve attention, memory, problem solving, (includes compensatory training), direct (one-on-one) patient contact by the provider, each 15 minutes&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="26"  data-unit-cost="36.00" &gt;97532 - Development of cognitive skills to improve attention, memory, problem solving, (includes compensatory training), direct (one-on-one) \cf1\ul patient\cf0\ulnone  contact by the provider, each 15 minutes&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>27</Sequence>
+    <DateAdded>2013-03-19T07:12:28.3722969-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-dc8c8f49-04c0-425f-8ea3-a10a7fc60859</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="27"  data-unit-cost="45.00" &gt;97535 - Self Care/Home Mgmt Training&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="27"  data-unit-cost="45.00" &gt;97535 - Self Care/Home Mgmt Training&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>28</Sequence>
+    <DateAdded>2013-03-19T07:12:28.3892796-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-adb86b55-4435-4bd8-b3ee-39fc6288bcb9</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="28"  data-unit-cost="42.00" &gt;97537 - Work Site Analysis&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="28"  data-unit-cost="42.00" &gt;97537 - Work Site Analysis&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>29</Sequence>
+    <DateAdded>2013-03-19T07:12:28.4062824-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-a4bb88ca-013c-44dc-9fcb-402c3cb1ae0b</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="29"  data-unit-cost="42.00" &gt;97542 - Wheelchair management/training&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="29"  data-unit-cost="42.00" &gt;97542 - Wheelchair management/training&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>30</Sequence>
+    <DateAdded>2013-03-19T07:12:28.4252866-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-a0079837-3137-43e9-ad69-5dabefc4b198</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="30"  data-unit-cost="320.00" &gt;97545 - Work hardening/conditioning; initial 2 hours&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="30"  data-unit-cost="320.00" &gt;97545 - Work hardening/conditioning; initial 2 hours&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>31</Sequence>
+    <DateAdded>2013-03-19T07:12:28.4442875-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-a81e4685-ec25-42ed-9232-b72cbbce1f01</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="33"  data-unit-cost="70.00" &gt;97598 - Wound Debridement great 20 sq cm&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="33"  data-unit-cost="70.00" &gt;97598 - Wound Debridement great 20 sq cm&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>32</Sequence>
+    <DateAdded>2013-03-19T07:12:28.46429-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-855de3a4-95f0-42d1-8f42-0eeacd581207</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="34"  data-unit-cost="48.00" &gt;97602 - Wound Care NonSelective&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="34"  data-unit-cost="48.00" &gt;97602 - Wound Care NonSelective&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>33</Sequence>
+    <DateAdded>2013-03-19T07:12:28.4832914-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-7e25ea96-7345-4541-8216-5812384040e4</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="35"  data-unit-cost="55.00" &gt;97750 - Physical performance test or measurement &lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="35"  data-unit-cost="55.00" &gt;97750 - Physical performance test or measurement &lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>34</Sequence>
+    <DateAdded>2013-03-19T07:12:28.5052949-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-adb1b8f7-56a6-42dc-a647-69d9872ece34</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="36"  data-unit-cost="42.00" &gt;97760 - Orthotics management and training (includes fitting)  &lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="36"  data-unit-cost="42.00" &gt;97760 - Orthotics management and training (includes fitting)  &lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>35</Sequence>
+    <DateAdded>2013-03-19T07:12:28.5262973-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-87c0ff56-c8bf-4fe9-939d-fb83a1c0c48b</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="37"  data-unit-cost="42.00" &gt;97761 - Prosthetic training &lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="37"  data-unit-cost="42.00" &gt;97761 - Prosthetic training &lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>36</Sequence>
+    <DateAdded>2013-03-19T07:12:28.549301-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-5b312564-0242-4ab8-9894-f2a633b4e58e</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="38"  data-unit-cost="42.00" &gt;97762 - Recheck for orthotic/prosthetic use &lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="38"  data-unit-cost="42.00" &gt;97762 - Recheck for orthotic/prosthetic use &lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>37</Sequence>
+    <DateAdded>2013-03-19T07:12:28.5723038-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-ca9f7811-4413-4312-874d-f93a5c7edf86</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="45"  data-unit-cost="1.00" &gt;A4649 - Surgical supply  misc&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="45"  data-unit-cost="1.00" &gt;A4649 - Surgical supply  misc&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>38</Sequence>
+    <DateAdded>2013-03-19T07:12:28.5952885-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-68ee2b43-fc33-484b-8663-8f4f1126dbd1</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="266"  data-unit-cost="0.00" &gt;A4649 - Surgical supply  misc&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="266"  data-unit-cost="0.00" &gt;A4649 - Surgical supply  misc&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>39</Sequence>
+    <DateAdded>2013-03-19T07:12:28.6203105-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-d62a21ab-483a-4354-b6e7-c642b967f8d9</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="41"  data-unit-cost="18.75" &gt;GAIT - Gait Evaluation 15 min Self Pay&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="41"  data-unit-cost="18.75" &gt;GAIT - Gait Evaluation 15 min Self Pay&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>40</Sequence>
+    <DateAdded>2013-03-19T07:12:28.6433133-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-d0c0fb3c-4727-411e-92ea-1014686f3fd5</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="42"  data-unit-cost="75.00" &gt;LACTIC - Lactic Threshold&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="42"  data-unit-cost="75.00" &gt;LACTIC - Lactic Threshold&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>41</Sequence>
+    <DateAdded>2013-03-19T07:12:28.6673173-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-30bd6586-96a8-4c6a-b7f2-60e3c59720f0</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="43"  data-unit-cost="42.00" &gt;G0283 - E Stim (unattended)&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="43"  data-unit-cost="42.00" &gt;G0283 - E Stim (unattended)&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>42</Sequence>
+    <DateAdded>2013-03-19T07:12:28.6913381-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-ba792651-991c-40b7-ba15-2084c2f4c537</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="87"  data-unit-cost="35.00" &gt;GYM - Independent Gym Exercise&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="87"  data-unit-cost="35.00" &gt;GYM - Independent Gym Exercise&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>43</Sequence>
+    <DateAdded>2013-03-19T07:12:28.7173417-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-dd2d2777-514c-442e-ba8f-2a0938cf508b</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="112"  data-unit-cost="22.13" &gt;MedRec Fee - Medical Records Fee&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="112"  data-unit-cost="22.13" &gt;MedRec Fee - Medical Records Fee&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>44</Sequence>
+    <DateAdded>2013-03-19T07:12:28.7443263-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-1ed41e54-cd2a-4453-8ac7-6f29f836213f</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="135"  data-unit-cost="30.00" &gt;Return Check Fee - Return Check Fee&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="135"  data-unit-cost="30.00" &gt;Return Check Fee - Return Check Fee&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>45</Sequence>
+    <DateAdded>2013-03-19T07:12:28.7713297-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-7d9417ff-9b97-4d1f-bbc8-0fcbfb6bb6bf</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="254"  data-unit-cost="1.00" &gt;Interest - Interest&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="254"  data-unit-cost="1.00" &gt;Interest - Interest&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>46</Sequence>
+    <DateAdded>2013-03-19T07:12:28.8003335-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-f6e82535-db24-4210-807d-0ad81c7c3059</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Description>                &lt;option value="262"  data-unit-cost="1.00" &gt;Penalty Fee - Penalty Fee&lt;/option&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20                 &lt;option value="262"  data-unit-cost="1.00" &gt;Penalty Fee - Penalty Fee&lt;/option&gt;\par
+}
+</RichDescription>
+    <Sequence>47</Sequence>
+    <DateAdded>2013-03-19T07:12:28.8293382-04:00</DateAdded>
+  </Note>
+  <ExternalDoc>
+    <UniqueID>EX-7b507b2d-40f2-492c-a6d1-deffb781ea5b</UniqueID>
+    <ParentID>D2-add309b9-3221-46c4-8947-2f50b2160a43</ParentID>
+    <Name>http://physicaltherapy.about.com/od/abbreviationsandterms/p/Modalities.htm</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-8e60675d-903f-48dd-bda8-41f6c4efbc1c</UniqueID>
+    <ParentID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</ParentID>
+    <Name>http://en.wikipedia.org/wiki/Current_Procedural_Terminology</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-82-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-82-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-82-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-82-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <DictionaryEntry>
+    <UniqueID>D2-00f27106-f5bd-47c2-837e-1186c19620d5</UniqueID>
+    <Name>Visit-Based Treatments</Name>
+    <Description>Visit Based Treatments are treatments that can only generate one billing unit per visit regardless of the amount of time spent on that treatment during that one visit. Whether or not a CPT Code treatment s a visit based treatment is easily determined by the CPT Code.
+</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Visit Based Treatments\cf2  are treatments that can only generate one billing unit per \cf1 visit\cf2  regardless of the amount of time spent on that treatment during that one \cf1 visit\cf2 . Whether or not a \cf1 CPT Code\cf2  treatment s a \cf1 visit\cf2  based treatment is easily determined by the \cf1 CPT Code\cf2 .\cf0\par
+\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-25</UserID>
+    <Sequence>0</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-9354aaad-e590-42ca-b35a-d6ca232b6da8</UniqueID>
+    <Name>Time-Based Treatments</Name>
+    <Description>Time Based Treatments are treatments that are billed based on the amount of actual time that was spent providing that treatment to the patient. With Time Based Treatments one could provide that one treatment but if enough time was spent one could end up billing 1 or multiple units depending on the time to billing unit thresholds. 
+Whether or not a CPT Code treatment s a time based treatment is easily determined by the CPT Code.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Time Based Treatments\cf2  are treatments that are billed based on the amount of actual time that was spent providing that treatment to the \cf3\ul patient\cf2\ulnone . With \cf1 Time Based Treatments\cf2  one could provide that one treatment but if enough time was spent one could end up billing 1 or multiple units depending on the time to billing unit thresholds. \par
+Whether or not a \cf1 CPT Code\cf2  treatment s a time based treatment is easily determined by the \cf1 CPT Code\cf2 .\cf0\fs20\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-23</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-b8676f7e-92a4-4873-aa9a-b12b2bb3cc31</UniqueID>
+    <Name>Supply Based Treatments</Name>
+    <Description>Supply Based Treatments are treatments that are only related to supplies. They must also be something that insurance covers and can be sent through for insurance billing. </Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Supply Based Treatments\cf2  are treatments that are only related to supplies. They must also be something that insurance covers and can be sent through for insurance billing. \cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-22</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-aaabb4e1-b48a-4a3e-a98c-93787b79d634</UniqueID>
+    <Name>Referral Intake</Name>
+    <Description>Referral Intake is when AH receives referrals from the Primary Care Physician for a new patient. For Advent this all comes through AH Corporate and one person generally manages this.
+For all other AH properties this is done on a clinic by clinic basis.
+At the time of Referral Intake the high level info is taken regarding the patient and their insurance is verified including getting approval for eval and treatment if possible.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Referral Intake\cf0  is when \cf1 AH\cf2  receives referrals from the Primary Care Physician for a new \cf3\ul patient\cf2\ulnone . For Advent this all comes through \cf1 AH\cf2  Corporate and one person generally manages this.\par
+For all other \cf1 AH\cf2  properties this is done on a clinic by clinic basis.\par
+At the time of \cf1 Referral Intake\cf2  the high level info is taken regarding the \cf3\ul patient\cf2\ulnone  and their insurance is verified including getting approval for \cf1 eval\cf2  and treatment if possible.\cf0\fs20\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-36</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-dbad5634-be08-4ed4-b3ab-9d4ff0588e8d</UniqueID>
+    <Name>PQRS</Name>
+    <Description>Physician Quality Reporting System (PQRS) is a claims based measurement for supplying non-billable billing codes with Medicare claims. </Description>
+    <Aliases>Physician Quality Reporting System</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Physician Quality Reporting System\cf0  (\cf1 PQRS\cf2 ) is a claims based measurement for supplying non-billable \cf1 billing codes\cf2  with Medicare claims. \cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-20</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-a5e76c50-ae05-4bbb-8386-760ecc65f039</UniqueID>
+    <Name>Referring Physician</Name>
+    <Description>Doctor who refers patients to Agility Health</Description>
+    <Aliases>Referring Doctor</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Doctor who refers \cf1\ul patients\cf2\ulnone  to \cf3 Agility Health\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-21</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-9b685bef-cacd-47e4-af5e-e898fe2b9dfc</UniqueID>
+    <Name>Visit</Name>
+    <Description>A visit is a session held between a Clinician and a Patient
+</Description>
+    <Aliases>Appointment</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 A \cf1 visit\cf2  is a session held between a \cf1 Clinician\cf2  and a \cf3\ul Patient\cf2\ulnone\par
+\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-24</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-c8dee076-dd39-454d-bc9c-517fc14e4e59</UniqueID>
+    <Name>Physical Therapist Assistant</Name>
+    <Description>A Physical Therapist Assistant is the actor who uses the documentation module to enter Case specific information regarding the Patient ailment and progress.  They will have some Documentation Module restrictions that the PT will not.</Description>
+    <Aliases>Clinician, PTA</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 A \cf1 Physical Therapist Assistant\cf2  is the actor who uses the documentation module to enter \cf1 Case\cf2  specific information regarding the \cf3\ul Patient\cf2\ulnone  ailment and progress.  They will have some Documentation Module restrictions that the \cf3\ul PT\cf2\ulnone  will not.\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-19</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-0f889042-4fe4-4432-9bf9-fc204eee09c5</UniqueID>
+    <Name>Physical Therapist</Name>
+    <Description>A Physical Therapist is the actor who uses the documentation module to enter Case specific information regarding the Patient ailment and progress.</Description>
+    <Aliases>Clinician, PT</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 A \cf1 Physical Therapist\cf2  is the actor who uses the documentation module to enter \cf1 Case\cf2  specific information regarding the \cf3\ul Patient\cf2\ulnone  ailment and progress.\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-18</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-3aa62e86-0127-4e90-974d-bda5fde95390</UniqueID>
+    <Name>Patient Intake</Name>
+    <Description>Patient Intake - Setup is the process during the Patients first appointment of gathering all detail about the patient, getting Privacy Policy signed, HIPPA docs signed, etc.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\ulnone  Intake\cf2  - Setup is the process during the \cf3\ul Patients\cf2\ulnone  first \cf1 appointment\cf2  of gathering all detail about the \cf3\ul patient\cf2\ulnone , getting Privacy Policy signed, HIPPA docs signed, etc.\cf0\fs20\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-35</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-11171ee7-009d-47ef-877c-1c77eac14f2e</UniqueID>
+    <Name>Occupational Therapist</Name>
+    <Description>An Occupational Therapist is the actor who uses the system to enter Case specific information regarding the Patient ailment and progress.</Description>
+    <Aliases>Clinician, OT</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 An \cf1 Occupational Therapist\cf2  is the actor who uses the system to enter \cf1 Case\cf2  specific information regarding the \cf3\ul Patient\cf2\ulnone  ailment and progress.\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-16</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-7520dfc7-2d06-43a6-a1ce-55a16829a9e2</UniqueID>
+    <Name>Occupational Therapist Assistant</Name>
+    <Description>An assistant to an Occupational Therapist</Description>
+    <Aliases>Clinician, OTA</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 An assistant to an \cf1 Occupational Therapist\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-17</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-add309b9-3221-46c4-8947-2f50b2160a43</UniqueID>
+    <Name>Modality</Name>
+    <Description>Physical therapists use a variety of modalities to help treat their patients. There are a variety of treatment modalities that can help strengthen, relax, and heal muscles.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Physical therapists\cf0\ulnone  use a variety of \cf2 modalities\cf0  to help treat their \cf1\ul patients\cf0\ulnone . There are a variety of treatment \cf2 modalities\cf0  that can help strengthen, relax, and heal muscles.\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-14</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-b75bb324-0ef3-45a0-8ed9-b10b685a701a</UniqueID>
+    <Name>Insurance Company</Name>
+    <Description />
+    <Aliases>Carrier, Insurance Carrier</Aliases>
+    <RichDescription />
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-13</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-dd43f99e-27a1-4663-a8ff-c02b8080f555</UniqueID>
+    <Name>Indicators</Name>
+    <Description>Description of a measurement whose recorded scores would indicate progress or lack there of. Performed at Eval and at discharge and sometimes during progress summaries.</Description>
+    <Aliases>Problem List, Function &amp; Measures</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Description of a measurement whose recorded scores would indicate progress or lack there of. Performed at Eval and at discharge and sometimes during progress summaries.\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-12</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-21b7706e-4f8e-4fb0-b2c0-493d50accf62</UniqueID>
+    <Name>Modifier</Name>
+    <Description>Modifiers are utilized to clarify CPT codes when they are required to more accurately describe a procedure performed or service rendered.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Modifiers\cf0  are utilized to clarify \cf1 CPT codes\cf0  when they are required to more accurately describe a \cf1 procedure\cf0  performed or service rendered.\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-15</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-ddf03a7a-bac6-4391-b50a-773679f65feb</UniqueID>
+    <Name>Functional Outcomes</Name>
+    <Description />
+    <Aliases />
+    <RichDescription />
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-11</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-f4632bd9-f1a1-4457-939d-27ca77aa482e</UniqueID>
+    <Name>Case Clinician of Record</Name>
+    <Description>When a referral comes in and the case is setup the CBC assigns the Clinician of Record for the Case. It can be changed in the system but is usually note changed.</Description>
+    <Aliases>PT of record</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 When a referral comes in and the \cf1 case\cf2  is setup the \cf3\ul CBC\cf2\ulnone  assigns the \cf1 Clinician of Record\cf2  for the \cf1 Case\cf2 . It can be changed in the \cf3\ul system\cf2\ulnone  but is usually note changed.\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-6</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-b407f3ee-e419-40fe-a2c3-002f23a81efd</UniqueID>
+    <Name>Clinical Business Coordinator</Name>
+    <Description>A Clinical Business Coordinator is the actor who is responsible for the Clinic's Business and Financial activities</Description>
+    <Aliases>CBC, Office Manager</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 A \cf1 Clinical Business Coordinator\cf2  is the actor who is responsible for the Clinic's Business and Financial activities\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-5</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-3bc97dcb-0da5-409e-bf6a-89b16bcae70c</UniqueID>
+    <Name>D/C</Name>
+    <Description>Shorthand abbreviation for Discharge.  Past tense "Discharged" = "D/C'd"</Description>
+    <Aliases>Discharge</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Shorthand abbreviation for Discharge.  Past tense "Discharged" = "D/C'd"\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-7</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-d623d3c1-a46c-4d78-973a-771c0b351251</UniqueID>
+    <Name>Discharge Summary</Name>
+    <Description>Document that must be filled out by Clinician when closing out any case. Includes wrap up of treatments, prognosis, etc.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Document that must be filled out by \cf1 Clinician\cf2  when closing out any \cf1 case\cf2 . Includes wrap up of treatments, prognosis, etc.\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-8</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-6f02ba74-6c16-4bfb-8dbe-0fc2341697af</UniqueID>
+    <Name>Charge Capture</Name>
+    <Description>When CBCs enter the patient appointment from the Clinician into the system. It's called 'Charge Capture' because without this information AH cannot get paid for any given appointment. </Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs22 When \cf1\ul CBCs\cf2\ulnone  enter the \cf1\ul patient\cf2\ulnone  appointment from the \cf1\ul Clinician\cf2\ulnone  into the system. It's called '\cf3 Charge Capture\cf2 ' because without this information \cf3 AH\cf2  cannot get paid for any given appointment. \cf0\f1\fs20\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-4</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-1ab60f41-2aa2-4d99-8c1f-732ef7b73f54</UniqueID>
+    <Name>Appointment Clinician of Record</Name>
+    <Description>For each Appointment there is a clinician of record. It's the clinician that is assigned to that appointment for that day.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 For each \cf1 Appointment\cf2  there is a \cf1 clinician\cf2  of record. It's the \cf1 clinician\cf2  that is assigned to that \cf1 appointment\cf2  for that day.\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-34</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-b53d35e6-a63b-4215-bbff-4cb41a02a75d</UniqueID>
+    <Name>Agility Health</Name>
+    <Description>Customer and product owner</Description>
+    <Aliases>AH</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Customer and product owner\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-1</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-53905536-9081-40a1-92c9-7ae096b590c0</UniqueID>
+    <Name>Assessment</Name>
+    <Description>An Assessment is a gauge from the Physical Therapist as to the rehabilitation potential of the patient's issues related to a specific case. Options are:
+Excellent - Reasonable expectation that all goals will be achieved
+Good - Reasonable expectation that all goals should be achieved
+Fair - Patient may benefit from services, will trial and reassess
+Poor - Patient will not benefit from services, no significant progress anticipated</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 An \cf1 Assessment\cf2  is a gauge from the \cf3\ul Physical Therapist\cf2\ulnone  as to the rehabilitation potential of the \cf3\ul patient\cf2\ulnone 's issues related to a specific \cf1 case\cf2 . Options are:\par
+Excellent - Reasonable expectation that all goals will be achieved\par
+Good - Reasonable expectation that all goals should be achieved\par
+Fair - \cf3\ul Patient\cf2\ulnone  may benefit from services, will trial and reassess\par
+Poor - \cf3\ul Patient\cf2\ulnone  will not benefit from services, no significant progress anticipated\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-2</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-bf189f39-c43f-418e-9b2a-b7effc4aae42</UniqueID>
+    <Name>Evaluation</Name>
+    <Description>For all first appointments per case it is required that an initial Evaluation be performed.
+Currently this is performed on hard copy document. 
+There are no current plans to integrate this into the Agile PM system. 
+</Description>
+    <Aliases>Eval</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 For all first \cf1 appointments\cf2  per \cf1 case\cf2  it is required that an initial \cf1 Evaluation\cf2  be performed.\par
+Currently this is performed on hard copy document. \par
+There are no current plans to integrate this into the Agile PM \cf3\ul system\cf2\ulnone . \par
+\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-10</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-1564f6c2-775d-4b3d-9aed-ccc695a648c6</UniqueID>
+    <Name>CPT Code</Name>
+    <Description>The code that signifies the type of procedure administered to a Patient.
+CPT Codes are separated into 3 different types in Plan of Care and Daily Note.
+In the Plan of Care you'll find only 2 types. Time Based Treatments and Visit Based Treatments. 
+In the Daily Note the Supply Based Treatment CPT Codes become available and those can be added there.
+</Description>
+    <Aliases>Billing Code, Charge Code, procedure</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The code that signifies the type of procedure administered to a \cf1\ul Patient\cf2\ulnone .\par
+\cf3 CPT Codes\cf2  are separated into 3 different types in \cf3 Plan of Care\cf2  and \cf3 Daily Note\cf2 .\par
+In the \cf3 Plan of Care\cf2  you'll find only 2 types. \cf3 Time Based Treatments\cf2  and \cf3 Visit Based Treatments\cf2 . \par
+In the \cf3 Daily Note\cf2  the Supply Based Treatment \cf3 CPT Codes\cf2  become available and those can be added there.\par
+\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-27</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-416dc8b6-d337-4718-960d-32085823267b</UniqueID>
+    <Name>Orientation</Name>
+    <Description>Additionally describes the Body Region in more detail.  One of three choices are possible: 
+Bilateral 
+Left
+Right</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Additionally describes the \cf1 Body Region\cf2  in more detail.\cf0   One of three choices are possible: \par
+Bilateral \par
+Left\par
+Right\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-30</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-0aa00581-6bab-4fa6-b76f-123e2533d0d4</UniqueID>
+    <Name>Daily Note</Name>
+    <Description>A Daily Note is created for each Visit and offers documented notes for each procedure rendered, the length of time each procedure was rendered, a grand total summation of all procedures and total time required for the Visit, subjective free text input for how the Patient is feeling and responding to treatments, current functional level, and a Clinician assessment.
+
+The Daily Note in the new documentation functionality is merging what the old hard copy Encounter Form used to do. Both activities will be taken care of in one tab.</Description>
+    <Aliases>Encounter Form</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 A \cf1 Daily Note\cf2  is created for each \cf1 Visit\cf2  and offers documented notes for each procedure rendered, the length of time each procedure was rendered, a grand total summation of all procedures and total time required for the \cf1 Visit\cf2 , subjective free text input for how the \cf3\ul Patient\cf2\ulnone  is feeling and responding to treatments, current functional level, and a \cf1 Clinician\cf2  assessment.\par
+\par
+The \cf1 Daily Note\cf2  in the new documentation functionality is merging what the old hard copy Encounter Form used to do. Both activities will be taken care of in one tab.\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-28</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-8f5bfa82-95d9-47ed-a2ac-7cda64c6c88f</UniqueID>
+    <Name>Plan of Care</Name>
+    <Description>A Plan of Care is developed between a Clinician and a Patient upon an Initial Evaluation to signify the first process towards working a Case</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 A \cf1 Plan of Care\cf2  is developed between a \cf1 Clinician\cf2  and a \cf3\ul Patient\cf2\ulnone  upon an Initial Evaluation to signify the first process towards working a \cf1 Case\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-31</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-5d900f08-34dc-458f-b473-41ddf3ada8b5</UniqueID>
+    <Name>Diagnosis</Name>
+    <Description>Description of the ailment the patient is going to be treated for.</Description>
+    <Aliases>Diagnoses</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Description of the ailment the \cf1\ul patient\cf2\ulnone  is going to be treated for.\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-29</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-da13c762-d4bb-401d-8d4c-85accc442d94</UniqueID>
+    <Name>Body Region</Name>
+    <Description>Body Region is a list of the different parts of the body that the Physical Therapist can specify as the primary area of problem for the patient during the Plan of Care creation. 
+This is used to help drive:
+1. possible template use by the pt
+2. Function &amp; Measures or Problem List
+3. Treatment Plan
+</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Body Region\cf2  is a list of the different parts of the body that the \cf3\ul Physical Therapist\cf2\ulnone  can specify as the primary area of problem for the \cf3\ul patient\cf2\ulnone  during the \cf1 Plan of Care\cf2  creation. \par
+This is used to help drive:\par
+1. possible template use by the \cf1 pt\cf2\par
+2. \cf1 Function &amp; Measures\cf2  or \cf1 Problem List\cf2\par
+3. Treatment Plan\par
+\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-26</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-6fbaf6fc-2416-4564-90b4-f54c87e9b430</UniqueID>
+    <Name>Progress Note</Name>
+    <Description>A Progress Note is a procedural phase in the documentation module that signifies that a systematic trigger needing to involve that Progress must be documented once every 10 Visits or once every 30 days time, whichever comes first.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 A \cf1 Progress Note\cf2  is a procedural phase in the documentation module that signifies that a systematic trigger needing to involve that Progress must be documented once every 10 \cf1 Visits\cf2  or once every 30 days time, whichever comes first.\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-32</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-e50eefdf-62ef-4d03-911c-04adf20bf60e</UniqueID>
+    <Name>Template</Name>
+    <Description>Template is a saved list of Problems, Goals and Treatments. One body region must be always assigned to a template.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Template is a saved list of Problems, Goals and Treatments. One \cf2 body region\cf1  must be always assigned to a \cf2 template\cf1 .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-14-1</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-d092ea39-b03b-440f-a545-72c90130a17b</UniqueID>
+    <Name>Case</Name>
+    <Description>A Case is a documented series of Visits between a Patient and a Clinician</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 A \cf1 Case\cf2  is a documented series of Visits between a \cf3\ul Patient\cf2\ulnone  and a \cf1\ul Clinician\cf0\ulnone\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-3</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-2376306d-675f-4580-95d4-9cc07f9e8d1c</UniqueID>
+    <Name>Therapist Protocol</Name>
+    <Description>Therapist Protocol is another way of saying Template for Function &amp; Measures, Goals and Treatment Plan. This is used when creating a plan of care. 		</Description>
+    <Aliases>Template</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Therapist Protocol\cf2  is another way of saying Template for \cf1 Function &amp; Measures\cf2 , Goals and Treatment Plan. This is used when creating a \cf1 plan of care\cf2 . \tab\tab\cf0\par
+}
+</RichDescription>
+    <ParentID>P-433aa078-bab5-4882-88c4-3bf81516d2c3</ParentID>
+    <UserID>DEF-33</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryField>
+    <Name>New Field</Name>
+    <UniqueID>DF-ccee78c7-640b-4ef5-8df9-b75dcbd43b5c</UniqueID>
+    <ParentID>D2-0f889042-4fe4-4432-9bf9-fc204eee09c5</ParentID>
+    <ElementType>[Type]</ElementType>
+    <Description>[Description]</Description>
+    <Sequence>0</Sequence>
+  </DictionaryField>
+  <DictionaryField>
+    <Name>New Field</Name>
+    <UniqueID>DF-f6dfae6d-9e8f-4971-9840-9e6e07a25785</UniqueID>
+    <ParentID>D2-b407f3ee-e419-40fe-a2c3-002f23a81efd</ParentID>
+    <ElementType>[Type]</ElementType>
+    <Description>[Description]</Description>
+    <Sequence>0</Sequence>
+  </DictionaryField>
+  <DictionaryField>
+    <Name>CaseID</Name>
+    <UniqueID>DF-c42a3f62-a707-4887-bbb9-da1bb672e89c</UniqueID>
+    <ParentID>D2-0aa00581-6bab-4fa6-b76f-123e2533d0d4</ParentID>
+    <ElementType>number</ElementType>
+    <Description>Indicates which Case the Visit was in accordance with</Description>
+    <Sequence>0</Sequence>
+  </DictionaryField>
+  <DictionaryField>
+    <Name>VisitID</Name>
+    <UniqueID>DF-18856cc9-2931-4015-9ffa-4231f66d729f</UniqueID>
+    <ParentID>D2-0aa00581-6bab-4fa6-b76f-123e2533d0d4</ParentID>
+    <ElementType>number</ElementType>
+    <Description>Indicates which Visit was being noted</Description>
+    <Sequence>1</Sequence>
+  </DictionaryField>
+  <DictionaryField>
+    <Name>New Field</Name>
+    <UniqueID>DF-4a5045ed-b8b1-48c8-aa40-1ee276486099</UniqueID>
+    <ParentID>D2-0aa00581-6bab-4fa6-b76f-123e2533d0d4</ParentID>
+    <ElementType>[Type]</ElementType>
+    <Description>[Description]</Description>
+    <Sequence>2</Sequence>
+  </DictionaryField>
+  <DictionaryField>
+    <Name>New Field</Name>
+    <UniqueID>DF-4455ba6f-40f9-4345-91ab-8c3cc46de85c</UniqueID>
+    <ParentID>D2-da13c762-d4bb-401d-8d4c-85accc442d94</ParentID>
+    <ElementType>[Type]</ElementType>
+    <Description>[Description]</Description>
+    <Sequence>0</Sequence>
+  </DictionaryField>
+  <DictionaryField>
+    <Name>CaseID</Name>
+    <UniqueID>DF-f4b50ded-7afe-49a2-b5d1-c2481f06923b</UniqueID>
+    <ParentID>D2-d092ea39-b03b-440f-a545-72c90130a17b</ParentID>
+    <ElementType>Number</ElementType>
+    <Description>Numerical Indicator of Case</Description>
+    <Sequence>0</Sequence>
+  </DictionaryField>
+  <DictionaryField>
+    <Name>New Field</Name>
+    <UniqueID>DF-5ca14bc1-193e-43af-948b-37896a23de3c</UniqueID>
+    <ParentID>D2-d092ea39-b03b-440f-a545-72c90130a17b</ParentID>
+    <ElementType>[Type]</ElementType>
+    <Description>[Description]</Description>
+    <Sequence>1</Sequence>
+  </DictionaryField>
+  <DictionaryField>
+    <Name>New Field</Name>
+    <UniqueID>DF-b59bc46a-82e8-4a58-a464-7e930d0f17e7</UniqueID>
+    <ParentID>D2-2376306d-675f-4580-95d4-9cc07f9e8d1c</ParentID>
+    <ElementType>[Type]</ElementType>
+    <Description>[Description]</Description>
+    <Sequence>0</Sequence>
+  </DictionaryField>
+  <DictionaryFieldConstraint>
+    <ParentID>DF-c42a3f62-a707-4887-bbb9-da1bb672e89c</ParentID>
+    <ConstraintKind>COUNT</ConstraintKind>
+    <UniqueID>DC-05b7f665-1025-49a6-8680-176442dc9acb</UniqueID>
+    <Count>1</Count>
+  </DictionaryFieldConstraint>
+  <DictionaryFieldConstraint>
+    <ParentID>DF-c42a3f62-a707-4887-bbb9-da1bb672e89c</ParentID>
+    <ConstraintKind>REQUIRED</ConstraintKind>
+    <UniqueID>DC-39430a7f-8000-4b70-a2d8-48188fa17f70</UniqueID>
+  </DictionaryFieldConstraint>
+  <DictionaryFieldConstraint>
+    <ParentID>DF-18856cc9-2931-4015-9ffa-4231f66d729f</ParentID>
+    <ConstraintKind>COUNT</ConstraintKind>
+    <UniqueID>DC-10dc61b5-968a-4b53-9d21-82f8a120f075</UniqueID>
+    <Count>1..n</Count>
+  </DictionaryFieldConstraint>
+  <DictionaryFieldConstraint>
+    <ParentID>DF-18856cc9-2931-4015-9ffa-4231f66d729f</ParentID>
+    <ConstraintKind>REQUIRED</ConstraintKind>
+    <UniqueID>DC-b37d1135-d808-4906-a6c3-c49989fa9b20</UniqueID>
+  </DictionaryFieldConstraint>
+  <DictionaryFieldConstraint>
+    <ParentID>DF-f4b50ded-7afe-49a2-b5d1-c2481f06923b</ParentID>
+    <ConstraintKind>REQUIRED</ConstraintKind>
+    <UniqueID>DC-4fcb5875-9cf1-49ba-881b-ebb7aa7fc176</UniqueID>
+  </DictionaryFieldConstraint>
+  <DictReq>
+    <ParentID>D2-416dc8b6-d337-4718-960d-32085823267b</ParentID>
+    <ReqID>REQ-7411fb21-76bb-40ee-b829-5c3455b9f9db</ReqID>
+  </DictReq>
+</UCTDataSet>

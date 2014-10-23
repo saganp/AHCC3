@@ -1,0 +1,1306 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5088</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</UniqueID>
+    <ExternalParentID>P-28599d8a-9ecf-4b6b-9b2f-030aba61c653</ExternalParentID>
+    <Name>Project Hammer</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-d5f2da3e-ae6e-47e4-a9a4-8dd93fc5db9e</UniqueID>
+    <UserID>UC-73-1</UserID>
+    <ParentID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</ParentID>
+    <Name>Enable "Productivity Only" for a location</Name>
+    <Description>Admin enables "Productivity Only" for a location
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Admin enables \fs20 "Productivity Only" for a location\par
+\pard\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>User is in a hospital company</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-05T12:49:14.4617365-04:00</DateAdded>
+    <DateModified>2014-06-05T16:30:58.5688835-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-8edbb14c-6662-47fa-a1ef-80786ac43e1b</UniqueID>
+    <UserID>UC-73-2</UserID>
+    <ParentID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</ParentID>
+    <Name>Disable "Productivity Only" for a location</Name>
+    <Description>Admin enables "Productivity Only" for a location</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Admin enables "Productivity Only" for a location\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-05T12:50:23.8038297-04:00</DateAdded>
+    <DateModified>2014-06-05T18:08:20.9571188-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-5d1c442d-c6f6-43c6-bc48-fc550d7bccf2</UniqueID>
+    <UserID>UC-73-3</UserID>
+    <ParentID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</ParentID>
+    <Name>Generate Productivity Reports</Name>
+    <Description>User generates standard hospital reports. Only applicable reports should be available in Hammer locations. In this version, it's Site Profile and Site Profile Daily. Other reports should not be available.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User generates standard hospital reports. Only applicable reports should be available in Hammer locations. In this version, it's Site Profile and Site Profile Daily. \cf1 Other reports should not be available.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-05T12:51:22.9702152-04:00</DateAdded>
+    <DateModified>2014-06-05T16:24:35.4897571-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-3a875c1d-a7e8-4b89-b6f5-6e1becdad8f9</UniqueID>
+    <UserID>UC-73-4</UserID>
+    <ParentID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</ParentID>
+    <Name>Open Home page</Name>
+    <Description>User opens home page (logs on to a "Productivity Only" location)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens home page (logs on to a "Productivity Only" location)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-05T12:55:09.4082038-04:00</DateAdded>
+    <DateModified>2014-06-05T18:31:17.6717624-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-9e556402-33f6-4105-93ed-4b8b716c7493</UniqueID>
+    <UserID>UC-73-5</UserID>
+    <ParentID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</ParentID>
+    <Name>Enter daily metrics</Name>
+    <Description>User enters daily metrics </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enters daily metrics \par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-05T12:56:10.2403262-04:00</DateAdded>
+    <DateModified>2014-06-06T11:04:56.2058805-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-151da9c5-4b0e-4359-9371-687a4ee87860</UniqueID>
+    <UserID>UC-73-6</UserID>
+    <ParentID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</ParentID>
+    <Name>Edit Daily Metrics </Name>
+    <Description>User updates already posted entry</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User updates already posted entry\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-05T12:56:51.0861308-04:00</DateAdded>
+    <DateModified>2014-06-06T11:05:09.9650805-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-2c0d4902-af2c-4a6a-9df6-f9b2db490041</UniqueID>
+    <UserID>UC-73-7</UserID>
+    <ParentID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</ParentID>
+    <Name>View Daily Metrics</Name>
+    <Description>User reviews already posted entries for the day</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User reviews already posted entries for the day\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-05T18:08:40.4914488-04:00</DateAdded>
+    <DateModified>2014-06-06T12:59:13.8298753-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-93a0c167-5dd2-4d55-9c50-2ae1cf954b69</UniqueID>
+    <UserID>UC-73-8</UserID>
+    <ParentID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</ParentID>
+    <Name>Delete Entry</Name>
+    <Description />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-06-05T18:31:42.9791796-04:00</DateAdded>
+    <DateModified>2014-06-06T13:00:13.1098753-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-1193f9e1-6c99-4a87-9abc-720a02aebc67</UniqueID>
+    <UserID>UC-73-9</UserID>
+    <ParentID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</ParentID>
+    <Name>Switch Date</Name>
+    <Sequence>8</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-06-05T18:46:09.2831483-04:00</DateAdded>
+    <DateModified>2014-06-06T13:01:21.3910753-04:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-9bf634ef-8f3b-4f02-8f24-246b94104dba</UniqueID>
+    <ParentID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</ParentID>
+    <Name>Project Hammer</Name>
+    <Sequence>0</Sequence>
+    <FileName>Project Hammer.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <UCActor>
+    <ParentID>UC-d5f2da3e-ae6e-47e4-a9a4-8dd93fc5db9e</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8edbb14c-6662-47fa-a1ef-80786ac43e1b</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-3a875c1d-a7e8-4b89-b6f5-6e1becdad8f9</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5d1c442d-c6f6-43c6-bc48-fc550d7bccf2</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5d1c442d-c6f6-43c6-bc48-fc550d7bccf2</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-9e556402-33f6-4105-93ed-4b8b716c7493</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-151da9c5-4b0e-4359-9371-687a4ee87860</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-2c0d4902-af2c-4a6a-9df6-f9b2db490041</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-93a0c167-5dd2-4d55-9c50-2ae1cf954b69</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-1193f9e1-6c99-4a87-9abc-720a02aebc67</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCReq>
+    <ParentID>UC-9e556402-33f6-4105-93ed-4b8b716c7493</ParentID>
+    <ReqID>REQ-af572601-8405-430f-8bba-0959e97625c0</ReqID>
+  </UCReq>
+  <UCReq>
+    <ParentID>UC-151da9c5-4b0e-4359-9371-687a4ee87860</ParentID>
+    <ReqID>REQ-af572601-8405-430f-8bba-0959e97625c0</ReqID>
+  </UCReq>
+  <UCReq>
+    <ParentID>UC-93a0c167-5dd2-4d55-9c50-2ae1cf954b69</ParentID>
+    <ReqID>REQ-af572601-8405-430f-8bba-0959e97625c0</ReqID>
+  </UCReq>
+  <Scenario>
+    <UniqueID>MSS-789c8283-db34-4358-8143-bda6b1a847fd</UniqueID>
+    <ParentID>UC-d5f2da3e-ae6e-47e4-a9a4-8dd93fc5db9e</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-4df5fd58-7a62-4484-bed1-9b0dd90d6382</UniqueID>
+    <ParentID>UC-8edbb14c-6662-47fa-a1ef-80786ac43e1b</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-8fe1d435-2766-47d9-94bf-cc8a56d4e7aa</UniqueID>
+    <ParentID>UC-3a875c1d-a7e8-4b89-b6f5-6e1becdad8f9</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-74ac131b-9433-4894-bd1a-2a70c992fb5c</UniqueID>
+    <ParentID>UC-9e556402-33f6-4105-93ed-4b8b716c7493</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-955898f7-bd68-49d1-accb-43c393b58034</UniqueID>
+    <ParentID>UC-151da9c5-4b0e-4359-9371-687a4ee87860</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-a18cb491-36ec-40cc-a3e5-397b228ac2c6</UniqueID>
+    <ParentID>UC-2c0d4902-af2c-4a6a-9df6-f9b2db490041</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-547fc3d1-3333-4fa4-9bc7-ad0c87d078f0</UniqueID>
+    <ParentID>UC-93a0c167-5dd2-4d55-9c50-2ae1cf954b69</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-75345306-6275-47a0-a4aa-a31d5f90fa74</UniqueID>
+    <ParentID>UC-1193f9e1-6c99-4a87-9abc-720a02aebc67</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-655bde8a-4298-4339-83d4-198eb98bd71c</UniqueID>
+    <UserID>REQ-73-1</UserID>
+    <ParentID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</ParentID>
+    <Name>Admin Changes for Project Hammer </Name>
+    <Description>Top Navigation -- remove all buttons, excepts for Admin.
+Clinician Details -- In the Clinician details, do not allow adding any kind of schedule for  Hammer locations (Hammer locations should not be available for selection on the Schedule tab of the Edit Clinician page.
+Location Details -- Hide the Schedule tab for Hammer locations</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360\cf1\b\f0\fs20 Top Navigation \b0 -- remove all buttons, excepts for \cf2\ul Admin\cf1\ulnone .\par
+\cf3\b{\pntext\f0 2.\tab}Clinician\cf1  Details \b0 -- In the \cf3 Clinician\cf1  details, do not allow adding any kind of schedule for  Hammer locations (Hammer locations should not be available for selection on the Schedule tab of the Edit \cf3 Clinician\cf1  page.\par
+\b{\pntext\f0 3.\tab}Location Details \b0 -- Hide the Schedule tab for Hammer locations\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-05T13:00:56.6380774-04:00</DateAdded>
+    <DateModified>2014-06-25T13:15:45.3003262-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-af572601-8405-430f-8bba-0959e97625c0</UniqueID>
+    <UserID>REQ-73-2</UserID>
+    <ParentID>P-2c13d773-4646-4019-9db2-ce1d8e9596bd</ParentID>
+    <Name>Show notification after entry operations</Name>
+    <Description>The system must display results of the following operations with the entries:
+Add entry
+Update entry
+Delete entry
+
+If the operation was completed successfully, show green notification saying
+Entry Added
+Entry Updated
+Entry Removed
+
+If the operation was completed unsuccessfully, show red notification saying
+Cannot add entry
+Cannot update entry
+Cannot remove entry
+
+Notification must disappear automatically after 2 seconds.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system must display results of the following operations with the entries:\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 Add entry\par
+{\pntext\f0 2.\tab}Update entry\par
+{\pntext\f0 3.\tab}Delete entry\par
+\pard\par
+If the operation was completed successfully, show green notification saying\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent350{\pntxtb\'B7}}\fi-360\li360 Entry Added\par
+{\pntext\f1\'B7\tab}Entry Updated\par
+{\pntext\f1\'B7\tab}Entry Removed\par
+\pard\par
+If the operation was completed unsuccessfully, show red notification saying\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent350{\pntxtb\'B7}}\fi-360\li360 Cannot add entry\par
+{\pntext\f1\'B7\tab}Cannot update entry\par
+{\pntext\f1\'B7\tab}Cannot remove entry\par
+\pard\par
+Notification must disappear automatically after 2 seconds.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-06T10:05:19.1275114-04:00</DateAdded>
+    <DateModified>2014-06-25T13:16:48.6310987-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-379e85d6-c2fa-4d31-8f5e-4bc0a4f05d1c</UniqueID>
+    <ParentID>MSS-789c8283-db34-4358-8143-bda6b1a847fd</ParentID>
+    <Description>User opens location details.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens location details.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d08fbb65-3992-484d-a914-8792cc02bb29</UniqueID>
+    <ParentID>MSS-789c8283-db34-4358-8143-bda6b1a847fd</ParentID>
+    <Description>User selects the "Productivity Only" check box</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects the "Productivity Only" check box\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4f561037-06a4-4a20-a1a4-464ddd413d20</UniqueID>
+    <ParentID>MSS-789c8283-db34-4358-8143-bda6b1a847fd</ParentID>
+    <Description>The system verifies that:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system verifies that:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-79467430-a015-47ac-aaca-3a3dbc0fe767</UniqueID>
+    <ParentID>ST-4f561037-06a4-4a20-a1a4-464ddd413d20</ParentID>
+    <Description>There are no unacknowledged appointments scheduled at the location</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 There are no unacknowledged \cf1 appointments\cf2  scheduled at the location\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8fdc11cf-e9d2-45f5-9308-1519474dc7fc</UniqueID>
+    <ParentID>ST-4f561037-06a4-4a20-a1a4-464ddd413d20</ParentID>
+    <Description>Location is not on any clinician's schedule</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Location is not on any \cf1 clinician\cf0 's schedule\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9f571cba-4f3e-46f8-9734-a025e814b1d1</UniqueID>
+    <ParentID>ST-4f561037-06a4-4a20-a1a4-464ddd413d20</ParentID>
+    <Description>There are no open cases in this location </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 There are no open \cf1 cases\cf2  in this location \cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-74cc67cf-0597-45a4-8e30-5c1fbead6969</UniqueID>
+    <ParentID>MSS-789c8283-db34-4358-8143-bda6b1a847fd</ParentID>
+    <Description>The system applies changes and enables "Productivity Only" for the location.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system applies changes and enables "Productivity Only" for the location.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bf665808-36f9-4e29-875e-7e698594782e</UniqueID>
+    <ParentID>MSS-789c8283-db34-4358-8143-bda6b1a847fd</ParentID>
+    <Description>User saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User saves changes.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2ff4efc2-632e-4633-8922-1af0d442fd19</UniqueID>
+    <ParentID>X-567b84d2-be03-4725-a7b8-9a92f8ebaac7</ParentID>
+    <Description>The system discards location schedule on save.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system discards location schedule on save.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ac400153-6569-4f45-bd11-1d6aa846c74d</UniqueID>
+    <ParentID>X-a904fda5-7895-4863-959e-45beacb1163f</ParentID>
+    <Description>The system displays error message "Conflict detected, changes are not saved. Make sure this location is not on any clinician's schedule and has no unacknowledged appointments or open cases".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system displays error message "Conflict detected, changes are not saved. Make sure this location is not on any \cf1 clinician\cf0 's schedule and has no unacknowledged \cf1 appointments\cf2  or open \cf1 cases\cf0 ".\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5f767b90-47a8-4914-a457-de69c532d860</UniqueID>
+    <ParentID>MSS-4df5fd58-7a62-4484-bed1-9b0dd90d6382</ParentID>
+    <Description>User opens location details.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens location details.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d66e860e-48fe-4343-a1cc-bf2e72a09038</UniqueID>
+    <ParentID>MSS-4df5fd58-7a62-4484-bed1-9b0dd90d6382</ParentID>
+    <Description>User clears the "Productivity Only" check box</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clears the "Productivity Only" check box\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-82a3ab6a-f119-4556-850b-6f4803d9cf66</UniqueID>
+    <ParentID>MSS-4df5fd58-7a62-4484-bed1-9b0dd90d6382</ParentID>
+    <Description>User saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User saves changes.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-01792392-45b3-4d58-a54f-45688328ae8e</UniqueID>
+    <ParentID>X-9cd34030-4dfb-470a-9b90-481e482fb81d</ParentID>
+    <Description>The system discards location schedule on save.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system discards location schedule on save.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-54864321-aff4-44bc-ac41-ca5fbde3c8ff</UniqueID>
+    <ParentID>MSS-4df5fd58-7a62-4484-bed1-9b0dd90d6382</ParentID>
+    <Description>The system applies changes and disables "Productivity Only" for the location.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system applies changes and disables "Productivity Only" for the location.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c399ab76-7edd-41fc-8aba-7f81bc05baa4</UniqueID>
+    <ParentID>MSS-4df5fd58-7a62-4484-bed1-9b0dd90d6382</ParentID>
+    <Description>The system reloads page and shows empty location Schedule tab to the user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system reloads page and shows empty location Schedule tab to the user.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1b03db5c-3b84-4540-b52a-62de33f5252e</UniqueID>
+    <ParentID>MSS-8fe1d435-2766-47d9-94bf-cc8a56d4e7aa</ParentID>
+    <Description>User opens "Productivity Only" location home page</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens "Productivity Only" location home page\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2009cc10-a397-4df6-af29-941437d7139f</UniqueID>
+    <ParentID>MSS-8fe1d435-2766-47d9-94bf-cc8a56d4e7aa</ParentID>
+    <Description>The system displays "Enter Charges &amp; Time" leftnav item (nothing else) - it opens Daily Entries for current date (UC-73-5)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system displays "Enter Charges &amp; Time" leftnav item (nothing else) - it opens Daily Entries for current date (\cf1\ul UC-73-5\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3a7f7278-cbfe-4f94-a8c4-212ecc3f158b</UniqueID>
+    <ParentID>MSS-8fe1d435-2766-47d9-94bf-cc8a56d4e7aa</ParentID>
+    <Description>The system also displays calendar for current month:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system also displays calendar for current \cf1 month:\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1b9a102e-04d3-4bdd-9727-f9b9633a66a5</UniqueID>
+    <ParentID>ST-3a7f7278-cbfe-4f94-a8c4-212ecc3f158b</ParentID>
+    <Description>Selected month indicator</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Selected \cf1 month indicator\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8f740b74-510a-4288-9f3c-4dc2ed7226b4</UniqueID>
+    <ParentID>ST-3a7f7278-cbfe-4f94-a8c4-212ecc3f158b</ParentID>
+    <Description>Month switch controls (forward / back)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Month switch controls (forward / back)\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6ee23d07-5c24-4c4b-8512-ba1ca9eda8b6</UniqueID>
+    <ParentID>ST-3a7f7278-cbfe-4f94-a8c4-212ecc3f158b</ParentID>
+    <Description>Day blocks:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Day blocks:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bee4b388-1ba4-4291-a038-5c7a4358b685</UniqueID>
+    <ParentID>ST-6ee23d07-5c24-4c4b-8512-ba1ca9eda8b6</ParentID>
+    <Description>If no data was entered, show empty day block</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If no data was entered, show empty day block\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5e788b3c-e5b5-43eb-a5a4-e03b40285ef6</UniqueID>
+    <ParentID>ST-6ee23d07-5c24-4c4b-8512-ba1ca9eda8b6</ParentID>
+    <Description>If data was entered, show cumulative entered data for the day:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If data was entered, show cumulative entered data for the day:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-54b0c7a6-d67b-4b3a-aec5-e992fb11eab2</UniqueID>
+    <ParentID>ST-5e788b3c-e5b5-43eb-a5a4-e03b40285ef6</ParentID>
+    <Description>Visits</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Visits\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e794de30-71d4-4a32-bb8e-c4da03b78704</UniqueID>
+    <ParentID>MSS-8fe1d435-2766-47d9-94bf-cc8a56d4e7aa</ParentID>
+    <Description>User can click any day and open entries for that day (and add/edit)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User can click any day and open entries for that day (and add/edit)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-406605a7-166c-4885-af8e-dd1bd68504b8</UniqueID>
+    <ParentID>ST-5e788b3c-e5b5-43eb-a5a4-e03b40285ef6</ParentID>
+    <Description>Evals</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Evals\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-138d29dc-e072-4522-a921-d6407f885633</UniqueID>
+    <ParentID>ST-5e788b3c-e5b5-43eb-a5a4-e03b40285ef6</ParentID>
+    <Description>Units</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Units\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d4e51632-d118-4f72-a286-a167a16c57db</UniqueID>
+    <ParentID>ST-5e788b3c-e5b5-43eb-a5a4-e03b40285ef6</ParentID>
+    <Description>Hours</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Hours\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-da39088a-a152-4df6-8651-dc7f995226a7</UniqueID>
+    <ParentID>MSS-74ac131b-9433-4894-bd1a-2a70c992fb5c</ParentID>
+    <Description>User opens entry screen from left nav or by clicking a day on the home page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens entry screen from left nav or by clicking a day on the home page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b1c2a61b-b4e7-4743-8ad1-8827db2ab674</UniqueID>
+    <ParentID>MSS-74ac131b-9433-4894-bd1a-2a70c992fb5c</ParentID>
+    <Description>The system displays entry form:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays entry form:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4b98e1de-97a4-4075-bc9e-4736b85a1d67</UniqueID>
+    <ParentID>ST-b1c2a61b-b4e7-4743-8ad1-8827db2ab674</ParentID>
+    <Description>Date: &lt;Day&gt;, &lt;Date&gt; - read-only</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Date: &lt;Day&gt;, &lt;Date&gt; - read-only\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-99b39efa-3821-469d-bf01-6c3e192ca1ec</UniqueID>
+    <ParentID>ST-b1c2a61b-b4e7-4743-8ad1-8827db2ab674</ParentID>
+    <Description>Clinician searchable dropdown (contains all clinicians in the company)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Clinician\cf2  searchable dropdown (contains all \cf1 clinicians\cf2  in the company)\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-34526059-eddc-4eb0-b792-af7aef8f134a</UniqueID>
+    <ParentID>ST-b1c2a61b-b4e7-4743-8ad1-8827db2ab674</ParentID>
+    <Description>Location searchable dropdown (contains all locations in the company)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Location \cf1 searchable dropdown (contains all locations in the company)\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b169fefc-357d-4e0a-908b-1de7e495ce74</UniqueID>
+    <ParentID>MSS-74ac131b-9433-4894-bd1a-2a70c992fb5c</ParentID>
+    <Description>User selects location.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects location.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-07c02e01-dc07-4539-884e-8752aef1f837</UniqueID>
+    <ParentID>ST-b1c2a61b-b4e7-4743-8ad1-8827db2ab674</ParentID>
+    <Description>Time Worked text fields (hh + mm)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Time Worked text fields (hh + mm)\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d5af2638-50a3-49d6-8494-2d0301a476bc</UniqueID>
+    <ParentID>ST-b1c2a61b-b4e7-4743-8ad1-8827db2ab674</ParentID>
+    <Description>Visits text field</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Visits\cf2  text field\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cff6b889-dce1-4818-8043-e6ee4e2577c5</UniqueID>
+    <ParentID>ST-b1c2a61b-b4e7-4743-8ad1-8827db2ab674</ParentID>
+    <Description>Evals text field</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Evals\cf2  text field\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6784b3c5-041a-4d46-ad4a-fb190470d0e3</UniqueID>
+    <ParentID>ST-b1c2a61b-b4e7-4743-8ad1-8827db2ab674</ParentID>
+    <Description>No-Show/Cancel text field</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 No-Show/Cancel text field\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ca3ae64c-0d08-483a-a738-26588df75eea</UniqueID>
+    <ParentID>ST-b1c2a61b-b4e7-4743-8ad1-8827db2ab674</ParentID>
+    <Description>Units text field</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Units text field\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-efdcfb7e-0e76-4a80-abf0-a242bdebafa0</UniqueID>
+    <ParentID>MSS-74ac131b-9433-4894-bd1a-2a70c992fb5c</ParentID>
+    <Description>User selects clinician.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User selects \cf1 clinician\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6472dbd9-4e4f-4f3b-916a-e2bb80c38202</UniqueID>
+    <ParentID>MSS-74ac131b-9433-4894-bd1a-2a70c992fb5c</ParentID>
+    <Description>For "Productivity Only" locations, user must enter:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 For "Productivity Only" locations, user must enter:\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a36fd4e3-7262-4fe4-809d-3bde9f0840a2</UniqueID>
+    <ParentID>X-3952ee3e-2b01-4e93-bb66-fd007b59e425</ParentID>
+    <Description>The system hides Visits, Evals, No-Show/Cancel, and Units text boxes</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system hides \cf1 Visits\cf2 , \cf1 Evals\cf2 , No-Show/Cancel, and Units text boxes\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8dab79ef-c466-48de-a7f9-4e877ddbb414</UniqueID>
+    <ParentID>X-445a73d0-e58a-4ec0-a0aa-e4196acd9bca</ParentID>
+    <Description>The system shows logged hours and minutes in the Hours Worked text fields.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system shows logged hours and minutes in the Hours Worked text fields.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9cbbb2b5-d623-4267-b0d4-c51e2ad6616e</UniqueID>
+    <ParentID>X-445a73d0-e58a-4ec0-a0aa-e4196acd9bca</ParentID>
+    <Description>If user changes this value and saves changes, the system must update logged time. And, if Visits / Evals / ... were changed, they are updated as well.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 If user changes this value and saves changes, the system must update logged time. And, if \cf1 Visits\cf2  / \cf1 Evals\cf2  / ... were changed, they are updated as well.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0f02af76-a1a5-4063-84e3-601ba84015b1</UniqueID>
+    <ParentID>X-445a73d0-e58a-4ec0-a0aa-e4196acd9bca</ParentID>
+    <Description>The system shows warning box: "&lt;Clinician_Name&gt; already has an entry for this date and location. If you make changes and save them, already logged hours will be overwritten."</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system shows warning box: "&lt;Clinician_Name&gt; already has an entry for this date and location. If you make changes and save them, already logged hours will be overwritten."\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-943250cc-d8e9-4b1d-a8f1-4c0303e107c3</UniqueID>
+    <ParentID>ST-6472dbd9-4e4f-4f3b-916a-e2bb80c38202</ParentID>
+    <Description>Visits</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Visits\cf2\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a4a78d2d-779f-454b-b29d-c7cc694b8a1f</UniqueID>
+    <ParentID>ST-6472dbd9-4e4f-4f3b-916a-e2bb80c38202</ParentID>
+    <Description>Evals</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Evals\cf2\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-92d0eb96-0627-427c-95bf-0c251cac260d</UniqueID>
+    <ParentID>ST-6472dbd9-4e4f-4f3b-916a-e2bb80c38202</ParentID>
+    <Description>No-Show/Cancel </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 No-Show/Cancel \par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-db37af30-3b9b-48f4-adea-78c8c5c1d9e0</UniqueID>
+    <ParentID>ST-6472dbd9-4e4f-4f3b-916a-e2bb80c38202</ParentID>
+    <Description>Units </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Units \par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-eab76b6e-0b6c-4fec-acf9-a92dbdea4579</UniqueID>
+    <ParentID>MSS-74ac131b-9433-4894-bd1a-2a70c992fb5c</ParentID>
+    <Description>User enters required data and submits entry.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User enters required data and submits entry.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-415388bd-519b-4a21-97dc-95f4176bde30</UniqueID>
+    <ParentID>MSS-74ac131b-9433-4894-bd1a-2a70c992fb5c</ParentID>
+    <Description>The system submits entry and displays it in the bottom section of the page (see UC-73-7 for details).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system submits entry and displays it in the bottom section of the page (see \cf2\ul UC-73-7\cf1\ulnone  for details).\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ce61e529-324d-4940-9a87-ee7a3a607fe6</UniqueID>
+    <ParentID>X-445a73d0-e58a-4ec0-a0aa-e4196acd9bca</ParentID>
+    <Description>If it's a "Productivity Only" location, the system also loads submitted Visits, Evals etc.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If it's a "Productivity Only" location, the system also loads submitted \cf2 Visits\cf1 , \cf2 Evals\cf1  etc.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-74f66e0d-ac0e-4a6f-b661-963f8f404502</UniqueID>
+    <ParentID>MSS-955898f7-bd68-49d1-accb-43c393b58034</ParentID>
+    <Description>User opens an entry for editing using the Edit icon.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens an entry for editing using the Edit icon.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cff8e33d-3b52-4c2e-897a-55239ea66ebb</UniqueID>
+    <ParentID>MSS-955898f7-bd68-49d1-accb-43c393b58034</ParentID>
+    <Description>The system displays the data in then same format it was entered, but in a dialog (see prototype for details).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays the data in then same format it was entered, but in a dialog (see prototype for details).\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-75b50b0d-299b-4530-b3cb-db11fae49444</UniqueID>
+    <ParentID>MSS-955898f7-bd68-49d1-accb-43c393b58034</ParentID>
+    <Description>User makes changes and saves them.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User makes changes and saves them.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ac15e1bf-248e-4ba5-a554-356236c10270</UniqueID>
+    <ParentID>MSS-955898f7-bd68-49d1-accb-43c393b58034</ParentID>
+    <Description>The system applies changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system applies changes.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d58ecdd8-c946-4f9d-8cb0-6d0107f21710</UniqueID>
+    <ParentID>MSS-a18cb491-36ec-40cc-a3e5-397b228ac2c6</ParentID>
+    <Description>User opens entry screen.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens entry screen.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0747bbdc-45c3-455c-b83f-70a3240706ed</UniqueID>
+    <ParentID>MSS-a18cb491-36ec-40cc-a3e5-397b228ac2c6</ParentID>
+    <Description>The system displays already posted entries in the bottom section</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays already posted entries in the bottom section\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b0ddf93b-35cf-4fbf-b94e-bc37e059d434</UniqueID>
+    <ParentID>MSS-a18cb491-36ec-40cc-a3e5-397b228ac2c6</ParentID>
+    <Description>The system shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system shows:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8cf679e3-b4e0-43a6-8b26-525bb3873e58</UniqueID>
+    <ParentID>ST-b0ddf93b-35cf-4fbf-b94e-bc37e059d434</ParentID>
+    <Description>Cumulative Data for the whole day (Hours, Visits, Evals, NS/Cancel, Units)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Cumulative Data for the whole day (Hours, \cf1 Visits\cf2 , \cf1 Evals\cf2 , NS/Cancel, Units)\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a05b98d3-5696-4266-a636-97df33120e96</UniqueID>
+    <ParentID>ST-b0ddf93b-35cf-4fbf-b94e-bc37e059d434</ParentID>
+    <Description>A table with entries grouped by location (1 clinician per row + Totals row for the location</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 A table with entries grouped by location (1 \cf1 clinician\cf2  per row + Totals row for the location\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-de7fe304-77f4-420c-aad0-0ab500109ebb</UniqueID>
+    <ParentID>ST-b0ddf93b-35cf-4fbf-b94e-bc37e059d434</ParentID>
+    <Description>Actions for clinician rows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Actions for \cf1 clinician\cf2  rows:\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6d9b4cb1-95e4-4ae5-83ab-ebcaa865baad</UniqueID>
+    <ParentID>ST-de7fe304-77f4-420c-aad0-0ab500109ebb</ParentID>
+    <Description>Edit - run UC-73-6</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Edit - run \cf1\ul UC-73-6\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9ade360c-2dcb-4bdb-9c20-e64cb35fdc10</UniqueID>
+    <ParentID>ST-de7fe304-77f4-420c-aad0-0ab500109ebb</ParentID>
+    <Description>Delete - run UC-73-8</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Delete - run \cf1\ul UC-73-8\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f61de852-d0eb-4e91-8a3c-49de716ef00f</UniqueID>
+    <ParentID>MSS-547fc3d1-3333-4fa4-9bc7-ad0c87d078f0</ParentID>
+    <Description>User initiates entry removal.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User initiates entry removal.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-23751858-d429-4da3-b443-175e8274653f</UniqueID>
+    <ParentID>MSS-547fc3d1-3333-4fa4-9bc7-ad0c87d078f0</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system requests confirmation.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2e50306c-2c43-4f2f-ad7c-5bf49e75a62e</UniqueID>
+    <ParentID>MSS-547fc3d1-3333-4fa4-9bc7-ad0c87d078f0</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-40c1c026-4f5c-4e17-b32e-1cb3b8a5ff95</UniqueID>
+    <ParentID>MSS-547fc3d1-3333-4fa4-9bc7-ad0c87d078f0</ParentID>
+    <Description>The system permanently removes the entry.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system permanently removes the entry.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9d924914-387a-47d1-8c21-6e70816a2c78</UniqueID>
+    <ParentID>MSS-75345306-6275-47a0-a4aa-a31d5f90fa74</ParentID>
+    <Description>User types a date in the text box on top of the Entry screen.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User types a date in the text box on top of the Entry screen.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8aa18699-c81d-4626-8492-5557caa17e0a</UniqueID>
+    <ParentID>MSS-75345306-6275-47a0-a4aa-a31d5f90fa74</ParentID>
+    <Description>User clicks Go (or hits Enter)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clicks Go (or hits Enter)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ba65c939-5370-4277-8fc5-0ffb86a7e84f</UniqueID>
+    <ParentID>MSS-75345306-6275-47a0-a4aa-a31d5f90fa74</ParentID>
+    <Description>The system reloads the page and shows entry form and existing entries for selected day.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system reloads the page and shows entry form and existing entries for selected day.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-567b84d2-be03-4725-a7b8-9a92f8ebaac7</UniqueID>
+    <ParentID>ST-bf665808-36f9-4e29-875e-7e698594782e</ParentID>
+    <Description>User specified location schedule before saving changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User specified location schedule before saving changes.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-a904fda5-7895-4863-959e-45beacb1163f</UniqueID>
+    <ParentID>ST-74cc67cf-0597-45a4-8e30-5c1fbead6969</ParentID>
+    <Description>Any verification from the previous step has failed.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Any verification from the previous step has failed.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-9cd34030-4dfb-470a-9b90-481e482fb81d</UniqueID>
+    <ParentID>ST-82a3ab6a-f119-4556-850b-6f4803d9cf66</ParentID>
+    <Description>User specified location schedule before saving changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User specified location schedule before saving changes.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-3952ee3e-2b01-4e93-bb66-fd007b59e425</UniqueID>
+    <ParentID>ST-b169fefc-357d-4e0a-908b-1de7e495ce74</ParentID>
+    <Description>User selects a location that is not "Productivity Only"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects a location that is not "Productivity Only"\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-445a73d0-e58a-4ec0-a0aa-e4196acd9bca</UniqueID>
+    <ParentID>ST-efdcfb7e-0e76-4a80-abf0-a242bdebafa0</ParentID>
+    <Description>User selected a clinician who already has logged time for this day and location (even if it was logged via standard Time Tracking in Outpatient setting).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User selected a \cf1 clinician\cf2  who already has logged time for this day and location (even if it was logged via standard Time Tracking in Outpatient setting).\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <UserID>
+    <DefaultPrefix>UC-73-</DefaultPrefix>
+    <NextValue>10</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-73-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-73-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-73-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

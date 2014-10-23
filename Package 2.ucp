@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.4927</SavedWith>
+    <CreatedWith>8.0.4927</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-f8a6108c-a5fb-43b4-9f2f-5f09422d12d1</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-f8a6108c-a5fb-43b4-9f2f-5f09422d12d1</UniqueID>
+    <ExternalParentID>P-02dc7747-d0cb-4c90-abb8-5d5109f40c04</ExternalParentID>
+    <Name>package 2</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-ac428860-00da-445f-ad56-61b06c58a58a</UniqueID>
+    <UserID>UC-43-1</UserID>
+    <ParentID>P-f8a6108c-a5fb-43b4-9f2f-5f09422d12d1</ParentID>
+    <Name>Pluck the eagle</Name>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <UCStatus>Next version</UCStatus>
+    <DateAdded>2013-08-06T03:27:36.2098646-04:00</DateAdded>
+    <DateModified>2013-08-06T03:27:57.9869062-04:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-fd4de29b-58c3-4d9e-931c-3f748d25942a</UniqueID>
+    <ParentID>P-f8a6108c-a5fb-43b4-9f2f-5f09422d12d1</ParentID>
+    <Name>diag2</Name>
+    <Sequence>0</Sequence>
+    <FileName>diag2.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Requirement>
+    <UniqueID>REQ-0ca7a91c-f036-457b-a7f5-87ecc41d26d2</UniqueID>
+    <UserID>REQ-43-1</UserID>
+    <ParentID>P-f8a6108c-a5fb-43b4-9f2f-5f09422d12d1</ParentID>
+    <Name>Safety guidelines for eagle plucking</Name>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Status>Next version</Status>
+    <DateAdded>2013-08-06T03:28:10.7162306-04:00</DateAdded>
+    <DateModified>2013-08-06T03:28:34.7397686-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <UserID>
+    <DefaultPrefix>UC-43-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-43-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-43-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-43-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

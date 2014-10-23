@@ -1,0 +1,1044 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5088</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-fbb50629-178b-4cbf-903b-28b44088552d</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-fbb50629-178b-4cbf-903b-28b44088552d</UniqueID>
+    <ExternalParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ExternalParentID>
+    <Name>Front-End Case Alerts</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-25b66b23-8999-4fc0-8c38-bc76d99266ef</UniqueID>
+    <UserID>UC-84-2</UserID>
+    <ParentID>P-fbb50629-178b-4cbf-903b-28b44088552d</ParentID>
+    <Name>View CBC Schedule Alerts</Name>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-23T12:32:43.076938-04:00</DateAdded>
+    <DateModified>2014-07-23T15:50:46.3027508-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-574ed282-fc3a-446c-8653-84fde00faab9</UniqueID>
+    <UserID>UC-84-1</UserID>
+    <ParentID>P-fbb50629-178b-4cbf-903b-28b44088552d</ParentID>
+    <Name>View Therapist Schedule Alerts</Name>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-23T12:32:44.8241156-04:00</DateAdded>
+    <DateModified>2014-07-23T15:01:23.1146451-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-971086d7-52a6-412b-88c5-f8bd429bdb8f</UniqueID>
+    <UserID>UC-84-3</UserID>
+    <ParentID>P-fbb50629-178b-4cbf-903b-28b44088552d</ParentID>
+    <Name>View Case Alerts</Name>
+    <Description>User opens alerts page</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens alerts page\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-07-23T12:32:46.8052902-04:00</DateAdded>
+    <DateModified>2014-07-23T15:51:04.9130736-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-13acce77-f21e-4d4c-ac3f-71c49b3ffb72</UniqueID>
+    <UserID>UC-84-4</UserID>
+    <ParentID>P-fbb50629-178b-4cbf-903b-28b44088552d</ParentID>
+    <Name>Deactivate Alert</Name>
+    <Description>User deactivates alert</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User deactivates alert\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-07-23T12:49:27.9044852-04:00</DateAdded>
+    <DateModified>2014-07-23T15:51:09.2029636-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-88cace6e-730c-4d05-a801-782dc3a4bd5c</UniqueID>
+    <UserID>UC-84-5</UserID>
+    <ParentID>P-fbb50629-178b-4cbf-903b-28b44088552d</ParentID>
+    <Name>Re-activate Alert</Name>
+    <Description>User re-activates an alerts</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User re-activates an alerts\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-07-23T12:49:42.8453084-04:00</DateAdded>
+    <DateModified>2014-07-23T15:51:12.8688696-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-d45e7c57-6ee9-4c66-ad06-ee152c17e4ba</UniqueID>
+    <UserID>UC-84-6</UserID>
+    <ParentID>P-fbb50629-178b-4cbf-903b-28b44088552d</ParentID>
+    <Name>Add Note</Name>
+    <Description>User adds an alert note</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User adds an alert note\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-07-23T12:50:04.9646784-04:00</DateAdded>
+    <DateModified>2014-07-23T15:52:35.5371861-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-ebf95918-4ea3-4ab1-b14c-8e23e3dc6367</UniqueID>
+    <UserID>UC-84-7</UserID>
+    <ParentID>P-fbb50629-178b-4cbf-903b-28b44088552d</ParentID>
+    <Name>Auto-activate Alert</Name>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-23T12:50:17.8741484-04:00</DateAdded>
+    <DateModified>2014-07-23T15:58:27.2556973-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-99bd6bf1-7a1e-4fb3-b879-151bbaec5a13</UniqueID>
+    <UserID>UC-84-8</UserID>
+    <ParentID>P-fbb50629-178b-4cbf-903b-28b44088552d</ParentID>
+    <Name>Auto-deactivate Alert</Name>
+    <Sequence>7</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-23T15:04:12.3782933-04:00</DateAdded>
+    <DateModified>2014-07-23T16:01:35.04537-04:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-58514229-bf23-4d17-9a56-8815841cec65</UniqueID>
+    <ParentID>P-fbb50629-178b-4cbf-903b-28b44088552d</ParentID>
+    <Name>Front-End Case Alerts</Name>
+    <Sequence>0</Sequence>
+    <FileName>Front-End Case Alerts.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <UCActor>
+    <ParentID>UC-ebf95918-4ea3-4ab1-b14c-8e23e3dc6367</ParentID>
+    <ActorID>A-a5b3b198-9e21-4cbb-9176-facace7e6282</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-971086d7-52a6-412b-88c5-f8bd429bdb8f</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-574ed282-fc3a-446c-8653-84fde00faab9</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-25b66b23-8999-4fc0-8c38-bc76d99266ef</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-99bd6bf1-7a1e-4fb3-b879-151bbaec5a13</ParentID>
+    <ActorID>A-a5b3b198-9e21-4cbb-9176-facace7e6282</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-c142df48-04a5-4274-a901-fcfd13eb6196</UniqueID>
+    <ParentID>UC-574ed282-fc3a-446c-8653-84fde00faab9</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-2033ae2c-9c8a-4df6-bf61-868e737ef72e</UniqueID>
+    <ParentID>UC-25b66b23-8999-4fc0-8c38-bc76d99266ef</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-6e7d88bd-7c1d-4928-bb58-069710b25a9f</UniqueID>
+    <ParentID>UC-971086d7-52a6-412b-88c5-f8bd429bdb8f</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-ab43b736-6d35-460d-a0cb-6aa639ebd3df</UniqueID>
+    <ParentID>UC-13acce77-f21e-4d4c-ac3f-71c49b3ffb72</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-2489593c-72d9-497d-bb17-8e33bcd9d2b9</UniqueID>
+    <ParentID>UC-88cace6e-730c-4d05-a801-782dc3a4bd5c</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-640066ff-f0ad-46cd-b0b3-1fda6e245165</UniqueID>
+    <ParentID>UC-d45e7c57-6ee9-4c66-ad06-ee152c17e4ba</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-1795199e-ecdd-43ec-a294-bb14fb7156ee</UniqueID>
+    <ParentID>UC-ebf95918-4ea3-4ab1-b14c-8e23e3dc6367</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-5cea97a3-901d-4b72-8220-f436a3ca74b5</UniqueID>
+    <ParentID>UC-99bd6bf1-7a1e-4fb3-b879-151bbaec5a13</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-41a4a62f-d68f-42f7-aee5-972fc54b1ddc</UniqueID>
+    <UserID>REQ-84-1</UserID>
+    <ParentID>P-fbb50629-178b-4cbf-903b-28b44088552d</ParentID>
+    <Name>Primary/Secondary Insurance Alerts</Name>
+    <Description>All case alerts are applicable to Primary insurance.
+
+If Primary and Secondary have the same rule enabled, show only the Alerts related to Primary.
+
+If Secondary has a rule that is not enabled for Primary, show a secondary alert only if it's either of the following:
+Medical Review is required
+Auth is required before/after eval</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All \cf2 case\cf1  alerts are applicable to Primary insurance.\par
+\par
+If Primary and Secondary have the same rule enabled, show only the Alerts related to Primary.\par
+\par
+If Secondary has a rule that is not enabled for Primary, show a secondary alert only if it's either of the following:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Medical Review is required\par
+{\pntext\f1\'B7\tab}Auth is required before/after \cf2 eval\cf1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-07-23T12:50:38.30508-04:00</DateAdded>
+    <DateModified>2014-07-23T16:05:10.3442421-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-88ab9880-076a-4f6f-a0dd-dcc25849e354</UniqueID>
+    <ParentID>MSS-c142df48-04a5-4274-a901-fcfd13eb6196</ParentID>
+    <Description>User opens Daily therapist Schedule (PDF)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens Daily therapist Schedule (PDF)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-76023675-29f9-41d8-875e-1633d1090ec3</UniqueID>
+    <ParentID>MSS-c142df48-04a5-4274-a901-fcfd13eb6196</ParentID>
+    <Description>The system displays therapist's appointments.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system displays therapist's \cf1 appointments\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6322593f-6b8c-4715-a814-6e876ca16bc5</UniqueID>
+    <ParentID>MSS-c142df48-04a5-4274-a901-fcfd13eb6196</ParentID>
+    <Description>If any of the following alerts are active for the case, the system displays them in the schedule:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 If any of the following alerts are active for the \cf1 case\cf2 , the system displays them in the schedule:\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a52ffa22-82e2-4405-9787-30fb949f9f5b</UniqueID>
+    <ParentID>ST-6322593f-6b8c-4715-a814-6e876ca16bc5</ParentID>
+    <Description>Only bill Eval on first visit</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Only bill \cf2 Eval\cf1  on first \cf2 visit\cf1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-937d9f56-055e-4dd3-b1a0-8cc4da15373a</UniqueID>
+    <ParentID>ST-6322593f-6b8c-4715-a814-6e876ca16bc5</ParentID>
+    <Description>Max 3 procedures per DOS</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Max 3 \cf2 procedures\cf1  per DOS\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-16ca6431-123f-4ab5-9622-af1d7fa8ca24</UniqueID>
+    <ParentID>ST-6322593f-6b8c-4715-a814-6e876ca16bc5</ParentID>
+    <Description>Max 5 units per DOS</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Max 5 units per DOS\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c18aed09-394e-42ff-818b-bb579ac01d20</UniqueID>
+    <ParentID>ST-6322593f-6b8c-4715-a814-6e876ca16bc5</ParentID>
+    <Description>$65.00 Per-diem</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 $65.00 Per-diem\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-02e491e6-e499-4d25-90e3-8f0a9f323fec</UniqueID>
+    <ParentID>ST-6322593f-6b8c-4715-a814-6e876ca16bc5</ParentID>
+    <Description>Medical Review required after this visit - if the limit is 25, this message is shown for visit #24</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Medical Review required after this \cf2 visit\cf1  -\i  if the limit is 25, this message is shown for \cf2 visit\cf1  #24\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ea71c119-c0c1-4387-b39e-681e28e0dae0</UniqueID>
+    <ParentID>ST-6322593f-6b8c-4715-a814-6e876ca16bc5</ParentID>
+    <Description>Medical Review required before next visit - message is shown for visit 25+ until Alert is deactivated</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Medical Review required before next \cf2 visit\cf1  - \i message is shown for \cf2 visit\cf1  25+ until Alert is deactivated\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9dcbaced-dab8-407b-a40f-936ea336c83d</UniqueID>
+    <ParentID>MSS-2033ae2c-9c8a-4df6-bf61-868e737ef72e</ParentID>
+    <Description>User opens Appointment details</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 Appointment\cf2  details\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-42372677-08fb-4613-bd33-b856442cf2fa</UniqueID>
+    <ParentID>MSS-2033ae2c-9c8a-4df6-bf61-868e737ef72e</ParentID>
+    <Description>If any of the following alerts are active for the case, the system displays a warning sign and alert text in the appointment details:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 If any of the following alerts are active for the \cf1 case\cf2 , the system displays a warning sign and alert text in the \cf1 appointment\cf2  details:\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-48d34deb-2a85-4e40-90df-d16e7c248f81</UniqueID>
+    <ParentID>ST-42372677-08fb-4613-bd33-b856442cf2fa</ParentID>
+    <Description>Only bill Eval on first visit</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Only bill \cf2 Eval\cf1  on first \cf2 visit\cf1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-21232282-06d0-4eef-b75a-940bf25e2e60</UniqueID>
+    <ParentID>ST-42372677-08fb-4613-bd33-b856442cf2fa</ParentID>
+    <Description>Max 3 procedures per DOS</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Max 3 \cf2 procedures\cf1  per DOS\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8ea00b10-eba1-47ba-a835-91c9f07c8c07</UniqueID>
+    <ParentID>ST-42372677-08fb-4613-bd33-b856442cf2fa</ParentID>
+    <Description>Max 5 units per DOS</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Max 5 units per DOS\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dc2e754b-8150-4c70-ae67-d546d0113496</UniqueID>
+    <ParentID>ST-42372677-08fb-4613-bd33-b856442cf2fa</ParentID>
+    <Description>$65.00 Per-diem</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 $65.00 Per-diem\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0bf29882-a08d-4bb5-81eb-bedbc2aaf44d</UniqueID>
+    <ParentID>ST-42372677-08fb-4613-bd33-b856442cf2fa</ParentID>
+    <Description>Medical Review required after this visit - if the limit is 25, this message is shown for visit #24</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Medical Review required after this \cf2 visit\cf1  -\i  if the limit is 25, this message is shown for \cf2 visit\cf1  #24\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-91ca5a71-d702-4278-9900-5adaa75ea2ae</UniqueID>
+    <ParentID>ST-42372677-08fb-4613-bd33-b856442cf2fa</ParentID>
+    <Description>Medical Review required before next visit - message is shown for visit 25+ until Alert is deactivated</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Medical Review required before next \cf2 visit\cf1  - \i message is shown for \cf2 visit\cf1  25+ until Alert is deactivated\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4ee37830-50c4-48b2-9b64-bc3b7ce1d5c8</UniqueID>
+    <ParentID>ST-42372677-08fb-4613-bd33-b856442cf2fa</ParentID>
+    <Description>Auth required before eval</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Auth required before \cf2 eval\cf1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-34edff2f-a424-4268-977e-e7bdfe34b274</UniqueID>
+    <ParentID>ST-42372677-08fb-4613-bd33-b856442cf2fa</ParentID>
+    <Description>Auth required after eval</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Auth required after \cf2 eval\cf1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-11fc1114-8cdf-4cab-8e8d-587db15a1687</UniqueID>
+    <ParentID>MSS-2033ae2c-9c8a-4df6-bf61-868e737ef72e</ParentID>
+    <Description>These alerts do not have any functional effect in schedule, user can perform all the standard appointment actions (check in, cancel, reschedule etc)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 These alerts do not have any functional effect in schedule, user can perform all the standard \cf2 appointment\cf1  actions (check in, cancel, reschedule etc)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-144b3546-d107-4ac6-ad38-9dadfefdadca</UniqueID>
+    <ParentID>MSS-6e7d88bd-7c1d-4928-bb58-069710b25a9f</ParentID>
+    <Description>User opens Case Alerts page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 Case\cf2  Alerts page.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b2d5b16a-694b-4deb-8d01-b0b251cfa2fd</UniqueID>
+    <ParentID>MSS-6e7d88bd-7c1d-4928-bb58-069710b25a9f</ParentID>
+    <Description>The system displays all applicable active alerts:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays all applicable active alerts:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cf1ddf2f-09c4-4b4a-bf31-255ad4814cf6</UniqueID>
+    <ParentID>ST-b2d5b16a-694b-4deb-8d01-b0b251cfa2fd</ParentID>
+    <Description>No Treatments During First Visit. Insurance does not allow billing treatments on the first visit, only evaluation. --Accompanied by a Warning sign.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 No Treatments During First \cf1 Visit\cf2 . Insurance does not allow billing treatments on the first \cf1 visit\cf2 , only \cf1 evaluation\cf2 . --\i Accompanied by a Warning sign.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ccaae0b2-a687-4e45-9c58-4e0c772a5e4f</UniqueID>
+    <ParentID>ST-b2d5b16a-694b-4deb-8d01-b0b251cfa2fd</ParentID>
+    <Description>Medical Review After # visits. Insurance requires a medical review after # visits. Visits completed so far: #.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Medical Review After # \cf1 visits\cf2 . Insurance requires a medical review after # \cf1 visits\cf2 . \cf1 Visits\cf2  completed so far: #.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0eee5e2a-95c4-4518-a1b7-dd93f9b7c7ee</UniqueID>
+    <ParentID>MSS-6e7d88bd-7c1d-4928-bb58-069710b25a9f</ParentID>
+    <Description>For each active Alert, the system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 For each active Alert, the system displays:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-db349b79-a37e-4d5a-946f-9e9589142f15</UniqueID>
+    <ParentID>ST-b2d5b16a-694b-4deb-8d01-b0b251cfa2fd</ParentID>
+    <Description>Authorization Required Before Eval. Insurance requires authorization before Evaluation. --Accompanied by a 'Stop' sign.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Authorization Required Before \cf2 Eval\cf1 . Insurance requires authorization before \cf2 Evaluation\cf1 .\i  --Accompanied by a 'Stop' sign.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-38cac24b-3d73-4a21-8eb0-aab7f2c56d3a</UniqueID>
+    <ParentID>ST-b2d5b16a-694b-4deb-8d01-b0b251cfa2fd</ParentID>
+    <Description>Authorization Required After Eval. Insurance requires authorization after Evaluation. --Accompanied by a 'Stop' sign.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Authorization Required After \cf2 Eval\cf1 . Insurance requires authorization after \cf2 Evaluation\cf1 .\i  --Accompanied by a 'Stop' sign.\i0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-df58714b-54f6-4932-9ca2-51cf40db4f52</UniqueID>
+    <ParentID>ST-b2d5b16a-694b-4deb-8d01-b0b251cfa2fd</ParentID>
+    <Description>Max # Procedures Per DOS. Insurance does not allow billing more than # procedures per DOS. --Accompanied by a Warning sign.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Max # \cf2 Procedures\cf1  Per DOS. Insurance does not allow billing more than # \cf2 procedures\cf1  per DOS. --\i Accompanied by a Warning sign.\i0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e99806bb-0114-464e-9832-88b2c3104077</UniqueID>
+    <ParentID>ST-b2d5b16a-694b-4deb-8d01-b0b251cfa2fd</ParentID>
+    <Description>Max # Units Per DOS. Insurance does not allow billing more than # units per DOS. --Accompanied by a Warning sign.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Max # Units Per DOS. Insurance does not allow billing more than # units per DOS. --\i Accompanied by a Warning sign.\cf0\i0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bb07d589-8837-453c-a000-e7dc3ecdae19</UniqueID>
+    <ParentID>ST-b2d5b16a-694b-4deb-8d01-b0b251cfa2fd</ParentID>
+    <Description>Per-Diem Plan. Insurance only pays $65.00 per DOS.  --Accompanied by a Warning sign.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Per-Diem Plan. Insurance only pays $65.00 per DOS. \cf1  --\i Accompanied by a Warning sign.\cf0\i0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-95b3be59-d59a-4095-a411-642a53e7358d</UniqueID>
+    <ParentID>ST-0eee5e2a-95c4-4518-a1b7-dd93f9b7c7ee</ParentID>
+    <Description>'Make Inactive' control UC-84-4</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 'Make Inactive' control \cf1\ul UC-84-4\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bcd7875a-8bef-460b-98bf-19488bb31274</UniqueID>
+    <ParentID>ST-0eee5e2a-95c4-4518-a1b7-dd93f9b7c7ee</ParentID>
+    <Description>'Add Note' control UC-84-6</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 'Add Note' control \cf1\ul UC-84-6\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d56cd7a4-9ce6-4c9b-8697-11b5b603195f</UniqueID>
+    <ParentID>MSS-6e7d88bd-7c1d-4928-bb58-069710b25a9f</ParentID>
+    <Description>The system also displays the list of inactive alerts (same information). User has the following controls available:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system also displays the list of inactive alerts (same information). User has the following controls available:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-12b975c1-1191-4a0f-8a10-43bc612ecd76</UniqueID>
+    <ParentID>ST-0eee5e2a-95c4-4518-a1b7-dd93f9b7c7ee</ParentID>
+    <Description>Name, description, Insurance Plan name. If user hovers over plan name, the system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Name, description, Insurance Plan name. If user hovers over plan name, the system displays:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-eba69e3f-92c0-4d77-b4b8-891520e1a7a1</UniqueID>
+    <ParentID>ST-12b975c1-1191-4a0f-8a10-43bc612ecd76</ParentID>
+    <Description>Start date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Start date\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1eac65c4-93cb-41b3-a010-9660859ecb9f</UniqueID>
+    <ParentID>ST-12b975c1-1191-4a0f-8a10-43bc612ecd76</ParentID>
+    <Description>Termination date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Termination date\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8e1bd257-fb33-4ddb-91fc-0c28b6339e86</UniqueID>
+    <ParentID>ST-12b975c1-1191-4a0f-8a10-43bc612ecd76</ParentID>
+    <Description>Policy #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Policy #\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5b70a41c-b765-4bf0-9198-90c90e556649</UniqueID>
+    <ParentID>ST-12b975c1-1191-4a0f-8a10-43bc612ecd76</ParentID>
+    <Description>Insurance Plan Phone #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Insurance Plan Phone #\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0928a905-653f-48c5-9baa-0422e1a23b71</UniqueID>
+    <ParentID>ST-12b975c1-1191-4a0f-8a10-43bc612ecd76</ParentID>
+    <Description>Subscriber name</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Subscriber name\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bb9b070c-faa1-4f82-bf6c-bba06321f324</UniqueID>
+    <ParentID>ST-d56cd7a4-9ce6-4c9b-8697-11b5b603195f</ParentID>
+    <Description>'Re-Activate' UC-84-5</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 'Re-Activate' \cf1\ul UC-84-5\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ff06df6a-8d13-4f31-b108-8ffb14e154a6</UniqueID>
+    <ParentID>ST-d56cd7a4-9ce6-4c9b-8697-11b5b603195f</ParentID>
+    <Description>'Add Note' control UC-84-6</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 'Add Note' control \cf1\ul UC-84-6\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-25a68104-bdf6-4dd5-933a-f9cc50d1fc06</UniqueID>
+    <ParentID>MSS-ab43b736-6d35-460d-a0cb-6aa639ebd3df</ParentID>
+    <Description>User deactivates alert.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User deactivates alert.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5e68c0df-3de4-453f-934c-45534d94b555</UniqueID>
+    <ParentID>MSS-ab43b736-6d35-460d-a0cb-6aa639ebd3df</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system requests confirmation.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f195f125-138e-456f-809d-a1c64f8069cf</UniqueID>
+    <ParentID>MSS-ab43b736-6d35-460d-a0cb-6aa639ebd3df</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-27669a7f-0e0b-468c-8560-b738046c8b56</UniqueID>
+    <ParentID>MSS-ab43b736-6d35-460d-a0cb-6aa639ebd3df</ParentID>
+    <Description>The system deactivates the alert and moves it to the Deactivated Alerts list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system deactivates the alert and \cf1 moves it to the Deactivated Alerts list.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4c670e81-ecb9-4576-9f0d-0031d5ca13a5</UniqueID>
+    <ParentID>MSS-ab43b736-6d35-460d-a0cb-6aa639ebd3df</ParentID>
+    <Description>The system decreases the Alert counter in left nav by 1.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system decreases the Alert counter in left nav by 1.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e1c8e768-f7ad-4517-bb6d-674a1f75e828</UniqueID>
+    <ParentID>MSS-2489593c-72d9-497d-bb17-8e33bcd9d2b9</ParentID>
+    <Description>User re-activates alert.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User \cf1 re-activates \cf0 alert.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-14eb37c3-b7f0-479d-8898-156d8db863ce</UniqueID>
+    <ParentID>MSS-2489593c-72d9-497d-bb17-8e33bcd9d2b9</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system requests confirmation.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-82ebf312-0db0-41e0-a47c-574fd1bf6232</UniqueID>
+    <ParentID>MSS-2489593c-72d9-497d-bb17-8e33bcd9d2b9</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c11967f4-1cdf-43f0-976b-1ba487d97d3f</UniqueID>
+    <ParentID>MSS-2489593c-72d9-497d-bb17-8e33bcd9d2b9</ParentID>
+    <Description>The system re-activates the alert and moves it to the Case Alerts list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system \cf1 re-activates \cf0 the alert and \cf1 moves it to the \cf2 Case\cf1  Alerts list.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-338c1faf-85e3-4a97-8909-b6aa0c65edfb</UniqueID>
+    <ParentID>MSS-2489593c-72d9-497d-bb17-8e33bcd9d2b9</ParentID>
+    <Description>The system increases the Alert counter in left nav by 1.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system increases the Alert counter in left nav by 1.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-740128bf-062f-4b16-aa19-ec8c6266720b</UniqueID>
+    <ParentID>MSS-640066ff-f0ad-46cd-b0b3-1fda6e245165</ParentID>
+    <Description>User clicks "Add Note".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clicks "Add Note".\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fa3dc9db-1eb7-4642-8f19-d4d446091a3c</UniqueID>
+    <ParentID>MSS-640066ff-f0ad-46cd-b0b3-1fda6e245165</ParentID>
+    <Description>The system displays "New Note" form.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays "New Note" form.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b7a0cb6a-19e1-4958-abfe-90924e204919</UniqueID>
+    <ParentID>MSS-640066ff-f0ad-46cd-b0b3-1fda6e245165</ParentID>
+    <Description>User enters note and saves it (user can use standard AgileRPM note format)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enters note and saves it (user can use standard AgileRPM note format)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ca495e0a-7830-410b-8f15-93bf39189801</UniqueID>
+    <ParentID>MSS-640066ff-f0ad-46cd-b0b3-1fda6e245165</ParentID>
+    <Description>The system adds the note for selected alert.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system adds the note for selected alert.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-853d2eb9-6cdb-4b69-b7d8-3b308a1e6f59</UniqueID>
+    <ParentID>MSS-1795199e-ecdd-43ec-a294-bb14fb7156ee</ParentID>
+    <Description>The system activates most alerts when:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system activates \cf1 most\cf0  alerts when:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-acbaf768-147a-4c8d-a133-8db765b14ed7</UniqueID>
+    <ParentID>ST-853d2eb9-6cdb-4b69-b7d8-3b308a1e6f59</ParentID>
+    <Description>User adds new insurance (active only)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User adds new insurance (active only)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-458353b8-a3f2-4eac-8915-23af28125364</UniqueID>
+    <ParentID>MSS-1795199e-ecdd-43ec-a294-bb14fb7156ee</ParentID>
+    <Description>Exceptions:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Exceptions:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ae2763a9-da2e-405f-ab2c-199e47367c1f</UniqueID>
+    <ParentID>ST-853d2eb9-6cdb-4b69-b7d8-3b308a1e6f59</ParentID>
+    <Description>New insurance/coverage comes into effect</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 New insurance/coverage comes into effect\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-00c7e844-127c-40d4-a557-d56096784ef4</UniqueID>
+    <ParentID>ST-458353b8-a3f2-4eac-8915-23af28125364</ParentID>
+    <Description>The "Medical Review" alert appears when the case approaches visit limit specified for this rule (1 visit before the limit)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The "Medical Review" alert appears when the \cf1 case\cf0  approaches \cf1 visit\cf2  limit specified for this rule (1 \cf1 visit\cf2  before the limit)\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-df9f80f1-ae12-4981-967c-79bf25a964d8</UniqueID>
+    <ParentID>ST-458353b8-a3f2-4eac-8915-23af28125364</ParentID>
+    <Description>The "Auth required" alert only appears if auth information is not entered</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The "Auth required" alert only appears if auth information is not entered\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-00aa60ce-731c-4479-9851-0ad71ed6711b</UniqueID>
+    <ParentID>MSS-5cea97a3-901d-4b72-8220-f436a3ca74b5</ParentID>
+    <Description>"Auth Required" alerts are deactivated automatically as soon as user enters auth info.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 "Auth Required" alerts are deactivated automatically as soon as user enters auth info.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b75d4793-821a-471b-915b-0f873560d980</UniqueID>
+    <ParentID>MSS-5cea97a3-901d-4b72-8220-f436a3ca74b5</ParentID>
+    <Description>"Bill only eval and no treatments " alert is deactivated automatically as soon as CBC submits charges for the first visit.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 "Bill only \cf1 eval\cf0  and no treatments " alert is deactivated automatically as soon as \cf2\ul CBC\cf3\ulnone  submits charges for the first \cf1 visit\cf3 .\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-83b9b9f4-4898-4efe-838e-a99fe55aa1e9</UniqueID>
+    <ParentID>MSS-5cea97a3-901d-4b72-8220-f436a3ca74b5</ParentID>
+    <Description>All alerts are dectivated as soon as insurance plan / coverage expires.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 All alerts are dectivated as soon as insurance plan / coverage expires.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <ExternalDoc>
+    <UniqueID>EX-2b57ef4a-93c9-4a81-96cb-c72abc451a8d</UniqueID>
+    <ParentID>UC-574ed282-fc3a-446c-8653-84fde00faab9</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=clinician_schedule_w_alerts</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-a481a0ab-38e4-4b4f-908d-27599e2a72db</UniqueID>
+    <ParentID>UC-25b66b23-8999-4fc0-8c38-bc76d99266ef</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=schedule_alerts</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-8b2127aa-4c84-4e6e-aac4-bf5fee519de8</UniqueID>
+    <ParentID>UC-971086d7-52a6-412b-88c5-f8bd429bdb8f</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=case_alerts</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-9c237e1f-d5d8-4dd7-869f-65121d6857c4</UniqueID>
+    <ParentID>UC-13acce77-f21e-4d4c-ac3f-71c49b3ffb72</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=case_alerts</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-d7eff444-add4-449f-aca4-039899646528</UniqueID>
+    <ParentID>UC-88cace6e-730c-4d05-a801-782dc3a4bd5c</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=case_alerts</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-562eb27c-49aa-444a-87b1-4068178c7228</UniqueID>
+    <ParentID>UC-d45e7c57-6ee9-4c66-ad06-ee152c17e4ba</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=case_alerts</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-84-</DefaultPrefix>
+    <NextValue>9</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-84-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-84-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-84-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

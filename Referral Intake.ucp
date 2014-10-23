@@ -1,0 +1,228 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.4836</SavedWith>
+    <CreatedWith>7.2.4769</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-b771c99e-886a-4627-af99-7bf06fe48f1e</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-b771c99e-886a-4627-af99-7bf06fe48f1e</UniqueID>
+    <ExternalParentID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</ExternalParentID>
+    <Name>Referral Intake</Name>
+    <Description>Referral Intake is when AH receives referrals from the Primary Care Physician for a new patient. For Advent this all comes through AH Corporate and one person generally manages this.
+For all other AH properties this is done on a clinic by clinic basis.
+At the time of Referral Intake the high level info is taken regarding the patient and their insurance is verified including getting approval for eval and treatment if possible.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Referral Intake is when \cf1 AH\cf2  receives referrals from the Primary Care Physician for a new \cf3\ul patient\cf2\ulnone . For Advent this all comes through \cf1 AH\cf2  Corporate and one person generally manages this.\par
+For all other \cf1 AH\cf2  properties this is done on a clinic by clinic basis.\par
+At the time of Referral Intake the high level info is taken regarding the \cf3\ul patient\cf2\ulnone  and their insurance is verified including getting approval for eval and treatment if possible.\cf0\par
+}
+</RichDescription>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-fc5bcb0e-95ca-4534-8f72-1ad90144e0cd</UniqueID>
+    <UserID>UC-2-1</UserID>
+    <ParentID>P-b771c99e-886a-4627-af99-7bf06fe48f1e</ParentID>
+    <Name>Take in Referral from Referring Physician</Name>
+    <Description>In order to complete a first appointment for any given case the following must be done:
+Patient Referral - take referral from referring physician
+Set Appointment
+Validate Insurance
+
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 In order to complete a first \cf1 appointment\cf2  for any given \cf1 case\cf2  the following must be done:\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360\cf3\ul Patient\cf2\ulnone  Referral - take referral from referring physician\par
+{\pntext\f0 2.\tab}Set \cf1 Appointment\cf2\par
+{\pntext\f0 3.\tab}Validate Insurance\par
+{\pntext\f0 4.\tab}\par
+\pard\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-03-23T01:27:32.9699516-04:00</DateAdded>
+    <DateModified>2013-04-16T10:23:17.0769688-04:00</DateModified>
+  </UseCase>
+  <UCActor>
+    <ParentID>UC-fc5bcb0e-95ca-4534-8f72-1ad90144e0cd</ParentID>
+    <ActorID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-f213cbd9-185a-4c42-a776-99d6d1967d0c</UniqueID>
+    <ParentID>UC-fc5bcb0e-95ca-4534-8f72-1ad90144e0cd</ParentID>
+  </Scenario>
+  <Step>
+    <UniqueID>ST-45a49dc8-d98d-47ce-88c6-d2f8d6dd12d6</UniqueID>
+    <ParentID>MSS-f213cbd9-185a-4c42-a776-99d6d1967d0c</ParentID>
+    <Description>User takes information from the Referring Physician</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User takes information from the \cf1 Referring Physician\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f80ece23-0c21-447d-b6cd-d96eaf84c910</UniqueID>
+    <ParentID>MSS-f213cbd9-185a-4c42-a776-99d6d1967d0c</ParentID>
+    <Description>User identifies optimal clinic for patient's treatments</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User identifies optimal clinic for \cf1\ul patient\cf2\ulnone 's treatments\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fe780d6e-e1f7-4ef7-845e-d59843359862</UniqueID>
+    <ParentID>MSS-f213cbd9-185a-4c42-a776-99d6d1967d0c</ParentID>
+    <Description>User sets first Appointment</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User sets first \cf1 Appointment\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d1809f01-902e-45c1-a9c6-9a7bc75db06f</UniqueID>
+    <ParentID>MSS-f213cbd9-185a-4c42-a776-99d6d1967d0c</ParentID>
+    <Description>System sets case number</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 System sets \cf2 case\cf1  number\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fa5193b8-d179-4b5b-b66d-f2d28a720792</UniqueID>
+    <ParentID>ST-d8ed5475-fc2b-43a9-87bd-a0a8e027c9d9</ParentID>
+    <Description>User revalidates patients insurance</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User revalidates \cf1\ul patients\cf2\ulnone  insurance\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-28494121-755e-4eef-90f7-f2c2477070e5</UniqueID>
+    <ParentID>ST-d8ed5475-fc2b-43a9-87bd-a0a8e027c9d9</ParentID>
+    <Description>Patient can decide to pay for services out of their own pocket</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\cf2\ulnone  can decide to pay for services out of their own pocket\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d8ed5475-fc2b-43a9-87bd-a0a8e027c9d9</UniqueID>
+    <ParentID>X-54ab2821-6a2b-4bd2-b59e-90fd3dc62208</ParentID>
+    <Description>User contacts Patient to reconfirm insurance information</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User contacts \cf1\ul Patient\cf2\ulnone  to reconfirm insurance information\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-99319dc4-bb6f-4dab-92ed-bab5aeaab491</UniqueID>
+    <ParentID>MSS-f213cbd9-185a-4c42-a776-99d6d1967d0c</ParentID>
+    <Description>User Validates that Insurance Information is accurate</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User Validates that Insurance Information is accurate\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c5dc145f-2140-4144-9c53-3399ca60ab09</UniqueID>
+    <ParentID>MSS-f213cbd9-185a-4c42-a776-99d6d1967d0c</ParentID>
+    <Description>User determines if authorization is needed for initial eval and or treatment from the insurance company </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User determines if authorization is needed for initial eval and or treatment from the insurance company \par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-54ab2821-6a2b-4bd2-b59e-90fd3dc62208</UniqueID>
+    <ParentID>ST-99319dc4-bb6f-4dab-92ed-bab5aeaab491</ParentID>
+    <Description>If Insurance is found to be incorrect or invalid</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If Insurance is found to be incorrect or invalid\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-e43bd03f-370b-451e-a9c6-d4d6db00a94e</UniqueID>
+    <ParentID>ST-c5dc145f-2140-4144-9c53-3399ca60ab09</ParentID>
+    <Description>If insurance company requires authorization for eval and or treatment user confirms this with Insurance company</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If insurance company requires authorization for eval and or treatment user confirms this with Insurance company\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <OpenIssue>
+    <UniqueID>OI-35973a37-8d16-4762-94fe-f54076e0ba2c</UniqueID>
+    <ParentID>P-b771c99e-886a-4627-af99-7bf06fe48f1e</ParentID>
+    <Description>AH would like to somehow have this all be centrally managed for all referrals. Need to understand better how the clinic specific referrals come in to see if this is possible and to what extent.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 AH\cf2  would like to somehow have this all be centrally managed for all referrals. Need to understand better how the clinic specific referrals come in to see if this is possible and to what extent.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+  </OpenIssue>
+  <UserID>
+    <DefaultPrefix>UC-2-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-2-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-2-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-2-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

@@ -1,0 +1,289 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5001</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-07078c69-f591-41d5-914a-7c557fb3d665</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-07078c69-f591-41d5-914a-7c557fb3d665</UniqueID>
+    <ExternalParentID>P-283698e5-7a0a-44ce-8b16-09554b043195</ExternalParentID>
+    <Name>Case Pages</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-9a28ee7f-9562-4c3b-86af-9a0393cd0a85</UniqueID>
+    <UserID>UC-68-1</UserID>
+    <ParentID>P-07078c69-f591-41d5-914a-7c557fb3d665</ParentID>
+    <Name>Patient Page Changes</Name>
+    <Description>This is the list of changes made to the Patient Details page on the Case Level</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 This is the list of changes made to the \cf1\ul Patient\cf2\ulnone  Details page on the \cf3 Case\cf2  Level\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-10-30T20:42:33.429578-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8636074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-cbd1eb6b-e9e7-444f-b71f-3b4b9025bc82</UniqueID>
+    <UserID>UC-68-2</UserID>
+    <ParentID>P-07078c69-f591-41d5-914a-7c557fb3d665</ParentID>
+    <Name>Referral Page Changes</Name>
+    <Description>This is the list of changes made to the case Referral page	</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 This is the list of changes made to the \cf1 case\cf2  Referral page\tab\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-10-31T07:20:19.6187342-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8626074-04:00</DateModified>
+  </UseCase>
+  <Scenario>
+    <UniqueID>MSS-179a20fd-f9f8-40af-9050-7e151030b1a2</UniqueID>
+    <ParentID>UC-9a28ee7f-9562-4c3b-86af-9a0393cd0a85</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-267a5114-3326-4a53-8139-c158dca0ad7c</UniqueID>
+    <ParentID>UC-cbd1eb6b-e9e7-444f-b71f-3b4b9025bc82</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-e56c55a5-5367-4e90-a5f3-d5303ad7e36f</UniqueID>
+    <UserID>REQ-68-1</UserID>
+    <ParentID>P-07078c69-f591-41d5-914a-7c557fb3d665</ParentID>
+    <Name>Check for Guarantor's address</Name>
+    <Description>On the Insurance page, when user selects a contact as Guarantor for a coverage, the system must check whether that contact has address fields filled out.
+If address is not filled out (address + city / state / zip), the system must display an error message: "Cannot select %name% as Guarantor. Please fill out address fields in contact details first".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 On the Insurance page, when user selects a contact as Guarantor for a coverage, the system must check whether that contact has address fields filled out.\par
+If address is not filled out (address + city / state / zip), the system must display an error message: "Cannot select %name% as Guarantor. Please fill out address fields in contact details first".\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-10-30T17:20:23.7764185-04:00</DateAdded>
+    <DateModified>2013-10-30T20:30:01.0998184-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0f2630c8-f7c4-4eee-976c-9308710e2442</UniqueID>
+    <UserID>REQ-68-2</UserID>
+    <ParentID>P-07078c69-f591-41d5-914a-7c557fb3d665</ParentID>
+    <Name>Change name order in case list</Name>
+    <Description>In the case grid (the one that's displayed when you click Cases in top nav), patient name must be displayed in the following format:
+
+Last_Name First_Name Middle_Name</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In the \cf2 case\cf1  grid (the one that's displayed when you click \cf2 Cases\cf1  in top nav), \cf3\ul patient\cf1\ulnone  name must be displayed in the following format:\par
+\par
+Last_Name First_Name Middle_Name\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-10-30T21:08:13.7372249-04:00</DateAdded>
+    <DateModified>2013-10-30T21:09:44.7186739-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-ed908b6b-0aee-4b9c-8930-b76881612111</UniqueID>
+    <UserID>REQ-68-3</UserID>
+    <ParentID>P-07078c69-f591-41d5-914a-7c557fb3d665</ParentID>
+    <Name>Show number of encounters on hold on Account page</Name>
+    <Description>If the case has at least one encounter put on hold, the system must display the following text on the Account page: "This case has 1 encounter on hold" / "This case has # encounters on hold".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If the \cf2 case\cf1  has at least one encounter put on hold, the system must display the following text on the Account page: "This \cf2 case\cf1  has 1 encounter on hold" / "This case has # encounters on hold".\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-10-31T07:28:41.6812103-04:00</DateAdded>
+    <DateModified>2013-10-31T07:37:00.391529-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-b2b0ab17-4844-4979-b59a-92654c37b81e</UniqueID>
+    <ParentID>MSS-179a20fd-f9f8-40af-9050-7e151030b1a2</ParentID>
+    <Description>Home/Cell phone numbers are replaced with:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Home/Cell phone numbers are replaced with:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-703b7017-f476-4ccf-9a8d-9befdc974a73</UniqueID>
+    <ParentID>ST-b2b0ab17-4844-4979-b59a-92654c37b81e</ParentID>
+    <Description>Primary number + type dropdown (home / cell)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Primary number + type dropdown (home / cell)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-506e571a-285d-405f-9723-c91602ba55d0</UniqueID>
+    <ParentID>ST-b2b0ab17-4844-4979-b59a-92654c37b81e</ParentID>
+    <Description>Alternative number + type dropdown (home / cell)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Alternative number + type dropdown (home / cell)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b9674fda-546b-4cad-ba29-fb7822b7a826</UniqueID>
+    <ParentID>MSS-179a20fd-f9f8-40af-9050-7e151030b1a2</ParentID>
+    <Description>Added SSN - shown as masked plain text by default. If user clicks "Show", the system shown editable text field. Note that dashes are allowed in this text field.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Added SSN - shown as masked plain text by default. If user clicks "Show", the system shown editable text field. Note that dashes are allowed in this text field.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2be10fb5-116c-45cb-b1fe-f1e36b474e7a</UniqueID>
+    <ParentID>MSS-179a20fd-f9f8-40af-9050-7e151030b1a2</ParentID>
+    <Description>Redesigned Contacts section - it must look and work like in UC-67-2 - UC-67-6.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Redesigned Contacts section - it must look and work like in \cf1\ul UC-67-2\cf2\ulnone  - \cf1\ul UC-67-6\cf2\ulnone .\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f702cdba-25ad-4345-81ed-762372d6f000</UniqueID>
+    <ParentID>MSS-267a5114-3326-4a53-8139-c158dca0ad7c</ParentID>
+    <Description>Renamed "Other Accident" check box - "Accident"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Renamed "\cf1 Other Accident" check box - "Accident"\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9e69366b-1493-45b7-bfaa-41d3ced0ee8c</UniqueID>
+    <ParentID>MSS-267a5114-3326-4a53-8139-c158dca0ad7c</ParentID>
+    <Description>If this check box is selected, show mandatory "Type" dropdown. User must select either of the following options from the dropdown:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If this check box is selected, show mandatory "Type" dropdown. User must select either of the following options from the dropdown:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-111ac703-29f5-42d1-a8d0-b726a49f8aff</UniqueID>
+    <ParentID>ST-9e69366b-1493-45b7-bfaa-41d3ced0ee8c</ParentID>
+    <Description>Work Comp</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Work Comp\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e94a190e-1959-4639-b9c8-f95930d7f3c7</UniqueID>
+    <ParentID>ST-9e69366b-1493-45b7-bfaa-41d3ced0ee8c</ParentID>
+    <Description>Auto</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Auto\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-29661bc6-bc60-4ca3-aa80-8d599f7d2ccf</UniqueID>
+    <ParentID>ST-9e69366b-1493-45b7-bfaa-41d3ced0ee8c</ParentID>
+    <Description>Liability</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Liability\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <ExternalDoc>
+    <UniqueID>EX-d7007f7e-2eac-44a1-86b0-080eb269ea5c</UniqueID>
+    <ParentID>UC-9a28ee7f-9562-4c3b-86af-9a0393cd0a85</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Patient</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-16e862b4-174c-4803-a41a-c2ffaf886f21</UniqueID>
+    <ParentID>UC-cbd1eb6b-e9e7-444f-b71f-3b4b9025bc82</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Referral</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-68-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-68-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-68-</DefaultPrefix>
+    <NextValue>4</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-68-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

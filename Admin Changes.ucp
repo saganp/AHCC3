@@ -1,0 +1,209 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.4927</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-83c00814-b999-4deb-9c9b-9c86e68c420a</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-83c00814-b999-4deb-9c9b-9c86e68c420a</UniqueID>
+    <ExternalParentID>P-0995f0ca-2e4a-4ec0-88a3-b47cd4ef1a78</ExternalParentID>
+    <Name>Admin Changes</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Requirement>
+    <UniqueID>REQ-7411fb21-76bb-40ee-b829-5c3455b9f9db</UniqueID>
+    <UserID>REQ-38-1</UserID>
+    <ParentID>P-83c00814-b999-4deb-9c9b-9c86e68c420a</ParentID>
+    <Name>Cross-Company Case Search</Name>
+    <Description>If user has access to several companies within the same parent company, the system should allow to search cases in all those companies without switching.
+
+Example: corporate admin searches for a case, the system displays matching results from all companies under the Parent Company </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If user has access to several companies within the same parent company, the system should allow to search \cf2 cases\cf1  in all those companies without switching.\par
+\par
+Example: corporate \cf3\ul admin\cf1\ulnone  searches for a \cf2 case\cf1 , the system displays matching results from all companies under the Parent Company \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-07-29T12:56:40.091005-04:00</DateAdded>
+    <DateModified>2013-07-29T12:58:35.2320355-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-1c89b678-62ec-4878-8e0e-9cbd257f9a3a</UniqueID>
+    <UserID>REQ-38-2</UserID>
+    <ParentID>P-83c00814-b999-4deb-9c9b-9c86e68c420a</ParentID>
+    <Name>SysAdmin must switch between parent companies</Name>
+    <Description>System Admins should be able to switch between parent companies (same logic as currently used for switching companies)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 System \cf2\ul Admins\cf1\ulnone  should be able to switch between parent companies (same logic as currently used for switching companies)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-07-29T13:00:47.1894367-04:00</DateAdded>
+    <DateModified>2013-07-29T13:01:57.9962527-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-dbe10561-cca4-4153-9c5b-637c310f6e80</UniqueID>
+    <UserID>REQ-38-3</UserID>
+    <ParentID>P-83c00814-b999-4deb-9c9b-9c86e68c420a</ParentID>
+    <Name>Separate company-specific nav items</Name>
+    <Description>In the Administrative interface, separate company-specific items from higher-level items.
+
+- Clinicians
+- Diagnoses
+- ...
+
+&lt;divider&gt;
+
+- Companies
+- Security
+- Users</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In the Administrative interface, separate company-specific items from higher-level items.\par
+\par
+- \cf2 Clinicians\cf1\par
+- \cf2 Diagnoses\cf1\par
+- ...\par
+\par
+&lt;divider&gt;\par
+\par
+- Companies\par
+- Security\par
+- Users\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-07-29T13:02:36.3093615-04:00</DateAdded>
+    <DateModified>2013-07-29T13:05:02.25351-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-c778d8dd-2248-4a6e-9032-edcd36c24902</UniqueID>
+    <UserID>REQ-38-4</UserID>
+    <ParentID>P-83c00814-b999-4deb-9c9b-9c86e68c420a</ParentID>
+    <Name>Add Parent Company entity</Name>
+    <Description>Parent Company is a higher-level entity that the companies we have now.
+
+Any company in AgilePM must be a part of a Parent Company.
+
+From the UI standpoint, it's not a big change, it only adds a column to Companies list and a dropdown to select Parent Company on company creation (the dropdown is only available to System Admins)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Parent Company is a higher-level entity that the companies we have now.\par
+\par
+Any company in AgilePM must be a part of a Parent Company.\par
+\par
+From the UI standpoint, it's not a big change, it only adds a column to Companies list and a dropdown to select Parent Company on company creation (the dropdown is only available to System \cf2\ul Admins\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-07-29T13:06:11.4060935-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8476074-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-7ef0df7c-853f-4fa1-8012-56df8bde03cd</UniqueID>
+    <UserID>REQ-38-5</UserID>
+    <ParentID>P-83c00814-b999-4deb-9c9b-9c86e68c420a</ParentID>
+    <Name>Change 'Add New Charge' behavior</Name>
+    <Description>In the new permissions list, there are two permissions:
+AgilePM - Case Finances - Can Post Charges Manually Anytime
+AgilePM - Case Finances - Can Post Charges Manually Until Billed
+
+Permission #1 allows to post payments manually any time after DN was submitted to billing (this is how it works now). CBCs will not have this permission in the new security model.
+
+CBCs will have permission #2 which means that CBCs can add any charge only until charges status is Created. Once status changes to Billed, the following restriction is applied to the CPT code dropdown in the "Add new charge" form: for insurance-paid charges, the system must only allow to select Supplies (CBC cannot add a new charge for time/visit-based procedure). 
+CBC can still select any CPT code, if they are adding a self-paid procedure (if they select a self-paid non-supply and the clear "self-pay" check box, clear out contents of CPT dropdown).
+
+Note that this permission has an exception. CBCs can still post any kind of charge for cases where patient's first name is any of the following (not case-sensitive):
+Supply
+Medical Records
+Gym/Maintenance
+Personal Training
+Massage</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In the new permissions list, there are two permissions:\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 AgilePM - \cf2 Case\cf1  Finances - Can Post Charges Manually Anytime\par
+{\pntext\f0 2.\tab}AgilePM - \cf2 Case\cf1  Finances - Can Post Charges Manually Until Billed\par
+\pard\par
+Permission #1 allows to post payments manually any time after DN was submitted to billing (this is how it works now). \cf3\ul CBCs\cf1\ulnone  will \b not\b0  have this permission in the new security model.\par
+\par
+\cf3\ul CBCs\cf1\ulnone  will have permission #2 which means that \cf3\ul CBCs\cf1\ulnone  can add any charge only until charges status is Created. Once status changes to Billed, the following restriction is applied to the \cf2 CPT code\cf1  dropdown in the "Add new charge" form: for insurance-paid charges, the system must only allow to select Supplies (\cf3\ul CBC\cf1\ulnone  cannot add a new charge for time/visit-based \cf2 procedure\cf1 ). \par
+\cf3\ul CBC\cf1\ulnone  can still select any \cf2 CPT code\cf1 , if they are adding a self-paid \cf2 procedure\cf1  (if they select a self-paid non-supply and the clear "self-pay" check box, clear out contents of CPT dropdown).\par
+\par
+Note that this permission has an exception. \cf3\ul CBCs\cf1\ulnone  can still post any kind of charge for \cf2 cases\cf1  where \cf3\ul patient\cf1\ulnone 's first name is any of the following (not \cf2 case\cf1 -sensitive):\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Supply\par
+{\pntext\f1\'B7\tab}Medical Records\par
+{\pntext\f1\'B7\tab}Gym/Maintenance\par
+{\pntext\f1\'B7\tab}Personal Training\par
+{\pntext\f1\'B7\tab}Massage\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-10-03T13:49:30.0827467-04:00</DateAdded>
+    <DateModified>2013-10-03T14:45:51.4446927-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <ExternalDoc>
+    <UniqueID>EX-64204135-c87a-4e59-8fb8-d92e01334431</UniqueID>
+    <ParentID>REQ-c778d8dd-2248-4a6e-9032-edcd36c24902</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Companies</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-38-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-38-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-38-</DefaultPrefix>
+    <NextValue>6</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-38-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

@@ -1,0 +1,163 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5001</SavedWith>
+    <CreatedWith>7.2.4769</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-0d723467-2755-4618-9d98-cefd340866b7</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-0d723467-2755-4618-9d98-cefd340866b7</UniqueID>
+    <ExternalParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ExternalParentID>
+    <Name>Changes to Current AgilePM System</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-92879e64-b11a-42c9-9a73-e7ef596910b4</UniqueID>
+    <UserID>UC-15-1</UserID>
+    <ParentID>P-0d723467-2755-4618-9d98-cefd340866b7</ParentID>
+    <Name>Update existing scheduling functionality for Clinicians</Name>
+    <Description>Current behaviour: Clicking on an appointment in Schedule brings up Appointment details dialog.
+
+Interface Changes:
+- Add "Appointment details" icon
+- Add "Go to document" icon
+
+New behaviour:
+- Clicking "Appointment details" icon opens "Appointment details" dialog
+- Clicking "Go to document" icon opens relevant document (see rules below)
+- Clicking appointment area outside of the icons has no effect.
+
+Documentation Rules (documents are listed in the order they must be signed, so user will be taken to the next document only after previous one is signed):
+[First Appointment] - Plan of Care form, then Daily Note
+[Progress Note Due] - Daily Note, then Progress Note
+[Progress Note not Due] - Daily Note
+
+"Go to document" icon for Daily Note only appears after the appointment starts (it is not displayed prior to that moment).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\b\f0\fs20 Current behaviour\b0 : Clicking on an appointment in Schedule brings up Appointment details dialog.\par
+\par
+\b Interface Changes\b0 :\par
+- Add "Appointment details" icon\par
+- Add "Go to document" icon\par
+\par
+\b New behaviour\b0 :\par
+- Clicking "Appointment details" icon opens "Appointment details" dialog\par
+- Clicking "Go to document" icon opens relevant document (see rules below)\par
+- Clicking appointment area outside of the icons has no effect.\par
+\par
+\b Documentation Rules \b0 (documents are listed in the order they must be signed, so user will be taken to the next document only after previous one is signed):\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360\b [First Appointment] \b0 - Plan of Care form, then Daily Note\par
+\b{\pntext\f2\'B7\tab}[Progress Note Due] \b0 - Daily Note, then Progress Note\par
+\b{\pntext\f2\'B7\tab}[Progress Note not Due] \b0 - Daily Note\par
+\pard\par
+"Go to document" icon for Daily Note only appears after the appointment starts (it is not displayed prior to that moment).\cf0\lang1049\f1\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-05-07T09:31:06.9633078-04:00</DateAdded>
+    <DateModified>2013-05-07T09:31:41.0716212-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-3a4aabed-2767-4e97-95ca-461be78cdb3c</UniqueID>
+    <UserID>UC-15-2</UserID>
+    <ParentID>P-0d723467-2755-4618-9d98-cefd340866b7</ParentID>
+    <Name>Fix diagnoses order</Name>
+    <Description>Fix diagnoses order on the Home page.
+
+The case Home page contains the list of diagnoses for the case. These diagnoses are numbered, but the order is wrong. The system must always put primary diagnosis as #1 and other diagnoses in the order they added.
+
+See attached screenshots
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Fix diagnoses order on the Home page.\par
+\par
+The case Home page contains the list of diagnoses for the case. These diagnoses are numbered, but the order is wrong. The system must always put primary diagnosis as #1 and other diagnoses in the order they added.\par
+\par
+See attached screenshots\lang1049\f1\par
+\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-05-07T09:31:51.3681667-04:00</DateAdded>
+    <DateModified>2013-05-07T11:40:17.1383927-04:00</DateModified>
+  </UseCase>
+  <Requirement>
+    <UniqueID>REQ-36bd66e7-8ded-4c23-a483-0f6b2276ef3f</UniqueID>
+    <UserID>REQ-15-1</UserID>
+    <ParentID>P-0d723467-2755-4618-9d98-cefd340866b7</ParentID>
+    <Name>Remove No Charges validation from Close Day functionality</Name>
+    <Description>When user closes financial day, the system validates all appointments for that day and displays an error of there's an appointment with no charges posted.
+
+This validation should be removed, users must be able to close day even if there are appointments without charges for that day.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fmodern\fprq1\fcharset0 Arial Unicode MS;}{\f1\fnil\fcharset0 Segoe UI;}{\f2\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 When \f1 user closes financial day, the system validates all appointments for that day and displays an error of there's an appointment with no charges posted.\par
+\par
+This validation should be removed, users must be able to close day even if there are appointments without charges for that day.\lang1049\f2\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-05-08T12:23:49.5275905-04:00</DateAdded>
+    <DateModified>2013-05-08T12:28:35.3951966-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <ExternalDoc>
+    <UniqueID>EX-1678f6c6-7ea9-4b82-9e9c-7a243532455b</UniqueID>
+    <ParentID>UC-3a4aabed-2767-4e97-95ca-461be78cdb3c</ParentID>
+    <Name>Diagnoses - Referral.png</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-365db2d5-0515-42c2-ab8c-c2b071005bfb</UniqueID>
+    <ParentID>UC-3a4aabed-2767-4e97-95ca-461be78cdb3c</ParentID>
+    <Name>Diagnoses - Home.png</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-15-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-15-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-15-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-15-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

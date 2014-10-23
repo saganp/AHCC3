@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.4836</SavedWith>
+    <CreatedWith>8.0.4836</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-f6fafa37-b4d7-4f33-9f3e-9fbb8dad4065</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-f6fafa37-b4d7-4f33-9f3e-9fbb8dad4065</UniqueID>
+    <ExternalParentID>P-7eae0886-422a-4018-b7e6-f7b4bc25f732</ExternalParentID>
+    <Name>Management Reports</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-e7976950-640b-41ae-bb82-7dd33a00f299</UniqueID>
+    <UserID>UC-26-1</UserID>
+    <ParentID>P-f6fafa37-b4d7-4f33-9f3e-9fbb8dad4065</ParentID>
+    <Name>View SSRS Reports Portal</Name>
+    <Description>A subset of report definitions located on https://reports.agilityhealth.com needs to be surfaced and presented in the Agile PM application.  </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 A subset of report definitions located on https://reports.agilityhealth.com needs to be surfaced and presented in the Agile PM application.  \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-04-29T11:13:06.0238441-04:00</DateAdded>
+    <DateModified>2013-04-29T11:16:46.2608631-04:00</DateModified>
+  </UseCase>
+  <Note>
+    <UniqueID>N-7bc64e5d-ba92-44b9-8329-a11d3e1efd18</UniqueID>
+    <ParentID>UC-e7976950-640b-41ae-bb82-7dd33a00f299</ParentID>
+    <Description>Added this package on 4/29/2013, per conversation with Pat Sagan.  Needs further exact definition.  Will need to identify areas of regression testing once database schema changes migrate towards production environment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Added this package on 4/29/2013, per conversation with Pat Sagan.  Needs further exact definition.  Will need to identify areas of regression testing once database schema changes migrate towards production environment.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2013-04-29T11:16:46.2388652-04:00</DateAdded>
+  </Note>
+  <UserID>
+    <DefaultPrefix>UC-26-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-26-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-26-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-26-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

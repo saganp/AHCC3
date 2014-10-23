@@ -1,0 +1,118 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.4959</SavedWith>
+    <CreatedWith>8.0.4959</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-507e3cca-cfbe-4571-a05a-c7af773266b4</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-507e3cca-cfbe-4571-a05a-c7af773266b4</UniqueID>
+    <ExternalParentID>P-51af090f-6d01-4cf8-a662-0b7d804bde23</ExternalParentID>
+    <Name>Patient Centric</Name>
+    <Description>Patient Centric View would be very similar to what we have under the Cases List at the top of the current AgilePM system. 
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\cf2\ulnone  Centric View would be very similar to what we have under the \cf3 Cases\cf2  List at the top of the current AgilePM system. \par
+\cf0\par
+}
+</RichDescription>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Note>
+    <UniqueID>N-0db66355-b882-432f-b560-08262d887eeb</UniqueID>
+    <ParentID>P-507e3cca-cfbe-4571-a05a-c7af773266b4</ParentID>
+    <Description>Patients Link - Clicking on the new Patients link at the top of the site to the left of Cases would display a list view of all Patients</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patients\cf2\ulnone  Link - Clicking on the new \cf1\ul Patients\cf2\ulnone  link at the top of the site to the left of \cf3 Cases\cf2  would display a list view of all \cf1\ul Patients\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2013-10-18T13:53:01.2176975-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-dbf418ae-80bb-4a7b-9bd9-67296e9cc8a3</UniqueID>
+    <ParentID>P-507e3cca-cfbe-4571-a05a-c7af773266b4</ParentID>
+    <Description>Attributes would be from left to right for both filtering and display: Last Name, First Name, Middle, DoB, Phone, Clinician, Location, Active Cases (yes/no)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Attributes would be from left to right for both filtering and display: Last Name, First Name, Middle, DoB, Phone, \cf2 Clinician\cf1 , Location, Active \cf2 Cases\cf1  (yes/no)\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <DateAdded>2013-10-18T13:53:01.2176975-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-9a493b5c-1799-4ea6-aa1d-09c189d75d6a</UniqueID>
+    <ParentID>P-507e3cca-cfbe-4571-a05a-c7af773266b4</ParentID>
+    <Description>Pagination like in the Cases View</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Pagination like in the \cf2 Cases\cf1  View\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <DateAdded>2013-10-18T13:53:01.2176975-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-36a3c7fa-f4e7-47b8-ae4d-027bce268f88</UniqueID>
+    <ParentID>P-507e3cca-cfbe-4571-a05a-c7af773266b4</ParentID>
+    <Description>Back to Search Results - Once a user has filtered down to a point where they select a patient from the list they want the "option" to go back to the filtering results where they were before they clicked on a patient. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Back to Search Results - Once a user has filtered down to a point where they select a \cf2\ul patient\cf1\ulnone  from the list they want the "option" to go back to the filtering results where they were before they clicked on a \cf2\ul patient\cf1\ulnone . \cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <DateAdded>2013-10-18T13:53:01.2176975-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-56382cf2-2ea8-4d75-9c1e-9174074b5f78</UniqueID>
+    <ParentID>P-507e3cca-cfbe-4571-a05a-c7af773266b4</ParentID>
+    <Description>Entire Results Row should be clickable</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Entire Results Row should be clickable\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <DateAdded>2013-10-18T13:53:10.7752372-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-937f84b4-a5cc-426b-afed-f5216e6b3709</UniqueID>
+    <ParentID>P-507e3cca-cfbe-4571-a05a-c7af773266b4</ParentID>
+    <Description>Case Search - Upper left case search field to change to be just 'Search'. Searching in that field would show only Active Cases and Patients. Maybe some small icon would illustrate the difference between the 2 in the filtered search results.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Case\cf2  Search - Upper left \cf1 case\cf2  search field to change to be just 'Search'. Searching in that field would show only Active \cf1 Cases\cf2  and \cf3\ul Patients\cf2\ulnone . Maybe some small icon would illustrate the difference between the 2 in the filtered search results.\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <DateAdded>2013-10-18T13:55:26.1563925-04:00</DateAdded>
+  </Note>
+  <ExternalDoc>
+    <UniqueID>EX-909e7cba-f134-4f65-9a14-141198305339</UniqueID>
+    <ParentID>P-507e3cca-cfbe-4571-a05a-c7af773266b4</ParentID>
+    <Name>http://share.axure.com/RZ5OWZ/?Page=Patient_Profile_-_MVP</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-63-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-63-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-63-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-63-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

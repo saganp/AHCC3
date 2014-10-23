@@ -1,0 +1,850 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.4927</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</UniqueID>
+    <ExternalParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ExternalParentID>
+    <Name>Documentation Module</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-a0479634-7372-4145-8009-635a60860a7e</UniqueID>
+    <UserID>UC-33-21</UserID>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Name>Create Case</Name>
+    <Description>User creates new case for a patient</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User creates new \cf2 case\cf1  for a \cf3\ul patient\cf0\ulnone\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-21T13:24:52.4158989-05:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.7976074-04:00</DateModified>
+  </UseCase>
+  <ElementStub>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Path>Plan of Care.ucp</Path>
+    <ElementID>P-db5c9a56-7285-48b5-a0ff-70e8cd3c038d</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Path>Daily Note.ucp</Path>
+    <ElementID>P-8096edb0-d848-4cb6-a193-07d8aaba31f0</ElementID>
+    <Sequence>1</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Path>Progress Note.ucp</Path>
+    <ElementID>P-b09c2515-b9eb-4c51-91f7-edea1af5cad3</ElementID>
+    <Sequence>2</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Path>Discharge Summary.ucp</Path>
+    <ElementID>P-0b67ea05-734d-4d87-b11d-b7f074f95f6f</ElementID>
+    <Sequence>3</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Path>Manage Problems, Goals, Treatments Templates.ucp</Path>
+    <ElementID>P-a634b756-9741-4968-b61e-91e15feba941</ElementID>
+    <Sequence>4</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Path>File Management.ucp</Path>
+    <ElementID>P-8c7862cc-25f5-4fa5-a0a0-9f45f47808b1</ElementID>
+    <Sequence>6</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Path>Case Notes.ucp</Path>
+    <ElementID>P-24f3a8b3-4da8-4787-b214-0c2988c2e2e1</ElementID>
+    <Sequence>5</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Path>File Management - Shawna.ucp</Path>
+    <ElementID>P-8aeedf57-4c60-4fee-b549-5e54d4fe6af2</ElementID>
+    <Sequence>7</Sequence>
+  </ElementStub>
+  <Note>
+    <UniqueID>N-a5f58574-469e-4408-ac06-05e27703f919</UniqueID>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Description>This module kicks off Revenue Cycle Management, so it is top priority to the system</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 This module kicks off Revenue Cycle Management, so it is top priority to the system\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2013-03-19T07:01:12.7906962-04:00</DateAdded>
+  </Note>
+  <Scenario>
+    <UniqueID>MSS-34cd3059-05a0-4012-a205-af7d6545ba9f</UniqueID>
+    <ParentID>UC-a0479634-7372-4145-8009-635a60860a7e</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-2088f4f6-765f-4dbd-bc22-b78780d09aaf</UniqueID>
+    <UserID>REQ-33-12</UserID>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Name>Remove Associated Diagnoses for Hospitals</Name>
+    <Description>In the Hospital version, no diagnoses should be associated with treatments. This field should be removed from the hospital version.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In the Hospital version, no \cf2 diagnoses\cf1  should be associated with treatments. This field should be removed from the hospital version.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>New</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-11-11T14:31:57.5595993-05:00</DateAdded>
+    <DateModified>2013-11-18T07:48:26.7638049-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-dd48d1a6-b4ad-49d8-a356-e771a9beda55</UniqueID>
+    <UserID>REQ-33-13</UserID>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Name>Add "Speech" body system</Name>
+    <Description>Add "Speech" under the Body System section of body regions</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Add "Speech" under the Body System section of \cf2 body regions\cf1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>New</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-11-11T14:36:08.980529-05:00</DateAdded>
+    <DateModified>2013-11-18T07:48:26.1554829-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0782b275-aeb6-4084-92ce-f20f444a9df4</UniqueID>
+    <UserID>REQ-33-14</UserID>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Name>Add Assistant Permissions for Documentation</Name>
+    <Description>Depending on various conditions, assistants (PTA, OTA, SLPA) should be able to sign Daily Notes, Progress Notes, Discharge Summaries.
+
+The following permissions should be added to the security model:
+Daily Note - Can sign, co-signature required
+Daily Note - Can sign without co-signature
+Progress Note - Can sign, co-signature required
+Progress Note - Can sign without co-signature
+Discharge Summary - Can sign, co-signature required
+Discharge Summary - Can sign without co-signature
+
+If both permissions are selected for the same document type, allow user to sign without co-signature.
+If these permissions are not enabled at all for a PTA, the system should assume that user doesn't have access to the document at all.
+Therapists do not require these permissions to be enabled, the have full access to all documents by virtue of being therapists.
+
+Can sign, co-signature required - user can sign the document, but as soon as the document is signed by the assistant, to goes to the Therapist queue and must be co-signed by any therapist.
+Can sign without co-signature - user can sign the document, as soon as it's signed, the system proceeds with normal process for that document. The document is considered signed and finalized at this moment.
+
+For Plans of Care, the rules are not changed - only a therapist can sign POC.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Depending on various conditions, assistants (\cf2 PTA\cf1 , \cf2 OTA\cf1 , SLPA) should be able to sign \cf2 Daily Notes\cf1 , \cf2 Progress Notes\cf1 , \cf2 Discharge Summaries\cf1 .\par
+\par
+The following permissions should be added to the security model:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf2 Daily Note \cf1 - Can sign, co-signature required\par
+\cf2{\pntext\f1\'B7\tab}Daily Note\cf1  - Can sign without co-signature\par
+\cf2{\pntext\f1\'B7\tab}Progress Note \cf1 - Can sign, co-signature required\par
+\cf2{\pntext\f1\'B7\tab}Progress Note\cf1  - Can sign without co-signature\par
+\cf2{\pntext\f1\'B7\tab}Discharge Summary\cf1  - Can sign, co-signature required\par
+\cf2{\pntext\f1\'B7\tab}Discharge Summary\cf1  - Can sign without co-signature\cf2\par
+\pard\par
+\cf1 If both permissions are selected for the same document type, allow user to sign without co-signature.\par
+If these permissions are not enabled at all for a \cf2 PTA\cf1 , the system should assume that user doesn't have access to the document at all.\par
+Therapists do not require these permissions to be enabled, the have full access to all documents by virtue of being therapists.\par
+\par
+\b Can sign, co-signature required \b0 - user can sign the document, but as soon as the document is signed by the assistant, to goes to the Therapist queue and must be co-signed by any therapist.\par
+\b Can sign without co-signature \b0 - user can sign the document, as soon as it's signed, the system proceeds with normal process for that document. The document is considered signed and finalized at this moment.\par
+\par
+For Plans of Care, the rules are not changed - only a therapist can sign POC.\cf2\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>New</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-11-15T14:41:21.4363648-05:00</DateAdded>
+    <DateModified>2013-12-04T09:21:34.1605897-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-601360e2-3c2d-44d9-a628-9d60ebc8ac26</UniqueID>
+    <UserID>REQ-33-15</UserID>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Name>Add Student Users</Name>
+    <Description>Add a "Student" check box next to Clinician Type. The check box should not be available for Techs.
+In February release, all students will have exactly same functionality, be that PT/PTA/OT/OTA/SLP/SLPA student.
+
+Students behave exactly the same way as usual clinicians with the following exceptions:
+It should not be possible to schedule Medicare/Medicaid appointments for students. If CBC tries to schedule such an appointment, show an error ("Students cannot be scheduled as appointment clinicians for Medicare and Medicaid cases") and do not schedule the appointment. All other cases can be put on a student's schedule.
+In Clinician details, selecting Student check box must hide all fields except for User, Clinician Type and Responsible Clinician. NPI &amp; ID fields should not be available for students.
+All documents signed by students must be co-signed by a therapist. So any document signed by a student must be placed in PT queue.
+Student's signature must not appear on any Medicare/Medicaid documents. They can sign, but their signature line must not appear in HTML or PDF versions of the documents for Medicare/Medicaid cases. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Add a "\cf2\ul Student\cf1\ulnone " check box next to \cf3 Clinician\cf1  Type. The check box should not be available for Techs.\par
+In February release, all \cf2\ul students\cf1\ulnone  will have exactly same functionality, be that \cf3 PT\cf1 /PTA/OT/OTA/SLP/SLPA \cf2\ul student\cf1\ulnone .\par
+\par
+\cf2\ul Students\cf1\ulnone  behave exactly the same way as usual \cf3 clinicians\cf1  with the following exceptions:\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 It should not be possible to schedule Medicare/Medicaid \cf3 appointments\cf1  for \cf2\ul students\cf1\ulnone . If \cf2\ul CBC\cf1\ulnone  tries to schedule such an \cf3 appointment\cf1 , show an error ("\cf2\ul Students\cf1\ulnone  cannot be scheduled as \cf3 appointment\cf1  \cf3 clinicians\cf1  for Medicare and Medicaid \cf3 cases\cf1 ") and do not schedule the \cf3 appointment\cf1 . All other \cf3 cases\cf1  can be put on a \cf2\ul student\cf1\ulnone 's schedule.\par
+{\pntext\f0 2.\tab}In \cf3 Clinician\cf1  details, selecting \cf2\ul Student\cf1\ulnone  check box must hide all fields except for User, \cf3 Clinician\cf1  Type and Responsible \cf3 Clinician\cf1 . NPI &amp; ID fields should not be available for \cf2\ul students\cf1\ulnone .\par
+{\pntext\f0 3.\tab}All documents signed by \cf2\ul students\cf1\ulnone  must be co-signed by a therapist. So any document signed by a \cf2\ul student\cf1\ulnone  must be placed in \cf3 PT\cf1  queue.\par
+\cf2\ul{\pntext\f0 4.\tab}Student\cf1\ulnone 's signature must not appear on any Medicare/Medicaid documents. They can sign, but their signature line must not appear in HTML or PDF versions of the documents for Medicare/Medicaid \cf3 cases\cf1 . \par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-11-17T09:40:46.5622466-05:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.7956074-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-6b8b956f-1291-4aa2-8892-74038fd422d9</UniqueID>
+    <UserID>REQ-33-16</UserID>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Name>Add Student section to appointment details</Name>
+    <Description>When scheduling any patient appointment with a therapist, CBCs should be able to assign a student user to any patient appointment.
+
+Schedule new appointment - add optional Assign Student dropdown to the dialog. The dropdown must contain all students that are scheduled for that date in that location.
+When new appointment is saved, the system must also add appointment block to the student's schedule. Appointment block must contain the same information as the therapist's appointment along with the therapist's name. It should not be possible to open details of the system-generated appointment on student's schedule. Any changes made to the therapist's appointment must be mirrored for the student appointment.
+
+Open existing appointment - add a Student area to appointment details. The area contains Student dropdown and Save/Cancel buttons.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 When scheduling any \cf2\ul patient\cf1\ulnone  \cf3 appointment\cf1  with a therapist, \cf2\ul CBCs\cf1\ulnone  should be able to assign a student user to any \cf2\ul patient\cf1\ulnone  \cf3 appointment\cf1 .\par
+\par
+\b Schedule new \cf3 appointment\cf1  \b0 - add optional Assign Student dropdown to the dialog. The dropdown must contain all students that are scheduled for that date in that location.\par
+When new \cf3 appointment\cf1  is saved, the system must also add \cf3 appointment\cf1  block to the student's schedule. \cf3 Appointment\cf1  block must contain the same information as the therapist's \cf3 appointment\cf1  along with the therapist's name. It should not be possible to open details of the system-generated \cf3 appointment\cf1  on student's schedule. Any changes made to the therapist's \cf3 appointment\cf1  must be mirrored for the student \cf3 appointment\cf1 .\par
+\par
+\b Open existing \cf3 appointment\cf1  \b0 - add a Student area to \cf3 appointment\cf1  details. The area contains Student dropdown and Save/Cancel buttons.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-11-17T09:47:56.1366063-05:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.7976074-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-ce302793-08db-4347-b471-1058b81b95ff</UniqueID>
+    <UserID>REQ-21-6</UserID>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Name>Classifications for Indicators</Name>
+    <Description>The following is the list of Classifications.
+
+KNEE
+1.1 ACL repair
+1.5 Total knee
+1.9 All post-surgical
+2.1 Patellofemoral dysfunction
+2.2 Mensical tears
+2.5 Knee sprain
+6.0 Fracture non-surgical
+7.1 Osteoarthritis
+9.0 Other non-surgical
+ANKLE
+1.9 All post-surgical
+1.1 Achilles tendonitis 
+2.1 Sprain
+6.0 Fracture non-surgical
+7.1 Osteoarthritis
+9.0 Other non-surgical
+FOOT &amp; TOES
+1.9 All post-surgical
+2.1 Plantar fascitis/heel spurs
+6.0 Fracture non-surgical
+7.1 Osteoarthritis
+9.0 Other non-surgical
+LUMBAR
+1.1 IAsymptomatic 1-6 mo.
+1.2 Symptomatic 1-6 mo.
+1.3 Asymptomatic &gt; 6 mo. pain insufficient
+1.4 Symptomatic &gt; 6 mo. unsuccessful
+2.1 Pain without radiation
+2.2 Pain+radiation to proximal extremity
+2.3 Pain+radiation to distal extremity (not appl to thoracic sgmnt)
+2.4 Pain+radiation to upper/lower limb-neurologic signs
+2.5 Compression of  spinal nerve root (roentgenogram)
+2.6 Compression of spinal nerve root confirmed
+2.7 Spinal stenosis
+2.8 Maladaptive pain behavior+neuromusc disorder
+2.9 Chronic pain syndrome
+9.0 Other Non-Surgical
+PELVIS
+1.9 All post-surgical
+2.1 Sacroiliac/Iliosacral Dysfunction
+2.2 Pubic Dysfunction
+2.3 Fracture
+9.0 Other Non-Surgical
+HIP
+1.1 Total Hip Replacement
+1.2 O.R.I.F.
+1.9 Other Post-Surgical
+2.1 Osteoarthritis
+3.1 Fractures
+9.0 Other Non-Surgical
+CERVICAL
+1.9 All Post-Surgical
+2.1 Whiplash
+2.3 Disc with nerve root involvement
+6.0 Fracture Non-Surgical
+7.1 Osteoarthritis
+9.0 Other Non-Surgical
+THORACIC
+1.9 All post-surgical
+2.1 Osteoporosis
+6.0 Fracture Non-Surgical
+7.1 Osteoarthritis
+9.0 Other non-surgical
+SHOULDER
+1.1 Arthroscopic repair &amp;/or debridement
+1.2 Regular surg. repair, debridement &amp;/or revision
+1.3 Prosthetic, G-H replacement
+1.9 Other surgical procedure
+5.1 Undetermined
+5.2 Hypo-Mobile G-H with true capsular pattern
+5.3 Hypo-Mobile G-H direction specific with impingement
+5.4 Hypo-Mobile G-H with non-capsular pattern
+5.5 Hyper-Mobile G-H without signif. internal derangement
+5.6 Hyper-Mobile G-H  with signif. internal derangement
+5.7 Hyper-Mobile G-H with impingement syndrome
+6.1 Humoral Fracture
+6.2 Clavicular Fracture
+6.3 Scapular Fracture
+9.0 Other diagnosis (cancer, necrosis, etc.)
+HAND/FINGER(S)
+1.9 All post-surgical
+2.1 Tendonitis
+6.0 Fracture non-surgical
+7.1 Osteoarthritis
+9.0 Other non-surgical
+WRIST
+1.9 All post-surgical
+2.1 Carpal Tunnel
+2.2 Wrist Sprain
+6.0 Fracture non-surgical
+7.1 Osteoarthritis
+9.0 Other non-surgical
+ELBOW
+1.9 All post-surgical
+2.1 Lateral epicondylitis
+2.2 Medial epicondylitis
+6.0 Fracture non-surgical
+7.1 Osteoarthritis
+9.0 Other non-surgical
+NEUROLOGICAL
+1.1 Mild* Right CVA &lt; 3 months
+1.2 Moderate* Right CVA &lt; 3 months
+1.3 Severe* Right CVA &lt; 3 months
+1.4 Mild* Right CVA  &gt;3 months to &lt; 1 year
+1.5 Moderate* Right CVA  &gt;3 months to &lt; 1 year
+1.6 Severe* Right CVA  &gt;3 months to &lt; 1 year
+1.7 Mild* Right CVA  &gt; 1 year
+1.8 Moderate* Right CVA  &gt; 1 year
+1.9 Severe* Right CVA  &gt; 1 year
+2.1 Mild* Left CVA &lt; 3 months
+2.2 Moderate* Left CVA &lt; 3 months
+2.3 Severe* Left CVA &lt; 3 months
+2.4 Mild* Left CVA  &gt;3 months to &lt; 1 year
+2.5 Moderate* Left CVA  &gt;3 months to &lt; 1 year
+2.6 Severe* Left CVA  &gt;3 months to &lt; 1 year
+2.7 Mild* Left CVA  &gt; 1 year
+2.8 Moderate* Left CVA  &gt; 1 year
+2.9 Severe* Left CVA  &gt; 1 year
+4.1 Parkinson Mild* Parkinson
+4.2 Parkinson Moderate* Parkinson
+4.3 Parkinson Severe* Parkinson
+5.1 MS Parkinson
+5.2 CP Parkinson
+9.0 Other Parkinson
+LYMPHEDEMA
+1.1 Upper Extremity
+2.1 Lower Extremity
+
+
+Body Regions / Systems without Classification Codes:
+Head &amp; Facial / TMJ
+Respiratory
+Skeletal
+Urinary
+Circulatory
+Muscular
+Reproductive
+Speech</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The following is the list of Classifications.\lang1049\f1\par
+\par
+\b KNEE\b0\par
+1.1 ACL repair\par
+1.5 Total knee\par
+1.9 All post-surgical\par
+2.1 Patellofemoral dysfunction\par
+2.2 Mensical tears\par
+2.5 Knee sprain\par
+6.0 Fracture non-surgical\par
+7.1 Osteoarthritis\par
+9.0 Other non-surgical\par
+\b ANKLE\b0\par
+1.9 All post-surgical\par
+1.1 Achilles tendonitis \par
+2.1 Sprain\par
+6.0 Fracture non-surgical\par
+7.1 Osteoarthritis\par
+9.0 Other non-surgical\par
+\b FOOT &amp; TOES\b0\par
+1.9 All post-surgical\par
+2.1 Plantar fascitis/heel spurs\par
+6.0 Fracture non-surgical\par
+7.1 Osteoarthritis\par
+9.0 Other non-surgical\par
+\b LUMBAR\b0\par
+1.1 IAsymptomatic 1-6 mo.\par
+1.2 Symptomatic 1-6 mo.\par
+1.3 Asymptomatic &gt; 6 mo. pain insufficient\par
+1.4 Symptomatic &gt; 6 mo. unsuccessful\par
+2.1 Pain without radiation\par
+2.2 Pain+radiation to proximal extremity\par
+2.3 Pain+radiation to distal extremity (not appl to thoracic sgmnt)\par
+2.4 Pain+radiation to upper/lower limb-neurologic signs\par
+2.5 Compression of  spinal nerve root (roentgenogram)\par
+2.6 Compression of spinal nerve root confirmed\par
+2.7 Spinal stenosis\par
+2.8 Maladaptive pain behavior+neuromusc disorder\par
+2.9 Chronic pain syndrome\par
+9.0 Other Non-Surgical\par
+\b PELVIS\b0\par
+1.9 All post-surgical\par
+2.1 Sacroiliac/Iliosacral Dysfunction\par
+2.2 Pubic Dysfunction\par
+2.3 Fracture\par
+9.0 Other Non-Surgical\par
+\b HIP\b0\par
+1.1 Total Hip Replacement\par
+1.2 O.R.I.F.\par
+1.9 Other Post-Surgical\par
+2.1 Osteoarthritis\par
+3.1 Fractures\par
+9.0 Other Non-Surgical\par
+\b CERVICAL\b0\par
+1.9 All Post-Surgical\par
+2.1 Whiplash\par
+2.3 Disc with nerve root involvement\par
+6.0 Fracture Non-Surgical\par
+7.1 Osteoarthritis\par
+9.0 Other Non-Surgical\par
+\b THORACIC\b0\par
+1.9 All post-surgical\par
+2.1 Osteoporosis\par
+6.0 Fracture Non-Surgical\par
+7.1 Osteoarthritis\par
+9.0 Other non-surgical\par
+\b SHOULDER\b0\par
+1.1 Arthroscopic repair &amp;/or debridement\par
+1.2 Regular surg. repair, debridement &amp;/or revision\par
+1.3 Prosthetic, G-H replacement\par
+1.9 Other surgical procedure\par
+5.1 Undetermined\par
+5.2 Hypo-Mobile G-H with true capsular pattern\par
+5.3 Hypo-Mobile G-H direction specific with impingement\par
+5.4 Hypo-Mobile G-H with non-capsular pattern\par
+5.5 Hyper-Mobile G-H without signif. internal derangement\par
+5.6 Hyper-Mobile G-H  with signif. internal derangement\par
+5.7 Hyper-Mobile G-H with impingement syndrome\par
+6.1 Humoral Fracture\par
+6.2 Clavicular Fracture\par
+6.3 Scapular Fracture\par
+9.0 Other diagnosis (cancer, necrosis, etc.)\par
+\b HAND/FINGER(S)\par
+\b0 1.9 All post-surgical\par
+2.1 Tendonitis\par
+6.0 Fracture non-surgical\par
+7.1 Osteoarthritis\par
+9.0 Other non-surgical\par
+\b WRIST\b0\par
+1.9 All post-surgical\par
+2.1 Carpal Tunnel\par
+2.2 Wrist Sprain\par
+6.0 Fracture non-surgical\par
+7.1 Osteoarthritis\par
+9.0 Other non-surgical\par
+\b ELBOW\b0\par
+1.9 All post-surgical\par
+2.1 Lateral epicondylitis\par
+2.2 Medial epicondylitis\par
+6.0 Fracture non-surgical\par
+7.1 Osteoarthritis\par
+9.0 Other non-surgical\par
+\b NEUROLOGICAL\b0\par
+1.1 Mild* Right CVA &lt; 3 months\par
+1.2 Moderate* Right CVA &lt; 3 months\par
+1.3 Severe* Right CVA &lt; 3 months\par
+1.4 Mild* Right CVA  &gt;3 months to &lt; 1 year\par
+1.5 Moderate* Right CVA  &gt;3 months to &lt; 1 year\par
+1.6 Severe* Right CVA  &gt;3 months to &lt; 1 year\par
+1.7 Mild* Right CVA  &gt; 1 year\par
+1.8 Moderate* Right CVA  &gt; 1 year\par
+1.9 Severe* Right CVA  &gt; 1 year\par
+2.1 Mild* Left CVA &lt; 3 months\par
+2.2 Moderate* Left CVA &lt; 3 months\par
+2.3 Severe* Left CVA &lt; 3 months\par
+2.4 Mild* Left CVA  &gt;3 months to &lt; 1 year\par
+2.5 Moderate* Left CVA  &gt;3 months to &lt; 1 year\par
+2.6 Severe* Left CVA  &gt;3 months to &lt; 1 year\par
+2.7 Mild* Left CVA  &gt; 1 year\par
+2.8 Moderate* Left CVA  &gt; 1 year\par
+2.9 Severe* Left CVA  &gt; 1 year\par
+4.1 Parkinson Mild* Parkinson\par
+4.2 Parkinson Moderate* Parkinson\par
+4.3 Parkinson Severe* Parkinson\par
+5.1 MS Parkinson\par
+5.2 CP Parkinson\par
+9.0 Other Parkinson\par
+\b LYMPHEDEMA\b0\par
+1.1 Upper Extremity\par
+2.1 Lower Extremity\par
+\par
+\par
+\b Body Regions / \cf2 Systems\cf1  without Classification Codes:\b0\par
+\pard{\pntext\f1 1.\tab}{\*\pn\pnlvlbody\pnf1\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 Head &amp; Facial / TMJ\par
+{\pntext\f1 2.\tab}Respiratory\par
+{\pntext\f1 3.\tab}Skeletal\par
+{\pntext\f1 4.\tab}Urinary\par
+{\pntext\f1 5.\tab}Circulatory\par
+{\pntext\f1 6.\tab}Muscular\par
+{\pntext\f1 7.\tab}Reproductive\par
+\lang1033\f0{\pntext\f1 8.\tab}Speech\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-15T08:13:18.8105821-04:00</DateAdded>
+    <DateModified>2013-11-18T07:48:39.4137829-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-552b4b93-bb5c-46cd-a1c6-58970454dd8b</UniqueID>
+    <UserID>REQ-33-17</UserID>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Name>Replace CPT with CDM in hospitals</Name>
+    <Description>HOSPITALS
+
+Everywhere in Documentation, CPT codes must be replaced with CDM codes. The logic related to treatments is not affected by this.
+
+The same logic should apply to how codes are displayed in documentation. The actual code should be CDM, but description should be taken from the associated CPT code.
+
+Users should only be able to select CDMs that match clinician discipline.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 HOSPITALS\par
+\par
+Everywhere in Documentation, \cf2 CPT codes\cf1  must be replaced with \cf2 CDM\cf1  codes. The logic related to treatments is not affected by this.\par
+\par
+The same logic should apply to how codes are displayed in documentation. The actual code should be \cf2 CDM\cf1 , but description should be taken from the associated \cf2 CPT code\cf1 .\par
+\par
+Users should only be able to select \cf2 CDMs\cf1  that match \cf2 clinician\cf1  discipline.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-11-20T13:35:40.9538815-05:00</DateAdded>
+    <DateModified>2014-03-05T10:00:13.7716821-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-54cec949-3c1d-422c-94c1-aededccdf27f</UniqueID>
+    <ParentID>MSS-34cd3059-05a0-4012-a205-af7d6545ba9f</ParentID>
+    <Description>User goes opens New Case dialog.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User goes opens New \cf2 Case\cf1  dialog.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d3edf8c2-4294-4f05-937d-4803c52f6936</UniqueID>
+    <ParentID>MSS-34cd3059-05a0-4012-a205-af7d6545ba9f</ParentID>
+    <Description>The system prompts user to enter patient info:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system prompts \cf1 user to enter \cf2\ul patient\cf1\ulnone  info:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-36f9c575-7fb2-49cb-bf77-da80e76d1d01</UniqueID>
+    <ParentID>ST-d3edf8c2-4294-4f05-937d-4803c52f6936</ParentID>
+    <Description>* First name</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 * First name\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a695116c-6883-4179-b914-7a19d425ae58</UniqueID>
+    <ParentID>ST-d3edf8c2-4294-4f05-937d-4803c52f6936</ParentID>
+    <Description>Middle name (optional)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Middle name (optional)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-eabe3f6c-7af5-48bb-8871-c55921430d0e</UniqueID>
+    <ParentID>ST-d3edf8c2-4294-4f05-937d-4803c52f6936</ParentID>
+    <Description>* Last name</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 * Last name\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-afda821c-6a7f-460f-adbc-402702350d16</UniqueID>
+    <ParentID>ST-d3edf8c2-4294-4f05-937d-4803c52f6936</ParentID>
+    <Description>* Birthdate</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 * Birthdate\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c4126739-750c-46da-b673-bfc2f42d63f7</UniqueID>
+    <ParentID>ST-d3edf8c2-4294-4f05-937d-4803c52f6936</ParentID>
+    <Description>* Phone #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 * Phone #\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3cb998b1-cd2b-43a2-8bf2-dd7ec04e96fd</UniqueID>
+    <ParentID>ST-d3edf8c2-4294-4f05-937d-4803c52f6936</ParentID>
+    <Description>Medical Record Number - if user enters MRN all other fields are optional. In the hospital version, MRN is mandatory for creating new patient.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Medical Record Number\cf2  - if user enters \cf1 MRN\cf2  all other fields are optional. In the hospital version, \cf1 MRN\cf2  is mandatory for creating new \cf3\ul patient\cf2\ulnone .\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-73d6f6aa-85c4-4d8a-be95-2b9ec94b6c46</UniqueID>
+    <ParentID>MSS-34cd3059-05a0-4012-a205-af7d6545ba9f</ParentID>
+    <Description>User enters patient info and runs search.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User enters \cf2\ul patient\cf1\ulnone  info and runs search.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-63ffc217-e073-4109-8bdd-67cd901138dd</UniqueID>
+    <ParentID>MSS-34cd3059-05a0-4012-a205-af7d6545ba9f</ParentID>
+    <Description>The system shows the list of possible matches and "Create new patient" control.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 The system shows the list of possible matches and "Create new \cf1 patient" control.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7d87a7c9-89b6-439b-a69f-5d1cc1948c01</UniqueID>
+    <ParentID>MSS-34cd3059-05a0-4012-a205-af7d6545ba9f</ParentID>
+    <Description>User can:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 User can:\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3421b7ca-8d85-4105-b9c1-4e3d92a69682</UniqueID>
+    <ParentID>ST-7d87a7c9-89b6-439b-a69f-5d1cc1948c01</ParentID>
+    <Description>Select an existing patient - the system created new case for the patient</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Select an existing \cf2\ul patient\cf1\ulnone  - the system created new \cf3 case\cf1  for the \cf2\ul patient\cf1\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0b16ebb2-9fe7-43e9-bb67-9f6986c8cdbd</UniqueID>
+    <ParentID>ST-7d87a7c9-89b6-439b-a69f-5d1cc1948c01</ParentID>
+    <Description>Click "Create New Patient" - the system creates new patient, generates MRN for that patient and creates new case for that patient. In hospital version, the system does not generate MRN, it uses user-provided MRN.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Click "Create New \cf2\ul Patient\cf1\ulnone " - the system creates new \cf2\ul patient\cf1\ulnone , generates \cf3 MRN\cf1  for that \cf2\ul patient\cf1\ulnone  and creates new \cf3 case\cf1  for that \cf2\ul patient\cf1\ulnone . In hospital version, the system does not generate \cf3 MRN\cf1 , it uses user-provided \cf3 MRN\cf1 .\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-07d0bb87-4cbc-4a25-91a0-797f13144929</UniqueID>
+    <ParentID>X-87fc27a5-73c2-44e8-9c59-c687b722d433</ParentID>
+    <Description>The system ignores MRN entered by user and proceeds with basic scenario.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system ignores \cf2 MRN\cf1  entered by user and proceeds with basic scenario.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ece281a2-ff8c-4b38-9079-fb02dfc273e2</UniqueID>
+    <ParentID>X-87fc27a5-73c2-44e8-9c59-c687b722d433</ParentID>
+    <Description>All mandatory fields must be filled out in order to create new patient.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All mandatory fields must be filled out in order to create new \cf2\ul patient\cf1\ulnone .\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-87fc27a5-73c2-44e8-9c59-c687b722d433</UniqueID>
+    <ParentID>ST-0b16ebb2-9fe7-43e9-bb67-9f6986c8cdbd</ParentID>
+    <Description>User entered MRN</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User entered \cf2 MRN\cf1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <ExternalDoc>
+    <UniqueID>EX-6036a0ee-ef06-45c7-84d4-906fb0c9723f</UniqueID>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Name>https://bluesphere.basecamphq.com/projects/10904142/file/150972766/Flow%20Chart%20Documentation%20PQRS.vsd</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-e8b1c3bc-1bff-4922-9073-0807e49bcbbe</UniqueID>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Name>https://bluesphere.basecamphq.com/projects/10904142/file/150972768/PQRS%20Process.vsd</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-0cc27d7e-905c-45ed-b8a0-2fd7887b9c10</UniqueID>
+    <ParentID>P-397d79c1-d36e-421b-8b71-b3ccc3691f23</ParentID>
+    <Name>https://bluesphere.basecamphq.com/projects/10904142/file/150972767/Functional%20Outcomes%20Reporting.vsd</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-e71c0c21-73a9-47ba-ac59-69a65b2c1100</UniqueID>
+    <ParentID>REQ-6b8b956f-1291-4aa2-8892-74038fd422d9</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=New_Appointment_Students</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-2440a1d0-feb0-4c6e-9032-1d6dfafbd0c3</UniqueID>
+    <ParentID>REQ-6b8b956f-1291-4aa2-8892-74038fd422d9</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Existing_Appointment_Students</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-fe0f6403-5908-4c44-a86f-4ee4b4103d52</UniqueID>
+    <ParentID>UC-a0479634-7372-4145-8009-635a60860a7e</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=New_Case</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-84078642-374b-4b79-8e2f-5d9077f46494</UniqueID>
+    <ParentID>REQ-601360e2-3c2d-44d9-a628-9d60ebc8ac26</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Student_Details</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-33-</DefaultPrefix>
+    <NextValue>28</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-33-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-33-</DefaultPrefix>
+    <NextValue>21</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-33-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

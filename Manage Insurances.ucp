@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5088</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-88708a33-99d1-4dea-aeb9-5d6c3f4915f3</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-88708a33-99d1-4dea-aeb9-5d6c3f4915f3</UniqueID>
+    <ExternalParentID>P-e4849ef8-f95f-43a5-a4b4-fd5e588b676b</ExternalParentID>
+    <Name>Manage Insurances</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-eb7f745b-7e03-4c52-b8ca-9fd6135b34dc</UniqueID>
+    <UserID>UC-80-1</UserID>
+    <ParentID>P-88708a33-99d1-4dea-aeb9-5d6c3f4915f3</ParentID>
+    <Name>View Carriers</Name>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-13T09:42:57.2592753-04:00</DateAdded>
+    <DateModified>2014-07-13T09:45:46.7763273-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-5692057e-e3e2-4d1d-9681-b0d15fcd1a60</UniqueID>
+    <UserID>UC-80-2</UserID>
+    <ParentID>P-88708a33-99d1-4dea-aeb9-5d6c3f4915f3</ParentID>
+    <Name>Add/Edit Carrier</Name>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-13T09:46:02.2503607-04:00</DateAdded>
+    <DateModified>2014-07-13T09:46:07.9126888-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-86b3c2d6-0551-4a38-a332-60c99efad98b</UniqueID>
+    <UserID>UC-80-3</UserID>
+    <ParentID>P-88708a33-99d1-4dea-aeb9-5d6c3f4915f3</ParentID>
+    <Name>View Plans</Name>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-13T09:46:56.1906653-04:00</DateAdded>
+    <DateModified>2014-07-13T09:47:06.3614017-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-2db6a481-6472-4984-b6d7-62b5f581bd9a</UniqueID>
+    <UserID>UC-80-4</UserID>
+    <ParentID>P-88708a33-99d1-4dea-aeb9-5d6c3f4915f3</ParentID>
+    <Name>Add/Edit Plan</Name>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-13T09:47:09.6060561-04:00</DateAdded>
+    <DateModified>2014-07-13T09:47:17.6240963-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-1afa0b76-1f6b-4e43-8a21-c7467eccf512</UniqueID>
+    <UserID>UC-80-5</UserID>
+    <ParentID>P-88708a33-99d1-4dea-aeb9-5d6c3f4915f3</ParentID>
+    <Name>View Groups</Name>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-13T09:47:27.436056-04:00</DateAdded>
+    <DateModified>2014-07-13T09:52:41.3747788-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-5021ff1f-e37f-4db4-8465-34aad537b576</UniqueID>
+    <UserID>UC-80-6</UserID>
+    <ParentID>P-88708a33-99d1-4dea-aeb9-5d6c3f4915f3</ParentID>
+    <Name>Add/Edit Group</Name>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-13T09:47:33.6601767-04:00</DateAdded>
+    <DateModified>2014-07-13T09:52:40.7976306-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-54db83fd-f1f9-433a-a0ec-22fafe5bd2fa</UniqueID>
+    <UserID>UC-80-7</UserID>
+    <ParentID>P-88708a33-99d1-4dea-aeb9-5d6c3f4915f3</ParentID>
+    <Name>Manage Form Type Exceptions</Name>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-13T09:52:28.5215324-04:00</DateAdded>
+    <DateModified>2014-07-13T09:52:41.3747788-04:00</DateModified>
+  </UseCase>
+  <UserID>
+    <DefaultPrefix>UC-80-</DefaultPrefix>
+    <NextValue>8</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-80-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-80-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-80-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

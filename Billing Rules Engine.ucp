@@ -1,0 +1,1843 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5088</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</UniqueID>
+    <ExternalParentID>P-e4849ef8-f95f-43a5-a4b4-fd5e588b676b</ExternalParentID>
+    <Name>Billing Rules Engine</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-f9ea12e9-e9be-486f-86d3-3cc7ca5ca0d8</UniqueID>
+    <UserID>UC-83-2</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Enable 'Eval Only on First Visit'</Name>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-23T10:51:12.6346875-04:00</DateAdded>
+    <DateModified>2014-07-24T11:39:20.9951247-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-1e6d86a0-d88b-44f3-bbba-4c92c173c022</UniqueID>
+    <UserID>UC-83-3</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Enable 'Disallowed Modifiers'</Name>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-24T09:29:08.2488499-04:00</DateAdded>
+    <DateModified>2014-07-24T10:51:41.418444-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-4d40f608-a651-4783-ab3f-9feb87f6fcf6</UniqueID>
+    <UserID>UC-83-4</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Enable 'Auto-Add Modifiers'</Name>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-24T09:36:31.2696369-04:00</DateAdded>
+    <DateModified>2014-07-24T11:36:57.5801908-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-2ff3834b-3edb-484b-9d30-9c0e8b769820</UniqueID>
+    <UserID>UC-83-5</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Enable 'Medical Review'</Name>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-24T09:37:08.7725531-04:00</DateAdded>
+    <DateModified>2014-07-24T12:56:17.1914713-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-b5f4af75-e93b-4eb9-bfc7-9249faff9073</UniqueID>
+    <UserID>UC-83-6</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Enable 'Insurance Pays For Supplies'</Name>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-07-24T09:38:06.7904607-04:00</DateAdded>
+    <DateModified>2014-07-24T13:17:04.5750012-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-4f1a6dbc-abbc-4fa5-bf7d-19366126b26d</UniqueID>
+    <UserID>UC-83-7</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Enable 'Auth Required'</Name>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-24T10:02:21.2656587-04:00</DateAdded>
+    <DateModified>2014-07-24T12:57:30.1508047-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-b40ee21f-6b7b-4189-8bcf-c5c2fbe4c83e</UniqueID>
+    <UserID>UC-83-8</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Enable 'Limit units per DOS'</Name>
+    <Sequence>7</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-07-24T10:02:46.1156622-04:00</DateAdded>
+    <DateModified>2014-07-24T13:16:36.2773268-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-3c636b2a-53d8-4373-b27a-b823a9ef2644</UniqueID>
+    <UserID>UC-83-9</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Enable 'Limit procedures per DOS'</Name>
+    <Sequence>8</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-24T10:03:00.3424062-04:00</DateAdded>
+    <DateModified>2014-07-24T13:16:28.3099352-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-17ebc5c4-c9ff-40e3-9fd7-6305f378b3e1</UniqueID>
+    <UserID>UC-83-10</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Enable 'Disallowed CPTs'</Name>
+    <Sequence>9</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-07-24T10:03:32.9923285-04:00</DateAdded>
+    <DateModified>2014-07-24T13:04:02.3493252-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-5462c03a-1ff4-4a43-a3d3-ba8e2dd523fa</UniqueID>
+    <UserID>UC-83-11</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Enable 'Filing Deadlines'</Name>
+    <Sequence>10</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-24T10:04:32.3021719-04:00</DateAdded>
+    <DateModified>2014-07-24T13:18:06.5369231-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-72160464-47b5-46ec-b3cc-3ca55c387814</UniqueID>
+    <UserID>UC-83-12</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Enable 'Per-Diem'</Name>
+    <Sequence>11</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-07-24T10:04:51.0998104-04:00</DateAdded>
+    <DateModified>2014-07-24T13:18:15.8811434-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-05a034a4-610d-4226-aae1-93c2f7ae10f2</UniqueID>
+    <UserID>UC-83-13</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Disable a Rule</Name>
+    <Sequence>12</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-07-24T10:05:01.4424115-04:00</DateAdded>
+    <DateModified>2014-07-24T13:21:32.1413538-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-6401f20c-4518-43d8-bb1a-ce17f33fc290</UniqueID>
+    <UserID>UC-83-1</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Open Billing Rules</Name>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-07-24T10:19:57.4292139-04:00</DateAdded>
+    <DateModified>2014-07-24T13:17:41.9517959-04:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-eeaa841d-8e92-4e34-962c-605de5d960e3</UniqueID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Billing Rules Engine</Name>
+    <Sequence>0</Sequence>
+    <FileName>Billing Rules Engine.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Note>
+    <UniqueID>N-2f7c1a4a-53e1-4e7f-869c-354f02ee5fdf</UniqueID>
+    <ParentID>UC-b5f4af75-e93b-4eb9-bfc7-9249faff9073</ParentID>
+    <Description>The last step may seem confusing. The problem is that there are proper supply codes that can be billed to insurance and there are alpha codes that are never billed to insurance. However, the system makes no distinction between them, so even if the rules disallows billing any supplies to patient, it won't affect our ability to bill alpha codes to patient.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The last step may seem confusing. The problem is that there are proper supply codes that can be billed to insurance and there are alpha codes that are never billed to insurance. However, the system makes no distinction between them, so even if the rules disallows billing any supplies to \cf1\ul patient\cf2\ulnone , it won't affect our ability to bill alpha codes to \cf1\ul patient\cf2\ulnone .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2014-07-24T12:29:26.5728067-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-bda43f58-2db5-4f3f-ac67-4d18701a362a</UniqueID>
+    <ParentID>UC-5462c03a-1ff4-4a43-a3d3-ba8e2dd523fa</ParentID>
+    <Description>Note that this is specified in carrier details and has no effect on the system at the moment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Note that this is specified in \cf1 carrier\cf2  details and has no effect on the system at the moment.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2014-07-24T13:05:45.9815719-04:00</DateAdded>
+  </Note>
+  <Note>
+    <UniqueID>N-45148799-f2c2-423a-b9c4-a94dcc13d069</UniqueID>
+    <ParentID>UC-72160464-47b5-46ec-b3cc-3ca55c387814</ParentID>
+    <Description>Note that this is specified in Plan details, not on the Plan Rules tab.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Note that this is specified in \cf1 Plan details, not on the Plan Rules tab.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2014-07-24T13:05:53.6730621-04:00</DateAdded>
+  </Note>
+  <UCActor>
+    <ParentID>UC-f9ea12e9-e9be-486f-86d3-3cc7ca5ca0d8</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-1e6d86a0-d88b-44f3-bbba-4c92c173c022</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-4d40f608-a651-4783-ab3f-9feb87f6fcf6</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-2ff3834b-3edb-484b-9d30-9c0e8b769820</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-b5f4af75-e93b-4eb9-bfc7-9249faff9073</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-4f1a6dbc-abbc-4fa5-bf7d-19366126b26d</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-b40ee21f-6b7b-4189-8bcf-c5c2fbe4c83e</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-3c636b2a-53d8-4373-b27a-b823a9ef2644</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-17ebc5c4-c9ff-40e3-9fd7-6305f378b3e1</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5462c03a-1ff4-4a43-a3d3-ba8e2dd523fa</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-72160464-47b5-46ec-b3cc-3ca55c387814</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-05a034a4-610d-4226-aae1-93c2f7ae10f2</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-6401f20c-4518-43d8-bb1a-ce17f33fc290</ParentID>
+    <ActorID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCReq>
+    <ParentID>UC-b5f4af75-e93b-4eb9-bfc7-9249faff9073</ParentID>
+    <ReqID>REQ-ee92380e-7a1d-4245-a4b7-cf46df563acd</ReqID>
+  </UCReq>
+  <UCReq>
+    <ParentID>UC-6401f20c-4518-43d8-bb1a-ce17f33fc290</ParentID>
+    <ReqID>REQ-1d751eb5-3e46-4178-a702-f27bedfd8911</ReqID>
+  </UCReq>
+  <Scenario>
+    <UniqueID>MSS-cfbd3484-c906-48c3-b634-717f26322df9</UniqueID>
+    <ParentID>UC-6401f20c-4518-43d8-bb1a-ce17f33fc290</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-e7c21a61-d8a5-4495-af19-656cab7add44</UniqueID>
+    <ParentID>UC-f9ea12e9-e9be-486f-86d3-3cc7ca5ca0d8</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-7ff734f6-27c3-439a-baf6-b70b17c74abd</UniqueID>
+    <ParentID>UC-1e6d86a0-d88b-44f3-bbba-4c92c173c022</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-f8387386-4cb8-435c-9d05-39b4d59eaa48</UniqueID>
+    <ParentID>UC-4d40f608-a651-4783-ab3f-9feb87f6fcf6</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-bb85aeac-aefe-4582-8c05-85b2c52cc993</UniqueID>
+    <ParentID>UC-2ff3834b-3edb-484b-9d30-9c0e8b769820</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-2af864ca-6dc4-47c9-bc21-76bf19d25d25</UniqueID>
+    <ParentID>UC-b5f4af75-e93b-4eb9-bfc7-9249faff9073</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-811293a7-01e4-4922-8841-7632701cad2e</UniqueID>
+    <ParentID>UC-4f1a6dbc-abbc-4fa5-bf7d-19366126b26d</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-09a966aa-5706-409f-8364-21e50a33a1a8</UniqueID>
+    <ParentID>UC-b40ee21f-6b7b-4189-8bcf-c5c2fbe4c83e</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-87855ccf-fc69-430a-a97a-4e2401779c15</UniqueID>
+    <ParentID>UC-3c636b2a-53d8-4373-b27a-b823a9ef2644</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-cb6a8c60-c2a9-47c5-92ad-d1e1ef31c563</UniqueID>
+    <ParentID>UC-17ebc5c4-c9ff-40e3-9fd7-6305f378b3e1</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-e6e8e1d9-87a5-4697-9e54-82fbad0cb0fe</UniqueID>
+    <ParentID>UC-5462c03a-1ff4-4a43-a3d3-ba8e2dd523fa</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-14fece0f-b123-4d69-9870-40d2d1437a11</UniqueID>
+    <ParentID>UC-72160464-47b5-46ec-b3cc-3ca55c387814</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-6668ae98-cef9-4f10-8dee-b88a2be44a8a</UniqueID>
+    <ParentID>UC-05a034a4-610d-4226-aae1-93c2f7ae10f2</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-1d751eb5-3e46-4178-a702-f27bedfd8911</UniqueID>
+    <UserID>REQ-83-1</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Applying Rules to Secondary Insurance</Name>
+    <Description>Auto-replace discipline modifier - the system must follow the rule for Secondary/Tertiary insurance and automatically replace discipline modifier when user creates/rebills a secondary/tertiary charge
+Medical Review required / Authorization Required - the alert is shown for all applicable insurances, but no functional effect.
+All other rules should be ignored by the system, if they apply to secondary or tertiary insurance only.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf1\b\f0\fs20 Auto-replace discipline \cf2 modifier\cf1  \b0 - the system must follow the rule for Secondary/Tertiary insurance and automatically replace discipline \cf2 modifier\cf1  when user creates/rebills a secondary/tertiary charge\par
+\b{\pntext\f1\'B7\tab}Medical Review required \b0 / \b Authorization Required \b0 - the alert is shown for all applicable insurances, but no functional effect.\par
+{\pntext\f1\'B7\tab}All other rules should be ignored by the system, if they apply to secondary or tertiary insurance only.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-07-23T16:05:23.8534091-04:00</DateAdded>
+    <DateModified>2014-07-24T13:15:01.5438732-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-ee92380e-7a1d-4245-a4b7-cf46df563acd</UniqueID>
+    <UserID>REQ-83-2</UserID>
+    <ParentID>P-3a9d7c5f-ab47-4830-8af7-394ca6368dab</ParentID>
+    <Name>Disable 'Insurance-Paid Supplies' by default</Name>
+    <Description>When we introduce the "Insurance Pays for Supples" rule, we should hide the Supplies section from "Insurance-Paid Treatments" by default. It should only appear for plans that have that rule enabled.
+
+Patient-Pay Supplies section must still be displayed all the time (the only restriction may concern the set of available supply codes - see UC-83-6 for details)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 When we introduce the "Insurance Pays for Supples" rule, we should hide the Supplies section from "Insurance-Paid Treatments" by default. It should only appear for plans that have that rule enabled.\par
+\par
+\cf2\ul Patient\cf1\ulnone -Pay Supplies section must still be displayed all the time (the only restriction may concern the set of available supply codes - see \cf2\ul UC-83-6\cf1\ulnone  for details)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-07-24T09:38:30.2540639-04:00</DateAdded>
+    <DateModified>2014-07-24T13:16:52.7505044-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-b200c801-3190-4f6a-9416-b0aa38fecfc3</UniqueID>
+    <ParentID>MSS-cfbd3484-c906-48c3-b634-717f26322df9</ParentID>
+    <Description>User opens insurance plan details and switches to the Plan Rules tab.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens insurance plan details and switches to the Plan Rules tab.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fe21cf69-6fb2-4f28-85e4-7b58db35528a</UniqueID>
+    <ParentID>MSS-cfbd3484-c906-48c3-b634-717f26322df9</ParentID>
+    <Description>The system the rules:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system the rules:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-14aa16a0-2d40-4089-8e99-a60fac1161bd</UniqueID>
+    <ParentID>MSS-cfbd3484-c906-48c3-b634-717f26322df9</ParentID>
+    <Description>All rules are disabled by default.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 All rules are disabled by default.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-076a277c-5da1-4741-a6ba-74516422d9d1</UniqueID>
+    <ParentID>ST-fe21cf69-6fb2-4f28-85e4-7b58db35528a</ParentID>
+    <Description>Bill only evaluation and no treatments on the first visit - UC-83-2</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Bill only \cf1 evaluation\cf0  and no treatments on the first \cf1 visit\cf2  - \cf3\ul UC-83-2\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3c275d6f-372a-4cdf-887a-31cdd80b9eae</UniqueID>
+    <ParentID>ST-fe21cf69-6fb2-4f28-85e4-7b58db35528a</ParentID>
+    <Description>Disallowed Modifiers - UC-83-3</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Disallowed \cf1 Modifiers\cf2  - \cf3\ul UC-83-3\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-06ad48e1-7b71-4f5d-8d59-cb3dae6db95c</UniqueID>
+    <ParentID>ST-fe21cf69-6fb2-4f28-85e4-7b58db35528a</ParentID>
+    <Description>Auto-Add Modifier - UC-83-4</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Auto-Add \cf2 Modifier\cf1  - \cf3\ul UC-83-4\cf1\ulnone\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-549b4898-955b-4f4c-bc27-058265f5a1cc</UniqueID>
+    <ParentID>ST-fe21cf69-6fb2-4f28-85e4-7b58db35528a</ParentID>
+    <Description>Medical Review Is Required - UC-83-5</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Medical Review Is Required - \cf2\ul UC-83-5\cf1\ulnone\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-828429f6-978c-4527-9e5e-8b8f25418d60</UniqueID>
+    <ParentID>ST-fe21cf69-6fb2-4f28-85e4-7b58db35528a</ParentID>
+    <Description>Insurance Pays For Supplies - UC-83-6</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Insurance Pays For Supplies - \cf2\ul UC-83-6\cf1\ulnone\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1128e829-db17-4460-a530-1884d0072133</UniqueID>
+    <ParentID>ST-fe21cf69-6fb2-4f28-85e4-7b58db35528a</ParentID>
+    <Description>Carrier Requires Authorization - UC-83-7</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Carrier\cf2  Requires Authorization - \cf3\ul UC-83-7\cf2\ulnone\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-93f288bd-3c07-451c-85bc-cad1d742b79b</UniqueID>
+    <ParentID>ST-fe21cf69-6fb2-4f28-85e4-7b58db35528a</ParentID>
+    <Description>Limit Billable Units Per DOS - UC-83-8</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Limit Billable Units Per DOS\cf1  - \cf2\ul UC-83-8\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-97de0629-f303-47f4-9be9-423c26d26ffd</UniqueID>
+    <ParentID>ST-fe21cf69-6fb2-4f28-85e4-7b58db35528a</ParentID>
+    <Description>Limit Billable Procedure Per DOS - UC-83-9</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Limit Billable \cf1 Procedure\cf0  Per DOS\cf2  - \cf3\ul UC-83-9\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-359d1fc5-1ac1-47e0-929c-6eee6e99474e</UniqueID>
+    <ParentID>ST-fe21cf69-6fb2-4f28-85e4-7b58db35528a</ParentID>
+    <Description>Disallowed CPTs - UC-83-10</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Disallowed CPTs\cf1  - \cf2\ul UC-83-10\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5555d9fc-7d10-4336-a3cd-dc0d6ecd7a6e</UniqueID>
+    <ParentID>MSS-cfbd3484-c906-48c3-b634-717f26322df9</ParentID>
+    <Description>User can enable any disabled rule or disable any enabled rule (UC-83-13)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User can enable any disabled rule or disable any enabled rule (\cf1\ul UC-83-13\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f1caf13d-67bf-4457-87c6-3dbbe23f6e83</UniqueID>
+    <ParentID>MSS-e7c21a61-d8a5-4495-af19-656cab7add44</ParentID>
+    <Description>User enables the rule.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enables the rule.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9028c93d-833f-40a0-85cb-ca46b7ba1b13</UniqueID>
+    <ParentID>MSS-cfbd3484-c906-48c3-b634-717f26322df9</ParentID>
+    <Description>Changes are only applied when user clicks "Save Changes".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Changes are only applied when user clicks "Save Changes".\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c17ff998-5c3d-46a6-9dd0-5859cb240dcb</UniqueID>
+    <ParentID>MSS-e7c21a61-d8a5-4495-af19-656cab7add44</ParentID>
+    <Description>The system enables the rule and shows description: "An alert will be displayed informing users of the restriction".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system enables the rule and shows description: "An alert will be displayed informing users of the restriction".\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-675dd67e-8029-4ee6-994d-4889c8d7be3d</UniqueID>
+    <ParentID>MSS-e7c21a61-d8a5-4495-af19-656cab7add44</ParentID>
+    <Description>Functional Effect: None.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Functional Effect: \b None\b0 .\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b572f381-d71f-4bd7-ae9d-52986d627e2a</UniqueID>
+    <ParentID>MSS-e7c21a61-d8a5-4495-af19-656cab7add44</ParentID>
+    <Description>The system activates the alert for all active cases that do not have charges for the first visit submitted to billing (applicable to Primary insurance only)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system activates the alert for all active \cf1 cases\cf2  that do not have charges for the first \cf1 visit\cf2  submitted to billing (applicable to Primary insurance only)\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2ce5e876-8995-431d-b42b-0028fa792072</UniqueID>
+    <ParentID>MSS-7ff734f6-27c3-439a-baf6-b70b17c74abd</ParentID>
+    <Description>User enables the rule.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enables the rule.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a3be7710-b94c-415d-a3c7-295e87bb9822</UniqueID>
+    <ParentID>MSS-7ff734f6-27c3-439a-baf6-b70b17c74abd</ParentID>
+    <Description>The system shows enables the rule and displays "Add Rule" link.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system shows enables the rule and displays "Add Rule" link.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2cb7fb66-0642-4a76-85fb-d51f1b9f99dd</UniqueID>
+    <ParentID>MSS-7ff734f6-27c3-439a-baf6-b70b17c74abd</ParentID>
+    <Description>Functional Effect:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Functional Effect:\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-799e83ba-a8a5-4709-8e63-44fa4f008d34</UniqueID>
+    <ParentID>MSS-7ff734f6-27c3-439a-baf6-b70b17c74abd</ParentID>
+    <Description>User clicks 'Add Rule'.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clicks 'Add Rule'.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-54782188-ce9a-400c-b13c-c5f867c7d3eb</UniqueID>
+    <ParentID>MSS-7ff734f6-27c3-439a-baf6-b70b17c74abd</ParentID>
+    <Description>The system displays a dialog with:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system displays a dialog with:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-10262c79-db35-428a-b78c-76f2ebcebd0f</UniqueID>
+    <ParentID>ST-54782188-ce9a-400c-b13c-c5f867c7d3eb</ParentID>
+    <Description>CPT searchable dropdown (user can select code to apply the rule to)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 CPT searchable dropdown (user can select code to apply the rule to)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d76bdab7-b3c6-45ba-a5b0-5564515292fa</UniqueID>
+    <ParentID>ST-54782188-ce9a-400c-b13c-c5f867c7d3eb</ParentID>
+    <Description>"Apply to all" check box - if selected, the system clears and disables CPT dropdown, the rule is applied to all codes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Apply to all" check box - if selected, the system clears and disables CPT dropdown, the rule is applied to all codes.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e5f6a019-94c0-4601-ad46-58a13b8ca3a7</UniqueID>
+    <ParentID>ST-54782188-ce9a-400c-b13c-c5f867c7d3eb</ParentID>
+    <Description>"Disallowed Modifier" dropdown</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Disallowed \cf2 Modifier\cf1 " dropdown\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7f073dbf-845f-4d5f-a463-be13997d0bf4</UniqueID>
+    <ParentID>ST-54782188-ce9a-400c-b13c-c5f867c7d3eb</ParentID>
+    <Description>"Auto-replace with" modifier dropdown - only shown if user selected a discipline modifier in the previous dropdown.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Auto-replace with" \cf2 modifier\cf1  dropdown - only shown if user selected a discipline \cf2 modifier\cf1  in the previous dropdown.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-85b82644-d31b-4680-b443-8c32de12e040</UniqueID>
+    <ParentID>MSS-7ff734f6-27c3-439a-baf6-b70b17c74abd</ParentID>
+    <Description>User enters rule details and saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User enters rule details and saves changes.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e9544553-5e31-4faf-8dcb-45900ae271de</UniqueID>
+    <ParentID>MSS-7ff734f6-27c3-439a-baf6-b70b17c74abd</ParentID>
+    <Description>The system validates the rule and adds it. The system should not allow adding the rule if:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system validates the rule and adds it. The system should not allow adding the rule if:\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b946e2d5-4d34-4fc9-8979-c208376aef1c</UniqueID>
+    <ParentID>ST-e9544553-5e31-4faf-8dcb-45900ae271de</ParentID>
+    <Description>Selected CPT + Disallowed modifier are already used in another rule</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Selected CPT + Disallowed \cf2 modifier\cf1  are already used in another rule\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0b8d3be7-10d6-49e8-a16b-1cbe44994b6c</UniqueID>
+    <ParentID>ST-e9544553-5e31-4faf-8dcb-45900ae271de</ParentID>
+    <Description>Disallowed modifier is the same as "Auto-replace" modifier </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Disallowed \cf2 modifier\cf1  is the same as "Auto-replace" \cf2 modifier\cf1  \par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-336f9b14-7639-4406-8ffc-ba39a47178f6</UniqueID>
+    <ParentID>ST-e9544553-5e31-4faf-8dcb-45900ae271de</ParentID>
+    <Description>"Apply to all" + Disallowed modifier are already used in another rule</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Apply to all" + Disallowed \cf2 modifier\cf1  are already used in another rule\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9cf6e5fa-ccfa-4cd1-90ee-d174034cde11</UniqueID>
+    <ParentID>ST-2cb7fb66-0642-4a76-85fb-d51f1b9f99dd</ParentID>
+    <Description>"Disallowed modifier only" - the system does not display disallowed modifiers for selected CPTs in the DN Review and New Charge screens.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Disallowed \cf2 modifier\cf1  only" - the system does not display disallowed \cf2 modifiers\cf1  for selected CPTs in the DN Review and New Charge screens.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d2a8423e-6298-40a7-881d-266d7e57dcb6</UniqueID>
+    <ParentID>MSS-7ff734f6-27c3-439a-baf6-b70b17c74abd</ParentID>
+    <Description>User can:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User can:\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7023a0aa-b55b-496e-b2f9-658bc0f11d42</UniqueID>
+    <ParentID>ST-d2a8423e-6298-40a7-881d-266d7e57dcb6</ParentID>
+    <Description>Add any number of rules</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Add any number of rules\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-db26de4b-f1b1-49fd-81a7-646bbb0b5ade</UniqueID>
+    <ParentID>ST-d2a8423e-6298-40a7-881d-266d7e57dcb6</ParentID>
+    <Description>Delete any rule</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Delete any rule\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a36e9ad6-05e1-4cbf-a958-027ebf846eac</UniqueID>
+    <ParentID>ST-2cb7fb66-0642-4a76-85fb-d51f1b9f99dd</ParentID>
+    <Description>"Disallowed + auto-replace" - the system automatically replaces discipline modifier when user creates/rebills changes</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 "Disallowed + auto-replace" - the system automatically replaces discipline \cf2 modifier\cf1  when user creates/rebills changes\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-43c815cd-7046-4756-9ed3-ecb1fc407f40</UniqueID>
+    <ParentID>MSS-f8387386-4cb8-435c-9d05-39b4d59eaa48</ParentID>
+    <Description>User enables the rule.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enables the rule.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3553c283-6bbf-4bfc-ad94-54e07ff66eb7</UniqueID>
+    <ParentID>MSS-f8387386-4cb8-435c-9d05-39b4d59eaa48</ParentID>
+    <Description>The system shows enables the rule and displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system shows enables the rule and displays:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ea5df193-9789-4c9e-bd96-5a04785ca7ab</UniqueID>
+    <ParentID>MSS-f8387386-4cb8-435c-9d05-39b4d59eaa48</ParentID>
+    <Description>User selects a modifier.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User selects a \cf1 modifier\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-df018cde-19dd-4602-8682-79ad9a97fd9c</UniqueID>
+    <ParentID>MSS-f8387386-4cb8-435c-9d05-39b4d59eaa48</ParentID>
+    <Description>User can:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User can:\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f6c089c6-d709-4201-bab2-54b8662efac7</UniqueID>
+    <ParentID>ST-df018cde-19dd-4602-8682-79ad9a97fd9c</ParentID>
+    <Description>Add as many modifiers as necessary</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Add as many \cf2 modifiers\cf1  as necessary\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bca6fb98-8876-4ca6-98ba-324ee2f05b8f</UniqueID>
+    <ParentID>MSS-f8387386-4cb8-435c-9d05-39b4d59eaa48</ParentID>
+    <Description>User selects necessary modifiers.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User selects necessary \cf2 modifiers\cf1 .\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6d15a0d0-459e-4b71-9a04-c7fa1f8cffa0</UniqueID>
+    <ParentID>MSS-f8387386-4cb8-435c-9d05-39b4d59eaa48</ParentID>
+    <Description>On "Save Changes", the system validates the rule. The system should not allow saving changes if no modifiers are selected.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 On "Save Changes", the system validates the rule. The system should not allow saving changes if no \cf2 modifiers\cf1  are selected.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5c652cc8-58ad-470a-b279-893e0547c691</UniqueID>
+    <ParentID>MSS-f8387386-4cb8-435c-9d05-39b4d59eaa48</ParentID>
+    <Description>Functional Effect: the system automatically adds selected modifier to all procedures (except for PQRS codes) when user creates/rebills changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Functional Effect:\cf1  the system automatically adds selected \cf2 modifier\cf1  to all \cf2 procedures\cf1  (except for \cf2 PQRS\cf1  codes) when user creates/rebills changes.\cf0\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b76f6017-be99-44ea-801d-261a53a8b5d6</UniqueID>
+    <ParentID>ST-3553c283-6bbf-4bfc-ad94-54e07ff66eb7</ParentID>
+    <Description>'Selected modifiers will be added automatically to all procedure codes, except for PQRS codes:'</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 'Selected \cf1 modifiers\cf0  will be added automatically to all \cf1 procedure\cf0  codes, except for \cf1 PQRS\cf0  codes:'\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7722ca39-0064-4086-8385-5b0cab2607c1</UniqueID>
+    <ParentID>ST-3553c283-6bbf-4bfc-ad94-54e07ff66eb7</ParentID>
+    <Description>Modifier dropdown</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Modifier\cf2  dropdown\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1822ad82-0c02-4625-b79f-5533e2940bd3</UniqueID>
+    <ParentID>MSS-f8387386-4cb8-435c-9d05-39b4d59eaa48</ParentID>
+    <Description>The system shows another empty modifier dropdown</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system shows another empty \cf1 modifier\cf0  dropdown\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2fa8842a-6775-4223-b098-1be7887bd61b</UniqueID>
+    <ParentID>ST-df018cde-19dd-4602-8682-79ad9a97fd9c</ParentID>
+    <Description>Select empty dropdown value, thus removing the modifier</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Select empty dropdown value, thus removing the \cf2 modifier\cf1\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-06cef9ae-ed64-4bcc-9881-0c10d420070f</UniqueID>
+    <ParentID>MSS-f8387386-4cb8-435c-9d05-39b4d59eaa48</ParentID>
+    <Description>The system silently discards repeated modifiers, if applicable.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system silently discards repeated \cf2 modifiers\cf1 , if applicable.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cf350c4e-e5ee-434b-a692-9eddbac1f9af</UniqueID>
+    <ParentID>MSS-bb85aeac-aefe-4582-8c05-85b2c52cc993</ParentID>
+    <Description>User enables the rule.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enables the rule.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a52345fa-6840-423c-a77e-ae2589f90a96</UniqueID>
+    <ParentID>MSS-bb85aeac-aefe-4582-8c05-85b2c52cc993</ParentID>
+    <Description>The system enables the rule and displays: "Insurance requires medical review after &lt;#_field&gt; visits"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system enables the rule and displays: "Insurance requires medical review after &lt;#_field&gt; \cf1 visits\cf2 "\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2dabbc2d-53c9-4940-bdc7-b0ffdfe995ad</UniqueID>
+    <ParentID>MSS-bb85aeac-aefe-4582-8c05-85b2c52cc993</ParentID>
+    <Description>User enters number of visits</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User enters number of \cf1 visits\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0392b302-c4ed-4d14-86bb-4ce306bcedb6</UniqueID>
+    <ParentID>MSS-bb85aeac-aefe-4582-8c05-85b2c52cc993</ParentID>
+    <Description>On "Save Changes", the system validates the rule. The system should not allow saving changes if number is not entered or outside of range 1-99.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 On "Save Changes", the system validates the rule. The system should not allow saving changes if number is not entered or outside of range 1-99.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8d14fcd9-92f4-494e-9130-487addbdb486</UniqueID>
+    <ParentID>MSS-bb85aeac-aefe-4582-8c05-85b2c52cc993</ParentID>
+    <Description>Functional Effect: none.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Functional Effect:\cf1  none.\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-929833f2-5e00-4a26-ad1e-1af54d3f3c46</UniqueID>
+    <ParentID>MSS-bb85aeac-aefe-4582-8c05-85b2c52cc993</ParentID>
+    <Description>The system automatically activates alert for all active cases where number of arrived appointments is Limit-1 (applicable to any insurance type - Pr/Sec/Tert)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system automatically activates alert for all active \cf2 cases\cf1  where number of arrived \cf2 appointments\cf1  is Limit-1 (applicable to any insurance type - Pr/Sec/Tert)\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0bd79428-5ea2-4870-aa45-54111c434f5e</UniqueID>
+    <ParentID>MSS-2af864ca-6dc4-47c9-bc21-76bf19d25d25</ParentID>
+    <Description>User enables the rule.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enables the rule.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-57ea1d76-8381-4d40-8308-17585f4f8838</UniqueID>
+    <ParentID>MSS-2af864ca-6dc4-47c9-bc21-76bf19d25d25</ParentID>
+    <Description>The system enables the rule and displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system enables the rule and displays:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-97e33a5b-0204-4316-80d9-023d4ee48114</UniqueID>
+    <ParentID>ST-57ea1d76-8381-4d40-8308-17585f4f8838</ParentID>
+    <Description>'Insurance pays for..." dropdown:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 'Insurance pays for..." dropdown:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fbb6e93c-fc5f-4c4f-ae4e-3b627caf462e</UniqueID>
+    <ParentID>ST-57ea1d76-8381-4d40-8308-17585f4f8838</ParentID>
+    <Description>'Allow billing patient for supplies' check box (cleared by default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 'Allow billing \cf2\ul patient\cf1\ulnone  for supplies' check box (cleared by default)\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2040b94d-484f-4852-a2b4-1308f7bda930</UniqueID>
+    <ParentID>MSS-2af864ca-6dc4-47c9-bc21-76bf19d25d25</ParentID>
+    <Description>User selects pay mode (all/selected) and codes, if "Selected..." is chosen.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User selects pay \cf1 mode (all/selected) and codes, if "Selected..." is chosen.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-efc55b67-2b99-4905-bcb4-841471f0dd75</UniqueID>
+    <ParentID>MSS-2af864ca-6dc4-47c9-bc21-76bf19d25d25</ParentID>
+    <Description>The system shows another empty modifier dropdown</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system shows another empty \cf1 modifier\cf0  dropdown\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-21901aaa-edba-49d6-b995-f5cbf5d9b42d</UniqueID>
+    <ParentID>MSS-2af864ca-6dc4-47c9-bc21-76bf19d25d25</ParentID>
+    <Description>On "Save Changes", the system validates the rule. The system should not allow saving changes if "Selected..." is chosen + no codes are specified.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 On "Save Changes", the system validates the rule. The system should not allow saving changes if "Selected..." is chosen + no codes are specified.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-edb929eb-a857-4498-8042-334e126443c6</UniqueID>
+    <ParentID>MSS-2af864ca-6dc4-47c9-bc21-76bf19d25d25</ParentID>
+    <Description>Functional Effect:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Functional Effect:\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5a7228cf-04da-422c-80ab-dcb2ae603591</UniqueID>
+    <ParentID>ST-97e33a5b-0204-4316-80d9-023d4ee48114</ParentID>
+    <Description>All Supplies</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 All Supplies\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9a9ff3d7-06e1-4710-aecf-1cf3a477c922</UniqueID>
+    <ParentID>ST-97e33a5b-0204-4316-80d9-023d4ee48114</ParentID>
+    <Description>Selected Supply Codes</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Selected Supply Codes\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-22b2c5ec-5396-487f-8563-044774356acb</UniqueID>
+    <ParentID>ST-57ea1d76-8381-4d40-8308-17585f4f8838</ParentID>
+    <Description>Supply Code searchable dropdown (only displayed if "Selected Supply Codes..." option is selected, contains Supply codes only, new one is added if a code is selected)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Supply Code searchable dropdown (only displayed if "Selected Supply Codes..." option is selected, contains Supply codes only, new one is added if a code is selected)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-593f4ab7-511b-4af7-9698-8177f047cc8c</UniqueID>
+    <ParentID>MSS-2af864ca-6dc4-47c9-bc21-76bf19d25d25</ParentID>
+    <Description>User optionally selects the check box.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User optionally selects the check box.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0b4b5492-58ab-4635-b11d-01747d82bb10</UniqueID>
+    <ParentID>ST-edb929eb-a857-4498-8042-334e126443c6</ParentID>
+    <Description>The system adds the Supplies section to Insurance-Paid procedures.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system adds the Supplies section to Insurance-Paid \cf2 procedures\cf1 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0762e509-c337-49f6-9f5d-8ce1b7371ec8</UniqueID>
+    <ParentID>ST-edb929eb-a857-4498-8042-334e126443c6</ParentID>
+    <Description>Content of the Supply dropdown on DN depends on the rule scope (All / Selected) supply codes)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Content of the Supply dropdown on DN depends on the rule scope (All / Selected) supply codes)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7d52aab2-3cbb-4445-8f7d-29fd8ba8cd61</UniqueID>
+    <ParentID>ST-edb929eb-a857-4498-8042-334e126443c6</ParentID>
+    <Description>Patient-Pay Supplies section is shown in any case. However, if user selected "Selected Supply Codes" option, specified codes must be hidden from the dropdown in the patient-pay section.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\cf2\ulnone -Pay Supplies section is shown in any \cf3 case\cf2 . However, if user selected "Selected Supply Codes" option, specified codes must be hidden from the dropdown in the \cf1\ul patient\cf2\ulnone -pay section.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-261bda46-e06d-41ce-915b-3800ba6b81c8</UniqueID>
+    <ParentID>MSS-811293a7-01e4-4922-8841-7632701cad2e</ParentID>
+    <Description>User enables the rule.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enables the rule.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0158bedd-8ffc-4766-a6b3-e0ffdec3746c</UniqueID>
+    <ParentID>MSS-811293a7-01e4-4922-8841-7632701cad2e</ParentID>
+    <Description>The system enables the rule and displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system enables the rule and displays:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7477c561-c75c-497a-b249-96651218c7cd</UniqueID>
+    <ParentID>ST-0158bedd-8ffc-4766-a6b3-e0ffdec3746c</ParentID>
+    <Description>'Authorization Required" dropdown:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 'Authorization Required" dropdown:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7af91108-f700-49ea-b626-466072cda9b3</UniqueID>
+    <ParentID>ST-7477c561-c75c-497a-b249-96651218c7cd</ParentID>
+    <Description>Before Evaluation/Re-Evaluation (default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Before \cf1 Evaluation\cf2 /Re-Evaluation (default)\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-55f1acae-c6e6-482d-91a0-c2d27d34d70d</UniqueID>
+    <ParentID>ST-7477c561-c75c-497a-b249-96651218c7cd</ParentID>
+    <Description>After Evaluation, but before next  visit</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 After \cf1 Evaluation\cf2 , but before next  \cf1 visit\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3b625295-0877-428a-8121-8f600d3f7f03</UniqueID>
+    <ParentID>MSS-811293a7-01e4-4922-8841-7632701cad2e</ParentID>
+    <Description>User selects authorization type and saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User selects authorization type\cf1  and saves changes.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-98b7ce11-4237-48b9-86b8-0a5072adb667</UniqueID>
+    <ParentID>MSS-811293a7-01e4-4922-8841-7632701cad2e</ParentID>
+    <Description>Functional Effect: None.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Functional Effect: \b None\b0 .\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-78e02009-a1fa-4b83-a07d-f4c8456a7d85</UniqueID>
+    <ParentID>MSS-811293a7-01e4-4922-8841-7632701cad2e</ParentID>
+    <Description>The system automatically activates the alert for all active cases that do not have authorization information entered (applicable to any insurance type - Pr/Sec/Tert).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system automatically activates the alert for all active \cf2 cases\cf1  that do not have authorization information entered (applicable to any insurance type - Pr/Sec/Tert).\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ceb22598-5f61-4fdc-ad08-d637a399d02b</UniqueID>
+    <ParentID>MSS-09a966aa-5706-409f-8364-21e50a33a1a8</ParentID>
+    <Description>User enables the rule.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enables the rule.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-63ce0eb1-a883-4f67-8159-3af2a76f5978</UniqueID>
+    <ParentID>MSS-09a966aa-5706-409f-8364-21e50a33a1a8</ParentID>
+    <Description>The system enables the rule and displays: "Insurance limit for units billed on one DOS: &lt;#_field&gt;"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system enables the rule and displays: "Insurance limit for units billed on one DOS: &lt;#_field&gt;\cf1 "\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-08cb3598-4756-47c5-aa1f-4aec204dca0d</UniqueID>
+    <ParentID>MSS-09a966aa-5706-409f-8364-21e50a33a1a8</ParentID>
+    <Description>User enters number of units</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User enters number of \cf1 units\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a4337cc2-02b2-4691-8a4d-20741277d217</UniqueID>
+    <ParentID>MSS-09a966aa-5706-409f-8364-21e50a33a1a8</ParentID>
+    <Description>On "Save Changes", the system validates the rule. The system should not allow saving changes if number is not entered or outside of range 1-99.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 On "Save Changes", the system validates the rule. The system should not allow saving changes if number is not entered or outside of range 1-99.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-181e2cb3-38eb-413a-9147-e4c405ed3c3e</UniqueID>
+    <ParentID>MSS-09a966aa-5706-409f-8364-21e50a33a1a8</ParentID>
+    <Description>The system automatically activates alert for all active cases (applicable to Primary insurance only)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system automatically activates alert for all active cases (applicable to Primary insurance only)\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d9986ac4-f54f-42c2-85d6-8d739728b24b</UniqueID>
+    <ParentID>MSS-09a966aa-5706-409f-8364-21e50a33a1a8</ParentID>
+    <Description>Functional Effect: If user submits more units than allowed, the system must re-order treatments to put treatments with highest reimbursement rate on top.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Functional Effect:\cf1  If user submits more units than allowed, the system must re-order treatments to put treatments with highest reimbursement rate on top.\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-35fc8729-175f-4ba0-9e35-872d73fc91e4</UniqueID>
+    <ParentID>MSS-87855ccf-fc69-430a-a97a-4e2401779c15</ParentID>
+    <Description>User enables the rule.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enables the rule.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7df1fe21-5d40-4026-aa82-572b425caf5f</UniqueID>
+    <ParentID>MSS-87855ccf-fc69-430a-a97a-4e2401779c15</ParentID>
+    <Description>The system enables the rule and displays: "Insurance limit for procedures billed on one DOS: &lt;#_field&gt;"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system enables the rule and displays: "Insurance limit for \cf1 procedures\cf0  billed on one DOS: &lt;#_field&gt;\cf2 "\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a9428716-342d-47a4-a32c-1896f5bccf86</UniqueID>
+    <ParentID>MSS-87855ccf-fc69-430a-a97a-4e2401779c15</ParentID>
+    <Description>User enters number of procedures </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User enters number of \cf1 procedures\cf2  \cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fb7022df-8557-4c84-815e-84287ae0f00b</UniqueID>
+    <ParentID>MSS-87855ccf-fc69-430a-a97a-4e2401779c15</ParentID>
+    <Description>On "Save Changes", the system validates the rule. The system should not allow saving changes if number is not entered or outside of range 1-99.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 On "Save Changes", the system validates the rule. The system should not allow saving changes if number is not entered or outside of range 1-99.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9aeea564-3100-42fa-ad08-9f8508d374a1</UniqueID>
+    <ParentID>MSS-87855ccf-fc69-430a-a97a-4e2401779c15</ParentID>
+    <Description>The system automatically activates alert for all active cases (applicable to Primary insurance only)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system automatically activates alert for all active cases (applicable to Primary insurance only)\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-04d421b2-a46d-4c72-95a5-866aec6bc89a</UniqueID>
+    <ParentID>MSS-87855ccf-fc69-430a-a97a-4e2401779c15</ParentID>
+    <Description>Functional Effect: If user submits more procedures than allowed, the system must re-order treatments to put treatments with highest reimbursement rate on top.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Functional Effect:\cf1  If user submits more \cf2 procedures\cf0  \cf1 than allowed, the system must re-order treatments to put treatments with highest reimbursement rate on top.\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c25e897c-9052-42d7-96c7-91a9dfbf1a9a</UniqueID>
+    <ParentID>MSS-cb6a8c60-c2a9-47c5-92ad-d1e1ef31c563</ParentID>
+    <Description>User enables the rule.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enables the rule.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-73226c7e-0c74-4a27-97f4-821c2a430a26</UniqueID>
+    <ParentID>MSS-cb6a8c60-c2a9-47c5-92ad-d1e1ef31c563</ParentID>
+    <Description>The system shows enables the rule and displays empty CPT searchable dropdown.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system shows enables the rule and displays empty CPT searchable dropdown.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-52019ca1-881e-43ce-b59f-dfc7c6a5fea8</UniqueID>
+    <ParentID>MSS-cb6a8c60-c2a9-47c5-92ad-d1e1ef31c563</ParentID>
+    <Description>User selects CPT.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects CPT.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3e382195-c164-4d53-bbcd-1d0a1130425d</UniqueID>
+    <ParentID>MSS-cb6a8c60-c2a9-47c5-92ad-d1e1ef31c563</ParentID>
+    <Description>User enters more CPTs, if necessary, and saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User enters more CPTs, if necessary, and saves changes.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-34ed2d7e-6692-46bb-8e84-8a883d4e6547</UniqueID>
+    <ParentID>MSS-cb6a8c60-c2a9-47c5-92ad-d1e1ef31c563</ParentID>
+    <Description>The system validates the rule and adds it. The system should not allow adding the rule if no CPTs are selected.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system validates the rule and adds it. The system should not allow adding the rule if no CPTs are selected.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-68aabfe9-b675-484b-a609-0aa8e31ac836</UniqueID>
+    <ParentID>MSS-cb6a8c60-c2a9-47c5-92ad-d1e1ef31c563</ParentID>
+    <Description>Functional Effect: the system hides selected CPTs from the Treatment dropdown in POC, DN &amp; PN (applicable to Primary insurance only)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Functional Effect: the system hides selected CPTs from the Treatment dropdown in POC, DN &amp; PN (applicable to Primary insurance only)\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-48351f12-7aab-4636-bfe1-6fe1ff558bb9</UniqueID>
+    <ParentID>MSS-cb6a8c60-c2a9-47c5-92ad-d1e1ef31c563</ParentID>
+    <Description>The system shows new empty CTP dropdown and adds "Remove" control to the dropdown with selected CPT. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system shows new empty CTP dropdown and adds "Remove" control to the dropdown with selected CPT. \par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8ce1cb28-59cc-47d8-916b-81cee50efc29</UniqueID>
+    <ParentID>MSS-cb6a8c60-c2a9-47c5-92ad-d1e1ef31c563</ParentID>
+    <Description>The system silently discards duplicate CPTs.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system silently discards duplicate CPTs.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b753d88e-9904-4da1-8aeb-b12c74094837</UniqueID>
+    <ParentID>MSS-e6e8e1d9-87a5-4697-9e54-82fbad0cb0fe</ParentID>
+    <Description>User opens carrier details.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 carrier\cf2  details.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dfc700a6-86bd-49b7-b415-1f417175f854</UniqueID>
+    <ParentID>MSS-e6e8e1d9-87a5-4697-9e54-82fbad0cb0fe</ParentID>
+    <Description>User enters filing deadline (# of days) and saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enters filing deadline (# of days) and saves changes.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0db7e161-1db7-442d-87c4-4850d33d06bf</UniqueID>
+    <ParentID>MSS-e6e8e1d9-87a5-4697-9e54-82fbad0cb0fe</ParentID>
+    <Description>The system saves carrier details along with filing deadline info.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system saves \cf1 carrier\cf2  details along with filing deadline info.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d251aac4-1432-417f-98a9-c5396ea52d7f</UniqueID>
+    <ParentID>MSS-e6e8e1d9-87a5-4697-9e54-82fbad0cb0fe</ParentID>
+    <Description>UI effect: None</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 UI effect: \b None\b0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-92bbfb4f-a0df-42f1-8515-3e11b7bf1d26</UniqueID>
+    <ParentID>MSS-e6e8e1d9-87a5-4697-9e54-82fbad0cb0fe</ParentID>
+    <Description>Functional Effect: None</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Functional Effect: \b None\b0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-543a5cd9-bd2c-440f-b719-904bb5b5b257</UniqueID>
+    <ParentID>MSS-14fece0f-b123-4d69-9870-40d2d1437a11</ParentID>
+    <Description>User opens Plan details.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens \cf1 Plan details.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d76ecf91-1b95-448f-8d1a-3bb97ee0dabf</UniqueID>
+    <ParentID>MSS-14fece0f-b123-4d69-9870-40d2d1437a11</ParentID>
+    <Description>User clears the check box</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clears the check box\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-af522193-02fd-45a9-aa93-adbd6ff7f02d</UniqueID>
+    <ParentID>MSS-14fece0f-b123-4d69-9870-40d2d1437a11</ParentID>
+    <Description>The system saves plan details along with per-diem amount info.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system saves \cf1 plan details along with per-diem amount info.\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-885718a2-e641-4dba-aad9-0cc08299a908</UniqueID>
+    <ParentID>MSS-14fece0f-b123-4d69-9870-40d2d1437a11</ParentID>
+    <Description>Functional Effect: None</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Functional Effect: \b None\b0\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-39d916c0-8a84-4daa-b807-628b97e56400</UniqueID>
+    <ParentID>MSS-14fece0f-b123-4d69-9870-40d2d1437a11</ParentID>
+    <Description>By default, the system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 By default, the system displays:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-acc3860f-5db8-4b28-b743-8091067316c6</UniqueID>
+    <ParentID>ST-39d916c0-8a84-4daa-b807-628b97e56400</ParentID>
+    <Description>Empty and disabled Per-Diem Amount text field</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Empty and disabled Per-Diem Amount text field\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4841fc8c-25b1-4f4c-9570-b1707a7d420a</UniqueID>
+    <ParentID>ST-39d916c0-8a84-4daa-b807-628b97e56400</ParentID>
+    <Description>Selected "N/A" check box</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Selected "N/A" check box\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-02d2fa0c-a01a-487f-a284-36147e6bdcff</UniqueID>
+    <ParentID>MSS-14fece0f-b123-4d69-9870-40d2d1437a11</ParentID>
+    <Description>The system enables the text field.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system enables the text field.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bef0ce26-a96a-4391-b915-38cf00ea7502</UniqueID>
+    <ParentID>MSS-14fece0f-b123-4d69-9870-40d2d1437a11</ParentID>
+    <Description>User enters per-diem amount ($ amount) and saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enters per-diem amount ($ amount) and saves changes.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-14ff2fc7-0971-4140-9002-38b5345c5eb0</UniqueID>
+    <ParentID>MSS-14fece0f-b123-4d69-9870-40d2d1437a11</ParentID>
+    <Description>The system automatically adds the alert to all active cases (Primary insurance only)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system automatically adds the alert to all active \cf2 cases\cf1  (Primary insurance only)\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6af0c64a-149f-4472-90cd-cc28ba760582</UniqueID>
+    <ParentID>MSS-14fece0f-b123-4d69-9870-40d2d1437a11</ParentID>
+    <Description>The system validates the field (it cannot be empty, if N/A check box is cleared) </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system validates the field (it cannot be empty, if N/A check box is cleared) \par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a65e11fd-9289-4a7b-b700-3c0733380041</UniqueID>
+    <ParentID>MSS-6668ae98-cef9-4f10-8dee-b88a2be44a8a</ParentID>
+    <Description>User opens Plan Rules.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens Plan Rules.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-af1bfc35-fc85-4e68-808b-2684e01d5530</UniqueID>
+    <ParentID>MSS-6668ae98-cef9-4f10-8dee-b88a2be44a8a</ParentID>
+    <Description>User disables a rule.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User disables a rule.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8cf96219-bb71-4bf1-8446-bbbd6400f855</UniqueID>
+    <ParentID>MSS-6668ae98-cef9-4f10-8dee-b88a2be44a8a</ParentID>
+    <Description>The system saves changes and removes related alert from all cases.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system saves changes and removes related alert from all \cf1 cases\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6262a384-ac7c-4f5e-a364-65b20202aa53</UniqueID>
+    <ParentID>MSS-6668ae98-cef9-4f10-8dee-b88a2be44a8a</ParentID>
+    <Description>The system requests confirmation (Are you sure you want to disable this rule?)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system requests confirmation (Are you sure you want to disable this rule?)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2e0ec1b7-6125-484e-9d46-b975e0e458fe</UniqueID>
+    <ParentID>MSS-6668ae98-cef9-4f10-8dee-b88a2be44a8a</ParentID>
+    <Description>User confirms and saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms and saves changes.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <ExternalDoc>
+    <UniqueID>EX-1337b1b9-b343-4764-887a-ddc9cbd595f2</UniqueID>
+    <ParentID>UC-6401f20c-4518-43d8-bb1a-ce17f33fc290</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance_plans</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-771c533c-680a-4d62-9470-19b78f58714c</UniqueID>
+    <ParentID>UC-5462c03a-1ff4-4a43-a3d3-ba8e2dd523fa</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance_carriers</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-741f5c17-2e38-4175-a812-665064324792</UniqueID>
+    <ParentID>UC-72160464-47b5-46ec-b3cc-3ca55c387814</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance_plans</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-83-</DefaultPrefix>
+    <NextValue>14</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-83-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-83-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-83-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

@@ -1,0 +1,473 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>7.2.4769</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</UniqueID>
+    <ExternalParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ExternalParentID>
+    <Name>Accounts Receivables</Name>
+    <Description>This documents contains high-level requirements to updated version of AgilePM financial module.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 This documents contains high-level requirements to updated version of AgilePM \cf1 financial module.\cf0\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>-1</Sequence>
+  </Package>
+  <ElementStub>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Path>Transaction History.ucp</Path>
+    <ElementID>P-e9810057-f725-4b93-869a-2e31d0a1fbb4</ElementID>
+    <Sequence>3</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Path>Corrections &amp; Refunds.ucp</Path>
+    <ElementID>P-94506b05-3341-404e-b903-5d4d576877c5</ElementID>
+    <Sequence>2</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Path>Electroniv Remittance Advice.ucp</Path>
+    <ElementID>P-28a06818-e3b9-4f89-a4c5-15eff9795221</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Path>Manual Payment Posting.ucp</Path>
+    <ElementID>P-13de5683-4042-478c-80a0-a9a1e7aa3373</ElementID>
+    <Sequence>1</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Path>Manage CARCs and RARCs.ucp</Path>
+    <ElementID>P-9bfc6521-e6a6-423b-b107-c38a8b441b69</ElementID>
+    <Sequence>4</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Path>Void &amp; Rebill.ucp</Path>
+    <ElementID>P-e367f6d6-1d1b-41a1-9940-3e50ef047b1b</ElementID>
+    <Sequence>5</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Path>Charge Batching.ucp</Path>
+    <ElementID>P-c1999905-2609-4fb1-a3b9-2aee33e550f4</ElementID>
+    <Sequence>6</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Path>_RCD Dictionary.ucp</Path>
+    <ElementID>P-ac2b9c3f-5351-4778-a4e0-182333d0cbe8</ElementID>
+    <Sequence>7</Sequence>
+  </ElementStub>
+  <Note>
+    <UniqueID>N-ad749fb4-a9b7-44f9-92a8-0d6d4e28f305</UniqueID>
+    <ParentID>REQ-7f8feee0-2ca6-4eb9-a9e3-0133687e4de7</ParentID>
+    <Description>Please note that this requirement has changed "Benefits Have Been Exceeded" was previously "...met". And we added "Non-Covered Diagnosis"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs20 Please note that this requirement has changed \b0 "Benefits Have Been Exceeded" was previously "...met". And we added "Non-Covered \cf2 Diagnosis\cf1 "\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <DateAdded>2014-07-02T16:31:47.3281497-04:00</DateAdded>
+  </Note>
+  <Requirement>
+    <UniqueID>REQ-87b9f84f-eedb-4f5c-a26b-fe89b570b8f3</UniqueID>
+    <UserID>REQ-59-11</UserID>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Name>Discount Setting in Company Details</Name>
+    <Description>In UC-29-8 / UC-29-9, users can apply a discount to self-pay procedures. At this moment, discount is a flat 20%.
+
+However, we may need to change that setting. In Company details on the Admin side there should be a setting that allows to define discount amount.
+
+Label: Self-Pay Discount  
+Controls: 
+1. Text field to enter numbers
+2. Dropdown to select discount type (% and $, percentage is default)
+
+For this release, we might want to automatically set text field value to 20 and dropdown to % for all companies.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In \cf2\ul UC-29-8\cf1\ulnone  / \cf2\ul UC-29-9\cf1\ulnone , users can apply a discount to self-pay \cf3 procedures\cf1 . At this moment, discount is a flat 20%.\par
+\par
+However, we may need to change that setting. In Company details on the Admin side there should be a setting that allows to define \cf3 discount amount\cf1 .\par
+\par
+Label: Self-Pay Discount  \par
+Controls: \par
+1. Text field to enter numbers\par
+2. Dropdown to select discount type (% and $, percentage is default)\par
+\par
+For this release, we might want to automatically set text field value to 20 and dropdown to % for all companies.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-26T10:06:16.6832643-04:00</DateAdded>
+    <DateModified>2014-06-24T18:14:56.3090882-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-7bbe27a2-5dec-4d1d-89a1-8a24400aa267</UniqueID>
+    <UserID>REQ-59-16</UserID>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Name>Responsibility Buckets</Name>
+    <Description>The system must correctly process responsibility buckets. When the initial charge is created, money is moved to Primary Insurance responsibility bucket (Patient bucket for self-pay).
+
+When user transfers balance to an entity, the system moves amount into selected entity's responsibility bucket.
+
+If user transfers balance to N/A, amount must stay within current bucket.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system must correctly process responsibility buckets. When the initial charge is created, money is moved to Primary Insurance responsibility bucket (\cf2\ul Patient\cf1\ulnone  bucket for self-pay).\par
+\par
+When user transfers balance to an entity, the system moves amount into selected entity's responsibility bucket.\par
+\par
+If user transfers balance to N/A, amount must stay within current bucket.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-28T05:36:00.2402137-04:00</DateAdded>
+    <DateModified>2014-06-24T18:14:32.8795692-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a053048b-91f6-4cbe-9b9b-cd8ccde4e137</UniqueID>
+    <UserID>REQ-59-12</UserID>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Name>Include Patient Transfer Details in Statements &amp; Fin Summary</Name>
+    <Description>When balance is being transferred to the patient, poster must specify details of this transfer:
+Co-Pay
+Coinsurance
+Deductible
+Other + Reason
+
+This information (specific amounts in respective fields) must be included in Case Statements and Financial Summary.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 When balance is being transferred to the \cf2\ul patient\cf1\ulnone , poster must specify details of this transfer:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf3 Co-Pay\cf1\par
+\cf3{\pntext\f1\'B7\tab}Coinsurance\cf1\par
+\cf3{\pntext\f1\'B7\tab}Deductible\cf1\par
+{\pntext\f1\'B7\tab}Other + Reason\par
+\pard\par
+This information (specific amounts in respective fields) must be included in \cf3 Case\cf1  Statements and Financial Summary.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-27T04:05:18.5169436-04:00</DateAdded>
+    <DateModified>2014-07-02T16:26:57.3329895-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-7f8feee0-2ca6-4eb9-a9e3-0133687e4de7</UniqueID>
+    <UserID>REQ-59-3</UserID>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Name>Simple Patient Transfer "Other" Reasons</Name>
+    <Description>This is the list of reasons for the Other amounts transferred to patient.
+
+Annual Max
+Authorization
+Master Medical
+Member Eligibility
+Non-Covered Procedure
+Non-Covered Diagnosis
+Pre-Certification
+Maximum Benefit 
+Additional Info Requested
+Work-Related
+Accident Info Not Received
+Other Insurance Info
+Primary Approved Used
+Benefits Have Been Exceeded
+Insurance Paid Patient
+N/A</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 This is the list of reasons for the Other amounts transferred to \cf2\ul patient\cf1\ulnone .\par
+\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Annual Max\par
+{\pntext\f1\'B7\tab}Authorization\par
+{\pntext\f1\'B7\tab}Master Medical\par
+{\pntext\f1\'B7\tab}Member Eligibility\par
+{\pntext\f1\'B7\tab}Non-Covered \cf3 Procedure\cf1\par
+{\pntext\f1\'B7\tab}Non-Covered \cf3 Diagnosis\cf1\par
+{\pntext\f1\'B7\tab}Pre-Certification\par
+{\pntext\f1\'B7\tab}Maximum Benefit \par
+{\pntext\f1\'B7\tab}Additional Info Requested\par
+{\pntext\f1\'B7\tab}Work-Related\par
+{\pntext\f1\'B7\tab}Accident Info Not Received\par
+{\pntext\f1\'B7\tab}Other Insurance Info\par
+{\pntext\f1\'B7\tab}Primary Approved Used\par
+{\pntext\f1\'B7\tab}Benefits Have Been Exceeded\par
+{\pntext\f1\'B7\tab}Insurance Paid \cf2\ul Patient\cf1\ulnone\par
+{\pntext\f1\'B7\tab}N/A\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-23T03:04:50.5184257-04:00</DateAdded>
+    <DateModified>2014-07-02T16:32:12.5668463-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-fc87ec1c-f19a-41ef-84fd-2ca688ed3b40</UniqueID>
+    <UserID>REQ-59-2</UserID>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Name>Simple Adjustment Reasons</Name>
+    <Description>This is the list of adjustment reasons used in the system:
+
+Contractual
+Bad Debt
+Charity Care
+Beyond Filing Limits
+No Authorization
+Bankruptcy
+Small Balance
+Credentialing
+Insurance 
+Deceased
+Point of Service
+Non-Covered Procedure
+Non-Covered Diagnosis
+Customer Satisfaction
+No ABN/Waiver
+Collection Agency - Americollect
+Collection Agency - MRN
+Collection Agency - Allied</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 This is the list of \cf2 adjustment\cf1  reasons used in the system:\par
+\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Contractual\par
+{\pntext\f1\'B7\tab}Bad Debt\par
+{\pntext\f1\'B7\tab}Charity Care\par
+{\pntext\f1\'B7\tab}Beyond Filing Limits\par
+{\pntext\f1\'B7\tab}No Authorization\par
+{\pntext\f1\'B7\tab}Bankruptcy\par
+{\pntext\f1\'B7\tab}Small Balance\par
+{\pntext\f1\'B7\tab}Credentialing\par
+{\pntext\f1\'B7\tab}Insurance \par
+{\pntext\f1\'B7\tab}Deceased\par
+{\pntext\f1\'B7\tab}Point of Service\par
+{\pntext\f1\'B7\tab}Non-Covered \cf2 Procedure\cf1\par
+{\pntext\f1\'B7\tab}Non-Covered \cf2 Diagnosis\cf1\par
+{\pntext\f1\'B7\tab}Customer Satisfaction\par
+{\pntext\f1\'B7\tab}No ABN/Waiver\par
+{\pntext\f1\'B7\tab}Collection Agency - Americollect\par
+{\pntext\f1\'B7\tab}Collection Agency - \cf2 MRN\cf1\par
+{\pntext\f1\'B7\tab}Collection Agency - Allied\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-23T03:00:15.2344267-04:00</DateAdded>
+    <DateModified>2014-07-02T16:30:14.8433064-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f39c9836-d213-4e4b-9829-dcc40712710d</UniqueID>
+    <UserID>REQ-9-5</UserID>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Name>Detailed Adjustment Reasons</Name>
+    <Description>Detailed adjustment reasons must be presented in a searchable dropdown. The system should use CARC list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Detailed \cf2 adjustment\cf1  reasons must be presented in a searchable dropdown. The system should use CARC list.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-24T18:36:17.5719017-04:00</DateAdded>
+    <DateModified>2014-06-25T13:20:58.5243733-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-26761dac-5368-4df6-a056-f496a4cbe463</UniqueID>
+    <UserID>REQ-9-6</UserID>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Name>Detailed Patient Transfer "Other" Reasons</Name>
+    <Description>Detailed Patient Transfer "Other" reasons must be presented in a searchable dropdown. The system should use CARC list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Detailed \cf2\ul Patient\cf0\ulnone  Transfer "Other" \cf1 reasons must be presented in a searchable dropdown. The system should use CARC list.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-24T18:36:45.2127981-04:00</DateAdded>
+    <DateModified>2014-06-25T13:21:00.8486094-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0227c93c-6beb-4177-8928-c7ab040a3c21</UniqueID>
+    <UserID>REQ-9-7</UserID>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Name>Add {Detailed} option for adjustments and other pt transfer</Name>
+    <Description>We need to add a special option to simple views of:
+Adjustment Reasons dropdown
+"Other" Patient Transfer Reasons dropdown
+
+The special option should be called {Detailed Adjustment} / {Detailed Reason}. The "{ }" are just a suggestion. The requirement here is making sure they do not merge visually with other options. These options should on top of respective lists. 
+They are used to switch to detailed view.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 We need to add a special option to simple views of:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf2 Adjustment\cf1  Reasons dropdown\par
+{\pntext\f1\'B7\tab}"Other" \cf3\ul Patient\cf1\ulnone  Transfer Reasons dropdown\par
+\pard\par
+The special option should be called \{Detailed Adjustment\} / \{Detailed Reason\}. The "\{ \}" are just a suggestion. The requirement here is making sure they do not merge visually with other options. These options should on top of respective lists. \par
+They are used to switch to detailed view.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-25T10:04:17.5634961-04:00</DateAdded>
+    <DateModified>2014-07-02T16:25:45.4577467-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d8151508-41b7-4399-84d2-77a92887f849</UniqueID>
+    <UserID>REQ-9-8</UserID>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Name>Multiple Adjustments</Name>
+    <Description>The system should allow posting multiple detailed adjustments in ERA and Manual payment posting.
+
+Multiple adjustments are not available in corrections and in the case-level transaction history.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system should allow posting multiple detailed \cf2 adjustments\cf1  in ERA and Manual payment posting.\par
+\par
+Multiple \cf2 adjustments\cf1  are not available in corrections and in the \cf2 case\cf1 -level transaction history.\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-25T13:28:02.0895701-04:00</DateAdded>
+    <DateModified>2014-06-25T13:29:20.9098099-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d46f4444-8e1e-4f0e-998a-a6fa04b6465c</UniqueID>
+    <UserID>REQ-9-9</UserID>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Name>Send All Adjustments in Secondary/Tertiary Claims</Name>
+    <Description>When the system creates a secondary/tertiary claims for a line item that has detailed adjustments (including "PR" adjustments), the system must include all those adjustments in the claim.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 When the system creates a secondary/tertiary claims for a \cf2 line item\cf1  that has detailed \cf2 adjustments\cf1  (including "PR" adjustments), the system must include all those \cf2 adjustments\cf1  in the claim.\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-06-25T17:03:58.3625134-04:00</DateAdded>
+    <DateModified>2014-06-26T16:18:23.7306988-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-8b407ba7-3f38-4d01-9664-0aea7e0976c7</UniqueID>
+    <UserID>REQ-9-10</UserID>
+    <ParentID>P-0d7f34e5-d2f6-4359-a2aa-88ed626b1e0d</ParentID>
+    <Name>Add a permission for closing out-of-balance ERA batches</Name>
+    <Description>Add a special permission called "Can close out-of-balance ERA batches".
+
+If the permission is enabled, user has the ability to close an out of balance ERA batch.
+
+By default, this permission should only be available to Admins.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Add a special permission called "Can close out-of-balance ERA batches".\par
+\par
+If the permission is enabled, user has the ability to close an out of balance ERA batch.\par
+\par
+By default, this permission should only be available to Admins.\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-07-03T10:29:47.4700384-04:00</DateAdded>
+    <DateModified>2014-07-03T11:27:20.9288636-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <UserID>
+    <DefaultPrefix>UC-9-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-9-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-9-</DefaultPrefix>
+    <NextValue>11</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-9-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

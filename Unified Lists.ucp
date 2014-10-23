@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.4959</SavedWith>
+    <CreatedWith>8.0.4959</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-20fc0d7f-d2fa-4911-a150-ea160dec2a38</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-20fc0d7f-d2fa-4911-a150-ea160dec2a38</UniqueID>
+    <ExternalParentID>P-51af090f-6d01-4cf8-a662-0b7d804bde23</ExternalParentID>
+    <Name>Unified Lists</Name>
+    <Description>Several lists within the AgileRPM system are lists that are considered uniform or standard either for legal reasons or because there is a finite list of options. Currently these lists are duplicated and independently managed for each company within AgileRPM. 
+
+This is creating a lot of overhead in management and causing issues. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Several lists within the AgileRPM system are lists that are considered uniform or standard either for legal reasons or because there is a \cf1 finite list of options. Currently these lists are duplicated and independently managed for each company within AgileRPM. \par
+\par
+This is creating a lot of overhead in management and causing issues. \cf0\par
+}
+</RichDescription>
+    <Sequence>-1</Sequence>
+  </Package>
+  <ExternalDoc>
+    <UniqueID>EX-7776eb81-c809-4679-807c-1ddd8bc5d17f</UniqueID>
+    <ParentID>P-20fc0d7f-d2fa-4911-a150-ea160dec2a38</ParentID>
+    <Name>http://share.axure.com/RZ5OWZ/?Page=Unified_Lists</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-64-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-64-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-64-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-64-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

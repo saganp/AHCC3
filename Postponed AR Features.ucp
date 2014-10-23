@@ -1,0 +1,418 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.4927</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-4aaac049-b435-477f-90c5-f0a2469598ba</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-4aaac049-b435-477f-90c5-f0a2469598ba</UniqueID>
+    <ExternalParentID>P-989506d6-3d54-45fd-9664-ba4ee321f712</ExternalParentID>
+    <Name>Postponed AR Features</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-f9fbd3c5-a008-468a-9955-16f711ee9090</UniqueID>
+    <UserID>UC-58-1</UserID>
+    <ParentID>P-4aaac049-b435-477f-90c5-f0a2469598ba</ParentID>
+    <Name>Encounter-level patient deposit</Name>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2013-09-22T06:44:35.0097409-04:00</DateAdded>
+    <DateModified>2013-09-22T06:44:53.1512616-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-0aa32e9a-b79e-4e4f-a1fd-700f685d44cf</UniqueID>
+    <UserID>UC-58-2</UserID>
+    <ParentID>P-4aaac049-b435-477f-90c5-f0a2469598ba</ParentID>
+    <Name>Update Insurance Info</Name>
+    <Description>Poster updated insurance information directly from payment posting screen</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Poster updated insurance information directly from payment posting screen\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-09-22T06:45:04.4916619-04:00</DateAdded>
+    <DateModified>2013-09-22T06:45:41.4298571-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-498ae231-477b-4d5a-83fd-9119cc92f1e3</UniqueID>
+    <UserID>UC-58-3</UserID>
+    <ParentID>P-4aaac049-b435-477f-90c5-f0a2469598ba</ParentID>
+    <Name>Avoid duplicate secondary charges</Name>
+    <Description>Secondary claims can be duplicated: auto-created in Epremis, then manually in AgilePM.
+there's no solution at the moment</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Secondary claims can be duplicated: auto-created in \cf1 Epremis\cf2 , then manually in AgilePM.\par
+there's no solution at the moment\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-09-27T04:24:42.0869896-04:00</DateAdded>
+    <DateModified>2013-09-27T04:26:40.0852734-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-1e716eba-556b-49df-a0a5-893de7944658</UniqueID>
+    <UserID>UC-53-17</UserID>
+    <ParentID>P-4aaac049-b435-477f-90c5-f0a2469598ba</ParentID>
+    <Name>Mark Claim as Denied</Name>
+    <Description>User marks claim as denied. User can undo this action.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User marks claim as denied. User can undo this action.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-08-28T10:53:42.435658-04:00</DateAdded>
+    <DateModified>2014-06-24T17:20:09.6339836-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-6dbaf8e9-563a-4226-ad53-11bfea5aa189</UniqueID>
+    <UserID>UC-53-18</UserID>
+    <ParentID>P-4aaac049-b435-477f-90c5-f0a2469598ba</ParentID>
+    <Name>Mark Claim for Follow-Up</Name>
+    <Description>User requests follow-up for the claim providing mandatory reason. User can undo this action.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User requests follow-up for the claim providing mandatory reason. User can undo this action.\par
+\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-08-28T10:53:53.4796084-04:00</DateAdded>
+    <DateModified>2014-06-24T17:20:15.4054656-04:00</DateModified>
+  </UseCase>
+  <ElementStub>
+    <ParentID>P-4aaac049-b435-477f-90c5-f0a2469598ba</ParentID>
+    <Path>dict_unsused.ucp</Path>
+    <ElementID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-4aaac049-b435-477f-90c5-f0a2469598ba</ParentID>
+    <Path>Misc UI Reqs.ucp</Path>
+    <ElementID>P-9b0784f6-723e-4032-8607-a176b0136b22</ElementID>
+    <Sequence>1</Sequence>
+  </ElementStub>
+  <UCActor>
+    <ParentID>UC-1e716eba-556b-49df-a0a5-893de7944658</ParentID>
+    <ActorID>A-5945ef97-04bf-4493-99f4-336c60eb5e1a</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-6dbaf8e9-563a-4226-ad53-11bfea5aa189</ParentID>
+    <ActorID>A-5945ef97-04bf-4493-99f4-336c60eb5e1a</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-2b8c75e7-e821-4f35-89cc-97e54f8770bd</UniqueID>
+    <ParentID>UC-1e716eba-556b-49df-a0a5-893de7944658</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-15ba21b0-89cb-4919-a759-4fe8fb7bf877</UniqueID>
+    <ParentID>UC-6dbaf8e9-563a-4226-ad53-11bfea5aa189</ParentID>
+  </Scenario>
+  <Step>
+    <UniqueID>ST-e470f25f-392e-4a7f-95ab-41877e1260f9</UniqueID>
+    <ParentID>MSS-2b8c75e7-e821-4f35-89cc-97e54f8770bd</ParentID>
+    <Description>User marks claim as denied.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User marks claim as denied.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1cf03ef1-0f13-44d2-b704-bcf9754c04a7</UniqueID>
+    <ParentID>MSS-2b8c75e7-e821-4f35-89cc-97e54f8770bd</ParentID>
+    <Description>The system prompts user to select denial reason (searchable dropdown).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to select \cf1 denial\cf2  reason (searchable dropdown).\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6157a0b0-0d8d-4537-90e3-702c3d243bd1</UniqueID>
+    <ParentID>X-e479d82c-ba09-4393-9622-c1e6ce769cf3</ParentID>
+    <Description>The system displays a text field.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays a text field.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ca22c864-301a-4ac7-870c-78d513aef058</UniqueID>
+    <ParentID>X-e479d82c-ba09-4393-9622-c1e6ce769cf3</ParentID>
+    <Description>User must enter free-form description to proceed.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User must enter free-form description to proceed.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-13846410-ff11-49d1-a4cb-e860c9fc0d0f</UniqueID>
+    <ParentID>MSS-2b8c75e7-e821-4f35-89cc-97e54f8770bd</ParentID>
+    <Description>User selects reason.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects reason.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e15e07bb-8a5f-4482-bbaa-5968be9de480</UniqueID>
+    <ParentID>MSS-2b8c75e7-e821-4f35-89cc-97e54f8770bd</ParentID>
+    <Description>User confirms Denial.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User confirms \cf1 Denial\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8a9b66df-0138-4e8f-9f3b-4d083c1142fb</UniqueID>
+    <ParentID>MSS-2b8c75e7-e821-4f35-89cc-97e54f8770bd</ParentID>
+    <Description>The system marks encounter as Denied.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system marks encounter as \cf1 Denied.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cd54e236-5134-41ab-9349-ce8f701f46a5</UniqueID>
+    <ParentID>MSS-2b8c75e7-e821-4f35-89cc-97e54f8770bd</ParentID>
+    <Description>Until the batch is closed, user can undo this action.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Until the batch is closed, user can undo this action.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-090696c3-3e1f-4caf-99b5-dd9ff6b9b86e</UniqueID>
+    <ParentID>MSS-2b8c75e7-e821-4f35-89cc-97e54f8770bd</ParentID>
+    <Description>Once the batch is closed, this change is applied, encounter is added to the Denials report.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Once the batch is closed, this change is applied, encounter is added to the \cf1 Denials\cf2  report.\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4f4b9a6e-fc2a-4770-88a8-ee4e10f72423</UniqueID>
+    <ParentID>MSS-15ba21b0-89cb-4919-a759-4fe8fb7bf877</ParentID>
+    <Description>User requests follow-up on an encounter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User requests follow-up on an encounter.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-23dae123-4ddd-4806-a7c5-4e54e1abece2</UniqueID>
+    <ParentID>MSS-15ba21b0-89cb-4919-a759-4fe8fb7bf877</ParentID>
+    <Description>The system prompts user to select follow-up reason (searchable dropdown).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to select \cf1 follow-up reason (searchable dropdown).\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-82010388-6f93-4586-8de5-28d5d8ea11f0</UniqueID>
+    <ParentID>X-f9cb9ce3-ea3f-4629-bd7f-f13fcaf836c0</ParentID>
+    <Description>The system displays a text field.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays a text field.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6b4643db-f658-4999-9357-b4c7f24cda51</UniqueID>
+    <ParentID>X-f9cb9ce3-ea3f-4629-bd7f-f13fcaf836c0</ParentID>
+    <Description>User must enter free-form description to proceed.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User must enter free-form description to proceed.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-da2ee018-93d3-451e-b84c-432d02198682</UniqueID>
+    <ParentID>MSS-15ba21b0-89cb-4919-a759-4fe8fb7bf877</ParentID>
+    <Description>User selects reason.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects reason.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e1b0b32a-560b-47b1-b961-91ffbfdb9a7f</UniqueID>
+    <ParentID>MSS-15ba21b0-89cb-4919-a759-4fe8fb7bf877</ParentID>
+    <Description>User confirms follow-up request.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User confirms \cf1 follow-up request.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1073930c-81e0-4cce-b242-e99072079ed8</UniqueID>
+    <ParentID>MSS-15ba21b0-89cb-4919-a759-4fe8fb7bf877</ParentID>
+    <Description>The system marks encounter as Follow-Up Requested.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system marks encounter as \cf1 Follow-Up Requested.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3a9dfdc5-02c6-4439-9bc6-8c7d1d7bfb30</UniqueID>
+    <ParentID>MSS-15ba21b0-89cb-4919-a759-4fe8fb7bf877</ParentID>
+    <Description>Until the batch is closed, user can undo this action.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Until the batch is closed, user can undo this action.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c29ec14f-28cb-4b07-8bb4-6a1d694fcc80</UniqueID>
+    <ParentID>MSS-15ba21b0-89cb-4919-a759-4fe8fb7bf877</ParentID>
+    <Description>Once the batch is closed, this change is applied, encounter is added to the Follow-Ups report.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Once the batch is closed, this change is applied, encounter is added to the \cf1 Follow-Ups report.\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-e479d82c-ba09-4393-9622-c1e6ce769cf3</UniqueID>
+    <ParentID>ST-13846410-ff11-49d1-a4cb-e860c9fc0d0f</ParentID>
+    <Description>User selected 'Other' reason</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User selected '\cf1 Other' reason\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-f9cb9ce3-ea3f-4629-bd7f-f13fcaf836c0</UniqueID>
+    <ParentID>ST-da2ee018-93d3-451e-b84c-432d02198682</ParentID>
+    <Description>User selected 'Other' reason</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User selected '\cf1 Other' reason\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <ExternalDoc>
+    <UniqueID>EX-68baac34-60f8-4393-87f1-62d1ba8f95c2</UniqueID>
+    <ParentID>UC-1e716eba-556b-49df-a0a5-893de7944658</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=Manual_Payment_Posting_-_Insurance_Voucher</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-0fda01a8-c334-425c-9cc9-e27bb8a2e01d</UniqueID>
+    <ParentID>UC-6dbaf8e9-563a-4226-ad53-11bfea5aa189</ParentID>
+    <Name>http://gd7ju1.axshare.com/#p=Manual_Payment_Posting_-_Insurance_Voucher</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-58-</DefaultPrefix>
+    <NextValue>4</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-58-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-58-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-58-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

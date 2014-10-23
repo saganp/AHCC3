@@ -1,0 +1,1235 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.4927</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</UniqueID>
+    <ExternalParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ExternalParentID>
+    <Name>Implemented Changes</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <ElementStub>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Path>Case &amp; Patient Pages.ucp</Path>
+    <ElementID>P-283698e5-7a0a-44ce-8b16-09554b043195</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Path>End-User Changes.ucp</Path>
+    <ElementID>P-7071a9e4-add1-48ca-83a0-712a931600cf</ElementID>
+    <Sequence>1</Sequence>
+  </ElementStub>
+  <Requirement>
+    <UniqueID>REQ-06db8df3-8f4d-4b73-b564-836a18f8287b</UniqueID>
+    <UserID>REQ-2-2</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Indicators show up in Plan of Care and Discharge</Name>
+    <Description>Indicators are a mandatory part of Plan of Care and Discharge Summary. 
+This means that at Plan of Care we put in initial measurements and at Discharge Summary we record outgoing or final measurements. 
+
+Indicators are Not applicable to Daily Note or Progress Note. 
+These indicators do not impact the AgilePM system results.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Indicators\cf2  are a mandatory part of \cf1 Plan of Care\cf2  and \cf1 Discharge Summary\cf2 . \par
+This means that at \cf1 Plan of Care\cf2  we put in initial measurements and at \cf1 Discharge Summary\cf2  we record outgoing or final measurements. \par
+\par
+\cf1 Indicators\cf2  are Not applicable to \cf1 Daily Note\cf2  or \cf1 Progress Note\cf2 . \par
+These \cf1 indicators\cf2  do not impact the AgilePM \cf3\ul system\cf2\ulnone  results.\par
+\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Business Rule</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-03-25T09:12:57.161526-04:00</DateAdded>
+    <DateModified>2013-08-06T06:33:02.7751174-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-c9533394-f577-4c7a-b38a-5e46f4f96333</UniqueID>
+    <UserID>REQ-2-6</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Plan of Care Referral Physician Signature</Name>
+    <Description>The referring physician must be sent the Plan of Care, sign it and send it back for AH records. This is a compliance issue.
+Once received they should be scanned into the system and saved to the case for future retrieval.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The referring physician must be sent the \cf2 Plan of Care\cf1 , sign it and send it back for \cf2 AH\cf1  records. This is a compliance issue.\par
+Once received they should be scanned into the system and saved to the \cf2 case\cf1  for future retrieval.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Business Rule</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-03-19T16:37:34.0306947-04:00</DateAdded>
+    <DateModified>2013-08-06T06:33:30.511238-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-acc656ec-4a83-47f3-8dc6-867515fd3ab3</UniqueID>
+    <UserID>REQ-2-8</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Body Regions &amp; Systems</Name>
+    <Description>All items listed here must be presented in a single list, but Regions and Systems must be separated visually. User can only select one item from the full list.
+
+Body regions:
+Ankle
+Cervical
+Elbow
+Foot &amp; Toes
+Hand / Fingers
+Head &amp; Facial / TMJ
+Hip
+Knee
+Lumbar
+Pelvis
+Shoulder
+Thoracic
+Wrist
+
+Body Systems:
+Respiratory
+Skeletal
+Urinary
+Circulatory
+Muscular
+Reproductive
+Lymphatic
+Neurological</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 All items listed here must be presented in a single list, but Regions and \cf2 Systems\cf1  must be separated visually. User can only select one item from the full list.\par
+\par
+Body regions:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 Ankle\par
+{\pntext\f2\'B7\tab}Cervical\par
+{\pntext\f2\'B7\tab}Elbow\par
+{\pntext\f2\'B7\tab}Foot &amp; Toes\par
+{\pntext\f2\'B7\tab}Hand / Fingers\par
+{\pntext\f2\'B7\tab}Head &amp; Facial / TMJ\par
+{\pntext\f2\'B7\tab}Hip\par
+{\pntext\f2\'B7\tab}Knee\par
+{\pntext\f2\'B7\tab}Lumbar\par
+{\pntext\f2\'B7\tab}Pelvis\par
+{\pntext\f2\'B7\tab}Shoulder\par
+{\pntext\f2\'B7\tab}Thoracic\par
+{\pntext\f2\'B7\tab}Wrist\lang1049\f1\par
+\pard\par
+\lang1033\f0 Body \cf2 Systems\cf1 :\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 Respiratory\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Skeletal\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Urinary\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Circulatory\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Muscular\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Reproductive\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Lymphatic\lang1049\f1\par
+\lang1033\f0{\pntext\f2\'B7\tab}Neurological\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-08T10:13:32.0993625-04:00</DateAdded>
+    <DateModified>2013-08-06T06:33:47.8891924-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-4af3494a-b9a6-482b-9f06-0930c4501c01</UniqueID>
+    <UserID>REQ-3</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>PQRS Required</Name>
+    <Description>PQRS is mandatory on all Plans of Care where Patient is both a Medicare Patient and aged 18 years or older.
+
+Mandatory for all Plans of Care. 
+
+PQRS results must be sent through to billing and show up on the claim for the first Daily Note after the Plan of Care. This is relevant for second Plan of Care that come after re-evaluations. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 PQRS is mandatory on all Plans of Care where \cf2\ul Patient\cf1\ulnone  is both a Medicare \cf2\ul Patient\cf1\ulnone  and aged 18 years or older.\par
+\par
+Mandatory for all Plans of Care. \par
+\par
+\cf3 PQRS\cf1  results must be sent through to billing and show up on the claim for the first \cf3 Daily Note\cf1  after the \cf3 Plan of Care\cf1 . This is relevant for second \cf3 Plan of Care\cf1  that come after re-evaluations. \par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-03-20T15:50:48.7467912-04:00</DateAdded>
+    <DateModified>2013-11-18T06:59:43.256687-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-be598b68-196d-4c11-b040-66ecfc33dc8e</UniqueID>
+    <UserID>REQ-4</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>CPT codes must always have an assigned diagnosis</Name>
+    <Description>Everywhere in the system, when any user selects a CPT code, he or she must also assign at least one diagnosis to that code.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Everywhere in the \cf2\ul system\cf1\ulnone , when any user selects a \cf3 CPT code\cf1 , he or she must also assign at least one \cf3 diagnosis\cf1  to that code.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-01T14:30:17.2385669-04:00</DateAdded>
+    <DateModified>2013-11-18T06:59:47.655323-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-7da54126-f0fc-4818-bc38-8b3393d27920</UniqueID>
+    <UserID>REQ-5</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Global Signature Requirements</Name>
+    <Description>Must be digitally signed
+Must state who digitally signed it
+Time and Date Stamp
+
+Clinician must enter personal 4-digit code to sign any medical document in the system.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Must be digitally signed\par
+Must state who digitally signed it\par
+Time and Date Stamp\par
+\par
+Clinician must enter personal 4-digit code to sign any medical document in the system.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-03-29T13:29:12.6922675-04:00</DateAdded>
+    <DateModified>2013-11-18T07:00:00.757643-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-c0f355f9-14ba-479e-a20f-e9a462572a52</UniqueID>
+    <UserID>REQ-7</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Naming Convention for PDF files</Name>
+    <Description>When the system generates a PDF, the system must automatically name that file according to the following convention: 
+&lt;CaseID&gt;_&lt;Document Type&gt;_&lt;MM-DD-YYYY&gt;
+For example: 12345_POC_04-27-2013.
+
+Document types:
+POC (Plan of Care)
+DN (Daily Note)
+PN (Progress Note)
+DS (Discharge Summary)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 When the system generates a PDF, the system must automatically name that file according to the following convention: \par
+&lt;CaseID&gt;_&lt;Document Type&gt;_&lt;MM-DD-YYYY&gt;\par
+For example: 12345_POC_04-27-2013.\par
+\par
+Document types:\par
+POC (Plan of Care)\par
+DN (Daily Note)\par
+PN (Progress Note)\par
+DS (Discharge Summary)\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-30T09:04:37.2766747-04:00</DateAdded>
+    <DateModified>2013-11-18T07:00:05.577425-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0c50352e-b608-4509-a8e3-c3d80b66147a</UniqueID>
+    <UserID>REQ-8</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Common CPT codes</Name>
+    <Description>The list of Most Common CPT codes is attached (see Supplemental tab)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The list of Most Common CPT codes is attached (see Supplemental tab)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-05-06T12:48:58.7347076-04:00</DateAdded>
+    <DateModified>2013-11-18T07:00:09.648503-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f0959164-2209-433a-8b43-32f6319d8cb4</UniqueID>
+    <UserID>REQ-2-9</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Plan of Care Signature Requirements</Name>
+    <Description>Must be digitally signed
+Must state who digitally signed it
+Time and Date Stamp
+
+Clinician must enter personal 4-digit code to sign any medical document in the system.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf1\f0\fs20 Must be digitally signed\par
+{\pntext\f1\'B7\tab}Must state who digitally signed it\par
+{\pntext\f1\'B7\tab}Time and Date Stamp\par
+\pard\par
+Clinician must enter personal 4-digit code to sign any medical document in the system.\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-03-29T13:29:12.6922675-04:00</DateAdded>
+    <DateModified>2013-11-18T08:10:30.6421314-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-ca33c615-02fc-4879-8e9b-4e9324c588dc</UniqueID>
+    <UserID>REQ-3-1</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Daily Note Takes the CPT Codes for the case from the most recent daily note.</Name>
+    <Description>Daily Note Takes the CPT Codes for the case from the most recent daily note.
+
+System Always prepopulates the Daily Note CPT Codes from the Plan of Care on the first appointment. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Daily Note\cf2  Takes the \cf1 CPT Codes\cf2  for the \cf1 case\cf2  from the most recent \cf1 daily note\cf2 .\par
+\par
+\cf3\ul System\cf2\ulnone  Always prepopulates the \cf1 Daily Note\cf2  \cf1 CPT Codes\cf2  from the \cf1 Plan of Care\cf2  on the first \cf1 appointment\cf2 . \par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-03-23T02:09:53.5542647-04:00</DateAdded>
+    <DateModified>2013-11-18T09:05:10.7508847-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-6da84d7e-524c-4a5a-88a4-eb801dcd8b1a</UniqueID>
+    <UserID>REQ-3-2</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Daily Note Signature Requirements</Name>
+    <Description>Must be digitally signed
+Must state who digitally signed it
+Time and Date Stamp
+
+Clinician must enter personal 4-digit code to sign any medical document in the system.
+
+A Daily Note cannot be submitted for Daily Note review or to billing with only PTA signature. It must always have a final PT signature for it to be valid and ready for billing. 
+
+Daily Note can only have 1 PTA signature &amp; 1 PT signature. If DN is being re-signed by another PT/PTA, the system should replace old signature with a new one.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Must be digitally signed\par
+Must state who digitally signed it\par
+Time and Date Stamp\par
+\par
+Clinician must enter personal 4-digit code to sign any medical document in the system.\lang1049\f1\par
+\par
+A Daily Note cannot be submitted for Daily Note review or to billing with only PTA signature. It must always have a final PT signature for it to be valid and ready for billing. \par
+\par
+\lang1033\f0 Daily Note can only have 1 PTA signature &amp; 1 PT signature. If DN is being re-signed by another PT/PTA, the system should replace old signature with a new one.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-03-28T15:33:41.8989066-04:00</DateAdded>
+    <DateModified>2013-11-18T09:05:15.4614505-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-b3900a26-1c8c-4f82-b2ce-8b7182d77fa9</UniqueID>
+    <UserID>REQ-3-3</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Upon PT Signing Daily Note - Notes Section is Locked</Name>
+    <Description>Once the PT signs the Daily Note the first time the 'Notes Section' should be locked to any further changes. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1049\f0\fs20 Once the PT signs the Daily Note the first time the 'Notes Section' should be locked to any further changes. \par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-01T15:55:07.0158768-04:00</DateAdded>
+    <DateModified>2013-11-18T09:05:25.210138-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a0251c2b-f201-46ab-9887-55b886738887</UniqueID>
+    <UserID>REQ-3-9</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Remove existing restriction on closed day charges</Name>
+    <Description>Right now the system only allows CBCs to submit charges if the financial day is opened (until 9:30 of the next business day). This rule should not be applied, CBCs should be able to submit charges to billing any time.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Right now the system only allows \cf2 CBCs\cf1  to submit charges if the financial day is opened (until 9:30 of the next business day). This rule should not be applied, \cf2 CBCs\cf1  should be able to submit charges to billing any time.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>12</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-05-08T12:20:44.5950893-04:00</DateAdded>
+    <DateModified>2013-11-18T09:06:40.5012013-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-8bf6b1ea-b185-454a-bebc-78f9df7adbc0</UniqueID>
+    <UserID>REQ-4-1</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Progress Notes Signature</Name>
+    <Description>The referring physician must be sent the Progress Notes, sign it and send it back for AH records. This is a compliance issue and applies to each progress note in any case.
+Once received they should be scanned into the system and saved to the case for future retrieval.
+
+Must be digitally signed
+Must state who digitally signed it
+Time and Date Stamp
+Requires PIN code</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The referring physician must be sent the \cf2 Progress Notes\cf1 , sign it and send it back for \cf2 AH\cf1  records. This is a compliance issue and applies to each \cf2 progress note\cf1  in any \cf2 case\cf1 .\par
+Once received they should be scanned into the system and saved to the \cf2 case\cf1  for future retrieval.\par
+\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Must be digitally signed\par
+{\pntext\f1\'B7\tab}Must state who digitally signed it\par
+{\pntext\f1\'B7\tab}Time and Date Stamp\par
+{\pntext\f1\'B7\tab}Requires PIN code\par
+}
+</RichDescription>
+    <Sequence>13</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-03-19T16:37:56.2869677-04:00</DateAdded>
+    <DateModified>2013-11-18T11:55:59.7415655-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-6cca5eba-8030-4246-8a61-418c8fe6adb7</UniqueID>
+    <UserID>REQ-4-2</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Hide Indicators without Classification</Name>
+    <Description>If body region selected in the Plan of Care, the system should remove the Indicators section from the Progress Note.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 If body region selected in the Plan of Care, the \cf2 system\cf1  should remove the Indicators section from the Progress Note.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>14</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-16T10:00:33.5320048-04:00</DateAdded>
+    <DateModified>2013-11-18T11:56:04.8889055-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-8107ec4f-8964-4fc9-8137-d3381ce1805c</UniqueID>
+    <UserID>REQ-10</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Common CPT codes</Name>
+    <Description>The list of Most Common CPT codes is attached (see Supplemental tab)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The list of Most Common CPT codes is attached (see Supplemental tab)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>15</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-05-06T12:48:58.7347076-04:00</DateAdded>
+    <DateModified>2013-11-18T11:56:07.6653495-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-e77e49e6-ab01-4223-93ea-7a9fb03abbf8</UniqueID>
+    <UserID>REQ-4-5</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Anytime Progress Note</Name>
+    <Description>Therapists should always be able to fill out a Progress Note. We need to remove all DN-related validations (whether DN is signed, whether charges are submitted).
+
+- PT should be able to do PN if charges are not submitted / DN not signed
+- PN should not depend on the number of allowed visits
+- It should be possible to do 2 PNs in a row
+
+When calculating number of visits, the system should only consider visits where charges were submitted. If they weren't, do not include the visit in 'Attended visits'.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Therapists should always be able to fill out a \cf2 Progress Note\cf1 . We need to remove all DN-related validations (whether DN is signed, whether charges are submitted).\par
+\par
+- \cf2 PT\cf1  should be able to do PN if charges are not submitted / DN not signed\par
+- PN should not depend on the number of allowed \cf2 visits\cf1\par
+- It should be possible to do 2 PNs in a row\par
+\par
+When calculating number of \cf2 visits\cf1 , the system should only consider \cf2 visits\cf1  where charges were submitted. If they weren't, do not include the \cf2 visit\cf1  in 'Attended \cf2 visits\cf1 '.\par
+}
+</RichDescription>
+    <Sequence>16</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status>Implemented</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-07-30T09:52:11.3683568-04:00</DateAdded>
+    <DateModified>2013-11-18T11:56:14.8872235-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-5a71740a-33c7-49dc-a3e9-5edd4d3afa42</UniqueID>
+    <UserID>REQ-22-1</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Discharge Note Signature</Name>
+    <Description>The referring physician must be sent the Progress Notes, sign it and send it back for AH records. This is a compliance issue and applies to each progress note in any case.
+Once received they should be scanned into the system and saved to the case for future retrieval.
+
+Must be digitally signed
+Must state who digitally signed it
+Time and Date Stamp
+Requires PIN code</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The referring physician must be sent the \cf2 Progress Notes\cf1 , sign it and send it back for \cf2 AH\cf1  records. This is a compliance issue and applies to each \cf2 progress note\cf1  in any \cf2 case\cf1 .\par
+Once received they should be scanned into the system and saved to the \cf2 case\cf1  for future retrieval.\par
+\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Must be digitally signed\par
+{\pntext\f1\'B7\tab}Must state who digitally signed it\par
+{\pntext\f1\'B7\tab}Time and Date Stamp\par
+{\pntext\f1\'B7\tab}Requires PIN code\par
+}
+</RichDescription>
+    <Sequence>17</Sequence>
+    <Type>Business Rule</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-03-19T16:37:56.2869677-04:00</DateAdded>
+    <DateModified>2013-11-18T13:20:07.6433714-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-e40d3c1e-47aa-4705-a9e0-c9da99b5a438</UniqueID>
+    <UserID>REQ-22-2</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Hide Indicators without Classification</Name>
+    <Description>If body region selected in the Plan of Care, the system should remove the Indicators section from the Discharge Summary.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 If body region selected in the Plan of Care, the \cf2 system\cf1  should remove the Indicators section from the Discharge Summary.\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>18</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-16T10:00:33.5320048-04:00</DateAdded>
+    <DateModified>2013-11-18T13:20:10.3574234-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-670b5268-0a16-49a4-ae6e-7d176a81e599</UniqueID>
+    <UserID>REQ-14-2</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Add permission security model</Name>
+    <Description>Add "Can manage corporate templates" permission to the new security model</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Add "Can manage corporate templates" permission to the new security model\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>19</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-04-24T12:54:44.1876309-04:00</DateAdded>
+    <DateModified>2013-11-18T13:20:36.5932594-05:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-52c56966-a614-4bee-bc2a-19bbc0826351</UniqueID>
+    <UserID>REQ-59-8</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Add Location Prefix to Encounters</Name>
+    <Description>When user pulls up an encounter in Payment Posting or Corrections pages, the system must automatically add location prefix to the encounter ID. (this works right now, requirement is here just for consistency purposes)
+Example: 123456 -&gt; HOL123456
+
+Prefix is specified in location properties ('Encounter Number Prefix' field).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 When user pulls up an encounter in Payment Posting or Corrections pages, the system must automatically add location prefix to the encounter ID. (\i this works right now, requirement is here just for consistency purposes\i0 )\par
+Example: 123456 -&gt; HOL123456\par
+\par
+Prefix is specified in location properties ('\cf2 Encounter Number\cf1  Prefix' field).\par
+}
+</RichDescription>
+    <Sequence>20</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-23T11:10:24.7076731-04:00</DateAdded>
+    <DateModified>2014-06-24T18:12:19.9329789-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f4ac8276-a50a-481f-a477-b222a3db201a</UniqueID>
+    <UserID>REQ-59-1</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Always use up-to-date insurance information</Name>
+    <Description>In current version of AgilePM, insurance information is saved at the time of initial charge creation and locked. This should change.
+
+The system must always use up-to-date information. When user pulls up an encounter (be that payment posting or corrections), the system must look for the insurance coverage that covers that date of service and pull that information.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In current version of AgilePM, insurance information is saved at the time of initial charge creation and locked. This should change.\par
+\par
+The system must always use up-to-date information. When user pulls up an encounter (be that payment posting or corrections), the system must look for the insurance coverage that covers that date of service and pull that information.\par
+}
+</RichDescription>
+    <Sequence>21</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-22T08:22:56.937802-04:00</DateAdded>
+    <DateModified>2014-06-24T18:12:22.2883222-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-e2b12bca-d5ac-4251-b4c7-76bc2245961c</UniqueID>
+    <UserID>REQ-59-21</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Currently, the Billed event is used to indicate initial transaction. It should be called “Charge Created”, the description should read “Created charge for &lt;entity&gt;. Amount: &lt;amount&gt;”.</Name>
+    <Description>Currently, the Billed event is used to indicate initial transaction. It should be called “Charge Created”, the description should read “Created charge for &lt;entity&gt;. Amount: &lt;amount&gt;”.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Currently, the Billed event is used to indicate initial transaction. It should be called \ldblquote Charge Created\rdblquote , the description should read \ldblquote Created charge for &lt;entity&gt;. Amount: &lt;amount&gt;\rdblquote .\par
+}
+</RichDescription>
+    <Sequence>22</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-12-18T15:18:04.8351972-05:00</DateAdded>
+    <DateModified>2014-06-24T18:12:32.6143968-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-4e339ad5-de5a-4eb1-85f7-1754162e4fd2</UniqueID>
+    <UserID>REQ-59-20</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Add charge batching event to Transaction History</Name>
+    <Description>Once a charge is batched, the system must add the following event: "Billed &lt;insurance type&gt;".
+Billed Primary / Billed Secondary / Billed Tertiary.
+Description: "Charge batch 'Batch_label', ID &lt;ID&gt; submitted at &lt;date&gt;. Charge amount: &lt;amount&gt;".
+For this type of transaction history entry, Amount, Patient Responsibility and Balance are NOT applicable. The values are always shown as a dash (-). Note that this event does not affect financial state of the line item in any way, just indicated that the charge was batched.
+
+If a charge is re-batched, the system must add another "Billed..." Transaction History entry.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Once a charge is batched, the system must add the following event: "Billed &lt;insurance type&gt;".\par
+Billed Primary / Billed Secondary / Billed Tertiary.\par
+Description: "Charge batch 'Batch_label', ID &lt;ID&gt; submitted at &lt;date&gt;. Charge amount: &lt;amount&gt;".\par
+For this type of transaction history entry, Amount, \cf2\ul Patient\ulnone  Responsibility\cf1  and Balance are NOT applicable. The values are always shown as a dash (-). Note that this event does not affect financial state of the \cf2 line item\cf1  in any way, just indicated that the charge was batched.\par
+\par
+If a charge is re-batched, the system must add another "Billed..." Transaction History entry.\par
+}
+</RichDescription>
+    <Sequence>23</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-12-18T07:01:27.5378021-05:00</DateAdded>
+    <DateModified>2014-06-25T12:46:46.94126-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-2960b7f7-74ab-42b3-9170-c49cd5afd3c9</UniqueID>
+    <UserID>REQ-59-18</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Update Payer Information on Insurance change</Name>
+    <Description>When user makes an update to the insurance coverage, the system must check if the change affects payments.
+
+If there's a payment for insurance that's no longer applicable (removed or changed dates), the system must mark payment as payment from Unknown insurance. The system must also move charge amount to the previous payer's responsibility bucket; unknown insurance's charge is always 'n/a'.
+
+If there's a payment from unknown insurance that now became Primary/Secondary/Tertiary, the system must show that payment as payment from Primary/Secondary/Tertiary. The system must also update Charge amount, if possible (i.e. if there's an amount transferred to Primary/Secondary/Tertiary, the system must put that amount into the Charge field). If there's no responsibility, charge stays "n/a".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 When user makes an update to the insurance coverage, the system must check if the change affects payments.\par
+\par
+If there's a payment for insurance that's no longer applicable (removed or changed dates), the system must mark payment as payment from Unknown insurance. The system must also move charge amount to the previous \cf2 payer\cf1 's responsibility bucket; unknown insurance's charge is always 'n/a'.\par
+\par
+If there's a payment from unknown insurance that now became Primary/Secondary/Tertiary, the system must show that payment as payment from Primary/Secondary/Tertiary. The system must also update Charge amount, if possible (i.e. if there's an amount transferred to Primary/Secondary/Tertiary, the system must put that amount into the Charge field). If there's no responsibility, charge stays "n/a".\par
+}
+</RichDescription>
+    <Sequence>24</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-10-10T05:15:28.7186371-04:00</DateAdded>
+    <DateModified>2014-06-24T18:12:59.7403286-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-6f4f78b8-45c7-46c3-8617-6852261c4a33</UniqueID>
+    <UserID>REQ-59-14</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Generate Statements with Partial Pt Payments</Name>
+    <Description>The system must generate patient statements even if a partial patient payment is applied. Right now the system ignores encounters where a partial patient payment is applied.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system must generate \cf2\ul patient\cf1\ulnone  statements even if a partial \cf2\ul patient\cf1\ulnone  payment is applied. Right now the system ignores encounters where a partial \cf2\ul patient\cf1\ulnone  payment is applied.\par
+}
+</RichDescription>
+    <Sequence>25</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-27T04:16:37.8206759-04:00</DateAdded>
+    <DateModified>2014-06-24T18:13:09.8170242-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d18c24ff-0d69-401e-8670-c634d7dc9e27</UniqueID>
+    <UserID>REQ-59-17</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Correction Events</Name>
+    <Description>Transfer to &lt;entity&gt;
+Applied Adjustment (&lt;entity&gt;)
+Reversed Adjustment (&lt;entity&gt;)
+Reversed Transfer to &lt;entity&gt;
+Reversed Payment from &lt;entity&gt;
+Applied Deposit Funds
+Reversed Deposit Payment</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fmodern\fprq1\fcharset0 Gulim;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf1\f0\fs20 Transfer to &lt;entity&gt;\par
+\f1{\pntext\f2\'B7\tab}Applied \cf2\f0 Adjustment\cf1  (&lt;entity&gt;)\par
+{\pntext\f2\'B7\tab}Reversed \cf2 Adjustment\cf1  (&lt;entity&gt;)\par
+{\pntext\f2\'B7\tab}Reversed Transfer to &lt;entity&gt;\par
+{\pntext\f2\'B7\tab}Reversed Payment from &lt;entity&gt;\par
+{\pntext\f2\'B7\tab}Applied Deposit Funds\par
+{\pntext\f2\'B7\tab}Reversed Deposit Payment\par
+}
+</RichDescription>
+    <Sequence>26</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-10-02T06:26:11.3900504-04:00</DateAdded>
+    <DateModified>2014-06-24T18:13:26.8350968-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-31963892-97aa-49ef-b63c-3a5beb386c43</UniqueID>
+    <UserID>REQ-59-4</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>'Transfer To' dropdown</Name>
+    <Description>This dropdown defines where to transfer available balance.
+
+The list of values available for selection depends on the circumstances, but this is the full list of values that could be in the dropdown:
+
+Next Insurance - &lt;type&gt; (Next Insurance - Secondary / Tertiary) [only available if there is next unbilled insurance]
+Patient
+Auto Crossover [not available in patient payment vouchers]
+N/A
+
+Note that negative balance cannot be transferred to any entity (only N/A).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 This dropdown defines where to transfer available balance.\par
+\par
+The list of values available for selection depends on the circumstances, but this is the full list of values that could be in the dropdown:\par
+\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Next Insurance - &lt;type&gt; (Next Insurance - Secondary / Tertiary) [\i only available if there is next unbilled insurance\i0 ]\par
+\cf2\ul{\pntext\f1\'B7\tab}Patient\cf1\ulnone\par
+{\pntext\f1\'B7\tab}Auto Crossover [\i not available in \cf2\ul patient\cf1\ulnone  payment \cf3 vouchers\cf1\i0 ]\par
+{\pntext\f1\'B7\tab}N/A\par
+\pard\par
+Note that negative balance cannot be transferred to any entity (only N/A).\par
+}
+</RichDescription>
+    <Sequence>27</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-23T03:12:31.498838-04:00</DateAdded>
+    <DateModified>2014-06-24T18:13:38.5964412-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-5335ed8c-b50d-4ab3-b42e-b13f1e4370e4</UniqueID>
+    <UserID>REQ-59-6</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Negative Payments</Name>
+    <Description>It should be possible to post a negative insurance payment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 It should be possible to post a negative insurance payment.\par
+}
+</RichDescription>
+    <Sequence>28</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-23T05:59:20.3889297-04:00</DateAdded>
+    <DateModified>2014-06-24T18:13:45.2102476-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-11f76f22-319f-4a0e-b996-4f0924b255ea</UniqueID>
+    <UserID>REQ-59-15</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Move Pt Money to Depost after Void</Name>
+    <Description>If user voids a procedure that has a patient payment applied, the system must automatically move full patient payment to the Case Deposit.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If user voids a \cf2 procedure\cf1  that has a \cf3\ul patient\cf1\ulnone  payment applied, the system must automatically move full \cf3\ul patient\cf1\ulnone  payment to the \cf2 Case\cf1  Deposit.\par
+}
+</RichDescription>
+    <Sequence>29</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-27T04:19:50.9987052-04:00</DateAdded>
+    <DateModified>2014-06-24T18:13:48.6107424-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d85bb2cd-2f20-42ce-b6b2-bd481a81fc3b</UniqueID>
+    <UserID>REQ-59-10</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Negative Amounts Display</Name>
+    <Description>Whenever the system needs to display a negative amount, it should be displayed in parentheses: ($25.00) and in red font.
+
+Note that this is only applicable to plain-text display. When users need to enter a negative amount, they will enter amount with a minus: -25.00.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Whenever the system needs to display a negative amount, it should be displayed in parentheses: ($25.00) and in red font.\par
+\par
+Note that this is only applicable to plain-text display. When users need to enter a negative amount, they will enter amount with a minus: -25.00.\par
+}
+</RichDescription>
+    <Sequence>30</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-24T04:42:27.5470408-04:00</DateAdded>
+    <DateModified>2014-06-24T18:13:59.1709946-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-c058f52c-b7bd-4717-bc6d-5af8f547ed3f</UniqueID>
+    <UserID>REQ-59-5</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Auto-Add .00 to Amounts</Name>
+    <Description>If in any field reserved for amounts user types a number without .XX (for example, just 15), the system must automatically add .00 to that amount on lost focus (15.00 in this example).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If in any field reserved for amounts user types a number without .XX (for example, just 15), the system must automatically add .00 to that amount on lost focus (15.00 in this example).\par
+}
+</RichDescription>
+    <Sequence>31</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-23T05:55:15.1565932-04:00</DateAdded>
+    <DateModified>2014-06-24T18:14:01.4015944-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-52e91625-6260-4c6e-b7aa-83d1f97f6cd4</UniqueID>
+    <UserID>REQ-59-7</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Remember Selected Payer</Name>
+    <Description>If user selected a Payer that does not match voucher Carrier and posted a payment for that line item, the system must remember user's choice and automatically select that payer for the same case within the same voucher.
+
+Example: Voucher carrier is Carrier_1. User pulls up a line item and changes payer to Carrier_2. The system will display a warning. When user moves to the next line item, the system automatically selects Carrier_2 as payer yet still displays warning message every time.
+If user pulls up another encounter from the same case in the same voucher, the system continues to auto-select Carrier_2.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If user selected a \cf2 Payer\cf1  that does not match \cf2 voucher\cf1  \cf2 Carrier\cf1  and posted a payment for that \cf2 line item\cf1 , the system must remember user's choice and automatically select that \cf2 payer\cf1  for the same \cf2 case\cf1  within the same \cf2 voucher\cf1 .\par
+\par
+\ul Example\ulnone : \cf2 Voucher\cf1  \cf2 carrier\cf1  is \cf2 Carrier\cf1 _1. User pulls up a \cf2 line item\cf1  and changes \cf2 payer\cf1  to \cf2 Carrier\cf1 _2. The system will display a warning. When user moves to the next \cf2 line item\cf1 , the system automatically selects \cf2 Carrier\cf1 _2 as \cf2 payer\cf1  yet still displays warning message every time.\par
+If user pulls up another encounter from the same \cf2 case\cf1  in the same \cf2 voucher\cf1 , the system continues to auto-select \cf2 Carrier\cf1 _2.\par
+}
+</RichDescription>
+    <Sequence>32</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-23T06:10:29.9881316-04:00</DateAdded>
+    <DateModified>2014-06-24T18:14:07.9218092-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-3dca9e9b-5350-4a31-9289-49429f7e7b3e</UniqueID>
+    <UserID>REQ-59-9</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Enforce Company Scope</Name>
+    <Description>In Payment Posting screen and in Corrections screen, the scope for all dropdowns and search field is the company user is currently logged on to.
+This means that carrier list must match company's carrier list, encounters available for search must be limited to current company etc.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In Payment Posting screen and in Corrections screen, the scope for all dropdowns and search field is the company user is currently logged on to.\par
+This means that \cf2 carrier\cf1  list must match company's \cf2 carrier\cf1  list, encounters available for search must be limited to current company etc.\par
+}
+</RichDescription>
+    <Sequence>33</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-09-24T02:11:20.6515164-04:00</DateAdded>
+    <DateModified>2014-06-24T18:14:23.6763952-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0d3182f6-d987-4705-b567-65ee1b6b692f</UniqueID>
+    <UserID>REQ-59-19</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Allow &lt;0 or 0 Batch/Voucher Amount</Name>
+    <Description>The system must allow to enter any amount (positive/negative/zero) as a voucher amount.
+The system must also consider batches with any total voucher amount  (positive/negative/zero) as valid.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system must allow to enter any amount (positive/negative/zero) as a voucher amount.\par
+The system must also consider batches with any total voucher amount  (positive/negative/zero) as valid.\par
+}
+</RichDescription>
+    <Sequence>34</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-10-11T05:23:07.7637331-04:00</DateAdded>
+    <DateModified>2014-06-24T18:15:07.415505-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-7411fb21-76bb-40ee-b829-5c3455b9f9db</UniqueID>
+    <UserID>REQ-38-1</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Cross-Company Case Search</Name>
+    <Description>If user has access to several companies within the same parent company, the system should allow to search cases in all those companies without switching.
+
+Example: corporate admin searches for a case, the system displays matching results from all companies under the Parent Company </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If user has access to several companies within the same parent company, the system should allow to search \cf2 cases\cf1  in all those companies without switching.\par
+\par
+Example: corporate \cf3\ul admin\cf1\ulnone  searches for a \cf2 case\cf1 , the system displays matching results from all companies under the Parent Company \par
+}
+</RichDescription>
+    <Sequence>35</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-07-29T12:56:40.091005-04:00</DateAdded>
+    <DateModified>2014-07-13T10:02:39.1797569-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-1c89b678-62ec-4878-8e0e-9cbd257f9a3a</UniqueID>
+    <UserID>REQ-38-2</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>SysAdmin must switch between parent companies</Name>
+    <Description>System Admins should be able to switch between parent companies (same logic as currently used for switching companies)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 System \cf2\ul Admins\cf1\ulnone  should be able to switch between parent companies (same logic as currently used for switching companies)\par
+}
+</RichDescription>
+    <Sequence>36</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-07-29T13:00:47.1894367-04:00</DateAdded>
+    <DateModified>2014-07-13T10:03:11.8121262-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-dbe10561-cca4-4153-9c5b-637c310f6e80</UniqueID>
+    <UserID>REQ-38-3</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Separate company-specific nav items</Name>
+    <Description>In the Administrative interface, separate company-specific items from higher-level items.
+
+- Clinicians
+- Diagnoses
+- ...
+
+&lt;divider&gt;
+
+- Companies
+- Security
+- Users</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In the Administrative interface, separate company-specific items from higher-level items.\par
+\par
+- \cf2 Clinicians\cf1\par
+- \cf2 Diagnoses\cf1\par
+- ...\par
+\par
+&lt;divider&gt;\par
+\par
+- Companies\par
+- Security\par
+- Users\par
+}
+</RichDescription>
+    <Sequence>37</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-07-29T13:02:36.3093615-04:00</DateAdded>
+    <DateModified>2014-07-13T10:03:19.5802788-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-c778d8dd-2248-4a6e-9032-edcd36c24902</UniqueID>
+    <UserID>REQ-38-4</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Add Parent Company entity</Name>
+    <Description>Parent Company is a higher-level entity that the companies we have now.
+
+Any company in AgilePM must be a part of a Parent Company.
+
+From the UI standpoint, it's not a big change, it only adds a column to Companies list and a dropdown to select Parent Company on company creation (the dropdown is only available to System Admins)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Parent Company is a higher-level entity that the companies we have now.\par
+\par
+Any company in AgilePM must be a part of a Parent Company.\par
+\par
+From the UI standpoint, it's not a big change, it only adds a column to Companies list and a dropdown to select Parent Company on company creation (the dropdown is only available to System \cf2\ul Admins\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>38</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-07-29T13:06:11.4060935-04:00</DateAdded>
+    <DateModified>2014-07-13T10:03:28.2999521-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-7ef0df7c-853f-4fa1-8012-56df8bde03cd</UniqueID>
+    <UserID>REQ-38-5</UserID>
+    <ParentID>P-c0291a52-5f77-485d-aa1d-2b2e0b93e0cd</ParentID>
+    <Name>Change 'Add New Charge' behavior</Name>
+    <Description>In the new permissions list, there are two permissions:
+AgilePM - Case Finances - Can Post Charges Manually Anytime
+AgilePM - Case Finances - Can Post Charges Manually Until Billed
+
+Permission #1 allows to post payments manually any time after DN was submitted to billing (this is how it works now). CBCs will not have this permission in the new security model.
+
+CBCs will have permission #2 which means that CBCs can add any charge only until charges status is Created. Once status changes to Billed, the following restriction is applied to the CPT code dropdown in the "Add new charge" form: for insurance-paid charges, the system must only allow to select Supplies (CBC cannot add a new charge for time/visit-based procedure). 
+CBC can still select any CPT code, if they are adding a self-paid procedure (if they select a self-paid non-supply and the clear "self-pay" check box, clear out contents of CPT dropdown).
+
+Note that this permission has an exception. CBCs can still post any kind of charge for cases where patient's first name is any of the following (not case-sensitive):
+Supply
+Medical Records
+Gym/Maintenance
+Personal Training
+Massage</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In the new permissions list, there are two permissions:\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 AgilePM - \cf2 Case\cf1  Finances - Can Post Charges Manually Anytime\par
+{\pntext\f0 2.\tab}AgilePM - \cf2 Case\cf1  Finances - Can Post Charges Manually Until Billed\par
+\pard\par
+Permission #1 allows to post payments manually any time after DN was submitted to billing (this is how it works now). \cf3\ul CBCs\cf1\ulnone  will \b not\b0  have this permission in the new security model.\par
+\par
+\cf3\ul CBCs\cf1\ulnone  will have permission #2 which means that \cf3\ul CBCs\cf1\ulnone  can add any charge only until charges status is Created. Once status changes to Billed, the following restriction is applied to the \cf2 CPT code\cf1  dropdown in the "Add new charge" form: for insurance-paid charges, the system must only allow to select Supplies (\cf3\ul CBC\cf1\ulnone  cannot add a new charge for time/visit-based \cf2 procedure\cf1 ). \par
+\cf3\ul CBC\cf1\ulnone  can still select any \cf2 CPT code\cf1 , if they are adding a self-paid \cf2 procedure\cf1  (if they select a self-paid non-supply and the clear "self-pay" check box, clear out contents of CPT dropdown).\par
+\par
+Note that this permission has an exception. \cf3\ul CBCs\cf1\ulnone  can still post any kind of charge for \cf2 cases\cf1  where \cf3\ul patient\cf1\ulnone 's first name is any of the following (not \cf2 case\cf1 -sensitive):\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Supply\par
+{\pntext\f1\'B7\tab}Medical Records\par
+{\pntext\f1\'B7\tab}Gym/Maintenance\par
+{\pntext\f1\'B7\tab}Personal Training\par
+{\pntext\f1\'B7\tab}Massage\par
+}
+</RichDescription>
+    <Sequence>39</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-10-03T13:49:30.0827467-04:00</DateAdded>
+    <DateModified>2014-07-13T10:03:35.3349658-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <ExternalDoc>
+    <UniqueID>EX-ab44f390-4faf-46c8-8d21-3061cebe2bf5</UniqueID>
+    <ParentID>REQ-0c50352e-b608-4509-a8e3-c3d80b66147a</ParentID>
+    <Name>Common_CPT_Codes.xlsx</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-04c1d13c-3f02-4941-99c4-7bc48557a2e0</UniqueID>
+    <ParentID>REQ-8107ec4f-8964-4fc9-8137-d3381ce1805c</ParentID>
+    <Name>Common_CPT_Codes.xlsx</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-64204135-c87a-4e59-8fb8-d92e01334431</UniqueID>
+    <ParentID>REQ-c778d8dd-2248-4a6e-9032-edcd36c24902</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Companies</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-32-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-32-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-32-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-32-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <ReqReq>
+    <ParentID>REQ-a0251c2b-f201-46ab-9887-55b886738887</ParentID>
+    <ReqID>REQ-36bd66e7-8ded-4c23-a483-0f6b2276ef3f</ReqID>
+  </ReqReq>
+</UCTDataSet>

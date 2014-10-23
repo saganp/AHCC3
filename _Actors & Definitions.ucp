@@ -1,0 +1,429 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5088</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</UniqueID>
+    <ExternalParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ExternalParentID>
+    <Name>_Actors</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Actor>
+    <UniqueID>A-07842535-513e-4df0-88aa-2e8131842903</UniqueID>
+    <UserID>A-17</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Student</Name>
+    <Sequence>5</Sequence>
+    <DateAdded>2013-11-18T18:27:38.9351223-05:00</DateAdded>
+    <DateModified>2014-07-14T11:12:19.7288857-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-93296bff-cecb-45f3-948d-8364dd64ff0e</UniqueID>
+    <UserID>A-16</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>AR Specialist</Name>
+    <Sequence>1</Sequence>
+    <DateAdded>2013-09-26T07:41:21.5755565-04:00</DateAdded>
+    <DateModified>2014-07-14T11:11:46.9559938-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-5945ef97-04bf-4493-99f4-336c60eb5e1a</UniqueID>
+    <UserID>A-15</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Payment Poster</Name>
+    <Sequence>12</Sequence>
+    <DateAdded>2013-08-26T06:02:39.7993163-04:00</DateAdded>
+    <DateModified>2014-07-14T11:13:21.2509806-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-e02ccd8d-119f-47f8-88cc-c71b65b5021d</UniqueID>
+    <UserID>A-14</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>AgilePM Admin</Name>
+    <Description>AgilePM Administrator - old security model</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 AgilePM Administrator - old security model\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Complexity />
+    <DateAdded>2013-07-15T08:48:19.6439643-04:00</DateAdded>
+    <DateModified>2014-07-14T11:11:46.9559938-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-019a0b2c-a5b6-4dd5-b05c-fcf320a83b4f</UniqueID>
+    <UserID>A-13</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Regional Operations Director</Name>
+    <Sequence>7</Sequence>
+    <DateAdded>2013-04-17T16:36:49.1634183-04:00</DateAdded>
+    <DateModified>2014-07-14T11:12:29.6029261-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-c5126c03-6b4c-4c7c-98de-d352967c8b49</UniqueID>
+    <UserID>A-12</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Site Leader</Name>
+    <Sequence>8</Sequence>
+    <DateAdded>2013-04-17T16:36:39.4128606-04:00</DateAdded>
+    <DateModified>2014-07-14T11:12:29.8681057-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-a3415a7f-8f2a-4e60-b81d-bb6a820887af</UniqueID>
+    <UserID>A-11</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Referral Specialist</Name>
+    <Description>User that handles referrals from Referring Physician at the corporate level. Mostly it is handled by the CBC but for Advent currently it's handled by a central person at corporate.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 User that handles referrals from \cf1 Referring Physician\cf2  at the corporate level. Mostly it is handled by the \cf3\ul CBC\cf2\ulnone  but for Advent currently it's handled by a central person at corporate.\cf0\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Complexity />
+    <DateAdded>2013-03-23T01:32:56.3634486-04:00</DateAdded>
+    <DateModified>2014-07-14T11:12:30.1332853-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-a5b3b198-9e21-4cbb-9176-facace7e6282</UniqueID>
+    <UserID>A-9</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>System Clock</Name>
+    <Sequence>18</Sequence>
+    <DateAdded>2013-03-21T03:56:41.6018551-04:00</DateAdded>
+    <DateModified>2014-07-14T11:13:23.0917924-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-03a0bbf5-1eff-4878-a1d4-9b1fd23d7673</UniqueID>
+    <UserID>A-8</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Payment Processor</Name>
+    <Description>Works with Rosemary, the Revenue Cycle Manager, to check in the lock box what has been paid and reconciling it with the AH system. Records what has been paid. </Description>
+    <RichDescription>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\ltrpar\f0\fs22 Works with Rosemary, the \cf1\ul Revenue Cycle Manager\cf2\ulnone ,\cf0  to check in the lock box what has been paid and reconciling it with the \cf3 AH\cf0  system. Records what has been paid. \f1\fs20\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <Complexity />
+    <DateAdded>2013-03-15T11:47:47.7035308-04:00</DateAdded>
+    <DateModified>2014-07-14T11:13:20.7829776-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-320391d8-722d-447e-9497-fe666226e1a2</UniqueID>
+    <UserID>A-7</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Revenue Cycle Manager</Name>
+    <Description>Oversees all aspects of revenue cycle management for all locations. -Reviews Charge Capture done in clinics by cbc.
+Claims processing which is batching the claims up and pushing them through the insurance clearning house for payment
+Payment Processing = processing the info about who paid what, etc.
+Accounts receivables, collections, copays.  Accounts Receivable management is monitoring who is up to date on payments, who is not, why not, etc. </Description>
+    <RichDescription>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\ltrpar\fi-360\li360\f0\fs22 Oversees all aspects of revenue cycle management for all locations. -Reviews \cf1 Charge Capture\cf0  done in clinics by \cf2\ul cbc\cf0\ulnone .\par
+{\pntext\f2\'B7\tab}Claims processing which is batching the claims up and pushing them through the insurance clearning house for payment\par
+{\pntext\f2\'B7\tab}Payment Processing = processing the info about who paid what, etc.\f1\fs20\par
+\f0\fs22{\pntext\f2\'B7\tab}Accounts receivables, collections, copays.  Accounts Receivable management is monitoring who is up to date on payments, who is not, why not, etc. \f1\fs20\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <Complexity />
+    <DateAdded>2013-03-15T11:28:56.2708165-04:00</DateAdded>
+    <DateModified>2014-07-14T11:13:21.0169791-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-b33f77b4-561f-4690-a0e1-7e36e9cb395b</UniqueID>
+    <UserID>A-5</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Office Support</Name>
+    <Description>Office Support is also sometimes called CBC Assistant. This actor can see and retrieve but cannot create, edit or delete with regard to clinical documentation. 
+Other areas of the system they can manage things more fully. 
+Support staff cannot close the day in any clinic currently.</Description>
+    <RichDescription>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\ltrpar\cf1\ul\f0\fs20 Office Support\cf2\ulnone  is also sometimes called \cf1\ul CBC\cf2\ulnone  Assistant. This actor \cf0\f1\fs22 can see and retrieve but cannot create, edit or delete with regard to clinical documentation. \par
+Other areas of the system they can manage things more fully. \par
+Support staff cannot close the day in any clinic currently.\f0\fs20\par
+}
+</RichDescription>
+    <Sequence>13</Sequence>
+    <Complexity />
+    <DateAdded>2013-03-14T11:58:19.0349581-04:00</DateAdded>
+    <DateModified>2014-07-14T11:13:21.469382-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-88f81fba-8458-456b-8b95-eb0f9cb5a256</UniqueID>
+    <UserID>A-4</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Physical Therapist Assistant</Name>
+    <Description>Physical Therapist Assistant
+PTAs can and must only sign a doc when they ‘touch’ it or provide info in it. 
+PTA can never be the sole signature on a doc. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Physical Therapist Assistant\cf2\par
+\cf3\ul\f1\fs22 PTAs\cf0\ulnone  can and must only sign a doc when they \lquote touch\rquote  it or provide info in it. \cf2\par
+\cf3\ul PTA\cf0\ulnone  can never be the sole signature on a doc. \f0\fs20\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Complexity />
+    <DateAdded>2013-03-14T11:47:04.2160111-04:00</DateAdded>
+    <DateModified>2014-07-14T11:12:19.7288857-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-f5abda97-e789-4b4b-96de-a1abf15f2939</UniqueID>
+    <UserID>A-3</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Patient</Name>
+    <Description>A Patient is a person upon whom a Clinician has a goal of improving their quality of life</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 A \cf1\ul Patient\cf2\ulnone  is a person upon whom a \cf1\ul Clinician\cf2\ulnone  has a goal of improving their quality of life\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Complexity />
+    <DateAdded>2013-03-14T11:47:58.3999655-04:00</DateAdded>
+    <DateModified>2014-07-14T11:12:24.7984957-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</UniqueID>
+    <UserID>A-2</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Physical Therapist</Name>
+    <Description>Physical Therapist also known as the AH generic term of Clinician. 
+User role in system is Clinician currently. 
+Once PT signs it, it becomes a record and is locked and it becomes READ ONLY. When you ‘reopen a case’ it removes the signatures and fields become editable again.  </Description>
+    <RichDescription>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\ltrpar\cf1\f0\fs20 Physical Therapist\cf2  also known as the \cf1 AH\cf2  generic term of \cf3\ul Clinician\cf2\ulnone . \par
+\cf0\f1\fs22 User role in system is \cf1 Clinician\cf0  currently. \cf2\par
+\cf0 Once \cf1 PT\cf0  signs it, it becomes a record and is locked and it becomes READ ONLY. When you \lquote reopen a case\rquote  it removes the signatures and fields become editable again.  \f0\fs20\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Complexity />
+    <DateAdded>2013-03-14T11:46:53.304836-04:00</DateAdded>
+    <DateModified>2014-07-14T11:12:15.2364369-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</UniqueID>
+    <UserID>A-1</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>CBC</Name>
+    <Description>Clinical Business Coordinator 
+Office Manager at any given Clinic, facility, site. Responsible for AR, Patient Case Management, Intake, Scheduling of all patient appts in clinic, recording of services provided by PTs or PTAs and daily close process, insurance validation, etc. </Description>
+    <RichDescription>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\ltrpar\cf1\f0\fs20 Clinical Business Coordinator\cf2  \par
+\cf0\f1\fs22 Office Manager at any given Clinic, facility, site. Responsible for AR, \cf3\ul Patient\cf0\ulnone  \cf1 Case\cf0  Management, Intake, Scheduling of all \cf3\ul patient\cf0\ulnone  appts in clinic, recording of services provided by \cf3\ul PTs\cf0\ulnone  or \cf3\ul PTAs\cf0\ulnone  and daily close process, insurance validation, etc. \f0\fs20\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Complexity />
+    <DateAdded>2013-03-14T11:47:09.6798693-04:00</DateAdded>
+    <DateModified>2014-07-14T11:12:05.4404533-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-765569bf-973e-4242-8bcd-7a2c3e47eedd</UniqueID>
+    <UserID>A-34-1</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>System Admin</Name>
+    <Description>System Admin - user has administrative access to all companies. Roles can be assigned on the company level.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\b\f0\fs20 System Admin\cf2\ulnone  \b0 - user has administrative access to all companies. Roles can be assigned on the company level.\par
+\pard\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>14</Sequence>
+    <Complexity />
+    <DateAdded>2013-07-30T13:32:01.4999021-04:00</DateAdded>
+    <DateModified>2014-07-14T11:13:21.6877834-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-64cb1c11-8a8f-4a9a-80a7-00965bc281be</UniqueID>
+    <UserID>A-34-2</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Corporate Admin</Name>
+    <Description>Corporate Admin - user has administrative access to all companies under the Parent Company. Roles can be assigned on the company level.
+
+Corporate Admins do not have access to the System Admin role (cannot assign it to anyone).
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\b\f0\fs20 Corporate Admin\cf2\ulnone  \b0 - user has administrative access to all companies under the Parent Company. Roles can be assigned on the company level.\par
+\pard\par
+\cf1\ul Corporate Admins\cf2\ulnone  do not have access to the \cf1\ul System Admin\cf2\ulnone  role (cannot assign it to anyone).\par
+\pard\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>15</Sequence>
+    <Complexity />
+    <DateAdded>2013-07-30T13:32:36.5559072-04:00</DateAdded>
+    <DateModified>2014-07-14T11:13:21.9685852-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-03e69f7f-7a74-4f47-a8b1-65eb32356dac</UniqueID>
+    <UserID>A-34-4</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Corporate User</Name>
+    <Description>Corporate User - user has access to all companies under the Parent Company. Roles can be assigned on the company level.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue139;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs20 Corporate User\cf2  \b0 - user has access to all companies under the Parent Company. Roles can be assigned on the company level.\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>16</Sequence>
+    <Complexity />
+    <DateAdded>2013-08-06T03:37:44.5672866-04:00</DateAdded>
+    <DateModified>2014-07-14T11:13:22.5925892-04:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-c4958cbf-4203-4aa7-bf64-7cb60364f478</UniqueID>
+    <UserID>A-34-3</UserID>
+    <ParentID>P-4a6d5c2b-41f1-41d9-9b35-f50cf598bbb8</ParentID>
+    <Name>Regular User</Name>
+    <Description>Regular User - user only has access to selected companies under the Parent Company. Roles can be assigned on the company and location level.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue139;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs20 Regular User\cf2  \b0 - user only has access to selected companies under the Parent Company. Roles can be assigned on the company and location level.\par
+}
+</RichDescription>
+    <Sequence>17</Sequence>
+    <Complexity />
+    <DateAdded>2013-08-06T03:13:15.5214709-04:00</DateAdded>
+    <DateModified>2014-07-14T11:13:23.0917924-04:00</DateModified>
+  </Actor>
+  <Goal>
+    <UniqueID>G-dbd84963-1f0a-4cb1-a7c7-cd7fc86d1724</UniqueID>
+    <ParentID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ParentID>
+    <Description>Establish Plan of Care (UC-2-1)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Establish Plan of Care (\cf2\ul UC-2-1\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-a7fe0cb4-d7e3-4a40-ba1e-3875a303553a</UniqueID>
+    <ParentID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ParentID>
+    <Description>Enter Daily Note (UC-2-5-2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Enter Daily Note (\cf2\ul UC-2-5-2\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-61d3ba2b-426d-4e77-b7b7-96682e8919ef</UniqueID>
+    <ParentID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ParentID>
+    <Description>Enter Progress Note (UC-2-5-3)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Enter Progress Note (\cf2\ul UC-2-5-3\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-9f45f7d1-3684-4b22-98e1-d4c7b01ccb1e</UniqueID>
+    <ParentID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ParentID>
+    <Description>Enter Discharge Summary (UC-2-5-4)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Enter Discharge Summary (\cf2\ul UC-2-5-4\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-6f2595f0-0e71-40ff-84c2-1ff3415fe33c</UniqueID>
+    <ParentID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ParentID>
+    <Description>Affix Signature (UC-2-5-5)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Affix Signature (\cf2\ul UC-2-5-5\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-8ff82187-7667-4605-a965-3c7007aa5b5c</UniqueID>
+    <ParentID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ParentID>
+    <Description>Schedule Appointment</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Schedule Appointment\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-26302dd5-fd50-4753-aa64-6042e38d6bdd</UniqueID>
+    <ParentID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ParentID>
+    <Description>Lookup Appointment</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Lookup Appointment\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-d5febc4a-d043-4f42-a31e-addf9f8557f6</UniqueID>
+    <ParentID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ParentID>
+    <Description>Patient Arrival</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\cf2\ulnone  Arrival\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-b40c773a-2a10-4e6f-957f-5df01f1a62d3</UniqueID>
+    <ParentID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ParentID>
+    <Description>Enter Insurance Information</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Enter Insurance Information\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-2f378305-c3be-44f2-92cc-3f1b88acbbe2</UniqueID>
+    <ParentID>A-bf2fe09c-4e3b-4deb-bce3-cf12b3eaa7bd</ParentID>
+    <Description>Process Payments</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Process Payments\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+  </Goal>
+  <UserID>
+    <DefaultPrefix>UC-75-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-75-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-75-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-75-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

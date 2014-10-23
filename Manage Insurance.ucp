@@ -1,0 +1,3068 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5088</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</UniqueID>
+    <ExternalParentID>P-3ac69849-9ce1-452e-8677-00b88688fdfa</ExternalParentID>
+    <Name>Manage Insurance &amp; Auths</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-97de99aa-2104-4f19-b4be-d1e12216cb62</UniqueID>
+    <UserID>UC-85-1</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Create Coverage</Name>
+    <Description>- User opens Insurance page of a case that has no coverages
+- User manually adds a new coverage</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 - User opens Insurance page of a \cf1 case\cf2  that has no coverages\par
+- User manually adds a new coverage\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-01T04:36:47.5521986-04:00</DateAdded>
+    <DateModified>2014-10-13T13:11:33.4962415-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-b27ac05a-acd5-483d-8e35-30426176bbea</UniqueID>
+    <UserID>UC-85-2</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Add Policy</Name>
+    <Description>User adds new insurance policy</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User adds new insurance policy\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-01T04:37:10.4732994-04:00</DateAdded>
+    <DateModified>2014-10-13T13:32:47.4327688-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-e1598c5b-7cfb-45c4-beb9-1a1f0315a8eb</UniqueID>
+    <UserID>UC-85-3</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Edit Policy</Name>
+    <Description>User updates a policy</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User updates a policy\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-01T06:52:11.0562326-04:00</DateAdded>
+    <DateModified>2014-10-03T06:53:12.3375134-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-a8a62dda-0a36-4b18-8906-179888f65938</UniqueID>
+    <UserID>UC-85-4</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Enter Initial Authorization</Name>
+    <Description>User enters first authorization</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enters first authorization\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-01T06:52:21.1339675-04:00</DateAdded>
+    <DateModified>2014-10-13T17:07:16.4425638-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-8e9d8794-50f2-47ef-ba2e-ff2e84d1bc19</UniqueID>
+    <UserID>UC-85-5</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Edit Authorization</Name>
+    <Description>User updates authorization (only available until authorization is billed)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User updates authorization (only available until authorization is billed)\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-01T06:52:34.940233-04:00</DateAdded>
+    <DateModified>2014-10-13T17:07:39.5153647-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-a90e96da-3d31-42a5-ae26-2eecd3514ce2</UniqueID>
+    <UserID>UC-85-6</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Add Authorization</Name>
+    <Description>User adds new authorization</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User adds new authorization\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-01T06:52:45.9072439-04:00</DateAdded>
+    <DateModified>2014-10-13T17:08:20.1070851-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-01b2ba66-8ddc-4181-bfe4-cd86db3dcb2e</UniqueID>
+    <UserID>UC-85-7</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Delete Authorization</Name>
+    <Description>User deletes authorization (only available until authorization is billed)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User deletes authorization (only available until authorization is billed)\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-01T06:52:51.320548-04:00</DateAdded>
+    <DateModified>2014-10-13T17:08:37.0489023-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-84f9f0a3-1acf-46da-808d-1af456d2f656</UniqueID>
+    <UserID>UC-85-8</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Mark Authorization as Error</Name>
+    <Description>User marks auth as error (only available after the auth has been billed). Once auth is marked as error, it's only displayed on the Insurance page as historical information, the auth is not used for billing purposes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User marks auth as error (only available after the auth has been billed). Once auth is marked as error, it's only displayed on the Insurance page as historical information, the auth is not used for billing purposes.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-01T06:52:57.6386695-04:00</DateAdded>
+    <DateModified>2014-10-13T17:05:43.3406078-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-6cb58398-b239-46a7-8e77-de0ce9c8d4b6</UniqueID>
+    <UserID>UC-85-9</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>View Appointments and Auths</Name>
+    <Description>User opens the list of appointments and applicable auth numbers. Color of the icon depends on whether all appointments are covered by a valid auth (red if there are appointments not covered by a valid auth and black if all appointments are covered.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens the list of \cf1 appointments\cf2  and applicable auth numbers. Color of the icon depends on whether all \cf1 appointments\cf2  are covered by a valid auth (red if there are \cf1 appointments\cf2  not covered by a valid auth and black if all \cf1 appointments\cf2  are covered.\cf0\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-02T05:24:51.5164261-04:00</DateAdded>
+    <DateModified>2014-10-13T17:09:34.9568313-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-bb5a173c-82a4-452a-9703-b2c0e1432982</UniqueID>
+    <UserID>UC-85-10</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Schedule Appt Without Authorization</Name>
+    <Description>User schedules an appointment without authorization</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User schedules an \cf1 appointment\cf2  without authorization\cf0\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-03T06:14:15.8082112-04:00</DateAdded>
+    <DateModified>2014-10-22T05:25:05.9107386-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-fda5bb47-e6a0-4a21-9d00-8702d474723e</UniqueID>
+    <UserID>UC-85-11</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Acknowledge Appt Without Authorization</Name>
+    <Description>User acknowledges an appointment without authorization</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User acknowledges an \cf1 appointment\cf2  without authorization\cf0\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-03T06:24:56.9340582-04:00</DateAdded>
+    <DateModified>2014-10-22T05:22:18.9456203-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-40ad55ce-9ade-452d-99a2-c49fbc8eb9da</UniqueID>
+    <UserID>UC-85-12</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Reschedule Appt Without Authorization</Name>
+    <Description>User reschedules an appointment to a date not covered by authorization</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User reschedules an \cf1 appointment\cf2  to a date not covered by authorization\cf0\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-03T06:24:56.9340582-04:00</DateAdded>
+    <DateModified>2014-10-13T17:05:57.5834991-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-84fb6878-18f9-4417-992f-14f21c54716a</UniqueID>
+    <UserID>UC-85-13</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Submit charges and put auth on hold</Name>
+    <Description>CBC put encounter on hold from the DN review screen.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 CBC\cf2\ulnone  put encounter on hold from the DN review screen.\cf0\par
+}
+</RichDescription>
+    <Sequence>12</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-14T05:47:02.4603959-04:00</DateAdded>
+    <DateModified>2014-10-14T06:51:34.3176009-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-29070f67-52da-40b2-a4f0-c534c72f4af0</UniqueID>
+    <UserID>UC-85-14</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Release from Hold with a new auth</Name>
+    <Description>User releases encounter from hold</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User releases encounter from hold\par
+}
+</RichDescription>
+    <Sequence>13</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-10-14T05:54:06.3968744-04:00</DateAdded>
+    <DateModified>2014-10-14T05:56:07.8436438-04:00</DateModified>
+  </UseCase>
+  <Scenario>
+    <UniqueID>MSS-eb72e5b5-833d-4931-b0e5-2a261061047a</UniqueID>
+    <ParentID>UC-97de99aa-2104-4f19-b4be-d1e12216cb62</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-ec37e487-61b6-4ab5-9ca1-78db7f10036d</UniqueID>
+    <ParentID>UC-b27ac05a-acd5-483d-8e35-30426176bbea</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-ce64299b-2034-4df1-8eeb-8075e4b22982</UniqueID>
+    <ParentID>UC-e1598c5b-7cfb-45c4-beb9-1a1f0315a8eb</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-91ba0e43-c5d7-4c5e-a3e9-4ff726e6f105</UniqueID>
+    <ParentID>UC-a8a62dda-0a36-4b18-8906-179888f65938</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-35d59dda-0296-46cb-909b-766a9105e64a</UniqueID>
+    <ParentID>UC-8e9d8794-50f2-47ef-ba2e-ff2e84d1bc19</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-b4243ee1-ce68-4996-9604-ebff606dee50</UniqueID>
+    <ParentID>UC-a90e96da-3d31-42a5-ae26-2eecd3514ce2</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-ce787a18-dddb-46c3-9dc4-2b9083b35870</UniqueID>
+    <ParentID>UC-01b2ba66-8ddc-4181-bfe4-cd86db3dcb2e</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-063672e8-5476-42a2-b880-bea9a6bb14a3</UniqueID>
+    <ParentID>UC-84f9f0a3-1acf-46da-808d-1af456d2f656</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-9516e4b1-4b9a-4c9a-bc55-f32c9a6bfbe0</UniqueID>
+    <ParentID>UC-6cb58398-b239-46a7-8e77-de0ce9c8d4b6</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</UniqueID>
+    <ParentID>UC-bb5a173c-82a4-452a-9703-b2c0e1432982</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-4f6a92c9-0443-41d7-ba5d-e2581fe14f68</UniqueID>
+    <ParentID>UC-fda5bb47-e6a0-4a21-9d00-8702d474723e</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-bfccd3c2-f7ba-4484-9dc4-388aabf7f277</UniqueID>
+    <ParentID>UC-40ad55ce-9ade-452d-99a2-c49fbc8eb9da</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-07f334b8-0ad4-4be6-bcd5-85232dc4ccd7</UniqueID>
+    <ParentID>UC-84fb6878-18f9-4417-992f-14f21c54716a</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-11a68c7d-45b8-4ce4-ba16-dbfe88b6d332</UniqueID>
+    <ParentID>UC-29070f67-52da-40b2-a4f0-c534c72f4af0</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-51f0b2c0-8114-4826-a485-501a30212314</UniqueID>
+    <UserID>REQ-85-1</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Insurance Page Alerts and Status Messages</Name>
+    <Description>New Case Alerts (appear as soon as the policy is added, disappear as soon as a valid auth is added or if the case is discharged)
+Required before evaluation
+Required after evaluation, but before next visit
+Separate authorizations are required for evaluation and treatment
+
+Auth Status (applicable to most recent authorization, not shown in D/C cases)
+Remaining: X visits / Z days (if days or visits are not applicable, do not show "visits" or "days")
+Authorization expires after next visit (shows up as soon as user acknowledges appointment before last authorized)
+Authorization expires in 3 days (shows up at midnight, number of days is updated every night, 3-2-1)
+Authorization Expired
+If auth has both visits and days expiring, the system shows whatever alert comes into effect first (it should not duplicate "expiring" alerts here or in work queue)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs20 New \cf2 Case\cf1  Alerts \b0 (appear as soon as the policy is added, disappear as soon as a valid auth is added or if the \cf2 case\cf1  is discharged)\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Required before \cf2 evaluation\cf1\par
+{\pntext\f1\'B7\tab}Required after \cf2 evaluation\cf1 , but before next \cf2 visit\cf1\par
+{\pntext\f1\'B7\tab}Separate authorizations are required for \cf2 evaluation\cf1  and treatment\par
+\pard\par
+\b Auth Status \b0 (applicable to most recent authorization, not shown in \cf2 D/C\cf1  \cf2 cases\cf1 )\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Remaining: X \cf2 visits\cf1  / Z days (\i if days or \cf2 visits\cf1  are not applicable, do not show "\cf2 visits\cf1 " or "days"\i0 )\par
+{\pntext\f1\'B7\tab}Authorization expires after next \cf2 visit\cf1  (\i shows up as soon as user acknowledges \cf2 appointment\cf1  before last authorized\i0 )\par
+{\pntext\f1\'B7\tab}Authorization expires in 3 days (\i shows up at midnight, number of days is updated every night, 3-2-1\i0 )\par
+{\pntext\f1\'B7\tab}Authorization Expired\par
+\pard If auth has both \cf2 visits\cf1  and days expiring, the system shows whatever alert comes into effect first (it should not duplicate "expiring" alerts here or in work queue)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-10-01T06:54:14.001449-04:00</DateAdded>
+    <DateModified>2014-10-02T10:14:00.2810247-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-12b63d3b-a52c-4dfd-bf63-b1bb671a91c3</UniqueID>
+    <UserID>REQ-85-2</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Auths in Work Queue</Name>
+    <Description>There will be 3 Work Queue tasks related to auths:
+Auth Required 
+Auth Expiring
+Auth Expired
+
+Auth Required shows up for new policies where auth was not specified. Disappears automatically as soon as user adds an auth.
+Auth Expiring shows up in the WQ as soon as the corresponding alert appears, but only if there are planned and/or scheduled appointments beyond what's covered by an existing auth. Disappears automatically as soon as user adds a new auth.
+Auth Expired shows up in the WQ as soon as current authorization expires, but only if there are planned and/or scheduled appointments beyond what's covered by an existing auth. Disappears automatically as soon as user adds a new auth.
+
+All auth-related tasks should appear in the CBC queue below Daily Note Review Tasks.
+
+All auth related tasks should have the following:
+Case ID
+Patient Name
+Task name
+Action - "Go to Insurance" (opens case Insurance page)
+"Assigned To" dropdown
+
+
+Service Date is not applicable to these tasks, the column should be empty for auth tasks. 
+In the Appointment Clinician column, the system should display insurance plan name.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 There will be 3 Work Queue tasks related to auths:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Auth Required \par
+{\pntext\f1\'B7\tab}Auth Expiring\par
+{\pntext\f1\'B7\tab}Auth Expired\par
+\pard\par
+\b Auth Required \b0 shows up for new policies where auth was not specified. Disappears automatically as soon as user adds an auth.\par
+\b Auth Expiring \b0 shows up in the WQ as soon as the corresponding alert appears, but only if there are planned and/or scheduled \cf1 appointments\cf2  beyond what's covered by an existing auth\cf0 . Disappears automatically as soon as user adds a new auth.\cf2\par
+\b Auth Expired \b0 shows up in the WQ as soon as current authorization expires, \cf0 but only if there are planned and/or scheduled \cf1 appointments\cf2  beyond what's covered by an existing auth\cf0 . Disappears automatically as soon as user adds a new auth.\par
+\par
+All auth-related tasks should appear in the \cf3\ul CBC\cf2\ulnone  queue below \cf1 Daily Note\cf2  Review Tasks.\par
+\par
+All auth related tasks should have the following:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf1 Case\cf2  ID\cf0\par
+\cf3\ul{\pntext\f1\'B7\tab}Patient\cf2\ulnone  Name\cf0\par
+\cf2{\pntext\f1\'B7\tab}Task name\cf0\par
+\cf2{\pntext\f1\'B7\tab}Action - "Go to Insurance" (opens \cf1 case\cf2  Insurance page)\cf0\par
+\cf2{\pntext\f1\'B7\tab}"Assigned To" dropdown\cf0\par
+\pard\par
+\par
+Service Date is not applicable to these tasks, the column should be empty for auth tasks. \par
+\pard In the \cf1 Appointment\cf0  \cf1 Clinician\cf0  column, the system should display insurance plan name.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-10-01T06:54:35.623286-04:00</DateAdded>
+    <DateModified>2014-10-22T05:28:08.469953-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a7facdad-33a6-4dd2-bb05-84ae941147c2</UniqueID>
+    <UserID>REQ-85-3</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Auths in Schedule</Name>
+    <Description>If an appointment is not covered by auth, the system must:
+Show patient name in red in the appointment block on the schedule
+Show "Authorization is missing for this appointment" warning in appointment details under the Insurance section</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If an \cf2 appointment\cf1  is not covered by auth, the system must:\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 Show \cf3\ul patient\cf1\ulnone  name in red in the \cf2 appointment\cf1  block on the schedule\par
+{\pntext\f0 2.\tab}Show "Authorization is missing for this \cf2 appointment\cf1 " warning in \cf2 appointment\cf1  details under the Insurance section\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-10-01T06:54:51.7226924-04:00</DateAdded>
+    <DateModified>2014-10-03T06:14:11.0190657-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-e09f18df-0e1f-4d70-aad5-0b978eba60db</UniqueID>
+    <UserID>REQ-85-4</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Auth Mandatory Fields</Name>
+    <Description>Authorization form contains 6 fields:
+* Authorization Number
+~ Auth Visits
+~ Auth Start
+~ Auth End
+Call Reference Number
+* Insurance Representative
+
+Mandatory fields are marked with asterisks. The ~ sign means that user cannot leave empty all 3 fields, user must specify either Auth Visits or Start+End dates. User can fill out all of them, of course, but cannot leave all of them empty (or enter only 1 date). 
+
+If user leaves empty all 3 ~ fields and tries to save changes, highlight all of them. If user specifies 1 date, only highlight the other date field.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Authorization form contains 6 fields:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf0 * Authorization Number\par
+{\pntext\f1\'B7\tab}~ Auth \cf2 Visits\cf0\par
+{\pntext\f1\'B7\tab}~ Auth Start\par
+{\pntext\f1\'B7\tab}~ Auth End\par
+{\pntext\f1\'B7\tab}Call Reference Number\par
+{\pntext\f1\'B7\tab}* Insurance Representative\cf1\par
+\pard\par
+\cf0 Mandatory fields are marked with asterisks. The ~ sign means that user cannot leave empty all 3 fields, user must specify either Auth \cf2 Visits\cf1  or Start+End dates. User can fill out all of them, of course, but cannot leave all of them empty (or enter only 1 date). \par
+\par
+If user leaves empty all 3 ~ fields and tries to save changes, highlight all of them. If user specifies 1 date, only highlight the other date field.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-10-02T04:19:51.7008972-04:00</DateAdded>
+    <DateModified>2014-10-02T04:46:09.0848482-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-b0df034e-4178-41c0-9117-db783dca3d44</UniqueID>
+    <UserID>REQ-85-5</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Lock Billed Auths</Name>
+    <Description>As soon as an authorization number is used to generate charges, the system must lock that authorization entry by:
+Hiding the Edit icon for that authorization
+Changing behaviour of the Delete icon for the auth - the system should not allow deleting such auth, so if user click the Delete icon, the system must run UC-85-8 "Mark Auth as Error"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 As soon as an authorization number is used to generate charges, the system must lock that authorization entry by:\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent350\pnstart1\pndec{\pntxta.}}
+\fi-360\li360 Hiding the Edit icon for that authorization\par
+{\pntext\f0 2.\tab}Changing behaviour of the Delete icon for the auth - the system should not allow deleting such auth, so if user click the Delete icon, the system must run \cf2\ul UC-85-8\cf1\ulnone  "Mark Auth as Error"\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-10-02T05:31:00.5085725-04:00</DateAdded>
+    <DateModified>2014-10-14T06:50:13.8052246-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-2cfd51bc-1902-4a82-8f86-c3ae07856f75</UniqueID>
+    <UserID>REQ-85-6</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Re-check auth on Rebill</Name>
+    <Description>If user performs a rebill, the system must check for updates to the auths. If previously used auth # was marked as error, and a new one was entered, the system must use the new one.
+
+If previous auth was marked as error, but no replacement auth was entered, the system must not allow rebilling such appointment. Error message: "Cannot rebill appointment without a valid authorization".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If user performs a rebill, the system must check for updates to the auths. If previously used auth # was marked as error, and a new one was entered, the system must use the new one.\par
+\par
+If previous auth was marked as error, but no replacement auth was entered, the system must not allow rebilling such \cf2 appointment\cf1 . Error message: "Cannot rebill \cf2 appointment\cf1  without a valid authorization".\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-10-02T05:35:19.7384847-04:00</DateAdded>
+    <DateModified>2014-10-14T06:50:14.1640269-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-c2853200-6429-4472-88fa-17e56f2e93c6</UniqueID>
+    <UserID>REQ-85-7</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Add Admin Settings for Authorizations</Name>
+    <Description>Add a section in Insurance Plan details called "Insurance Authorization". The section should contain a dropdown with authorization options:
+Not Required (default)
+Before Evaluation/Re-Evaluation
+After evaluation, but before next visit
+Separate auths for evaluation and treatment
+
+If user selected "Before Evaluation/Re-Evaluation" or "Separate auths for evaluation and treatment", the system must also display the "Allow acknowledging eval without an authorization" check box (cleared by default). If the check box is selected, the system must enable UC-85-11.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Add a section in Insurance Plan details called "Insurance Authorization". The section should contain a dropdown with authorization options:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Not Required (default)\par
+{\pntext\f1\'B7\tab}Before Evaluation/Re-Evaluation\par
+{\pntext\f1\'B7\tab}After \cf2 evaluation\cf1 , but before next \cf2 visit\cf1\par
+{\pntext\f1\'B7\tab}Separate auths for \cf2 evaluation\cf1  and treatment\par
+\pard\par
+If user selected "Before Evaluation/Re-Evaluation" or "Separate auths for \cf2 evaluation\cf1  and treatment", the system must also display the "Allow acknowledging \cf2 eval\cf1  without an authorization" check box (cleared by default). If the check box is selected, the system must enable \cf3\ul UC-85-11\cf1\ulnone .\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-10-02T10:03:11.2447593-04:00</DateAdded>
+    <DateModified>2014-10-14T06:50:14.6320299-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-9595b6f8-c3ea-445d-a8a2-51136769123c</UniqueID>
+    <UserID>REQ-85-9</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Update Auth Calculations on Home page</Name>
+    <Description>On the Case Home page, the system must display the following in the Insurance table:
+Total Number of authorized visits (cumulative for all non-error auths). If visits were not entered, show empty cell.
+Auth Until - end date of current or most recent auth (if applicable, otherwise empty)
+
+In the appointments section, the same data is used to show authorization info (total number of authorized visits and expiration date).
+
+If auth is expiring or already expired, highlight values in these fields with red. Highlight should not occur in discharged cases.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 On the \cf2 Case\cf1  Home page, the system must display the following in the Insurance table:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Total Number of authorized \cf2 visits\cf1  (cumulative for all non-error auths). If \cf2 visits\cf1  were not entered, show empty cell.\par
+{\pntext\f1\'B7\tab}Auth Until - end date of current or most recent auth (if applicable, otherwise empty)\par
+\pard\par
+In the \cf2 appointments\cf1  section, the same data is used to show authorization info (total number of authorized \cf2 visits\cf1  and expiration date).\par
+\par
+If auth is expiring or already expired, highlight values in these fields with red. Highlight should not occur in discharged \cf2 cases\cf1 .\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-10-03T06:36:59.9911682-04:00</DateAdded>
+    <DateModified>2014-10-14T06:51:54.1454551-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-6c2bf13d-1756-4d21-8ef3-2e7cb8405b76</UniqueID>
+    <UserID>REQ-85-10</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Override Reasons</Name>
+    <Description>Override reasonsa as displayed in the dropdown:
+Carrier System Down – Unable to Obtain
+Authorization Pending with Carrier
+Per Provider Representative Authorization Not Required
+Retroauth Allowed
+Therapist Approved</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Override reasonsa as displayed in the dropdown:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf2 Carrier\cf1  System Down \endash  Unable to Obtain\par
+{\pntext\f1\'B7\tab}Authorization Pending with \cf2 Carrier\cf1\par
+{\pntext\f1\'B7\tab}Per Provider Representative Authorization Not Required\par
+{\pntext\f1\'B7\tab}Retroauth Allowed\par
+{\pntext\f1\'B7\tab}Therapist Approved\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-10-13T05:24:56.7197599-04:00</DateAdded>
+    <DateModified>2014-10-14T06:51:54.1454551-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-38e10e52-e96c-48fa-91ea-a16b4fd5742c</UniqueID>
+    <UserID>REQ-85-11</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Keep History of Insurance Validation</Name>
+    <Description>The system must keep history of insurance validation, re-validation and un-validation. Each entry should be displayed in the following format: "&lt;Event&gt; by &lt;user&gt; on &lt;date&gt;"
+
+The corresponding record must appear as soon as user applies changes on the coverage level:
+User selects Validation check box for the first time - the system updates validation date. Event: Validated
+User updates any field in an already validated policy, Validation check box stays selected - the system applies changes and updates validation date. Event: Re-validated.
+User selects Validation check box (it was previously selected and then cleared) - the system updates validation date. Event: Re-validated.
+User clears the Validation check box - the system applies changes. Event: Un-validated.
+
+If user opens policy, makes no changes and presses Save, the system should neither update Validation date, nor add it as an Event to history.
+
+By default, policy history is collapsed, user can expand it and collapse back again (the view state is not saved when user closes the dialog).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system must keep history of insurance validation, re-validation and un-validation. Each entry should be displayed in the following format: "&lt;Event&gt; by &lt;user&gt; on &lt;date&gt;"\par
+\par
+The corresponding record must appear as soon as user applies changes on the coverage level:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 User selects Validation check box for the first time - the system updates validation date. Event: Validated\par
+{\pntext\f1\'B7\tab}User updates any field in an already validated policy, Validation check box stays selected - the system applies changes and updates validation date. Event: Re-validated.\par
+{\pntext\f1\'B7\tab}User selects Validation check box (it was previously selected and then cleared) - the system updates validation date. Event: Re-validated.\par
+{\pntext\f1\'B7\tab}User clears the Validation check box - the system applies changes. Event: Un-validated.\par
+\pard\par
+If user opens policy, makes no changes and presses Save, the system should neither update Validation date, nor add it as an Event to history.\par
+\par
+By default, policy history is collapsed, user can expand it and collapse back again (the view state is not saved when user closes the dialog).\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-10-13T13:17:32.9312087-04:00</DateAdded>
+    <DateModified>2014-10-14T06:51:54.1454551-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0784f0da-f628-43ec-ac57-4218cafe0e78</UniqueID>
+    <UserID>REQ-85-8</UserID>
+    <ParentID>P-fa93687d-fa1b-4af5-b25e-60b23da217b2</ParentID>
+    <Name>Allow posting notes in Ins Plan Details</Name>
+    <Description>Add standard Notes functionality to the Insurance Plan details page on the Admin side.
+
+Any person who has "Edit" permissions for this page should be able to post notes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Add standard Notes functionality to the Insurance Plan details page on the Admin side.\par
+\par
+Any person who has "Edit" permissions for this page should be able to post notes.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-10-14T06:09:52.2980327-04:00</DateAdded>
+    <DateModified>2014-10-14T06:51:54.1454551-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-2c751cb7-9d98-4158-96d4-df030f33e8d7</UniqueID>
+    <ParentID>MSS-eb72e5b5-833d-4931-b0e5-2a261061047a</ParentID>
+    <Description>The system displays the list of existing coverages at the top of the page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays the list of existing coverages at the top of the page.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-06e19510-4db6-4fc0-8cc5-226c414767d5</UniqueID>
+    <ParentID>MSS-eb72e5b5-833d-4931-b0e5-2a261061047a</ParentID>
+    <Description>The system displays the "Create Coverage" section:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays the "Create Coverage" section:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-94c6a8ce-68d0-463f-973c-97334bd0ba0d</UniqueID>
+    <ParentID>ST-06e19510-4db6-4fc0-8cc5-226c414767d5</ParentID>
+    <Description>'Guarantor' dropdown - contains:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 'Guarantor' dropdown - contains:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a2ef805a-a970-4148-9c44-324d21db0155</UniqueID>
+    <ParentID>ST-94c6a8ce-68d0-463f-973c-97334bd0ba0d</ParentID>
+    <Description>Patient</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-61172f52-1d91-4850-aa8f-6fa81d8706f3</UniqueID>
+    <ParentID>ST-94c6a8ce-68d0-463f-973c-97334bd0ba0d</ParentID>
+    <Description>Active contacts</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Active contacts\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-01bd914d-b30b-4776-a427-6083f44c557e</UniqueID>
+    <ParentID>ST-06e19510-4db6-4fc0-8cc5-226c414767d5</ParentID>
+    <Description>Start / End dates for the coverage</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Start / End dates for the coverage\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-22d72ab4-81d2-4561-bc89-73234fcb1897</UniqueID>
+    <ParentID>ST-06e19510-4db6-4fc0-8cc5-226c414767d5</ParentID>
+    <Description>Patient Pay check box - cleared by default</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Patient\cf2\ulnone  Pay check box - cleared by default\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dec3aafd-db5d-4d04-b9cf-7ffbb286d06d</UniqueID>
+    <ParentID>ST-06e19510-4db6-4fc0-8cc5-226c414767d5</ParentID>
+    <Description>Primary / Secondary / Tertiary policy sections (hidden, if Patient Pay is selected):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Primary / Secondary / Tertiary policy sections (hidden, if \cf1\ul Patient\cf2\ulnone  Pay is selected):\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3068b6e4-18f8-4237-9030-6dcdd8678443</UniqueID>
+    <ParentID>MSS-eb72e5b5-833d-4931-b0e5-2a261061047a</ParentID>
+    <Description>User selects Guarantor, enters start/end date of the coverage.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects Guarantor, enters start/end date of the coverage.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-67acc72b-f0cf-4415-a7c0-90f117de0df5</UniqueID>
+    <ParentID>MSS-eb72e5b5-833d-4931-b0e5-2a261061047a</ParentID>
+    <Description>User selects Patient Pay, if necessary - in this case hide all insrance policy sections and proceed to step 8.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User selects \cf1\ul Patient\cf2\ulnone  Pay, if necessary - in this \cf3 case\cf2  hide all insrance policy sections and proceed to step 8.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-459e0f63-1d8c-4003-83a2-96838fe74c1c</UniqueID>
+    <ParentID>MSS-eb72e5b5-833d-4931-b0e5-2a261061047a</ParentID>
+    <Description>User fills out Primary Insurance policy section (selects a previously used policy from the dropdown or adds a new one, UC-85-3).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User fills out Primary Insurance policy section (selects a previously used policy from the dropdown or adds a new one, \cf1\ul UC-85-3\cf2\ulnone ).\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1f1eefbc-55d9-4963-af09-5ea91d929a60</UniqueID>
+    <ParentID>ST-dec3aafd-db5d-4d04-b9cf-7ffbb286d06d</ParentID>
+    <Description>Policy selection dropdown</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Policy selection dropdown\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1a74a88c-6232-4c61-97af-12317872f5df</UniqueID>
+    <ParentID>ST-dec3aafd-db5d-4d04-b9cf-7ffbb286d06d</ParentID>
+    <Description>"Add policy" icon</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 "Add policy" icon\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f8c7b99c-ed16-4a09-95c8-69bef7996ad7</UniqueID>
+    <ParentID>ST-dec3aafd-db5d-4d04-b9cf-7ffbb286d06d</ParentID>
+    <Description>"Edit Policy" icon</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 "Edit Policy" icon\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7256127f-d2fa-41dc-b8d3-d6278d1a3088</UniqueID>
+    <ParentID>ST-dec3aafd-db5d-4d04-b9cf-7ffbb286d06d</ParentID>
+    <Description>"Validated by &lt;user&gt; on &lt;date&gt;" - if applicable</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 "Validated by &lt;user&gt; on &lt;date&gt;" - if applicable\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9f5f77e7-a75c-485f-af94-696457e88759</UniqueID>
+    <ParentID>ST-dec3aafd-db5d-4d04-b9cf-7ffbb286d06d</ParentID>
+    <Description>Authorization section - hidden until user selects a policy.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Authorization section - hidden until user selects a policy.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7678455e-fc6c-463b-a9a1-230df7c639ca</UniqueID>
+    <ParentID>ST-dec3aafd-db5d-4d04-b9cf-7ffbb286d06d</ParentID>
+    <Description>Therapy Cap section - hidden until user selects a policy.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Therapy Cap section - hidden until user selects a policy.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-92a63dfa-b3fe-4e67-94da-e83719643f4d</UniqueID>
+    <ParentID>MSS-eb72e5b5-833d-4931-b0e5-2a261061047a</ParentID>
+    <Description>The system displays the Authorization and Therapy Cap sections:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays the Authorization and Therapy Cap sections:\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9f58161b-dbbf-42bc-91bd-4242f0d996f7</UniqueID>
+    <ParentID>ST-92a63dfa-b3fe-4e67-94da-e83719643f4d</ParentID>
+    <Description>Authorization section - the state depends on the insurance plan settings in Admin. The system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Authorization section - the state depends on the insurance plan settings in Admin. The system displays:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-df852048-8d04-47ac-b997-ca14d5ed66a8</UniqueID>
+    <ParentID>ST-9f58161b-dbbf-42bc-91bd-4242f0d996f7</ParentID>
+    <Description>Auth Status bubble - if auth is required according to Admin settings. For the list of possible statuses, refer to REQ-85-1</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Auth Status bubble - if auth is required according to Admin settings. For the list of possible statuses, refer to \cf1\ul REQ-85-1\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-77dfef8b-fe03-4a39-a5d7-7e2f282c6961</UniqueID>
+    <ParentID>ST-9f58161b-dbbf-42bc-91bd-4242f0d996f7</ParentID>
+    <Description>"Not applicable" check box - if auth is not required according to Admin settings, selected by default.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 "Not applicable" check box - if auth is not required according to Admin settings, selected by default.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-417110d6-f887-4a31-9ee5-6ebbcf8701af</UniqueID>
+    <ParentID>ST-9f58161b-dbbf-42bc-91bd-4242f0d996f7</ParentID>
+    <Description>Auth fields - displayed if auth is required or "Not applicable" checkbox is cleared:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Auth fields - displayed if auth is required or "Not applicable" checkbox is cleared:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a267e06c-392f-434a-9a2a-02d08ff39475</UniqueID>
+    <ParentID>ST-417110d6-f887-4a31-9ee5-6ebbcf8701af</ParentID>
+    <Description>Authorization Number</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Authorization Number\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8652121b-4949-4bd9-a00b-bbef1aec0f44</UniqueID>
+    <ParentID>ST-417110d6-f887-4a31-9ee5-6ebbcf8701af</ParentID>
+    <Description>Authorized Visits</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Authorized \cf1 Visits\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5e05e67a-ee91-4153-ad21-41d67d54351a</UniqueID>
+    <ParentID>ST-417110d6-f887-4a31-9ee5-6ebbcf8701af</ParentID>
+    <Description>Authorizarion Start</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Authorizarion Start\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e9b7d69b-4aec-4520-a92c-75d6478e498f</UniqueID>
+    <ParentID>ST-417110d6-f887-4a31-9ee5-6ebbcf8701af</ParentID>
+    <Description>Authorization End</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Authorization End\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-80d6391d-c0a5-4c6a-bc9f-40df69bf86bf</UniqueID>
+    <ParentID>ST-417110d6-f887-4a31-9ee5-6ebbcf8701af</ParentID>
+    <Description>Call Reference Number</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Call Reference Number\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ac6a2e1e-feba-46fa-9f09-a654e0f32388</UniqueID>
+    <ParentID>ST-417110d6-f887-4a31-9ee5-6ebbcf8701af</ParentID>
+    <Description>Insurance Representative</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Insurance Representative\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cfc746a4-78f0-45be-931e-6c72c3378ada</UniqueID>
+    <ParentID>ST-92a63dfa-b3fe-4e67-94da-e83719643f4d</ParentID>
+    <Description>Therapy Cap section. Once the policy is selected, the system shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Therapy Cap section. Once the policy is selected, the system shows:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bf80f89f-dabd-4477-9b4a-e226c4d05351</UniqueID>
+    <ParentID>ST-cfc746a4-78f0-45be-931e-6c72c3378ada</ParentID>
+    <Description>"Not applicable" check box, selected by default</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 "Not applicable" check box, selected by default\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-87798565-d02d-482e-9936-e2ac03d68fc1</UniqueID>
+    <ParentID>ST-cfc746a4-78f0-45be-931e-6c72c3378ada</ParentID>
+    <Description>If n/a check box is cleared, the system also shows editable Cap Amount field and non-editable Remaining Cap field.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 If n/a check box is cleared, the system also shows editable Cap Amount field and non-editable Remaining Cap field.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1ca5abf9-c316-41d2-8c81-9d6b6414cc1f</UniqueID>
+    <ParentID>MSS-eb72e5b5-833d-4931-b0e5-2a261061047a</ParentID>
+    <Description>User adds Secondary and Tertiary insurances, if necessary.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User adds Secondary and Tertiary insurances, if necessary.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-84b37e7d-b32e-4919-8a27-bf6927581d6e</UniqueID>
+    <ParentID>MSS-eb72e5b5-833d-4931-b0e5-2a261061047a</ParentID>
+    <Description>User presses the "Create Coverage" button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User presses the "Create Coverage" button.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fdcf3bf8-5133-478e-ac99-956f4f93920b</UniqueID>
+    <ParentID>MSS-eb72e5b5-833d-4931-b0e5-2a261061047a</ParentID>
+    <Description>The system applies all changes and creates the coverage.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system applies all changes and creates the coverage.\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-34b175ab-7410-441a-999f-8252a082b542</UniqueID>
+    <ParentID>MSS-eb72e5b5-833d-4931-b0e5-2a261061047a</ParentID>
+    <Description>If user created an insurance coverage, selected a plan that requires authorization, but did not enter auth at all, the system:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If user created an insurance coverage, selected a plan that requires authorization, but did not enter auth at all, the system:\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3d1d96b5-8efb-4275-be6e-082a12d0bed6</UniqueID>
+    <ParentID>X-176d34c6-0dea-42d8-bdab-2f0504de0f9d</ParentID>
+    <Description>The system displays an error and highlights mandatory fields.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system displays an error and highlights mandatory fields.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-03485a7e-d1ae-4c36-af6b-77be93a4d002</UniqueID>
+    <ParentID>X-176d34c6-0dea-42d8-bdab-2f0504de0f9d</ParentID>
+    <Description>User must either fill out empty mandatory fields or clear out all of them.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User must either fill out empty mandatory fields or clear out all of them.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-40bbd889-37ef-45b2-8d9c-45f5a26eb17c</UniqueID>
+    <ParentID>ST-34b175ab-7410-441a-999f-8252a082b542</ParentID>
+    <Description>Keeps showing the red alert on the Insurance Page</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Keeps showing the red alert on the Insurance Page\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4c581a41-f170-490a-9caf-4f15570eead3</UniqueID>
+    <ParentID>ST-34b175ab-7410-441a-999f-8252a082b542</ParentID>
+    <Description>Adds a left nav alert (same wording as the page alert)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Adds a left nav alert (same wording as the page alert)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b11fb19d-eb3c-4041-8020-b24c5890f517</UniqueID>
+    <ParentID>ST-34b175ab-7410-441a-999f-8252a082b542</ParentID>
+    <Description>Creates an "Authorization Required" work queue item</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Creates an "Authorization Required" work queue item\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c9893aac-4100-405d-aaa0-98128d45feb7</UniqueID>
+    <ParentID>MSS-ec37e487-61b6-4ab5-9ca1-78db7f10036d</ParentID>
+    <Description>User add new policy.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User add new policy.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</UniqueID>
+    <ParentID>MSS-ec37e487-61b6-4ab5-9ca1-78db7f10036d</ParentID>
+    <Description>The system displays the "Add Insurance Policy" dialog:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays the "Add Insurance Policy" dialog:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-91947d6d-edb0-47ea-bf3a-11e388c596c6</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>* Insurance Plan (searchable dropdown)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 * Insurance Plan (searchable dropdown)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9a842a43-1ab4-4230-ada0-94b4164fdcf9</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>* Subscriber (searchable dropdown)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 * Subscriber (searchable dropdown)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-35845d45-b5aa-44cc-b066-2630ff222504</UniqueID>
+    <ParentID>MSS-ec37e487-61b6-4ab5-9ca1-78db7f10036d</ParentID>
+    <Description>User enters policy information and saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enters policy information and saves changes.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bf903fa5-d489-4b2f-b136-f49057999cf7</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>'Validation' check box</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 'Validation' check box\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-438e6c53-a80a-47f6-9abd-81cace443a34</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>Policy #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Policy #\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-39320b27-213a-4e46-8cd7-c52afa6e2f96</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>Group #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Group #\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-56dfe21c-858f-4e98-8ba5-2a16424c1446</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>Deductible (amount)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Deductible\cf2  (amount)\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c2d33ecf-d002-42be-9dbb-2fa1d2bf39dc</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>Copay</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Copay\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cd618a60-c269-4135-bdec-7fda24af8276</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>Copay Type dropdown:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Copay\cf2  Type dropdown:\cf0\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-81d9f5a4-2c77-40d9-8e06-54f8768fb05d</UniqueID>
+    <ParentID>ST-cd618a60-c269-4135-bdec-7fda24af8276</ParentID>
+    <Description>$ (default)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 $ (default)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ebfb159e-2b8a-4fa3-bbeb-be6714c2fabd</UniqueID>
+    <ParentID>ST-cd618a60-c269-4135-bdec-7fda24af8276</ParentID>
+    <Description>%</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 %\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4f0de68d-4770-4a78-9ff9-15b24aa953d6</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>Effective Date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Effective Date\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d88d58f0-c797-4961-8b07-ee8b65c71f53</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>Termination Date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Termination Date\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-984826ee-05e7-4cd2-9454-bad1ecd505f3</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>Work Comp Employer</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Work Comp Employer\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-84dd1cd3-da74-4fa7-ab53-aaba4ca38733</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>Save / Cancel buttons</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Save / Cancel buttons\par
+}
+</RichDescription>
+    <Sequence>13</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3757b9a1-47ea-4a35-8626-8c89443804bb</UniqueID>
+    <ParentID>MSS-ec37e487-61b6-4ab5-9ca1-78db7f10036d</ParentID>
+    <Description>The system provisionally saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system provisionally saves changes.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ed700d2f-eda9-49e8-bcaa-60c06ee8fe6d</UniqueID>
+    <ParentID>MSS-ec37e487-61b6-4ab5-9ca1-78db7f10036d</ParentID>
+    <Description>User presses 'Create Coverage' / 'Update Coverage' button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User presses 'Create Coverage' / 'Update Coverage' button.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8a17831d-37ea-42cc-91a1-bc5df15dfc0c</UniqueID>
+    <ParentID>MSS-ec37e487-61b6-4ab5-9ca1-78db7f10036d</ParentID>
+    <Description>The system applies changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system applies changes.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d8d04056-0659-48db-a24f-23be5c0338e1</UniqueID>
+    <ParentID>MSS-ec37e487-61b6-4ab5-9ca1-78db7f10036d</ParentID>
+    <Description>The system checks whether user:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system checks whether user:\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e30c2d3c-0884-47b0-9a61-06ff8d24ffc2</UniqueID>
+    <ParentID>ST-d8d04056-0659-48db-a24f-23be5c0338e1</ParentID>
+    <Description>Selected "Validation" check box</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Selected "Validation" check box\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cbb56a02-1004-40a4-a5d5-06c3223d374e</UniqueID>
+    <ParentID>ST-d8d04056-0659-48db-a24f-23be5c0338e1</ParentID>
+    <Description>Entered Policy #</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Entered Policy #\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-db4d52d2-71f7-4a54-b8af-f4584c958aea</UniqueID>
+    <ParentID>ST-d8d04056-0659-48db-a24f-23be5c0338e1</ParentID>
+    <Description>Entered Policy Effective Date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Entered Policy Effective Date\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8aa296cb-2864-4d48-9b21-83c56b8fb9e0</UniqueID>
+    <ParentID>MSS-ec37e487-61b6-4ab5-9ca1-78db7f10036d</ParentID>
+    <Description>If any of these actions were not performed, the system shows relevant alerts in the Case Left Navigation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 If any of these actions were not performed, the system shows relevant alerts in the \cf1 Case\cf2  Left Navigation.\cf0\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9de515d8-440b-46a3-a13f-ae6dd9c50da7</UniqueID>
+    <ParentID>MSS-ce64299b-2034-4df1-8eeb-8075e4b22982</ParentID>
+    <Description>User opens "Edit Policy" dialog.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens "Edit Policy" dialog.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7a2bb8e3-f1dd-4401-a1f7-656495bf46a0</UniqueID>
+    <ParentID>MSS-ce64299b-2034-4df1-8eeb-8075e4b22982</ParentID>
+    <Description>The system displays the dialog, the set of fields and controls is identical to the "Add Policy" dialog (UC-85-2) with one exception: if user selected "Validation" check box before, the system also shows the following text: "Validated by &lt;user&gt; on &lt;date&gt;".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 The system displays the dialog, the set of fields and controls is identical to the "Add Policy" dialog (\cf1\ul UC-85-2\cf0\ulnone ) with one exception: if user selected "Validation" check box before, the system also shows the following text: "Validated by &lt;user&gt; on &lt;date&gt;".\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0285c07f-f314-4a5a-b74e-15131ca82a03</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>Static text in a small font: "Any changes you make here will only be applied when you save the coverage"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Static text in a small font: "Any changes you make here will only be applied when you \cf1 save\cf0  the coverage"\par
+}
+</RichDescription>
+    <Sequence>12</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8d33d80c-108e-41db-8893-77eb52a2a9d2</UniqueID>
+    <ParentID>MSS-91ba0e43-c5d7-4c5e-a3e9-4ff726e6f105</ParentID>
+    <Description>User opens Insurance Page, authorization is required by the plan settings or user cleared the "Not applicable" check box.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens Insurance Page, authorization is required by the plan settings or user cleared the "Not applicable" check box.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9dcbd74d-acca-4f66-835d-42f49b7e708f</UniqueID>
+    <ParentID>MSS-91ba0e43-c5d7-4c5e-a3e9-4ff726e6f105</ParentID>
+    <Description>The system displays authorization fields below the policy selection dropdown:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays authorization fields below the policy selection dropdown:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e0e632a9-c21d-480a-b21f-b9d6019ca525</UniqueID>
+    <ParentID>ST-9dcbd74d-acca-4f66-835d-42f49b7e708f</ParentID>
+    <Description>Authorization Number</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Authorization Number\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6f0b1307-5855-47a8-b92e-c8e5ba81e679</UniqueID>
+    <ParentID>ST-9dcbd74d-acca-4f66-835d-42f49b7e708f</ParentID>
+    <Description>Authorized Visits</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Authorized \cf1 Visits\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-939f1677-482d-4931-a47b-ab78bd2d8420</UniqueID>
+    <ParentID>ST-9dcbd74d-acca-4f66-835d-42f49b7e708f</ParentID>
+    <Description>Authorization Start (cannot be earlier that coverage start date)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Authorization Start (cannot be earlier that coverage start date)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c47847f1-54f2-41de-aca7-1e51bce1553e</UniqueID>
+    <ParentID>ST-9dcbd74d-acca-4f66-835d-42f49b7e708f</ParentID>
+    <Description>Authorization End</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Authorization End\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-934ade42-1f03-429e-ae46-08862d8e2f6c</UniqueID>
+    <ParentID>ST-9dcbd74d-acca-4f66-835d-42f49b7e708f</ParentID>
+    <Description>Call Reference Number</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Call Reference Number\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-478a4b05-de85-4279-9a4b-96247b3ab5da</UniqueID>
+    <ParentID>ST-9dcbd74d-acca-4f66-835d-42f49b7e708f</ParentID>
+    <Description>Insurance Representative</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Insurance Representative\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3889cd56-b06d-4127-9985-bfae276370d4</UniqueID>
+    <ParentID>MSS-91ba0e43-c5d7-4c5e-a3e9-4ff726e6f105</ParentID>
+    <Description>User enters authorization information and updates/creates coverage.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User enters \cf0 authorization \cf1 information and updates/creates coverage.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-803df821-9166-472f-9cca-0b41046aab6c</UniqueID>
+    <ParentID>MSS-91ba0e43-c5d7-4c5e-a3e9-4ff726e6f105</ParentID>
+    <Description>The system applies changes and shows entered authorization in a table. The table contains all entered information about the authorization + actions:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system applies changes and shows entered \cf0 authorization \cf1 in a table. The table contains all entered information about the \cf0 authorization \cf1 + actions:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-577a2e8f-d2f9-433d-91ef-0438805ebf24</UniqueID>
+    <ParentID>ST-803df821-9166-472f-9cca-0b41046aab6c</ParentID>
+    <Description>Edit icon - UC-85-5</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Edit icon - \cf2\ul UC-85-5\cf1\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-38c6ca5c-2e83-439d-8ebd-1495b2e6f115</UniqueID>
+    <ParentID>ST-803df821-9166-472f-9cca-0b41046aab6c</ParentID>
+    <Description>Delete icon - UC-85-7 / UC-85-8</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Delete icon - \cf2\ul UC-85-7\cf1\ulnone  / \cf2\ul UC-85-8\cf1\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-adf1219e-57c5-4785-acc3-51dc5589e5c8</UniqueID>
+    <ParentID>MSS-91ba0e43-c5d7-4c5e-a3e9-4ff726e6f105</ParentID>
+    <Description>The system also shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system also shows:\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9afceb57-676e-46f6-b225-d7a3e320b0fe</UniqueID>
+    <ParentID>ST-adf1219e-57c5-4785-acc3-51dc5589e5c8</ParentID>
+    <Description>View Appointments &amp; Auths icon - UC-85-9</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 View \cf1 Appointments\cf2  &amp; Auths icon - \cf3\ul UC-85-9\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a8d9fe83-89ea-41ea-86ba-9c7bacb126fe</UniqueID>
+    <ParentID>ST-adf1219e-57c5-4785-acc3-51dc5589e5c8</ParentID>
+    <Description>"Add" [authorization] button - UC-85-6</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 "Add" [authorization] button - \cf1\ul UC-85-6\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-915089fa-2964-41fe-98dc-fe6142357f07</UniqueID>
+    <ParentID>MSS-91ba0e43-c5d7-4c5e-a3e9-4ff726e6f105</ParentID>
+    <Description>The system displays auth status in the grey bubble instead of the warning.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays auth status in the grey bubble instead of the warning.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-70687b4d-ce3f-44a2-8441-6b34ce546d6f</UniqueID>
+    <ParentID>MSS-35d59dda-0296-46cb-909b-766a9105e64a</ParentID>
+    <Description>User opens "Edit dialog"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens "Edit dialog"\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a17dc8c-2f3e-4d38-800b-b4559d0aa123</UniqueID>
+    <ParentID>MSS-35d59dda-0296-46cb-909b-766a9105e64a</ParentID>
+    <Description>The system displays authorization details in editable fields.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays authorization details in editable fields.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7811e424-eac4-4b17-82e9-cc5356a99732</UniqueID>
+    <ParentID>MSS-35d59dda-0296-46cb-909b-766a9105e64a</ParentID>
+    <Description>User makes necessary changes and saves them.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User makes necessary changes and saves them.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a880f617-98e7-45f8-9539-c1845f13804f</UniqueID>
+    <ParentID>MSS-35d59dda-0296-46cb-909b-766a9105e64a</ParentID>
+    <Description>The system performs standard validations (mandatory fields, start date does not precede coverage start) and also checks that auth dates do not overlap with other authorizations (not including authorizations marked as error). If overlap is detected, show error message within the dialog: "Specified dates overlap with another authorization".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system performs standard validations (mandatory fields, start date does not precede coverage start) and also checks that auth dates do not overlap with \cf1 other \cf0 authorizations \cf1 (not including \cf0 authorizations \cf1 marked as error). If overlap is detected, show error message within the dialog: "Specified dates overlap with another authorization".\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0985cf3b-a842-489f-90c7-71a71e348917</UniqueID>
+    <ParentID>MSS-35d59dda-0296-46cb-909b-766a9105e64a</ParentID>
+    <Description>The system applies changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system applies changes.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-487dfa86-6a47-4c4d-b79c-3858fdc9e951</UniqueID>
+    <ParentID>MSS-b4243ee1-ce68-4996-9604-ebff606dee50</ParentID>
+    <Description>User clicks the Add button.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clicks the Add button.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0f34f03c-0fdf-460c-aace-edb72b2e9ef4</UniqueID>
+    <ParentID>MSS-b4243ee1-ce68-4996-9604-ebff606dee50</ParentID>
+    <Description>The system displays "Add authorization" dialog with standard auth fields:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays "Add authorization" dialog with standard auth fields:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f90c5994-a298-41ff-af3e-676ea408ba1d</UniqueID>
+    <ParentID>ST-0f34f03c-0fdf-460c-aace-edb72b2e9ef4</ParentID>
+    <Description>Authorization Number</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Authorization Number\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-49d272f6-8123-4ea1-b036-8314e41787f4</UniqueID>
+    <ParentID>ST-0f34f03c-0fdf-460c-aace-edb72b2e9ef4</ParentID>
+    <Description>Authorized Visits</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Authorized \cf1 Visits\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1566f82f-8094-49a1-8306-28bb5fd329f7</UniqueID>
+    <ParentID>ST-0f34f03c-0fdf-460c-aace-edb72b2e9ef4</ParentID>
+    <Description>Authorization Start (cannot be earlier that coverage start date)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Authorization Start (cannot be earlier that coverage start date)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9248dd5a-d970-40e1-ae9c-a34cee6fc777</UniqueID>
+    <ParentID>ST-0f34f03c-0fdf-460c-aace-edb72b2e9ef4</ParentID>
+    <Description>Authorization End</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Authorization End\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ca1b16fd-c23e-4c88-9c30-e87ad375f2d1</UniqueID>
+    <ParentID>ST-0f34f03c-0fdf-460c-aace-edb72b2e9ef4</ParentID>
+    <Description>Call Reference Number</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Call Reference Number\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1e319def-4748-40c8-8770-a7faaee49aa4</UniqueID>
+    <ParentID>ST-0f34f03c-0fdf-460c-aace-edb72b2e9ef4</ParentID>
+    <Description>Insurance Representative</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Insurance Representative\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0d43c53c-2284-4e80-9482-17f75580abe9</UniqueID>
+    <ParentID>MSS-b4243ee1-ce68-4996-9604-ebff606dee50</ParentID>
+    <Description>User provides authorization details and adds it (rules are the same as for the initial authorization + the system must verify that new authorization dates do not overlap with an existing authorization)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User provides authorization details and adds it (rules are the same as for the initial authorization + the system must verify that new authorization dates do not overlap with an existing authorization)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f31a6268-6022-4260-835c-962a58cd4d00</UniqueID>
+    <ParentID>MSS-b4243ee1-ce68-4996-9604-ebff606dee50</ParentID>
+    <Description>The system adds new auth.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system adds new auth.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-58b8e350-0ae2-4c43-9529-709663a29e49</UniqueID>
+    <ParentID>MSS-ce787a18-dddb-46c3-9dc4-2b9083b35870</ParentID>
+    <Description>User initiates authorization removal.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User initiates authorization removal.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-707f9ad8-3cc7-422b-8ae6-7343b544e049</UniqueID>
+    <ParentID>MSS-ce787a18-dddb-46c3-9dc4-2b9083b35870</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system requests confirmation.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d7ce32d9-42fe-4d16-b2b4-d7648ba76d29</UniqueID>
+    <ParentID>MSS-ce787a18-dddb-46c3-9dc4-2b9083b35870</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d005c5ba-0fea-4404-8904-7f7de5f7cff6</UniqueID>
+    <ParentID>MSS-ce787a18-dddb-46c3-9dc4-2b9083b35870</ParentID>
+    <Description>The system deletes the authorization.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system deletes the authorization.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-90f5cffb-b695-4a4f-82d7-7795dc01c6ed</UniqueID>
+    <ParentID>MSS-063672e8-5476-42a2-b880-bea9a6bb14a3</ParentID>
+    <Description>User clicks the Delete icon.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clicks the Delete icon.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-783d9b39-d6af-4bef-a9dc-2b03a7c8027b</UniqueID>
+    <ParentID>MSS-063672e8-5476-42a2-b880-bea9a6bb14a3</ParentID>
+    <Description>The system displays "Mark as Error" dialog.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays "Mark as Error" dialog.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ed2d6b4a-9e9e-4316-b617-f4a5be21f705</UniqueID>
+    <ParentID>MSS-063672e8-5476-42a2-b880-bea9a6bb14a3</ParentID>
+    <Description>User enters a mandatory note and confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enters a mandatory note and confirms.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ab9595b1-94cc-4510-ade2-fe371aaa4c26</UniqueID>
+    <ParentID>MSS-063672e8-5476-42a2-b880-bea9a6bb14a3</ParentID>
+    <Description>The system marks the auth as error and posts a note to the case home page: "&lt;Ins_Type&gt; Authorization &lt;auth_#&gt; was marked as error. Reason: &lt;user's_note&gt;".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system marks the auth as error and posts a note to the \cf1 case\cf2  home page: "&lt;Ins_Type&gt; Authorization &lt;auth_#&gt; was marked as error. Reason: &lt;user's_note&gt;".\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-21bfa51c-f8a6-4f8c-a54f-81a88af3637e</UniqueID>
+    <ParentID>MSS-063672e8-5476-42a2-b880-bea9a6bb14a3</ParentID>
+    <Description>The system removes all action icons for the auth and updates "Appointments &amp; Auths" table (changes status of affected appointments to "Billed w/ Invalid Auth and highlights them)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system removes all action icons for the auth and updates "\cf1 Appointments\cf2  &amp; Auths" table (changes status of affected \cf1 appointments\cf2  to "Billed w/ Invalid Auth and highlights them)\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3d86b385-73e1-4359-8182-3c4ef984164a</UniqueID>
+    <ParentID>MSS-9516e4b1-4b9a-4c9a-bc55-f32c9a6bfbe0</ParentID>
+    <Description>The system displays the list of all acknowledged and scheduled appointments (latest appointments go on top)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system displays the list of all acknowledged and scheduled \cf1 appointments\cf2  (latest \cf1 appointments\cf2  go on top)\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-286ecea7-ea87-48ce-9548-a7c8da16b737</UniqueID>
+    <ParentID>MSS-9516e4b1-4b9a-4c9a-bc55-f32c9a6bfbe0</ParentID>
+    <Description>User opens the list of appointments from the insurance page.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User opens the list of \cf1 appointments\cf2  from the insurance page.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0a490670-dcbe-41a1-bd8a-cf5313679d04</UniqueID>
+    <ParentID>MSS-9516e4b1-4b9a-4c9a-bc55-f32c9a6bfbe0</ParentID>
+    <Description>For each appointment, the system displays:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 For each \cf1 appointment\cf2 , the system displays:\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4907de05-6021-4163-bb7f-f37644d7e96f</UniqueID>
+    <ParentID>ST-0a490670-dcbe-41a1-bd8a-cf5313679d04</ParentID>
+    <Description>Appointment Date</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Appointment\cf2  Date\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-de32975a-6d71-4087-b0f5-ab2e8ae9bff3</UniqueID>
+    <ParentID>ST-0a490670-dcbe-41a1-bd8a-cf5313679d04</ParentID>
+    <Description>Appointment Type</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Appointment\cf2  Type\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a5c706ee-5fa7-42a4-bd0b-5dceb9b2a0b1</UniqueID>
+    <ParentID>ST-0a490670-dcbe-41a1-bd8a-cf5313679d04</ParentID>
+    <Description>Therapist name</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Therapist name\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e0147484-0d18-4077-9091-2c73eb9d129e</UniqueID>
+    <ParentID>ST-0a490670-dcbe-41a1-bd8a-cf5313679d04</ParentID>
+    <Description>Location</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Location\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c2aa200d-6061-4e56-b771-abc0392fe1da</UniqueID>
+    <ParentID>ST-0a490670-dcbe-41a1-bd8a-cf5313679d04</ParentID>
+    <Description>Status:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Status:\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-68001337-8544-4bd9-942d-26a57c7c28b1</UniqueID>
+    <ParentID>ST-c2aa200d-6061-4e56-b771-abc0392fe1da</ParentID>
+    <Description>Billed - if appointment was billed with a valid authorization (and for the first appointment, if authorization is required after eval, but before next visit - in this case the system does not highlight the appointment, even though it doesn't have an authorization)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\b\f0\fs20 Billed \b0 - if \cf1 appointment\cf2  was billed with a valid \cf0 authorization \cf2 (and for the first \cf1 appointment\cf2 , if \cf0 authorization \cf2 is required after \cf1 eval\cf2 , but before next \cf1 visit\cf2  - in this \cf1 case\cf2  the system does not highlight the \cf1 appointment\cf2 , even though it doesn't have an \cf0 authorization\cf2 )\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e0e4bb16-d556-46df-a831-5daf1ec86b21</UniqueID>
+    <ParentID>ST-c2aa200d-6061-4e56-b771-abc0392fe1da</ParentID>
+    <Description>Billed w/ Invalid Auth - if appointment was billed with an authorization that was later marked as error</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\b\f0\fs20 Billed w/ Invalid Auth \b0 - if \cf1 appointment\cf2  was billed with an \cf0 authorization \cf2 that was later marked as error\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d4cdf722-d01e-4151-bb87-4504dbf1fcce</UniqueID>
+    <ParentID>ST-c2aa200d-6061-4e56-b771-abc0392fe1da</ParentID>
+    <Description>Billed without Auth - if appointment was billed without an authorization number</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\b\f0\fs20 Billed without Auth \b0 - if \cf1 appointment\cf2  was billed without an authorization number\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-194ec841-9603-40fb-b97e-aa37c34422d9</UniqueID>
+    <ParentID>ST-c2aa200d-6061-4e56-b771-abc0392fe1da</ParentID>
+    <Description>Acknowledged - appointment was acknowledged, but no charges were submitted yet</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\b\f0\fs20 Acknowledged \b0 - \cf1 appointment\cf2  was acknowledged, but no charges were submitted yet\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2f0a04fe-51ec-4a76-81b6-5c11bd3baf87</UniqueID>
+    <ParentID>ST-c2aa200d-6061-4e56-b771-abc0392fe1da</ParentID>
+    <Description>Scheduled - appointment is scheduled, but not yet acknowledged</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\b\f0\fs20 Scheduled \b0 - \cf1 appointment\cf2  is scheduled, but not yet acknowledged\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5913bc5c-d3e8-4f94-8559-451541e2479a</UniqueID>
+    <ParentID>ST-0a490670-dcbe-41a1-bd8a-cf5313679d04</ParentID>
+    <Description>Auth Number:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Auth Number:\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-682955b8-bc0a-4d10-b911-12c3f8b59e77</UniqueID>
+    <ParentID>ST-5913bc5c-d3e8-4f94-8559-451541e2479a</ParentID>
+    <Description>For acknowledged and scheduled appointments - show auth number that will be applied according to current auth schedule</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 For acknowledged and scheduled \cf1 appointments\cf2  - show auth number that will be applied according to current auth schedule\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c4f240d9-4539-439e-aa0e-787808d4532a</UniqueID>
+    <ParentID>ST-5913bc5c-d3e8-4f94-8559-451541e2479a</ParentID>
+    <Description>For billed appointments - show auth number that has in fact been billed</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 For billed \cf1 appointments\cf0  - show auth number that has in fact been billed\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-100523c5-789a-46d7-afde-b0e21a599f74</UniqueID>
+    <ParentID>MSS-9516e4b1-4b9a-4c9a-bc55-f32c9a6bfbe0</ParentID>
+    <Description>The system highlights in red:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system highlights in red:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d6f60762-a5f1-420e-a5a3-e713ad3c040a</UniqueID>
+    <ParentID>ST-100523c5-789a-46d7-afde-b0e21a599f74</ParentID>
+    <Description>All "Billed w/ Invalid Auth" and "Billed without Auth" appointments</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All "Billed w/ Invalid Auth" and "Billed without Auth" \cf2 appointments\cf1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3e044595-cf58-4df1-b009-8f37a2a66a4c</UniqueID>
+    <ParentID>ST-100523c5-789a-46d7-afde-b0e21a599f74</ParentID>
+    <Description>Acknowledged/Scheduled appointments that are not covered by a valid authorization.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Acknowledged/Scheduled \cf2 appointments\cf1  that are not covered by a valid authorization.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cbccb196-6551-41bf-a5bb-1a07e9fef434</UniqueID>
+    <ParentID>MSS-9516e4b1-4b9a-4c9a-bc55-f32c9a6bfbe0</ParentID>
+    <Description>The system also displays the "Do not highlight past appointments without valid authorization" check box (cleared by default). If the check box is selected, the system stops highlighting all "Billed w/ Invalid Auth" and "Billed without Auth" appointments. The setting is applied on the case level as soon as user closes the dialog (if one user changes checkbox state, new state should be visible to another user who opens the dialog).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system also displays the "Do not highlight past \cf2 appointments\cf1  without valid authorization" check box (cleared by default). If the check box is selected, the system stops highlighting all "Billed w/ Invalid Auth" and "Billed without Auth" \cf2 appointments\cf1 . The setting is applied on the \cf2 case\cf1  level as soon as user closes the dialog (if one user changes checkbox state, new state should be visible to another user who opens the dialog).\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e2c3b6ce-bfd0-4564-9d0f-550a9310bd55</UniqueID>
+    <ParentID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</ParentID>
+    <Description>User clicks a timeblock on schedule.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clicks a timeblock on schedule.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-445c39a4-7d96-43f5-8322-e922f8ffae14</UniqueID>
+    <ParentID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</ParentID>
+    <Description>The system checks whether new appointment on selected day would be covered by a valid authorization.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system checks whether new \cf1 appointment\cf2  on selected day would be covered by a valid \cf0 authorization\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d06b4739-cca4-453f-b791-84f198eeca4b</UniqueID>
+    <ParentID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</ParentID>
+    <Description>If it's not covered, the system</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If it's not covered, the system\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9a4fd4e3-a759-4c30-89e2-4989f491d831</UniqueID>
+    <ParentID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</ParentID>
+    <Description>The system opens "New Appointment" dialog.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system opens "New \cf1 Appointment\cf2 " dialog.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1ae45847-e927-41b8-8d96-e68a238d7a58</UniqueID>
+    <ParentID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</ParentID>
+    <Description>User selects a case.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User selects a \cf1 case\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8ecf895e-d1ec-4175-9ed4-60ec7ab6dad5</UniqueID>
+    <ParentID>ST-d06b4739-cca4-453f-b791-84f198eeca4b</ParentID>
+    <Description>Hides appointment types</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Hides \cf1 appointment\cf2  types\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9e58f7f5-f1a8-4f94-80ad-96acd44a0f12</UniqueID>
+    <ParentID>ST-d06b4739-cca4-453f-b791-84f198eeca4b</ParentID>
+    <Description>Hides "Notes"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Hides "Notes"\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2931dc13-0099-42a4-816d-1b02e92c9cc3</UniqueID>
+    <ParentID>ST-d06b4739-cca4-453f-b791-84f198eeca4b</ParentID>
+    <Description>Disables the "Add Appointment" button</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Disables the "Add \cf1 Appointment\cf2 " button\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4f6512c2-d437-4a4a-a358-1e5d7b0429e6</UniqueID>
+    <ParentID>ST-d06b4739-cca4-453f-b791-84f198eeca4b</ParentID>
+    <Description>Shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Shows:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b5a91b3d-bb4c-4dc7-9624-e4ea0de98641</UniqueID>
+    <ParentID>ST-4f6512c2-d437-4a4a-a358-1e5d7b0429e6</ParentID>
+    <Description>Reason selection dropdown</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Reason selection dropdown\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-43b1b493-d3b1-4e1b-921e-33f090e916a9</UniqueID>
+    <ParentID>ST-4f6512c2-d437-4a4a-a358-1e5d7b0429e6</ParentID>
+    <Description>'Note' text box</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 'Note' text box\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c32b3784-daae-4c92-8371-da4779f11f5c</UniqueID>
+    <ParentID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</ParentID>
+    <Description>User selects reason and enters a note</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects reason and enters a note\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5c938ce5-c00c-47c8-8829-7076282c0ccb</UniqueID>
+    <ParentID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</ParentID>
+    <Description>User confirms override.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms override.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-77aff4bb-9eaa-4d5e-8f08-c341b87f65d1</UniqueID>
+    <ParentID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</ParentID>
+    <Description>The system shows appointment types (if a type was selected before, it must stay selected) and notes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system shows \cf1 appointment\cf2  types (if a type was selected before, it must stay selected) and notes.\cf0\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-148afa41-ce8c-43a1-b060-80ee0b08bac0</UniqueID>
+    <ParentID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</ParentID>
+    <Description>User adds new appointment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User adds new \cf1 appointment\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b36437ed-4673-4c58-98cb-c7877b171e16</UniqueID>
+    <ParentID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</ParentID>
+    <Description>The system creates the appointment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system creates the \cf1 appointment\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-419a9d19-740c-49bb-8eb7-19ed73a1d131</UniqueID>
+    <ParentID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</ParentID>
+    <Description>The system posts a note on the case Home page: "Appointment scheduled for &lt;date&gt; without a valid authorization. Reason: &lt;reason&gt;. Note: &lt;Note&gt;."</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system posts a note on the \cf1 case\cf2  Home page: "\cf1 Appointment\cf2  scheduled for &lt;date&gt; without a valid authorization. Reason: &lt;reason&gt;. Note: &lt;Note&gt;."\cf0\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-af71275c-b40a-4929-a298-e6ceafe147df</UniqueID>
+    <ParentID>ST-419a9d19-740c-49bb-8eb7-19ed73a1d131</ParentID>
+    <Description>The note must be posted under the name of the user who performed the override.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The note must be posted under the name of the user who performed the override.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9bf719af-ebfc-43d9-b0ea-5cdf1f74abee</UniqueID>
+    <ParentID>MSS-4f6a92c9-0443-41d7-ba5d-e2581fe14f68</ParentID>
+    <Description>User acknowledges an appointment without an authorization.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User acknowledges an \cf1 appointment\cf2  without an authorization.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-da739431-d7fa-42ff-adb7-b9b66f6a007c</UniqueID>
+    <ParentID>MSS-4f6a92c9-0443-41d7-ba5d-e2581fe14f68</ParentID>
+    <Description>The system displays a warning prompting user to:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system displays a\cf1  warning prompting user to:\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2ab633b5-c2c7-4f40-a6f1-f00523b4f361</UniqueID>
+    <ParentID>ST-da739431-d7fa-42ff-adb7-b9b66f6a007c</ParentID>
+    <Description>Select Reason from a dropdown</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Select Reason from a dropdown\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b2896987-9fe0-4640-85cb-72daab5ffc0e</UniqueID>
+    <ParentID>ST-da739431-d7fa-42ff-adb7-b9b66f6a007c</ParentID>
+    <Description>Enter a note</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Enter a note\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ff032aae-44e7-4f89-b56d-945b00de7147</UniqueID>
+    <ParentID>MSS-4f6a92c9-0443-41d7-ba5d-e2581fe14f68</ParentID>
+    <Description>User selects reason and enters a note</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects reason and enters a note\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-25250633-f00f-4e0d-9f0e-d76fa2f6cf58</UniqueID>
+    <ParentID>MSS-4f6a92c9-0443-41d7-ba5d-e2581fe14f68</ParentID>
+    <Description>User confirms override.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms override.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-be703964-ebd8-4627-bb31-68fa39b18c12</UniqueID>
+    <ParentID>MSS-4f6a92c9-0443-41d7-ba5d-e2581fe14f68</ParentID>
+    <Description>The system shows arrival time dialog.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system shows arrival time dialog\cf1 .\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-16d9fbea-9c0f-4dbb-a529-6900ed05e952</UniqueID>
+    <ParentID>MSS-4f6a92c9-0443-41d7-ba5d-e2581fe14f68</ParentID>
+    <Description>User confirms arrival time.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms arrival time.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1d26ff69-3033-492b-904d-f9a3898a8ea4</UniqueID>
+    <ParentID>MSS-4f6a92c9-0443-41d7-ba5d-e2581fe14f68</ParentID>
+    <Description>The system posts a note on the case Home page: "Appointment acknowledged on &lt;date&gt; without a valid authorization. Reason: &lt;reason&gt;. Note: &lt;Note&gt;."</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system posts a note on the \cf1 case\cf2  Home page: "\cf1 Appointment\cf2  acknowledged on &lt;date&gt; without a valid authorization. Reason: &lt;reason&gt;. Note: &lt;Note&gt;."\cf0\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-515a1ca4-c911-44aa-b5fb-88794149401f</UniqueID>
+    <ParentID>ST-1d26ff69-3033-492b-904d-f9a3898a8ea4</ParentID>
+    <Description>The note must be posted under the name of the user who performed the override.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The note must be posted under the name of the user who performed the override.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-be1dea40-b049-4677-8d63-dc6d045f4d0c</UniqueID>
+    <ParentID>MSS-4f6a92c9-0443-41d7-ba5d-e2581fe14f68</ParentID>
+    <Description>The system marks appointment as arrived.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system marks \cf1 appointment\cf2  as arrived.\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c9d04662-95b5-42e6-b37e-aa4d338c779f</UniqueID>
+    <ParentID>MSS-bfccd3c2-f7ba-4484-9dc4-388aabf7f277</ParentID>
+    <Description>User reschedules an appointment to a date not covered by authorization.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User reschedules an \cf1 appointment\cf2  to a date not covered by authorization.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7496597e-b452-43b4-9904-7d2813683a42</UniqueID>
+    <ParentID>MSS-bfccd3c2-f7ba-4484-9dc4-388aabf7f277</ParentID>
+    <Description>The system displays a warning prompting user to:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system displays a\cf1  warning prompting user to:\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-826ca13a-246a-462d-b8bc-af8568d267f0</UniqueID>
+    <ParentID>ST-7496597e-b452-43b4-9904-7d2813683a42</ParentID>
+    <Description>Select Reason from a dropdown</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Select Reason from a dropdown\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b0476caf-4b99-4333-9bd9-3bab61556c26</UniqueID>
+    <ParentID>ST-7496597e-b452-43b4-9904-7d2813683a42</ParentID>
+    <Description>Enter a note</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Enter a note\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6790578b-b759-4381-a812-30d8a2cab50c</UniqueID>
+    <ParentID>MSS-bfccd3c2-f7ba-4484-9dc4-388aabf7f277</ParentID>
+    <Description>User selects reason and enters a note</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects reason and enters a note\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1c451d35-1d9b-4156-93bc-4dd538c0cab5</UniqueID>
+    <ParentID>MSS-bfccd3c2-f7ba-4484-9dc4-388aabf7f277</ParentID>
+    <Description>User confirms override.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms override.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-80213c9a-7413-47d0-9d6d-66a1c4f55959</UniqueID>
+    <ParentID>MSS-bfccd3c2-f7ba-4484-9dc4-388aabf7f277</ParentID>
+    <Description>The system reschedules the appointment.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system reschedules the \cf1 appointment\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-80721b1f-3ae4-4baa-a8da-2caa41885a98</UniqueID>
+    <ParentID>MSS-bfccd3c2-f7ba-4484-9dc4-388aabf7f277</ParentID>
+    <Description>The system posts a note on the case Home page: "Appointment rescheduled for &lt;date&gt; without a valid authorization. Reason: &lt;reason&gt;. Note: &lt;Note&gt;."</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system posts a note on the \cf1 case\cf2  Home page: "\cf1 Appointment\cf2  rescheduled for &lt;date&gt; without a valid authorization. Reason: &lt;reason&gt;. Note: &lt;Note&gt;."\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-220d4c9d-0dc9-45b0-8d46-3e34bc529b39</UniqueID>
+    <ParentID>ST-80721b1f-3ae4-4baa-a8da-2caa41885a98</ParentID>
+    <Description>The note must be posted under the name of the user who performed the override.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The note must be posted under the name of the user who performed the override.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3f5e9525-aaaf-49dd-b5bb-27496c236254</UniqueID>
+    <ParentID>ST-dedb57f3-8bab-41b6-bc30-3c4c7499733b</ParentID>
+    <Description>Validation History (if applicable, i.e. if there are any other events recorded beyond initial validation - otherwise hidden):</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Validation History (if applicable, i.e. if there are any \cf1 other events recorded beyond initial validation - otherwise hidden):\cf0\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fee3226d-8143-4f63-8e95-eb5d53366471</UniqueID>
+    <ParentID>ST-3f5e9525-aaaf-49dd-b5bb-27496c236254</ParentID>
+    <Description>Insurance Validated by &lt;user&gt; on &lt;date&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Insurance Validated by &lt;user&gt; on &lt;date&gt;\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a8afc0b-32ca-4a82-809e-f135ece55c78</UniqueID>
+    <ParentID>ST-3f5e9525-aaaf-49dd-b5bb-27496c236254</ParentID>
+    <Description>Insurance Re-validated by &lt;user&gt; on &lt;date&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Insurance Re-validated by &lt;user&gt; on &lt;date&gt;\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d0418c53-6255-4bc1-80db-a3ff42cbdcca</UniqueID>
+    <ParentID>ST-3f5e9525-aaaf-49dd-b5bb-27496c236254</ParentID>
+    <Description>Insurance Un-validated by &lt;user&gt; on &lt;date&gt;</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Insurance Un-validated by &lt;user&gt; on &lt;date&gt;\cf1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-668c6370-9ba2-4c91-972f-2678ef845aa4</UniqueID>
+    <ParentID>MSS-07f334b8-0ad4-4be6-bcd5-85232dc4ccd7</ParentID>
+    <Description>CBC opens DN review screen.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 CBC\cf2\ulnone  opens DN review screen.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e6e166f7-a4cb-4a41-a33e-281849a3a3a9</UniqueID>
+    <ParentID>MSS-07f334b8-0ad4-4be6-bcd5-85232dc4ccd7</ParentID>
+    <Description>The system detects that auth is mandatory according to the Insurance page, but no valid auth covers this DOS.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system detects that auth is mandatory according to the Insurance page, but no valid auth covers this DOS.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-747f57fe-dde0-4054-8693-986a9be0de31</UniqueID>
+    <ParentID>MSS-07f334b8-0ad4-4be6-bcd5-85232dc4ccd7</ParentID>
+    <Description>The system displays the following at the bottom of the page:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays the following at the bottom of the page:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-71107e96-332d-4e11-8084-e403ea4a4169</UniqueID>
+    <ParentID>ST-747f57fe-dde0-4054-8693-986a9be0de31</ParentID>
+    <Description>"The system detected that this DOS does not have a valid auth. Do you want to put the encounter on hold?" text</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 "The system detected that this DOS does not have a valid auth. Do you want to put the encounter on hold?" text\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7c8178e4-a808-4a1e-b4d4-4185d94be99c</UniqueID>
+    <ParentID>ST-747f57fe-dde0-4054-8693-986a9be0de31</ParentID>
+    <Description>"Put encounter on hold" check box - cleared by default</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 "Put encounter on hold" check box - cleared by default\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-51d109d8-11b0-49c3-b0e2-36f23126dc83</UniqueID>
+    <ParentID>MSS-07f334b8-0ad4-4be6-bcd5-85232dc4ccd7</ParentID>
+    <Description>If use makes any changes that require re-signing, the system hides the text and check box.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If use makes any changes that require re-signing, the system hides the text and check box.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e841ee42-800f-44b7-91bf-2315b20f92bf</UniqueID>
+    <ParentID>MSS-07f334b8-0ad4-4be6-bcd5-85232dc4ccd7</ParentID>
+    <Description>If user selects the check box and submits charges.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If user selects the check box and submits charges.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a99ac714-28e0-4c66-91f3-5ea2873b1c47</UniqueID>
+    <ParentID>MSS-07f334b8-0ad4-4be6-bcd5-85232dc4ccd7</ParentID>
+    <Description>The system creates charges and immediately puts the encounter on hold. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system creates charges and immediately puts the encounter on hold. \par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-46658d1e-d350-49b9-94d8-45907738126d</UniqueID>
+    <ParentID>MSS-11a68c7d-45b8-4ce4-ba16-dbfe88b6d332</ParentID>
+    <Description>User releases encounter from hold.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User releases encounter from hold.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7640b33a-b249-404d-a9ba-0fb01e0d6939</UniqueID>
+    <ParentID>MSS-11a68c7d-45b8-4ce4-ba16-dbfe88b6d332</ParentID>
+    <Description>The system checks if any changes were made to the authorizations.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system checks if any changes were made to the authorizations.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b3f214bb-8419-4f76-882c-c5956c8d742d</UniqueID>
+    <ParentID>MSS-11a68c7d-45b8-4ce4-ba16-dbfe88b6d332</ParentID>
+    <Description>If the system detects a valid authorization number that covers this DOS and is different from what's in the charge now, the system updates charges with the new authorization number.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 If the system detects a valid authorization number that covers this DOS and is different from what's in the charge now, the system updates charges with the new \fs20 authorization \fs20 number.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-362d0aab-4bc6-4898-b685-939961e2a027</UniqueID>
+    <ParentID>MSS-11a68c7d-45b8-4ce4-ba16-dbfe88b6d332</ParentID>
+    <Description>The system releases encounter from hold.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system releases encounter from hold.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ed2c8e55-2a8a-415a-9a4d-30db44ab21a2</UniqueID>
+    <ParentID>XA-d5729ced-109e-4890-bf43-641a1b530f59</ParentID>
+    <Description>The system displays a dialog with the same wording as in basic scenario.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays a dialog with the same wording as in basic scenario.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-df178c60-8550-478b-9762-653654654b4d</UniqueID>
+    <ParentID>XA-d5729ced-109e-4890-bf43-641a1b530f59</ParentID>
+    <Description>User selects reason and enters note.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects reason and enters note.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f587a43e-1027-441f-9469-feb50cabbf65</UniqueID>
+    <ParentID>XA-d5729ced-109e-4890-bf43-641a1b530f59</ParentID>
+    <Description>The system schedules the appointment and posts a note on the Home page (as in step 11)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system schedules the \cf1 appointment\cf2  and posts a note on the Home page (as in step 11)\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-176d34c6-0dea-42d8-bdab-2f0504de0f9d</UniqueID>
+    <ParentID>ST-84b37e7d-b32e-4919-8a27-bf6927581d6e</ParentID>
+    <Description>Auth is required, some mandatory auth fields are empty (this does not include the scenario where auth is not specified at all)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Auth is required, some mandatory auth fields are empty (this does not include the scenario where auth is not specified at all)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <AnytimeExtension>
+    <UniqueID>XA-dfe56854-b749-4983-9122-a530b07eabaa</UniqueID>
+    <ParentID>MSS-bfccd3c2-f7ba-4484-9dc4-388aabf7f277</ParentID>
+    <Description />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </AnytimeExtension>
+  <AnytimeExtension>
+    <UniqueID>XA-d5729ced-109e-4890-bf43-641a1b530f59</UniqueID>
+    <ParentID>MSS-c5ab8cf3-f9e8-46c0-97aa-a9e31c0be921</ParentID>
+    <Description>User is cloning an appointment and scheduling it on a date not covered by an auth</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 User is cloning an \cf1 appointment\cf2  and scheduling it on a date not covered by an auth\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </AnytimeExtension>
+  <ExternalDoc>
+    <UniqueID>EX-9284fa6a-cd1c-4268-be0c-72ced7653276</UniqueID>
+    <ParentID>UC-97de99aa-2104-4f19-b4be-d1e12216cb62</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-b6f5e83c-226b-4cf1-a268-54a7b9ed5a50</UniqueID>
+    <ParentID>UC-b27ac05a-acd5-483d-8e35-30426176bbea</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-df034a03-2d7c-48c1-93f1-038b06b983bf</UniqueID>
+    <ParentID>UC-e1598c5b-7cfb-45c4-beb9-1a1f0315a8eb</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-133a2ea5-9e1f-4ec8-81f6-b0fd6da5cc63</UniqueID>
+    <ParentID>UC-a8a62dda-0a36-4b18-8906-179888f65938</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-85fada11-a6ed-425d-bccf-5441804beca3</UniqueID>
+    <ParentID>UC-8e9d8794-50f2-47ef-ba2e-ff2e84d1bc19</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-766c2857-fa3c-4149-8bc2-041368529986</UniqueID>
+    <ParentID>UC-a90e96da-3d31-42a5-ae26-2eecd3514ce2</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-ff77e334-1305-4d2e-ab57-3eca4d8f2f9d</UniqueID>
+    <ParentID>UC-01b2ba66-8ddc-4181-bfe4-cd86db3dcb2e</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-f5087704-cf31-4eb1-9ccc-bcf220be61a2</UniqueID>
+    <ParentID>UC-84f9f0a3-1acf-46da-808d-1af456d2f656</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-8379e5ac-b735-40ed-bc1c-1c13b041e798</UniqueID>
+    <ParentID>UC-6cb58398-b239-46a7-8e77-de0ce9c8d4b6</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-de9b83c3-0c21-4f08-ab19-1cf574746783</UniqueID>
+    <ParentID>UC-bb5a173c-82a4-452a-9703-b2c0e1432982</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=schedule_-_new_appt_-_auths</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-b568f120-8549-4b86-90fe-ee363a521bc9</UniqueID>
+    <ParentID>UC-fda5bb47-e6a0-4a21-9d00-8702d474723e</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=schedule_-_appt_details_-_auths</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-ab42cd74-22c4-4249-8b1d-01b2e9604189</UniqueID>
+    <ParentID>UC-40ad55ce-9ade-452d-99a2-c49fbc8eb9da</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=schedule_-_reschedule_warning_-_auths</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-88bb57da-ff34-4401-b180-caf572fdda8c</UniqueID>
+    <ParentID>REQ-12b63d3b-a52c-4dfd-bf63-b1bb671a91c3</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=work_queue_-_auths</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-490c9bd4-0cf9-43cb-b76c-4fa65ab4b695</UniqueID>
+    <ParentID>REQ-c2853200-6429-4472-88fa-17e56f2e93c6</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance_plans</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-809a7acb-9202-4d38-83ea-223a697085b6</UniqueID>
+    <ParentID>REQ-9595b6f8-c3ea-445d-a8a2-51136769123c</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=case_home_-_clinics</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-d2f72852-46ba-403b-bc61-41c319e1c290</UniqueID>
+    <ParentID>REQ-0784f0da-f628-43ec-ac57-4218cafe0e78</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance_plans</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-00b351c2-861e-4ecf-9ff4-4039d7a0421a</UniqueID>
+    <ParentID>REQ-38e10e52-e96c-48fa-91ea-a16b4fd5742c</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=insurance</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-d9dfe80d-9bf1-4437-90bc-4bd0cb3f27e0</UniqueID>
+    <ParentID>UC-84fb6878-18f9-4417-992f-14f21c54716a</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=cbc_daily_note_review_-_charge_entry</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-85-</DefaultPrefix>
+    <NextValue>15</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-85-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-85-</DefaultPrefix>
+    <NextValue>12</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-85-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

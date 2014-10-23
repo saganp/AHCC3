@@ -1,0 +1,292 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5001</SavedWith>
+    <CreatedWith>8.0.5001</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-ac40d244-5a11-477c-ba91-82ad81d99b4d</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-ac40d244-5a11-477c-ba91-82ad81d99b4d</UniqueID>
+    <ExternalParentID>P-283698e5-7a0a-44ce-8b16-09554b043195</ExternalParentID>
+    <Name>Soft-Delete</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-dcd726de-bcd0-46fa-9dca-63c33071a792</UniqueID>
+    <UserID>UC-70-1</UserID>
+    <ParentID>P-ac40d244-5a11-477c-ba91-82ad81d99b4d</ParentID>
+    <Name>Delete Unsigned Document</Name>
+    <Description>Any AgilePM user must be able to delete an unsigned document</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Any AgilePM user must be able to delete an unsigned document\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-01T12:44:18.5669007-04:00</DateAdded>
+    <DateModified>2013-11-01T14:11:27.3393621-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-992f6079-ea15-4af4-8e22-f74239b23e1a</UniqueID>
+    <UserID>UC-70-2</UserID>
+    <ParentID>P-ac40d244-5a11-477c-ba91-82ad81d99b4d</ParentID>
+    <Name>Delete Last Signed Document</Name>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-01T13:02:42.30623-04:00</DateAdded>
+    <DateModified>2013-11-01T14:23:09.6881175-04:00</DateModified>
+  </UseCase>
+  <Scenario>
+    <UniqueID>MSS-00320d76-7050-4a36-a334-2955836122f2</UniqueID>
+    <ParentID>UC-dcd726de-bcd0-46fa-9dca-63c33071a792</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-4c302ac9-eeb7-4b3a-9420-dd5eb32d14c5</UniqueID>
+    <ParentID>UC-992f6079-ea15-4af4-8e22-f74239b23e1a</ParentID>
+  </Scenario>
+  <Step>
+    <UniqueID>ST-b2d3be3e-1126-4fed-95e2-fbbedef34b19</UniqueID>
+    <ParentID>MSS-00320d76-7050-4a36-a334-2955836122f2</ParentID>
+    <Description>User deletes an unsigned document.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User deletes an unsigned document.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7ebd27b3-3c16-4027-b663-39cd1b7ae4c5</UniqueID>
+    <ParentID>MSS-00320d76-7050-4a36-a334-2955836122f2</ParentID>
+    <Description>The system requests confirmation: "You are about to delete a &lt;DocType&gt; for &lt;PatientName&gt;. Date of service: &lt;date&gt;. /n Are you sure you want to delete this document?".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system requests confirmation: "You are about to delete a &lt;DocType&gt; for \cf1 &lt;PatientName&gt;. Date of service: &lt;date&gt;. /n Are you sure you want to delete this document?".\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-203d590b-6735-4b0c-a0f9-873b2a970a9e</UniqueID>
+    <ParentID>X-883bbc7a-86fe-4793-8080-944242249e93</ParentID>
+    <Description>The system does not include  "Date of service: &lt;date&gt;" in  the message.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system does not include  \cf1 "Date of service: &lt;date&gt;" in  the message.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1d770edb-52c8-4672-b873-76ba151b66bf</UniqueID>
+    <ParentID>MSS-00320d76-7050-4a36-a334-2955836122f2</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0635b6e1-c7b1-46e9-8930-f48bda86202f</UniqueID>
+    <ParentID>MSS-00320d76-7050-4a36-a334-2955836122f2</ParentID>
+    <Description>The system permanently deletes the unsigned document.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system permanently deletes the unsigned document.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e152cf18-e4a7-4e94-8bf3-45aac152037f</UniqueID>
+    <ParentID>MSS-00320d76-7050-4a36-a334-2955836122f2</ParentID>
+    <Description>If the document was created from a system-initiated task, the system must restore that task.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 If the document was created from a system-initiated task,\cf1  the system must restore that task.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-aa602869-28e4-40a1-a9e8-6fc6230cd2f2</UniqueID>
+    <ParentID>MSS-4c302ac9-eeb7-4b3a-9420-dd5eb32d14c5</ParentID>
+    <Description>User deletes last signed document.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User deletes last signed document.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ccea0e26-5460-4e73-9dac-7cb2dfb5422d</UniqueID>
+    <ParentID>MSS-4c302ac9-eeb7-4b3a-9420-dd5eb32d14c5</ParentID>
+    <Description>The system requests confirmation: "You are about to delete a &lt;DocType&gt; for &lt;PatientName&gt;. Date of service: &lt;date&gt;. /n Are you sure you want to permanently delete this document?".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system requests confirmation: "You are about to delete a &lt;DocType&gt; for \cf1 &lt;PatientName&gt;. Date of service: &lt;date&gt;. /n Are you sure you want to permanently delete this document?".\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-739d385c-2fc3-47be-8084-35a94d6687a4</UniqueID>
+    <ParentID>X-b8d4d8ba-2347-435c-a2d1-27091dec5d42</ParentID>
+    <Description>The system does not include  "Date of service: &lt;date&gt;" in  the message.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system does not include  \cf1 "Date of service: &lt;date&gt;" in  the message.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-59ba1001-6ef9-4ec4-9962-75bf076d5f2a</UniqueID>
+    <ParentID>MSS-4c302ac9-eeb7-4b3a-9420-dd5eb32d14c5</ParentID>
+    <Description>User confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User confirms.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a16bbaa1-537f-4342-a8ac-2190937193cc</UniqueID>
+    <ParentID>MSS-4c302ac9-eeb7-4b3a-9420-dd5eb32d14c5</ParentID>
+    <Description>The system permanently deletes the document and [DN obly] voids all billed charges / deletes created charges.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system permanently deletes the document and [DN obly] voids all billed charges / deletes created charges.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-62aaaf26-13b0-449a-9409-c38fbd3f82d7</UniqueID>
+    <ParentID>MSS-4c302ac9-eeb7-4b3a-9420-dd5eb32d14c5</ParentID>
+    <Description>If the document was created from the task that prompts clinician to choose between PN and DS, the system must restore that task.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 If the document was created from the task that prompts \cf1 clinician\cf2  to choose between PN and DS, the system must restore that task.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1222c8b3-a1c5-4f78-964e-d8b4624fffb9</UniqueID>
+    <ParentID>X-2b709414-dad3-43c8-b60c-0e5e7e1b4517</ParentID>
+    <Description>The system displays</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-74394878-0434-4e66-9790-596eec84ade0</UniqueID>
+    <ParentID>X-6be76267-db69-4b95-9e12-3710fb124c8d</ParentID>
+    <Description>The system includes "All charges billed for this date of service will be voided" into confirmation dialog.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system includes "All charges billed for this date of service will be voided" into confirmation dialog\cf1 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-883bbc7a-86fe-4793-8080-944242249e93</UniqueID>
+    <ParentID>ST-7ebd27b3-3c16-4027-b663-39cd1b7ae4c5</ParentID>
+    <Description>User is deleting PN or DS</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User is deleting PN or DS\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-b8d4d8ba-2347-435c-a2d1-27091dec5d42</UniqueID>
+    <ParentID>ST-ccea0e26-5460-4e73-9dac-7cb2dfb5422d</ParentID>
+    <Description>User is deleting PN or DS</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User is deleting PN or DS\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-2b709414-dad3-43c8-b60c-0e5e7e1b4517</UniqueID>
+    <ParentID>ST-aa602869-28e4-40a1-a9e8-6fc6230cd2f2</ParentID>
+    <Description>There's at least one unsigned document in the case.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 There's at least one unsigned document in the \cf1 case\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-6be76267-db69-4b95-9e12-3710fb124c8d</UniqueID>
+    <ParentID>ST-ccea0e26-5460-4e73-9dac-7cb2dfb5422d</ParentID>
+    <Description>User is deleting DN with billed charges</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User is deleting DN with billed charges\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <UserID>
+    <DefaultPrefix>UC-70-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-70-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-70-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-70-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

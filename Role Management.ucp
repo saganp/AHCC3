@@ -1,0 +1,1271 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.4927</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-7541d2d0-ef61-4f5a-a395-0054a47c5922</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-7541d2d0-ef61-4f5a-a395-0054a47c5922</UniqueID>
+    <ExternalParentID>P-e4849ef8-f95f-43a5-a4b4-fd5e588b676b</ExternalParentID>
+    <Name>Role Management</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-47f41264-20c8-48b7-a046-71461eecb00c</UniqueID>
+    <UserID>UC-36-1</UserID>
+    <ParentID>P-7541d2d0-ef61-4f5a-a395-0054a47c5922</ParentID>
+    <Name>View Role List</Name>
+    <Description>Admin opens role list for the parent company</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  opens role list for the parent company\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-07-29T11:41:44.9121958-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8426074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</UniqueID>
+    <UserID>UC-36-2</UserID>
+    <ParentID>P-7541d2d0-ef61-4f5a-a395-0054a47c5922</ParentID>
+    <Name>Add New Role</Name>
+    <Description>Admin adds new role</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  adds new role\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-07-29T11:41:56.4247006-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8456074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</UniqueID>
+    <UserID>UC-36-3</UserID>
+    <ParentID>P-7541d2d0-ef61-4f5a-a395-0054a47c5922</ParentID>
+    <Name>Edit Role Details</Name>
+    <Description>Admin updates a role</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  updates a role\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-07-29T11:42:17.2033678-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8446074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-04f1f8d8-7717-4bb4-8554-1c5a22f16427</UniqueID>
+    <UserID>UC-36-4</UserID>
+    <ParentID>P-7541d2d0-ef61-4f5a-a395-0054a47c5922</ParentID>
+    <Name>Delete Role</Name>
+    <Description>Admin deletes a role</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  deletes a role\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-07-29T11:48:00.3485386-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8416074-04:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-a951c62d-f73c-4b5f-8f98-d526b4aa67a0</UniqueID>
+    <ParentID>P-7541d2d0-ef61-4f5a-a395-0054a47c5922</ParentID>
+    <Name>Role Management</Name>
+    <Sequence>0</Sequence>
+    <FileName>Role Management.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <UCActor>
+    <ParentID>UC-47f41264-20c8-48b7-a046-71461eecb00c</ParentID>
+    <ActorID>A-64cb1c11-8a8f-4a9a-80a7-00965bc281be</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-47f41264-20c8-48b7-a046-71461eecb00c</ParentID>
+    <ActorID>A-765569bf-973e-4242-8bcd-7a2c3e47eedd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <ActorID>A-64cb1c11-8a8f-4a9a-80a7-00965bc281be</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <ActorID>A-765569bf-973e-4242-8bcd-7a2c3e47eedd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <ActorID>A-64cb1c11-8a8f-4a9a-80a7-00965bc281be</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <ActorID>A-765569bf-973e-4242-8bcd-7a2c3e47eedd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-04f1f8d8-7717-4bb4-8554-1c5a22f16427</ParentID>
+    <ActorID>A-64cb1c11-8a8f-4a9a-80a7-00965bc281be</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-04f1f8d8-7717-4bb4-8554-1c5a22f16427</ParentID>
+    <ActorID>A-765569bf-973e-4242-8bcd-7a2c3e47eedd</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-1eb907c6-8783-4f79-a192-1ddc85e4476a</UniqueID>
+    <ParentID>UC-47f41264-20c8-48b7-a046-71461eecb00c</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-bf1f0744-3915-4fa4-8bc8-3a3cf936f2ef</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-742ea583-eae1-4233-950c-dd9d12019052</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-93fa7756-45fb-4f61-bb51-597d4b2dc3ae</UniqueID>
+    <ParentID>UC-04f1f8d8-7717-4bb4-8554-1c5a22f16427</ParentID>
+  </Scenario>
+  <Step>
+    <UniqueID>ST-3680aa4d-bd1d-4871-80dd-91c48a55e1c0</UniqueID>
+    <ParentID>MSS-1eb907c6-8783-4f79-a192-1ddc85e4476a</ParentID>
+    <Description>Admin opens role list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  opens role list.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d7ae4a7d-6487-4486-8acc-6e6575171221</UniqueID>
+    <ParentID>MSS-1eb907c6-8783-4f79-a192-1ddc85e4476a</ParentID>
+    <Description>The system displays the list of roles available for the parent company. For each role, the system shows:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays the list of roles available for the parent company. For each role, the system shows:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-54f2234c-ca1d-48ba-ae3a-9db5a22bb1af</UniqueID>
+    <ParentID>ST-d7ae4a7d-6487-4486-8acc-6e6575171221</ParentID>
+    <Description>Number</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Number\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2d951291-9fe8-4c91-88c5-7bd2cc86a1d4</UniqueID>
+    <ParentID>ST-d7ae4a7d-6487-4486-8acc-6e6575171221</ParentID>
+    <Description>Role name</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Role name\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-69167496-3b97-476b-831b-391a5820b40f</UniqueID>
+    <ParentID>ST-d7ae4a7d-6487-4486-8acc-6e6575171221</ParentID>
+    <Description>Company scope (in which companies this role is available:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Company scope (in which companies this role is available:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-abc42b96-bb31-43ac-aa37-4563838e1cea</UniqueID>
+    <ParentID>ST-69167496-3b97-476b-831b-391a5820b40f</ParentID>
+    <Description>All (if available for all companies under the parent company)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 All (if available for all companies under the parent company)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3e84e97b-edcc-48f9-b440-897045b3c507</UniqueID>
+    <ParentID>ST-69167496-3b97-476b-831b-391a5820b40f</ParentID>
+    <Description>Company list (if not all)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Company list (if not all)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e142c50c-7e09-43d5-bf04-752b5a730015</UniqueID>
+    <ParentID>ST-d7ae4a7d-6487-4486-8acc-6e6575171221</ParentID>
+    <Description>Edit control (UC-36-3)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Edit control (\cf1\ul UC-36-3\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-01f97cf2-77bf-4fac-b275-4cef472bb407</UniqueID>
+    <ParentID>ST-d7ae4a7d-6487-4486-8acc-6e6575171221</ParentID>
+    <Description>Delete control (UC-36-4)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Delete control (\cf1\ul UC-36-4\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-70f4f43c-288a-4f07-a322-f3a64f189826</UniqueID>
+    <ParentID>MSS-1eb907c6-8783-4f79-a192-1ddc85e4476a</ParentID>
+    <Description>The system also shows "New Role" control (UC-36-2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The system also shows "New Role" control (\cf1\ul UC-36-2\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-87afd9b3-9f99-4c75-ae6c-34dc85925102</UniqueID>
+    <ParentID>MSS-bf1f0744-3915-4fa4-8bc8-3a3cf936f2ef</ParentID>
+    <Description>Admin adds new role</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  adds new role\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fb6bef00-07f0-4c80-8de4-9386207fee71</UniqueID>
+    <ParentID>MSS-bf1f0744-3915-4fa4-8bc8-3a3cf936f2ef</ParentID>
+    <Description>The system prompts user to:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b12fe181-3e6d-4636-841a-7c47c70d2571</UniqueID>
+    <ParentID>ST-fb6bef00-07f0-4c80-8de4-9386207fee71</ParentID>
+    <Description>Role name - mandatory, may not be unique</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Role name - mandatory, may not be unique\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-43e9dfd1-2ac9-4dcd-b66f-bd4d961abca5</UniqueID>
+    <ParentID>ST-fb6bef00-07f0-4c80-8de4-9386207fee71</ParentID>
+    <Description>'Copy permissions from' dropdown - allows to copy persmissions from an existing role. User's selection is applied immediately as soon as selected.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 'Copy permissions from' dropdown - allows to copy persmissions from an existing role. User's selection is applied immediately as soon as selected.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2d8cf9fe-c9cc-4f30-883c-d26b29baf693</UniqueID>
+    <ParentID>ST-fb6bef00-07f0-4c80-8de4-9386207fee71</ParentID>
+    <Description>Company Scope:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Company Scope:\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c314ce36-8de0-4ea5-8ad5-0fd3f808eb2a</UniqueID>
+    <ParentID>ST-2d8cf9fe-c9cc-4f30-883c-d26b29baf693</ParentID>
+    <Description>All (default value). Role will be available in all companies</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 All (default value). Role will be available in all companies\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9ec583cd-49fc-4c23-b608-2a6a800e5554</UniqueID>
+    <ParentID>ST-2d8cf9fe-c9cc-4f30-883c-d26b29baf693</ParentID>
+    <Description>Selected. The system shows company list, all companies are selected by default. At least one company must be selected to create role.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Selected. The system shows company list, all companies are selected by default. At least one company must be selected to create role.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-828bea91-301c-444c-9b35-01491372a96f</UniqueID>
+    <ParentID>ST-fb6bef00-07f0-4c80-8de4-9386207fee71</ParentID>
+    <Description>Select permissions.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Select permissions.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-31608d16-9960-4c82-9790-fcd64f49f0b1</UniqueID>
+    <ParentID>MSS-bf1f0744-3915-4fa4-8bc8-3a3cf936f2ef</ParentID>
+    <Description>User enters required information.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User enters required information.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4bf856dd-f79b-4c30-bc23-3fa19c348344</UniqueID>
+    <ParentID>MSS-bf1f0744-3915-4fa4-8bc8-3a3cf936f2ef</ParentID>
+    <Description>User selects permissions available to this role (selects corresponding check boxes). If user selects an Edit... permission without selecting the View... permission, the system automatically selects that View... permission.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User selects permissions available to this role (selects corresponding check boxes). If user selects an Edit... permission without selecting the View... permission, the system automatically selects that View... permission.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9855fdc5-b925-4e6d-b176-23be7a6677ee</UniqueID>
+    <ParentID>MSS-bf1f0744-3915-4fa4-8bc8-3a3cf936f2ef</ParentID>
+    <Description>User can filter displayed permissions using the following options:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User can filter displayed permissions using the following options:\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3fb2f90a-8388-414a-a67a-e9f7ee9cc981</UniqueID>
+    <ParentID>ST-9855fdc5-b925-4e6d-b176-23be7a6677ee</ParentID>
+    <Description>All permissions (system shows full list)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All permissions (system shows full list)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-49f4c4c3-2966-4d09-b713-7edece93f416</UniqueID>
+    <ParentID>ST-9855fdc5-b925-4e6d-b176-23be7a6677ee</ParentID>
+    <Description>Only Enabled Permissions (system shows permissions where the check box is selected)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Only Enabled Permissions (system shows permissions where the check box is selected)\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2b384de0-14ad-455f-afc0-e448e3200a2e</UniqueID>
+    <ParentID>ST-9855fdc5-b925-4e6d-b176-23be7a6677ee</ParentID>
+    <Description>Filter by bucket (the system shows available permission buckets in the dropdown)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Filter by bucket (the system shows available permission buckets in the dropdown)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-557dadd7-f45e-49a4-974f-8356bc3ec9ab</UniqueID>
+    <ParentID>MSS-bf1f0744-3915-4fa4-8bc8-3a3cf936f2ef</ParentID>
+    <Description>User enters required information and creates role.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User enters required information and creates role.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6bd2c5e4-b7b9-419e-b69d-c08031400c05</UniqueID>
+    <ParentID>MSS-bf1f0744-3915-4fa4-8bc8-3a3cf936f2ef</ParentID>
+    <Description>The system creates new role and runs UC-36-3.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system creates new role and runs \cf2\ul UC-36-3\cf1\ulnone .\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a5ddfe5-d244-4a82-a982-c2fa1053a860</UniqueID>
+    <ParentID>MSS-742ea583-eae1-4233-950c-dd9d12019052</ParentID>
+    <Description>Admin opens existing role.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  opens existing role.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-17d2bec3-3d66-4cde-b540-ad6d7b93b552</UniqueID>
+    <ParentID>MSS-742ea583-eae1-4233-950c-dd9d12019052</ParentID>
+    <Description>Admin can change:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  can change:\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-52e75c38-e943-49d5-9c27-0e046a5ac8b0</UniqueID>
+    <ParentID>ST-17d2bec3-3d66-4cde-b540-ad6d7b93b552</ParentID>
+    <Description>Role name - mandatory, may not be unique</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Role name - mandatory, may not be unique\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-782772b5-e3c6-4130-921e-66dfc5b214a5</UniqueID>
+    <ParentID>ST-17d2bec3-3d66-4cde-b540-ad6d7b93b552</ParentID>
+    <Description>Company Scope:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Company Scope:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bb3a92c4-060e-4ea7-af85-d510e45a8c3a</UniqueID>
+    <ParentID>ST-782772b5-e3c6-4130-921e-66dfc5b214a5</ParentID>
+    <Description>All (default value). Role will be available in all companies</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 All (default value). Role will be available in all companies\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0fd85689-9416-4146-82b1-9f95fb453ad0</UniqueID>
+    <ParentID>ST-782772b5-e3c6-4130-921e-66dfc5b214a5</ParentID>
+    <Description>Selected. The system shows company list, all companies are selected by default. At least one company must be selected to create role.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Selected. The system shows company list, all companies are selected by default. At least one company must be selected to create role.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9df27c77-8345-48aa-ba00-f59e5dd27108</UniqueID>
+    <ParentID>ST-17d2bec3-3d66-4cde-b540-ad6d7b93b552</ParentID>
+    <Description>Permissions (filters and logic are the same as in UC-36-2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Permissions (filters and logic are the same as in \cf1\ul UC-36-2\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ba55333b-3865-4e9c-bac3-f9c75b16c513</UniqueID>
+    <ParentID>MSS-742ea583-eae1-4233-950c-dd9d12019052</ParentID>
+    <Description>User updates the role and saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User updates the role and saves changes.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0cb71bf9-d4b2-445b-a104-89d10de4c04d</UniqueID>
+    <ParentID>ST-9855fdc5-b925-4e6d-b176-23be7a6677ee</ParentID>
+    <Description>Filter by keyword</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Filter by keyword\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-77006cd7-7b49-485c-8266-739de5efa793</UniqueID>
+    <ParentID>MSS-742ea583-eae1-4233-950c-dd9d12019052</ParentID>
+    <Description>The system requires confirmation and warns user the changes will be applied to all users who have this role.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system requires confirmation and warns user the changes will be applied to all users who have this role.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-edbc28d6-976c-413d-8c8c-2c766b002295</UniqueID>
+    <ParentID>MSS-742ea583-eae1-4233-950c-dd9d12019052</ParentID>
+    <Description>Admin confrims.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  confrims.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-27401709-2b1f-472a-966c-d9c1fc4bfdd4</UniqueID>
+    <ParentID>MSS-742ea583-eae1-4233-950c-dd9d12019052</ParentID>
+    <Description>The system applies changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system applies changes.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-23a5a2f0-4ffd-4c2a-8efc-74f9866bbeb7</UniqueID>
+    <ParentID>MSS-93fa7756-45fb-4f61-bb51-597d4b2dc3ae</ParentID>
+    <Description>Admin deletes role</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  deletes role\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c2f7cedd-d904-43d9-8e79-bb492199ed89</UniqueID>
+    <ParentID>MSS-93fa7756-45fb-4f61-bb51-597d4b2dc3ae</ParentID>
+    <Description>The system requests confirmation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system requests confirmation.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e3a29e1a-69ef-4a91-b6ff-2b6963163e14</UniqueID>
+    <ParentID>MSS-93fa7756-45fb-4f61-bb51-597d4b2dc3ae</ParentID>
+    <Description>Admin confirms.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Admin\cf2\ulnone  confirms.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8e20ad30-bd02-411f-b307-5c0909fb93b5</UniqueID>
+    <ParentID>MSS-93fa7756-45fb-4f61-bb51-597d4b2dc3ae</ParentID>
+    <Description>The system permanently removes the role.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system permanently removes the role.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-144ac13a-f393-4d21-8740-64374e9fda41</UniqueID>
+    <ParentID>MSS-93fa7756-45fb-4f61-bb51-597d4b2dc3ae</ParentID>
+    <Description>If the role was the only one an end-user had, at next login the system should show an error message: "You do not have access to AgilePM. Please contact system administrator".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 If the role was the only one an end-user had, at next login the system should show an error message: "You do not have access to AgilePM. Please contact system \cf1 administrator".\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <ExternalDoc>
+    <UniqueID>EX-2f38bdde-a8f3-42d1-a361-e4bb13e01190</UniqueID>
+    <ParentID>UC-47f41264-20c8-48b7-a046-71461eecb00c</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Roles___Permissions</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-e7175b13-18c3-4445-8956-b30ed3098b7a</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Roles___Permissions</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-93d7006c-6958-4e30-9441-5de2507a07f5</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Roles___Permissions</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-2902aa2c-3374-48ed-a611-b08b5ec75743</UniqueID>
+    <ParentID>UC-04f1f8d8-7717-4bb4-8554-1c5a22f16427</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Roles___Permissions</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-36-</DefaultPrefix>
+    <NextValue>5</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-36-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-36-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-36-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <TestScenario>
+    <UniqueID>TS-be25a19d-8b81-45d4-b2c7-2ada6a63d5c5</UniqueID>
+    <ParentID>UC-47f41264-20c8-48b7-a046-71461eecb00c</ParentID>
+    <Description>Verify that the system displays the list of roles available for the parent company (current company group for Admin) when Admin opens role's list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Verify that the system displays the list of roles available for the parent company (current company group for \cf1 Admin\cf0 ) when Admin opens role's list.\par
+}
+</RichDescription>
+    <Name>Correct roles list</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2658c1d3-a165-454f-b106-821012354df0</UniqueID>
+    <ParentID>UC-47f41264-20c8-48b7-a046-71461eecb00c</ParentID>
+    <Description>Verify that for each role the system shows number, 'Role', 'Companies', actions (edit, delete controls) columns and ‘Add Role’ button.</Description>
+    <Name>Roles UI</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-77d9f85d-222d-4fcd-bbae-8444685efe1c</UniqueID>
+    <ParentID>UC-47f41264-20c8-48b7-a046-71461eecb00c</ParentID>
+    <Description>Verify that 'All' value in Companies column means that the Role is available for all companies under the parent company.</Description>
+    <Name>All Roles</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-0f56ea63-74b8-4c70-939e-03eb28be0132</UniqueID>
+    <ParentID>UC-47f41264-20c8-48b7-a046-71461eecb00c</ParentID>
+    <Description>Verify that the system shows Companies list if this role is available not for all companies under the parent company.</Description>
+    <Name>The list of Companies. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-e2639563-1b6e-4edd-9480-a770acc27de0</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that new page opens if Admin presses on ‘Add Role’ button.</Description>
+    <Name>Add new role page</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-b88ec048-b1a6-406d-acb0-758524a59f6b</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that adding new role page has fields: Role Name (mandatory), 'Copy permissions from' dropdown (Don’t copy - default),  Companies dropdown (‘All’ is default state, Selected),  Permissions dropdown (All – by default),   the table with shown permissions, ‘Has permission’ checkbox on the right column of the table, buttons Add Role, Cancel.</Description>
+    <Name>New role page UI</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-10c1dbae-81d8-4e09-ad51-4217a12a3fe4</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that Role name may not be unique.</Description>
+    <Name>Role name is not unique</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-fe14754c-ebc0-4145-b60f-fb92c3cba64b</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that the list of existing Roles of current parent company appears if admin chooses role in dropdown ‘Copy permission from’.</Description>
+    <Name>Copy permission</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-aff8c360-cf19-41c3-a938-cca6f4bd4d76</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that Role will be available for all companies if Admin selects ‘All’ in Companies dropdown.</Description>
+    <Name>Role in all companies</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-1c925d9c-ee36-4a7d-bc71-954693bbd956</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify when Admin selects ‘Selected’ in Companies dropdown, the checkboxes with companies name appears.</Description>
+    <Name>Select Company. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-6ed077c5-684b-4b39-9f6e-bcdc65c6e948</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that at least one company must be selected to create role.</Description>
+    <Name>Select company required</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>6</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-c446a730-8c3a-4efe-ab96-d660d3168ebb</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that Role will be available for selected by user companies if Admin chooses ‘Selected’ in Companies dropdown.</Description>
+    <Name>Role in selected companies. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>7</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-07fc6088-5dc0-4ea8-b20a-6dc624ba2ce6</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that the list of permissions is shown fully by default. </Description>
+    <Name>Full permission’s list</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>8</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2ffdba45-4cbd-4d49-b858-147b9d977764</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify is user selects ‘Only Enabled Permissions ‘, the system shows permissions where the check box is selected.</Description>
+    <Name>Enabled permissions. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>9</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-cafa2790-b019-4a9d-b37f-cc6d185e059b</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify is user selects ‘Agile PM - … ‘, the system shows only ‘Agile PM - …’ available permission in the table. </Description>
+    <Name>Filter by Agile PM</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>10</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-197a33a1-19e8-4bec-a615-7eace6661cc0</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify if user selects an ‘Edit...’ permission without selecting the ‘View...’ permission, the system automatically selects that View... permission.</Description>
+    <Name>Check View automatically</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>11</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-700900e1-9ebd-4d6a-b6d9-c88c207d4762</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that user can select ‘View...’ permission without choosing the ‘Edit...’ permission.</Description>
+    <Name>Single View permission</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>12</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-6f2c955f-45b0-4b70-b613-8fd16abffffb</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that permissions are filtered by name if user enters text in “Find permission” field.</Description>
+    <Name>Filter permissions</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>13</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2a381e2e-5dda-43cc-b445-60d154440edb</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that the error message appears if user doesn’t fill in mandatory fields. </Description>
+    <Name>Error message if not all fields</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>14</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-21c4e919-16a1-4ef2-8777-d46428b4e439</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that new view the role page opens when user presses on ‘Save’ button.</Description>
+    <Name>Add role</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>15</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-b2debcf2-9bb5-494e-90c3-1e9226e3eaf2</UniqueID>
+    <ParentID>UC-32683471-d3ed-4e45-9bf1-27c1a5a87893</ParentID>
+    <Description>Verify that after creating and updating the role opened page has Role dropdown (with added/updated role chosen), Edit Role button, Back to Roles button, the correct text of Companies and Permissions for current role.</Description>
+    <Name>View role page UI. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>16</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-7f098778-b716-4ad9-8c93-2cb3ed252769</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that the system opens edit role page if user presses Edit button in Security page.</Description>
+    <Name>Edit role from security</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-3c5baec8-989c-45d4-becc-57f289085089</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that the system opens edit role page if user presses Edit Role button in view role page (after creating or updating role).</Description>
+    <Name>Edit role after creating. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-9cdf6a3d-de20-4c1e-9db2-3d545c15a536</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that edit page UI is the same as add role UI instead of missed ‘Copy permission from’ dropdown.</Description>
+    <Name>Edit Role UI</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2073712b-46e8-4aa1-8780-c4a76859e1d2</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that Role name (mandatory) may not be unique and autopopulated by role’s name.</Description>
+    <Name>Role name</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-36d6b094-18ec-4900-87bc-bc3453078e1e</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that companies scope is shown correctly for current role.</Description>
+    <Name>Companies for role.</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>4</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-bd180720-4227-4f1e-b6bb-227d44614f4b</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that Role will be available for all companies if Admin selects ‘All’ in Companies dropdown. </Description>
+    <Name>Role in all companies</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>5</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-50ef17c4-a864-48d5-a10b-d9bee7ba25c0</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify when Admin selects ‘Selected’ in Companies dropdown, the checkboxes with companies name appears.</Description>
+    <Name>Select Company</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>6</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-bbd03836-f67a-4b1e-acda-ac526cd5c64e</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>that at least one company must be selected to create role.</Description>
+    <Name>Select company required</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>7</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-b5ffec93-079a-4f3a-924f-68f08e5b28bf</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that Role will be available for selected by user companies if Admin chooses ‘Selected’ in Companies dropdown.</Description>
+    <Name>Role in selected companies</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>8</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-b8d38970-9e11-4282-9c29-370ebaa0441a</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that the list of permissions is shown fully by default. </Description>
+    <Name>Full permission’s list. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>9</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-8c89aeb4-a6ed-4fb7-882b-6c7cf4132be9</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify is user selects ‘Only Enabled Permissions ‘, the system shows permissions where the check box is selected.</Description>
+    <Name>Enabled permissions</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>10</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-e74d68fc-182f-4808-8f1e-9d4287dca4d4</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify is user selects ‘Agile PM - … ‘, the system shows only ‘Agile PM - …’ available permission in the table. </Description>
+    <Name>Filter by Agile PM. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>11</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-99b52806-a1cb-426d-896a-21f58da41866</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that correct permissions are chosen. </Description>
+    <Name>Correct permissions</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>12</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-625e11c6-de39-4275-83f9-348aed8c4bbe</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify if user selects an ‘Edit...’ permission without selecting the ‘View...’ permission, the system automatically selects that View... permission.</Description>
+    <Name>Check View automatically. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>13</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-5ce6d40b-d489-418f-a2e5-3b0f29d63f1f</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that user can select ‘View...’ permission without choosing the ‘Edit...’ permission.</Description>
+    <Name>Single View permission</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>14</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-e762f381-4ef0-475b-9d65-37442c2a000e</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that permissions are filtered by name if user enters text in “Find permission” field.</Description>
+    <Name>Filter permissions</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>15</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-b6522553-9678-4d40-a966-266417815c89</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that the error message appears if user doesn’t fill in mandatory fields. </Description>
+    <Name>Error message if not all fields</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>16</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-2683ca15-3167-4feb-baa8-1756a7ecfa65</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that the system requires confirmation and warns user the changes will be applied to all users who have this role.</Description>
+    <Name>Confirmation for editing </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>17</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-d5aee724-c43d-45c6-9989-435d3406ca64</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that the system remains on the edit page, if user reject confirmation of applying role’s changes.</Description>
+    <Name>Cancel confirmation of editing</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>18</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-b03c187c-8188-4a38-b58e-fd77711930c3</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>that the system saves the changes when user confirms updating the role.</Description>
+    <Name>Update role. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>19</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-27bed1f9-5c5b-46eb-9451-1ca927ff15ed</UniqueID>
+    <ParentID>UC-c21b6dd5-e160-43b5-a698-30d1c6989a7d</ParentID>
+    <Description>Verify that new view the role page opens when user presses on ‘Save’ button.</Description>
+    <Name>View role page. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>20</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-39929c53-e576-4ea3-ac64-3c6b4f5aed7a</UniqueID>
+    <ParentID>UC-04f1f8d8-7717-4bb4-8554-1c5a22f16427</ParentID>
+    <Description>Verify that the system requests confirmation when user presses on delete the role button on Security page.</Description>
+    <Name>Confirmation for deleting</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>0</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-23bf5f96-849e-4de7-975e-bcc11e124649</UniqueID>
+    <ParentID>UC-04f1f8d8-7717-4bb4-8554-1c5a22f16427</ParentID>
+    <Description>Verify if admin cancels, the system doesn’t delete role and closes the window.</Description>
+    <Name>Cancel deleting. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>1</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-bdc4c30c-0b69-47dd-bf99-1191a6aea8fb</UniqueID>
+    <ParentID>UC-04f1f8d8-7717-4bb4-8554-1c5a22f16427</ParentID>
+    <Description>Verify that the system permanently removes the role, if admin confirms deleting.</Description>
+    <Name>Delete the role. </Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>2</Sequence>
+  </TestScenario>
+  <TestScenario>
+    <UniqueID>TS-ea4b078b-c4cb-4030-8aa7-22b3505d0176</UniqueID>
+    <ParentID>UC-04f1f8d8-7717-4bb4-8554-1c5a22f16427</ParentID>
+    <Description>Verify if user had only one role and it was deleted, the error message will appear after trying to access the system "You do not have access to AgilePM. Please contact system administrator".</Description>
+    <Name>User with one deleted role</Name>
+    <Status />
+    <Complexity />
+    <TestType />
+    <Priority>1</Priority>
+    <TestingSetup />
+    <Sequence>3</Sequence>
+  </TestScenario>
+</UCTDataSet>

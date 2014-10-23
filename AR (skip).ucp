@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5088</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-eda0e375-d86d-43a7-9cf1-3b887b0bac38</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-eda0e375-d86d-43a7-9cf1-3b887b0bac38</UniqueID>
+    <ExternalParentID>P-d398782e-73f0-42d8-a8a6-2eff436a04cc</ExternalParentID>
+    <Name>AR (skip)</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <ElementStub>
+    <ParentID>P-eda0e375-d86d-43a7-9cf1-3b887b0bac38</ParentID>
+    <Path>Existing AR Functionality.ucp</Path>
+    <ElementID>P-67f65a98-2386-41bd-aef2-b27684f002c8</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <UserID>
+    <DefaultPrefix>UC-77-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-77-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-77-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-77-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

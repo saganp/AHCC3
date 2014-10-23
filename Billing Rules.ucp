@@ -1,0 +1,351 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5001</SavedWith>
+    <CreatedWith>7.2.4769</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-52889492-5678-40ea-9cc6-85f140852ea1</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-52889492-5678-40ea-9cc6-85f140852ea1</UniqueID>
+    <ExternalParentID>P-8096edb0-d848-4cb6-a193-07d8aaba31f0</ExternalParentID>
+    <Name>Unit Calculation Rules</Name>
+    <Description>This section describes unit calculation rules.
+
+When calculating units for Visit-Based Treatments, the system uses the same logic for all insurance plans.
+
+When calculating units for Time-Based Treatments, the system uses different rules depending on the billing group to which primary insurance plan belongs. There are 3 billing groups in the system:
+Group 1 - Medicare, Medicaid and Priority Health
+Group 2 - BCBS and BCN
+Group 3 - Commercial, Auto, W/C and all others
+Billing Group is assigned to an insurance plan in the Admin interface. This is done manually, the system imposes no restrictions on what group to assign.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 This section describes unit calculation rules.\par
+\par
+When calculating units for \cf1 Visit-Based Treatments\cf2 , the system uses the same logic for all insurance plans.\par
+\par
+When calculating units for \cf1 Time-Based Treatments\cf2 , the system uses different rules depending on the billing group to which primary insurance plan belongs. There are 3 billing groups in the system:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 Group 1 - Medicare, Medicaid and Priority Health\cf0\par
+\cf2{\pntext\f1\'B7\tab}Group 2 - BCBS and BCN\cf0\par
+\cf2{\pntext\f1\'B7\tab}Group 3 - Commercial, Auto, W/C and all others\cf0\par
+\pard Billing Group is assigned to an insurance plan in the Admin interface. This is done manually, the system imposes no restrictions on what group to assign.\par
+}
+</RichDescription>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-71e3c091-205c-4238-9df0-e5e806786378</UniqueID>
+    <UserID>UC-13-1</UserID>
+    <ParentID>P-52889492-5678-40ea-9cc6-85f140852ea1</ParentID>
+    <Name>Group 1 Time-Based Billing Unit Calculation</Name>
+    <Description>Principles described here apply to Time-Based Treatments covered by Primary Insurance plans that belong to Billing Group 1.
+
+First billing unit appears after the first 8 minutes of collective treatment time.
+Second and additional units are calculated in 15 minute increments ‘beyond’ the first 8 minute threshold. 
+
+0-7 Minutes		=0 Units (Must have a minimum of 8 minutes for each treatment for it to be payable.)
+8-22 Minutes	=1 Unit
+23-37 Minutes	=2 Units
+38-52 Minutes	=3 Units
+53-67 Minutes	=4 Units
+68-82 Minutes	=5 Units
+
+Once total treatment time is translated into units, these units must be distributed between the treatments. Units are assigned to treatments in 15-minute increments (8-minute rule is only used to calculate total number of billable units, so it's not applied here).
+
+The system should first assign units to treatments that took 15 minutes or longer. Every time the system assigns a unit, it should "subtract" 15 minutes from each treatment (not in the UI, it's just internal logic).
+
+If after assigning units for 15-minute segments there are still unassigned units, the system should assign these units to procedures with most remaining time.
+In case several treatments have the same remaining time, assign units in the list order (treatment on top of the list gets remaining unit)
+
+For example:
+3 treatments:
+CPT_97111 for 20 minutes
+CPT_97222 for 6 minutes
+CPT_97333 for 22 minutes. 
+That's 48 minutes total and converts to 3 units (48 is between 38 and 52).
+
+So first we distribute units for 15-minute segments:
+CPT_97111: 20 min - 15 minutes (1 unit) = 5 minutes remaining
+CPT_97222: 6 min. It's less than 15 minutes, so it doesn't get a unit yet.
+CPT_97333: 22 min - 15 minutes (1 unit) = 7 minutes remaining
+
+Since we still have 1 unit to assign, we assign it to the treatment with most "remaining" minutes. Here's the remaining time:
+CPT_97111: 5 minutes remaining
+CPT_97222: 6 minutes remaining
+CPT_97333: 7 minutes remaining
+97333 has the most remaining minutes, so it gets the last unit.
+
+If we had 2 remaining units to assign, the second unit would have went to 97222.
+
+If we had the same remaining time for all treatments (say, 6 minutes for all three of them) and 1 unit to assign, that unit would go to 97111 because it is at the top of the list.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Principles described here apply to \cf1 Time-Based Treatments covered by Primary Insurance plans that belong to Billing Group 1.\par
+\cf0\par
+First billing unit appears after the first 8 minutes of collective treatment time.\par
+Second and additional units are calculated in 15 minute increments \lquote beyond\rquote  the first 8 minute threshold. \par
+\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 0-7 Minutes\tab\tab =0 Units (Must have a minimum of 8 minutes for each treatment for it to be payable.)\par
+{\pntext\f1\'B7\tab}8-22 Minutes\tab =1 Unit\par
+{\pntext\f1\'B7\tab}23-37 Minutes\tab =2 Units\par
+{\pntext\f1\'B7\tab}38-52 Minutes\tab =3 Units\par
+{\pntext\f1\'B7\tab}53-67 Minutes\tab =4 Units\par
+{\pntext\f1\'B7\tab}68-82 Minutes\tab =5 Units\par
+\pard\par
+Once total treatment time is translated into units, these units must be distributed between the treatments. Units are assigned to treatments in 15-minute increments (8-minute rule is only used to calculate total number of billable units, so it's not applied here).\par
+\par
+The \cf2\ul system\cf1\ulnone  should first assign units to treatments that took 15 minutes or longer. Every time the \cf2\ul system\cf1\ulnone  assigns a unit, it should "subtract" 15 minutes from each\cf0  treatment (not in the UI, it's just internal logic).\par
+\par
+If after assigning units for 15-minute segments there are still unassigned units, the \cf2\ul system\cf1\ulnone  should assign these units to procedures with most remaining time.\par
+In case several treatments have the same remaining time, assign units in the list order (treatment on top of the list gets remaining unit)\par
+\par
+\cf0\ul For example\ulnone :\par
+3 treatments:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\b CPT_97111 \b0 for 20 minutes\par
+\b{\pntext\f1\'B7\tab}CPT_97222 \b0 for 6 minutes\par
+\b{\pntext\f1\'B7\tab}CPT_97333 \b0 for 22 minutes. \par
+\pard That's 48 minutes total and converts to 3 units (48 is between 38 and 52).\par
+\par
+So first we distribute units for 15-minute segments:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\b CPT_97111\b0 : 20 min - 15 minutes (1 unit) = 5 minutes remaining\par
+\b{\pntext\f1\'B7\tab}CPT_97222\b0 : 6 min. It's less than 15 minutes, so it doesn't get a unit yet.\par
+\b{\pntext\f1\'B7\tab}CPT_97333\b0 : 22 min - 15 minutes (1 unit) = 7 minutes remaining\par
+\pard\par
+Since we still have 1 unit to assign, we assign it to the treatment with most "remaining" minutes. Here's the remaining time:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\b CPT_97111\b0 : 5 minutes remaining\par
+\b{\pntext\f1\'B7\tab}CPT_97222\b0 : 6 minutes remaining\par
+\b{\pntext\f1\'B7\tab}CPT_97333\b0 : 7 minutes remaining\par
+\pard\b 97333 \b0 has the most remaining minutes, so it gets the last unit.\par
+\par
+If we had 2 remaining units to assign, the second unit would have went to \b 97222\b0 .\par
+\par
+If we had the same remaining time for all treatments (say, 6 minutes for all three of them) and 1 unit to assign, that unit would go to \b 97111 \b0 because it is at the top of the list.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-03-28T12:26:50.6198709-04:00</DateAdded>
+    <DateModified>2013-04-11T12:36:40.3341266-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-a92ad749-3145-4431-afc2-66442f051386</UniqueID>
+    <UserID>UC-13-2</UserID>
+    <ParentID>P-52889492-5678-40ea-9cc6-85f140852ea1</ParentID>
+    <Name>Group 2 Time-Based Billing Unit Calculation</Name>
+    <Description>Principles described here apply to Time-Based Treatments covered by Primary Insurance plans that belong to Billing Group 2.
+
+Must have 15 minutes for the first unit to charge. Consequent units are also calculated in 15-minute increments, but for those units [second unit and further] we use 8-minute rule (you can add billable unit as soon as you have 8 minutes, and when you hit 15 you start looking for the next 8 minutes, and if you have it, you get another unit).
+
+There's no need to implement the logic above, you can simply use the table below.
+
+15-22 minutes = 1 unit
+23-37 minutes = 2 units
+38-52 minutes = 3 units
+53-67 minutes = 4 units
+
+To get first unit, we need 15 minutes. To get second unit, we need at least 8 extra minutes (between 8 and 15). If procedure lasted more than 30 min, we keep using the 8-minutes rule (i.e. as long as we have 8 minutes, it's a unit we can bill).
+
+This is per procedure and not rolled up like Medicare.  
+
+Example:
+23 minutes of 97110   = 2 units (15+8)
+23 minutes of 97140   = 2 units (15+8)
+35 minutes of 97555   = 2 units (15+15+5)
+14 minutes of 97222   = 0 units (&lt;15)
+Total visit: 95 minutes and 6 units (no rollup here, so total visit time and total unit number are not directly connected)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Principles described here apply to \cf1 Time-Based Treatments covered by Primary Insurance plans that belong to Billing Group 2.\par
+\par
+\cf0\lang1049\f1 Must have 15 minutes \lang1033\f0 for the first unit \lang1049\f1 to charge\lang1033\f0 . Consequent units are also calculated in 15-minute increments, but for those units [second unit and further] we\lang1049\f1  use 8\lang1033\f0 -\lang1049\f1 minute rule\lang1033\f0  (you can add billable unit as soon as you have 8 minutes, and when you hit 15 you start looking for the next 8 minutes, and if you have it, you get another unit)\lang1049\f1 .\par
+\par
+\lang1033\f0 There's no need to implement the logic above, you can simply use the table below.\lang1049\f1\par
+\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 15-22 minutes = 1 unit\par
+{\pntext\f2\'B7\tab}23-37 minutes = 2 units\par
+{\pntext\f2\'B7\tab}38-52 minutes = 3 units\par
+{\pntext\f2\'B7\tab}53-67 minutes = 4 units\par
+\pard\par
+\lang1033\f0 To get first unit, we need 15 minutes. To get second unit, we need at least 8 extra minutes (between 8 and 15). If \cf1 procedure lasted more than 30 min, we keep using the 8-minutes rule (i.e. as long as we have 8 minutes, it's a unit we can bill).\cf0\lang1049\f1\par
+\par
+\lang1033\f0 T\lang1049\f1 his is per \cf1 procedure\cf0  and not rolled up like Medicare. \lang1033\f0  \lang1049\f1\par
+\par
+\ul Example\ulnone :\par
+23 minutes of 97110   = 2 units\lang1033\f0  (15+8)\lang1049\f1\par
+23 minutes of 97140   = 2 units\lang1033\f0  (15+8)\lang1049\f1\par
+\lang1033\f0 35 minutes of 97555   = 2 units (15+15+5)\par
+14 minutes of 97222   = 0 units (&lt;15)\lang1049\f1\par
+Total \cf1 visit\lang1033\f0 :\cf0\lang1049\f1  \lang1033\f0 95\lang1049\f1  minutes\lang1033\f0  and 6\lang1049\f1  units\lang1033\f0  (no rollup here, so total \cf1 visit\cf0  time and total unit number are not directly connected)\cf1\b\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-03-28T12:27:04.9046879-04:00</DateAdded>
+    <DateModified>2013-05-29T11:50:28.8867359-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-251f807b-650a-4c6f-b89f-eee7693791b4</UniqueID>
+    <UserID>UC-13-3</UserID>
+    <ParentID>P-52889492-5678-40ea-9cc6-85f140852ea1</ParentID>
+    <Name>Group 3 Time-Based Billing Unit Calculation</Name>
+    <Description>Principles described here apply to 
+Time-Based Treatments covered by Primary Insurance plans that belong to Billing Group 3.
+Self-paid Time-Based Treatments
+
+Minimum procedure duration is 8 minutes, so the first unit can only be billed if procedure duration is at least 8 minutes.
+
+8-15 Minutes       = 1 Unit
+16-30 Minutes     = 2 Units
+31-45 Minutes     = 3 Units
+46-60 Minutes     = 4 Units
+
+This is per procedure and not rolled up like Medicare. 
+
+Example:
+23 minutes of 97110   = 2 units
+23 minutes of 97140   = 2 units
+10 minutes of 97555   = 1 units
+14 minutes of 97222   = 1 units
+Total visit: 70 minutes and 6 units (no rollup here, so total visit time and total unit number are not directly connected)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Principles described here apply to \cf1\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360 Time-Based Treatments covered by Primary Insurance plans that belong to Billing Group 3.\par
+{\pntext\f2\'B7\tab}Self-paid Time-Based Treatments\par
+\pard\par
+\cf0 Minimum \cf2 procedure\cf0  duration is 8 minutes, so the first unit can only be billed if \cf1 procedure\cf0  duration is at least 8 minutes\cf1 .\par
+\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf0 8\lang1049\f1 -15 Minutes       \lang1033\f0 =\lang1049\f1  1 Unit\par
+{\pntext\f2\'B7\tab}16-30 Minutes     \lang1033\f0 =\lang1049\f1  2 Units\par
+{\pntext\f2\'B7\tab}31-45 Minutes     \lang1033\f0 = \lang1049\f1 3 Units\par
+{\pntext\f2\'B7\tab}46-60 Minutes     \lang1033\f0 =\lang1049\f1  4 Units\par
+\pard\par
+\lang1033\f0 T\lang1049\f1 his is per \cf2 procedure\cf0  and not rolled up like Medicare. \par
+\par
+\ul Example\ulnone :\par
+23 minutes of 97110   = 2 units\par
+23 minutes of 97140   = 2 units\par
+\lang1033\f0 10 minutes of 97555   = 1 units\par
+14 minutes of 97222   = 1 units\lang1049\f1\par
+Total \cf2 visit\cf1\lang1033\f0 :\cf0\lang1049\f1  \lang1033\f0 70\lang1049\f1  minutes\lang1033\f0  and 6\lang1049\f1  units\lang1033\f0  (no rollup here, so total \cf2 visit\cf0  time and total unit number are not directly connected)\lang1049\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-03-28T12:27:15.1812757-04:00</DateAdded>
+    <DateModified>2013-04-11T12:42:24.1550884-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-1bd19c67-6a6c-491f-b8b5-58336057d9c6</UniqueID>
+    <UserID>UC-13-4</UserID>
+    <ParentID>P-52889492-5678-40ea-9cc6-85f140852ea1</ParentID>
+    <Name>Visit-Based Unit Calculation</Name>
+    <Description>All insurance carriers use the same principle for calculating billable units for  Visit-Based Treatments.
+
+Regardless of how much time clinician spends performing a treatment, the max one can bill for it is 1 unit. 
+Clinician must spend at least 1 minute on a procedure in order to make it billable. If procedure duration is 0 minutes, the system must consider it non-billable (0 units).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 All \cf2 insurance carriers\cf1  use the same principle for calculating billable units for  \cf2 Visit-Based Treatments\cf1 .\par
+\par
+Regardless of how much time \cf2 clinician\cf1  spends performing a treatment, the max one can bill for it is 1 unit. \par
+\cf2 Clinician\cf1  must spend at least 1 minute on a \cf2 procedure\cf1  in order to make it billable. If \cf2 procedure\cf1  duration is 0 minutes, the \cf3\ul system\cf1\ulnone  must consider it non-billable (0 units).\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-11-18T09:16:12.8362833-05:00</DateAdded>
+    <DateModified>2013-11-18T09:16:43.5798525-05:00</DateModified>
+  </UseCase>
+  <UCActor>
+    <ParentID>UC-71e3c091-205c-4238-9df0-e5e806786378</ParentID>
+    <ActorID>A-0fbc8f86-a744-4163-8b0b-c3449a9b01e5</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-a0e2c56f-a886-4094-8488-19c7a9add026</UniqueID>
+    <ParentID>UC-71e3c091-205c-4238-9df0-e5e806786378</ParentID>
+    <Description />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\b\f0\fs20\par
+}
+</RichDescription>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-f41f6141-6000-4b79-8a59-8cfb960cd28c</UniqueID>
+    <ParentID>UC-a92ad749-3145-4431-afc2-66442f051386</ParentID>
+    <Description />
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+</RichDescription>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-cee7357c-507b-4259-98d3-efb8a35d9e2a</UniqueID>
+    <ParentID>UC-251f807b-650a-4c6f-b89f-eee7693791b4</ParentID>
+    <Description />
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20\par
+}
+</RichDescription>
+  </Scenario>
+  <UserID>
+    <DefaultPrefix>UC-13-</DefaultPrefix>
+    <NextValue>5</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-13-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-13-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-13-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

@@ -1,0 +1,418 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5001</SavedWith>
+    <CreatedWith>8.0.5001</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</UniqueID>
+    <ExternalParentID>P-4aaac049-b435-477f-90c5-f0a2469598ba</ExternalParentID>
+    <Name>dict_unused</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UserID>
+    <DefaultPrefix>UC-60-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-60-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-60-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-60-</DefaultPrefix>
+    <NextValue>25</NextValue>
+  </UserID>
+  <DictionaryEntry>
+    <UniqueID>D2-3d3d8de6-daec-42f6-9f00-14ecf194c18d</UniqueID>
+    <Name>Appeal</Name>
+    <Description>Specific request made to a payer for reconsideration of a denial or adverse coverage or payment decision and potential restriction of benefit reimbursement</Description>
+    <Aliases>Reconsideration Request</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Specific request made to a payer for reconsideration of a denial or adverse coverage or payment decision and potential restriction of benefit reimbursement\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-1</UserID>
+    <Sequence>0</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-85bbcd50-79e4-4d0e-af46-ae88b9ad8d63</UniqueID>
+    <Name>Assignment of Benefits</Name>
+    <Description>Authorization from the patient allowing the thrd-party payer to pay the provider directly for medical services.  Under Medicare, an assignment is an agreement by the medical provider to accept Medicare's payment as the full payment and not to bill the patient for any amounts over the allowance amount, except for deductible and/or coinsurance amounts or non-covered services.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Authorization from the \cf1\ul patient\cf0\ulnone  allowing the thrd-party \cf2 payer\cf0  to pay the provider directly for medical services.  Under Medicare, an assignment is an agreement by the medical provider to accept Medicare's payment as the full payment and not to bill the \cf1\ul patient\cf0\ulnone  for any amounts over the allowance amount, except for \cf2 deductible\cf0  and/or \cf2 coinsurance\cf0  amounts or non-covered services.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-2</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-b6074dc9-0beb-4be5-a44f-cac6166f511b</UniqueID>
+    <Name>Case Management</Name>
+    <Description>Ongoing review of cases by professionals to assure the appropriate utilization of services.</Description>
+    <Aliases>Utilization Management</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Ongoing review of \cf1 cases\cf0  by professionals to assure the appropriate utilization of services.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-6</UserID>
+    <Sequence>2</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-995fb19b-066b-43df-9f93-23b9430a0ac8</UniqueID>
+    <Name>Coinsurance</Name>
+    <Description>the percentage of a covered dental expense that a beneficiary must pay (after the deductible is paid). A typical coinsurance arrangement is one in which the third party pays 80% of the allowed benefit of the covered medical service and the beneficiary pays the remainder of the charged fee. Percentages vary and may apply to a table of allowance plans; usual, customary, and reasonable plans; and direct reimbursement programs.
+----------------------------------------
+Second definition:
+Coinsurance indicates how an insurer and an insured split the cost of the medical bill after the deductible has been met. Once the out-of- pocket maximum has been reached the insurer will assume responsibility for 100% of any additional costs.
+
+__________________________________________                                                   
+Alternate Definition:  
+A cost-sharing methodology where the insurance and the patient split the payment via a percentage of the contracted rate the insurance company has with the provider.  Depending on the insurance plan and the contract they have with the patient, this could be on top of or in addition to out-of-pocket maximums and deductibles.  Typically co-insurances are applied after a deductible is met but this is not always the case.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 the percentage of a covered dental expense that a beneficiary must pay (after the deductible is paid). A typical \cf1 coinsurance\cf0  arrangement is one in which the third party pays 80% of the allowed benefit of the covered medical service and the beneficiary pays the remainder of the charged fee. Percentages vary and may apply to a table of allowance plans; usual, customary, and reasonable plans; and direct reimbursement programs.\par
+----------------------------------------\par
+Second definition:\par
+\cf1 Coinsurance\cf0  indicates how an insurer and an insured split the cost of the medical bill after the deductible has been met. Once the out-of- pocket maximum has been reached the insurer will assume responsibility for 100% of any additional costs.\par
+\par
+__________________________________________                                                   \par
+Alternate Definition:  \par
+A cost-sharing methodology where the insurance and the \cf2\ul patient\cf0\ulnone  split the payment via a percentage of the \cf1 contracted rate\cf0  the \cf1 insurance company\cf0  has with the provider.  Depending on the insurance plan and the contract they have with the \cf2\ul patient\cf0\ulnone , this could be on top of or in addition to out-of-pocket maximums and \cf1 deductibles\cf0 .  Typically co-insurances are applied after a \cf1 deductible\cf0  is met but this is not always the \cf1 case\cf3 .\cf0\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-8</UserID>
+    <Sequence>3</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-ce1260ab-9cb8-4d45-a651-2f1703e4e717</UniqueID>
+    <Name>Case Number</Name>
+    <Description>An account number which is assigned to a patient's episode of care for a specific injury or problem.</Description>
+    <Aliases>Account Number, Patient Number</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 An account number which is assigned to a \cf1\ul patient\cf0\ulnone 's episode of care for a specific injury or problem.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-7</UserID>
+    <Sequence>4</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-0fbcb3d7-1e78-4588-bd77-5a1436bb5341</UniqueID>
+    <Name>Balance Billing</Name>
+    <Description>Arrangement prohibited in Medicare regulations and some payer contracts whereby a provider bills the patient for charges not reimbursed by the payer.  i.e. Not writing off the difference between total charges and the payers allowed amount.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Arrangement prohibited in Medicare regulations and some \cf1 payer\cf0  contracts whereby a provider bills the \cf2\ul patient\cf0\ulnone  for charges not reimbursed by the \cf1 payer\cf0 .  i.e. Not writing off the difference between total charges and the \cf1 payers\cf0  \cf1 allowed amount\cf3 .\cf0\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-3</UserID>
+    <Sequence>4</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-24e66105-fd00-4476-9d7b-e211155daf69</UniqueID>
+    <Name>Correct Coding Initiative</Name>
+    <Description>Offical list of codes from the Centers for Medicare and Medicaid (CMS) National Correct Coding Policy Manual for Medicare Services that identifies services considered an integral part of a comprehensive code or mutually exclusive of it.</Description>
+    <Aliases>NCII Edits, CCI Edits</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Offical list of codes from the Centers for Medicare and Medicaid (CMS) National Correct Coding Policy Manual for Medicare Services that identifies services considered an integral part of a comprehensive code or mutually exclusive of it.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-11</UserID>
+    <Sequence>4</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-5c33e2db-e278-46b0-8228-af61f5c8d7a9</UniqueID>
+    <Name>Conditional Payment</Name>
+    <Description>Medicare reimbursement requested by the provider or supplier when worker's compensation, no-fault, or liability insurance will not pay or will not pay promptly.  Such payments are conditioned upon reimbursement to Medicare if the other insurer has or had the responsibility to make primary payment.  Promptly is defined as within 120 days after the claim was filed with an insurer or a lien is filed against a potential liability settlement.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Medicare reimbursement requested by the provider or supplier when worker's compensation, no-fault, or liability insurance will not pay or will not pay promptly.  Such payments are conditioned upon reimbursement to Medicare if the other insurer has or had the responsibility to make primary payment.  Promptly is defined as within 120 days after the claim was filed with an insurer or a lien is filed against a potential liability settlement.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-9</UserID>
+    <Sequence>5</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-f7e8f1da-9b59-4248-a6c1-80017415c0e4</UniqueID>
+    <Name>Local Medical Review Policy</Name>
+    <Description>Carrier specific policy applied in the absence of a national coverage policy to make local Medicare coverage decisions, including the development of a draft policy based on a review of medical literature, an understanding of local practice, and the solicitation of comments from the medical community and Carrier Advisory Committee. </Description>
+    <Aliases>LMRP</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Carrier\cf0  specific policy applied in the absence of a national coverage policy to make local Medicare coverage decisions, including the development of a draft policy based on a review of medical literature, an understanding of local practice, and the solicitation of comments from the medical community and \cf1 Carrier\cf0  Advisory Committee. \par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-13</UserID>
+    <Sequence>5</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-8d711e5b-4fdb-492a-b7b2-3c8c3be949cd</UniqueID>
+    <Name>Coordination of Benefits</Name>
+    <Description>Coordination of benefits (COB) is a term used when a patient has two or more health insurance plans. Certain rules apply to determine which health insurance plan pays primary (first), secondary (second) or tertiary (third). There are several guidelines to determine in what order the medical office must bill each health insurance plan:
+
+Dependent/Nondependent Rule
+The Dependent/Nondependent Rule applies to the health insurance plan subscriber and the subscriber's spouse. The primary payer is the health insurance plan that covers the patient as an employee, subscriber or member. The secondary payer is the health insurance plan that covers the patient as a dependent.
+
+Birthday Rule:  
+Typically applies when a dependent patient is covered by insurance through multiple parents (typically two).  Whoever's birthday comes first in the year indicates whose insurance is primary for the dependant.  Exceptions may be made if the guarentor provides legal documents supporting that a different arrangement has been mandated through the court system. This rarely happens and typically only occurs in scenarios where the parent's are divorced.</Description>
+    <Aliases>COB, Birthday Rule</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Coordination of benefits\cf0  (COB) is a term used when a \cf2\ul patient\cf0\ulnone  has two or more health insurance plans. Certain rules apply to determine which health insurance plan pays primary (first), secondary (second) or tertiary (third). There are several guidelines to determine in what order the medical office must bill each health insurance plan:\par
+\par
+Dependent/Nondependent Rule\par
+The Dependent/Nondependent Rule applies to the health insurance plan subscriber and the subscriber's spouse. The primary payer is the health insurance plan that covers the \cf2\ul patient\cf0\ulnone  as an employee, subscriber or member. The secondary payer is the health insurance plan that covers the \cf2\ul patient\cf0\ulnone  as a dependent.\par
+\par
+Birthday Rule:  \par
+Typically applies when a dependent \cf2\ul patient\cf0\ulnone  is covered by insurance through multiple parents (typically two).  Whoever's birthday comes first in the year indicates whose insurance is primary for the dependant.  Exceptions may be made if the guarentor provides legal documents supporting that a different arrangement has been mandated through the court system. This rarely happens and typically only occurs in scenarios where the parent's are divorced.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-10</UserID>
+    <Sequence>6</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-707ac8b3-e7d2-44ab-a732-cd7de93837eb</UniqueID>
+    <Name>Medicare Secondary Payer</Name>
+    <Description>Medicare Secondary Payer
+Medicare Secondary Payer or MSP refers to Medicare benefits when Medicare is not the primary insurance. Medicare requires all health care providers to know how to determine when Medicare is the primary or secondary insurance for their Medicare patients. Medicare is primary when the patient is:
+65 or older and has a small group health plan through their own current employer or through their spouse's current employer
+65 or older with insurance through a retirement plan
+Disabled and has a small group health plan through their own current employer or through their spouse's current employer
+In instances that the primary insurance denies the claim, Medicare may pay only in certain situations.</Description>
+    <Aliases>MSP</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Medicare Secondary Payer\cf0\par
+\cf1 Medicare Secondary Payer\cf0  or MSP refers to Medicare benefits when Medicare is not the primary insurance. Medicare requires all health care providers to know how to determine when Medicare is the primary or secondary insurance for their Medicare \cf2\ul patients\cf0\ulnone . Medicare is primary when the \cf2\ul patient\cf0\ulnone  is:\par
+65 or older and has a small group health plan through their own current employer or through their spouse's current employer\par
+65 or older with insurance through a retirement plan\par
+Disabled and has a small group health plan through their own current employer or through their spouse's current employer\par
+In instances that the primary insurance denies the claim, Medicare may pay only in certain situations.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-15</UserID>
+    <Sequence>6</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-351dfbfe-90b9-45a6-8b7e-8355b30a0275</UniqueID>
+    <Name>Covered Services</Name>
+    <Description>Diagnostic or treatment services that are considered medically necessary and met coverage and program guidelines.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Diagnostic or treatment services that are considered medically necessary and met coverage and program guidelines.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-12</UserID>
+    <Sequence>7</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-f3fcca9d-2bdc-4310-91d9-c975c1f4d45f</UniqueID>
+    <Name>Medigap</Name>
+    <Description>Individual health insurance offered by a private entity to those persons entitled to Medicare benefits and is specifically designed to supplement Medicare benefits.  If fills in some of the gaps in Medicare coverage by providing payment for some of the charges, deductibles, co-insurance amounts, or other limitations imposed by Medicare.  </Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Individual health insurance offered by a private entity to those persons entitled to Medicare benefits and is specifically designed to supplement Medicare benefits.  If fills in some of the gaps in Medicare coverage by providing payment for some of the charges, \cf1 deductibles\cf0 , co-insurance amounts, or other limitations imposed by Medicare.  \par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-16</UserID>
+    <Sequence>7</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-fb54e392-f90e-4074-9502-da0be1c7e5f5</UniqueID>
+    <Name>Out of Plan</Name>
+    <Description>In health care contracting, services of a provider who is not a member of the preferred provider network</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 In health care contracting, services of a provider who is not a member of the preferred provider network\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-18</UserID>
+    <Sequence>8</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-1e720d93-0890-4732-9063-b194ca652a8b</UniqueID>
+    <Name>Participating Provider</Name>
+    <Description>Provider who has contracted with the health plan to deliver medical services to covered persons.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Provider\cf0  who has contracted with the health plan to deliver medical services to covered persons.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-19</UserID>
+    <Sequence>9</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-ffdd5793-fba9-474e-afc4-01d8364fbc15</UniqueID>
+    <Name>Beneficiary</Name>
+    <Description>Persons entitled to receive Medicare or other payer benefits who maintains a health insurance policy number.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Persons entitled to receive Medicare or other \cf1 payer\cf0  benefits who maintains a health insurance policy number.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-4</UserID>
+    <Sequence>10</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-6f28af22-8003-4154-8fbd-64a37b0394d8</UniqueID>
+    <Name>Self-Funded</Name>
+    <Description>Health care program in which employers fund benefit plans from their own resources without purchasing insurance.  May be self-administered, or the employer may contract with an outside administration</Description>
+    <Aliases>Self Funded</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Health care program in which employers fund benefit plans from their own resources without purchasing insurance.  May be self-administered, or the employer may contract with an outside administration\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-20</UserID>
+    <Sequence>10</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-78ac100e-231e-429e-9f87-eb04e9450d28</UniqueID>
+    <Name>Third Party Liability Insurance</Name>
+    <Description>Third Party Liability Insurance
+For accident related services, the following third party liability Insurance:
+Some types of Third Party Liability Insurance are below.
+Motor Vehicle or Auto Insurance including no fault, policy or Med Pay
+Worker's Compensation Insurance
+Home Owner's Insurance
+Malpractice Insurance
+Business Liability Insurance</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Third Party Liability Insurance\cf0\par
+For accident related services, the following \cf1 third party liability Insurance\cf2 :\par
+Some types of \cf1 Third Party Liability Insurance\cf2  are below.\cf0\par
+Motor Vehicle or Auto Insurance including no fault, policy or Med Pay\par
+Worker's Compensation Insurance\par
+Home Owner's Insurance\par
+Malpractice Insurance\par
+Business Liability Insurance\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-21</UserID>
+    <Sequence>11</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-faf61f2f-00cb-4cc1-ab7e-222254e11ae9</UniqueID>
+    <Name>Unbundling</Name>
+    <Description>Separately packaging costs or services that might otherwise be billed together including billing separately for health care services that should be combined according to the industry standards or commonly accepted coding practices. </Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Separately packaging costs or services that might otherwise be billed together including billing separately for health care services that should be combined according to the industry standards or commonly accepted coding practices. \par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-22</UserID>
+    <Sequence>12</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-1f3106ca-09ec-4e3c-804d-30fd97a17865</UniqueID>
+    <Name>Bundled Charges</Name>
+    <Description>Inclusive grouping of codes related to a procedure when submitting a claim.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Inclusive grouping of codes related to a \cf1 procedure\cf0  when submitting a claim.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-5</UserID>
+    <Sequence>13</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-26184fc3-3b54-4bc5-9c19-37654abd7042</UniqueID>
+    <Name>National Coverage Policy</Name>
+    <Description>Statement of Medicare coverage decisions that applies to all practioners in states and regions.  These policies indicate whether and under what circumstances procedures, services and supplies are covered.</Description>
+    <Aliases>NCD</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Statement of Medicare coverage decisions that applies to all practioners in states and regions.  These policies indicate whether and under what circumstances \cf1 procedures\cf0 , services and supplies are covered.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-17</UserID>
+    <Sequence>13</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-f54cc85f-0446-4bdc-9eda-16cbbeea43f0</UniqueID>
+    <Name>Usual, Customary &amp; Reasonable</Name>
+    <Description>Fees charged for medical services that are considered normal, common, and in line with the prevailing fees in a given geographic area</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Fees charged for medical services that are considered normal, common, and in line with the prevailing fees in a given geographic area\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-23</UserID>
+    <Sequence>13</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-b07b32be-e8a7-420a-ba02-00a3b11bdea8</UniqueID>
+    <Name>Utilization Review</Name>
+    <Description>Formal assessment of the medical necessity, efficiency, and/or appropriateness of health care services and treatment plans on a prospective, concurrent or retrospective basis.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Formal \cf1 assessment\cf0  of the medical necessity, efficiency, and/or appropriateness of health care services and treatment plans on a prospective, concurrent or retrospective basis.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-24</UserID>
+    <Sequence>14</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-238742f9-78e9-47c6-a115-37911897014d</UniqueID>
+    <Name>Medicaid - the payer of last resort</Name>
+    <Description>Medicaid is always the payor of last resort. This simply means that Medicaid always pays last where other health insurance plans are present. Recipients are required to keep Medicaid informed of any health insurance information. Providers are also responsible for notifying Medicaid of third party insurance they find out about as well as informing Medicaid of any third party payments they receive on behalf of the recipient.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Medicaid is always the payor of last resort. This simply means that Medicaid always pays last where other health insurance plans are present. Recipients are required to keep Medicaid informed of any health insurance information. Providers are also responsible for notifying Medicaid of third party insurance they find out about as well as informing Medicaid of any third party payments they receive on behalf of the recipient.\par
+}
+</RichDescription>
+    <ParentID>P-1f27c9bc-20a5-4129-ac14-f6c5b1f909a1</ParentID>
+    <UserID>DEF-60-14</UserID>
+    <Sequence>15</Sequence>
+  </DictionaryEntry>
+  <DictionaryField>
+    <Name>New Field</Name>
+    <UniqueID>DF-ff4d3b32-e83c-4625-a2c9-616395a5e497</UniqueID>
+    <ParentID>D2-8d711e5b-4fdb-492a-b7b2-3c8c3be949cd</ParentID>
+    <ElementType>[Type]</ElementType>
+    <Description>[Description]</Description>
+    <Sequence>0</Sequence>
+  </DictionaryField>
+</UCTDataSet>

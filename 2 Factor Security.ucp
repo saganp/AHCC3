@@ -1,0 +1,781 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>3.2</Version>
+    <SavedWith>8.0.5088</SavedWith>
+    <CreatedWith>8.0.5001</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-1ef929fa-bd4e-4de7-8d93-ce9f901bf2de</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-1ef929fa-bd4e-4de7-8d93-ce9f901bf2de</UniqueID>
+    <ExternalParentID>P-e4849ef8-f95f-43a5-a4b4-fd5e588b676b</ExternalParentID>
+    <Name>2 Factor Security</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-dc271126-0a0e-4782-a4d1-54d0e790eb2a</UniqueID>
+    <UserID>UC-65-1</UserID>
+    <ParentID>P-1ef929fa-bd4e-4de7-8d93-ce9f901bf2de</ParentID>
+    <Name>Log In from Untrusted Network</Name>
+    <Description>User logs on to AgilePM from an untrusted network.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User logs on to AgilePM from an untrusted network.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-10-28T15:04:07.1337906-04:00</DateAdded>
+    <DateModified>2014-03-24T16:18:22.8906074-04:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-c9d817a8-ac19-4474-8a9e-94defd7701f8</UniqueID>
+    <UserID>UC-65-2</UserID>
+    <ParentID>P-1ef929fa-bd4e-4de7-8d93-ce9f901bf2de</ParentID>
+    <Name>Manage Trusted IPs</Name>
+    <Description>Admins can manage trusted IPs on Company Group, company and Location level.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Admins can manage trusted IPs on Company Group, company and Location level.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2013-10-28T15:21:21.2426667-04:00</DateAdded>
+    <DateModified>2014-08-06T03:00:45.9910533-04:00</DateModified>
+  </UseCase>
+  <Scenario>
+    <UniqueID>MSS-ee1bf4a9-5dc7-4820-8741-c459dc2f1b1d</UniqueID>
+    <ParentID>UC-dc271126-0a0e-4782-a4d1-54d0e790eb2a</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-ea03ff46-2d5a-48d2-914b-45f061876e85</UniqueID>
+    <ParentID>UC-c9d817a8-ac19-4474-8a9e-94defd7701f8</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-6d1860db-2bd0-47e5-8313-950bec81340e</UniqueID>
+    <UserID>REQ-65-1</UserID>
+    <ParentID>P-1ef929fa-bd4e-4de7-8d93-ce9f901bf2de</ParentID>
+    <Name>Session rules in untrusted network</Name>
+    <Description>The system must log user out after 30 minutes of inactivity
+If user logs out, next login attempt triggers UC-65-1
+If user closes the browse, next login attempt triggers UC-65-1</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\cf1\f0\fs20 The system must log user out after 30 minutes of inactivity\par
+{\pntext\f1\'B7\tab}If user logs out, next login attempt triggers \cf2\ul UC-65-1\cf1\ulnone\par
+{\pntext\f1\'B7\tab}If user closes the browse, next login attempt triggers \cf2\ul UC-65-1\cf1\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-10-28T15:15:08.8047916-04:00</DateAdded>
+    <DateModified>2013-10-28T15:16:36.5838858-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-273cd77e-89e2-48ed-859d-a7342b35d558</UniqueID>
+    <UserID>REQ-65-2</UserID>
+    <ParentID>P-1ef929fa-bd4e-4de7-8d93-ce9f901bf2de</ParentID>
+    <Name>Notification email</Name>
+    <Description>Subject: Security Code
+
+Body:
+
+Hello %user name%,
+
+You attempted to access AgilePM from an untrusted network. In order to log in, you need to enter security code and password after entering your username and password.
+Security Code: 12345678
+
+If you haven't made any attempts to log in to AgilePM from an untrusted network, please contact AgilePM Support immediately.
+
+Thank you,
+
+AgilePM Administrator</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Subject: Security Code\par
+\par
+Body:\par
+\par
+Hello %user name%,\par
+\par
+You attempted to access AgilePM from an untrusted network. In order to log in, you need to enter security code and password after entering your username and password.\par
+Security Code: 12345678\par
+\par
+If you haven't made any attempts to log in to AgilePM from an untrusted network, please contact AgilePM Support immediately.\par
+\par
+Thank you,\par
+\par
+AgilePM Administrator\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-10-28T15:16:39.7506249-04:00</DateAdded>
+    <DateModified>2013-10-28T15:21:14.1293403-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-08550966-4354-433b-9aab-cdb394a4f9e6</UniqueID>
+    <UserID>REQ-65-3</UserID>
+    <ParentID>P-1ef929fa-bd4e-4de7-8d93-ce9f901bf2de</ParentID>
+    <Name>Make 2-factor configurable</Name>
+    <Description>It's possible that no all companies will require 2-factor. In this version, there will be no admin interface for that, but 2-factor functionality should be developed is such a way, so that introducing that on/off switch does not require a lot rewrite.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 It's possible that no all companies will require 2-factor. In this version, there will be no admin interface for that, but 2-factor functionality should be developed is such a way, so that introducing that on/off switch does not require a lot rewrite.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type />
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2013-11-01T14:12:04.5446978-04:00</DateAdded>
+    <DateModified>2013-11-01T14:25:43.8276598-04:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-5df249ef-ab3b-45b0-bd65-724736bdbac5</UniqueID>
+    <ParentID>MSS-ee1bf4a9-5dc7-4820-8741-c459dc2f1b1d</ParentID>
+    <Description>User opens AgilePM.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens AgilePM.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0eec3c89-3f80-4f34-a6dc-214f9b2c35c0</UniqueID>
+    <ParentID>MSS-ee1bf4a9-5dc7-4820-8741-c459dc2f1b1d</ParentID>
+    <Description>The system detects that user’s IP address does not match any of the following:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system detects that user\rquote s IP address does not match any of the following:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2de49d59-98ba-491d-a9ca-ddd728bc41cb</UniqueID>
+    <ParentID>ST-0eec3c89-3f80-4f34-a6dc-214f9b2c35c0</ParentID>
+    <Description>Company Trusted IPs</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Company Trusted IPs\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-115e5c15-8385-4f91-a01a-1bcc1bd3ddb4</UniqueID>
+    <ParentID>ST-0eec3c89-3f80-4f34-a6dc-214f9b2c35c0</ParentID>
+    <Description>Default location’s Trusted IPs</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Default location\rquote s Trusted IPs\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c830c565-7a40-43cd-b34c-b601fa73b1f0</UniqueID>
+    <ParentID>MSS-ee1bf4a9-5dc7-4820-8741-c459dc2f1b1d</ParentID>
+    <Description>The system generates an 8-digit code and emails it to the user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system generates an 8-digit code and emails it to the user.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a121acf2-8a95-45f8-907d-986148dc31eb</UniqueID>
+    <ParentID>MSS-ee1bf4a9-5dc7-4820-8741-c459dc2f1b1d</ParentID>
+    <Description>The system prompts user to enter:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to enter:\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2e7d6d80-ab78-4b1a-8bf8-bd9d992c7fb5</UniqueID>
+    <ParentID>MSS-ee1bf4a9-5dc7-4820-8741-c459dc2f1b1d</ParentID>
+    <Description>The system prompts user to enter credentials.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system prompts user to enter credentials.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ad8f1ed5-df1b-464a-b901-a910f61238bc</UniqueID>
+    <ParentID>MSS-ee1bf4a9-5dc7-4820-8741-c459dc2f1b1d</ParentID>
+    <Description>The system verifies that credentials are correct.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system verifies that credentials are correct.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-aaa7620a-cfe9-4d08-b4c3-3bb48425804a</UniqueID>
+    <ParentID>ST-0eec3c89-3f80-4f34-a6dc-214f9b2c35c0</ParentID>
+    <Description>Company Group Trusted IPs</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Company Group Trusted IPs\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9a4066ad-c0b9-4765-83fc-4c89e1d3cb41</UniqueID>
+    <ParentID>X-b248bd94-6a8b-453b-9d4e-029b60c6d4d0</ParentID>
+    <Description>The system proceeds to step 6</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system proceeds to step 6\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-67f7a245-47e4-494a-b945-301db2bb8fe7</UniqueID>
+    <ParentID>ST-a121acf2-8a95-45f8-907d-986148dc31eb</ParentID>
+    <Description>Security code</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Security code\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e377e962-8249-4839-b69a-4f8b055d792a</UniqueID>
+    <ParentID>ST-a121acf2-8a95-45f8-907d-986148dc31eb</ParentID>
+    <Description>Password</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Password\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3c9858d3-6747-490e-8c1a-e269c54b083b</UniqueID>
+    <ParentID>MSS-ee1bf4a9-5dc7-4820-8741-c459dc2f1b1d</ParentID>
+    <Description>User enters the code and password.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User enters the code and password.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1643bc4d-f21b-4b80-a8c0-c10e74fdc4f7</UniqueID>
+    <ParentID>MSS-ee1bf4a9-5dc7-4820-8741-c459dc2f1b1d</ParentID>
+    <Description>The system verifies that both are correct.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system verifies that both are correct.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7144186e-67ba-478c-8b6f-bb66ab768f43</UniqueID>
+    <ParentID>MSS-ee1bf4a9-5dc7-4820-8741-c459dc2f1b1d</ParentID>
+    <Description>The system logs user in.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system logs user in.\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a2c9c383-bbe6-4f7f-a892-e588d75d0f4b</UniqueID>
+    <ParentID>X-5b0b232d-63d0-4f74-9854-1bc5cd2adbbd</ParentID>
+    <Description>The system displays the following message: "The code you entered has expired. A new code has been generated and emailed to you".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system displays the following message: "The code you entered has expired. A new code has been generated and emailed to you".\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ae188d52-9203-4e77-9766-c6cb19c834b3</UniqueID>
+    <ParentID>X-5b0b232d-63d0-4f74-9854-1bc5cd2adbbd</ParentID>
+    <Description>User closes the message.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User closes the message.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8be20e9d-e193-4384-ab19-1b05a01b6686</UniqueID>
+    <ParentID>X-5b0b232d-63d0-4f74-9854-1bc5cd2adbbd</ParentID>
+    <Description>The system returns to step 6.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system returns to step 6.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-71193a69-59d6-40fc-a0b1-bec93c762e40</UniqueID>
+    <ParentID>X-d75f409f-7414-4b0c-8c56-f91d5b934996</ParentID>
+    <Description>The system highlights incorrect entry and returns to step 6. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system highlights incorrect entry and returns to step 6. \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5c02a504-8af9-4f84-9ed8-c6aefcb06d3b</UniqueID>
+    <ParentID>X-44fefda8-61eb-4621-9a83-fa27430615a9</ParentID>
+    <Description>The system locks the account.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system locks the account.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7d14c8a7-f8a1-479f-b75f-bdce955ad77d</UniqueID>
+    <ParentID>X-44fefda8-61eb-4621-9a83-fa27430615a9</ParentID>
+    <Description>The system displays the following message: "You exceeded the limit for unsuccessful login attempts. Your account has been locked. Please contact AgilePM support to unlock the account".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system displays the following message: "You exceeded the limit for unsuccessful login attempts. Your account has been locked. Please contact AgilePM support to unlock the account".\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4a7141d2-4395-483c-b9b2-a33b875e6f0c</UniqueID>
+    <ParentID>X-44fefda8-61eb-4621-9a83-fa27430615a9</ParentID>
+    <Description>User cannot log in to AgilePM with a locked account.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User cannot log in to AgilePM with a locked account.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-08422f47-bc66-40dd-b550-d8c816cb7f53</UniqueID>
+    <ParentID>MSS-ea03ff46-2d5a-48d2-914b-45f061876e85</ParentID>
+    <Description>User opens details of either entity:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User opens details of either entity:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-100e7cea-1626-4eea-b7a0-472e7d7261c9</UniqueID>
+    <ParentID>ST-08422f47-bc66-40dd-b550-d8c816cb7f53</ParentID>
+    <Description>Company Group</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Company Group\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-89523c06-82f8-4238-b017-bad438eac3d9</UniqueID>
+    <ParentID>ST-08422f47-bc66-40dd-b550-d8c816cb7f53</ParentID>
+    <Description>Company</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Company\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ba9da8d1-42ee-44c2-b6c8-fc3476da3286</UniqueID>
+    <ParentID>ST-08422f47-bc66-40dd-b550-d8c816cb7f53</ParentID>
+    <Description>Location</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Location\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-42311947-6258-4206-9c42-5cc85ef69470</UniqueID>
+    <ParentID>MSS-ea03ff46-2d5a-48d2-914b-45f061876e85</ParentID>
+    <Description>The system displays applicable entity details with the "Trusted IPs" section. This section contains:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays applicable entity details with the "Trusted IPs" section. This section contains:\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f131caff-93c6-42eb-a87d-3c7d65bb49b9</UniqueID>
+    <ParentID>ST-42311947-6258-4206-9c42-5cc85ef69470</ParentID>
+    <Description>The list of inherited trusted IPs (only for Company and Location, if applicable - read-only)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The list of inherited trusted IPs (only for Company and Location, if applicable - read-only)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-74d9fbb8-eba2-4fc6-b3e1-2f74e6bfdbab</UniqueID>
+    <ParentID>ST-42311947-6258-4206-9c42-5cc85ef69470</ParentID>
+    <Description>The list of entity's trusted IPs</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The list of entity's trusted IPs\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a5e81338-8861-4a84-9d67-6dca64671b1c</UniqueID>
+    <ParentID>ST-42311947-6258-4206-9c42-5cc85ef69470</ParentID>
+    <Description>"Edit Trusted IPs" control</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 "Edit Trusted IPs" control\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-eb323d2a-c0ec-4ffb-a2cd-b1439b55c5c8</UniqueID>
+    <ParentID>MSS-ea03ff46-2d5a-48d2-914b-45f061876e85</ParentID>
+    <Description>User clicks "Edit Trusted IPs".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clicks "Edit Trusted IPs".\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7181df08-4768-4dee-a97e-b0583a745a1f</UniqueID>
+    <ParentID>MSS-ea03ff46-2d5a-48d2-914b-45f061876e85</ParentID>
+    <Description>The system displays the grid with trusted IPsm the system displays the following for each one:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays the grid with trusted IPsm the system displays the following for each one:\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-857c7100-99a8-41cc-82bc-2c3e3567987b</UniqueID>
+    <ParentID>ST-7181df08-4768-4dee-a97e-b0583a745a1f</ParentID>
+    <Description>Type dropdown:</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Type dropdown:\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5497b893-3d66-4fb0-a934-bfeb2de33ec9</UniqueID>
+    <ParentID>ST-857c7100-99a8-41cc-82bc-2c3e3567987b</ParentID>
+    <Description>Range</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Range\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1409ed81-e70d-4f1f-9d3d-be1de67d237d</UniqueID>
+    <ParentID>ST-857c7100-99a8-41cc-82bc-2c3e3567987b</ParentID>
+    <Description>Address</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Address\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9eaf000c-f4c4-40a9-afac-f120ede9c33e</UniqueID>
+    <ParentID>ST-857c7100-99a8-41cc-82bc-2c3e3567987b</ParentID>
+    <Description>- Select - (only for new lines)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 - Select - (only for new lines)\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e9547c47-aff4-418e-b4be-1bc87691bc71</UniqueID>
+    <ParentID>ST-7181df08-4768-4dee-a97e-b0583a745a1f</ParentID>
+    <Description>Address - text field, must only allow IPs</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Address - text field, must only allow IPs\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-57a4c15e-f58e-4ff7-af20-741736566542</UniqueID>
+    <ParentID>ST-7181df08-4768-4dee-a97e-b0583a745a1f</ParentID>
+    <Description>Range - only available if Range type is selected</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Range - only available if Range type is selected\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5ebf7a0a-c0c8-4554-8cc0-c5d8e9b652cc</UniqueID>
+    <ParentID>ST-57a4c15e-f58e-4ff7-af20-741736566542</ParentID>
+    <Description>Plain text listing XXX.XXX.XXX of the IP address</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Plain text listing XXX.XXX.XXX of the IP address\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-33611afe-4f8c-4398-a9ec-85782b3d05b8</UniqueID>
+    <ParentID>ST-57a4c15e-f58e-4ff7-af20-741736566542</ParentID>
+    <Description>Text field for the last part of the IP Range End - cannot be lower than last XXX of the IP address from 4.2.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Text field for the last part of the IP Range End - cannot be lower than last XXX of the IP address from 4.2.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-54dc9242-e33f-4042-bc32-f17c08301a63</UniqueID>
+    <ParentID>ST-7181df08-4768-4dee-a97e-b0583a745a1f</ParentID>
+    <Description>"Delete" control - removes address/range</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 "Delete" control - removes address/range\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7c21b89e-e943-4ac7-a105-0fae066b6c97</UniqueID>
+    <ParentID>MSS-ea03ff46-2d5a-48d2-914b-45f061876e85</ParentID>
+    <Description>The system displays empty new line by default. As soon as user selects type, the system must add another empty line. If only type is selected at the time user saves changes, the system must ignore such line.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system displays empty new line by default. As soon as user selects type, the system must add another empty line. If only type is selected at the time user saves changes, the system must ignore such line.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8e10ebd6-9478-4a38-ba60-9163a48574a9</UniqueID>
+    <ParentID>MSS-ea03ff46-2d5a-48d2-914b-45f061876e85</ParentID>
+    <Description>User saves changes.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User saves changes.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f47c735c-13db-4e70-92a3-b5ea81e4e59b</UniqueID>
+    <ParentID>MSS-ea03ff46-2d5a-48d2-914b-45f061876e85</ParentID>
+    <Description>The system applies changes. Changes only affect users who are logging in after, currently logged users are not affected.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The system applies changes. Changes only affect users who are logging in after, currently logged users are not affected.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0440abc7-6033-4ca6-8cfe-6404c72864da</UniqueID>
+    <ParentID>X-f040b372-3710-404b-9036-95ebcfe4aec6</ParentID>
+    <Description>The system generates a new code and sends it to the user. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system generates a new code and sends it to the user. \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a5cbbfc-9bf7-4b44-969e-523ef5937711</UniqueID>
+    <ParentID>ST-42311947-6258-4206-9c42-5cc85ef69470</ParentID>
+    <Description>'Trust All IPs' check box - if selected, turns off IP validation and hides all additional controls and grids.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 'Trust All IPs' check box - if selected, turns off IP validation and hides all additional controls and grids.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-b248bd94-6a8b-453b-9d4e-029b60c6d4d0</UniqueID>
+    <ParentID>ST-2e7d6d80-ab78-4b1a-8bf8-bd9d992c7fb5</ParentID>
+    <Description>The system detects that there's an unexpired and unused security code generated for the user.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The system detects that there's an unexpired and unused security code generated for the user.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-5b0b232d-63d0-4f74-9854-1bc5cd2adbbd</UniqueID>
+    <ParentID>ST-7144186e-67ba-478c-8b6f-bb66ab768f43</ParentID>
+    <Description>Code was generated more than 1 hour ago.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Code was generated more than 1 hour ago.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-d75f409f-7414-4b0c-8c56-f91d5b934996</UniqueID>
+    <ParentID>ST-7144186e-67ba-478c-8b6f-bb66ab768f43</ParentID>
+    <Description>Incorrect password/code</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Incorrect password/code\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-44fefda8-61eb-4621-9a83-fa27430615a9</UniqueID>
+    <ParentID>ST-7144186e-67ba-478c-8b6f-bb66ab768f43</ParentID>
+    <Description>User entered incorrect code/password 3 times in a row.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User entered incorrect code/password 3 times in a row.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-f040b372-3710-404b-9036-95ebcfe4aec6</UniqueID>
+    <ParentID>ST-a121acf2-8a95-45f8-907d-986148dc31eb</ParentID>
+    <Description>User clicks "I didn't receive the security code".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 User clicks "I didn't receive the security code".\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <ExternalDoc>
+    <UniqueID>EX-93a4d978-7bd3-4bde-a225-e80eeaa9f324</UniqueID>
+    <ParentID>UC-c9d817a8-ac19-4474-8a9e-94defd7701f8</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Companies</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-76f5e63d-bfd2-4f68-b81a-681d118798c7</UniqueID>
+    <ParentID>UC-c9d817a8-ac19-4474-8a9e-94defd7701f8</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Location_Details</Name>
+  </ExternalDoc>
+  <ExternalDoc>
+    <UniqueID>EX-12dd63c4-8a89-4e58-a51f-0b5a15e79090</UniqueID>
+    <ParentID>UC-dc271126-0a0e-4782-a4d1-54d0e790eb2a</ParentID>
+    <Name>http://rz5owz.axshare.com/#p=Untrusted_Network_login</Name>
+  </ExternalDoc>
+  <UserID>
+    <DefaultPrefix>UC-65-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-65-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-65-</DefaultPrefix>
+    <NextValue>4</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-65-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>
